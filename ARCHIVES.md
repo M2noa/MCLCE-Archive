@@ -2,6 +2,8 @@
 
 This repository contains archived Minecraft source code leaks from 2014.
 
+**Original zip archives have been removed after extraction.** All source code is preserved in organized folders below.
+
 ## Archive Summary
 
 | Archive | Platforms | Date | Size (Uncompressed) | Files |
