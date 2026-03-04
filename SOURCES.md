@@ -17,7 +17,7 @@ This document maps all archived content to their original download sources.
 
 | Archive | Extracted To | Source | Notes |
 |---------|--------------|--------|-------|
-| `mc-cpp-snapshot.zip` | `pocket-edition-2013/mcpe-source/` | https://bin.skylvi.net/Leaks/Minecraft/ | MCPE C++ source (Android, iOS, Raspberry Pi) |
+| `mc-cpp-snapshot.zip` | `pocket-edition-2013/mcpe-source/` | https://bin.skylvi.net/Leaks/Minecraft/ | MCPE 0.6.1 C++ source (Android, iOS, Raspberry Pi) |
 
 ### Infdev (2014)
 
@@ -37,8 +37,8 @@ This document maps all archived content to their original download sources.
 |---------|--------------|--------|-------|
 | `spice-5f6757b2078527772785f68eece55d9a7da29731.zip` | `dungeons-legends/dungeons-source/` | https://drive.proton.me/urls/EVM0GRC0MM#WckH5oSa6fOn | Dungeons C++ source code |
 | `minecraft_dungeons.zip` | `dungeons-legends/dungeons-original/` | https://hazbinhelluvageneral.com/cubevideojuego/cubegame | Original Dungeons build |
-| `minecraft_legends.zip` | `dungeons-legends/legends-original/` | https://archive.org/details/minecraft-console-legacy-edition-source-code-leak | Original Legends build |
-| `Narration_NoGeneratedLevel_20170216.zip` | `dungeons-legends/narration-build-2017/` | https://hazbinhelluvageneral.com/cubevideojuego/cubegame | Dungeons narration build (by MDLC) |
+| `minecraft_legends.zip` | `dungeons-legends/legends-original/` | https://archive.org/details/minecraft-console-legacy-edition-source-code-leak | Legends beta based on MCBE 1.2.9.0 Win32 Dev with .PDB |
+| `Narration_NoGeneratedLevel_20170216.zip` | `dungeons-legends/narration-build-2017/` | https://hazbinhelluvageneral.com/cubevideojuego/cubegame | Dungeons dev build based on MCBE 0.15.0.0 (by MDLC) |
 | `filelist.txt` | `dungeons-legends/filelist.txt` | https://hazbinhelluvageneral.com/cubevideojuego/cubegame | File listing |
 
 ### Story Mode (Pending)
@@ -55,7 +55,9 @@ This document maps all archived content to their original download sources.
 
 | Archive | Source | Notes |
 |---------|--------|-------|
-| `mcsm.zip` | https://x.com/coah80/status/2028925081288638597 | Chinese build (link dead, awaiting reupload) |
+| `mcsm.zip` | https://x.com/coah80/status/2028925081288638597 | Story Mode beta builds (Steam-cracked, no Steam needed) |
+| `Win32.Netease.OGL.Publish_2.2.2.44626_20180717111056.7z` | https://t.me/MDLC_main | Chinese Netease v1.5.1 with .PDB debug symbols |
+| `MinecraftConsoles-backups-oct_10_2014.rar` | https://t.me/MDLC_main | Console Edition backup (split archive, 2GB+) |
 
 ## Archive Verification
 
@@ -87,6 +89,41 @@ This document maps all archived content to their original download sources.
 
 - `minecraft.rar`: `fuckanon`
 - `MinecraftPS3Edition.7z`: `U2FsdGVkX187GOHqhIryMT+tJgiOcwSNH6UkWAw80Y37xpUsp40tC/+59LY6DIqm7G8+9y+44PIfqmVl8lnb72rhmZKN/UWN7J1JMPXlJ8I=`
+
+## Technical Notes
+
+### Console Edition (mc-console-oct2014)
+- Java-like build on C++ (not Bedrock-based)
+- Split archive due to Telegram's 2GB file upload limit
+- Original source: https://t.me/MDLC_main
+
+### Pocket Edition (mc-cpp-snapshot)
+- Version: 0.6.1
+- C++ source code for mobile platforms
+
+### Dungeons Narration Build
+- Based on MCBE 0.15.0.0 core
+- Can be used as regular MCBE (not Dungeons mode)
+- Ctrl + E switches between Dungeons and regular mode
+- First-person view available like MCBE
+
+### Legends Build
+- Based on MCBE 1.2.9.0 Win32 Development
+- Includes .PDB debug symbols and function names
+- Can be used as regular game with custom world
+- Requires opening badger world before regular worlds
+- World storage: `%AppData%\MinecraftPE\games\com.mojang\minecraftWorlds`
+
+### Chinese Netease Build (Not Yet Obtained)
+- Version: 1.5.1 with debug information
+- Includes .PDB with function names
+- Requires special `mc.cfg` file to run
+- EXE must be decrypted through "Unlicense tool" or "Magicmida" before using with .PDB in IDA PRO
+- Useful for reverse engineering
+
+### Story Mode Builds (mcsm.zip)
+- Modified to not require Steam
+- Cracked using GitHub tool
 
 ## Wayback Machine Archives
 
