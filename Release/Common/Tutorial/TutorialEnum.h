@@ -1,0 +1,329 @@
+#pragma once
+
+typedef struct {
+	WORD index;
+	DWORD diffsSize;
+	BYTE *diffs;
+	DWORD lastByteChanged;
+} TutorialDiff_Chunk;
+
+typedef struct {
+	DWORD diffCount;
+	TutorialDiff_Chunk *diffs;
+} TutorialDiff_File;
+
+#define TUTORIAL_NO_TEXT -1
+#define TUTORIAL_NO_ICON -1
+
+// If you want to make these bigger, be aware that that will affect what is stored after the tutorial data in the profile data
+// See Xbox_App.h for the struct
+#define TUTORIAL_PROFILE_STORAGE_BITS 512
+#define TUTORIAL_PROFILE_STORAGE_BYTES (TUTORIAL_PROFILE_STORAGE_BITS/8)
+
+// 4J Stu - The total number of eTutorial_State and eTutorial_Hint must be less than 512, as we only have 512 bits of profile
+// data to flag whether or not the player has seen them
+// In general a block or tool will have one each. We have a state if we need more than one message, or a hint if just once
+// message will suffice
+// Tasks added here should also be added in the Tutorial::staticCtor() if you wish to store completion in the profile data
+enum eTutorial_State
+{
+	e_Tutorial_State_Any = -2,
+	e_Tutorial_State_None = -1,
+
+	e_Tutorial_State_Gameplay = 0,
+
+	e_Tutorial_State_Inventory_Menu,
+	e_Tutorial_State_2x2Crafting_Menu,
+	e_Tutorial_State_3x3Crafting_Menu,
+	e_Tutorial_State_Furnace_Menu,
+
+	e_Tutorial_State_Riding_Minecart,
+	e_Tutorial_State_Riding_Boat,
+	e_Tutorial_State_Fishing,
+
+	e_Tutorial_State_Bed,
+
+	e_Tutorial_State_Container_Menu,
+	e_Tutorial_State_Trap_Menu,
+	e_Tutorial_State_Redstone_And_Piston,
+	e_Tutorial_State_Portal,
+	e_Tutorial_State_Creative_Inventory_Menu, // Added TU5
+	e_Tutorial_State_Food_Bar, // Added TU5
+	e_Tutorial_State_CreativeMode, // Added TU7
+	e_Tutorial_State_Brewing,
+	e_Tutorial_State_Brewing_Menu,
+	e_Tutorial_State_Enchanting,
+	e_Tutorial_State_Enchanting_Menu,
+	e_Tutorial_State_Farming,
+	e_Tutorial_State_Breeding,
+	e_Tutorial_State_Golem,
+	e_Tutorial_State_Trading,
+	e_Tutorial_State_Trading_Menu,
+	e_Tutorial_State_Anvil,
+	e_Tutorial_State_Anvil_Menu,
+	e_Tutorial_State_Enderchests,
+	
+	e_Tutorial_State_Unused_9,
+	e_Tutorial_State_Unused_10,
+
+	e_Tutorial_State_Max
+};
+
+// Hints added here should also be added in the Tutorial::staticCtor() if you wish to store completion in the profile data
+enum eTutorial_Hint
+{
+	e_Tutorial_Hint_Always_On = e_Tutorial_State_Max,
+
+	e_Tutorial_Hint_Hold_To_Mine,
+	e_Tutorial_Hint_Tool_Damaged,
+	e_Tutorial_Hint_Swim_Up,
+
+	e_Tutorial_Hint_Unused_2,
+	e_Tutorial_Hint_Unused_3,
+	e_Tutorial_Hint_Unused_4,
+	e_Tutorial_Hint_Unused_5,
+	e_Tutorial_Hint_Unused_6,
+	e_Tutorial_Hint_Unused_7,
+	e_Tutorial_Hint_Unused_8,
+	e_Tutorial_Hint_Unused_9,
+	e_Tutorial_Hint_Unused_10,
+
+	e_Tutorial_Hint_Rock,
+    e_Tutorial_Hint_Stone,
+    e_Tutorial_Hint_Planks,
+    e_Tutorial_Hint_Sapling,
+    e_Tutorial_Hint_Unbreakable,
+    e_Tutorial_Hint_Water,
+    e_Tutorial_Hint_Lava,
+    e_Tutorial_Hint_Sand,
+    e_Tutorial_Hint_Gravel,
+    e_Tutorial_Hint_Gold_Ore,
+    e_Tutorial_Hint_Iron_Ore,
+    e_Tutorial_Hint_Coal_Ore,
+    e_Tutorial_Hint_Tree_Trunk,
+	e_Tutorial_Hint_Leaves,
+    e_Tutorial_Hint_Glass,
+    e_Tutorial_Hint_Lapis_Ore,
+	e_Tutorial_Hint_Lapis_Block,
+    e_Tutorial_Hint_Dispenser,
+    e_Tutorial_Hint_Sandstone,
+    e_Tutorial_Hint_Note_Block,
+    e_Tutorial_Hint_Powered_Rail,
+    e_Tutorial_Hint_Detector_Rail,
+    e_Tutorial_Hint_Tall_Grass,
+    e_Tutorial_Hint_Wool,
+    e_Tutorial_Hint_Flower,
+    e_Tutorial_Hint_Mushroom,
+	e_Tutorial_Hint_Gold_Block,
+	e_Tutorial_Hint_Iron_Block,
+	e_Tutorial_Hint_Stone_Slab,
+	e_Tutorial_Hint_Red_Brick,
+    e_Tutorial_Hint_Tnt,
+	e_Tutorial_Hint_Bookshelf,
+	e_Tutorial_Hint_Moss_Stone,
+    e_Tutorial_Hint_Obsidian,
+    e_Tutorial_Hint_Torch,
+    e_Tutorial_Hint_MobSpawner,
+    e_Tutorial_Hint_Chest,
+    e_Tutorial_Hint_Redstone,
+    e_Tutorial_Hint_Diamond_Ore,
+	e_Tutorial_Hint_Diamond_Block,
+    e_Tutorial_Hint_Crafting_Table,
+    e_Tutorial_Hint_Crops,
+	e_Tutorial_Hint_Farmland,
+    e_Tutorial_Hint_Furnace,
+    e_Tutorial_Hint_Sign,
+    e_Tutorial_Hint_Door_Wood,
+	e_Tutorial_Hint_Ladder,
+	e_Tutorial_Hint_Stairs_Stone,
+    e_Tutorial_Hint_Rail,
+    e_Tutorial_Hint_Lever,
+    e_Tutorial_Hint_PressurePlate,
+    e_Tutorial_Hint_Door_Iron,
+    e_Tutorial_Hint_Redstone_Ore,
+    e_Tutorial_Hint_Redstone_Torch,
+    e_Tutorial_Hint_Button,
+    e_Tutorial_Hint_Snow,
+	e_Tutorial_Hint_Ice,
+    e_Tutorial_Hint_Cactus,
+    e_Tutorial_Hint_Clay,
+    e_Tutorial_Hint_Sugarcane,
+    e_Tutorial_Hint_Record_Player,
+    e_Tutorial_Hint_Pumpkin,
+    e_Tutorial_Hint_Hell_Rock,
+    e_Tutorial_Hint_Hell_Sand,
+    e_Tutorial_Hint_Glowstone,
+    e_Tutorial_Hint_Portal,
+    e_Tutorial_Hint_Pumpkin_Lit,
+    e_Tutorial_Hint_Cake,
+    e_Tutorial_Hint_Redstone_Repeater,
+    e_Tutorial_Hint_Trapdoor,
+    e_Tutorial_Hint_Piston,
+    e_Tutorial_Hint_Sticky_Piston,
+	e_Tutorial_Hint_Monster_Stone_Egg,
+	e_Tutorial_Hint_Stone_Brick_Smooth,
+	e_Tutorial_Hint_Huge_Mushroom,
+	e_Tutorial_Hint_Iron_Fence,
+	e_Tutorial_Hint_Thin_Glass,
+	e_Tutorial_Hint_Melon,
+	e_Tutorial_Hint_Vine,
+	e_Tutorial_Hint_Fence_Gate,	
+    e_Tutorial_Hint_Mycel,
+    e_Tutorial_Hint_Water_Lily,
+    e_Tutorial_Hint_Nether_Brick,
+    e_Tutorial_Hint_Nether_Fence,
+    e_Tutorial_Hint_Nether_Stalk,
+    e_Tutorial_Hint_Enchant_Table,
+    e_Tutorial_Hint_Brewing_Stand,
+    e_Tutorial_Hint_Cauldron,
+    e_Tutorial_Hint_End_Portal,
+    e_Tutorial_Hint_End_Portal_Frame,
+
+	e_Tutorial_Hint_Squid,
+	e_Tutorial_Hint_Cow,
+	e_Tutorial_Hint_Sheep,
+	e_Tutorial_Hint_Chicken,
+	e_Tutorial_Hint_Pig,
+	e_Tutorial_Hint_Wolf,
+	e_Tutorial_Hint_Creeper,
+	e_Tutorial_Hint_Skeleton,
+	e_Tutorial_Hint_Spider,
+	e_Tutorial_Hint_Zombie,
+	e_Tutorial_Hint_Pig_Zombie,
+	e_Tutorial_Hint_Ghast,
+	e_Tutorial_Hint_Slime,
+    e_Tutorial_Hint_Enderman,
+    e_Tutorial_Hint_Silverfish,
+    e_Tutorial_Hint_Cave_Spider,
+    e_Tutorial_Hint_MushroomCow,
+    e_Tutorial_Hint_SnowMan,
+	e_Tutorial_Hint_IronGolem,
+    e_Tutorial_Hint_EnderDragon,
+    e_Tutorial_Hint_Blaze,
+    e_Tutorial_Hint_Lava_Slime,
+
+    e_Tutorial_Hint_Ozelot,
+    e_Tutorial_Hint_Villager,
+
+	e_Tutorial_Hint_Item_Shovel,
+	e_Tutorial_Hint_Item_Hatchet,
+	e_Tutorial_Hint_Item_Pickaxe,
+	e_Tutorial_Hint_Item_Flint_And_Steel,
+	e_Tutorial_Hint_Item_Apple,
+	e_Tutorial_Hint_Item_Bow,
+	e_Tutorial_Hint_Item_Arrow,
+	e_Tutorial_Hint_Item_Coal,
+	e_Tutorial_Hint_Item_Diamond,
+	e_Tutorial_Hint_Item_Iron_Ingot,
+	e_Tutorial_Hint_Item_Gold_Ingot,
+	e_Tutorial_Hint_Item_Sword,
+	e_Tutorial_Hint_Item_Stick,
+	e_Tutorial_Hint_Item_Bowl,
+	e_Tutorial_Hint_Item_Mushroom_Stew,
+	e_Tutorial_Hint_Item_String,
+	e_Tutorial_Hint_Item_Feather,
+	e_Tutorial_Hint_Item_Sulphur,
+	e_Tutorial_Hint_Item_Hoe,
+	e_Tutorial_Hint_Item_Seeds,
+	e_Tutorial_Hint_Item_Wheat,
+	e_Tutorial_Hint_Item_Bread,
+	e_Tutorial_Hint_Item_Helmet,
+	e_Tutorial_Hint_Item_Chestplate,
+	e_Tutorial_Hint_Item_Leggings,
+	e_Tutorial_Hint_Item_Boots,
+	e_Tutorial_Hint_Item_Flint,
+	e_Tutorial_Hint_Item_Porkchop_Raw,
+	e_Tutorial_Hint_Item_Porkchop_Cooked,
+	e_Tutorial_Hint_Item_Painting,
+	e_Tutorial_Hint_Item_Apple_Gold,
+	e_Tutorial_Hint_Item_Sign,
+	e_Tutorial_Hint_Item_Door_Wood,
+	e_Tutorial_Hint_Item_Bucket_Empty,
+	e_Tutorial_Hint_Item_Bucket_Water,
+	e_Tutorial_Hint_Item_Bucket_Lava,
+	e_Tutorial_Hint_Item_Minecart,
+	e_Tutorial_Hint_Item_Saddle,
+	e_Tutorial_Hint_Item_Door_Iron,
+	e_Tutorial_Hint_Item_Redstone,
+	e_Tutorial_Hint_Item_Snowball,
+	e_Tutorial_Hint_Item_Boat,
+	e_Tutorial_Hint_Item_Leather,
+	e_Tutorial_Hint_Item_Milk,
+	e_Tutorial_Hint_Item_Brick,
+	e_Tutorial_Hint_Item_Clay,
+	e_Tutorial_Hint_Item_Reeds,
+	e_Tutorial_Hint_Item_Paper,
+	e_Tutorial_Hint_Item_Book,
+	e_Tutorial_Hint_Item_Slimeball,
+	e_Tutorial_Hint_Item_Minecart_Chest,
+	e_Tutorial_Hint_Item_Minecart_Furnace,
+	e_Tutorial_Hint_Item_Egg,
+	e_Tutorial_Hint_Item_Compass,
+	e_Tutorial_Hint_Item_Clock,
+	e_Tutorial_Hint_Item_Yellow_Dust,
+	e_Tutorial_Hint_Item_Fish_Raw,
+	e_Tutorial_Hint_Item_Fish_Cooked,
+	e_Tutorial_Hint_Item_Dye_Powder,
+	e_Tutorial_Hint_Item_Bone,
+	e_Tutorial_Hint_Item_Sugar,
+	e_Tutorial_Hint_Item_Cake,
+	e_Tutorial_Hint_Item_Diode,
+	e_Tutorial_Hint_Item_Cookie,
+	e_Tutorial_Hint_Item_Map,
+	e_Tutorial_Hint_Item_Record,
+
+	e_Tutorial_Hint_White_Stone,
+	e_Tutorial_Hint_Dragon_Egg,
+	e_Tutorial_Hint_RedstoneLamp,
+	e_Tutorial_Hint_Cocoa,
+
+	e_Tutorial_Hint_EmeraldOre,
+	e_Tutorial_Hint_EmeraldBlock,
+	e_Tutorial_Hint_EnderChest,
+	e_Tutorial_Hint_TripwireSource,
+	e_Tutorial_Hint_Tripwire,
+	e_Tutorial_Hint_CobblestoneWall,
+	e_Tutorial_Hint_Flowerpot,
+	e_Tutorial_Hint_Anvil,
+	e_Tutorial_Hint_QuartzOre,
+	e_Tutorial_Hint_QuartzBlock,
+	e_Tutorial_Hint_WoolCarpet,
+
+	e_Tutorial_Hint_Potato,
+	e_Tutorial_Hint_Carrot,
+
+	e_Tutorial_Hint_Item_Unused_18,
+	e_Tutorial_Hint_Item_Unused_19,
+	e_Tutorial_Hint_Item_Unused_20,
+
+	e_Tutorial_Hint_Item_Max,
+};
+
+// We store the first time that we complete these tasks to be used in telemetry
+enum eTutorial_Telemetry
+{
+	eTutorial_Telemetry_None = e_Tutorial_Hint_Item_Max,
+
+	eTutorial_Telemetry_TrialStart,
+	eTutorial_Telemetry_Halfway,
+	eTutorial_Telemetry_Complete,
+
+	eTutorial_Telemetry_Unused_1,
+	eTutorial_Telemetry_Unused_2,
+	eTutorial_Telemetry_Unused_3,
+	eTutorial_Telemetry_Unused_4,
+	eTutorial_Telemetry_Unused_5,
+	eTutorial_Telemetry_Unused_6,
+	eTutorial_Telemetry_Unused_7,
+	eTutorial_Telemetry_Unused_8,
+	eTutorial_Telemetry_Unused_9,
+	eTutorial_Telemetry_Unused_10,
+};
+
+enum eTutorial_CompletionAction
+{
+	e_Tutorial_Completion_None,
+	e_Tutorial_Completion_Complete_State, // This will make the current tutorial state complete
+	e_Tutorial_Completion_Complete_State_Gameplay_Constraints, // This will make the current tutorial state complete, and move the delayed constraints to the gameplay state
+	e_Tutorial_Completion_Jump_To_Last_Task,
+};

@@ -1,0 +1,33 @@
+#include "stdafx.h"
+#include "net.minecraft.world.level.h"
+#include "net.minecraft.world.level.tile.h"
+#include "TallGrassFeature.h"
+
+TallGrassFeature::TallGrassFeature(int tile, int type)
+{
+	this->tile = tile;
+	this->type = type;
+}
+
+bool TallGrassFeature::place(Level *level, Random *random, int x, int y, int z)
+{
+	int t = 0;
+	while (((t = level->getTile(x, y, z)) == 0 || t == Tile::leaves_Id) && y > 0)
+		y--;
+
+	for (int i = 0; i < 128; i++)
+	{
+		int x2 = x + random->nextInt(8) - random->nextInt(8);
+		int y2 = y + random->nextInt(4) - random->nextInt(4);
+		int z2 = z + random->nextInt(8) - random->nextInt(8);
+		if (level->isEmptyTile(x2, y2, z2))
+		{
+			if (Tile::tiles[tile]->canSurvive(level, x2, y2, z2))
+			{
+				level->setTileAndData(x2, y2, z2, tile, type, Tile::UPDATE_CLIENTS);
+			}
+		}
+	}
+
+	return true;
+}

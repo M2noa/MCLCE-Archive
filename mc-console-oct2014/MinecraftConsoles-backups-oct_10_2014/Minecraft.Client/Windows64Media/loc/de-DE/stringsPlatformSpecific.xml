@@ -1,0 +1,243 @@
+﻿<root>
+	<data name="IDS_TIPS_GAMETIP_0">
+		<value>Wenn du dieses Spiel im HD-Modus spielst, können auf einer Konsole mit geteiltem Bildschirm bis zu vier Spieler spielen!</value>
+	</data>	
+
+	<data name="IDS_TIPS_GAMETIP_1">
+		<value>Schließ zusätzliche Controller an deine Konsole an und drück auf ihnen START, um jederzeit einem Spiel beizutreten.</value>
+	</data>	
+
+	<data name="IDS_TIPS_GAMETIP_44">
+		<value>Die neuesten Informationen von 4J Studios und Kappische zu diesem Spiel findest du auf Twitter!</value>
+	</data>	
+
+	<data name="IDS_TIPS_GAMETIP_45">
+		<value>Beeindrucke deine Freunde, indem du vom Pause-Menü aus Screenshots deiner Minecraft-Werke auf Facebook freigibst!</value>
+	</data>	
+
+	<data name="IDS_TIPS_GAMETIP_48">
+		<value>minecraftforum hat einen eigenen Bereich zur Xbox 360 Edition.</value>
+	</data>	
+
+	<data name="IDS_TIPS_TRIVIA_4">
+		<value>Wir glauben, dass 4J Studios Herobrine aus dem Xbox 360 Konsolenspiel entfernt haben, aber wir sind uns nicht ganz sicher.</value>
+	</data>	
+
+	<data name="IDS_TIPS_TRIVIA_17">
+		<value>Minecraft: Xbox 360 Edition hat jede Menge Rekorde gebrochen!</value>
+	</data>	
+
+	<data name="IDS_HOW_TO_PLAY_MULTIPLAYER">
+		<value>{*T3*}SO WIRD GESPIELT: MULTIPLAYER{*ETW*}{*B*}{*B*}
+Minecraft auf der Xbox 360 Konsole ist als Standard ein Multiplayer-Spiel. Wenn du in einem HD-Modus spielst, weitere Controller anschließt und START drückst, können lokale Spieler jederzeit deinem Spiel beitreten.{*B*}{*B*}
+Wenn du ein Onlinespiel startest oder einem beitrittst, können die Spieler in deiner Freundesliste es sehen (es sei denn, du hostest das Spiel und hast "Nur mit Einladung" ausgewählt), und wenn sie dem Spiel beitreten, können Spieler in ihrer Freundesliste es auch sehen (falls du die Option "Freunde von Freunden zulassen" ausgewählt hast).
+Wenn du in einem Spiel bist, kannst du durch Drücken der BACK-Taste eine Liste aller anderen Spieler im Spiel aufrufen, dir ihre Spielerkarten ansehen, Spieler aus dem Spiel ausschließen und andere ins Spiel einladen.
+  </value>
+	</data>	
+
+	<data name="IDS_HOW_TO_PLAY_SOCIALMEDIA">
+		<value>{*T3*}SO WIRD GESPIELT: SCREENSHOTS GETEILT{*ETW*}{*B*} {*B*}
+Du kannst einen Screenshot von deinem Spiel erstellen, indem du das Pause-Menü aufrufst und{*CONTROLLER_VK_Y*} drückst, um den Screenshot auf Facebook zu veröffentlichen. Es wird eine verkleinerte Version deines Screenshots angezeigt, und du kannst den Begleittext deines Facebook-Beitrags bearbeiten.{*B*}{*B*}
+Es gibt einen eigenen Kameramodus für das Erstellen solcher Screenshots, damit du auf dem Bild deine Spielfigur von vorn sehen kannst. Drück{*CONTROLLER_ACTION_CAMERA*}, bis du deine Spielfigur von vorn siehst, bevor du zum Teilen{*CONTROLLER_VK_Y*} drückst.{*B*}{*B*}
+Gamertags werden auf Screenshots nicht angezeigt.
+  </value>
+	</data>	
+
+	<data name="IDS_HOW_TO_PLAY_CREATIVE">
+		<value>{*T3*}SO WIRD GESPIELT: KREATIVMODUS{*ETW*}{*B*}{*B*}
+Die Oberfläche des Kreativmodus erlaubt es dir, alle Gegenstände im Spiel in dein Inventar zu verschieben, ohne dass du sie vorher abbauen oder herstellen musst. 
+Die Gegenstände werden nicht aus deinem Inventar entfernt, wenn du sie in der Welt platzierst oder sie verbrauchst. Dadurch kannst du dich ganz aufs Bauen konzentrieren anstatt auf das Sammeln von Ressourcen. {*B*}
+Wenn du eine Welt im Kreativmodus erstellst, lädst oder speicherst, sind Erfolge und Bestenlisten-
+Aktualisierungen in dieser Welt deaktiviert, selbst wenn du die Welt später im Überlebensmodus lädst.{*B*}
+Um im Kreativmodus zu fliegen, drücke zweimal schnell {*CONTROLLER_ACTION_JUMP*}. Um das Fliegen zu beenden, wiederhole die Aktion. Um schneller zu fliegen, drück beim Fliegen{*CONTROLLER_ACTION_MOVE*} zweimal schnell nach vorn.
+Im Flugmodus halte{*CONTROLLER_ACTION_JUMP*} nach unten gedrückt, um dich nach oben zu bewegen, und{*CONTROLLER_ACTION_SNEAK*}, um dich nach unten zu bewegen. Oder verwende{*CONTROLLER_ACTION_DPAD_UP*}, um dich nach oben zu bewegen, {*CONTROLLER_ACTION_DPAD_DOWN*}, um dich nach unten zu bewegen, 
+{*CONTROLLER_ACTION_DPAD_LEFT*}, um dich nach links zu bewegen, und {*CONTROLLER_ACTION_DPAD_RIGHT*}, um dich nach rechts zu bewegen.</value>
+	</data>	
+
+	<data name="IDS_TUTORIAL_TASK_FLY">
+		<value>Drücke zweimal schnell nacheinander {*CONTROLLER_ACTION_JUMP*}, um zu fliegen. Um das Fliegen zu beenden, wiederhole die Aktion. Um schneller zu fliegen, drück{*CONTROLLER_ACTION_MOVE*} beim Fliegen zweimal schnell nach vorn. 
+Im Flugmodus halte{*CONTROLLER_ACTION_JUMP*} nach unten gedrückt, um dich nach oben zu bewegen, und{*CONTROLLER_ACTION_SNEAK*}, um dich nach unten zu bewegen, oder verwende das Steuerkreuz, um dich nach oben, nach unten, nach links oder nach rechts zu bewegen.</value>
+	</data>	
+
+	<data name="IDS_TOOLTIPS_SELECTDEVICE">
+		<value>Speichergerät auswählen</value>
+	</data>	
+
+	<data name="IDS_TOOLTIPS_CHANGEDEVICE">
+		<value>Gerät wechseln</value>
+	</data>	
+
+	<data name="IDS_TOOLTIPS_VIEW_GAMERCARD">
+		<value>Spielerkarte</value>
+	</data>	
+
+	<data name="IDS_TOOLTIPS_VIEW_GAMERPROFILE">
+		<value>Spielerprofil ansehen</value>
+	</data>	
+
+	<data name="IDS_TOOLTIPS_INVITE_PARTY">
+		<value>Xbox Live Party Einladung</value>
+	</data>	
+
+	<data name="IDS_CONFIRM_START_CREATIVE">
+		<value>Wenn du eine Welt im Kreativmodus erstellst, lädst oder speicherst, sind in dieser Welt Erfolge und Bestenlisten-Aktualisierungen deaktiviert, selbst wenn sie später im Überlebensmodus geladen wird. Möchtest du wirklich fortfahren?</value>
+	</data>	
+
+	<data name="IDS_CONFIRM_START_SAVEDINCREATIVE">
+		<value>Diese Welt wurde früher im Kreativmodus gespeichert, Erfolge und Bestenlisten-Aktualisierungen sind deaktiviert. Möchtest du wirklich fortfahren?</value>
+	</data>	
+
+	<data name="IDS_CONFIRM_START_SAVEDINCREATIVE_CONTINUE">
+		<value>Diese Welt wurde im Kreativmodus gespeichert, Erfolge und Bestenlisten-Aktualisierungen sind deaktiviert.</value>
+	</data>	
+
+	<data name="IDS_CONFIRM_START_HOST_PRIVILEGES">
+		<value>Wenn du eine Welt mit aktivierten Hostprivilegien erstellst, lädst oder speicherst, sind in diese Welt Erfolge und Bestenlisten-Aktualisierungen deaktiviert, selbst wenn sie später ohne diese Privilegien geladen wird. Möchtest du wirklich fortfahren?</value>
+	</data>	
+
+	<data name="IDS_CONNECTION_LOST_LIVE">
+		<value>Die Verbindung zu Xbox Live wurde unterbrochen. Zurück zum Hauptmenü.</value>
+	</data>	
+
+	<data name="IDS_CONNECTION_LOST_LIVE_NO_EXIT">
+		<value>Die Verbindung zu Xbox Live wurde unterbrochen.</value>
+	</data>	
+
+	<data name="IDS_AWARD_AVATAR1">
+		<value>Hurra – du hast einen Avatar-Gegenstand gewonnen – ein Minecraft: Xbox 360 Edition-T-Shirt!
+Geh zur Xbox Steuerung, um es deinem Avatar anzuziehen!</value>
+	</data>	
+
+	<data name="IDS_AWARD_AVATAR2">
+		<value>Hurra – du hast einen Avatar-Gegenstand gewonnen – eine Minecraft: Xbox 360 Edition-Uhr!
+Geh zur Xbox Steuerung, um sie deinem Avatar anzulegen!</value>
+	</data>	
+
+	<data name="IDS_AWARD_AVATAR3">
+		<value>Hurra – du hast einen Avatar-Gegenstand gewonnen – eine Creeper-Basecap!
+Geh zur Xbox Steuerung, um sie deinem Avatar aufzusetzen!</value>
+	</data>	
+
+	<data name="IDS_AWARD_THEME">
+		<value>Hurra – du hast das Minecraft: Xbox 360 Edition-Design gewonnen!
+Geh zur Xbox Steuerung, um dieses Design auszuwählen!</value>
+	</data>	
+
+	<data name="IDS_UNLOCK_ACHIEVEMENT_TEXT">
+		<value>Dies ist die Testversion von Minecraft: Xbox 360 Edition. Würdest du das vollständige Spiel besitzen, hättest du dir gerade einen Erfolg verdient!
+Jetzt das vollständige Spiel freischalten?</value>
+	</data>	
+
+	<data name="IDS_UNLOCK_AVATAR_TEXT">
+		<value>Dies ist die Testversion von Minecraft: Xbox 360 Edition. Würdest du das vollständige Spiel besitzen, hättest du dir gerade eine Avatar-Auszeichnung verdient!
+Jetzt das vollständige Spiel freischalten?</value>
+	</data>	
+
+	<data name="IDS_UNLOCK_GAMERPIC_TEXT">
+		<value>Dies ist die Testversion von Minecraft: Xbox 360 Edition. Würdest du das vollständige Spiel besitzen, hättest du dir gerade ein Spielerbild verdient!
+Jetzt das vollständige Spiel freischalten?</value>
+	</data>	
+
+	<data name="IDS_UNLOCK_THEME_TEXT">
+		<value>Dies ist die Testversion von Minecraft: Xbox 360 Edition. Würdest du das vollständige Spiel besitzen, hättest du dir gerade ein Design verdient!
+Jetzt das vollständige Spiel freischalten?</value>
+	</data>	
+
+	<data name="IDS_UNLOCK_ACCEPT_INVITE">
+		<value>Dies ist die Testversion von Minecraft: Xbox 360 Edition. Du brauchst das vollständige Spiel, um diese Einladung anzunehmen. 
+Möchtest du das vollständige Spiel freischalten?</value>
+	</data>	
+
+	<data name="IDS_UNLOCK_GUEST_TEXT">
+		<value>Gastspieler können das vollständige Spiel nicht freischalten. Melde dich mit einer Xbox Live-Benutzer-ID an.</value>
+	</data>	
+
+	<data name="IDS_LEADERBOARD_GAMERTAG">
+		<value>Gamertag</value>
+	</data>	
+
+	<data name="IDS_GROUPNAME_POTIONS_480">
+		<value>Brauen</value>
+	</data>	
+
+	<data name="IDS_RETURNEDTOTITLESCREEN_TEXT">
+		<value>Du bist zum Titelbildschirm zurückgekehrt, weil dein Spielerprofil abgemeldet wurde.</value>
+	</data>	
+
+	<data name="IDS_TRIALOVER_TEXT">
+		<value>Du hast die Testversion von Minecraft: Xbox 360 Edition die maximal erlaubte Zeit lang gespielt! Möchtest du jetzt das vollständige Spiel freischalten, um weiterhin Minecraft spielen zu können? </value>
+	</data>	
+
+	<data name="IDS_FATAL_ERROR_TEXT">
+		<value>Minecraft: Xbox 360 Edition konnte nicht geladen werden und kann daher nicht fortgesetzt werden.</value>
+	</data>	
+
+	<data name="IDS_NO_MULTIPLAYER_PRIVILEGE_JOIN_TEXT">
+		<value>Beitritt zum Spiel nicht möglich: Einer oder mehrere Spieler haben keine Multiplayer-Berechtigung für Xbox Live.</value>
+	</data>	
+
+	<data name="IDS_NO_MULTIPLAYER_PRIVILEGE_HOST_TEXT">
+		<value>Erstellen des Online-Spiels nicht möglich: Einer oder mehrere Spieler haben keine Multiplayer-Berechtigung für Xbox Live. Deaktiviere die Option "Onlinespiel", um offline zu spielen.</value>
+	</data>	
+
+	<data name="IDS_NO_USER_CREATED_CONTENT_PRIVILEGE_SINGLE_LOCAL">
+		<value>Du kannst dieser Spielsitzung nicht beitreten, weil deine Rechteeinstellung für Inhalte von Mitgliedern zu streng ist. Ändere diese Einstellung bitte unter den Datenschutz- und Onlineeinstellungen in der Xbox Steuerung, wenn du dieser Sitzung beitreten möchtest.</value>
+	</data>	
+
+	<data name="IDS_NO_USER_CREATED_CONTENT_PRIVILEGE_ALL_LOCAL">
+		<value>Du kannst dieser Spielsitzung nicht beitreten, weil die Rechteeinstellung für Inhalte von Mitgliedern eines deiner lokalen Spieler zu streng ist.</value>
+	</data>	
+
+	<data name="IDS_NO_USER_CREATED_CONTENT_PRIVILEGE_REMOTE">
+		<value>Du kannst dieser Spielsitzung nicht beitreten, weil die Rechteeinstellung für Inhalte von Mitgliedern eines Spielers in der Sitzung "Nur Freunde" ist und du nicht auf seiner Freundesliste bist.</value>
+	</data>	
+
+	<data name="IDS_NO_USER_CREATED_CONTENT_PRIVILEGE_CREATE">
+		<value>Du kannst diese Spielsitzung nicht erstellen, weil die Rechteeinstellung für Inhalte von Mitgliedern eines deiner lokalen Spieler zu streng ist. Entferne die Markierung bei "Online-Spiel", um ein Offline-Spiel zu starten, oder ändere diese Einstellung unter den Datenschutz- und Onlineeinstellungen in der Xbox Steuerung.</value>
+	</data>	
+
+	<data name="IDS_SAVE_ICON_MESSAGE">
+		<value>Dieses Spiel verfügt eine automatische Levelspeicherfunktion. Wenn du das obige Symbol siehst, speichert das Spiel deine Daten.
+Bitte schalte deine Xbox 360 Konsole nicht aus, solange dieses Symbol angezeigt wird.</value>
+	</data>	
+
+	<data name="IDS_GAMEOPTION_HOST_PRIVILEGES">
+		<value>Aktiviert, dass der Host das Fliegen nutzen, Erschöpfung deaktivieren und sich selbst im Spielmenü unsichtbar machen kann. Deaktiviert Erfolge und Bestenlisten-Aktualisierungen.</value>
+	</data>	
+
+	<data name="IDS_CHECKBOX_DISPLAY_SPLITSCREENGAMERTAGS">
+		<value>Gamertags auf geteiltem Bildschirm</value>
+	</data>	
+
+	<data name="IDS_ACHIEVEMENTS">
+		<value>Erfolge</value>
+	</data>	
+
+	<data name="IDS_LABEL_GAMERTAGS">
+		<value>Gamertags:</value>
+	</data>	
+
+	<data name="IDS_IN_GAME_GAMERTAGS">
+		<value>Gamertags im Spiel</value>
+	</data>	
+
+	<data name="IDS_SOCIAL_DEFAULT_DESCRIPTION">
+		<value>Schau mal, was ich in Minecraft: Xbox 360 Edition erschaffen habe!</value>
+	</data>	
+
+	<data name="IDS_TITLE_UPDATE_NAME">
+		<value>Title-Update 14</value>
+	</data>	
+
+	<data name="IDS_PLATFORM_NAME">
+		<value>Xbox 360</value>
+	</data>	
+
+	<data name="IDS_BACK_BUTTON">
+		<value>Back</value>
+	</data>	
+
+	<data name="IDS_HOST_OPTION_DISABLES_ACHIEVEMENTS">
+		<value>Diese Option deaktiviert für diese Welt Erfolge und Bestenlisten-Aktualisierungen während des Spielens und wenn nach dem Speichern mit aktivierter Option erneut geladen wird.</value>
+	</data>	
+</root>

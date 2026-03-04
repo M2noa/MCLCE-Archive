@@ -1,0 +1,247 @@
+﻿<root>
+	<data name="IDS_TIPS_GAMETIP_0">
+		<value>高解像度モードを使うと、1 台の Xbox 360 本体で最大 4 人のプレイヤーが分割画面プレイ可能!</value>
+	</data>	
+
+	<data name="IDS_TIPS_GAMETIP_1">
+		<value>Xbox 360 本体に別のコントローラーを接続し START を押すと、いつでもゲームに参加できます</value>
+	</data>	
+
+	<data name="IDS_TIPS_GAMETIP_44">
+		<value>ゲームの最新情報は 4J Studios と Kappische のTwitter でゲット!</value>
+	</data>	
+
+	<data name="IDS_TIPS_GAMETIP_45">
+		<value>ポーズ メニューから Minecraft のスクリーンショットを Facebook に公開できます</value>
+	</data>	
+
+	<data name="IDS_TIPS_GAMETIP_48">
+		<value>minecraftforum には、Xbox 360 版専用セクションがあります</value>
+	</data>	
+
+	<data name="IDS_TIPS_TRIVIA_4">
+		<value>4J Studios の Xbox 360 向け超ホラー大作「Herobrine」はまさかのキャンセル... というウワサ</value>
+	</data>	
+
+	<data name="IDS_TIPS_TRIVIA_17">
+		<value>Minecraft: Xbox 360 版はさまざまな記録を更新しています!</value>
+	</data>	
+
+	<data name="IDS_HOW_TO_PLAY_MULTIPLAYER">
+		<value>{*T3*}遊び方: マルチプレイヤー{*ETW*}{*B*}{*B*}
+Minecraft Xbox 360 版は、初期設定でマルチプレイヤー ゲームになっています。高解像度でプレイしている場合はコントローラーを接続して START を押すと、いつでもローカル プレイヤーがゲームに参加できます。{*B*}{*B*}
+開始または参加したオンライン ゲームはフレンド リストに表示されます (ホストとしてゲームを開始するときに [招待者のみ] を選択した場合を除きます)。フレンドが参加するとそのフレンド リストにもゲームが表示され、フレンドからフレンドにゲームが広がっていきます (オプションで [フレンドのフレンドを許可] を選択している場合)。
+ゲーム中に BACK ボタンを押すと、参加中のプレイヤーのリストを開けます。リストからゲーマー カードを確認したり、プレイヤーを追放したり、ゲームに招待したりできます
+  </value>
+	</data>	
+
+	<data name="IDS_HOW_TO_PLAY_SOCIALMEDIA">
+		<value>{*T3*}遊び方: スクリーンショットの公開{*ETW*}{*B*}{*B*}
+ポーズ メニューで {*CONTROLLER_VK_Y*} を押してスクリーンショットを撮影し、Facebook で公開することができます。投稿の前に、撮影したスクリーンショットの縮小版が表示され、投稿に添えるメッセージを編集できます。{*B*}{*B*}
+スクリーンショット撮影に適したカメラ モードも用意されています。キャラクターの正面からのショットを撮影して公開するには、{*CONTROLLER_ACTION_CAMERA*} を何度か押して正面からのカメラに切り替え、{*CONTROLLER_VK_Y*} を押します。{*B*}{*B*}
+スクリーンショットにゲーマータグは表示されません
+</value>
+	</data>	
+
+	<data name="IDS_HOW_TO_PLAY_CREATIVE">
+		<value>{*T3*}遊び方: クリエイティブ モード{*ETW*}{*B*}{*B*}
+クリエイティブ モード画面では採掘や工作をしなくても、ゲーム内のあらゆるアイテムを持ち物に加えられます。
+プレイヤーの持ち物内にあるアイテムは、世界に置いたり使ったりしても持ち物から消えないため、材料集めの面倒がなく建設そのものに集中できます。{*B*}
+クリエイティブ モードで作成、ロード、セーブした世界は、たとえ後でサバイバル モードでロードしたとしても、実績やランキング更新の対象になりません。{*B*}
+クリエイティブ モードで飛行するには、{*CONTROLLER_ACTION_JUMP*} をすばやく 2 回押します。飛行をやめるには、同じ操作をもう一度行います。より速く飛ぶには、飛行中に {*CONTROLLER_ACTION_MOVE*} を前方向にすばやく 2 回押します。
+飛行モードでは、{*CONTROLLER_ACTION_JUMP*} で上昇、{*CONTROLLER_ACTION_SNEAK*} で下降できます。または、{*CONTROLLER_ACTION_DPAD_UP*} で上昇、 {*CONTROLLER_ACTION_DPAD_DOWN*} で下降、
+{*CONTROLLER_ACTION_DPAD_LEFT*} で左に、{*CONTROLLER_ACTION_DPAD_RIGHT*} で右に飛べます</value>
+	</data>	
+
+	<data name="IDS_TUTORIAL_TASK_FLY">
+		<value>{*CONTROLLER_ACTION_JUMP*} をすばやく 2 回押すと飛行できます。飛行をやめるには、同じ操作をもう一度行います。より速く飛ぶには、飛行中に {*CONTROLLER_ACTION_MOVE*} を前方向にすばやく 2 回押します。
+飛行モードでは、{*CONTROLLER_ACTION_JUMP*} で上昇、{*CONTROLLER_ACTION_SNEAK*} で下降できます。または、方向パッドで上下左右に飛びましょう</value>
+	</data>	
+
+	<data name="IDS_TOOLTIPS_SELECTDEVICE">
+		<value>データ保存機器を選択</value>
+	</data>	
+
+	<data name="IDS_TOOLTIPS_CHANGEDEVICE">
+		<value>データ保存機器を変更</value>
+	</data>	
+
+	<data name="IDS_TOOLTIPS_VIEW_GAMERCARD">
+		<value>ゲーマー カードを見る</value>
+	</data>	
+
+	<data name="IDS_TOOLTIPS_VIEW_GAMERPROFILE">
+		<value>ゲーマー プロフィールを見る</value>
+	</data>	
+
+	<data name="IDS_TOOLTIPS_INVITE_PARTY">
+		<value>Xbox Live パーティーを招待</value>
+	</data>	
+
+
+	<data name="IDS_CONFIRM_START_CREATIVE">
+		<value>クリエイティブ モードで作成、ロード、セーブした世界は、たとえ後でサバイバル モードでロードしたとしても、実績やランキング更新の対象になりません。実行してよろしいですか?</value>
+	</data>	
+
+	<data name="IDS_CONFIRM_START_SAVEDINCREATIVE">
+		<value>クリエイティブ モードで作成、ロード、セーブした世界は、たとえ後でサバイバル モードでロードしたとしても、実績やランキング更新の対象になりません。実行してよろしいですか?</value>
+	</data>	
+
+	<data name="IDS_CONFIRM_START_SAVEDINCREATIVE_CONTINUE">
+		<value>クリエイティブ モードで作成、ロード、セーブした世界は、たとえ後でサバイバル モードでロードしたとしても、実績やランキング更新の対象になりません。</value>
+	</data>	
+
+	<data name="IDS_CONFIRM_START_HOST_PRIVILEGES">
+		<value>ホスト特権を有効にして作成、ロード、セーブした世界は、たとえ後でオプションをオフにしたとしても、実績やランキング更新の対象になりません。実行してよろしいですか?</value>
+	</data>	
+
+	<data name="IDS_CONNECTION_LOST_LIVE">
+		<value>Xbox Live との接続が切断されました。メイン メニューに戻ります</value>
+	</data>	
+
+	<data name="IDS_CONNECTION_LOST_LIVE_NO_EXIT">
+		<value>Xbox Live との接続が切断されました</value>
+	</data>	
+
+	<data name="IDS_AWARD_AVATAR1">
+		<value>おめでとうございます! アバター アイテム、Minecraft Xbox 360 版 T シャツを獲得しました! 
+ダッシュボードでアバターに装備しましょう</value>
+	</data>	
+
+	<data name="IDS_AWARD_AVATAR2">
+		<value>おめでとうございます! アバター アイテム、Minecraft Xbox 360 版 ウォッチを獲得しました! 
+ダッシュボードでアバターに装備しましょう</value>
+	</data>	
+
+	<data name="IDS_AWARD_AVATAR3">
+		<value>おめでとうございます! アバター アイテム、Creeper 野球帽を獲得しました! 
+ダッシュボードでアバターに装備しましょう</value>
+	</data>	
+
+	<data name="IDS_AWARD_THEME">
+		<value>おめでとうございます! アバター アイテム、Minecraft Xbox 360 版 テーマを獲得しました! 
+ダッシュボードでテーマを選択しましょう</value>
+	</data>	
+
+	<data name="IDS_UNLOCK_ACHIEVEMENT_TEXT">
+		<value>これは Minecraft Xbox 360 版のお試し版です。完全版であれば、今すぐ獲得できる実績があります! 
+完全版を購入して、Xbox Live を通じて世界中のフレンドと一緒に遊べるMinecraft の楽しさを体験してください。
+完全版を購入しますか?</value>
+	</data>	
+
+	<data name="IDS_UNLOCK_AVATAR_TEXT">
+		<value>これは Minecraft Xbox 360 版のお試し版です。完全版であれば、今すぐ獲得できるアバター アワードがあります! 
+完全版を購入して、Xbox Live を通じて世界中のフレンドと一緒に遊べるMinecraft の楽しさを体験してください。
+完全版を購入しますか?</value>
+	</data>	
+
+	<data name="IDS_UNLOCK_GAMERPIC_TEXT">
+		<value>これは Minecraft Xbox 360 版のお試し版です。完全版であれば、今すぐ獲得できるゲーマー アイコンがあります! 
+完全版を購入して、Xbox Live を通じて世界中のフレンドと一緒に遊べる Minecraft の楽しさを体験してください。
+完全版を購入しますか?</value>
+	</data>	
+
+	<data name="IDS_UNLOCK_THEME_TEXT">
+		<value>これは Minecraft Xbox 360 版のお試し版です。完全版であれば、今すぐ獲得できるテーマがあります! 
+完全版を購入して、Xbox Live を通じて世界中のフレンドと一緒に遊べる Minecraft の楽しさを体験してください。
+完全版を購入しますか?</value>
+	</data>	
+
+	<data name="IDS_UNLOCK_ACCEPT_INVITE">
+		<value>お試し版では、この招待は受けられません。
+完全版を今すぐ購入しますか?</value>
+	</data>	
+
+	<data name="IDS_UNLOCK_GUEST_TEXT">
+		<value>ゲスト プレイヤーでは完全版を購入することはできません。Xbox Live ゲーマー プロフィールでサインインしてください</value>
+	</data>	
+
+	<data name="IDS_LEADERBOARD_GAMERTAG">
+		<value>ゲーマータグ</value>
+	</data>	
+
+	<data name="IDS_GROUPNAME_POTIONS_480">
+		<value>調合</value>
+	</data>	
+
+	<data name="IDS_RETURNEDTOTITLESCREEN_TEXT">
+		<value>ゲーマー プロフィールからサインアウトしました。タイトル画面に戻ります</value>
+	</data>	
+
+	<data name="IDS_TRIALOVER_TEXT">
+		<value>お試し版をプレイできる制限時間が過ぎてしまいました! 完全版を購入して、ゲームを続けますか?</value>
+	</data>	
+
+	<data name="IDS_FATAL_ERROR_TEXT">
+		<value>Minecraft  Xbox 360 版のロードに失敗しました。続行できません</value>
+	</data>	
+
+	<data name="IDS_NO_MULTIPLAYER_PRIVILEGE_JOIN_TEXT">
+		<value>Xbox Live でのマルチプレイを制限されているプレイヤーがいます。ゲームに参加できません</value>
+	</data>	
+
+	<data name="IDS_NO_MULTIPLAYER_PRIVILEGE_HOST_TEXT">
+		<value>Xbox Live でのマルチプレイを制限されているプレイヤーがいます。オンライン ゲームは作成できません。[オンライン ゲーム] のチェックを外すとオフラインでゲームを開始できます</value>
+	</data>	
+
+	<data name="IDS_NO_USER_CREATED_CONTENT_PRIVILEGE_SINGLE_LOCAL">
+		<value>[メンバーが作ったコンテンツ] の設定によりコンテンツへのアクセスが制限されているため、ゲームに参加できません。ゲームに参加するには、Xbox ダッシュボードの [プライバシー &amp; オンライン設定] で設定を変更してください</value>
+	</data>	
+
+	<data name="IDS_NO_USER_CREATED_CONTENT_PRIVILEGE_ALL_LOCAL">
+		<value>ローカル プレイヤーの中に [メンバーが作ったコンテンツ] の設定によりコンテンツへのアクセスが制限されているプレイヤーがいるため、ゲームに参加できません</value>
+	</data>	
+
+	<data name="IDS_NO_USER_CREATED_CONTENT_PRIVILEGE_REMOTE">
+		<value>参加プレイヤーの中に [メンバーが作ったコンテンツ] の設定が [フレンドのみ] のプレイヤーがおり、あなたはそのフレンド リストに登録されていないため、ゲームに参加できません</value>
+	</data>	
+
+	<data name="IDS_NO_USER_CREATED_CONTENT_PRIVILEGE_CREATE">
+		<value>ローカル プレイヤーの中に [メンバーが作ったコンテンツ] の設定によりコンテンツへのアクセスが制限されているプレイヤーがいるため、ゲームを作成できません。[オンライン ゲーム] のチェックを外してオフラインでゲームを始めるか、または Xbox ダッシュボードの [プライバシー &amp; オンライン設定] で設定を変更してください</value>
+	</data>	
+
+	<data name="IDS_SAVE_ICON_MESSAGE">
+		<value>このゲームではオートセーブ機能を利用できます。オートセーブの実行中は上のオートセーブ アイコンが表示されます。
+オートセーブ アイコンの表示中に本体の電源を切らないでください</value>
+	</data>	
+
+	<data name="IDS_GAMEOPTION_HOST_PRIVILEGES">
+		<value>有効にすると、ホストが飛行能力、疲労無効、ゲーム内メニューでの非表示を切り替えられます。実績およびランキング更新は無効になります</value>
+	</data>	
+
+	<data name="IDS_CHECKBOX_DISPLAY_SPLITSCREENGAMERTAGS">
+		<value>分割画面でゲーマータグを表示</value>
+	</data>	
+
+	<data name="IDS_ACHIEVEMENTS">
+		<value>実績</value>
+	</data>	
+
+	<data name="IDS_LABEL_GAMERTAGS">
+		<value>ゲーマータグ:</value>
+	</data>	
+
+	<data name="IDS_IN_GAME_GAMERTAGS">
+		<value>ゲーム内でゲーマータグを表示</value>
+	</data>	
+
+	<data name="IDS_SOCIAL_DEFAULT_DESCRIPTION">
+		<value>Minecraft: Xbox 360 版で作ったよ!</value>
+	</data>	
+
+	<data name="IDS_TITLE_UPDATE_NAME">
+		<value>タイトル アップデート 14</value>
+	</data>	
+
+	<data name="IDS_PLATFORM_NAME">
+		<value>Xbox 360</value>
+	</data>	
+
+	<data name="IDS_BACK_BUTTON">
+		<value>Back</value>
+	</data>	
+
+	<data name="IDS_HOST_OPTION_DISABLES_ACHIEVEMENTS">
+		<value>このオプションでは、実績およびランキング更新は無効になります。</value>
+	</data>	
+</root>

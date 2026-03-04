@@ -1,0 +1,7 @@
+#define IDC_XuiOK L"XuiOK"
+#define IDC_XuiEditDescription L"XuiEditDescription"
+#define IDC_XuiLabelDescription L"XuiLabelDescription"
+#define IDC_XuiEditCaption L"XuiEditCaption"
+#define IDC_XuiLabelCaption L"XuiLabelCaption"
+#define IDC_XuiLabelText L"XuiLabelText"
+#define IDC_SceneSocialPost L"SceneSocialPost"

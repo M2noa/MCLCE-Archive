@@ -1,0 +1,7 @@
+#define IDC_XuiSlider L"XuiSlider"
+#define IDC_FocusSink L"FocusSink"
+#define IDC_XuiSliderSound L"XuiSliderSound"
+#define IDC_XuiSlider L"XuiSlider"
+#define IDC_FocusSink L"FocusSink"
+#define IDC_XuiSliderMusic L"XuiSliderMusic"
+#define IDC_SceneSettingsAudio L"SceneSettingsAudio"

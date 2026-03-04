@@ -1,0 +1,1 @@
+copy skinPS3.swf ..\..\Common\Media\platformskin.swf

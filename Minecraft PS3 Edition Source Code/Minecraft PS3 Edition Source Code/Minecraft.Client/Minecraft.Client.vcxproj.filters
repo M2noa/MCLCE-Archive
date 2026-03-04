@@ -1,0 +1,3822 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="net">
+      <UniqueIdentifier>{e23474e2-447c-41a9-82be-e32747f5b196}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net\minecraft">
+      <UniqueIdentifier>{d7b60dd5-624a-46b3-b81d-f5f74550f613}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net\minecraft\client">
+      <UniqueIdentifier>{68105641-375c-4565-9945-7890df6d82d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net\minecraft\isom">
+      <UniqueIdentifier>{8be4617d-3699-46a4-8769-28edb23c89f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net\minecraft\stats">
+      <UniqueIdentifier>{0b94741f-653f-48c2-874f-6aa69e7e9622}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net\minecraft\client\gui">
+      <UniqueIdentifier>{20606602-63d3-460c-b33e-d3e747a3d8db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net\minecraft\client\level">
+      <UniqueIdentifier>{4afb96fe-3fcb-4bd1-89a1-adfea86c73fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net\minecraft\client\locale">
+      <UniqueIdentifier>{304b5ee1-bfdb-489f-8e24-0a4e61177ca1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net\minecraft\client\map">
+      <UniqueIdentifier>{225f9542-472d-45c1-9046-eb2a46ab029c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net\minecraft\client\model">
+      <UniqueIdentifier>{14e20ee1-fe3b-481b-acce-7a634ee9c1d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net\minecraft\client\multiplayer">
+      <UniqueIdentifier>{486b537f-d140-4a23-8409-fe3bc4184009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net\minecraft\client\particle">
+      <UniqueIdentifier>{91ef92f9-432b-4b8f-9f16-4efd211003a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net\minecraft\client\player">
+      <UniqueIdentifier>{66656f96-a5da-48c6-a7f9-79ab343dbd2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net\minecraft\client\renderer">
+      <UniqueIdentifier>{3423fd63-b0d7-4f50-b0ca-549386c6cf57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net\minecraft\client\skins">
+      <UniqueIdentifier>{d097d6ee-2ae4-48d8-8b5a-9b48882bdb2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net\minecraft\client\sound">
+      <UniqueIdentifier>{1d0a6eec-14cd-4e6d-8a0a-f5f8f0ab5240}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net\minecraft\client\title">
+      <UniqueIdentifier>{269fab49-d870-4358-baef-32ed6ac9eca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net\minecraft\client\gui\achievement">
+      <UniqueIdentifier>{fef42379-3d37-4ef3-aa73-b19aaa77e3cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net\minecraft\client\gui\inventory">
+      <UniqueIdentifier>{bce4041a-9336-45e7-bd40-ed057ed96ee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net\minecraft\client\gui\particle">
+      <UniqueIdentifier>{9756cb73-3f40-4fcb-9bab-5a3ce3c4d2f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net\minecraft\client\renderer\culling">
+      <UniqueIdentifier>{bb820acc-a8eb-4e36-8b4e-9517263ed51b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net\minecraft\client\renderer\entity">
+      <UniqueIdentifier>{3c3aca1d-0e3e-43f1-b4cd-f8dfce2d29e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net\minecraft\client\renderer\tileentity">
+      <UniqueIdentifier>{9f1bf1ed-5366-4a29-b3f3-296725a7b01c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net\minecraft\server">
+      <UniqueIdentifier>{8fd2f4e7-b93a-4067-93b8-a7ebac6d4a9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net\minecraft\server\level">
+      <UniqueIdentifier>{93a41380-e12e-4f7a-bb7b-459f7169faed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net\minecraft\server\network">
+      <UniqueIdentifier>{4eb1ba28-620f-4136-979c-4dc91c44b666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net\minecraft\client\model\geom">
+      <UniqueIdentifier>{b2935b29-33d3-4d57-a145-753a646e5de4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net\minecraft\client\model\dragon">
+      <UniqueIdentifier>{26661545-d0a0-438a-a775-31cec1fb7849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{33341824-5702-4a56-b75c-9dac57e49349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Source Files">
+      <UniqueIdentifier>{4dbeff57-70bc-4b4c-b5d0-4c6834968d85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Source Files\GameRules">
+      <UniqueIdentifier>{4be5c8d2-8944-4e8f-9d79-b1abc4b66f8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Source Files\Trial">
+      <UniqueIdentifier>{ba24985e-3b16-45af-963e-9f2edca20b1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Source Files\Tutorial">
+      <UniqueIdentifier>{77957a66-a869-4b9b-bbda-e7f43e01096f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Source Files\GameRules\LevelGeneration">
+      <UniqueIdentifier>{fa09ab64-0a3f-429b-93cb-149ee490767b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Source Files\GameRules\LevelGeneration\StructureActions">
+      <UniqueIdentifier>{dec59bc5-d9d3-4be5-b449-3df3b430eb39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Source Files\Tutorial\Constraints">
+      <UniqueIdentifier>{0bcca89e-0d2d-407b-b1e4-878465404901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Source Files\Tutorial\Hints">
+      <UniqueIdentifier>{395a09e4-1ff9-458c-8fb8-a4cb28aa4881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Source Files\Tutorial\Tasks">
+      <UniqueIdentifier>{056ec81c-c93f-4c56-9bcb-697cda24a612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PS3">
+      <UniqueIdentifier>{1511a94f-13bc-49e0-bf75-7cdf98f1e77f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PS3\4JLibs">
+      <UniqueIdentifier>{f0b2e12a-e042-49bc-a5fa-78d1cf79e5d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PS3\4JLibs\inc">
+      <UniqueIdentifier>{d2020762-d261-4c89-bbb9-0c7113012882}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PS3\4JLibs\libs">
+      <UniqueIdentifier>{88ebd63d-2bbc-438a-a810-9b26fcfdd908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PS3\4JLibs\Media">
+      <UniqueIdentifier>{2cf98618-28c5-46df-9ff7-3d331ee4a275}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PS3\GameConfig">
+      <UniqueIdentifier>{3c643f18-092d-4870-a206-8dc906748a64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PS3\Source Files">
+      <UniqueIdentifier>{11cc2598-d569-47ad-8843-7a8296878be9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PS3\Source Files\Leaderboards">
+      <UniqueIdentifier>{33371180-d4ec-4439-8a95-059babcc1db9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PS3\Source Files\Sentient">
+      <UniqueIdentifier>{c6d264ea-d4ac-4f3f-81f7-0d91fdc27713}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PS3\Source Files\Social">
+      <UniqueIdentifier>{bde45e25-7dce-4a39-a2bf-dad234708b07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PS3\PS3Extras">
+      <UniqueIdentifier>{9685dbaa-ed65-453c-ba57-ec01e59022ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net\minecraft\client\renderer\texture">
+      <UniqueIdentifier>{92ead381-f2b8-4c6d-a3ca-c6fbc7753361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net\minecraft\client\renderer\texture\custom">
+      <UniqueIdentifier>{2031e778-56ff-4126-b09d-4ec59453b21c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Source Files\DLC">
+      <UniqueIdentifier>{98e39923-fe62-42d5-8650-746c2d61efd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Source Files\Audio">
+      <UniqueIdentifier>{94298ae6-25e0-4cc9-8c5a-efd53e156baa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PS3\Miles Sound System">
+      <UniqueIdentifier>{a392080f-8e8b-42be-832a-a35869dba580}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PS3\Miles Sound System\include">
+      <UniqueIdentifier>{42dca5dc-e462-4537-9929-847a044eb116}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PS3\Miles Sound System\lib">
+      <UniqueIdentifier>{0da3a534-f8c9-4d0c-a73f-dfeb402b27c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PS3\Miles Sound System\lib\spu">
+      <UniqueIdentifier>{a15076ff-0dbe-4fb5-8b58-4ceb4b189c8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PS3\Source Files\Audio">
+      <UniqueIdentifier>{ebc154be-8d55-478b-9038-856d445aaf15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PS3\ChunkRebuild_SPU">
+      <UniqueIdentifier>{0749340b-e216-450a-a02e-001917097ba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PS3\CompressedTile_SPU">
+      <UniqueIdentifier>{6b6c31a6-0b8d-4dc0-8d6e-38ab6de709ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Source Files\Localisation">
+      <UniqueIdentifier>{d7537fdd-877b-461c-9c86-3235843fcfc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Source Files\GameRules\LevelRules">
+      <UniqueIdentifier>{61e77fc3-d018-4e08-985c-9871eca81fe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Source Files\GameRules\LevelRules\Rules">
+      <UniqueIdentifier>{2c983999-feb8-40db-885b-abf061e2ab58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Source Files\GameRules\LevelRules\RuleDefinitions">
+      <UniqueIdentifier>{093a811c-5f90-4c0e-b260-4b637079730a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Source Files\Network">
+      <UniqueIdentifier>{c2fdb165-80e4-4ce0-9bf1-12e5c58f83a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Source Files\UI">
+      <UniqueIdentifier>{a04f2d63-3e47-470f-b4ac-c1d5caf8ce56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Source Files\UI\Scenes">
+      <UniqueIdentifier>{5d6f34a3-c647-479d-a1a9-89a9ffca4ab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Source Files\UI\Scenes\Help &amp; Options">
+      <UniqueIdentifier>{6f049254-6585-4a90-be74-70d3878d864f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Source Files\UI\Scenes\Debug">
+      <UniqueIdentifier>{e4051e75-f566-41ce-b86a-46c838872963}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Source Files\Colours">
+      <UniqueIdentifier>{18d3c9bc-132e-4770-a665-fc030eb86394}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PS3\Iggy">
+      <UniqueIdentifier>{e7df083d-5b13-46bc-a5b9-610c3ffb33bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PS3\Iggy\gdraw">
+      <UniqueIdentifier>{2ef42e03-cbaa-4077-a7f4-008150037f01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PS3\Iggy\include">
+      <UniqueIdentifier>{4d1da71a-dd84-4073-be6d-1e534eca98f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PS3\Iggy\lib">
+      <UniqueIdentifier>{acb27adb-45a3-45cf-85f5-3ae00cf3357d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Source Files\zlib">
+      <UniqueIdentifier>{3a9d8989-ff64-411c-84ad-b7dfb2520d5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PS3\Source Files\Network">
+      <UniqueIdentifier>{4d0806f8-ae38-4bac-8469-0a82fc61eecd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Source Files\UI\Components">
+      <UniqueIdentifier>{67f51112-db23-4c8a-af1b-f748f7bbce8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Source Files\UI\All Platforms">
+      <UniqueIdentifier>{a47c9da7-bf36-42ae-aedf-c00c071c0582}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Source Files\UI\Controls">
+      <UniqueIdentifier>{017967fb-353e-448b-ae2c-639a182f3ee0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Source Files\UI\Scenes\Frontend Menu screens">
+      <UniqueIdentifier>{f4d6c5f9-40d6-4e52-bc03-fef06e9f0221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Source Files\UI\Scenes\In-Game Menu Screens">
+      <UniqueIdentifier>{122ac1f3-113d-4f91-8676-bbe16e236f4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Source Files\UI\Scenes\In-Game Menu Screens\Containers">
+      <UniqueIdentifier>{1d28fadf-f748-4616-830b-ec2faa1b5f8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Source Files\BuildVer">
+      <UniqueIdentifier>{bf865c6c-8bf4-4bd6-aaed-ff2a7c92706a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Source Files\Leaderboards">
+      <UniqueIdentifier>{3eefa342-44e2-493a-9165-40f85bcef557}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PS3\SPUObjFiles">
+      <UniqueIdentifier>{262a14ae-51b7-4d11-be00-2bf7840dc67d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PS3\SPUObjFiles\Release">
+      <UniqueIdentifier>{40ad6aa5-e972-4aaf-bbb0-c783e72fb341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PS3\SPUObjFiles\Debug">
+      <UniqueIdentifier>{d705167f-d99e-49b5-a667-24c0c2fe7bcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PS3\SPUObjFiles\ContentPackage">
+      <UniqueIdentifier>{d52b4de1-b2d7-4c80-afb4-7c6edae1efcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net\minecraft\server\commands">
+      <UniqueIdentifier>{34edb787-189e-49c7-8412-f5def16b6f99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Source Files\Network\Sony">
+      <UniqueIdentifier>{15633337-4260-4618-bffa-df945dba2b1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Source Files\Telemetry">
+      <UniqueIdentifier>{af98fe8e-ce25-437a-8ab9-efa9d8f0a5b0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="PS3\Miles\lib\audps3.a">
+      <Filter>PS3\Miles Sound System\lib</Filter>
+    </None>
+    <None Include="PS3\Miles\lib\fltps3.a">
+      <Filter>PS3\Miles Sound System\lib</Filter>
+    </None>
+    <None Include="PS3\Miles\lib\mssps3.a">
+      <Filter>PS3\Miles Sound System\lib</Filter>
+    </None>
+    <None Include="PS3\Miles\lib\spu\binkaspu.a">
+      <Filter>PS3\Miles Sound System\lib\spu</Filter>
+    </None>
+    <None Include="PS3\Miles\lib\spu\mssppu_raw.a">
+      <Filter>PS3\Miles Sound System\lib\spu</Filter>
+    </None>
+    <None Include="PS3\Miles\lib\spu\mssppu_spurs.a">
+      <Filter>PS3\Miles Sound System\lib\spu</Filter>
+    </None>
+    <None Include="PS3\Miles\lib\spu\mssppu_sputhreads.a">
+      <Filter>PS3\Miles Sound System\lib\spu</Filter>
+    </None>
+    <None Include="PS3\Miles\lib\spu\mssspu.a">
+      <Filter>PS3\Miles Sound System\lib\spu</Filter>
+    </None>
+    <None Include="PS3\Miles\lib\spu\mssspu_raw.a">
+      <Filter>PS3\Miles Sound System\lib\spu</Filter>
+    </None>
+    <None Include="PS3\Miles\lib\spu\mssspu_spurs.a">
+      <Filter>PS3\Miles Sound System\lib\spu</Filter>
+    </None>
+    <None Include="PS3\Miles\lib\spu\mssspu_sputhreads.a">
+      <Filter>PS3\Miles Sound System\lib\spu</Filter>
+    </None>
+    <None Include="PS3\Iggy\gdraw\gdraw_ps3gcm_shaders.inl">
+      <Filter>PS3\Iggy\gdraw</Filter>
+    </None>
+    <None Include="PS3\Iggy\gdraw\gdraw_shared.inl">
+      <Filter>PS3\Iggy\gdraw</Filter>
+    </None>
+    <None Include="Network Implementation Notes.txt">
+      <Filter>Common\Source Files\Network</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Culler.h">
+      <Filter>net\minecraft\client\renderer\culling</Filter>
+    </ClInclude>
+    <ClInclude Include="AllowAllCuller.h">
+      <Filter>net\minecraft\client\renderer\culling</Filter>
+    </ClInclude>
+    <ClInclude Include="Frustum.h">
+      <Filter>net\minecraft\client\renderer\culling</Filter>
+    </ClInclude>
+    <ClInclude Include="FrustumData.h">
+      <Filter>net\minecraft\client\renderer\culling</Filter>
+    </ClInclude>
+    <ClInclude Include="stubs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FrustumCuller.h">
+      <Filter>net\minecraft\client\renderer\culling</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewportCuller.h">
+      <Filter>net\minecraft\client\renderer\culling</Filter>
+    </ClInclude>
+    <ClInclude Include="Tesselator.h">
+      <Filter>net\minecraft\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="TileRenderer.h">
+      <Filter>net\minecraft\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="Polygon.h">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="BoatModel.h">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="ChickenModel.h">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadrupedModel.h">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="CowModel.h">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="CreeperModel.h">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="GhastModel.h">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="HumanoidModel.h">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="MinecartModel.h">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="PigModel.h">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="SheepFurModel.h">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="SheepModel.h">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="SignModel.h">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="ZombieModel.h">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeletonModel.h">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="SlimeModel.h">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="SpiderModel.h">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="SquidModel.h">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="WolfModel.h">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="Chunk.h">
+      <Filter>net\minecraft\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityRenderer.h">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrowRenderer.h">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityRenderDispatcher.h">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="BoatRenderer.h">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="ChickenRenderer.h">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="MobRenderer.h">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="CowRenderer.h">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="CreeperRenderer.h">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultRenderer.h">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="FallingTileRenderer.h">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="FireballRenderer.h">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="FishingHookRenderer.h">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="GhastRenderer.h">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="GiantMobRenderer.h">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="HumanoidMobRenderer.h">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemRenderer.h">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemSpriteRenderer.h">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="LightningBoltRenderer.h">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="MinecartRenderer.h">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="PaintingRenderer.h">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="PigRenderer.h">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerRenderer.h">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalPlayer.h">
+      <Filter>net\minecraft\client\player</Filter>
+    </ClInclude>
+    <ClInclude Include="SheepRenderer.h">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="SlimeRenderer.h">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="SpiderRenderer.h">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="SquidRenderer.h">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="TntRenderer.h">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="WolfRenderer.h">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="TileEntityRenderer.h">
+      <Filter>net\minecraft\client\renderer\tileentity</Filter>
+    </ClInclude>
+    <ClInclude Include="SignRenderer.h">
+      <Filter>net\minecraft\client\renderer\tileentity</Filter>
+    </ClInclude>
+    <ClInclude Include="MobSpawnerRenderer.h">
+      <Filter>net\minecraft\client\renderer\tileentity</Filter>
+    </ClInclude>
+    <ClInclude Include="TileEntityRenderDispatcher.h">
+      <Filter>net\minecraft\client\renderer\tileentity</Filter>
+    </ClInclude>
+    <ClInclude Include="Textures.h">
+      <Filter>net\minecraft\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="TexturePack.h">
+      <Filter>net\minecraft\client\skins</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultTexturePack.h">
+      <Filter>net\minecraft\client\skins</Filter>
+    </ClInclude>
+    <ClInclude Include="FileTexturePack.h">
+      <Filter>net\minecraft\client\skins</Filter>
+    </ClInclude>
+    <ClInclude Include="TexturePackRepository.h">
+      <Filter>net\minecraft\client\skins</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpTexture.h">
+      <Filter>net\minecraft\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemInHandRenderer.h">
+      <Filter>net\minecraft\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="OffsettedRenderList.h">
+      <Filter>net\minecraft\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="DirtyChunkSorter.h">
+      <Filter>net\minecraft\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="DistanceChunkSorter.h">
+      <Filter>net\minecraft\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelRenderer.h">
+      <Filter>net\minecraft\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="MobSkinTextureProcessor.h">
+      <Filter>net\minecraft\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpTextureProcessor.h">
+      <Filter>net\minecraft\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRenderer.h">
+      <Filter>net\minecraft\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="BreakingItemParticle.h">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="BubbleParticle.h">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplodeParticle.h">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="FlameParticle.h">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="FootstepParticle.h">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="HeartParticle.h">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="LavaParticle.h">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="NoteParticle.h">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="RedDustParticle.h">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="SmokeParticle.h">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="SnowShovelParticle.h">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashParticle.h">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="TakeAnimationParticle.h">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainParticle.h">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="WaterDropParticle.h">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleEngine.h">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>net\minecraft\client</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>net\minecraft\client\player</Filter>
+    </ClInclude>
+    <ClInclude Include="StatsCounter.h">
+      <Filter>net\minecraft\stats</Filter>
+    </ClInclude>
+    <ClInclude Include="StatsSyncher.h">
+      <Filter>net\minecraft\stats</Filter>
+    </ClInclude>
+    <ClInclude Include="RemotePlayer.h">
+      <Filter>net\minecraft\client\player</Filter>
+    </ClInclude>
+    <ClInclude Include="Lighting.h">
+      <Filter>net\minecraft\client</Filter>
+    </ClInclude>
+    <ClInclude Include="Options.h">
+      <Filter>net\minecraft\client</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMapping.h">
+      <Filter>net\minecraft\client</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryTracker.h">
+      <Filter>net\minecraft\client</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>net\minecraft\client</Filter>
+    </ClInclude>
+    <ClInclude Include="Minecraft.h">
+      <Filter>net\minecraft\client</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressRenderer.h">
+      <Filter>net\minecraft\client</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoLevel.h">
+      <Filter>net\minecraft\client\level</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoUser.h">
+      <Filter>net\minecraft\client</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiComponent.h">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui.h">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiMessage.h">
+      <Filter>net\minecraft\client</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiParticle.h">
+      <Filter>net\minecraft\client\gui\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiParticles.h">
+      <Filter>net\minecraft\client\gui\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="SlideButton.h">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="SmallButton.h">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatScreen.h">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfirmScreen.h">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlsScreen.h">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="EditBox.h">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateWorldScreen.h">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="DeathScreen.h">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorScreen.h">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="NameEntryScreen.h">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionsScreen.h">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoSettingsScreen.h">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseScreen.h">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScreen.h">
+      <Filter>net\minecraft\client\title</Filter>
+    </ClInclude>
+    <ClInclude Include="InBedChatScreen.h">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrolledSelectionList.h">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectWorldScreen.h">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="RenameWorldScreen.h">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenSizeCalculator.h">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="JoinMultiplayerScreen.h">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Minimap.h">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractContainerScreen.h">
+      <Filter>net\minecraft\client\gui\inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="ContainerScreen.h">
+      <Filter>net\minecraft\client\gui\inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="CraftingScreen.h">
+      <Filter>net\minecraft\client\gui\inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="FurnaceScreen.h">
+      <Filter>net\minecraft\client\gui\inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="InventoryScreen.h">
+      <Filter>net\minecraft\client\gui\inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="TrapScreen.h">
+      <Filter>net\minecraft\client\gui\inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="TextEditScreen.h">
+      <Filter>net\minecraft\client\gui\inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="AchievementPopup.h">
+      <Filter>net\minecraft\client\gui\achievement</Filter>
+    </ClInclude>
+    <ClInclude Include="AchievementScreen.h">
+      <Filter>net\minecraft\client\gui\achievement</Filter>
+    </ClInclude>
+    <ClInclude Include="StatsScreen.h">
+      <Filter>net\minecraft\client\gui\achievement</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerConnection.h">
+      <Filter>net\minecraft\server\network</Filter>
+    </ClInclude>
+    <ClInclude Include="PendingConnection.h">
+      <Filter>net\minecraft\server\network</Filter>
+    </ClInclude>
+    <ClInclude Include="DerivedServerLevel.h">
+      <Filter>net\minecraft\server\level</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityTracker.h">
+      <Filter>net\minecraft\server\level</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerLevelListener.h">
+      <Filter>net\minecraft\server\level</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerChunkCache.h">
+      <Filter>net\minecraft\server\level</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerLevel.h">
+      <Filter>net\minecraft\server\level</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerPlayer.h">
+      <Filter>net\minecraft\server\level</Filter>
+    </ClInclude>
+    <ClInclude Include="TrackedEntity.h">
+      <Filter>net\minecraft\server\level</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerList.h">
+      <Filter>net\minecraft\server</Filter>
+    </ClInclude>
+    <ClInclude Include="MinecraftServer.h">
+      <Filter>net\minecraft\server</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleInputSource.h">
+      <Filter>net\minecraft\server</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleInput.h">
+      <Filter>net\minecraft\server</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>net\minecraft\server</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerChunkMap.h">
+      <Filter>net\minecraft\server\level</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientConnection.h">
+      <Filter>net\minecraft\client\multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectScreen.h">
+      <Filter>net\minecraft\client\multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="DisconnectedScreen.h">
+      <Filter>net\minecraft\client\multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiPlayerChunkCache.h">
+      <Filter>net\minecraft\client\multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiPlayerGameMode.h">
+      <Filter>net\minecraft\client\multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiPlayerLevel.h">
+      <Filter>net\minecraft\client\multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiPlayerLocalPlayer.h">
+      <Filter>net\minecraft\client\multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="ReceivingLevelScreen.h">
+      <Filter>net\minecraft\client\multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="MemTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MemTextureProcessor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MobSkinMemTextureProcessor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerConnection.h">
+      <Filter>net\minecraft\server\network</Filter>
+    </ClInclude>
+    <ClInclude Include="PistonPieceRenderer.h">
+      <Filter>net\minecraft\client\renderer\tileentity</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerPlayerGameMode.h">
+      <Filter>net\minecraft\server\level</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerConnection.h">
+      <Filter>net\minecraft\server\network</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientConstants.h">
+      <Filter>net\minecraft\client</Filter>
+    </ClInclude>
+    <ClInclude Include="ChestModel.h">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="EndermanModel.h">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="LargeChestModel.h">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="SilverfishModel.h">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInfo.h">
+      <Filter>net\minecraft\client\multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="CritParticle.h">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="CritParticle2.h">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="HugeExplosionParticle.h">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="HugeExplosionSeedParticle.h">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCloudParticle.h">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="SuspendedParticle.h">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="SuspendedTownParticle.h">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityTileRenderer.h">
+      <Filter>net\minecraft\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="EndermanRenderer.h">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="ExperienceOrbRenderer.h">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="SilverfishRenderer.h">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="ChestRenderer.h">
+      <Filter>net\minecraft\client\renderer\tileentity</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>net\minecraft\client</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerInterface.h">
+      <Filter>net\minecraft\server</Filter>
+    </ClInclude>
+    <ClInclude Include="BlazeRenderer.h">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="EnderCrystalRenderer.h">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="EnderDragonRenderer.h">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="LavaSlimeRenderer.h">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="MushroomCowRenderer.h">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="SnowManRenderer.h">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="VillagerRenderer.h">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="EnchantTableRenderer.h">
+      <Filter>net\minecraft\client\renderer\tileentity</Filter>
+    </ClInclude>
+    <ClInclude Include="TheEndPortalRenderer.h">
+      <Filter>net\minecraft\client\renderer\tileentity</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>net\minecraft\client\model\geom</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>net\minecraft\client\model\geom</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonModel.h">
+      <Filter>net\minecraft\client\model\dragon</Filter>
+    </ClInclude>
+    <ClInclude Include="DripParticle.h">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="EchantmentTableParticle.h">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelPart.h">
+      <Filter>net\minecraft\client\model\geom</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellParticle.h">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="TexOffs.h">
+      <Filter>net\minecraft\client\model\geom</Filter>
+    </ClInclude>
+    <ClInclude Include="EnderCrystalModel.h">
+      <Filter>net\minecraft\client\model\dragon</Filter>
+    </ClInclude>
+    <ClInclude Include="BlazeModel.h">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="BookModel.h">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>net\minecraft\client\model\geom</Filter>
+    </ClInclude>
+    <ClInclude Include="LavaSlimeModel.h">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="SnowManModel.h">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="VillagerModel.h">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>net\minecraft\client\model\geom</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="extraX64client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Trial\TrialMode.h">
+      <Filter>Common\Source Files\Trial</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Tutorial\AreaConstraint.h">
+      <Filter>Common\Source Files\Tutorial\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Tutorial\ChangeStateConstraint.h">
+      <Filter>Common\Source Files\Tutorial\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Tutorial\InputConstraint.h">
+      <Filter>Common\Source Files\Tutorial\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Tutorial\TutorialConstraint.h">
+      <Filter>Common\Source Files\Tutorial\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Tutorial\TutorialConstraints.h">
+      <Filter>Common\Source Files\Tutorial\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Tutorial\AreaHint.h">
+      <Filter>Common\Source Files\Tutorial\Hints</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Tutorial\DiggerItemHint.h">
+      <Filter>Common\Source Files\Tutorial\Hints</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Tutorial\LookAtEntityHint.h">
+      <Filter>Common\Source Files\Tutorial\Hints</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Tutorial\TakeItemHint.h">
+      <Filter>Common\Source Files\Tutorial\Hints</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Tutorial\TutorialHint.h">
+      <Filter>Common\Source Files\Tutorial\Hints</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Tutorial\TutorialHints.h">
+      <Filter>Common\Source Files\Tutorial\Hints</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Tutorial\AreaTask.h">
+      <Filter>Common\Source Files\Tutorial\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Tutorial\ChoiceTask.h">
+      <Filter>Common\Source Files\Tutorial\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Tutorial\CompleteUsingItemTask.h">
+      <Filter>Common\Source Files\Tutorial\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Tutorial\ControllerTask.h">
+      <Filter>Common\Source Files\Tutorial\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Tutorial\CraftTask.h">
+      <Filter>Common\Source Files\Tutorial\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Tutorial\EffectChangedTask.h">
+      <Filter>Common\Source Files\Tutorial\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Tutorial\FullTutorialActiveTask.h">
+      <Filter>Common\Source Files\Tutorial\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Tutorial\InfoTask.h">
+      <Filter>Common\Source Files\Tutorial\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Tutorial\PickupTask.h">
+      <Filter>Common\Source Files\Tutorial\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Tutorial\ProcedureCompoundTask.h">
+      <Filter>Common\Source Files\Tutorial\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Tutorial\ProgressFlagTask.h">
+      <Filter>Common\Source Files\Tutorial\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Tutorial\StateChangeTask.h">
+      <Filter>Common\Source Files\Tutorial\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Tutorial\StatTask.h">
+      <Filter>Common\Source Files\Tutorial\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Tutorial\TutorialTask.h">
+      <Filter>Common\Source Files\Tutorial\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Tutorial\TutorialTasks.h">
+      <Filter>Common\Source Files\Tutorial\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Tutorial\UseItemTask.h">
+      <Filter>Common\Source Files\Tutorial\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Tutorial\UseTileTask.h">
+      <Filter>Common\Source Files\Tutorial\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Tutorial\XuiCraftingTask.h">
+      <Filter>Common\Source Files\Tutorial\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GameRules\XboxStructureActionGenerateBox.h">
+      <Filter>Common\Source Files\GameRules\LevelGeneration\StructureActions</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GameRules\XboxStructureActionPlaceBlock.h">
+      <Filter>Common\Source Files\GameRules\LevelGeneration\StructureActions</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GameRules\XboxStructureActionPlaceContainer.h">
+      <Filter>Common\Source Files\GameRules\LevelGeneration\StructureActions</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GameRules\XboxStructureActionPlaceSpawner.h">
+      <Filter>Common\Source Files\GameRules\LevelGeneration\StructureActions</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GameRules\ApplySchematicRuleDefinition.h">
+      <Filter>Common\Source Files\GameRules\LevelGeneration</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GameRules\AddEnchantmentRuleDefinition.h">
+      <Filter>Common\Source Files\GameRules\LevelRules\RuleDefinitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GameRules\AddItemRuleDefinition.h">
+      <Filter>Common\Source Files\GameRules\LevelRules\RuleDefinitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GameRules\CollectItemRuleDefinition.h">
+      <Filter>Common\Source Files\GameRules\LevelRules\RuleDefinitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GameRules\CompleteAllRuleDefinition.h">
+      <Filter>Common\Source Files\GameRules\LevelRules\RuleDefinitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GameRules\CompoundGameRuleDefinition.h">
+      <Filter>Common\Source Files\GameRules\LevelRules\RuleDefinitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GameRules\UpdatePlayerRuleDefinition.h">
+      <Filter>Common\Source Files\GameRules\LevelRules\RuleDefinitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GameRules\UseTileRuleDefinition.h">
+      <Filter>Common\Source Files\GameRules\LevelRules\RuleDefinitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Tutorial\FullTutorial.h">
+      <Filter>Common\Source Files\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Tutorial\FullTutorialMode.h">
+      <Filter>Common\Source Files\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Tutorial\Tutorial.h">
+      <Filter>Common\Source Files\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Tutorial\TutorialEnum.h">
+      <Filter>Common\Source Files\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Tutorial\TutorialMessage.h">
+      <Filter>Common\Source Files\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Tutorial\TutorialMode.h">
+      <Filter>Common\Source Files\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Tutorial\LookAtTileHint.h">
+      <Filter>Common\Source Files\Tutorial\Hints</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Potion_Macros.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\4JLibs\inc\4J_Input.h">
+      <Filter>PS3\4JLibs\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\4JLibs\inc\4J_Profile.h">
+      <Filter>PS3\4JLibs\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\4JLibs\inc\4J_Render.h">
+      <Filter>PS3\4JLibs\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\4JLibs\inc\4J_Storage.h">
+      <Filter>PS3\4JLibs\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\Social\SocialManager.h">
+      <Filter>PS3\Source Files\Social</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\Sentient\DynamicConfigurations.h">
+      <Filter>PS3\Source Files\Sentient</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\Sentient\MinecraftTelemetry.h">
+      <Filter>PS3\Source Files\Sentient</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\Sentient\SentientManager.h">
+      <Filter>PS3\Source Files\Sentient</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\Sentient\SentientStats.h">
+      <Filter>PS3\Source Files\Sentient</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\Sentient\SentientTelemetryCommon.h">
+      <Filter>PS3\Source Files\Sentient</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\Sentient\TelemetryEnum.h">
+      <Filter>PS3\Source Files\Sentient</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\Minecraft_Macros.h">
+      <Filter>PS3\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\PS3Extras\Ps3Stubs.h">
+      <Filter>PS3\PS3Extras</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\PS3Extras\Ps3Types.h">
+      <Filter>PS3\PS3Extras</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Console_Awards_enum.h">
+      <Filter>Common\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Console_Debug_enum.h">
+      <Filter>Common\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\ConsoleGameMode.h">
+      <Filter>Common\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GameRules\ConsoleGenerateStructureAction.h">
+      <Filter>Common\Source Files\GameRules\LevelGeneration</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GameRules\ConsoleGenerateStructure.h">
+      <Filter>Common\Source Files\GameRules\LevelGeneration</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GameRules\ConsoleGameRules.h">
+      <Filter>Common\Source Files\GameRules</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GameRules\ConsoleGameRulesConstants.h">
+      <Filter>Common\Source Files\GameRules</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\PS3_App.h">
+      <Filter>PS3</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractTexturePack.h">
+      <Filter>net\minecraft\client\skins</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBreathParticle.h">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="FolderTexturePack.h">
+      <Filter>net\minecraft\client\skins</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemFrameRenderer.h">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect2i.h">
+      <Filter>net\minecraft\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="StitchedTexture.h">
+      <Filter>net\minecraft\client\renderer\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Stitcher.h">
+      <Filter>net\minecraft\client\renderer\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="StitchSlot.h">
+      <Filter>net\minecraft\client\renderer\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>net\minecraft\client\renderer\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureHolder.h">
+      <Filter>net\minecraft\client\renderer\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>net\minecraft\client\renderer\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMap.h">
+      <Filter>net\minecraft\client\renderer\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="ClockTexture.h">
+      <Filter>net\minecraft\client\renderer\texture\custom</Filter>
+    </ClInclude>
+    <ClInclude Include="CompassTexture.h">
+      <Filter>net\minecraft\client\renderer\texture\custom</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\PS3Extras\winerror.h">
+      <Filter>PS3\PS3Extras</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\PS3Extras\TLSStorage.h">
+      <Filter>PS3\PS3Extras</Filter>
+    </ClInclude>
+    <ClInclude Include="PreStitchedTextureMap.h">
+      <Filter>net\minecraft\client\renderer\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleIcon.h">
+      <Filter>net\minecraft\client\renderer\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="DLCTexturePack.h">
+      <Filter>net\minecraft\client\skins</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DLC\DLCCapeFile.h">
+      <Filter>Common\Source Files\DLC</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DLC\DLCFile.h">
+      <Filter>Common\Source Files\DLC</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DLC\DLCManager.h">
+      <Filter>Common\Source Files\DLC</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DLC\DLCPack.h">
+      <Filter>Common\Source Files\DLC</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DLC\DLCSkinFile.h">
+      <Filter>Common\Source Files\DLC</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DLC\DLCTextureFile.h">
+      <Filter>Common\Source Files\DLC</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferedImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Orbis\GameConfig\Minecraft.spa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DLC\DLCUIDataFile.h">
+      <Filter>Common\Source Files\DLC</Filter>
+    </ClInclude>
+    <ClInclude Include="EnderParticle.h">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="NetherPortalParticle.h">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\App_Defines.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\App_enums.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\App_structs.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Consoles_App.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="OzelotModel.h">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="VillagerGolemModel.h">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="OzelotRenderer.h">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="VillagerGolemRenderer.h">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\Miles\include\mss.h">
+      <Filter>PS3\Miles Sound System\include</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\Miles\include\rrCore.h">
+      <Filter>PS3\Miles Sound System\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Audio\Consoles_SoundEngine.h">
+      <Filter>Common\Source Files\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Audio\SoundEngine.h">
+      <Filter>Common\Source Files\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\PS3Extras\C4JThread_SPU.h">
+      <Filter>PS3\PS3Extras</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\ThinFenceTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\Tile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\TileRenderer_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\TntTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\TopSnowTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\TorchTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\TrapDoorTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\TreeTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\VineTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\WaterLilyTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\WebTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\WoodTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\WorkbenchTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\BedTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\BookshelfTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\BrewingStandTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\Bush_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\ButtonTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\CactusTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\CakeTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\CauldronTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\ChestTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\ChunkRebuildData.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\CocoaTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\CropTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\DetectorRailTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\DiodeTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\Direction_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\DirectionalTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\DirtTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\DispenserTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\DoorTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\EggTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\EnchantmentTableTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\EntityTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\Facing_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\FarmTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\FenceGateTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\FenceTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\FireTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\FurnaceTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\GlassTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\GrassTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\HalfSlabTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\HalfTransparentTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\HugeMushroomTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\IceTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\Icon_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\LadderTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\LeafTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\LeverTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\LiquidTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\Material_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\MelonTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\Mushroom_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\MycelTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\NetherStalkTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\PistonBaseTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\PistonExtensionTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\PistonMovingPiece_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\PortalTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\PressurePlateTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\PumpkinTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\RailTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\RecordPlayerTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\RedlightTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\RedStoneDustTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\ReedTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\SandStoneTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\Sapling_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\SignTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\SmoothStoneBrickTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\StairTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\stdafx.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\StemTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\StoneMonsterTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\stubs_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\TallGrass_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\Tesselator_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\TheEndPortal_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\ChunkUpdate\TheEndPortalFrameTile_SPU.h">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\SPU_Tasks\CompressedTile\CompressedTileStorage_SPU.h">
+      <Filter>PS3\CompressedTile_SPU</Filter>
+    </ClInclude>
+    <ClInclude Include="StringTable.h">
+      <Filter>Common\Source Files\Localisation</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DLC\DLCLocalisationFile.h">
+      <Filter>Common\Source Files\DLC</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GameRules\LevelGenerationOptions.h">
+      <Filter>Common\Source Files\GameRules\LevelGeneration</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GameRules\LevelGenerators.h">
+      <Filter>Common\Source Files\GameRules\LevelGeneration</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GameRules\ConsoleSchematicFile.h">
+      <Filter>Common\Source Files\GameRules\LevelGeneration</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GameRules\GameRuleDefinition.h">
+      <Filter>Common\Source Files\GameRules\LevelRules\RuleDefinitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GameRules\GameRule.h">
+      <Filter>Common\Source Files\GameRules\LevelRules\Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GameRules\LevelRules.h">
+      <Filter>Common\Source Files\GameRules\LevelRules</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DLC\DLCGameRulesFile.h">
+      <Filter>Common\Source Files\DLC</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\PS3Extras\C4JSpursJob.h">
+      <Filter>PS3</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GameRules\GameRulesInstance.h">
+      <Filter>Common\Source Files\GameRules\LevelRules\Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GameRules\GameRuleManager.h">
+      <Filter>Common\Source Files\GameRules</Filter>
+    </ClInclude>
+    <ClInclude Include="WstringLookup.h">
+      <Filter>Common\Source Files\GameRules</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GameRules\LevelRuleset.h">
+      <Filter>Common\Source Files\GameRules\LevelRules\RuleDefinitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GameRules\NamedAreaRuleDefinition.h">
+      <Filter>Common\Source Files\GameRules\LevelRules\RuleDefinitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIController.h">
+      <Filter>Common\Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIGroup.h">
+      <Filter>Common\Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UILayer.h">
+      <Filter>Common\Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene.h">
+      <Filter>Common\Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UI.h">
+      <Filter>Common\Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GameRules\BiomeOverride.h">
+      <Filter>Common\Source Files\GameRules\LevelGeneration</Filter>
+    </ClInclude>
+    <ClInclude Include="SkullTileRenderer.h">
+      <Filter>net\minecraft\client\renderer\tileentity</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeletonHeadModel.h">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DLC\DLCAudioFile.h">
+      <Filter>Common\Source Files\DLC</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Colours\ColourTable.h">
+      <Filter>Common\Source Files\Colours</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DLC\DLCColourTableFile.h">
+      <Filter>Common\Source Files\DLC</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DLC\DLCGameRulesHeader.h">
+      <Filter>Common\Source Files\DLC</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DLC\DLCGameRules.h">
+      <Filter>Common\Source Files\DLC</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\PS3_UIController.h">
+      <Filter>PS3</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\Iggy\gdraw\gdraw_ps3gcm.h">
+      <Filter>PS3\Iggy\gdraw</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\Iggy\include\gdraw.h">
+      <Filter>PS3\Iggy\include</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\Iggy\include\iggy.h">
+      <Filter>PS3\Iggy\include</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\Iggy\include\iggyexpruntime.h">
+      <Filter>PS3\Iggy\include</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\Iggy\include\iggyperfmon.h">
+      <Filter>PS3\Iggy\include</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\Iggy\include\iggyperfmon_ps3.h">
+      <Filter>PS3\Iggy\include</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\Iggy\include\rrCore.h">
+      <Filter>PS3\Iggy\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\zlib\crc32.h">
+      <Filter>Common\Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\zlib\deflate.h">
+      <Filter>Common\Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\zlib\gzguts.h">
+      <Filter>Common\Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\zlib\inffast.h">
+      <Filter>Common\Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\zlib\inffixed.h">
+      <Filter>Common\Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\zlib\inflate.h">
+      <Filter>Common\Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\zlib\inftrees.h">
+      <Filter>Common\Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\zlib\trees.h">
+      <Filter>Common\Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\zlib\zconf.h">
+      <Filter>Common\Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\zlib\zlib.h">
+      <Filter>Common\Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\zlib\zutil.h">
+      <Filter>Common\Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Network\NetworkPlayerInterface.h">
+      <Filter>Common\Source Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIBitmapFont.h">
+      <Filter>Common\Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UITTFFont.h">
+      <Filter>Common\Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_DebugOverlay.h">
+      <Filter>Common\Source Files\UI\Scenes\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Network\SessionInfo.h">
+      <Filter>Common\Source Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Network\GameNetworkManager.h">
+      <Filter>Common\Source Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\PS3Extras\EdgeZLib.h">
+      <Filter>PS3\PS3Extras</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_MainMenu.h">
+      <Filter>Common\Source Files\UI\Scenes\Frontend Menu screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_CreativeMenu.h">
+      <Filter>Common\Source Files\UI\Scenes\In-Game Menu Screens\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_InventoryMenu.h">
+      <Filter>Common\Source Files\UI\Scenes\In-Game Menu Screens\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_ContainerMenu.h">
+      <Filter>Common\Source Files\UI\Scenes\In-Game Menu Screens\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_AbstractContainerMenu.h">
+      <Filter>Common\Source Files\UI\Scenes\In-Game Menu Screens\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_LoadMenu.h">
+      <Filter>Common\Source Files\UI\Scenes\Frontend Menu screens</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\PS3Extras\PS3Maths.h">
+      <Filter>PS3\PS3Extras</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_CreateWorldMenu.h">
+      <Filter>Common\Source Files\UI\Scenes\Frontend Menu screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_FullscreenProgress.h">
+      <Filter>Common\Source Files\UI\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_HUD.h">
+      <Filter>Common\Source Files\UI\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIComponent_Panorama.h">
+      <Filter>Common\Source Files\UI\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_LoadOrJoinMenu.h">
+      <Filter>Common\Source Files\UI\Scenes\Frontend Menu screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_LaunchMoreOptionsMenu.h">
+      <Filter>Common\Source Files\UI\Scenes\Frontend Menu screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\IUIScene_CreativeMenu.h">
+      <Filter>Common\Source Files\UI\All Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIStructs.h">
+      <Filter>Common\Source Files\UI\All Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIEnums.h">
+      <Filter>Common\Source Files\UI\All Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\IUIScene_AbstractContainerMenu.h">
+      <Filter>Common\Source Files\UI\All Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\IUIScene_ContainerMenu.h">
+      <Filter>Common\Source Files\UI\All Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\IUIScene_InventoryMenu.h">
+      <Filter>Common\Source Files\UI\All Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\IUIScene_EnchantingMenu.h">
+      <Filter>Common\Source Files\UI\All Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\IUIScene_FurnaceMenu.h">
+      <Filter>Common\Source Files\UI\All Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\IUIScene_DispenserMenu.h">
+      <Filter>Common\Source Files\UI\All Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\IUIScene_BrewingMenu.h">
+      <Filter>Common\Source Files\UI\All Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_BrewingStandMenu.h">
+      <Filter>Common\Source Files\UI\Scenes\In-Game Menu Screens\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_DispenserMenu.h">
+      <Filter>Common\Source Files\UI\Scenes\In-Game Menu Screens\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_FurnaceMenu.h">
+      <Filter>Common\Source Files\UI\Scenes\In-Game Menu Screens\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_EnchantingMenu.h">
+      <Filter>Common\Source Files\UI\Scenes\In-Game Menu Screens\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_HelpAndOptionsMenu.h">
+      <Filter>Common\Source Files\UI\Scenes\Help &amp; Options</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_SettingsMenu.h">
+      <Filter>Common\Source Files\UI\Scenes\Help &amp; Options</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_SettingsOptionsMenu.h">
+      <Filter>Common\Source Files\UI\Scenes\Help &amp; Options</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIControl.h">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIControl_Button.h">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIControl_CheckBox.h">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIControl_Slider.h">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIControl_Label.h">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIControl_TextInput.h">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIControl_SlotList.h">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIControl_Cursor.h">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIControl_Progress.h">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_SettingsAudioMenu.h">
+      <Filter>Common\Source Files\UI\Scenes\Help &amp; Options</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_SettingsControlMenu.h">
+      <Filter>Common\Source Files\UI\Scenes\Help &amp; Options</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_SettingsGraphicsMenu.h">
+      <Filter>Common\Source Files\UI\Scenes\Help &amp; Options</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_SettingsUIMenu.h">
+      <Filter>Common\Source Files\UI\Scenes\Help &amp; Options</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Network\PlatformNetworkManagerInterface.h">
+      <Filter>Common\Source Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\IUIScene_CraftingMenu.h">
+      <Filter>Common\Source Files\UI\All Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_DebugOptions.h">
+      <Filter>Common\Source Files\UI\Scenes\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIComponent_DebugUIConsole.h">
+      <Filter>Common\Source Files\UI\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Network\PlatformNetworkManagerStub.h">
+      <Filter>Common\Source Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIControl_ButtonList.h">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_JoinMenu.h">
+      <Filter>Common\Source Files\UI\Scenes\Frontend Menu screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIComponent_Logo.h">
+      <Filter>Common\Source Files\UI\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIComponent_Tooltips.h">
+      <Filter>Common\Source Files\UI\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_CraftingMenu.h">
+      <Filter>Common\Source Files\UI\Scenes\In-Game Menu Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_DeathMenu.h">
+      <Filter>Common\Source Files\UI\Scenes\In-Game Menu Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_ConnectingProgress.h">
+      <Filter>Common\Source Files\UI\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\BuildVer.h">
+      <Filter>Common\Source Files\BuildVer</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_SkinSelectMenu.h">
+      <Filter>Common\Source Files\UI\Scenes\Help &amp; Options</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIControl_PlayerSkinPreview.h">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="ArchiveFile.h">
+      <Filter>Common\Source Files\UI\All Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\IUIController.h">
+      <Filter>Common\Source Files\UI\All Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_PauseMenu.h">
+      <Filter>Common\Source Files\UI\Scenes\In-Game Menu Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIComponent_TutorialPopup.h">
+      <Filter>Common\Source Files\UI\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_Intro.h">
+      <Filter>Common\Source Files\UI\Scenes\Frontend Menu screens</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\Passphrase\ps3__np_conf.h">
+      <Filter>PS3</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_SaveMessage.h">
+      <Filter>Common\Source Files\UI\Scenes\Frontend Menu screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_HowToPlayMenu.h">
+      <Filter>Common\Source Files\UI\Scenes\Help &amp; Options</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_SignEntryMenu.h">
+      <Filter>Common\Source Files\UI\Scenes\In-Game Menu Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_QuadrantSignin.h">
+      <Filter>Common\Source Files\UI\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\IUIScene_PauseMenu.h">
+      <Filter>Common\Source Files\UI\All Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIComponent_Chat.h">
+      <Filter>Common\Source Files\UI\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_MessageBox.h">
+      <Filter>Common\Source Files\UI\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIControl_TexturePackList.h">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\Network\SonyVoiceChat.h">
+      <Filter>PS3\Source Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\Leaderboards\PS3LeaderboardManager.h">
+      <Filter>PS3\Source Files\Leaderboards</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\Leaderboards\base64.h">
+      <Filter>PS3\Source Files\Leaderboards</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Leaderboards\LeaderboardManager.h">
+      <Filter>Common\Source Files\Leaderboards</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_HowToPlay.h">
+      <Filter>Common\Source Files\UI\Scenes\Help &amp; Options</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_InGameInfoMenu.h">
+      <Filter>Common\Source Files\UI\Scenes\In-Game Menu Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_LeaderboardsMenu.h">
+      <Filter>Common\Source Files\UI\Scenes\Frontend Menu screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIControl_LeaderboardList.h">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_ControlsMenu.h">
+      <Filter>Common\Source Files\UI\Scenes\Help &amp; Options</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_DLCMainMenu.h">
+      <Filter>Common\Source Files\UI\Scenes\Frontend Menu screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_DLCOffersMenu.h">
+      <Filter>Common\Source Files\UI\Scenes\Frontend Menu screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIControl_SaveList.h">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIControl_PlayerList.h">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIControl_BitmapIcon.h">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_Timer.h">
+      <Filter>Common\Source Files\UI\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIControl_Base.h">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIControl_DLCList.h">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\PS3Extras\PS3Strings.h">
+      <Filter>PS3\PS3Extras</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_InGameHostOptionsMenu.h">
+      <Filter>Common\Source Files\UI\Scenes\In-Game Menu Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIControl_MinecraftPlayer.h">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIControl_EnchantmentButton.h">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIControl_EnchantmentBook.h">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_EndPoem.h">
+      <Filter>Common\Source Files\UI\Scenes\In-Game Menu Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIControl_HTMLLabel.h">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_InGamePlayerOptionsMenu.h">
+      <Filter>Common\Source Files\UI\Scenes\In-Game Menu Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\PS3Extras\ShutdownManager.h">
+      <Filter>PS3\PS3Extras</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_TrialExitUpsell.h">
+      <Filter>Common\Source Files\UI\Scenes\Frontend Menu screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_ReinstallMenu.h">
+      <Filter>Common\Source Files\UI\Scenes\Help &amp; Options</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_Credits.h">
+      <Filter>Common\Source Files\UI\Scenes\Help &amp; Options</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIComponent_PressStartToPlay.h">
+      <Filter>Common\Source Files\UI\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\4JLibs\STO_TitleSmallStorage.h">
+      <Filter>PS3\4JLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIComponent_MenuBackground.h">
+      <Filter>Common\Source Files\UI\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_EULA.h">
+      <Filter>Common\Source Files\UI\Scenes\Frontend Menu screens</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\PS3_PlayerUID.h">
+      <Filter>PS3\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIControl_DynamicLabel.h">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="EnderChestRenderer.h">
+      <Filter>net\minecraft\client\renderer\tileentity</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\IUIScene_TradingMenu.h">
+      <Filter>Common\Source Files\UI\All Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_TradingMenu.h">
+      <Filter>Common\Source Files\UI\Scenes\In-Game Menu Screens\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_DebugSetCamera.h">
+      <Filter>Common\Source Files\UI\Scenes\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_AnvilMenu.h">
+      <Filter>Common\Source Files\UI\Scenes\In-Game Menu Screens\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\IUIScene_AnvilMenu.h">
+      <Filter>Common\Source Files\UI\All Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="VillagerZombieModel.h">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="ZombieRenderer.h">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerCommandDispatcher.h">
+      <Filter>net\minecraft\server\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="TeleportCommand.h">
+      <Filter>net\minecraft\server\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Network\Sony\SQRNetworkPlayer.h">
+      <Filter>Common\Source Files\Network\Sony</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Network\Sony\SQRNetworkManager.h">
+      <Filter>Common\Source Files\Network\Sony</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\Network\SQRNetworkManager_PS3.h">
+      <Filter>PS3\Source Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Network\Sony\PlatformNetworkManagerSony.h">
+      <Filter>Common\Source Files\Network\Sony</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Network\Sony\NetworkPlayerSony.h">
+      <Filter>Common\Source Files\Network\Sony</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Network\Sony\SonyHttp.h">
+      <Filter>Common\Source Files\Network\Sony</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Network\Sony\SonyCommerce.h">
+      <Filter>Common\Source Files\Network\Sony</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\Network\SonyCommerce_PS3.h">
+      <Filter>PS3\Source Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\Network\SonyHttp_PS3.h">
+      <Filter>PS3\Source Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GameRules\StartFeature.h">
+      <Filter>Common\Source Files\GameRules\LevelGeneration</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_TeleportMenu.h">
+      <Filter>Common\Source Files\UI\Scenes\In-Game Menu Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_DebugCreateSchematic.h">
+      <Filter>Common\Source Files\UI\Scenes\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Telemetry\TelemetryManager.h">
+      <Filter>Common\Source Files\Telemetry</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIFontData.h">
+      <Filter>Common\Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Network\Sony\SonyRemoteStorage.h">
+      <Filter>Common\Source Files\Network\Sony</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3\Network\SonyRemoteStorage_PS3.h">
+      <Filter>PS3\Source Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIComponent_DebugUIMarketingGuide.h">
+      <Filter>Common\Source Files\UI\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIControl_Touch.h">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\IUIScene_StartGame.h">
+      <Filter>Common\Source Files\UI\Scenes\Frontend Menu screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIControl_SpaceIndicatorBar.h">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_InGameSaveManagementMenu.h">
+      <Filter>Common\Source Files\UI\Scenes\In-Game Menu Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\UIScene_Keyboard.h">
+      <Filter>Common\Source Files\UI\Scenes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AllowAllCuller.cpp">
+      <Filter>net\minecraft\client\renderer\culling</Filter>
+    </ClCompile>
+    <ClCompile Include="FrustumData.cpp">
+      <Filter>net\minecraft\client\renderer\culling</Filter>
+    </ClCompile>
+    <ClCompile Include="Frustum.cpp">
+      <Filter>net\minecraft\client\renderer\culling</Filter>
+    </ClCompile>
+    <ClCompile Include="FrustumCuller.cpp">
+      <Filter>net\minecraft\client\renderer\culling</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewportCuller.cpp">
+      <Filter>net\minecraft\client\renderer\culling</Filter>
+    </ClCompile>
+    <ClCompile Include="stubs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tesselator.cpp">
+      <Filter>net\minecraft\client\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="TileRenderer.cpp">
+      <Filter>net\minecraft\client\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex.cpp">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClCompile>
+    <ClCompile Include="Polygon.cpp">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClCompile>
+    <ClCompile Include="BoatModel.cpp">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClCompile>
+    <ClCompile Include="ChickenModel.cpp">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadrupedModel.cpp">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClCompile>
+    <ClCompile Include="CowModel.cpp">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClCompile>
+    <ClCompile Include="CreeperModel.cpp">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClCompile>
+    <ClCompile Include="GhastModel.cpp">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClCompile>
+    <ClCompile Include="HumanoidModel.cpp">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClCompile>
+    <ClCompile Include="MinecartModel.cpp">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClCompile>
+    <ClCompile Include="PigModel.cpp">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClCompile>
+    <ClCompile Include="SheepFurModel.cpp">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClCompile>
+    <ClCompile Include="SheepModel.cpp">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClCompile>
+    <ClCompile Include="SignModel.cpp">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClCompile>
+    <ClCompile Include="ZombieModel.cpp">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClCompile>
+    <ClCompile Include="SkeletonModel.cpp">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClCompile>
+    <ClCompile Include="SlimeModel.cpp">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClCompile>
+    <ClCompile Include="SpiderModel.cpp">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClCompile>
+    <ClCompile Include="SquidModel.cpp">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClCompile>
+    <ClCompile Include="WolfModel.cpp">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClCompile>
+    <ClCompile Include="Chunk.cpp">
+      <Filter>net\minecraft\client\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrowRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityRenderDispatcher.cpp">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="BoatRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="MobRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="ChickenRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="CowRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="FallingTileRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="CreeperRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="FireballRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="FishingHookRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="GhastRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="GiantMobRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemSpriteRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="LightningBoltRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="MinecartRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="PaintingRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="PigRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="SheepRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="SlimeRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="SpiderRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="SquidRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="TntRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="WolfRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="HumanoidMobRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="TileEntityRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\tileentity</Filter>
+    </ClCompile>
+    <ClCompile Include="SignRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\tileentity</Filter>
+    </ClCompile>
+    <ClCompile Include="MobSpawnerRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\tileentity</Filter>
+    </ClCompile>
+    <ClCompile Include="TileEntityRenderDispatcher.cpp">
+      <Filter>net\minecraft\client\renderer\tileentity</Filter>
+    </ClCompile>
+    <ClCompile Include="Textures.cpp">
+      <Filter>net\minecraft\client\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultTexturePack.cpp">
+      <Filter>net\minecraft\client\skins</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTexturePack.cpp">
+      <Filter>net\minecraft\client\skins</Filter>
+    </ClCompile>
+    <ClCompile Include="TexturePackRepository.cpp">
+      <Filter>net\minecraft\client\skins</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpTexture.cpp">
+      <Filter>net\minecraft\client\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemInHandRenderer.cpp">
+      <Filter>net\minecraft\client\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="OffsettedRenderList.cpp">
+      <Filter>net\minecraft\client\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="DirtyChunkSorter.cpp">
+      <Filter>net\minecraft\client\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="DistanceChunkSorter.cpp">
+      <Filter>net\minecraft\client\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelRenderer.cpp">
+      <Filter>net\minecraft\client\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="MobSkinTextureProcessor.cpp">
+      <Filter>net\minecraft\client\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRenderer.cpp">
+      <Filter>net\minecraft\client\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="BreakingItemParticle.cpp">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="BubbleParticle.cpp">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="ExplodeParticle.cpp">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="FlameParticle.cpp">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="FootstepParticle.cpp">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="HeartParticle.cpp">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="LavaParticle.cpp">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="NoteParticle.cpp">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="RedDustParticle.cpp">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="SmokeParticle.cpp">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="SnowShovelParticle.cpp">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashParticle.cpp">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="TakeAnimationParticle.cpp">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainParticle.cpp">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="WaterDropParticle.cpp">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleEngine.cpp">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>net\minecraft\client</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>net\minecraft\client\player</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalPlayer.cpp">
+      <Filter>net\minecraft\client\player</Filter>
+    </ClCompile>
+    <ClCompile Include="StatsCounter.cpp">
+      <Filter>net\minecraft\stats</Filter>
+    </ClCompile>
+    <ClCompile Include="StatsSyncher.cpp">
+      <Filter>net\minecraft\stats</Filter>
+    </ClCompile>
+    <ClCompile Include="RemotePlayer.cpp">
+      <Filter>net\minecraft\client\player</Filter>
+    </ClCompile>
+    <ClCompile Include="Lighting.cpp">
+      <Filter>net\minecraft\client</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMapping.cpp">
+      <Filter>net\minecraft\client</Filter>
+    </ClCompile>
+    <ClCompile Include="Options.cpp">
+      <Filter>net\minecraft\client</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryTracker.cpp">
+      <Filter>net\minecraft\client</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>net\minecraft\client</Filter>
+    </ClCompile>
+    <ClCompile Include="Minecraft.cpp">
+      <Filter>net\minecraft\client</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressRenderer.cpp">
+      <Filter>net\minecraft\client</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoLevel.cpp">
+      <Filter>net\minecraft\client\level</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoUser.cpp">
+      <Filter>net\minecraft\client</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiComponent.cpp">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiMessage.cpp">
+      <Filter>net\minecraft\client</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui.cpp">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen.cpp">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiParticle.cpp">
+      <Filter>net\minecraft\client\gui\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiParticles.cpp">
+      <Filter>net\minecraft\client\gui\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="SlideButton.cpp">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="SmallButton.cpp">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatScreen.cpp">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfirmScreen.cpp">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlsScreen.cpp">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="EditBox.cpp">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateWorldScreen.cpp">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="DeathScreen.cpp">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorScreen.cpp">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="NameEntryScreen.cpp">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionsScreen.cpp">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoSettingsScreen.cpp">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseScreen.cpp">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScreen.cpp">
+      <Filter>net\minecraft\client\title</Filter>
+    </ClCompile>
+    <ClCompile Include="InBedChatScreen.cpp">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrolledSelectionList.cpp">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectWorldScreen.cpp">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="RenameWorldScreen.cpp">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenSizeCalculator.cpp">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="JoinMultiplayerScreen.cpp">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Minimap.cpp">
+      <Filter>net\minecraft\client\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractContainerScreen.cpp">
+      <Filter>net\minecraft\client\gui\inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="ContainerScreen.cpp">
+      <Filter>net\minecraft\client\gui\inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="CraftingScreen.cpp">
+      <Filter>net\minecraft\client\gui\inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="FurnaceScreen.cpp">
+      <Filter>net\minecraft\client\gui\inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="InventoryScreen.cpp">
+      <Filter>net\minecraft\client\gui\inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="TrapScreen.cpp">
+      <Filter>net\minecraft\client\gui\inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="TextEditScreen.cpp">
+      <Filter>net\minecraft\client\gui\inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="AchievementPopup.cpp">
+      <Filter>net\minecraft\client\gui\achievement</Filter>
+    </ClCompile>
+    <ClCompile Include="AchievementScreen.cpp">
+      <Filter>net\minecraft\client\gui\achievement</Filter>
+    </ClCompile>
+    <ClCompile Include="StatsScreen.cpp">
+      <Filter>net\minecraft\client\gui\achievement</Filter>
+    </ClCompile>
+    <ClCompile Include="glWrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BufferedImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PendingConnection.cpp">
+      <Filter>net\minecraft\server\network</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerConnection.cpp">
+      <Filter>net\minecraft\server\network</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerConnection.cpp">
+      <Filter>net\minecraft\server\network</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleInput.cpp">
+      <Filter>net\minecraft\server</Filter>
+    </ClCompile>
+    <ClCompile Include="MinecraftServer.cpp">
+      <Filter>net\minecraft\server</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerChunkCache.cpp">
+      <Filter>net\minecraft\server\level</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerLevel.cpp">
+      <Filter>net\minecraft\server\level</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerLevelListener.cpp">
+      <Filter>net\minecraft\server\level</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerPlayer.cpp">
+      <Filter>net\minecraft\server\level</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerList.cpp">
+      <Filter>net\minecraft\server</Filter>
+    </ClCompile>
+    <ClCompile Include="TrackedEntity.cpp">
+      <Filter>net\minecraft\server\level</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>net\minecraft\server</Filter>
+    </ClCompile>
+    <ClCompile Include="DerivedServerLevel.cpp">
+      <Filter>net\minecraft\server\level</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityTracker.cpp">
+      <Filter>net\minecraft\server\level</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerChunkMap.cpp">
+      <Filter>net\minecraft\server\level</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientConnection.cpp">
+      <Filter>net\minecraft\client\multiplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectScreen.cpp">
+      <Filter>net\minecraft\client\multiplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="DisconnectedScreen.cpp">
+      <Filter>net\minecraft\client\multiplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiPlayerChunkCache.cpp">
+      <Filter>net\minecraft\client\multiplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiPlayerGameMode.cpp">
+      <Filter>net\minecraft\client\multiplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiPlayerLevel.cpp">
+      <Filter>net\minecraft\client\multiplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiPlayerLocalPlayer.cpp">
+      <Filter>net\minecraft\client\multiplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="ReceivingLevelScreen.cpp">
+      <Filter>net\minecraft\client\multiplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="MemTexture.cpp">
+      <Filter>net\minecraft\client\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="MobSkinMemTextureProcessor.cpp">
+      <Filter>net\minecraft\client\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="PistonPieceRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\tileentity</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerPlayerGameMode.cpp">
+      <Filter>net\minecraft\server\level</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientConstants.cpp">
+      <Filter>net\minecraft\client</Filter>
+    </ClCompile>
+    <ClCompile Include="ChestModel.cpp">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClCompile>
+    <ClCompile Include="EndermanModel.cpp">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClCompile>
+    <ClCompile Include="LargeChestModel.cpp">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClCompile>
+    <ClCompile Include="SilverfishModel.cpp">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClCompile>
+    <ClCompile Include="CritParticle.cpp">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="CritParticle2.cpp">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="HugeExplosionParticle.cpp">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="HugeExplosionSeedParticle.cpp">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCloudParticle.cpp">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="SuspendedParticle.cpp">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="SuspendedTownParticle.cpp">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityTileRenderer.cpp">
+      <Filter>net\minecraft\client\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="EndermanRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="ExperienceOrbRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="SilverfishRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="ChestRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\tileentity</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>net\minecraft\client</Filter>
+    </ClCompile>
+    <ClCompile Include="BlazeRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="EnderCrystalRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="EnderDragonRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="LavaSlimeRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="MushroomCowRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="SnowManRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="VillagerRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="EnchantTableRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\tileentity</Filter>
+    </ClCompile>
+    <ClCompile Include="TheEndPortalRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\tileentity</Filter>
+    </ClCompile>
+    <ClCompile Include="DripParticle.cpp">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="EchantmentTableParticle.cpp">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellParticle.cpp">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>net\minecraft\client\model\geom</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelPart.cpp">
+      <Filter>net\minecraft\client\model\geom</Filter>
+    </ClCompile>
+    <ClCompile Include="TexOffs.cpp">
+      <Filter>net\minecraft\client\model\geom</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonModel.cpp">
+      <Filter>net\minecraft\client\model\dragon</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>net\minecraft\client\model\geom</Filter>
+    </ClCompile>
+    <ClCompile Include="EnderCrystalModel.cpp">
+      <Filter>net\minecraft\client\model\dragon</Filter>
+    </ClCompile>
+    <ClCompile Include="BlazeModel.cpp">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClCompile>
+    <ClCompile Include="BookModel.cpp">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClCompile>
+    <ClCompile Include="LavaSlimeModel.cpp">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClCompile>
+    <ClCompile Include="SnowManModel.cpp">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClCompile>
+    <ClCompile Include="VillagerModel.cpp">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>net\minecraft\client\model\geom</Filter>
+    </ClCompile>
+    <ClCompile Include="Extrax64Stubs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Trial\TrialMode.cpp">
+      <Filter>Common\Source Files\Trial</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Tutorial\AreaConstraint.cpp">
+      <Filter>Common\Source Files\Tutorial\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Tutorial\ChangeStateConstraint.cpp">
+      <Filter>Common\Source Files\Tutorial\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Tutorial\InputConstraint.cpp">
+      <Filter>Common\Source Files\Tutorial\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Tutorial\AreaHint.cpp">
+      <Filter>Common\Source Files\Tutorial\Hints</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Tutorial\DiggerItemHint.cpp">
+      <Filter>Common\Source Files\Tutorial\Hints</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Tutorial\LookAtEntityHint.cpp">
+      <Filter>Common\Source Files\Tutorial\Hints</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Tutorial\TakeItemHint.cpp">
+      <Filter>Common\Source Files\Tutorial\Hints</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Tutorial\TutorialHint.cpp">
+      <Filter>Common\Source Files\Tutorial\Hints</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Tutorial\AreaTask.cpp">
+      <Filter>Common\Source Files\Tutorial\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Tutorial\ChoiceTask.cpp">
+      <Filter>Common\Source Files\Tutorial\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Tutorial\CompleteUsingItemTask.cpp">
+      <Filter>Common\Source Files\Tutorial\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Tutorial\ControllerTask.cpp">
+      <Filter>Common\Source Files\Tutorial\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Tutorial\CraftTask.cpp">
+      <Filter>Common\Source Files\Tutorial\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Tutorial\EffectChangedTask.cpp">
+      <Filter>Common\Source Files\Tutorial\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Tutorial\FullTutorialActiveTask.cpp">
+      <Filter>Common\Source Files\Tutorial\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Tutorial\InfoTask.cpp">
+      <Filter>Common\Source Files\Tutorial\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Tutorial\PickupTask.cpp">
+      <Filter>Common\Source Files\Tutorial\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Tutorial\ProcedureCompoundTask.cpp">
+      <Filter>Common\Source Files\Tutorial\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Tutorial\ProgressFlagTask.cpp">
+      <Filter>Common\Source Files\Tutorial\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Tutorial\StatTask.cpp">
+      <Filter>Common\Source Files\Tutorial\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Tutorial\TutorialTask.cpp">
+      <Filter>Common\Source Files\Tutorial\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Tutorial\UseItemTask.cpp">
+      <Filter>Common\Source Files\Tutorial\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Tutorial\UseTileTask.cpp">
+      <Filter>Common\Source Files\Tutorial\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Tutorial\XuiCraftingTask.cpp">
+      <Filter>Common\Source Files\Tutorial\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\GameRules\XboxStructureActionGenerateBox.cpp">
+      <Filter>Common\Source Files\GameRules\LevelGeneration\StructureActions</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\GameRules\XboxStructureActionPlaceBlock.cpp">
+      <Filter>Common\Source Files\GameRules\LevelGeneration\StructureActions</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\GameRules\XboxStructureActionPlaceContainer.cpp">
+      <Filter>Common\Source Files\GameRules\LevelGeneration\StructureActions</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\GameRules\XboxStructureActionPlaceSpawner.cpp">
+      <Filter>Common\Source Files\GameRules\LevelGeneration\StructureActions</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\GameRules\ApplySchematicRuleDefinition.cpp">
+      <Filter>Common\Source Files\GameRules\LevelGeneration</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\GameRules\AddEnchantmentRuleDefinition.cpp">
+      <Filter>Common\Source Files\GameRules\LevelRules\RuleDefinitions</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\GameRules\AddItemRuleDefinition.cpp">
+      <Filter>Common\Source Files\GameRules\LevelRules\RuleDefinitions</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\GameRules\CollectItemRuleDefinition.cpp">
+      <Filter>Common\Source Files\GameRules\LevelRules\RuleDefinitions</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\GameRules\CompleteAllRuleDefinition.cpp">
+      <Filter>Common\Source Files\GameRules\LevelRules\RuleDefinitions</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\GameRules\CompoundGameRuleDefinition.cpp">
+      <Filter>Common\Source Files\GameRules\LevelRules\RuleDefinitions</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\GameRules\UpdatePlayerRuleDefinition.cpp">
+      <Filter>Common\Source Files\GameRules\LevelRules\RuleDefinitions</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\GameRules\UseTileRuleDefinition.cpp">
+      <Filter>Common\Source Files\GameRules\LevelRules\RuleDefinitions</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Tutorial\FullTutorial.cpp">
+      <Filter>Common\Source Files\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Tutorial\FullTutorialMode.cpp">
+      <Filter>Common\Source Files\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Tutorial\Tutorial.cpp">
+      <Filter>Common\Source Files\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Tutorial\TutorialMessage.cpp">
+      <Filter>Common\Source Files\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Tutorial\TutorialMode.cpp">
+      <Filter>Common\Source Files\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Tutorial\LookAtTileHint.cpp">
+      <Filter>Common\Source Files\Tutorial\Hints</Filter>
+    </ClCompile>
+    <ClCompile Include="PS3\PS3_Minecraft.cpp">
+      <Filter>PS3\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PS3\PS3Extras\Ps3Stubs.cpp">
+      <Filter>PS3\PS3Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Console_Utils.cpp">
+      <Filter>Common\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\ConsoleGameMode.cpp">
+      <Filter>Common\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\GameRules\ConsoleGenerateStructure.cpp">
+      <Filter>Common\Source Files\GameRules\LevelGeneration</Filter>
+    </ClCompile>
+    <ClCompile Include="PS3\PS3_App.cpp">
+      <Filter>PS3</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractTexturePack.cpp">
+      <Filter>net\minecraft\client\skins</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonBreathParticle.cpp">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="FolderTexturePack.cpp">
+      <Filter>net\minecraft\client\skins</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemFrameRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect2i.cpp">
+      <Filter>net\minecraft\client\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="StitchedTexture.cpp">
+      <Filter>net\minecraft\client\renderer\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Stitcher.cpp">
+      <Filter>net\minecraft\client\renderer\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="StitchSlot.cpp">
+      <Filter>net\minecraft\client\renderer\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>net\minecraft\client\renderer\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureHolder.cpp">
+      <Filter>net\minecraft\client\renderer\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>net\minecraft\client\renderer\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMap.cpp">
+      <Filter>net\minecraft\client\renderer\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="ClockTexture.cpp">
+      <Filter>net\minecraft\client\renderer\texture\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="CompassTexture.cpp">
+      <Filter>net\minecraft\client\renderer\texture\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="PS3\PS3Extras\TLSStorage.cpp">
+      <Filter>PS3\PS3Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="TexturePack.cpp">
+      <Filter>net\minecraft\client\skins</Filter>
+    </ClCompile>
+    <ClCompile Include="PreStitchedTextureMap.cpp">
+      <Filter>net\minecraft\client\renderer\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleIcon.cpp">
+      <Filter>net\minecraft\client\renderer\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="DLCTexturePack.cpp">
+      <Filter>net\minecraft\client\skins</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\DLC\DLCCapeFile.cpp">
+      <Filter>Common\Source Files\DLC</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\DLC\DLCFile.cpp">
+      <Filter>Common\Source Files\DLC</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\DLC\DLCManager.cpp">
+      <Filter>Common\Source Files\DLC</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\DLC\DLCPack.cpp">
+      <Filter>Common\Source Files\DLC</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\DLC\DLCSkinFile.cpp">
+      <Filter>Common\Source Files\DLC</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\DLC\DLCTextureFile.cpp">
+      <Filter>Common\Source Files\DLC</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\DLC\DLCUIDataFile.cpp">
+      <Filter>Common\Source Files\DLC</Filter>
+    </ClCompile>
+    <ClCompile Include="EnderParticle.cpp">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="NetherPortalParticle.cpp">
+      <Filter>net\minecraft\client\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Consoles_App.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="VillagerGolemRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="OzelotRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="VillagerGolemModel.cpp">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClCompile>
+    <ClCompile Include="OzelotModel.cpp">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Audio\SoundEngine.cpp">
+      <Filter>Common\Source Files\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Audio\SoundNames.cpp">
+      <Filter>Common\Source Files\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="PS3\PS3Extras\C4JThread_SPU.cpp">
+      <Filter>PS3\PS3Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="PS3\SPU_Tasks\ChunkUpdate\ChunkRebuildData.cpp">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClCompile>
+    <ClCompile Include="PS3\SPU_Tasks\ChunkUpdate\DiodeTile_SPU.cpp">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClCompile>
+    <ClCompile Include="PS3\SPU_Tasks\ChunkUpdate\Direction_SPU.cpp">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClCompile>
+    <ClCompile Include="PS3\SPU_Tasks\ChunkUpdate\DoorTile_SPU.cpp">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClCompile>
+    <ClCompile Include="PS3\SPU_Tasks\ChunkUpdate\Facing_SPU.cpp">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClCompile>
+    <ClCompile Include="PS3\SPU_Tasks\ChunkUpdate\FenceTile_SPU.cpp">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClCompile>
+    <ClCompile Include="PS3\SPU_Tasks\ChunkUpdate\GrassTile_SPU.cpp">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClCompile>
+    <ClCompile Include="PS3\SPU_Tasks\ChunkUpdate\HalfSlabTile_SPU.cpp">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClCompile>
+    <ClCompile Include="PS3\SPU_Tasks\ChunkUpdate\Icon_SPU.cpp">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClCompile>
+    <ClCompile Include="PS3\SPU_Tasks\ChunkUpdate\LeafTile_SPU.cpp">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClCompile>
+    <ClCompile Include="PS3\SPU_Tasks\ChunkUpdate\LiquidTile_SPU.cpp">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClCompile>
+    <ClCompile Include="PS3\SPU_Tasks\ChunkUpdate\PressurePlateTile_SPU.cpp">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClCompile>
+    <ClCompile Include="PS3\SPU_Tasks\ChunkUpdate\StairTile_SPU.cpp">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClCompile>
+    <ClCompile Include="PS3\SPU_Tasks\ChunkUpdate\TallGrass_SPU.cpp">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClCompile>
+    <ClCompile Include="PS3\SPU_Tasks\ChunkUpdate\Tesselator_SPU.cpp">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClCompile>
+    <ClCompile Include="PS3\SPU_Tasks\ChunkUpdate\ThinFenceTile_SPU.cpp">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClCompile>
+    <ClCompile Include="PS3\SPU_Tasks\ChunkUpdate\Tile_SPU.cpp">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClCompile>
+    <ClCompile Include="PS3\SPU_Tasks\ChunkUpdate\TileRenderer_SPU.cpp">
+      <Filter>PS3\ChunkRebuild_SPU</Filter>
+    </ClCompile>
+    <ClCompile Include="PS3\SPU_Tasks\CompressedTile\CompressedTileStorage_SPU.cpp">
+      <Filter>PS3\CompressedTile_SPU</Filter>
+    </ClCompile>
+    <ClCompile Include="StringTable.cpp">
+      <Filter>Common\Source Files\Localisation</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\DLC\DLCLocalisationFile.cpp">
+      <Filter>Common\Source Files\DLC</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\GameRules\LevelGenerationOptions.cpp">
+      <Filter>Common\Source Files\GameRules\LevelGeneration</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\GameRules\LevelGenerators.cpp">
+      <Filter>Common\Source Files\GameRules\LevelGeneration</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\GameRules\ConsoleSchematicFile.cpp">
+      <Filter>Common\Source Files\GameRules\LevelGeneration</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\GameRules\GameRuleDefinition.cpp">
+      <Filter>Common\Source Files\GameRules\LevelRules\RuleDefinitions</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\GameRules\GameRule.cpp">
+      <Filter>Common\Source Files\GameRules\LevelRules\Rules</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\GameRules\LevelRules.cpp">
+      <Filter>Common\Source Files\GameRules\LevelRules</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\DLC\DLCGameRulesFile.cpp">
+      <Filter>Common\Source Files\DLC</Filter>
+    </ClCompile>
+    <ClCompile Include="PS3\PS3Extras\C4JSpursJob.cpp">
+      <Filter>PS3</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\GameRules\GameRuleManager.cpp">
+      <Filter>Common\Source Files\GameRules</Filter>
+    </ClCompile>
+    <ClCompile Include="WstringLookup.cpp">
+      <Filter>Common\Source Files\GameRules</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\GameRules\LevelRuleset.cpp">
+      <Filter>Common\Source Files\GameRules\LevelRules\RuleDefinitions</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\GameRules\NamedAreaRuleDefinition.cpp">
+      <Filter>Common\Source Files\GameRules\LevelRules\RuleDefinitions</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIController.cpp">
+      <Filter>Common\Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIGroup.cpp">
+      <Filter>Common\Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UILayer.cpp">
+      <Filter>Common\Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene.cpp">
+      <Filter>Common\Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\GameRules\BiomeOverride.cpp">
+      <Filter>Common\Source Files\GameRules\LevelGeneration</Filter>
+    </ClCompile>
+    <ClCompile Include="SkullTileRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\tileentity</Filter>
+    </ClCompile>
+    <ClCompile Include="SkeletonHeadModel.cpp">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\DLC\DLCAudioFile.cpp">
+      <Filter>Common\Source Files\DLC</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Colours\ColourTable.cpp">
+      <Filter>Common\Source Files\Colours</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\DLC\DLCColourTableFile.cpp">
+      <Filter>Common\Source Files\DLC</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\DLC\DLCGameRulesHeader.cpp">
+      <Filter>Common\Source Files\DLC</Filter>
+    </ClCompile>
+    <ClCompile Include="PS3\PS3_UIController.cpp">
+      <Filter>PS3</Filter>
+    </ClCompile>
+    <ClCompile Include="PS3\Iggy\gdraw\gdraw_ps3gcm.cpp">
+      <Filter>PS3\Iggy\gdraw</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\zlib\adler32.c">
+      <Filter>Common\Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\zlib\compress.c">
+      <Filter>Common\Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\zlib\crc32.c">
+      <Filter>Common\Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\zlib\deflate.c">
+      <Filter>Common\Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\zlib\gzclose.c">
+      <Filter>Common\Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\zlib\gzlib.c">
+      <Filter>Common\Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\zlib\gzread.c">
+      <Filter>Common\Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\zlib\gzwrite.c">
+      <Filter>Common\Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\zlib\infback.c">
+      <Filter>Common\Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\zlib\inffast.c">
+      <Filter>Common\Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\zlib\inflate.c">
+      <Filter>Common\Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\zlib\inftrees.c">
+      <Filter>Common\Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\zlib\trees.c">
+      <Filter>Common\Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\zlib\uncompr.c">
+      <Filter>Common\Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\zlib\zutil.c">
+      <Filter>Common\Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="PS3\Audio\PS3_SoundEngine.cpp">
+      <Filter>PS3\Source Files\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIBitmapFont.cpp">
+      <Filter>Common\Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UITTFFont.cpp">
+      <Filter>Common\Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_DebugOverlay.cpp">
+      <Filter>Common\Source Files\UI\Scenes\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Network\GameNetworkManager.cpp">
+      <Filter>Common\Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="PS3\PS3Extras\EdgeZLib.cpp">
+      <Filter>PS3\PS3Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_MainMenu.cpp">
+      <Filter>Common\Source Files\UI\Scenes\Frontend Menu screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_CreativeMenu.cpp">
+      <Filter>Common\Source Files\UI\Scenes\In-Game Menu Screens\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_InventoryMenu.cpp">
+      <Filter>Common\Source Files\UI\Scenes\In-Game Menu Screens\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_ContainerMenu.cpp">
+      <Filter>Common\Source Files\UI\Scenes\In-Game Menu Screens\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_AbstractContainerMenu.cpp">
+      <Filter>Common\Source Files\UI\Scenes\In-Game Menu Screens\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_LoadMenu.cpp">
+      <Filter>Common\Source Files\UI\Scenes\Frontend Menu screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_CreateWorldMenu.cpp">
+      <Filter>Common\Source Files\UI\Scenes\Frontend Menu screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_FullscreenProgress.cpp">
+      <Filter>Common\Source Files\UI\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_HUD.cpp">
+      <Filter>Common\Source Files\UI\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIComponent_Panorama.cpp">
+      <Filter>Common\Source Files\UI\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_LoadOrJoinMenu.cpp">
+      <Filter>Common\Source Files\UI\Scenes\Frontend Menu screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_LaunchMoreOptionsMenu.cpp">
+      <Filter>Common\Source Files\UI\Scenes\Frontend Menu screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\IUIScene_CreativeMenu.cpp">
+      <Filter>Common\Source Files\UI\All Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\IUIScene_AbstractContainerMenu.cpp">
+      <Filter>Common\Source Files\UI\All Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\IUIScene_ContainerMenu.cpp">
+      <Filter>Common\Source Files\UI\All Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\IUIScene_InventoryMenu.cpp">
+      <Filter>Common\Source Files\UI\All Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\IUIScene_EnchantingMenu.cpp">
+      <Filter>Common\Source Files\UI\All Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\IUIScene_FurnaceMenu.cpp">
+      <Filter>Common\Source Files\UI\All Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\IUIScene_DispenserMenu.cpp">
+      <Filter>Common\Source Files\UI\All Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\IUIScene_BrewingMenu.cpp">
+      <Filter>Common\Source Files\UI\All Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_BrewingStandMenu.cpp">
+      <Filter>Common\Source Files\UI\Scenes\In-Game Menu Screens\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_DispenserMenu.cpp">
+      <Filter>Common\Source Files\UI\Scenes\In-Game Menu Screens\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_FurnaceMenu.cpp">
+      <Filter>Common\Source Files\UI\Scenes\In-Game Menu Screens\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_EnchantingMenu.cpp">
+      <Filter>Common\Source Files\UI\Scenes\In-Game Menu Screens\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_HelpAndOptionsMenu.cpp">
+      <Filter>Common\Source Files\UI\Scenes\Help &amp; Options</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_SettingsMenu.cpp">
+      <Filter>Common\Source Files\UI\Scenes\Help &amp; Options</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_SettingsOptionsMenu.cpp">
+      <Filter>Common\Source Files\UI\Scenes\Help &amp; Options</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIControl.cpp">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIControl_Button.cpp">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIControl_CheckBox.cpp">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIControl_Slider.cpp">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIControl_Label.cpp">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIControl_TextInput.cpp">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIControl_SlotList.cpp">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIControl_Cursor.cpp">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIControl_Progress.cpp">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_SettingsAudioMenu.cpp">
+      <Filter>Common\Source Files\UI\Scenes\Help &amp; Options</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_SettingsControlMenu.cpp">
+      <Filter>Common\Source Files\UI\Scenes\Help &amp; Options</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_SettingsGraphicsMenu.cpp">
+      <Filter>Common\Source Files\UI\Scenes\Help &amp; Options</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_SettingsUIMenu.cpp">
+      <Filter>Common\Source Files\UI\Scenes\Help &amp; Options</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\IUIScene_CraftingMenu.cpp">
+      <Filter>Common\Source Files\UI\All Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_DebugOptions.cpp">
+      <Filter>Common\Source Files\UI\Scenes\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIComponent_DebugUIConsole.cpp">
+      <Filter>Common\Source Files\UI\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Network\PlatformNetworkManagerStub.cpp">
+      <Filter>Common\Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIControl_ButtonList.cpp">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_JoinMenu.cpp">
+      <Filter>Common\Source Files\UI\Scenes\Frontend Menu screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIComponent_Logo.cpp">
+      <Filter>Common\Source Files\UI\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIComponent_Tooltips.cpp">
+      <Filter>Common\Source Files\UI\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_CraftingMenu.cpp">
+      <Filter>Common\Source Files\UI\Scenes\In-Game Menu Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_DeathMenu.cpp">
+      <Filter>Common\Source Files\UI\Scenes\In-Game Menu Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_ConnectingProgress.cpp">
+      <Filter>Common\Source Files\UI\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_SkinSelectMenu.cpp">
+      <Filter>Common\Source Files\UI\Scenes\Help &amp; Options</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIControl_PlayerSkinPreview.cpp">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="ArchiveFile.cpp">
+      <Filter>Common\Source Files\UI\All Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_PauseMenu.cpp">
+      <Filter>Common\Source Files\UI\Scenes\In-Game Menu Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIComponent_TutorialPopup.cpp">
+      <Filter>Common\Source Files\UI\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_Intro.cpp">
+      <Filter>Common\Source Files\UI\Scenes\Frontend Menu screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_SaveMessage.cpp">
+      <Filter>Common\Source Files\UI\Scenes\Frontend Menu screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_HowToPlayMenu.cpp">
+      <Filter>Common\Source Files\UI\Scenes\Help &amp; Options</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_SignEntryMenu.cpp">
+      <Filter>Common\Source Files\UI\Scenes\In-Game Menu Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_QuadrantSignin.cpp">
+      <Filter>Common\Source Files\UI\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\IUIScene_PauseMenu.cpp">
+      <Filter>Common\Source Files\UI\All Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIComponent_Chat.cpp">
+      <Filter>Common\Source Files\UI\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_MessageBox.cpp">
+      <Filter>Common\Source Files\UI\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIControl_TexturePackList.cpp">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="PS3\Network\SonyVoiceChat.cpp">
+      <Filter>PS3\Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="PS3\Leaderboards\PS3LeaderboardManager.cpp">
+      <Filter>PS3\Source Files\Leaderboards</Filter>
+    </ClCompile>
+    <ClCompile Include="PS3\Leaderboards\base64.cpp">
+      <Filter>PS3\Source Files\Leaderboards</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Leaderboards\LeaderboardManager.cpp">
+      <Filter>Common\Source Files\Leaderboards</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_HowToPlay.cpp">
+      <Filter>Common\Source Files\UI\Scenes\Help &amp; Options</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_InGameInfoMenu.cpp">
+      <Filter>Common\Source Files\UI\Scenes\In-Game Menu Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_LeaderboardsMenu.cpp">
+      <Filter>Common\Source Files\UI\Scenes\Frontend Menu screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIControl_LeaderboardList.cpp">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_ControlsMenu.cpp">
+      <Filter>Common\Source Files\UI\Scenes\Help &amp; Options</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_DLCMainMenu.cpp">
+      <Filter>Common\Source Files\UI\Scenes\Frontend Menu screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_DLCOffersMenu.cpp">
+      <Filter>Common\Source Files\UI\Scenes\Frontend Menu screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIControl_SaveList.cpp">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIControl_PlayerList.cpp">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIControl_BitmapIcon.cpp">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_Timer.cpp">
+      <Filter>Common\Source Files\UI\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIControl_Base.cpp">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIControl_DLCList.cpp">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="PS3\PS3Extras\PS3Strings.cpp">
+      <Filter>PS3\PS3Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_InGameHostOptionsMenu.cpp">
+      <Filter>Common\Source Files\UI\Scenes\In-Game Menu Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIControl_MinecraftPlayer.cpp">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIControl_EnchantmentButton.cpp">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIControl_EnchantmentBook.cpp">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_EndPoem.cpp">
+      <Filter>Common\Source Files\UI\Scenes\In-Game Menu Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIControl_HTMLLabel.cpp">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_InGamePlayerOptionsMenu.cpp">
+      <Filter>Common\Source Files\UI\Scenes\In-Game Menu Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="PS3\PS3Extras\ShutdownManager.cpp">
+      <Filter>PS3\PS3Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_TrialExitUpsell.cpp">
+      <Filter>Common\Source Files\UI\Scenes\Frontend Menu screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_ReinstallMenu.cpp">
+      <Filter>Common\Source Files\UI\Scenes\Help &amp; Options</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_Credits.cpp">
+      <Filter>Common\Source Files\UI\Scenes\Help &amp; Options</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIComponent_PressStartToPlay.cpp">
+      <Filter>Common\Source Files\UI\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="PS3\4JLibs\STO_TitleSmallStorage.cpp">
+      <Filter>PS3\4JLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIComponent_MenuBackground.cpp">
+      <Filter>Common\Source Files\UI\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_EULA.cpp">
+      <Filter>Common\Source Files\UI\Scenes\Frontend Menu screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Audio\Consoles_SoundEngine.cpp">
+      <Filter>Common\Source Files\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="PS3\PS3_PlayerUID.cpp">
+      <Filter>PS3\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIControl_DynamicLabel.cpp">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="EnderChestRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\tileentity</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\IUIScene_TradingMenu.cpp">
+      <Filter>Common\Source Files\UI\All Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_TradingMenu.cpp">
+      <Filter>Common\Source Files\UI\Scenes\In-Game Menu Screens\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_DebugSetCamera.cpp">
+      <Filter>Common\Source Files\UI\Scenes\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\IUIScene_AnvilMenu.cpp">
+      <Filter>Common\Source Files\UI\All Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_AnvilMenu.cpp">
+      <Filter>Common\Source Files\UI\Scenes\In-Game Menu Screens\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="VillagerZombieModel.cpp">
+      <Filter>net\minecraft\client\model</Filter>
+    </ClCompile>
+    <ClCompile Include="ZombieRenderer.cpp">
+      <Filter>net\minecraft\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerCommandDispatcher.cpp">
+      <Filter>net\minecraft\server\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="TeleportCommand.cpp">
+      <Filter>net\minecraft\server\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Network\Sony\NetworkPlayerSony.cpp">
+      <Filter>Common\Source Files\Network\Sony</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Network\Sony\PlatformNetworkManagerSony.cpp">
+      <Filter>Common\Source Files\Network\Sony</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Network\Sony\SQRNetworkPlayer.cpp">
+      <Filter>Common\Source Files\Network\Sony</Filter>
+    </ClCompile>
+    <ClCompile Include="PS3\Network\SQRNetworkManager_PS3.cpp">
+      <Filter>PS3\Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Network\Sony\SonyHttp.cpp">
+      <Filter>Common\Source Files\Network\Sony</Filter>
+    </ClCompile>
+    <ClCompile Include="PS3\Network\SonyHttp_PS3.cpp">
+      <Filter>PS3\Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="PS3\Network\SonyCommerce_PS3.cpp">
+      <Filter>PS3\Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\GameRules\StartFeature.cpp">
+      <Filter>Common\Source Files\GameRules\LevelGeneration</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_TeleportMenu.cpp">
+      <Filter>Common\Source Files\UI\Scenes\In-Game Menu Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Network\Sony\SQRNetworkManager.cpp">
+      <Filter>Common\Source Files\Network\Sony</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_DebugCreateSchematic.cpp">
+      <Filter>Common\Source Files\UI\Scenes\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Telemetry\TelemetryManager.cpp">
+      <Filter>Common\Source Files\Telemetry</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIFontData.cpp">
+      <Filter>Common\Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="PS3\Network\SonyRemoteStorage_PS3.cpp">
+      <Filter>PS3\Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Network\Sony\SonyRemoteStorage.cpp">
+      <Filter>Common\Source Files\Network\Sony</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIComponent_DebugUIMarketingGuide.cpp">
+      <Filter>Common\Source Files\UI\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIControl_Touch.cpp">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\IUIScene_StartGame.cpp">
+      <Filter>Common\Source Files\UI\Scenes\Frontend Menu screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIControl_SpaceIndicatorBar.cpp">
+      <Filter>Common\Source Files\UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_InGameSaveManagementMenu.cpp">
+      <Filter>Common\Source Files\UI\Scenes\In-Game Menu Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\UIScene_Keyboard.cpp">
+      <Filter>Common\Source Files\UI\Scenes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="PS3\Iggy\lib\libiggy_ps3.a">
+      <Filter>PS3\Iggy\lib</Filter>
+    </Library>
+    <Library Include="PS3\Iggy\lib\libiggyexpruntime_ps3.a">
+      <Filter>PS3\Iggy\lib</Filter>
+    </Library>
+    <Library Include="PS3\Iggy\lib\libiggyperfmon_ps3.a">
+      <Filter>PS3\Iggy\lib</Filter>
+    </Library>
+    <Library Include="PS3\4JLibs\libs\4J_Input.a">
+      <Filter>PS3\4JLibs\libs</Filter>
+    </Library>
+    <Library Include="PS3\4JLibs\libs\4J_Input_d.a">
+      <Filter>PS3\4JLibs\libs</Filter>
+    </Library>
+    <Library Include="PS3\4JLibs\libs\4J_Profile.a">
+      <Filter>PS3\4JLibs\libs</Filter>
+    </Library>
+    <Library Include="PS3\4JLibs\libs\4J_Profile_d.a">
+      <Filter>PS3\4JLibs\libs</Filter>
+    </Library>
+    <Library Include="PS3\4JLibs\libs\4J_Render.a">
+      <Filter>PS3\4JLibs\libs</Filter>
+    </Library>
+    <Library Include="PS3\4JLibs\libs\4J_Render_d.a">
+      <Filter>PS3\4JLibs\libs</Filter>
+    </Library>
+    <Library Include="PS3\4JLibs\libs\4J_Storage.a">
+      <Filter>PS3\4JLibs\libs</Filter>
+    </Library>
+    <Library Include="PS3\4JLibs\libs\4J_Storage_d.a">
+      <Filter>PS3\4JLibs\libs</Filter>
+    </Library>
+    <Library Include="PS3\4JLibs\libs\4J_Input_r.a">
+      <Filter>PS3\4JLibs\libs</Filter>
+    </Library>
+    <Library Include="PS3\4JLibs\libs\4J_Profile_r.a">
+      <Filter>PS3\4JLibs\libs</Filter>
+    </Library>
+    <Library Include="PS3\4JLibs\libs\4J_Render_r.a">
+      <Filter>PS3\4JLibs\libs</Filter>
+    </Library>
+    <Library Include="PS3\4JLibs\libs\4J_Storage_r.a">
+      <Filter>PS3\4JLibs\libs</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="PS3\SPU_Tasks\ObjFiles\Release\ChunkUpdate.ppu.o">
+      <Filter>PS3\SPUObjFiles\Release</Filter>
+    </Object>
+    <Object Include="PS3\SPU_Tasks\ObjFiles\Release\CompressedTile.ppu.o">
+      <Filter>PS3\SPUObjFiles\Release</Filter>
+    </Object>
+    <Object Include="PS3\SPU_Tasks\ObjFiles\Release\CompressedTileStorage_compress.ppu.o">
+      <Filter>PS3\SPUObjFiles\Release</Filter>
+    </Object>
+    <Object Include="PS3\SPU_Tasks\ObjFiles\Release\LevelRenderer_cull.ppu.o">
+      <Filter>PS3\SPUObjFiles\Release</Filter>
+    </Object>
+    <Object Include="PS3\SPU_Tasks\ObjFiles\Release\LevelRenderer_FindNearestChunk.ppu.o">
+      <Filter>PS3\SPUObjFiles\Release</Filter>
+    </Object>
+    <Object Include="PS3\SPU_Tasks\ObjFiles\Release\LevelRenderer_zSort.ppu.o">
+      <Filter>PS3\SPUObjFiles\Release</Filter>
+    </Object>
+    <Object Include="PS3\SPU_Tasks\ObjFiles\Release\PerlinNoise.ppu.o">
+      <Filter>PS3\SPUObjFiles\Release</Filter>
+    </Object>
+    <Object Include="PS3\SPU_Tasks\ObjFiles\Release\Renderer_TextureUpdate.ppu.o">
+      <Filter>PS3\SPUObjFiles\Release</Filter>
+    </Object>
+    <Object Include="PS3\SPU_Tasks\ObjFiles\Release\Texture_blit.ppu.o">
+      <Filter>PS3\SPUObjFiles\Release</Filter>
+    </Object>
+    <Object Include="PS3\SPU_Tasks\ObjFiles\Debug\ChunkUpdate.ppu.o">
+      <Filter>PS3\SPUObjFiles\Debug</Filter>
+    </Object>
+    <Object Include="PS3\SPU_Tasks\ObjFiles\Debug\CompressedTile.ppu.o">
+      <Filter>PS3\SPUObjFiles\Debug</Filter>
+    </Object>
+    <Object Include="PS3\SPU_Tasks\ObjFiles\Debug\CompressedTileStorage_compress.ppu.o">
+      <Filter>PS3\SPUObjFiles\Debug</Filter>
+    </Object>
+    <Object Include="PS3\SPU_Tasks\ObjFiles\Debug\LevelRenderer_cull.ppu.o">
+      <Filter>PS3\SPUObjFiles\Debug</Filter>
+    </Object>
+    <Object Include="PS3\SPU_Tasks\ObjFiles\Debug\LevelRenderer_FindNearestChunk.ppu.o">
+      <Filter>PS3\SPUObjFiles\Debug</Filter>
+    </Object>
+    <Object Include="PS3\SPU_Tasks\ObjFiles\Debug\LevelRenderer_zSort.ppu.o">
+      <Filter>PS3\SPUObjFiles\Debug</Filter>
+    </Object>
+    <Object Include="PS3\SPU_Tasks\ObjFiles\Debug\PerlinNoise.ppu.o">
+      <Filter>PS3\SPUObjFiles\Debug</Filter>
+    </Object>
+    <Object Include="PS3\SPU_Tasks\ObjFiles\Debug\Renderer_TextureUpdate.ppu.o">
+      <Filter>PS3\SPUObjFiles\Debug</Filter>
+    </Object>
+    <Object Include="PS3\SPU_Tasks\ObjFiles\Debug\Texture_blit.ppu.o">
+      <Filter>PS3\SPUObjFiles\Debug</Filter>
+    </Object>
+    <Object Include="PS3\SPU_Tasks\ObjFiles\ContentPackage\ChunkUpdate.ppu.o">
+      <Filter>PS3\SPUObjFiles\ContentPackage</Filter>
+    </Object>
+    <Object Include="PS3\SPU_Tasks\ObjFiles\ContentPackage\CompressedTile.ppu.o">
+      <Filter>PS3\SPUObjFiles\ContentPackage</Filter>
+    </Object>
+    <Object Include="PS3\SPU_Tasks\ObjFiles\ContentPackage\CompressedTileStorage_compress.ppu.o">
+      <Filter>PS3\SPUObjFiles\ContentPackage</Filter>
+    </Object>
+    <Object Include="PS3\SPU_Tasks\ObjFiles\ContentPackage\LevelRenderer_cull.ppu.o">
+      <Filter>PS3\SPUObjFiles\ContentPackage</Filter>
+    </Object>
+    <Object Include="PS3\SPU_Tasks\ObjFiles\ContentPackage\LevelRenderer_FindNearestChunk.ppu.o">
+      <Filter>PS3\SPUObjFiles\ContentPackage</Filter>
+    </Object>
+    <Object Include="PS3\SPU_Tasks\ObjFiles\ContentPackage\LevelRenderer_zSort.ppu.o">
+      <Filter>PS3\SPUObjFiles\ContentPackage</Filter>
+    </Object>
+    <Object Include="PS3\SPU_Tasks\ObjFiles\ContentPackage\PerlinNoise.ppu.o">
+      <Filter>PS3\SPUObjFiles\ContentPackage</Filter>
+    </Object>
+    <Object Include="PS3\SPU_Tasks\ObjFiles\ContentPackage\Renderer_TextureUpdate.ppu.o">
+      <Filter>PS3\SPUObjFiles\ContentPackage</Filter>
+    </Object>
+    <Object Include="PS3\SPU_Tasks\ObjFiles\ContentPackage\Texture_blit.ppu.o">
+      <Filter>PS3\SPUObjFiles\ContentPackage</Filter>
+    </Object>
+    <Object Include="PS3\SPU_Tasks\ObjFiles\Release\CompressedTileStorage_getData.ppu.o">
+      <Filter>PS3\SPUObjFiles\Release</Filter>
+    </Object>
+    <Object Include="PS3\SPU_Tasks\ObjFiles\Debug\CompressedTileStorage_getData.ppu.o">
+      <Filter>PS3\SPUObjFiles\Debug</Filter>
+    </Object>
+    <Object Include="PS3\SPU_Tasks\ObjFiles\ContentPackage\CompressedTileStorage_getData.ppu.o">
+      <Filter>PS3\SPUObjFiles\ContentPackage</Filter>
+    </Object>
+  </ItemGroup>
+</Project>

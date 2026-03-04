@@ -1,0 +1,39 @@
+[submodule "vendor/asio"]
+	path = vendor/asio
+	url = https://github.com/chriskohlhoff/asio
+	depth = 1
+[submodule "vendor/assimp"]
+	path = vendor/assimp
+	url = https://github.com/assimp/assimp
+	depth = 1
+[submodule "vendor/bullet3"]
+	path = vendor/bullet3
+	url = https://github.com/Fortahr/bullet3
+	branch = virt_shapecast
+	depth = 1
+[submodule "vendor/cppu"]
+	path = vendor/cppu
+	url = https://github.com/Fortahr/cppu
+	depth = 1
+[submodule "vendor/glew"]
+	path = vendor/glew
+	url = https://github.com/nigels-com/glew
+	depth = 1
+[submodule "vendor/rapidjson"]
+	path = vendor/rapidjson
+	url = https://github.com/Tencent/rapidjson
+	depth = 1
+[submodule "vendor/glm"]
+	path = vendor/glm
+	url = https://github.com/g-truc/glm
+	depth = 1
+[submodule "vendor/RmlUi"]
+	path = vendor/RmlUi
+	depth = 1
+	url = https://github.com/mikke89/RmlUi
+[submodule "vendor/SFML"]
+	path = vendor/SFML
+	url = https://github.com/SFML/SFML
+	branch = 2.6.x
+	ignore = dirty
+	depth = 1

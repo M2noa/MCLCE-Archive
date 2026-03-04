@@ -1,0 +1,5 @@
+﻿<root>
+  <data name="IDS_COLLECTED_MUSIC_DISCS">
+    <value>Вы нашли {*progress*} из {*goal*} музыкальных дисков!</value>
+  </data>
+</root>
