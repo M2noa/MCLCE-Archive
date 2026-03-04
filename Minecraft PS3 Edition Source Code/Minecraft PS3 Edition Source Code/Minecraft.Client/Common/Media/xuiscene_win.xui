@@ -1,0 +1,68 @@
+<XuiCanvas version="000c">
+<Properties>
+<Width>1280.000000</Width>
+<Height>720.000000</Height>
+</Properties>
+<XuiScene>
+<Properties>
+<Id>WinScene</Id>
+<Width>1280.000000</Width>
+<Height>720.000000</Height>
+<ClassOverride>CScene_Win</ClassOverride>
+<Visual>XuiBackgroundScroll</Visual>
+<DefaultFocus>FocusSink</DefaultFocus>
+</Properties>
+<XuiHtmlControl>
+<Properties>
+<Id>HtmlControl</Id>
+<Width>532.000000</Width>
+<Height>720.000000</Height>
+<Position>374.000031,0.000000,0.000000</Position>
+<Visual>XuiHtmlControl_EndStory</Visual>
+<Enabled>false</Enabled>
+</Properties>
+</XuiHtmlControl>
+<XuiFigure>
+<Properties>
+<Id>Darken</Id>
+<Width>1280.000000</Width>
+<Height>1280.000000</Height>
+<Position>-63.999886,-23.999947,0.000000</Position>
+<Scale>1.100000,0.600000,1.000000</Scale>
+<Anchor>15</Anchor>
+<Stroke>
+<Properties>
+<StrokeColor>0xff0f0f80</StrokeColor>
+</Properties>
+</Stroke>
+<Fill>
+<Properties>
+<FillType>3</FillType>
+<FillColor>0x0f0f0f0f</FillColor>
+<Gradient>
+<Properties>
+<Radial>true</Radial>
+<NumStops>3</NumStops>
+<StopColor index="0">0x230f0f0f</StopColor>
+<StopColor index="1">0x2d0f0f0f</StopColor>
+<StopColor index="2">0xe10f0f0f</StopColor>
+<StopPos index="0">0.000000</StopPos>
+<StopPos index="1">0.537255</StopPos>
+<StopPos index="2">1.000000</StopPos>
+</Properties>
+</Gradient>
+<TransformVersion>1</TransformVersion>
+</Properties>
+</Fill>
+<Closed>true</Closed>
+<Points>4,0.000000,0.000000,0.000000,0.000000,1131.000000,0.000000,0,1131.000000,0.000000,1131.000000,0.000000,1131.000000,719.000000,0,1131.000000,719.000000,1131.000000,719.000000,0.000000,719.000000,0,0.000000,719.000000,0.000000,719.000000,0.000000,0.000000,0,</Points>
+</Properties>
+</XuiFigure>
+<XuiControl>
+<Properties>
+<Id>FocusSink</Id>
+<Position>1320.000000,98.000000,0.000000</Position>
+</Properties>
+</XuiControl>
+</XuiScene>
+</XuiCanvas>

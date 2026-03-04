@@ -1,0 +1,72 @@
+#pragma once
+
+enum eAward
+{
+	eAward_TakingInventory=0,	
+	eAward_GettingWood,		
+	eAward_Benchmarking,		
+	eAward_TimeToMine,		
+	eAward_HotTopic,			
+	eAward_AquireHardware,
+	eAward_TimeToFarm,		
+	eAward_BakeBread,			
+	eAward_TheLie,			
+	eAward_GettingAnUpgrade,	
+	eAward_DeliciousFish,
+	eAward_OnARail,			
+	eAward_TimeToStrike,		
+	eAward_MonsterHunter,		
+	eAward_CowTipper,			
+	eAward_WhenPigsFly,
+	eAward_LeaderOfThePack,
+	eAward_MOARTools,
+	eAward_DispenseWithThis,
+	eAward_InToTheNether,
+
+	eAward_mine100Blocks,		
+	eAward_kill10Creepers,	
+	eAward_eatPorkChop,		
+	eAward_play100Days,		
+	eAward_arrowKillCreeper,	
+	eAward_socialPost,
+
+#ifndef _XBOX	
+	// 4J Stu - Does not map to any Xbox achievements
+	eAward_snipeSkeleton,
+	eAward_diamonds,
+	eAward_portal,
+	eAward_ghast,
+	eAward_blazeRod,
+	eAward_potion,
+	eAward_theEnd,
+	eAward_winGame,
+	eAward_enchantments,
+	eAward_overkill,
+	eAward_bookcase,
+#endif
+
+#ifdef _EXTENDED_ACHIEVEMENTS
+	eAward_adventuringTime,
+	eAward_repopulation,
+	//eAward_porkChop,
+	eAward_diamondsToYou,
+	//eAward_passingTheTime,
+	//eAward_archer,
+	eAward_theHaggler,
+	eAward_potPlanter,
+	eAward_itsASign,
+	eAward_ironBelly,
+	eAward_haveAShearfulDay,
+	eAward_rainbowCollection,
+	eAward_stayinFrosty,
+	eAward_chestfulOfCobblestone,
+	eAward_renewableEnergy,
+	eAward_musicToMyEars,
+	eAward_bodyGuard,
+	eAward_ironMan,
+	eAward_zombieDoctor,
+	eAward_lionTamer,
+#endif
+
+	eAward_Max,
+};

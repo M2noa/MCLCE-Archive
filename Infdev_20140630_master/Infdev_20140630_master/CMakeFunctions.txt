@@ -1,0 +1,35 @@
+# FUNCTIONS
+function(add_subproject base_project)
+	cmake_parse_arguments(PARSE_ARGV 1 VARGS "" "PATH" "INTERFACE;PUBLIC;PRIVATE")
+	
+	get_property(prev_folder_base GLOBAL PROPERTY FOLDER_BASE)
+	set_property(GLOBAL PROPERTY FOLDER_BASE "${VARGS_PATH}/")
+	
+	add_subdirectory("${VARGS_PATH}")	
+	set_property(DIRECTORY "${VARGS_PATH}" PROPERTY FOLDER "${prev_folder_base}${VARGS_PATH}")
+	
+	target_link_libraries(${base_project} INTERFACE "${VARGS_INTERFACE}" PUBLIC "${VARGS_PUBLIC}" PRIVATE "${VARGS_PRIVATE}")
+	
+	set_property(GLOBAL PROPERTY FOLDER_BASE "${prev_folder_base}")
+endfunction()
+
+# MACROS
+macro(get_property_folder_base folder)
+	get_property(${folder} GLOBAL PROPERTY FOLDER_BASE)
+endmacro()
+
+macro(set_option variable default type explanation)
+	if(NOT DEFINED ${variable})
+		set(${variable} ${default})
+	endif()
+	set(${variable} ${${variable}} CACHE ${type} "${explanation}" FORCE)
+endmacro()
+
+macro(try_create_symlink ouput destination source)
+	file(CREATE_LINK "${source}" "${destination}" SYMBOLIC RESULT failed)
+	if(${failed})
+		set(${ouput} "${source}")
+	else()
+		set(${ouput} "${destination}")
+	endif()
+endmacro()

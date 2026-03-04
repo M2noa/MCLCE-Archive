@@ -1,0 +1,15 @@
+#pragma once
+
+#include "BrewingStandTileEntity.h"
+#include "ChestTileEntity.h"
+#include "DispenserTileEntity.h"
+#include "EnchantmentTableEntity.h"
+#include "FurnaceTileEntity.h"
+#include "MobSpawnerTileEntity.h"
+#include "MusicTileEntity.h"
+#include "SignTileEntity.h"
+#include "TileEntity.h"
+#include "PistonMovingPiece.h"
+#include "TheEndPortalTileEntity.h"
+#include "SkullTileEntity.h"
+#include "EnderChestTileEntity.h"

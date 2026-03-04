@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <colour name="HTMLColor_0" value="000000" />
+  <colour name="HTMLColor_1" value="0000aa" />
+  <!-- Used by: End Poem (second character) -->
+  <colour name="HTMLColor_2" value="109e10" />
+  <!-- Used by: End Poem (first character) -->
+  <colour name="HTMLColor_3" value="109e9e" />
+  <colour name="HTMLColor_4" value="aa0000" />
+  <colour name="HTMLColor_5" value="DE5BD9" />
+  <colour name="HTMLColor_6" value="ffaa00" />
+  <!-- Used by: Potion effects -->
+  <colour name="HTMLColor_7" value="aaaaaa" />
+  <!-- Used by: End Poem random text -->
+  <colour name="HTMLColor_8" value="555555" />
+  <!-- Used by: End Poem random text -->
+  <colour name="HTMLColor_9" value="7878FF" />
+  <!-- Used by: End Poem random text -->
+  <colour name="HTMLColor_a" value="55ff55" />
+  <!-- Used by: Rare items (golden apple, enchanted items, music discs) -->
+  <colour name="HTMLColor_b" value="55ffff" />
+  <!-- Used by: Harmful potion effects -->
+  <colour name="HTMLColor_c" value="ff5555" />
+  <!-- Used by: Epic items (enchanted golden apple) -->
+  <colour name="HTMLColor_d" value="ff55ff" />
+  <!-- Used by: Uncommon items (enchanted book) -->
+  <colour name="HTMLColor_e" value="ffff55" />
+  <!-- Used by: Common items, Item enchantments -->
+  <colour name="HTMLColor_f" value="ffffff" />
+  <colour name="HTMLColor_dark_0" value="000000" />
+  <colour name="HTMLColor_dark_1" value="00002a" />
+  <colour name="HTMLColor_dark_2" value="002a00" />
+  <colour name="HTMLColor_dark_3" value="002a2a" />
+  <colour name="HTMLColor_dark_4" value="2a0000" />
+  <colour name="HTMLColor_dark_5" value="2a002a" />
+  <colour name="HTMLColor_dark_6" value="2a2a00" />
+  <colour name="HTMLColor_dark_7" value="2a2a2a" />
+  <colour name="HTMLColor_dark_8" value="151515" />
+  <colour name="HTMLColor_dark_9" value="15153f" />
+  <colour name="HTMLColor_dark_a" value="153f15" />
+  <colour name="HTMLColor_dark_b" value="153f3f" />
+  <colour name="HTMLColor_dark_c" value="3f1515" />
+  <colour name="HTMLColor_dark_d" value="3f153f" />
+  <colour name="HTMLColor_dark_e" value="3f3f15" />
+  <colour name="HTMLColor_dark_f" value="3f3f3f" />
+  <!-- Used by: How To Play host options section title, What's New (first time in update menu) section title -->
+  <colour name="HTMLColor_T1" value="c81e1e" />
+  <!-- Used by: How To Play host option sub-section title -->
+  <colour name="HTMLColor_T2" value="1c60d6" />
+  <!-- Used by: How To Play page title -->
+  <colour name="HTMLColor_T3" value="2a9524" />
+  <!-- Used by: Crafting menu descriptions, What's New (first time in update menu) -->
+  <colour name="HTMLColor_Black" value="323232" />
+  <!-- Used by: Tutorial popup text, More options hint text, How To Play text, Settings hint text, Progress scene hint text, -->
+  <colour name="HTMLColor_White" value="EBEBEB" />
+  <!-- Used by: Enchantment table buttons -->
+  <colour name="Color_EnchantText" value="685E4A" />
+  <colour name="Color_EnchantTextFocus" value="ffff80" />
+  <colour name="Color_EnchantTextDisabled" value="342f25" />
+  <!-- Used by: Items renamed in an anvil-->
+  <colour name="Color_RenamedItemTitle" value="ffb82e" />
+</root>
+<!--HtmlTextEditorBackgroundColour: 2F4049-->

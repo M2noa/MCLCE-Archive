@@ -1,0 +1,7 @@
+#define IDC_XuiButtonResetToDefaults L"XuiButtonResetToDefaults"
+#define IDC_XuiButtonUI L"XuiButtonUI"
+#define IDC_XuiButtonGraphics L"XuiButtonGraphics"
+#define IDC_XuiButtonControl L"XuiButtonControl"
+#define IDC_XuiButtonAudio L"XuiButtonAudio"
+#define IDC_XuiButtonOptions L"XuiButtonOptions"
+#define IDC_SceneSettings L"SceneSettings"

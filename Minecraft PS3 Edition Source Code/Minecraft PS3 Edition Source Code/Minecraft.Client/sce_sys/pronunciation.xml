@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gamePackage>
+  <language id="00" modified="0">
+    <speechRecognitionWords>
+      <text>シンプル シューティング ゲーム</text>
+      <pronunciation>sh i N p u r u ___ sh uL t i N g u ___ g eL m u</pronunciation>
+    </speechRecognitionWords>
+  </language>
+  <language id="01" modified="0">
+    <speechRecognitionWords>
+      <text>simple shooting game</text>
+      <pronunciation>s ih m p ax l ___ sh uw t ih n ___ g ey m</pronunciation>
+    </speechRecognitionWords>
+  </language>
+</gamePackage>

@@ -1,0 +1,87 @@
+#include "stdafx.h"
+#include <iostream>
+#include "net.minecraft.h"
+#include "net.minecraft.world.entity.player.h"
+#include "PacketListener.h"
+#include "ChatPacket.h"
+
+// longest allowed string is "<" + name + "> " + message
+const unsigned int ChatPacket::MAX_LENGTH = SharedConstants::maxChatLength + Player::MAX_NAME_LENGTH + 3;
+
+ChatPacket::ChatPacket() 
+{
+	m_messageType = e_ChatCustom;
+}
+
+// Old chat packet constructor, adds message, custom data and additional message to arg vectors
+ChatPacket::ChatPacket(const wstring& message, EChatPacketMessage type /*= e_ChatCustom*/, int customData /*= -1*/, const wstring& additionalMessage /*= L""*/)
+{
+	m_messageType = type;
+	if (customData != -1) m_intArgs.push_back(customData);
+	if (message != L"" || additionalMessage != L"") m_stringArgs.push_back(message);
+	if (additionalMessage != L"") m_stringArgs.push_back(additionalMessage);
+}
+
+// Read chat packet (throws IOException)
+void ChatPacket::read(DataInputStream *dis) 
+{
+	m_messageType = (EChatPacketMessage) dis->readShort();
+
+	short packedCounts = dis->readShort();
+	int stringCount = (packedCounts >> 4) & 0xF;
+	int intCount = (packedCounts >> 0) & 0xF;
+	
+	for(int i = 0; i < stringCount; i++)
+	{
+		m_stringArgs.push_back(readUtf(dis, MAX_LENGTH));
+	}
+
+	for(int i = 0; i < intCount; i++)
+	{
+		m_intArgs.push_back(dis->readInt());
+	}
+}
+
+// Write chat packet (throws IOException)
+void ChatPacket::write(DataOutputStream *dos)
+{
+	dos->writeShort(m_messageType);
+
+	short packedCounts = 0;
+	packedCounts |= (m_stringArgs.size() & 0xF) << 4;
+	packedCounts |= (m_intArgs.size() & 0xF) << 0;
+
+	dos->writeShort(packedCounts);
+
+	for(int i = 0; i < m_stringArgs.size(); i++)
+	{
+		writeUtf(m_stringArgs[i], dos);
+}
+
+	for(int i = 0; i < m_intArgs.size(); i++)
+	{
+		dos->writeInt(m_intArgs[i]);
+	}
+}
+
+// Handle chat packet
+void ChatPacket::handle(PacketListener *listener)
+{
+	listener->handleChat(shared_from_this());
+}
+
+// Get an estimated size of the packet 
+int ChatPacket::getEstimatedSize() 
+{
+	int stringsSize = 0;
+	for(int i = 0; i < m_stringArgs.size(); i++)
+	{
+		stringsSize += m_stringArgs[i].length();
+	}
+
+	return 
+		sizeof(EChatPacketMessage) + // message type 
+		sizeof(short) + // packed arg counts 
+		stringsSize + // string args
+		(m_intArgs.size() * sizeof(int)); // int args
+}
