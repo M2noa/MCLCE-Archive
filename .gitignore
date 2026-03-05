@@ -1,1 +1,11 @@
+# OpenCode configuration
 opencode.json
+
+# Exclude original zip archives
+*.zip
+
+# Exclude README.txt (original file)
+README.txt
+
+# Exclude LCEMP directory (not properly organized yet)
+/console-edition-2014/lcemp/
