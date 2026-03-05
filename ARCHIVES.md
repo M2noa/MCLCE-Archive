@@ -96,12 +96,3 @@ Steam beta branch builds modified to run without Steam. Includes enderman, ender
 1. Anon dropped "Minecraft PS3 edition source code leak". Code was real but stripped all other platforms and modified file timestamps.
 2. Other anon then leaks the actual thing, full console edition source code leak dated 2014
 3. Yet another anon posts another leak which contains MCPE.
-
-## Sources
-
-- https://boards.4chan.org/g/thread/108264778/minecraft-ps3-edition-source-code
-- https://bin.skylvi.net/dmca (DMCA information)
-
-## DMCA Notice
-
-**For information on DMCA takedown requests please read this webpage:** https://bin.skylvi.net/dmca
