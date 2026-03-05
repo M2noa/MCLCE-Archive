@@ -175,6 +175,35 @@ enum eGameSetting
 	// PSVita
 	eGameSetting_PSVita_NetworkModeAdhoc,
 
+	// Custom Debug/Cheat Settings
+	eGameSetting_ShowFPS,
+	eGameSetting_RenderDistance,
+	eGameSetting_FPSLimit,
+	eGameSetting_Shadows,
+	eGameSetting_ParticleQuality,
+	eGameSetting_SmoothLighting,
+	eGameSetting_MipmapLevels,
+	eGameSetting_EntityShadows,
+	eGameSetting_VSync,
+	
+	// Cheat/Debug Features
+	eGameSetting_Flight,
+	eGameSetting_NoClip,
+	eGameSetting_SuperSpeed,
+	eGameSetting_XRay,
+	eGameSetting_Fullbright,
+	eGameSetting_InfiniteReach,
+	eGameSetting_OneHitKill,
+	eGameSetting_NoFallDamage,
+	eGameSetting_UnlimitedAir,
+	eGameSetting_Zoom,
+	eGameSetting_Freecam,
+	eGameSetting_TimeControl,
+	eGameSetting_WeatherControl,
+	eGameSetting_InstantBreak,
+	eGameSetting_AutoJump,
+	eGameSetting_WallClimb,
+	eGameSetting_StepAssist,
 
 };
 

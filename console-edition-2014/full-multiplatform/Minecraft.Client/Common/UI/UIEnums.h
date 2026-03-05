@@ -94,6 +94,7 @@ enum EUIScene
 	eUIScene_TradingMenu,
 	eUIScene_AnvilMenu,
 	eUIScene_TeleportMenu,
+	eUIScene_DebugEnhanced,
 
 #ifdef _XBOX
 //	eUIScene_TransferToXboxOne,

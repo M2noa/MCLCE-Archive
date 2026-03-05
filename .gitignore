@@ -9,3 +9,5 @@ README.txt
 
 # Exclude LCEMP directory (not properly organized yet)
 /console-edition-2014/lcemp/
+*.log
+.vs/

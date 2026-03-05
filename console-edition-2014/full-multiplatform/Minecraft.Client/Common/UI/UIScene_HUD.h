@@ -33,11 +33,16 @@ private:
 
 	wstring m_displayName;
 
+	int m_fpsFrameCount;
+	__int64 m_fpsLastTime;
+	float m_currentFPS;
+
 protected:
 	UIControl_Label m_labelChatText[CHAT_LINES_COUNT];
 	UIControl_Label m_labelJukebox;
 	UIControl m_controlLabelBackground[CHAT_LINES_COUNT];
 	UIControl_Label m_labelDisplayName;
+	UIControl_Label m_labelFPS;
 
 	IggyName m_funcLoadHud, m_funcSetExpBarProgress, m_funcSetPlayerLevel, m_funcSetActiveSlot;
 	IggyName m_funcSetHealth, m_funcSetFood, m_funcSetAir, m_funcSetArmour;
@@ -72,6 +77,8 @@ protected:
 		UI_MAP_ELEMENT(m_labelJukebox,"Jukebox")
 
 		UI_MAP_ELEMENT(m_labelDisplayName,"LabelGamertag")
+
+		UI_MAP_ELEMENT(m_labelFPS,"LabelFPS")
 
 		UI_MAP_NAME(m_funcLoadHud, L"LoadHud")
 		UI_MAP_NAME(m_funcSetExpBarProgress, L"SetExpBarProgress")

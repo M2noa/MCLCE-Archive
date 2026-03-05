@@ -43,6 +43,10 @@ UIScene_HUD::UIScene_HUD(int iPad, void *initData, UILayer *parentLayer) : UISce
 	m_displayName = L"";
 	m_lastShowDisplayName = true;
 
+	m_fpsFrameCount = 0;
+	m_fpsLastTime = 0;
+	m_currentFPS = 0.0f;
+
 	SetDragonLabel( app.GetString( IDS_BOSS_ENDERDRAGON_HEALTH ) );
 	SetSelectedLabel(L"");
 
@@ -51,6 +55,7 @@ UIScene_HUD::UIScene_HUD(int iPad, void *initData, UILayer *parentLayer) : UISce
 		m_labelChatText[i].init(L"");
 	}
 	m_labelJukebox.init(L"");
+	m_labelFPS.init(L"FPS: 0");
 
 	addTimer(0, 100);
 }
@@ -144,6 +149,27 @@ void UIScene_HUD::tick()
 		if(pMinecraft->localplayers[m_iPad] == NULL || pMinecraft->localgameModes[m_iPad] == NULL)
 		{
 			return;
+		}
+
+		if(app.GetGameSettings(m_iPad,eGameSetting_ShowFPS))
+		{
+			m_fpsFrameCount++;
+			__int64 currentTime = System::nanoTime();
+			if(m_fpsLastTime == 0)
+			{
+				m_fpsLastTime = currentTime;
+			}
+			__int64 elapsed = currentTime - m_fpsLastTime;
+			if(elapsed >= 1000000000LL)
+			{
+				m_currentFPS = (float)m_fpsFrameCount / ((float)elapsed / 1000000000.0f);
+				m_fpsFrameCount = 0;
+				m_fpsLastTime = currentTime;
+				
+				WCHAR fpsText[64];
+				swprintf(fpsText, 64, L"FPS: %.1f", m_currentFPS);
+				m_labelFPS.setLabel(fpsText);
+			}
 		}
 
 		if(pMinecraft->localplayers[m_iPad]->dimension == 1)
