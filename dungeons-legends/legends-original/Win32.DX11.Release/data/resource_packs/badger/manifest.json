@@ -1,0 +1,17 @@
+{
+	"format_version": 1,
+	"header": {
+		"description": "Badger Resource Pack Description",
+		"name": "Badger Resource Pack",
+		"uuid": "5faf94d2-0ad6-11e8-ba89-0ed5f89f718b",
+		"version": [0, 0, 1]
+	},
+	"modules": [
+         {
+            "description": "Badger Resource Description",
+            "type": "resources",
+            "uuid": "6ccb1650-0ad6-11e8-ba89-0ed5f89f718b",
+            "version": [0, 0, 1]
+        }
+ ]
+}

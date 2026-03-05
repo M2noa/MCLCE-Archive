@@ -1,0 +1,33 @@
+{
+	"id": "desert-test-level",
+	"object-groups": [
+		"henrik_desert_01"
+	],
+	"stretches": [
+		{
+			"id": "desert-start",
+			"tiles": ["d001"]
+		},
+		{
+			"id": "desert-1",
+			"length": 15,
+			"tiles": [
+				{"id": "d003", "weight": 3},
+				{"id": "d004"},
+				{"id": "d008", "weight": 2},
+				{"id": "d012"},
+				{"id": "d018"},
+				{"id": "d019"}
+			]
+		},
+		{
+			"id": "desert-2",
+			"length": 8,
+			"tiles": ["d013", "d020", "d022", "d024"]
+		},
+		{
+			"id": "desert-end",
+			"tiles": ["d002"]
+		}
+	]
+}

@@ -1,0 +1,7 @@
+A Minecraft játékban most előfizethet a Minecraft Realms szolgáltatásra. A Realms egy havi előfizetéssel igénybe vehető szolgáltatás, amelynek segítéségével létrehozhatja a mindig rendelkezésre álló Minecraft-világát.
+Jelenleg két előfizetés közül választhat attól függően, hogy egyszerre hány emberrel szeretne játszani a Realmjában. Egy Önt és 2 ismerősét befogadó Realm havonta 3,99 USD-be, míg egy Önt és 10 ismerősét befogadó havonta 7,99 USD-be kerül (vagy ezeknek megfelelő összegekbe helyi pénznemben).
+Igénybe veheti a Minecraft Realms 30 napos, Önt és 10 ismerősét befogadó próbaverzióját. Az ingyenes próbaverzió véget ér, amikor előfizetést vásárol.
+
+A terhelés az iTunes-egyenlegén fog megjelenni a vásárlás megerősítésekor, és az előfizetés automatikusan megújul, hacsak ezt az aktuális előfizetési időszak lejárta előtt legalább 24 órával ki nem kapcsolja. Az egyenlegét az aktuális előfizetési időszak lejárta előtt 24 órán belül terheljük meg a korábban kiválasztott előfizetés árával.
+
+Az előfizetés automatikus megújulását a vásárlás után ki is kapcsolhatja a fiókbeállításokban. A játékban is van egy gomb, amely közvetlenül megnyitja ezeket a beállításokat. Ha az előfizetés aktiválása után lemondja azt, nem kapja vissza a fennmaradó idővel arányos díjat.

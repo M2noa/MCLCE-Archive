@@ -1,0 +1,27 @@
+"InstallScript"
+{
+	"Registry"
+	{
+		"HKEY_CURRENT_USER\\SOFTWARE\\Telltale Games\\MinecraftStoryMode.exe"
+		{
+			"string"
+			{
+				"Distribution"		"Steam"
+				"Franchise"		"Minecraft100"
+				"Install Location"		"%INSTALLDIR%\\"
+				"Manual"		"Manual.pdf"
+				"ReadMe"		"Readme.txt"
+				"SaveGameFolderName"		"Minecraft Story Mode"
+				"version"		"1.0.0.0"
+				"english"
+				{
+					"language"		"english"
+				}
+			}
+		}
+	}
+}
+"kvsignatures"
+{
+	"InstallScript"		"538b25dea066ed395dd44ad09615bfc1d0b42d9950b6621debdff71507bd765681a15c6650faf9b1980266f02bad4340ff917f9b0370d9dfdb6824f95299b292e2692ab6b42f0ac4493724956fb02b2e7d256a792f8efe4566cd429b3e8cf1371b3f794608655dc290d338467bd14ced9b338e9b638c5b0785b5174ee0869d08"
+}

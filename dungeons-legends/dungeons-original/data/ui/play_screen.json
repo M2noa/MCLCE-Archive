@@ -1,0 +1,2631 @@
+{
+  "namespace": "play",
+
+  //---------------------------------------------------------------------------
+  // Common
+  //---------------------------------------------------------------------------
+
+  "dark_thin_button": {
+    "type": "image",
+    "nineslice_size": 4.0,
+    "texture": "gui/newgui/play_screen/DarkButtonThinStroke1.png",
+    "uv": [ 0, 0 ],
+    "uv_size": [ 7, 7 ]
+  },
+
+  "label_background": {
+    "type": "image",
+    "texture": "gui/achievements/mainbanners.png",
+    "uv": [ 0, 0 ],
+    "nineslice_size": 1.0,
+    "uv_size": [ 3, 3 ]
+  },
+
+  "normal_stroke_button": {
+    "type": "image",
+    "nineslice_size": 4.0,
+    "texture": "gui/newgui/NormalButtonThinStroke.png",
+    "uv": [ 0, 0 ],
+    "uv_size": [ 7, 7 ]
+  },
+
+  "hover_thin_stroke_button": {
+    "type": "image",
+    "nineslice_size": 4.0,
+    "texture": "gui/newgui/play_screen/HoverButtonThinStroke.png",
+    "uv": [ 0, 0 ],
+    "uv_size": [ 7, 7 ]
+  },
+
+  "pressed_thin_stroke_button": {
+    "type": "image",
+    "nineslice_size": 4.0,
+    "texture": "gui/newgui/play_screen/PressedButtonThinStroke.png",
+    "uv": [ 0, 0 ],
+    "uv_size": [ 7, 7 ]
+  },
+
+  //---------------------------------------------------------------------------
+  // Common Icons
+  //---------------------------------------------------------------------------
+
+  "edit_icon": {
+    "type": "image",
+    "texture": "gui/newgui/editIcon.png",
+    "uv": [ 0, 0 ],
+    "uv_size": [ 22, 16 ],
+    "size": [ 22, 16 ]
+  },
+
+  "worlds_icon": {
+    "type": "image",
+    "texture": "gui/newgui/worldsIcon.png",
+    "uv": [ 0, 0 ],
+    "uv_size": [ 16, 17 ],
+    "size": [ 16, 17 ]
+  },
+
+  "realms_icon": {
+    "type": "image",
+    "texture": "gui/newgui/realmsIcon.png",
+    "uv": [ 0, 0 ],
+    "uv_size": [ 11, 14 ],
+    "size": [ 11, 14 ]
+  },
+
+  "friends_icon": {
+    "type": "image",
+    "texture": "gui/newgui/FriendsIcon.png",
+    "uv": [ 0, 0 ],
+    "uv_size": [ 15, 15 ],
+    "size": [ 15, 15 ]
+  },
+
+  "lan_icon": {
+    "type": "image",
+    "texture": "gui/newgui/Local.png",
+    "uv": [ 0, 0 ],
+    "uv_size": [ 14, 14 ],
+    "size": [ 14, 14 ]
+  },
+
+  "xbox_icon": {
+    "type": "image",
+    "texture": "gui/newgui/xbox4.png",
+    "uv": [ 0, 0 ],
+    "uv_size": [ 27, 27 ],
+    "size": [ 14, 14 ]
+  },
+
+  "realms_remove_icon": {
+    "type": "image",
+    "texture": "gui/newgui/redX1.png",
+    "uv": [ 0, 0 ],
+    "uv_size": [ 12, 12 ],
+    "size": [ 12, 12 ]
+  },
+
+  "game_online_icon": {
+    "type": "image",
+    "texture": "gui/newgui/Dot1.png",
+    "uv": [ 0, 0 ],
+    "uv_size": [ 9, 9 ],
+    "size": [ 9, 9 ]
+  },
+
+  "game_offline_icon": {
+    "type": "image",
+    "texture": "gui/newgui/Dot2.png",
+    "uv": [ 0, 0 ],
+    "uv_size": [ 9, 9 ],
+    "size": [ 9, 9 ]
+  },
+
+  "game_unavailable_icon": {
+    "type": "image",
+    "texture": "gui/newgui/Dot3.png",
+    "uv": [ 0, 0 ],
+    "uv_size": [ 9, 9 ],
+    "size": [ 9, 9 ]
+  },
+
+  "import_icon": {
+    "type": "image",
+    "texture": "gui/newgui/import.png",
+    "uv": [ 0, 0 ],
+    "uv_size": [ 16, 16 ],
+    "size": [ 16, 16 ]
+  },
+
+  "add_server_icon": {
+    "type": "image",
+    "texture": "gui/newgui/addServer.png",
+    "uv": [ 0, 0 ],
+    "uv_size": [ 17, 13 ],
+    "size": [ 17, 13 ]
+  },
+
+  "invite_notification_icon": {
+    "type": "image",
+    "texture": "$invite_texture",
+    "uv": [ 0, 0 ],
+    "uv_size": [ 16, 16 ],
+    "size": [ 16, 16 ]
+  },
+
+  "realms_art_icon": {
+    "type": "image",
+    "texture": "gui/newgui/RealmsArt.png",
+    "uv": [ 0, 0 ],
+    "uv_size": [ 647, 760 ],
+    "size": [ 647, 760 ]
+  },
+
+  "realms_text_background": {
+    "type": "image",
+    "texture": "gui/newgui/RealmsArt.png",
+    "uv": [ 642, 835 ],
+    "uv_size": [ 5, 5 ],
+    "nineslice_size": 1.0
+  },
+
+  "connected_storage": {
+    "type": "image",
+    "texture": "gui/newgui/clouds.png",
+    "size": [ 12, 8 ],
+    "uv_size": [ 12, 8 ]
+  },
+
+  "feedback_icon": {
+    "type": "image",
+    "texture": "gui/newgui/Feedback.png",
+    "layer": 3,
+    "uv": [ 0, 0 ],
+    "uv_size": [ 16, 16 ],
+    "size": [ 16, 16 ]
+  },
+
+  "local_only_storage@play.connected_storage": {
+    "uv": [ 0, 0 ]
+  },
+
+  "local_and_cloud_storage@play.connected_storage": {
+    "uv": [ 16, 0 ]
+  },
+
+  "cloud_only_storage@play.connected_storage": {
+    "uv": [ 32, 0 ]
+  },
+
+  //---------------------------------------------------------------------------
+  // REALMS INFORMATION
+  //---------------------------------------------------------------------------
+
+  "minecraft_realms_image": {
+    "type": "input_panel",
+    "clips_children": true,
+    "$art_icon_size": [ "55%", "64.61%x" ],
+    "$content_text_size": [ "45%-3px", "100%-10px" ],
+    "$content_offset": [ 0, 5 ],
+    "variables": [
+      {
+        "requires": "$pocket_screen",
+        "$art_icon_size": [ "100%-150px", "117.47%x-176px" ],
+        "$content_text_size": [ 150, "100%" ],
+        "$content_offset": [ 0, 0 ]
+      }
+    ],
+    "controls": [
+      {
+        "background@play.realms_text_background": {
+          "layer": 1
+        }
+      },
+      {
+        "image@play.realms_art_icon": {
+          "layer": 2,
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "size": "$art_icon_size"
+        }
+      },
+      {
+        "content": {
+          "type": "panel",
+          "layer": 3,
+          "anchor_from": "top_right",
+          "anchor_to": "top_right",
+          "size": "$content_text_size",
+          "offset": "$content_offset",
+          "controls": [
+            {
+              "text1@play.common_button_text": {
+                "layer": 2,
+                "size": [ "100%-10px", "60%-5px" ],
+                "offset": [ 5, 5 ],
+                "wrap": true,
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "alignment": "top_left",
+                "text": "realmsWorld.realmsDescription"
+              }
+            },
+            {
+              "text2@play.common_button_text": {
+                "layer": 2,
+                "size": [ "100%-10px", "40%-5px" ],
+                "offset": [ 5, 0 ],
+                "wrap": true,
+                "anchor_from": "bottom_left",
+                "anchor_to": "bottom_left",
+                "alignment": "top_left",
+                "text": "realmsWorld.ownerPay"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "realms_not_available_panel": {
+    "type": "panel",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "content": {
+          "type": "panel",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "size": [ "100%-6px", "100%-6px" ],
+          "offset": [ 3, 3 ],
+          "controls": [
+            {
+              "@minecraft_realms_image": {
+                "layer": 1,
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "size": [ "100%", "100%-34px" ]
+              }
+            },
+            {
+              "header_button": {
+                "type": "panel",
+                "anchor_from": "bottom_left",
+                "anchor_to": "bottom_left",
+                "layer": 1,
+                "size": [ "100%", 34 ],
+                "controls": [
+                  {
+                    "content@play.common_button_text": {
+                      "layer": 1,
+                      "size": [ "100%-4px", "100%-4px" ],
+                      "offset": [ 2, 2 ],
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "alignment": "center",
+                      "wrap": true,
+                      "clip": false,
+                      "$common_button_text_text": "#realms_not_available_text",
+                      "bindings": [
+                        {
+                          "binding_name": "#realms_not_available_text",
+                          "binding_condition": "visible"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "background@play.realms_text_background": {
+                "layer": 1
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "realms_information_panel": {
+    "type": "panel",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "content": {
+          "type": "panel",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "size": [ "100%-6px", "100%-6px" ],
+          "offset": [ 3, 3 ],
+          "controls": [
+            {
+              "@minecraft_realms_image": {
+                "layer": 1,
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "size": [ "100%", "100%-34px" ]
+              }
+            },
+            {
+              "header_button": {
+                "type": "panel",
+                "anchor_from": "bottom_left",
+                "anchor_to": "bottom_left",
+                "layer": 1,
+                "size": [ "100%", 34 ],
+                "controls": [
+                  {
+                    "buttons@play.header_button_panel": {
+                      "layer": 1,
+                      "size": [ "100%", 30 ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "$primary_header_button": "new_realm_button",
+                      "$secondary_header_button": "notification_button",
+                      "bindings": [
+                        {
+                          "binding_name": "#realms_new_realm_visible",
+                          "binding_name_override": "#visible"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "button@play.header_button_panel": {
+                      "layer": 1,
+                      "size": [ "100%", 30 ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "controls": [
+                        {
+                          "@play.xbox_live_signin_button": {
+                            "size": [ "100%", "100%" ],
+                            "layer": 1
+                          }
+                        },
+                        {
+                          "@play.xbox_icon": {
+                            // the sign-in button content will go up to layer 6
+                            "layer": 7,
+                            "size": [ 14, 14 ],
+                            "anchor_from": "left_middle",
+                            "anchor_to": "left_middle",
+                            "offset": [ 4, 0 ]
+                          }
+                        }
+                      ],
+                      "bindings": [
+                        {
+                          "binding_name": "#realms_xbox_live_signin_visible",
+                          "binding_name_override": "#visible"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  //---------------------------------------------------------------------------
+  // REALMS WORLD GRID
+  //---------------------------------------------------------------------------
+
+  "realms_world_header@play.world_list_text": {
+    "text": "#realms_world_header",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "alignment": "top_left",
+    "color": "$bright_text_color",
+    "bindings": [
+      {
+        "binding_name": "#realms_world_header",
+        "binding_condition": "visible",
+        "binding_type": "collection",
+        "binding_collection_name": "realms_worlds"
+      }
+    ]
+  },
+
+  "realms_world_details@play.world_list_text": {
+    "text": "#realms_world_details",
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "alignment": "bottom_left",
+    "bindings": [
+      {
+        "binding_name": "#realms_world_details",
+        "binding_condition": "visible",
+        "binding_type": "collection",
+        "binding_collection_name": "realms_worlds"
+      }
+    ]
+  },
+
+  "realms_world_player_count@play.world_list_text": {
+    "text": "#realms_world_player_count",
+    "size": [ "100%-13px", "default" ],
+    "offset": [ -13, 0 ],
+    "anchor_from": "right_middle",
+    "anchor_to": "right_middle",
+    "alignment": "right_middle",
+    "bindings": [
+      {
+        "binding_name": "#realms_world_player_count",
+        "binding_condition": "visible",
+        "binding_type": "collection",
+        "binding_collection_name": "realms_worlds"
+      }
+    ]
+  },
+
+  "realms_world_game_status_icon": {
+    "type": "panel",
+    "anchor_from": "right_middle",
+    "anchor_to": "right_middle",
+    "size": [ 9, 9 ],
+    "offset": [ -1, 0 ],
+    "controls": [
+      {
+        "@play.game_online_icon": {
+          "bindings": [
+            {
+              "binding_name": "#game_online",
+              "binding_name_override": "#visible",
+              "binding_type": "collection",
+              "binding_collection_name": "realms_worlds"
+            }
+          ]
+        }
+      },
+      {
+        "@play.game_unavailable_icon": {
+          "bindings": [
+            {
+              "binding_name": "#game_unavailable",
+              "binding_name_override": "#visible",
+              "binding_type": "collection",
+              "binding_collection_name": "realms_worlds"
+            }
+          ]
+        }
+      },
+      {
+        "@play.game_offline_icon": {
+          "bindings": [
+            {
+              "binding_name": "#game_offline",
+              "binding_name_override": "#visible",
+              "binding_type": "collection",
+              "binding_collection_name": "realms_worlds"
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "realms_world_text_panel": {
+    "type": "panel",
+    "size": [ "100%-2px", "100%-2px" ],
+    "controls": [
+      { "@play.realms_world_header": { } },
+      { "@play.realms_world_details": { } }
+    ]
+  },
+
+  "realms_world_content_text_area_panel": {
+    "type": "panel",
+    "controls": [
+      { "@play.realms_world_text_panel": { } }
+    ]
+  },
+
+  "realms_world_content_status_area_panel": {
+    "type": "panel",
+    "controls": [
+      { "@play.realms_world_game_status_icon": { } },
+      { "@play.realms_world_player_count": { } }
+    ]
+  },
+
+  "realms_world_content_panel": {
+    "type": "panel",
+    "size": [ "100%-6px", "100%-6px" ],
+    "offset": "$content_offset",
+    "controls": [
+      {
+        "@play.realms_world_content_text_area_panel": {
+          "size": [ "70%", "100%" ],
+          "anchor_from": "left_middle",
+          "anchor_to": "left_middle",
+          "layer": 1
+        }
+      },
+      {
+        "@play.realms_world_content_status_area_panel": {
+          "size": [ "30%", "100%" ],
+          "anchor_from": "right_middle",
+          "anchor_to": "right_middle",
+          "layer": 1
+        }
+      }
+    ]
+  },
+
+  "realms_world_item_button_state": {
+    "type": "panel",
+    "layer": 1,
+    "$content_offset": [ 0, 0 ],
+    "controls": [
+      { "@$button_sprite_control": { } },
+      {
+        "content": {
+          "type": "panel",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "controls": [
+            {
+              "@play.realms_world_content_panel": {
+                "layer": 1
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "realms_world_item_button_default_state@play.realms_world_item_button_state": {
+    "$button_sprite_control": "play.dark_thin_button",
+    "$bright_text_color": [ 1.0, 1.0, 1.0 ],
+    "$dark_text_color": [ 0.6, 0.6, 0.6 ]
+  },
+
+  "realms_world_item_button_hover_state@play.realms_world_item_button_state": {
+    "$button_sprite_control": "play.hover_thin_stroke_button",
+    "$bright_text_color": [ 1.0, 1.0, 0.2 ],
+    "$dark_text_color": [ 0.8, 0.8, 0.16 ]
+  },
+
+  "realms_world_item_button_pressed_state@play.realms_world_item_button_hover_state": {
+    "$button_sprite_control": "play.pressed_thin_stroke_button",
+    "$content_offset": [ 0, 1 ]
+  },
+
+  "realms_world_item_button@common.button": {
+    "$pressed_button_name": "button.menu_realms_world_item",
+    "size": [ "100%-100%y", "100%" ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "layer": 1,
+    "bindings": [
+      {
+        "binding_type": "collection_details",
+        "binding_condition": "visible",
+        "binding_collection_name": "realms_worlds"
+      }
+    ],
+    "controls": [
+      { "default@play.realms_world_item_button_default_state": { } },
+      { "hover@play.realms_world_item_button_hover_state": { } },
+      { "pressed@play.realms_world_item_button_pressed_state": { } }
+    ]
+  },
+
+  "realms_world_edit_button_state": {
+    "type": "panel",
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "$content_offset": [ 0, 0 ],
+    "controls": [
+      { "@$button_sprite_control": { } },
+      {
+        "@play.edit_icon": {
+          "layer": 1,
+          "offset": "$content_offset",
+          "color": "$icon_color"
+        }
+      }
+    ]
+  },
+
+  "realms_world_edit_button_default_state@play.realms_world_edit_button_state": {
+    "$button_sprite_control": "play.dark_thin_button",
+    "$icon_color": [ 1.0, 1.0, 1.0 ]
+  },
+
+  "realms_world_edit_button_hover_state@play.realms_world_edit_button_state": {
+    "$button_sprite_control": "play.hover_thin_stroke_button",
+    "$icon_color": [ 1.0, 1.0, 0.2 ]
+  },
+
+  "realms_world_edit_button_pressed_state@play.realms_world_edit_button_hover_state": {
+    "$content_offset": [ 0, 1 ],
+    "$button_sprite_control": "play.pressed_thin_stroke_button"
+  },
+
+  "realms_world_edit_button@common.button": {
+    "$pressed_button_name": "button.menu_realms_world_item_edit",
+    "size": [ "100%y", "100%" ],
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "bindings": [
+      {
+        "binding_type": "collection_details",
+        "binding_collection_name": "realms_worlds"
+      }
+    ],
+    "controls": [
+      { "default@play.realms_world_edit_button_default_state": { } },
+      { "hover@play.realms_world_edit_button_hover_state": { } },
+      { "pressed@play.realms_world_edit_button_pressed_state": { } }
+    ]
+  },
+
+  "realms_world_info_button_state": {
+    "type": "panel",
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "$content_offset": [ 0, 0 ],
+    "controls": [
+      { "@$button_sprite_control": { } },
+      {
+        "@play.realms_remove_icon": {
+          "layer": 1,
+          "offset": "$content_offset",
+          "color": "$icon_color"
+        }
+      }
+    ]
+  },
+
+  "realms_world_info_button_default_state@play.realms_world_info_button_state": {
+    "$button_sprite_control": "play.dark_thin_button",
+    "$icon_color": [ 1.0, 1.0, 1.0 ]
+  },
+
+  "realms_world_info_button_hover_state@play.realms_world_info_button_state": {
+    "$button_sprite_control": "play.hover_thin_stroke_button",
+    "$icon_color": [ 1.0, 1.0, 0.2 ]
+  },
+
+  "realms_world_info_button_pressed_state@play.realms_world_info_button_hover_state": {
+    "$content_offset": [ 0, 1 ],
+    "$button_sprite_control": "play.pressed_thin_stroke_button"
+  },
+
+  "realms_world_info_button@common.button": {
+    "$pressed_button_name": "button.menu_realms_world_item_remove",
+    "size": [ "100%y", "100%" ],
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "bindings": [
+      {
+        "binding_type": "collection_details",
+        "binding_collection_name": "realms_worlds"
+      }
+    ],
+    "controls": [
+      { "default@play.realms_world_info_button_default_state": { } },
+      { "hover@play.realms_world_info_button_hover_state": { } },
+      { "pressed@play.realms_world_info_button_pressed_state": { } }
+    ]
+  },
+
+  "realms_world_item": {
+    "type": "panel",
+    "layer": 1,
+    "size": [ "100%", 30 ],
+    "controls": [
+      {
+        "@play.realms_world_item_button": {
+          "layer": 1
+        }
+      },
+      {
+        "edit_panel": {
+          "type": "panel",
+          "controls": [
+            {
+              "@play.realms_world_edit_button": {
+                "layer": 1
+              }
+            }
+          ],
+          "bindings": [
+            {
+              "binding_name": "#realms_edit_visible",
+              "binding_name_override": "#visible",
+              "binding_type": "collection",
+              "binding_collection_name": "realms_worlds"
+            }
+          ]
+        }
+      },
+      {
+        "info_panel": {
+          "type": "panel",
+          "controls": [
+            {
+              "@play.realms_world_info_button": {
+                "layer": 1
+              }
+            }
+          ],
+          "bindings": [
+            {
+              "binding_name": "#realms_info_visible",
+              "binding_name_override": "#visible",
+              "binding_type": "collection",
+              "binding_collection_name": "realms_worlds"
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "realms_world_item_grid": {
+    "type": "grid",
+    "size": [ "100%", "default" ],
+    "layer": 1,
+    "grid_item_template": "play.realms_world_item",
+    "grid_dimension_binding": "#realms_network_world_item_grid_dimension",
+    "collection_name": "realms_worlds",
+    "anchor_to": "top_left",
+    "anchor_from": "top_left",
+    "bindings": [
+      {
+        "binding_name": "#realms_network_world_item_grid_dimension"
+      }
+    ]
+  },
+
+  //---------------------------------------------------------------------------
+  // FRIENDS WORLD GRID
+  //---------------------------------------------------------------------------
+
+  "network_world_header@play.world_list_text": {
+    "text": "#network_world_header",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "alignment": "top_left",
+    "color": "$bright_text_color",
+    "bindings": [
+      {
+        "binding_name": "#network_world_header",
+        "binding_condition": "visible",
+        "binding_type": "collection",
+        "binding_collection_name": "$collection_name"
+      }
+    ]
+  },
+
+  "network_world_details@play.world_list_text": {
+    "text": "#network_world_details",
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "alignment": "bottom_left",
+    "bindings": [
+      {
+        "binding_name": "#network_world_details",
+        "binding_condition": "visible",
+        "binding_type": "collection",
+        "binding_collection_name": "$collection_name"
+      }
+    ]
+  },
+
+  "network_world_player_count@play.world_list_text": {
+    "text": "#network_world_player_count",
+    "size": [ "100%-13px", "default" ],
+    "offset": [ -13, 0 ],
+    "anchor_from": "right_middle",
+    "anchor_to": "right_middle",
+    "alignment": "right_middle",
+    "bindings": [
+      {
+        "binding_name": "#network_world_player_count",
+        "binding_condition": "visible",
+        "binding_type": "collection",
+        "binding_collection_name": "$collection_name"
+      }
+    ]
+  },
+
+  "network_world_game_status_icon": {
+    "type": "panel",
+    "anchor_from": "right_middle",
+    "anchor_to": "right_middle",
+    "size": [ 9, 9 ],
+    "offset": [ -1, 0 ],
+    "controls": [
+      {
+        "@play.game_online_icon": {
+          "bindings": [
+            {
+              "binding_name": "#game_online",
+              "binding_name_override": "#visible",
+              "binding_type": "collection",
+              "binding_collection_name": "$collection_name"
+            }
+          ]
+        }
+      },
+      {
+        "@play.game_unavailable_icon": {
+          "bindings": [
+            {
+              "binding_name": "#game_unavailable",
+              "binding_name_override": "#visible",
+              "binding_type": "collection",
+              "binding_collection_name": "$collection_name"
+            }
+          ]
+        }
+      },
+      {
+        "@play.game_offline_icon": {
+          "bindings": [
+            {
+              "binding_name": "#game_offline",
+              "binding_name_override": "#visible",
+              "binding_type": "collection",
+              "binding_collection_name": "$collection_name"
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "network_world_text_panel": {
+    "type": "panel",
+    "size": [ "100%-2px", "100%-2px" ],
+    "controls": [
+      { "@play.network_world_header": { } },
+      { "@play.network_world_details": { } }
+    ]
+  },
+
+  "network_world_content_text_area_panel": {
+    "type": "panel",
+    "controls": [
+      { "@play.network_world_text_panel": { } }
+    ]
+  },
+
+  "network_world_content_status_area_panel": {
+    "type": "panel",
+    "controls": [
+      { "@play.network_world_game_status_icon": { } },
+      { "@play.network_world_player_count": { } }
+    ]
+  },
+
+  "network_world_content_panel": {
+    "type": "panel",
+    "size": [ "100%-6px", "100%-6px" ],
+    "offset": "$content_offset",
+    "controls": [
+      {
+        "@play.network_world_content_text_area_panel": {
+          "size": [ "100%-50px", "100%" ],
+          "anchor_from": "left_middle",
+          "anchor_to": "left_middle",
+          //"debug":  "red",
+          "layer": 1
+        }
+      },
+      {
+        "@play.network_world_content_status_area_panel": {
+          "size": [ "50px", "100%" ],
+          "anchor_from": "right_middle",
+          "anchor_to": "right_middle",
+          //"debug":  "green",
+          "layer": 1
+        }
+      }
+    ]
+  },
+
+  "network_world_item_button_state": {
+    "type": "panel",
+    "layer": 1,
+    "$content_offset": [ 0, 0 ],
+    "controls": [
+      { "@$button_sprite_control": { } },
+      {
+        "content": {
+          "type": "panel",
+          "size": [ "100%-100%y", "100%" ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "controls": [
+            {
+              "@play.network_world_content_panel": {
+                "layer": 1
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@play.network_world_type_icon": {
+          "layer": 1
+        }
+      }
+    ]
+  },
+
+  "network_world_item_button_default_state@play.network_world_item_button_state": {
+    "$button_sprite_control": "play.dark_thin_button",
+    "$bright_text_color": [ 1.0, 1.0, 1.0 ],
+    "$dark_text_color": [ 0.6, 0.6, 0.6 ]
+  },
+
+  "network_world_item_button_hover_state@play.network_world_item_button_state": {
+    "$button_sprite_control": "play.hover_thin_stroke_button",
+    "$bright_text_color": [ 1.0, 1.0, 0.2 ],
+    "$dark_text_color": [ 0.8, 0.8, 0.16 ]
+  },
+
+  "network_world_item_button_pressed_state@play.network_world_item_button_hover_state": {
+    "$button_sprite_control": "play.pressed_thin_stroke_button",
+    "$content_offset": [ 0, 1 ]
+  },
+
+  "network_world_item_button@common.button": {
+    "$pressed_button_name": "button.menu_network_world_item",
+    "size": [ "100%", "100%" ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "layer": 1,
+    "bindings": [
+      {
+        "binding_type": "collection_details",
+        "binding_condition": "visible",
+        "binding_collection_name": "$collection_name"
+      }
+    ],
+    "controls": [
+      { "default@play.network_world_item_button_default_state": { } },
+      { "hover@play.network_world_item_button_hover_state": { } },
+      { "pressed@play.network_world_item_button_pressed_state": { } }
+    ]
+  },
+
+  "network_server_world_item_button@play.network_world_item_button": {
+    "size": [ "100%-100%y", "100%" ]
+  },
+
+  "network_world_type_icon": {
+    "type": "label",
+    "size": [ "100%y", "100%" ],
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "controls": [
+      {
+        "@$network_world_icon": {
+          "layer": 1
+        }
+      }
+    ]
+  },
+
+  "network_server_world_remove_button_state": {
+    "type": "panel",
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "$content_offset": [ 0, 0 ],
+    "controls": [
+      { "@$button_sprite_control": { } },
+      {
+        "@play.realms_remove_icon": {
+          "layer": 1,
+          "offset": "$content_offset",
+          "color": "$icon_color"
+        }
+      }
+    ]
+  },
+
+  "network_server_world_remove_button_default_state@play.network_server_world_remove_button_state": {
+    "$button_sprite_control": "play.dark_thin_button",
+    "$icon_color": [ 1.0, 1.0, 1.0 ]
+  },
+
+  "network_server_world_remove_button_hover_state@play.network_server_world_remove_button_state": {
+    "$button_sprite_control": "play.hover_thin_stroke_button",
+    "$icon_color": [ 1.0, 1.0, 0.2 ]
+  },
+
+  "network_server_world_remove_button_pressed_state@network_server_world_remove_button_hover_state": {
+    "$content_offset": [ 0, 1 ],
+    "$button_sprite_control": "play.pressed_thin_stroke_button"
+  },
+
+  "network_server_world_remove_button@common.button": {
+    "$pressed_button_name": "button.menu_network_server_world_remove",
+    "size": [ "100%y", "100%" ],
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "bindings": [
+      {
+        "binding_type": "collection_details",
+        "binding_collection_name": "$collection_name"
+      }
+    ],
+    "controls": [
+      { "default@play.network_server_world_remove_button_default_state": { } },
+      { "hover@play.network_server_world_remove_button_hover_state": { } },
+      { "pressed@play.network_server_world_remove_button_pressed_state": { } }
+    ]
+  },
+
+  "network_world_item": {
+    "type": "panel",
+    "layer": 1,
+    "size": [ "100%", 30 ],
+    "controls": [
+      {
+        "@play.network_world_item_button": {
+          "layer": 1
+        }
+      }
+    ]
+  },
+
+  "network_server_world_item": {
+    "type": "panel",
+    "layer": 1,
+    "size": [ "100%", 30 ],
+    "controls": [
+      {
+        "@play.network_server_world_item_button": {
+          "layer": 1
+        }
+      },
+      {
+        "@play.network_server_world_remove_button": {
+          "layer": 1
+        }
+      }
+    ]
+  },
+
+  "network_world_item_grid": {
+    "type": "grid",
+    "size": [ "100%", "default" ],
+    "layer": 1,
+    "grid_item_template": "$network_world_grid_item_template",
+    "grid_dimension_binding": "$network_world_item_grid_dimension_binding",
+    "collection_name": "$collection_name",
+    "anchor_to": "top_left",
+    "anchor_from": "top_left",
+    "bindings": [
+      {
+        "binding_name": "$network_world_item_grid_dimension_binding"
+      }
+    ]
+  },
+
+  "label_content_template": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "size": [ "100%", "100%c" ],
+    "controls": [
+      {
+        "label_panel": {
+          "type": "panel",
+          "size": [ "100%", 16 ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "layer": 1,
+          "controls": [
+            {
+              "label_panel_layout": {
+                "type": "panel",
+                "anchor_from": "bottom_left",
+                "anchor_to": "bottom_left",
+                "size": [ "100%-4px", 10 ],
+                "offset": [ 4, 0 ],
+                "controls": [
+                  {
+                    "label": {
+                      "type": "label",
+                      "layer": 1,
+                      "shadow": false,
+                      "text": "$label_content_label",
+                      "alignment": "left_middle"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "content@$label_content_content": {
+          "layer": 1
+        }
+      }
+    ]
+  },
+
+  "no_joinable_friends_panel": {
+    "type": "panel",
+    "size": [ "100%", 30 ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "layer": 1,
+    "controls": [
+      {
+        "background@play.label_background": { }
+      },
+      {
+        "label_panel_layout": {
+          "type": "panel",
+          "anchor_from": "left_middle",
+          "anchor_to": "left_middle",
+          "size": [ "100%-4px", 20 ],
+          "offset": [ 4, 0 ],
+          "controls": [
+            {
+              "label": {
+                "type": "label",
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "layer": 1,
+                "shadow": false,
+                "wrap": true,
+                "clip": true,
+                "text": "networkWorld.no_joinable_friends_label",
+                "alignment": "top_left"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  //---------------------------------------------------------------------------
+  // LOCAL WORLD GRID
+  //---------------------------------------------------------------------------
+
+  "world_list_text": {
+    "type": "label",
+    "wrap": false,
+    "clip": true,
+    "color": "$dark_text_color",
+    "shadow": false
+  },
+
+  "local_world_screenshot": {
+    "type": "image",
+    "texture": "$local_world_screenshot_border_image",
+    "uv": [ 0, 0 ],
+    "uv_size": [ 5, 5 ],
+    "nineslice_size": 1.0,
+    "anchor_from": "left_middle",
+    "anchor_to": "left_middle",
+    "size": [ "160%y", "100%" ],
+    "controls": [
+      {
+        "picture": {
+          "type": "image",
+          "layer": 1,
+          "texture": "gui/newgui/WorldDemoScreen.png",
+          "uv": [ 0, 0 ],
+          "uv_size": [ 160, 92 ],
+          "size": [ "100%-2px", "100%-2px" ]
+        }
+      }
+    ]
+  },
+
+  "local_world_name@play.world_list_text": {
+    "text": "#local_world_name",
+    "localize": false,
+    "alignment": "top_left",
+    "color": "$bright_text_color",
+    "bindings": [
+      {
+        "binding_name": "#local_world_name",
+        "binding_condition": "visible",
+        "binding_type": "collection",
+        "binding_collection_name": "local_worlds"
+      }
+    ]
+  },
+
+  "local_world_game_mode@play.world_list_text": {
+    "text": "#local_world_game_mode",
+    "alignment": "bottom_left",
+    "bindings": [
+      {
+        "binding_name": "#local_world_game_mode",
+        "binding_condition": "visible",
+        "binding_type": "collection",
+        "binding_collection_name": "local_worlds"
+      }
+    ]
+  },
+
+  "local_world_date@play.world_list_text": {
+    "text": "#local_world_date",
+    "alignment": "top_right",
+    "bindings": [
+      {
+        "binding_name": "#local_world_date",
+        "binding_condition": "visible",
+        "binding_type": "collection",
+        "binding_collection_name": "local_worlds"
+      }
+    ]
+  },
+
+  "local_world_filesize@play.world_list_text": {
+    "text": "#local_worldfile_size",
+    "alignment": "bottom_right",
+    "bindings": [
+      {
+        "binding_name": "#local_worldfile_size",
+        "binding_condition": "visible",
+        "binding_type": "collection",
+        "binding_collection_name": "local_worlds"
+      }
+    ]
+  },
+
+  "local_world_connected_storage": {
+    "type": "panel",
+    "controls": [
+      {
+        "local_and_cloud@play.local_and_cloud_storage": {
+          "bindings": [
+            {
+              "binding_name": "#local_and_cloud_storage_visible",
+              "binding_name_override": "#visible",
+              "binding_type": "collection",
+              "binding_collection_name": "local_worlds"
+            }
+          ]
+        }
+      },
+      {
+        "local_only@play.local_only_storage": {
+          "bindings": [
+            {
+              "binding_name": "#local_only_storage_visible",
+              "binding_name_override": "#visible",
+              "binding_type": "collection",
+              "binding_collection_name": "local_worlds"
+            }
+          ]
+        }
+      },
+      {
+        "cloud_only@play.cloud_only_storage": {
+          "bindings": [
+            {
+              "binding_name": "#cloud_only_storage_visible",
+              "binding_name_override": "#visible",
+              "binding_type": "collection",
+              "binding_collection_name": "local_worlds"
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "local_world_text_panel": {
+    "type": "panel",
+    "layer": 1,
+    "size": [ "100%-160%y-2px", "100%-2px" ],
+    "anchor_from": "right_middle",
+    "anchor_to": "right_middle",
+    "controls": [
+      {
+        "@play.local_world_name": {
+          "size": [ "100%-60px", "50%" ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          //"debug": "red",
+          "layer": 1
+        }
+      },
+      {
+        "@play.local_world_game_mode": {
+          "size": [ "100%-60px", "50%" ],
+          "anchor_from": "bottom_left",
+          "anchor_to": "bottom_left",
+          //"debug": "green",
+          "layer": 1
+        }
+      },
+      {
+        "@play.local_world_date": {
+          "size": [ "60px", "50%" ],
+          "anchor_from": "top_right",
+          "anchor_to": "top_right",
+          //"debug": "blue",
+          "layer": 1
+        }
+      },
+      {
+        "@play.local_world_filesize": {
+          "size": [ "50px", "50%" ],
+          //Bug #19632 - commented out until 15.1
+          //"offset": [ -17, 0 ],
+          "anchor_from": "bottom_right",
+          "anchor_to": "bottom_right",
+          //"debug": "yellow",
+          "layer": 1
+        }
+      }
+      //Bug #19632 - commented out until 15.1
+      //{
+      //  "@local_world_connected_storage": {
+      //    "size": [ "16px", "8px" ],
+      //    "anchor_from": "bottom_right",
+      //    "anchor_to": "bottom_right",
+      //    //"debug": "purple",
+      //    "layer": 1
+      //  }
+      //}
+    ]
+  },
+
+  "local_world_content_panel": {
+    "type": "panel",
+    "size": [ "100%-6px", "100%-6px" ],
+    "$content_offset|default": [ 0, 0 ],
+    "offset": "$content_offset",
+    "controls": [
+      { "@play.local_world_screenshot": { } },
+      { "@play.local_world_text_panel": { } }
+    ]
+  },
+
+  "local_world_item_button_state": {
+    "type": "panel",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      { "@$button_sprite_control": { } },
+      { "@play.local_world_content_panel": { } }
+    ]
+  },
+
+  "local_world_item_button_default_state@play.local_world_item_button_state": {
+    "$bright_text_color": [ 1.0, 1.0, 1.0 ],
+    "$dark_text_color": [ 0.6, 0.6, 0.6 ],
+    "$button_sprite_control": "play.dark_thin_button",
+    "$local_world_screenshot_border_image": "gui/newgui/play_screen/Indent2.png"
+  },
+
+  "local_world_item_button_hover_state@play.local_world_item_button_state": {
+    "$bright_text_color": [ 1.0, 1.0, 0.2 ],
+    "$dark_text_color": [ 0.8, 0.8, 0.16 ],
+    "$button_sprite_control": "play.hover_thin_stroke_button",
+    "$local_world_screenshot_border_image": "gui/newgui/focusBorder.png"
+  },
+
+  "local_world_item_button_pressed_state@play.local_world_item_button_hover_state": {
+    "$content_offset": [ 1, 2 ],
+    "$button_sprite_control": "play.pressed_thin_stroke_button"
+  },
+
+  "local_world_edit_button_state": {
+    "type": "panel",
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "$content_offset|default": [ 0, 0 ],
+    "controls": [
+      { "@$button_sprite_control": { } },
+      {
+        "@edit_icon": {
+          "layer": 1,
+          "offset": "$content_offset",
+          "color": "$icon_color"
+        }
+      }
+    ]
+  },
+
+  "local_world_edit_button_default_state@play.local_world_edit_button_state": {
+    "$button_sprite_control": "play.dark_thin_button",
+    "$icon_color": [ 1.0, 1.0, 1.0 ]
+  },
+
+  "local_world_edit_button_hover_state@play.local_world_edit_button_state": {
+    "$button_sprite_control": "play.hover_thin_stroke_button",
+    "$icon_color": [ 1.0, 1.0, 0.2 ]
+  },
+
+  "local_world_edit_button_pressed_state@play.local_world_edit_button_hover_state": {
+    "$content_offset": [ 0, 1 ],
+    "$button_sprite_control": "play.pressed_thin_stroke_button"
+  },
+
+  "local_world_item_button@common.button": {
+    "$pressed_button_name": "button.menu_local_world_item",
+    "size": [ "100%-100%y", "100%" ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "bindings": [
+      {
+        "binding_type": "collection_details",
+        "binding_collection_name": "local_worlds"
+      }
+    ],
+    "controls": [
+      { "default@play.local_world_item_button_default_state": { } },
+      { "hover@play.local_world_item_button_hover_state": { } },
+      { "pressed@play.local_world_item_button_pressed_state": { } }
+    ]
+  },
+
+  "local_world_edit_button@common.button": {
+    "$pressed_button_name": "button.menu_local_world_item_edit",
+    "size": [ "100%y", "100%" ],
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "bindings": [
+      {
+        "binding_type": "collection_details",
+        "binding_collection_name": "local_worlds"
+      }
+    ],
+    "controls": [
+      { "default@play.local_world_edit_button_default_state": { } },
+      { "hover@play.local_world_edit_button_hover_state": { } },
+      { "pressed@play.local_world_edit_button_pressed_state": { } }
+    ]
+  },
+
+  "local_world_item": {
+    "type": "panel",
+    "layer": 1,
+    "size": [ "100%", 30 ],
+    "controls": [
+      {
+        "@play.local_world_item_button": {
+          "layer": 1
+        }
+      },
+      {
+        "@play.local_world_edit_button": {
+          "layer": 1
+        }
+      }
+    ]
+  },
+
+  "local_world_item_grid": {
+    "type": "grid",
+    "size": [ "100%", "default" ],
+    "layer": 1,
+    "anchor_to": "top_left",
+    "anchor_from": "top_left",
+    "grid_item_template": "play.local_world_item",
+    "grid_dimension_binding": "#local_world_item_grid_dimension",
+    "collection_name": "local_worlds",
+    "bindings": [
+      {
+        "binding_name": "#local_world_item_grid_dimension"
+      }
+    ]
+  },
+
+
+  //---------------------------------------------------------------------------
+  // Buttons
+  //---------------------------------------------------------------------------
+
+  "common_button_template@realms_common.new_ui_glyph_button": { },
+
+  "common_button_text": {
+    "type": "label",
+    "layer": 1,
+    "wrap": false,
+    "clip": true,
+    "shadow": false,
+    "text": "$common_button_text_text"
+  },
+
+  "add_friend_button@realms_common.new_ui_button": {
+    "$pressed_button_name": "button.menu_network_add_friend",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [ "100%-100%y", "100%" ],
+    "$button_text": "networkWorld.add_friend"
+  },
+
+  "add_server_button@play.common_button_template": {
+    "$pressed_button_name": "button.menu_network_add_external",
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "size": [ "100%y", "100%" ],
+    "$button_content": "play.add_server_icon"
+  },
+
+  "create_new_world_button@realms_common.new_ui_button": {
+    "$pressed_button_name": "button.menu_local_world_create",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [ "100%-100%y", "100%" ],
+    "$button_text": "selectWorld.create"
+  },
+
+  "import_world_button@play.common_button_template": {
+    "$pressed_button_name": "button.menu_import_level",
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "size": [ "100%y", "100%" ],
+    "$button_content": "play.import_icon"
+  },
+
+  "new_realm_button@realms_common.new_ui_button": {
+    "$pressed_button_name": "button.menu_realm_world_create",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "$new_realm_button_size|default": [ "100%-100%y", "100%" ],
+    "size": "$new_realm_button_size",
+    "$button_text": "realmsWorld.newRealm"
+  },
+
+  "new_realms_and_feedback_panel": {
+    "type": "panel",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [ "100%-100%y", "100%" ],
+    "$feedback_ignored|default": false,
+    "variables": [
+      {
+        "requires": "$is_holographic",
+        "$new_realm_button_size": [ "100%", "100%" ],
+        "$feedback_ignored": true
+      }
+    ],
+    "controls": [
+      {
+        "@new_realm_button": { }
+      },
+      {
+        "@feedback_button": { }
+      }
+    ]
+  },
+
+  "notification_button_text_layout": {
+    "type": "panel",
+    "offset": "$button_offset",
+    "controls": [
+      {
+        "image@play.invite_notification_icon": {
+          "layer": 1
+        }
+      },
+      {
+        "count@play.common_button_text": {
+          "layer": 2,
+          "offset": [ 8, 8 ],
+          "text": "#realms_notification_count",
+          "bindings": [
+            {
+              "binding_name": "#realms_notification_count",
+              "binding_condition": "visible"
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "notification_button@play.common_button_template": {
+    "$pressed_button_name": "button.menu_invite_notification",
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "size": [ "100%y", "100%" ],
+    "$button_offset|default": [ 0, 0 ],
+    "controls": [
+      {
+        "default@common.new_button_state_default": {
+          "controls": [
+            {
+              "@play.notification_button_text_layout": {
+                "layer": 1,
+                "$invite_texture": "gui/newgui/invite_base.png"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "hover@common.new_button_state_hover": {
+          "controls": [
+            {
+              "@play.notification_button_text_layout": {
+                "layer": 1,
+                "$invite_texture": "gui/newgui/invite_hover.png"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "pressed@common.new_button_state_pressed": {
+          "controls": [
+            {
+              "@play.notification_button_text_layout": {
+                "layer": 1,
+                "$invite_texture": "gui/newgui/invite_pressed.png",
+                "$button_offset": [ 0, 1 ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "feedback_button@common.hyperlink_button": {
+    "ignored": "$feedback_ignored",
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "size": [ "100%y", "100%" ],
+    "property_bag": {
+      "#hyperlink": "http://aka.ms/minecraftrealmsfb"
+    },
+    "controls": [
+      {
+        "default@common.new_button_state_default": {
+          "controls": [
+            { "@play.feedback_icon": { } }
+          ]
+        }
+      },
+      {
+        "hover@common.new_button_state_hover": {
+          "controls": [
+            {
+              "@play.feedback_icon": {
+                "color": [ 0.70, 0.85, 1 ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "pressed@common.new_button_state_pressed": {
+          "controls": [
+            {
+              "@play.feedback_icon": {
+                "offset": [ 0, 1 ],
+                "alpha": 0.65
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "xbox_live_signin_button@realms_common.new_ui_button": {
+    "$pressed_button_name": "button.menu_xbox_signin",
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "size": [ "100%y", "100%" ],
+    "$button_text": "realmsWorld.connectLive"
+  },
+
+  "header_button_panel": {
+    "type": "panel",
+    "layer": 1,
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [ "100%", 30 ],
+    "controls": [
+      {
+        "buttons": {
+          "type": "label",
+          "layer": 1,
+          "size": [ "100%", 30 ],
+          "controls": [
+            {
+              "primary@$primary_header_button": {
+                "layer": 1
+              }
+            },
+            {
+              "secondary@$secondary_header_button": {
+                "layer": 1
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  //---------------------------------------------------------------------------
+  // Scroll panes
+  //---------------------------------------------------------------------------
+
+  "common_scroll_pane": {
+    "type": "panel",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [ "100%-4px", "100%c" ],
+    "offset": [ 2, 0 ]
+  },
+
+  "worlds_scroll_panel@play.common_scroll_pane": {
+    "controls": [
+      {
+        "stack_panel": {
+          "type": "stack_panel",
+          "orientation": "vertical",
+          "size": [ "100%", "100%c" ],
+          "controls": [
+            {
+              "header_button@": {
+                "type": "panel",
+                "layer": 1,
+                "size": [ "100%", 34 ],
+                "$import_visible": false,
+                "$import_not_visible": true,
+                "variables": [
+                  {
+                    "requires": "$world_archive_support",
+                    "$import_visible": true,
+                    "$import_not_visible": false
+                  }
+                ],
+                "controls": [
+                  {
+                    "buttons@play.header_button_panel": {
+                      "layer": 1,
+                      "visible": "$import_visible",
+                      "size": [ "100%", 30 ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "$primary_header_button": "create_new_world_button",
+                      "$secondary_header_button": "import_world_button"
+                    }
+                  },
+                  {
+                    "button@play.header_button_panel": {
+                      "layer": 1,
+                      "visible": "$import_not_visible",
+                      "size": [ "100%", 30 ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "controls": [
+                        {
+                          "@play.create_new_world_button": {
+                            "size": [ "100%", "100%" ],
+                            "layer": 1
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "grid@play.local_world_item_grid": {
+                "layer": 1
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "realms_scroll_panel@play.common_scroll_pane": {
+    "controls": [
+      {
+        "stack_panel": {
+          "type": "stack_panel",
+          "orientation": "vertical",
+          "size": [ "100%", "100%c" ],
+          "controls": [
+            {
+              "header_button@": {
+                "type": "panel",
+                "layer": 1,
+                "size": [ "100%", 34 ],
+                "controls": [
+                  {
+                    "buttons@play.header_button_panel": {
+                      "layer": 1,
+                      "size": [ "100%", 30 ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "$primary_header_button": "new_realms_and_feedback_panel",
+                      "$secondary_header_button": "notification_button"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "grid@play.realms_world_item_grid": {
+                "layer": 1
+              }
+            },
+            {
+              "padding": {
+                "type": "panel",
+                "size": [ "100%", 2 ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "friends_scroll_panel@play.common_scroll_pane": {
+    "controls": [
+      {
+        "stack_panel": {
+          "type": "stack_panel",
+          "orientation": "vertical",
+          "size": [ "100%", "100%c" ],
+          "$add_friend_visible": true,
+          "$add_friend_not_visible": false,
+          "variables": [
+            {
+              "requires": "$xbl_not_enabled",
+              "$add_friend_visible": false,
+              "$add_friend_not_visible": true
+            }
+          ],
+          "controls": [
+            {
+              "add_friends_server@play.label_content_template": {
+                "ignored": "$add_friend_not_visible",
+                "$label_content_label": "networkWorld.add_label",
+                "$label_content_content": "play.header_button_panel",
+                "$primary_header_button": "add_friend_button",
+                "$secondary_header_button": "add_server_button"
+              }
+            },
+            {
+              "@add_server_button": {
+                "ignored": "$add_friend_visible",
+                "size": [ "100%", 30 ]
+              }
+            },
+
+
+
+            //"controls": [
+            //    {
+            //      "buttons@play.header_button_panel": {
+            //        "layer": 1,
+            //        "visible": "$import_visible",
+            //        "size": [ "100%", 30 ],
+            //        "anchor_from": "center",
+            //        "anchor_to": "center",
+            //        "$primary_header_button": "create_new_world_button",
+            //        "$secondary_header_button": "import_world_button"
+            //      }
+            //    },
+            //    {
+            //      "button@play.header_button_panel": {
+            //        "layer": 1,
+            //        "visible": "$import_not_visible",
+            //        "size": [ "100%", 30 ],
+            //        "anchor_from": "center",
+            //        "anchor_to": "center",
+            //        "controls": [
+            //          {
+            //            "@play.create_new_world_button": {
+            //              "size": [ "100%", "100%" ],
+            //              "layer": 1
+            //            }
+            //          }
+            //        ]
+            //      }
+            //    }
+            //  ]
+
+
+
+            {
+              "friends_grid@play.label_content_template": {
+                "$label_content_label": "networkWorld.joinable_friends_label",
+                "$label_content_content": "play.network_world_item_grid",
+                "$network_world_grid_item_template": "play.network_world_item",
+                "$network_world_icon": "play.xbox_icon",
+                "$network_world_item_grid_dimension_binding": "#friends_network_world_item_grid_dimension",
+                "$collection_name": "friends_network_worlds",
+                "bindings": [
+                  {
+                    "binding_name": "#friends_grid_visible",
+                    "binding_name_override": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "no_friends_grid@play.label_content_template": {
+                "$label_content_label": "networkWorld.joinable_friends_label",
+                "$label_content_content": "play.no_joinable_friends_panel",
+                "bindings": [
+                  {
+                    "binding_name": "#friends_grid_not_visible",
+                    "binding_name_override": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "lan_grid@play.label_content_template": {
+                "$label_content_label": "networkWorld.lan_label",
+                "$label_content_content": "play.network_world_item_grid",
+                "$network_world_grid_item_template": "play.network_world_item",
+                "$network_world_icon": "play.lan_icon",
+                "$network_world_item_grid_dimension_binding": "#lan_network_world_item_grid_dimension",
+                "$collection_name": "lan_network_worlds",
+                "bindings": [
+                  {
+                    "binding_name": "#lan_grid_visible",
+                    "binding_name_override": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "servers_grid@play.label_content_template": {
+                "$label_content_label": "networkWorld.servers_label",
+                "$label_content_content": "play.network_world_item_grid",
+                "$network_world_grid_item_template": "play.network_server_world_item",
+                "$network_world_icon": "play.add_server_icon",
+                "$network_world_item_grid_dimension_binding": "#servers_network_world_item_grid_dimension",
+                "$collection_name": "servers_network_worlds",
+                "bindings": [
+                  {
+                    "binding_name": "#servers_grid_visible",
+                    "binding_name_override": "#visible"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  //---------------------------------------------------------------------------
+  // Scroll panels
+  //---------------------------------------------------------------------------
+
+  "common_scrolling_panel@common.scrolling_panel": {
+    "layer": 1,
+    "$scrolling_pane_size": [ "100%", "100%" ],
+    "$scrolling_content": "$scrolling_content",
+    "$scroll_box_size": [ "4px", "100%-2px" ],
+    "$scroll_track_size": [ 4, "100% - 4px" ],
+    "$scroll_track_offset": [ -2 , 2 ],
+    "$show_background": false
+  },
+
+  //---------------------------------------------------------------------------
+  // Scroll content
+  //---------------------------------------------------------------------------
+
+  "common_content": {
+    "type": "input_panel",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left"
+  },
+
+  "scrolling_offsets@play.common_scrolling_panel": {
+    "size": [ "100%-4px", "100% - 4px" ],
+    "offset": [ 2, 2 ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left"
+  },
+
+  "worlds_scroll_content@play.common_content": {
+    "controls": [
+      {
+        "scrolling_panel@play.scrolling_offsets": {
+          "layer": 1,
+          "$scrolling_content": "play.worlds_scroll_panel"
+        }
+      }
+    ]
+  },
+
+  "realms_scroll_content@play.common_content": {
+    "controls": [
+      {
+        "scrolling_panel@play.scrolling_offsets": {
+          "layer": 1,
+          "$scrolling_content": "play.realms_scroll_panel",
+          "bindings": [
+            {
+              "binding_name": "#realms_world_list_visible",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "@play.realms_information_panel": {
+          "layer": 1,
+          "bindings": [
+            {
+              "binding_name": "#realms_information_panel_visible",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "@play.realms_not_available_panel": {
+          "layer": 1,
+          "bindings": [
+            {
+              "binding_name": "#realms_not_available_content",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "friends_scroll_content@play.common_content": {
+    "controls": [
+      {
+        "scrolling_panel@play.scrolling_offsets": {
+          "layer": 1,
+          "$scrolling_content": "play.friends_scroll_panel"
+        }
+      }
+    ]
+  },
+
+  //---------------------------------------------------------------------------
+  // Toggle tab buttons
+  //---------------------------------------------------------------------------
+
+  "tab_front": {
+    "type": "image",
+    "texture": "gui/newgui/TabFront.png",
+    "nineslice_size": 4.0,
+    "uv": [ 0, 0 ],
+    "uv_size": [ 12, 10 ]
+  },
+
+  "tab_front_middle": {
+    "type": "image",
+    "texture": "gui/newgui/TabFrontInGame.png",
+    "nineslice_size": 4.0,
+    "uv": [ 0, 0 ],
+    "uv_size": [ 12, 11 ]
+  },
+
+  "tab_back": {
+    "type": "image",
+    "texture": "gui/newgui/TabBack.png",
+    "nineslice_size": 4.0,
+    "uv": [ 0, 0 ],
+    "uv_size": [ 12, 10 ]
+  },
+
+  "X_tab_back": {
+    "type": "image",
+    "texture": "gui/newgui/XTab.png",
+    "nineslice_size": 4.0,
+    "uv": [ 0, 0 ],
+    "uv_size": [ 10, 10 ]
+  },
+
+  "common_navigation_tab_content": {
+    "type": "panel",
+    "controls": [
+      {
+        "icon@$tab_icon": {
+          "layer": 1,
+          "anchor_from": "left_middle",
+          "anchor_to": "left_middle",
+          "offset": [ 2, 0 ]
+        }
+      },
+      {
+        "count@common_button_text": {
+          "layer": 2,
+          "anchor_from": "bottom_left",
+          "anchor_to": "bottom_left",
+          "alignment": "right_middle",
+          "text": "$count_text_name",
+          "size": [ 20, 10 ],
+          "offset": "$tab_icon_count_offset",
+          "bindings": [
+            {
+              "binding_name": "$count_text_name",
+              "binding_condition": "visible"
+            }
+          ]
+        }
+      },
+      {
+        "text@common_button_text": {
+          "layer": 3,
+          "text": "$tab_text_name",
+          "color": [ 0.23, 0.23, 0.23 ]
+        }
+      }
+    ]
+  },
+
+  "world_navigation_tab_front@play.tab_front": {
+    "layer": 2
+  },
+
+  "world_navigation_tab_back@play.tab_back": {
+  },
+
+  "realms_navigation_tab_front@play.tab_front_middle": {
+    "layer": 2
+  },
+
+  "realms_navigation_tab_back@play.tab_back": {
+  },
+
+  "friends_navigation_tab_front@play.tab_front_middle": {
+    "layer": 2
+  },
+
+  "friends_navigation_tab_back@play.tab_back": {
+  },
+
+  "common_navigation_tab_toggle@common.toggle": {
+    "focus_enabled": false,
+    "$radio_toggle_group": true,
+    "$toggle_name": "navigation_tab",
+    "$toggle_group_default_selected": 0,
+    "anchor_to": "top_left",
+    "anchor_from": "top_left"
+  },
+
+  "world_navigation_tab_toggle@play.common_navigation_tab_toggle": {
+    "$toggle_group_forced_index": 0,
+    "$unchecked_control": "world_navigation_tab_back",
+    "$checked_control": "world_navigation_tab_front",
+    "$unchecked_hover_control": "world_navigation_tab_back",
+    "$checked_hover_control": "world_navigation_tab_front",
+    "$unchecked_locked_control": "world_navigation_tab_back",
+    "$checked_locked_control": "world_navigation_tab_front"
+  },
+
+  "realms_navigation_tab_toggle@play.common_navigation_tab_toggle": {
+    "$toggle_group_forced_index": 1,
+    "$unchecked_control": "realms_navigation_tab_back",
+    "$checked_control": "realms_navigation_tab_front",
+    "$unchecked_hover_control": "realms_navigation_tab_back",
+    "$checked_hover_control": "realms_navigation_tab_front",
+    "$unchecked_locked_control": "realms_navigation_tab_back",
+    "$checked_locked_control": "realms_navigation_tab_front"
+  },
+
+  "friends_navigation_tab_toggle@play.common_navigation_tab_toggle": {
+    "$toggle_group_forced_index": 2,
+    "$unchecked_control": "friends_navigation_tab_back",
+    "$checked_control": "friends_navigation_tab_front",
+    "$unchecked_hover_control": "friends_navigation_tab_back",
+    "$checked_hover_control": "friends_navigation_tab_front",
+    "$unchecked_locked_control": "friends_navigation_tab_back",
+    "$checked_locked_control": "friends_navigation_tab_front"
+  },
+
+  //---------------------------------------------------------------------------
+  // Main navigation tabs
+  //---------------------------------------------------------------------------
+
+  "common_navigation_tab": {
+    "type": "label",
+    "anchor_to": "top_left",
+    "anchor_from": "top_left"
+  },
+
+  "world_navigation_tab@play.common_navigation_tab": {
+    "$tab_icon": "worlds_icon",
+    "$tab_icon_count_offset": [ 4, -4 ],
+    "$count_text_name": "#local_world_item_count",
+    "$tab_text_name": "selectWorld.tab.worlds",
+    "controls": [
+      {
+        "world_navigation_tab_toggle@play.world_navigation_tab_toggle": {
+
+        }
+      },
+      {
+        "content@play.common_navigation_tab_content": {
+          "layer": 3,
+          "size": [ "100%-4px", "100%" ]
+        }
+      }
+    ]
+  },
+
+  "realms_navigation_tab@play.common_navigation_tab": {
+    "$tab_icon": "realms_icon",
+    "$tab_icon_count_offset": [ 1, -4 ],
+    "$count_text_name": "#realms_world_item_count",
+    "$tab_text_name": "selectWorld.tab.realms",
+    "controls": [
+      {
+        "realms_navigation_tab_toggle@play.realms_navigation_tab_toggle": {
+
+        }
+      },
+      {
+        "content@play.common_navigation_tab_content": {
+          "layer": 3,
+          "size": [ "100%-4px", "100%" ]
+        }
+      }
+    ]
+  },
+
+  "friends_navigation_tab@play.common_navigation_tab": {
+    "$tab_icon": "friends_icon",
+    "$tab_icon_count_offset": [ 4, -4 ],
+    "$count_text_name": "#network_world_item_count",
+    "$tab_text_name": "selectWorld.tab.friends",
+    "controls": [
+      {
+        "friends_navigation_tab_toggle@play.friends_navigation_tab_toggle": {
+
+        }
+      },
+      {
+        "content@play.common_navigation_tab_content": {
+          "layer": 3,
+          "size": [ "100%-4px", "100%" ]
+        }
+      }
+    ]
+  },
+
+  "close_navigation_tab": {
+    "type": "panel",
+    "anchor_from": "right_middle",
+    "anchor_to": "right_middle",
+    "controls": [
+      { "background@play.X_tab_back": { } },
+      {
+        "x_image@common.close_button": {
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "offset": [ 0, 2 ]
+        }
+      }
+    ]
+  },
+
+  //---------------------------------------------------------------------------
+  // Content tabs panel
+  //---------------------------------------------------------------------------
+
+  "common_tab_content_panel": {
+    "type": "panel",
+    "controls": [
+      {
+        "background@common.common_panel": {
+          "$dialog_background": "dialog_background_hollow_4",
+          "$show_close_button": false
+        }
+      },
+      {
+        "content@$scroll_tab_content": {
+          "layer": 2,
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          // magic offset to make the scroll clipping perfect
+          "size": [ "100%-12px", "100%-12px" ],
+          "offset": [ 6, 6 ]
+        }
+      }
+    ],
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "$visible_bind_toggle_source_control",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+
+  "worlds_tab_content_panel@play.common_tab_content_panel": {
+    "$visible_bind_toggle_source_control": "world_navigation_tab_toggle",
+    "$scroll_tab_content": "play.worlds_scroll_content"
+  },
+
+  "realms_tab_content_panel@play.common_tab_content_panel": {
+    "$visible_bind_toggle_source_control": "realms_navigation_tab_toggle",
+    "$scroll_tab_content": "play.realms_scroll_content"
+  },
+
+  "friends_tab_content_panel@play.common_tab_content_panel": {
+    "$visible_bind_toggle_source_control": "friends_navigation_tab_toggle",
+    "$scroll_tab_content": "play.friends_scroll_content"
+  },
+
+  //---------------------------------------------------------------------------
+  // Content layout panels
+  //---------------------------------------------------------------------------
+
+  "common_tab_content_panel_type": {
+    "type": "input_panel",
+    "anchor_to": "bottom_middle",
+    "anchor_from": "bottom_middle",
+    "size": [ "100%", "100%-26px" ]
+  },
+
+  "edu_tab_content_panel_layout@play.common_tab_content_panel_type": {
+    "controls": [
+      { "worlds_tab_content@play.worlds_tab_content_panel": { } },
+      { "friends_tab_content@play.friends_tab_content_panel": { } }
+    ]
+  },
+
+  "trial_tab_content_panel_layout@play.common_tab_content_panel_type": {
+    "controls": [
+      { "worlds_tab_content@play.worlds_tab_content_panel": { } }
+    ]
+  },
+
+  "default_tab_content_panel_layout@play.common_tab_content_panel_type": {
+    "controls": [
+      { "worlds_tab_content@play.worlds_tab_content_panel": { } },
+      { "realms_tab_content@play.realms_tab_content_panel": { } },
+      { "friends_tab_content@play.friends_tab_content_panel": { } }
+    ]
+  },
+
+  //---------------------------------------------------------------------------
+  // Tabs layout panels
+  //---------------------------------------------------------------------------
+
+  "common_tab_navigation_panel_layout": {
+    "type": "panel",
+    "anchor_to": "top_middle",
+    "anchor_from": "top_middle",
+    "size": [ "100%", 30 ]
+  },
+
+  "edu_tab_navigation_panel_layout@play.common_tab_navigation_panel_layout": {
+    "controls": [
+      {
+        "@play.world_navigation_tab": {
+          "size": [ "45%+1px", 30 ]
+        }
+      },
+      {
+        "@play.friends_navigation_tab": {
+          "size": [ "45%+1px", 30 ],
+          "offset": [ "45%", 0 ]
+        }
+      },
+      {
+        "@play.close_navigation_tab": {
+          "size": [ "10%+1px", 30 ]
+        }
+      }
+    ]
+  },
+
+  "trial_tab_navigation_panel_layout@play.common_tab_navigation_panel_layout": {
+    "controls": [
+      {
+        "@play.world_navigation_tab": {
+          "size": [ "90%+1px", 30 ]
+        }
+      },
+      {
+        "@play.close_navigation_tab": {
+          "size": [ "10%+1px", 30 ]
+        }
+      }
+    ]
+  },
+
+  "default_tab_navigation_panel_layout@play.common_tab_navigation_panel_layout": {
+    "controls": [
+      {
+        "@play.world_navigation_tab": {
+          "size": [ "30%+1px", 30 ]
+        }
+      },
+      {
+        "@play.realms_navigation_tab": {
+          "size": [ "30%+1px", 30 ],
+          "offset": [ "30%", 0 ]
+        }
+      },
+      {
+        "@play.friends_navigation_tab": {
+          "size": [ "30%+1px", 30 ],
+          "offset": [ "60%", 0 ]
+        }
+      },
+      {
+        "@play.close_navigation_tab": {
+          "size": [ "10%+1px", 30 ]
+        }
+      }
+    ]
+  },
+
+  //---------------------------------------------------------------------------
+  // Trial, EDU and Default
+  //---------------------------------------------------------------------------
+
+  "common_play_screen_panel": {
+    "type": "panel",
+    "size": "$play_screen_size"
+  },
+
+  "play_screen_panel@play.common_play_screen_panel": {
+    "controls": [
+      {
+        "tab_navigation_panel@$tab_navigation_panel": {
+          "layer": 1
+        }
+      },
+      {
+        "tab_content_panel@$tab_content_panel": {
+          "layer": 2
+        }
+      },
+      {
+        "gamepad_helper_left_bumper@common.gamepad_helper_left_bumper": {
+          "size": [ 27, 16 ],
+          "offset": [ -1, 0 ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_right"
+        }
+      },
+      {
+        "gamepad_helper_rigth_bumper@common.gamepad_helper_right_bumper": {
+          "size": [ 27, 16 ],
+          "offset": [ 1, 0 ],
+          "anchor_from": "top_right",
+          "anchor_to": "top_left"
+        }
+      }
+    ]
+  },
+
+  "default_play_screen_panel@play.play_screen_panel": {
+    "$tab_navigation_panel": "play.default_tab_navigation_panel_layout",
+    "$tab_content_panel": "play.default_tab_content_panel_layout"
+  },
+
+  "trial_play_screen_panel@play.play_screen_panel": {
+    "$tab_navigation_panel": "play.trial_tab_navigation_panel_layout",
+    "$tab_content_panel": "play.trial_tab_content_panel_layout"
+  },
+
+  "edu_play_screen_panel@play.play_screen_panel": {
+    "$tab_navigation_panel": "play.edu_tab_navigation_panel_layout",
+    "$tab_content_panel": "play.edu_tab_content_panel_layout"
+  },
+
+  "non_edu_play_screen_panel": {
+    "type": "panel",
+    "variables": [
+      {
+        "requires": "$not_trial",
+        "$main_panel": "play.default_play_screen_panel"
+      },
+      {
+        "requires": "$trial",
+        "$main_panel": "play.trial_play_screen_panel"
+      }
+    ],
+    "controls": [
+      {
+        "win10_main_control@$main_panel": { }
+      }
+    ]
+  },
+
+  //---------------------------------------------------------------------------
+  // Screen
+  //---------------------------------------------------------------------------
+
+  "play_screen@common.base_screen": {
+    "button_mappings": [
+      {
+        "from_button_id": "button.menu_cancel",
+        "to_button_id": "button.menu_exit",
+        "mapping_type": "global"
+      },
+      {
+        "from_button_id": "button.menu_up",
+        "to_button_id": "button.menu_up",
+        "mapping_type": "global",
+        "scope": "view"
+      },
+      {
+        "from_button_id": "button.menu_down",
+        "to_button_id": "button.menu_down",
+        "mapping_type": "global",
+        "scope": "view"
+      },
+      {
+        "from_button_id": "button.menu_left",
+        "to_button_id": "button.menu_left",
+        "mapping_type": "global",
+        "scope": "view"
+      },
+      {
+        "from_button_id": "button.menu_right",
+        "to_button_id": "button.menu_right",
+        "mapping_type": "global",
+        "scope": "view"
+      },
+      {
+        "from_button_id": "button.menu_tab_left",
+        "to_button_id": "button.menu_tab_left",
+        "mapping_type": "global",
+        "scope": "view"
+      },
+      {
+        "from_button_id": "button.menu_tab_right",
+        "to_button_id": "button.menu_tab_right",
+        "mapping_type": "global",
+        "scope": "view"
+      }
+    ],
+    "$screen_content": "play.play_screen_content"
+  },
+
+  "play_screen_content": {
+    "type": "panel",
+    "variables": [
+      {
+        "requires": "$not_education_edition",
+        "$main_panel": "play.non_edu_play_screen_panel"
+      },
+      {
+        "requires": "$education_edition",
+        "$main_panel": "play.edu_play_screen_panel"
+      }
+    ],
+    "controls": [
+      {
+        "main_control@$main_panel": { }
+      }
+    ]
+  }
+}

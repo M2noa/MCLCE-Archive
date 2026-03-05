@@ -1,0 +1,192 @@
+{
+  "title": "Steve",
+  "texturewidth": 64,
+  "textureheight": 64,
+  "tree": [
+    {
+      "name": "CenterPivot",
+      "position": [ 0, 18, 0 ],
+      "offsetFromPivot": [ 0, 0, 0 ],
+      "size": [ 0, 0, 0 ],
+      "rotation": [ 0, 0, 0 ],
+      "texOffset": [ 20, 20 ],
+      "children": [
+        {
+          "name": "Body",
+          "position": [ 0, -6, 0 ],
+          "offsetFromPivot": [ 0, 6, 0 ],
+          "size": [ 8, 12, 4 ],
+          "rotation": [ 0, 0, 0 ],
+          "texOffset": [ 16, 16 ],
+          "children": [
+            {
+              "name": "Head",
+              "position": [ 0, 6, 0 ],
+              "offsetFromPivot": [ 0, 4, 0 ],
+              "size": [ 8, 8, 8 ],
+              "rotation": [ 0, 0, 0 ],
+              "texOffset": [ 0, 0 ],
+              "children": [
+                {
+                  "name": "HeadLayer",
+                  "position": [ 0, -4, 0 ],
+                  "offsetFromPivot": [ 0, 4, 0 ],
+                  "size": [ 8, 8, 8 ],
+                  "rotation": [ 0, 0, 0 ],
+                  "vertexCoords": [
+                    [ -4.4, 4.4, -4.4 ],
+                    [ 4.4, 4.4, -4.4 ],
+                    [ 4.4, -4.4, -4.4 ],
+                    [ -4.4, -4.4, -4.4 ],
+                    [ 4.4, 4.4, 4.4 ],
+                    [ -4.4, 4.4, 4.4 ],
+                    [ -4.4, -4.4, 4.4 ],
+                    [ 4.4, -4.4, 4.4 ]
+                  ],
+                  "texOffset": [ 32, 0 ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "RightArm",
+              "position": [ -5, 4, 0 ],
+              "offsetFromPivot": [ -1, -4, 0 ],
+              "size": [ 4, 12, 4 ],
+              "rotation": [ 0, 0, 0 ],
+              "texOffset": [ 40, 16 ],
+              "children": [
+                {
+                  "name": "RightArmLayer",
+                  "position": [ 1, 4, 0 ],
+                  "offsetFromPivot": [ -1, -4, 0 ],
+                  "size": [ 4, 12, 4 ],
+                  "rotation": [ 0, 0, 0 ],
+                  "vertexCoords": [
+                    [ -2.2, 6.6, -2.2 ],
+                    [ 2.2, 6.6, -2.2 ],
+                    [ 2.2, -6.6, -2.2 ],
+                    [ -2.2, -6.6, -2.2 ],
+                    [ 2.2, 6.6, 2.2 ],
+                    [ -2.2, 6.6, 2.2 ],
+                    [ -2.2, -6.6, 2.2 ],
+                    [ 2.2, -6.6, 2.2 ]
+                  ],
+                  "texOffset": [ 40, 32 ],
+                  "children": []
+                },
+                {
+                  "name": "HandAnchorRight",
+                  "position": [ 0, -4, 0 ],
+                  "offsetFromPivot": [ 0, 0, 0 ],
+                  "size": [ 0, 0, 0 ],
+                  "rotation": [ 0, 0, 0 ],
+                  "texOffset": [ 44, 20 ],
+                  "children": [
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "LeftArm",
+              "position": [ 5, 4, 0 ],
+              "offsetFromPivot": [ 1, -4, 0 ],
+              "size": [ 4, 12, 4 ],
+              "rotation": [ 0, 0, 0 ],
+              "texOffset": [ 32, 48 ],
+              "children": [
+                {
+                  "name": "LeftArmLayer",
+                  "position": [ -1, 4, 0 ],
+                  "offsetFromPivot": [ 1, -4, 0 ],
+                  "size": [ 4, 12, 4 ],
+                  "rotation": [ 0, 0, 0 ],
+                  "vertexCoords": [
+                    [ -2.2, 6.6, -2.2 ],
+                    [ 2.2, 6.6, -2.2 ],
+                    [ 2.2, -6.6, -2.2 ],
+                    [ -2.2, -6.6, -2.2 ],
+                    [ 2.2, 6.6, 2.2 ],
+                    [ -2.2, 6.6, 2.2 ],
+                    [ -2.2, -6.6, 2.2 ],
+                    [ 2.2, -6.6, 2.2 ]
+                  ],
+                  "texOffset": [ 48, 48 ],
+                  "children": []
+                },
+                {
+                  "name": "HandAnchorLeft",
+                  "position": [ 0, -4, 0 ],
+                  "offsetFromPivot": [ 0, 0, 0 ],
+                  "size": [ 0, 0, 0 ],
+                  "rotation": [ 0, 0, 0 ],
+                  "texOffset": [ 36, 52 ],
+                  "children": [
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "RightLeg",
+          "position": [ -2, -6, 0 ],
+          "offsetFromPivot": [ 0, -6, 0 ],
+          "size": [ 4, 12, 4 ],
+          "rotation": [ 0, 0, 0 ],
+          "texOffset": [ 16, 48 ],
+          "children": [
+            {
+              "name": "RightLegLayer",
+              "position": [ 0, 6, 0 ],
+              "offsetFromPivot": [ 0, -6, 0 ],
+              "size": [ 4, 12, 4 ],
+              "rotation": [ 0, 0, 0 ],
+              "vertexCoords": [
+                [ -2.2, 6.6, -2.2 ],
+                [ 2.2, 6.6, -2.2 ],
+                [ 2.2, -6.6, -2.2 ],
+                [ -2.2, -6.6, -2.2 ],
+                [ 2.2, 6.6, 2.2 ],
+                [ -2.2, 6.6, 2.2 ],
+                [ -2.2, -6.6, 2.2 ],
+                [ 2.2, -6.6, 2.2 ]
+              ],
+              "texOffset": [ 0, 48 ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "LeftLeg",
+          "position": [ 2, -6, 0 ],
+          "offsetFromPivot": [ 0, -6, 0 ],
+          "size": [ 4, 12, 4 ],
+          "rotation": [ 0, 0, 0 ],
+          "texOffset": [ 0, 16 ],
+          "children": [
+            {
+              "name": "LeftLegLayer",
+              "position": [ 0, 6, 0 ],
+              "offsetFromPivot": [ 0, -6, 0 ],
+              "size": [ 4, 12, 4 ],
+              "rotation": [ 0, 0, 0 ],
+              "vertexCoords": [
+                [ -2.2, 6.6, -2.2 ],
+                [ 2.2, 6.6, -2.2 ],
+                [ 2.2, -6.6, -2.2 ],
+                [ -2.2, -6.6, -2.2 ],
+                [ 2.2, 6.6, 2.2 ],
+                [ -2.2, 6.6, 2.2 ],
+                [ -2.2, -6.6, 2.2 ],
+                [ 2.2, -6.6, 2.2 ]
+              ],
+              "texOffset": [ 0, 32 ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

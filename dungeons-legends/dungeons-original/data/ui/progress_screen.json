@@ -1,0 +1,394 @@
+{
+  "namespace": "progress",
+
+  "normal_stroke_button": {
+    "type": "image",
+    "nineslice_size": 4.0,
+    "texture": "gui/newgui/NormalButtonThinStroke.png",
+    "uv": [ 0, 0 ],
+    "uv_size": [ 7, 7 ]
+  },
+
+  "progress_screen_text": {
+    "type": "label",
+    "anchor_to": "center",
+    "anchor_from": "center",
+    "layer": 2,
+    "alignment": "center",
+    "shadow": false
+  },
+
+  "progress_title_text@progress.progress_screen_text": {
+    "offset": [ 0, -15 ],
+    "text": "#title_text",
+    "bindings": [
+      {
+        "binding_name": "#title_text",
+        "binding_condition": "visible"
+      }
+    ]
+  },
+
+  "progress_bar_text@progress.progress_screen_text": {
+    "offset": [ 0, 9 ],
+    "text": "#progress_text",
+    "bindings": [
+      { "binding_name": "#progress_text" }
+    ]
+  },
+
+  "bar_animation": {
+    "anim_type": "flip_book",
+    "initial_uv": [ 0, 0 ],
+    "frame_count": 10,
+    "frame_step": 64,
+    "fps": 10,
+    "reversible": true,
+    "easing": "linear",
+    "next": "@bar_forward"
+  },
+
+  "progress_loading_bars": {
+    "type": "image",
+    "layer": 2,
+    "texture": "gui/newgui/loading_bar.png",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "offset": [ 0, 24 ],
+    "size": [ 64, 8 ],
+    "uv_size": [ 64, 8 ],
+    "uv": "@bar_animation",
+    "color": [ 0.7, 0.7, 0.7, 1.0 ],
+    "bindings": [
+      {
+        "binding_name": "#bar_animation_visible",
+        "binding_name_override": "#visible"
+      }
+    ]
+  },
+
+  "progress_bar": {
+    "type": "custom",
+    "renderer": "progress_bar_renderer",
+    "layer": 2,
+    "offset": [ 0, 16 ],
+    "size": [ 100, 2 ],
+    "primary_color": [ 0.5, 1.0, 0.5, 1.0 ],
+    "bindings": [
+      {
+        "binding_name_override": "#progress_bar_visible",
+        "binding_name": "#loading_bar_visible"
+      },
+      {
+        "binding_name_override": "#progress_bar_total_amount",
+        "binding_name": "#loading_bar_total_amount",
+        "binding_condition": "visible"
+      },
+      {
+        "binding_name_override": "#progress_bar_current_amount",
+        "binding_name": "#loading_bar_current_amount",
+        "binding_condition": "visible"
+      }
+    ]
+  },
+
+  "cancel_button_text@progress.progress_screen_text": {
+    "type": "label",
+    "layer": 4,
+    "alignment": "center",
+    "text": "gui.cancel",
+    "shadow": false
+  },
+
+  "cancel_button@common.button": {
+    "$pressed_button_name": "button.menu_exit",
+    "size": [ 66, 26 ],
+    "offset": [ 0, 55 ],
+    "bindings": [
+      {
+        "binding_name": "#cancel_visible",
+        "binding_name_override": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "default@$button_state_default_base": {
+          "controls": [
+            {
+              "@progress.cancel_button_text": {
+                "color": [ 1.0, 1.0, 1.0, 1.0 ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "hover@$button_state_hover_base": {
+          "controls": [
+            {
+              "@progress.cancel_button_text": {
+                "color": [ 1.0, 1.0, 0.0, 1.0 ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "pressed@$button_state_pressed_base": {
+          "controls": [
+            {
+              "@progress.cancel_button_text": {
+                "color": [ 1.0, 1.0, 0.0, 1.0 ],
+                "alpha": 0.65
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "title_panel": {
+    "type": "panel",
+    "size": [ "100%", "100%" ],
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      {
+        "@progress.progress_title_text": {
+        }
+      },
+      {
+        "@progress.progress_bar_text": { }
+      },
+      {
+        "@progress.progress_bar": { }
+      }
+    ]
+  },
+
+  "button_panel": {
+    "type": "panel",
+    "size": [ "100%", "100%" ],
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      {
+        "@progress.cancel_button": { }
+      }
+    ]
+  },
+
+  "modal_button_panel@button_panel": {
+    "controls": [
+      {
+        "@progress.cancel_button": {
+          // reset offset
+          "offset": [ 0, 0 ]
+        }
+      }
+    ]
+  },
+
+  "gamepad_helpers": {
+    "type": "panel",
+    "size": [ 100, 10 ],
+    "offset": [ 0, "45%" ],
+    "controls": [
+      {
+        "@common.gamepad_helper_a": {
+          "size": [ "50%", "100%" ],
+          "offset": [ 0, "2%" ],
+          "anchor_from": "center",
+          "anchor_to": "center"
+        }
+      }
+    ]
+  },
+
+  //---------------------------------------------------------------------------
+  // Screens
+  //---------------------------------------------------------------------------
+
+  "modal_progress_panel_no_cancel": {
+    "type": "panel",
+    "size": "$modal_screen_size",
+    "controls": [
+      {
+        "@common.common_panel": {
+          "$dialog_background": "dialog_background_hollow_4",
+          "$show_close_button": false
+        }
+      },
+      {
+        "content": {
+          "type": "panel",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          // magic offset to make the scroll clipping perfect
+          "size": [ "100%-12px", "100%-12px" ],
+          "offset": [ 6, 6 ],
+          "controls": [
+            {
+              "@progress.title_panel": { }
+            },
+            {
+              "@progress.progress_loading_bars": { }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "modal_progress_panel_with_cancel": {
+    "type": "panel",
+    "size": "$modal_screen_size",
+    "controls": [
+      {
+        "@common.common_panel": {
+          "$dialog_background": "dialog_background_hollow_2",
+          "$show_close_button": false
+        }
+      },
+      {
+        "content": {
+          "type": "panel",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          // magic offset to make the scroll clipping perfect
+          "size": [ "100%-12px", "100%-60px" ],
+          "offset": [ 6, 20 ],
+          "controls": [
+            {
+              "@progress.title_panel": { }
+            },
+            {
+              "@progress.progress_loading_bars": { }
+            }
+          ]
+        }
+      },
+      {
+        "@progress.modal_button_panel": {
+          "anchor_from": "bottom_middle",
+          "anchor_to": "bottom_middle",
+          "size": [ "100%", 40 ]
+        }
+      }
+    ]
+  },
+
+  "progress_panel": {
+    "type": "panel",
+    "size": [ "100%", "100%" ],
+    "controls": [
+      {
+        "@common.dirt_background": {
+          "visible": "$render_dirt_bg"
+        }
+      },
+      {
+        "@progress.progress_loading_bars": { }
+      },
+      {
+        "@progress.title_panel": { }
+      },
+      {
+        "@progress.button_panel": { }
+      }
+    ]
+  },
+
+  "progress_screen@common.base_screen": {
+    "button_mappings": [
+      {
+        "from_button_id": "button.menu_cancel",
+        "to_button_id": "button.menu_exit",
+        "mapping_type": "global"
+      }
+    ],
+    "$screen_content": "progress.progress_screen_content"
+  },
+
+  "progress_screen_content": {
+    "type": "panel",
+    "variables": [
+      {
+        "requires": "$desktop_screen",
+        "$button_state_default_base": "common.button_state_default",
+        "$button_state_hover_base": "common.button_state_hover",
+        "$button_state_pressed_base": "common.button_state_pressed",
+        "$render_dirt_bg": true
+      },
+      {
+        "requires": "$pocket_screen",
+        "$button_state_default_base": "common-classic.button_state_default",
+        "$button_state_hover_base": "common-classic.button_state_hover",
+        "$button_state_pressed_base": "common-classic.button_state_pressed",
+        "$render_dirt_bg": true
+      }
+    ],
+    "controls": [
+      {
+        "@progress.progress_panel": { }
+      },
+      {
+        "@progress.gamepad_helpers": { }
+      }
+    ]
+  },
+
+  "modal_progress_screen@common.base_screen": {
+    "button_mappings": [
+      {
+        "from_button_id": "button.menu_cancel",
+        "to_button_id": "button.menu_exit",
+        "mapping_type": "global"
+      }
+    ],
+    "$screen_content": "progress.modal_screen_content"
+  },
+
+  "modal_screen_content": {
+    "type": "panel",
+    "variables": [
+      {
+        "requires": "$desktop_screen",
+        "$button_state_default_base": "progress.normal_stroke_button",
+        "$button_state_hover_base": "progress.normal_stroke_button",
+        "$button_state_pressed_base": "progress.normal_stroke_button",
+        "$render_dirt_bg": true
+      },
+      {
+        "requires": "$pocket_screen",
+        "$button_state_default_base": "common-classic.button_state_default",
+        "$button_state_hover_base": "common-classic.button_state_hover",
+        "$button_state_pressed_base": "common-classic.button_state_pressed",
+        "$render_dirt_bg": true
+      }
+    ],
+    "controls": [
+      {
+        "@progress.modal_progress_panel_with_cancel": {
+          "bindings": [
+            {
+              "binding_name": "#cancel_visible",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "@progress.modal_progress_panel_no_cancel": {
+          "bindings": [
+            {
+              "binding_name": "#cancel_not_visible",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

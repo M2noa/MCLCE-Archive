@@ -1,0 +1,26 @@
+#include "ShaderConstantsGNM.h"
+
+struct PS_Input
+{
+    float4 position : S_POSITION;
+    float2 uv : TEXCOORD_0;
+};
+
+float4 main(in PS_Input PSInput) : S_TARGET_OUTPUT
+{
+
+#if !defined(TEXEL_AA) || !defined(TEXEL_AA_FEATURE)
+	float4 diffuse = TEXTURE_0.Sample(TextureSampler0, PSInput.uv);
+#else
+	float4 diffuse = texture2D_AA(TEXTURE_0, TextureSampler0, PSInput.uv);
+#endif
+
+#ifdef ALPHA_TEST
+    if( diffuse.a < 0.0625 )
+    {
+        discard;
+    }
+#endif
+
+    return diffuse;
+}

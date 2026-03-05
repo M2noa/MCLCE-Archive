@@ -1,0 +1,10 @@
+{
+  "definition.chicken": {
+    "textures": {
+      "default": "textures/entity/chicken"
+    },
+    "geometry": {
+      "default": "geometry.chicken"
+    }
+  }
+}

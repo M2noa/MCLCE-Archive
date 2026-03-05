@@ -1,0 +1,42 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "reward_exp": false,
+          "wants": [
+            {
+              "item": "minecraft:glowstone_dust",
+              "quantity": {
+                "min": 8,
+                "max": 8
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:structure_builder:35"
+            }
+          ]
+        },
+        {
+          "reward_exp": false,
+          "wants": [
+            {
+              "item": "minecraft:glowstone_dust",
+              "quantity": {
+                "min": 8,
+                "max": 8
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:structure_builder:38"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+[
+	{"path":"materials/terrain.material"},
+	{"path":"materials/terrain.material", "+defines":["FOG"]},
+	{"path":"materials/terrain.material", "+defines":["ALWAYS_LIT"]}
+]

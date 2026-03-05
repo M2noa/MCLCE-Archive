@@ -1,0 +1,7 @@
+Minecraft kommer nå med muligheten til å kjøpe Minecraft Realms. Realms er en månedlig abonnementstjeneste der du kan lage din egen Minecraft-verden som er på nettet hele tiden.
+For øyeblikket kan du velge mellom to abonnementsalternativer, avhengig av hvor mange personer du vil invitere til å spille på området samtidig. Et område for deg og to venner koster USD 3,99 per måned (eller det tilsvarende lokalt), og et område for deg og ti venner koster USD 7,99 per måned (eller det tilsvarende lokalt).
+En 30 dagers prøveperiode med Minecraft Realms er tilgjengelig for deg og ti venner. En ubrukt del av en gratis prøveperiode går tapt når brukeren kjøper et abonnement.
+
+iTunes-kontoen din blir belastet med betalingen når kjøpet bekreftes, og abonnementet fornyes automatisk med mindre automatisk fornyelse deaktiveres minst 24 timer før slutten av gjeldende periode. Kontoen din blir belastet for fornyelsen innen 24 timer før slutten av gjeldende periode med prisen på abonnementsalternativet du valgte tidligere.
+
+Du kan administrere abonnementet og deaktivere automatisk fornyelse ved å gå til kontoinnstillingene etter kjøpet. Det er også en knapp i spillet som sender deg til disse innstillingene. Hvis du avbryter etter at abonnementet er aktivert, blir du ikke refundert for den gjenstående aktive perioden av abonnementet.

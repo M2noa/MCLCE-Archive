@@ -1,0 +1,15 @@
+#include "ShaderConstantsGNM.h"
+
+struct PS_Input
+{
+    float4 position : S_POSITION;
+    float4 color : COLOR;
+};
+
+float4 main( in PS_Input PSInput ) : S_TARGET_OUTPUT
+{
+	float4 PSOutputColor;
+	PSOutputColor.rgb = lerp(PSInput.color.rgb, CURRENT_COLOR.rgb, PSInput.color.a);
+	PSOutputColor.a = 1;
+	return PSOutputColor;
+}

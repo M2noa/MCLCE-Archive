@@ -1,0 +1,210 @@
+gfx_super_fancy_shading_enabled:1
+gfx_metal_mask:0
+gfx_foliage_light_wrap:1
+gfx_foliage_light_wrap_enabled:1
+gfx_ENVIRONMENT_LIGHT_SCALE:0.3
+gfx_emissive_scale:1
+gfx_metal_color_scale:0.14
+gfx_light_scale:0.87
+gfx_opposing_light_scale:0.32
+gfx_light_offset:0
+gfx_lens_flare_enable:0
+gfx_lens_flare_angle_appear:0.9
+gfx_depth_of_field_enable:0
+gfx_depth_of_field_near_end_depth:0.12
+gfx_depth_of_field_near_start_blur_Size:1
+gfx_depth_of_field_far_start_depth:0.6
+gfx_depth_of_field_far_end_blur_Size:2
+gfx_motion_blur_enable:0
+gfx_motion_blur_threshold:0.25
+gfx_atmospherics_enable:1
+gfx_light_color:1 0.988235 0.882353
+gfx_block_light_color:0.984314 0.901961 0.607843
+gfx_block_light_scale:0
+gfx_sky_color:0.588235 0.721569 0.905882
+gfx_rayleigh_beta:1 0 0.501961
+gfx_mie_beta:1
+gfx_rayleigh_height_falloff:0.33
+gfx_rayleigh_dist_scale:0.14
+gfx_air_scatter_scale:0.89
+gfx_ground_scatter_color:0.792157 0.901961 1
+gfx_sky_scatter_color:0.376471 0.670588 1
+gfx_sun_scatter_inner_color:1 1 1
+gfx_sun_scatter_outer_color:0.509804 0.768627 0.956863
+gfx_ground_scatter_beta:0.309804 0.478431 0.533333
+gfx_ground_scatter_height_falloff:0.35
+gfx_ground_scatter_scale:0.67
+gfx_ground_scatter_dist_scale:0.33
+gfx_smoothness:1
+gfx_reflectance:1.93
+gfx_edge_highlight_enable:1
+gfx_render_chunk_edge_brightness:1.25
+gfx_render_chunk_edge_tightness:32
+gfx_render_chunk_edge_sharpness:0
+gfx_render_chunk_edge_lod_scalar:0.75
+gfx_item_in_hand_edge_brightness:1.25
+gfx_item_in_hand_edge_tightness:32
+gfx_item_in_hand_edge_sharpness:0
+gfx_entity_edge_brightness:1.25
+gfx_entity_edge_tightness:32
+gfx_entity_edge_sharpness:0
+gfx_entity_edge_lod_scalar:0.75
+gfx_super_fancy_water_enable:1
+gfx_parallax_height_scale:0.08
+gfx_reflections_enabled:1
+gfx_refl_distort_min:19
+gfx_refl_distort_max:40
+gfx_wave_refl_distort_near:0.08
+gfx_wave_refl_distort_far:0.23
+gfx_refraction_enabled:1
+gfx_wave_refr_distort:0.02
+gfx_diffuse_tint:0.509804 0.690196 1
+gfx_fog_min_depth:0
+gfx_fog_max_depth:10.01
+gfx_spec_color_water:0.823529 0.929412 1
+gfx_shininess:64
+gfx_bloom_enabled:1
+gfx_bloom_threshold:1.76
+gfx_bloom_magnitude:2.93
+gfx_bloom_blur_size:1
+gfx_adaptation_rate:1.11
+gfx_tonemap_technique:8
+gfx_exposure:0
+gfx_auto_exposure:0
+gfx_auto_exposure_key_value:0.42
+gfx_shoulder_strength:0.42
+gfx_linear_strength:0.62
+gfx_linear_angle:0.51
+gfx_toe_strength:0.25
+gfx_toe_numerator:0.43
+gfx_toe_denominator:0.85
+gfx_hable_white_level:1.06
+gfx_exponential_white_level:0.83
+gfx_logarithmic_white_level:11.2
+gfx_reinhard_modified_white_level:1.49
+gfx_drago_white_level:11.2
+gfx_luminance_saturation:2.22
+gfx_lum_map_mip_level:0
+gfx_bias:0.63
+gfx_directional_shadows_enable:0
+gfx_terrain_shadows_enable:1
+gfx_entity_shadows_enable:1
+gfx_shadow_coverage_distance_scale:0.5
+gfx_shadow_high_detail_distance_scale:0.6
+gfx_shadow_intensity:1
+gfx_clouds_enabled:1
+gfx_cloud_interior_fog_depth_start:0.94
+gfx_cloud_interior_fog_depth_end:1
+gfx_cloud_interior_fog_max:0.85
+gfx_cloud_interior_fog_outer_shell_opacity_factor:0.85
+gfx_cloud_interior_fog_opacity_factor:1.5
+gfx_cloud_interior_fog_color_debug:0
+gfx_cloud_interior_fog_nearby_transition_threshold:0.25
+gfx_cloud_fresnel_distance_start:0
+gfx_cloud_fresnel_distance_End:3
+gfx_cloud_light_falloff_start:0
+gfx_cloud_light_falloff_end:10000
+gfx_cloud_light_spot_power:10
+gfx_cloud_render_normals:0
+gfx_clouds0_enabled:1
+gfx_clouds0_color:1 1 1
+gfx_clouds0_opacity:1
+gfx_clouds0_emissive_strength:0.77
+gfx_clouds0_light_wrap_strength:0.69
+gfx_clouds0_transmission_strength:0.74
+gfx_clouds0_edge_highlight_color:0.917647 0.960784 1
+gfx_clouds0_edge_highlight_tightness:0.93
+gfx_clouds0_normal_bend_tightness:1
+gfx_clouds0_altitude:128
+gfx_clouds0_thickness:4
+gfx_clouds0_bounds:128
+gfx_clouds0_drift_velocity:0.05
+gfx_clouds0_animation_speed:0.1
+gfx_clouds0_animation_pause:0.1
+gfx_clouds1_enabled:1
+gfx_clouds1_color:0.878431 0.917647 0.952941
+gfx_clouds1_opacity:1
+gfx_clouds1_emissive_strength:0.77
+gfx_clouds1_light_wrap_strength:0.69
+gfx_clouds1_transmission_strength:0.74
+gfx_clouds1_edge_highlight_color:0.858824 0.913725 0.976471
+gfx_clouds1_edge_highlight_tightness:0.93
+gfx_clouds1_normal_bend_tightness:1
+gfx_clouds1_altitude:134
+gfx_clouds1_thickness:13.02
+gfx_clouds1_bounds:128
+gfx_clouds1_drift_velocity:0.15
+gfx_clouds1_animation_speed:0.25
+gfx_clouds1_animation_pause:0.25
+gfx_clouds2_enabled:1
+gfx_clouds2_color:0.572549 0.717647 0.839216
+gfx_clouds2_opacity:1
+gfx_clouds2_emissive_strength:0.83
+gfx_clouds2_light_wrap_strength:0.69
+gfx_clouds2_transmission_strength:0.75
+gfx_clouds2_edge_highlight_color:0.780392 0.866667 0.988235
+gfx_clouds2_edge_highlight_tightness:0
+gfx_clouds2_normal_bend_tightness:1
+gfx_clouds2_altitude:151.64
+gfx_clouds2_thickness:46.12
+gfx_clouds2_bounds:128
+gfx_clouds2_drift_velocity:0.12
+gfx_clouds2_animation_speed:0.25
+gfx_clouds2_animation_pause:0.25
+gfx_clouds3_enabled:1
+gfx_clouds3_color:1 1 1
+gfx_clouds3_opacity:0.21
+gfx_clouds3_emissive_strength:1
+gfx_clouds3_light_wrap_strength:0
+gfx_clouds3_transmission_strength:1
+gfx_clouds3_edge_highlight_color:0.568627 0.768627 0.984314
+gfx_clouds3_edge_highlight_tightness:1.27
+gfx_clouds3_normal_bend_tightness:1
+gfx_clouds3_altitude:403.3
+gfx_clouds3_thickness:4
+gfx_clouds3_bounds:128
+gfx_clouds3_drift_velocity:0.67
+gfx_clouds3_animation_speed:0.25
+gfx_clouds3_animation_pause:0.25
+gfx_clouds4_enabled:0
+gfx_clouds4_color:0.9 0.9 0.9
+gfx_clouds4_opacity:0.07
+gfx_clouds4_emissive_strength:1
+gfx_clouds4_light_wrap_strength:0.5
+gfx_clouds4_transmission_strength:0.5
+gfx_clouds4_edge_highlight_color:0.7 0.7 0.85
+gfx_clouds4_edge_highlight_tightness:1.27
+gfx_clouds4_normal_bend_tightness:1
+gfx_clouds4_altitude:448
+gfx_clouds4_thickness:4
+gfx_clouds4_bounds:128
+gfx_clouds4_drift_velocity:0.1
+gfx_clouds4_animation_speed:0.25
+gfx_clouds4_animation_pause:0.25
+gfx_rays_enable:0
+gfx_rays_enable_debug:0
+gfx_rays_number_of_slices:1024
+gfx_rays_number_of_samples_per_slice:1024
+gfx_rays_epipolar_step_width:16
+gfx_rays_depth_break_threshold:0.1
+gfx_rays_fix_up_threshold:0.1
+gfx_rays_ray_casting_distance:128
+gfx_rays_ray_casting_step_width:0.5
+gfx_wind_enable:1
+gfx_wind_angle:0
+gfx_wind_speed:1
+gfx_wind_octave_1_amplitude:0.5
+gfx_wind_octave_1_frequency:1
+gfx_wind_octave_2_amplitude:0.25
+gfx_wind_octave_2_frequency:5
+gfx_wind_octave_3_amplitude:0.04
+gfx_wind_octave_3_frequency:6.7
+gfx_grass_flexibility:0.25
+gfx_tall_grass_flexibility:0.25
+gfx_crops_flexibility:0.1
+gfx_leaves_flexibility:0.05
+gfx_flowers_flexibility:0.2
+gfx_lush_foliage:1
+show_tonemap_settings:1
+gfx_viewdistance:24
+vr_renderdistance:24

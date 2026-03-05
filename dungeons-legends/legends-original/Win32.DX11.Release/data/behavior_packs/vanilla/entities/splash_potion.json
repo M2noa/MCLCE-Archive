@@ -1,0 +1,28 @@
+{
+  "minecraft:entity": {
+    "format_version": "1.2.0",
+
+    "components": {
+      "minecraft:identifier": {
+        "id": "minecraft:splash_potion"
+      },
+      "minecraft:collision_box": {
+        "width": 0.25,
+        "height": 0.25
+      },
+      "minecraft:projectile": {
+       "onHit": {
+        "douse_fire": { },
+        "thrown_potion_effect": { },
+        "remove_on_hit": { }
+       },
+        "power": 0.5,
+        "gravity": 0.05,
+        "angleoffset": -20.0,
+        "hitSound": "glass"
+      },
+	    "minecraft:physics": {
+      }
+    }
+  }
+}

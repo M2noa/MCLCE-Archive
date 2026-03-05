@@ -1,0 +1,60 @@
+# Auto detect text files and perform LF normalization
+* 					text auto
+
+#Unreal
+*.uasset			binary -delta
+*.umap				binary -delta
+
+#Help git with files that are windows-only or binary
+*.sh				text eol=lf
+*.vcproj 			text eol=crlf
+*.vcxproj 			text eol=crlf
+*.exe 				binary
+*.xcuserstate  		binary
+*.xaml 				text eol=crlf
+*.a 				binary
+*.lnk  				binary
+*.nonuget 			binary
+*.keystore 			binary
+*.pfx 				binary
+*.pdn 				binary
+*.xib				binary
+*.pcm 				binary
+*.cmd 				text eol=crlf
+*.pem 				binary
+*.xcworkspacedata 	binary
+*.props 			text eol=crlf
+*.vcxitems 			text eol=crlf
+*.natvis 			text eol=crlf
+*.gif 				binary 
+*.lib 				binary
+*.dylib				binary
+*.sln 				text eol=crlf
+*.xccheckout 		binary
+*.so 				binary
+*.dll 				binary
+*.fsb 				binary
+*.xcscheme	 		binary
+*.png 				binary
+*.jpg				binary
+*.bin 				binary
+*.xcbkptlist 		binary
+*.extcomp 			text eol=crlf
+*.bat 				text eol=crlf
+*.fxh 				text eol=crlf
+*.xcsettings 		binary
+*.jar  				binary
+*.tga 				binary
+*.rc				text eol=crlf
+*.ps1 				text eol=crlf
+*.appxmanifest 		text eol=crlf
+*.pbxproj 			binary
+*.dat 				binary
+*.filters 			text eol=crlf
+*.rc				binary
+
+#ios format audio files are binary
+*.caf				binary
+*.mp3				binary
+*.fsb				binary
+*.ogg				binary

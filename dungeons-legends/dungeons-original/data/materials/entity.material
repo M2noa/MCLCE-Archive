@@ -1,0 +1,269 @@
+{
+  "entity_static": {
+    "vertexShader": "shaders/entity.vertex",
+    "fragmentShader": "shaders/entity.fragment"
+  },
+
+  "entity_flat_color": {
+    "vertexShader": "shaders/position.vertex",
+    "fragmentShader": "shaders/current_color.fragment"
+  },
+
+  "entity_flat_color_line:entity_flat_color": {
+    "defines": [ "LINE_STRIP" ]
+  },
+
+  "entity:entity_static": {
+    "defines": [ "USE_OVERLAY" ]
+  },
+
+  "opaque_block:entity_static": {
+  },
+
+  "entity_nocull:entity": {
+    "states": [ "DisableCulling" ]
+  },
+
+  "entity_change_color:entity_nocull": {
+    "defines": [
+      "USE_OVERLAY",
+      "USE_COLOR_MASK"
+    ]
+  },
+
+  "entity_alphatest:entity_nocull": {
+    "defines": [ "ALPHA_TEST" ],
+    "samplerStates": [
+      {
+        "samplerIndex": 1,
+        "textureWrap": "Repeat"
+      }
+    ]
+  },
+
+  "entity_alphablend:entity_nocull": {
+    "states": [
+      "Blending"
+    ]
+  },
+
+  "entity_emissive:entity": {
+    "defines": [ "USE_EMISSIVE" ]
+  },
+
+  "entity_emissive_alpha:entity_nocull": {
+    "defines": [
+      "ALPHA_TEST",
+      "USE_EMISSIVE"
+    ]
+  },
+
+  "entity_custom:entity": {
+    "states": [ "Blending" ],
+    "defines": [ "ALPHA_TEST", "Blending", "USE_OVERLAY", "USE_MASK" ],
+
+    "blendSrc": "SourceColor",
+    "blendDst": "Zero"
+  },
+
+  "slime_outer:entity": {
+    "states": [ "Blending" ]
+  },
+
+  "item_in_hand:entity": {
+    "defines": [ "COLOR_BASED", "NO_TEXTURE", "ITEM_IN_HAND" ]
+  },
+  
+  "charged_creeper:entity_static": {
+    "defines": [ "USE_UV_ANIM" ],
+    "states": [ "Blending", "DisableCulling", "DisableDepthWrite" ],
+    "blendSrc": "One",
+    "blendDst": "One",
+    "samplerStates": [
+      {
+        "samplerIndex": 0,
+        "textureWrap": "Repeat"
+      }
+    ]
+  },
+
+  "item_in_hand_glint:item_in_hand": {
+    "defines": [
+      "GLINT"
+    ],
+    "samplerStates": [
+      {
+        "samplerIndex": 1,
+        "textureWrap": "Repeat"
+      }
+    ]
+  },
+
+  "entity_glint:entity": {
+    "defines": [
+      "GLINT"
+    ],
+    "samplerStates": [
+      {
+        "samplerIndex": 1,
+        "textureWrap": "Repeat"
+      }
+    ]
+  },
+
+  "entity_alphatest_glint:entity_alphatest": {
+    "defines": [
+      "GLINT"
+    ],
+    "samplerStates": [
+      {
+        "samplerIndex": 1,
+        "textureWrap": "Repeat"
+      }
+    ]
+  },
+
+  "entity_change_color_glint:entity_glint": {
+    "defines": [
+      "USE_COLOR_MASK"
+    ]
+  },
+
+  "entity_alphatest_change_color_glint:entity_alphatest_glint": {
+    "defines": [
+      "USE_COLOR_MASK"
+    ]
+  },
+
+  "entity_alphatest_change_color:entity_change_color": {
+    "defines": [
+      "ALPHA_TEST",
+      "USE_COLOR_MASK"
+    ],
+    "samplerStates": [
+      {
+        "samplerIndex": 1,
+        "textureWrap": "Repeat"
+      }
+    ]
+  },
+
+  "entity_alphatest_change_color_glint:entity_change_color": {
+    "defines": [
+      "ALPHA_TEST",
+      "USE_COLOR_MASK",
+      "GLINT"
+    ],
+    "samplerStates": [
+      {
+        "samplerIndex": 1,
+        "textureWrap": "Repeat"
+      }
+    ]
+  },
+
+	"entity_multitexture:entity": {
+		"defines": [
+			"USE_MULTITEXTURE"
+		],
+		"samplerStates": [
+			{
+				"samplerIndex": 0,
+				"textureWrap": "Clamp"
+			},
+			{
+				"samplerIndex": 1,
+				"textureWrap": "Clamp"
+			},
+			{
+				"samplerIndex": 2,
+				"textureWrap": "Clamp"
+			}
+		]
+	},
+	"entity_multitexture_color_mask:entity_multitexture": {
+		"defines": [
+			"COLOR_SECOND_TEXTURE"
+		]
+	},
+	"entity_multitexture_alpha_test:entity_multitexture": {
+        "states": [ "DisableCulling" ],
+		"defines": [
+			"ALPHA_TEST"
+		]
+	},
+	"entity_multitexture_alpha_test_color_mask:entity_multitexture_color_mask": {
+        "states": [ "DisableCulling" ],
+		"defines": [
+			"ALPHA_TEST"
+		]
+	},
+
+	"entity_lead_base:entity": {
+		"states": [
+			"Blending",
+			"DisableCulling"
+		]
+  },
+  
+  "moving_block": {
+    "vertexShader": "shaders/renderchunk.vertex",
+    "fragmentShader": "shaders/renderchunk.fragment",
+
+    "defines": [ "LOW_PRECISION", "TEXEL_AA", "ATLAS_TEXTURE", "AS_ENTITY_RENDERER" ],
+
+    "samplerStates": [
+      {
+        "samplerIndex": 0,
+        "textureFilter" : "TexelAA"
+      },
+      {
+        "samplerIndex": 1,
+        "textureFilter": "Bilinear"
+  }  
+    ]
+  },
+  
+  "moving_block_seasons:moving_block" : {
+    "defines": [ "SEASONS" ],
+    "samplerStates": [
+    	{
+    	"samplerIndex": 0,
+    	"textureFilter" : "TexelAA"
+    	},
+    	{
+    	"samplerIndex": 1,
+    	"textureFilter": "Bilinear"
+    	},
+    	{
+    	"samplerIndex": 2,
+    	"textureFilter": "Point"
+    	}
+    ]
+  },
+  
+  "moving_block_alpha_seasons:moving_block_seasons" : {
+    "defines": [ "ALPHA_TEST" ],
+    "states": [ "DisableCulling", "EnableAlphaToCoverage" ]
+  },
+  
+  "moving_block_alpha_single_side:moving_block" : {
+    "defines": [ "ALPHA_TEST" ],
+    "states": [ "EnableAlphaToCoverage" ]
+  },
+
+  "moving_block_alpha:moving_block_alpha_single_side" : {
+    "states": [ "DisableCulling", "PolygonOffset" ],
+    // z-fighting fix
+    "polygonOffsetLevel" : 0.1
+  },
+  
+  "moving_block_double_side:moving_block" : {
+    "states": [ "DisableCulling" ]
+  },
+  
+  "moving_block_blend:moving_block" : {
+    "defines": [ "BLEND" ],
+    "states": [ "Blending" ]
+  }
+}

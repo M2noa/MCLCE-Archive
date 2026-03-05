@@ -1,0 +1,273 @@
+
+{
+	"id": "cave-test-level",
+	"object-groups": [
+		"objectgroup"
+	],
+
+	"visual-theme": "cave",
+	"sound-theme": "cave",
+	"prop-density": 0.5,
+
+	"#tg": "First 'c' stands for Cave!",
+	"tile-groups": [
+		{
+			"#": "Start tile",
+			"id": "start",
+			"tiles": ["cstart002"]
+		},
+		{
+			"#": "Checkpoint tile",
+			"id": "checkpoint",
+			"tiles": ["ccp_core001", "ccp_core002", "ccp_core003", "ccp_core004", "ccp_core005", "ccp_core006", "ccp_core007"]
+		},
+		{
+			"#": "End tile",
+			"id": "end",
+			"tiles": ["cend001"]
+		},
+		{
+			"#": "Common random mess of tiles, no rails, no distinguishing features",
+			"id": "common",
+			"tiles": ["cc001", "cc002", "cc003", "cc004", "cc005", "cc006", "cc007", "cc008", "cc009", "cc010", "cc011", "cc012", "cc013", "cc014", "cc015", "cc016", "cc017", "cc018", "cc019", "cc020", "cc021", "cc022", "cc023", "cc024", "cc025", "cc026", "cc027", "cc028", "cc029", "cc030", "cc031", "cc032", "cc033", "cc034"]
+		},
+		{
+			"#": "Uncommon tiles with a distinguishing feature, like water, ravine, lava",
+			"id": "uncommon",
+			"tiles": ["cu001", "cu002", "cu003", "cu004", "cu010"]//, "cu011"]
+		},
+		{
+			"#": "Mineshaft tiles with bits of rails",
+			"id": "rails",
+			"tiles": ["cr001", "cr002", "cr003", "cr004", "cr005", "cr006", "cr007", "cr008", "cr009", "cr010", "cs002", "cr011"]
+		},
+		{
+			"#": "Winding narrow caves",
+			"id": "winding",
+			"tiles": ["cc005", "cc006", "cc007", "cc008", "cc010", "cc015", "cc016", "cc017", "cc018", "cc019", "cc020", "cc021", "cc022", "cc023", "cc024", "cc031", "cc032", "cc033"]
+		},
+		{
+			"#": "Short stops, very short with only one door",
+			"id": "short-stop",
+			"tiles": ["cc016", "cc017", "cc018"]
+		},
+		{
+			"#": "Open areas",
+			"id": "open",
+			"tiles": ["cc001", "cc002", "cc003", "cc009", "cc011", "cc014", "cu002"]
+		},
+		{
+			"#": "Vertically challenged, i.e. with stairs",
+			"id": "stairs",
+			"tiles": ["cc004", "cc005", "cc006"]
+		},
+		{
+			"#": "Special group architectural",
+			"id": "special_A",
+			"tiles": ["cs008", "cs009"]
+		},
+		{
+			"#": "Special group lava",
+			"id": "special_L",
+			"tiles": ["cs010", "cs012"]
+		},
+		{
+			"#": "Special group nature",
+			"id": "special_N",
+			"tiles": ["cs017", "cso13"]
+		},
+		{
+			"#": "Special group mine shafts",
+			"id": "special_M",
+			"tiles": ["cs014", "cs015"]
+		},
+		{
+			"#": "Special group generic caves",
+			"id": "special_C",
+			"tiles": ["cs016", "cs018"]
+		},
+		{
+			"#": "´Checkpoint runup, build up before the checkpoint itself",
+			"id": "runup",
+			"tiles": ["ccp_runup001", "ccp_runup002", "ccp_runup003", "ccp_runup004"]
+		},
+		{
+			"#": "Nature, overgrown",
+			"id": "nature",
+			"tiles": ["cn_nature001", "cn_nature002", "cn_nature003", "cn_nature004", "cn_nature005", "cn_nature006", "cn_nature007", "cn_nature008", "cn_nature009", "cn_nature010"]
+		},
+		{
+			"#": "test",
+			"id": "test",
+			"tiles": ["cu010"]
+		}
+		
+	],
+	"stretches": [
+		{
+			"id": "start",
+			"tile-groups": ["start"],
+			"sound-theme": "silent",
+			"visual-theme": "start"
+		},
+		{
+			"id": "",
+			"tile-groups": ["common", "open"],
+			"prop-groups": ["generic_cave_decor", "water", "coalore"],
+			"length": 3,
+			"visual-theme": "cave_blue",
+			"narration": "intro"
+		},
+		{
+			"id": "",
+			"tile-groups": ["stairs", "common", "uncommon"],
+			"prop-groups": ["groundpatch", "water", "coalore"],
+			"length": 3,
+			"visual-theme": "cave_purple"
+		},
+		{
+			"id": "",
+			"tile-groups": ["special_C"],
+			"length": 1,
+			"visual-theme": "cave_dark"
+		},
+		{
+			"id": "",
+			"tile-groups": ["nature"],
+            "prop-groups": [{"id": "nature", "weight": 8}, "nature_trees"],
+			"length": 4,
+			"visual-theme": "cave_green"
+		},
+		{
+			"id": "",
+			"tile-groups": ["runup"],
+			"length": 1,
+			"visual-theme": "cave_checkpoint"
+		},
+		{
+			"id": "checkpoint-1",
+			"tile-groups": ["checkpoint"],
+			"visual-theme": "cave_checkpoint",
+			"narration": "ch0"
+		},
+		{
+			"id": "",
+			"tile-groups": ["runup"],
+			"length": 1,
+			"visual-theme": "cave_checkpoint"
+		},
+		{
+			"id": "",
+			"tile-groups": [{"id": "common", "weight": 5}, "uncommon"],
+			"prop-groups": ["generic_cave_decor", "water", "ironore", "stone", "architectural"],
+			"prop-density": 1,
+			"length": 5,
+			"visual-theme": "cave_green"
+		},
+		{
+			"id": "",
+			"tile-groups": [{"id": "stairs", "weight": 2}, "open", {"id": "winding", "weight": 5}],
+			"prop-groups": ["lava", "manmade", "ironore"],
+			"prop-density": 0.8,
+			"length": 3,
+			"visual-theme": "cave_dark"	
+		},
+		{
+			"id": "",
+			"tile-groups": ["special_L"],
+			"length": 1,
+			"visual-theme": "cave_boss"
+		},
+		{
+			"id": "",
+			"tile-groups": ["runup"],
+			"length": 1,
+			"visual-theme": "cave_checkpoint"
+		},
+		{
+			"id": "checkpoint-2",
+			"tile-groups": ["checkpoint"],
+			"visual-theme": "cave_checkpoint",
+			"narration": "ch01"
+		},
+		{
+			"id": "",
+			"tile-groups": ["runup"],
+			"length": 1,
+			"visual-theme": "cave_checkpoint"
+		},
+		{
+			"id": "",
+			"tile-groups": ["open"],
+			"prop-groups": ["water", "goldore"],
+			"length": 5,
+			"visual-theme": "cave_red"
+		},
+		{
+			"id": "",
+			"tile-groups": ["nature"],
+            "prop-groups": [{"id": "nature", "weight": 8}, "nature_trees"],
+			"length": 4,
+			"visual-theme": "cave_green"
+		},
+		{
+			"id": "",
+			"tile-groups": ["special_N"],
+			"length": 1,
+			"visual-theme": "cave_green"
+		},
+		{
+			"id": "",
+			"tile-groups": ["runup"],
+			"length": 1,
+			"visual-theme": "cave_checkpoint"
+		},
+		{
+			"id": "checkpoint-3",
+			"tile-groups": ["checkpoint"],
+			"visual-theme": "cave_checkpoint",
+			"narration": "ch02"
+		},
+		{
+			"id": "",
+			"tile-groups": ["runup"],
+			"length": 1,
+			"visual-theme": "cave_checkpoint"
+		},
+		{
+			"id": "",
+			"tile-groups": [{"id": "stairs", "weight": 2}, "uncommon", "rails"],
+			"prop-groups": ["manmade", "rails"],
+			"length": 3,
+			"visual-theme": "cave_blue"
+		},
+		{
+			"id": "",
+			"tile-groups": ["special_M"],
+			"length": 1,
+			"visual-theme": "cave_blue"
+		},
+		{
+			"id": "",
+			"tile-groups": ["rails"],
+			"prop-groups": ["rails"],
+			"prop-density": 0.7,
+			"length": 5,
+			"visual-theme": "cave_blue"
+		},
+		{
+			"id": "",
+			"tile-groups": ["open"],
+			"prop-groups": ["lava", {"id": "generic_cave_decor", "weight": 0.5}, "architectural"],
+			"prop-density": 0.75,
+			"length": 3,
+			"visual-theme": "cave_boss"
+		},
+		{
+			"id": "end",
+			"tile-groups": ["end"],
+			"visual-theme": "cave_dark",
+			"narration": "end"
+		}
+	]
+}

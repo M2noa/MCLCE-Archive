@@ -1,0 +1,13 @@
+{
+  "definition.ocelot": {
+    "textures": {
+      "wild": "textures/entity/cat/ocelot",
+      "black": "textures/entity/cat/blackcat",
+      "red": "textures/entity/cat/red",
+      "siamese": "textures/entity/cat/siamese"
+    },
+    "geometry": {
+      "default": "geometry.ocelot"
+    }
+  }
+}

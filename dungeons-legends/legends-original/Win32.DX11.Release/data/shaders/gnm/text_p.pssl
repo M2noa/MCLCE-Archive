@@ -1,0 +1,29 @@
+#include "ShaderConstantsGNM.h"
+
+struct PS_Input
+{
+    float4 position : S_POSITION;
+    float4 color : COLOR;
+    float2 uv : TEXCOORD_0;
+};
+
+float4 main(in PS_Input PSInput) : S_TARGET_OUTPUT
+{
+    float4 diffuse = TEXTURE_0.Sample(TextureSampler0, PSInput.uv);
+
+#ifdef SMOOTH
+    const float center = 0.4f;
+    const float radius = 0.1f;
+
+    diffuse = smoothstep(center - radius, center + radius, diffuse);
+#endif
+
+#ifdef ALPHA_TEST
+    if (diffuse.a < 0.5)
+    {
+        discard;
+    }
+#endif
+
+    return diffuse * PSInput.color * DARKEN;
+}

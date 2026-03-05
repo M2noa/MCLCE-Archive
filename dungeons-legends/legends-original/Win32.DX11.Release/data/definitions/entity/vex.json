@@ -1,0 +1,11 @@
+{
+  "definition.vex": {
+    "textures": {
+      "default": "textures/entity/vex/vex",
+      "charging": "textures/entity/vex/vex_charging"
+    },
+    "geometry": {
+      "default": "geometry.vex"
+    }
+  }
+}

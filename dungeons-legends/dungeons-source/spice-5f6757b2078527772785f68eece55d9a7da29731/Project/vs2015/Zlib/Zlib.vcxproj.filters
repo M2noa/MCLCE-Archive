@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{e1269822-94b4-45e9-b00c-3aa363eb8003}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\SourceDeps\zlib\gzlib.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SourceDeps\zlib\gzread.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SourceDeps\zlib\gzwrite.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SourceDeps\zlib\infback.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SourceDeps\zlib\inffast.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SourceDeps\zlib\inflate.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SourceDeps\zlib\inftrees.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SourceDeps\zlib\trees.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SourceDeps\zlib\uncompr.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SourceDeps\zlib\zutil.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SourceDeps\zlib\adler32.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SourceDeps\zlib\compress.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SourceDeps\zlib\crc32.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SourceDeps\zlib\deflate.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SourceDeps\zlib\gzclose.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\SourceDeps\zlib\inffast.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SourceDeps\zlib\inffixed.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SourceDeps\zlib\inflate.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SourceDeps\zlib\inftrees.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SourceDeps\zlib\trees.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SourceDeps\zlib\zconf.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SourceDeps\zlib\zlib.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SourceDeps\zlib\zutil.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SourceDeps\zlib\crc32.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SourceDeps\zlib\deflate.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SourceDeps\zlib\gzguts.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\SourceDeps\zlib\Makefile">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\..\SourceDeps\zlib\Makefile.in">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\..\SourceDeps\zlib\zconf.h.cmakein">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\..\SourceDeps\zlib\zconf.h.in">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\..\SourceDeps\zlib\zlib.3">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\..\SourceDeps\zlib\zlib.map">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\..\SourceDeps\zlib\zlib.pc.cmakein">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\..\SourceDeps\zlib\zlib.pc.in">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\..\SourceDeps\zlib\zlib2ansi">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\..\SourceDeps\zlib\configure">
+      <Filter>Source</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\..\SourceDeps\zlib\treebuild.xml">
+      <Filter>Source</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\SourceDeps\zlib\CMakeLists.txt">
+      <Filter>Source</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

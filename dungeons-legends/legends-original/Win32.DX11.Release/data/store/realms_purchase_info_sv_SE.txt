@@ -1,0 +1,7 @@
+För Minecraft finns nu alternativet att köpa Minecraft Realms. Med Realms, som är en månadsprenumerationstjänst, kan du skapa din egen Minecraft-värld som alltid finns online.
+Det finns för tillfället två prenumerationsalternativ att välja mellan, beroende på hur många personer du vill bjuda in till att spela i din realm samtidigt. En realm för dig och två vänner kostar 3,99 USD/månad (eller motsvarande i lokal valuta), och en realm för dig och tio vänner kostar 7,99 USD/månad (eller motsvarande i lokal valuta).
+En 30-dagarsperiod för utvärdering av Minecraft Realms är tillgänglig för dig och tio vänner. Eventuell oförbrukad del av den kostnadsfria utvärderingsperioden förverkas när användaren köper en prenumeration.
+
+Kostnaden debiteras ditt iTunes-konto vid bekräftelse av köpet, och prenumerationen förnyas automatiskt såvida inte autoförnyelsen stängs av minst 24 timmar innan den aktuella perioden löper ut. Förnyelse debiteras ditt konto med priset för det prenumerationsalternativ du har valt tidigare inom 24 timmar innan den aktuella perioden löper ut.
+
+Din prenumeration kan hanteras av användaren, och autoförnyelsen kan stängas av efter inköp i användarens Kontoinställningar. Det finns också en knapp i spelet som öppnar dessa inställningar. Vid uppsägning efter att prenumerationen har aktiverats görs ingen återbetalning för den återstående prenumerationsperioden.

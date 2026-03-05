@@ -1,0 +1,18 @@
+{
+  "materials": {
+    "version": "1.0.0",
+
+    "terrain_inside_block": {
+      "depthFunc": "LessEqual",
+
+      "vertexShader": "shaders/position.vertex",
+      "vrGeometryShader": "shaders/position.geometry",
+      "fragmentShader": "shaders/current_color.fragment",
+      "vertexFields": [
+        { "field": "Position" }
+      ],
+      "msaaSupport": "MSAA"
+
+    }
+  }
+}

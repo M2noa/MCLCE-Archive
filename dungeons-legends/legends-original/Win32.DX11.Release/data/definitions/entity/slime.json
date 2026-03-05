@@ -1,0 +1,14 @@
+{
+  "definition.slime": {
+    "textures": {
+      "default": "textures/entity/slime/slime"
+    },
+    "team_masks": {
+      "default": "textures/entity/team_mask/slime"
+    },
+    "geometry": {
+      "default": "geometry.slime",
+      "armor": "geometry.slime.armor"
+    }
+  }
+}

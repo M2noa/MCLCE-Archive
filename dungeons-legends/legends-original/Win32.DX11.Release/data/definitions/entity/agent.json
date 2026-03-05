@@ -1,0 +1,10 @@
+{
+  "definition.agent": {
+    "textures": {
+      "default": "textures/entity/agent"
+    },
+    "geometry": {
+      "default": "geometry.agent"
+    }
+  }
+}

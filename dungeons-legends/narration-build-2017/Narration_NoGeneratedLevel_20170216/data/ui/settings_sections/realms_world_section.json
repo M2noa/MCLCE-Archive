@@ -1,0 +1,150 @@
+/********************************************************
++*   (c) Mojang. All rights reserved                       *
++*   (c) Microsoft. All rights reserved.                   *
++*********************************************************/
+
+{
+  "namespace": "realms_world_section",
+
+  "realm_name_edit@settings_common.option_text_edit": {
+    "$option_label": "realmsSettingsScreen.realmNameLabel",
+    "$option_binding_name": "#realm_name",
+    "$option_place_holder_text": "realmsSettingsScreen.realmNameEditPlaceholder",
+    "$text_box_name": "realm_name_text_box",
+    "$allow_data_binding": true,
+    "$max_text_edit_length": 30
+  },
+
+  "reset_world_button@settings_common.action_button": {
+    "anchor_from": "left_middle",
+    "anchor_to": "left_middle",
+    "$button_label_text": "realmsSettingsScreen.resetWorldButton",
+    "$pressed_button_name": "menu_reset_world",
+    "bindings": [
+      {
+        "binding_name": "#reset_button_enabled",
+        "binding_name_override": "#enabled"
+      }
+    ]
+  },
+
+  "difficulty_slider@settings_common.option_slider": {
+    "$slider_steps": 4,
+    "$option_label": "#difficulty_slider_label",
+    "$slider_name": "world_difficulty",
+    "$slider_value_binding_name": "#world_difficulty",
+    "$label_bindings": 
+    [
+      {
+        "binding_name": "#difficulty_slider_label"
+      }
+    ]
+
+  },
+
+  "radio_visuals_unchecked@radio_visuals": {
+    "$toggle_visual": "common.radio_toggle_unchecked_state"
+  },
+
+  "radio_visuals_checked@radio_visuals": {
+    "$toggle_visual": "common.radio_toggle_checked_state"
+  },
+
+  "radio_visuals_unchecked_hover@radio_visuals": {
+    "$toggle_visual": "common.radio_toggle_unchecked_hover_state"
+  },
+
+  "radio_visuals_checked_hover@radio_visuals": {
+    "$toggle_visual": "common.radio_toggle_checked_hover_state"
+  },
+
+  "radio_visuals": {
+    "type": "panel",
+    "size": [ "100%", 20 ],
+    "controls": [
+      {
+        "@$toggle_visual": {
+          "anchor_from": "top_left",
+          "anchor_to": "top_left"
+        }
+      },
+      {
+        "": {
+          "type": "label",
+          "alignment": "left_middle",
+          "text": "$radio_label_text",
+          "offset": [ 18, -1.5 ]
+        }
+      }
+    ]
+  },
+
+  "radio_with_label_core@common.radio_toggle": {
+    "$unchecked_control": "realms_world_section.radio_visuals_unchecked",
+    "$checked_control": "realms_world_section.radio_visuals_checked",
+    "$unchecked_hover_control": "realms_world_section.radio_visuals_unchecked_hover",
+    "$checked_hover_control": "realms_world_section.radio_visuals_checked_hover",
+    "$radio_toggle_group": true,
+    "size": [ "100%", "100%c" ],
+    "$toggle_name": "$toggle_state_binding_name"
+  },
+
+  "radio_with_label": {
+    "type": "panel",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [ "100%", "17px" ],
+    "offset": [3, 0],
+    "controls": [
+      { "@radio_with_label_core": { } }
+    ]
+  },
+  
+  "game_mode_radio_group": {
+    "type": "stack_panel",
+    "size": [ "100px", "100%c" ],
+    "controls": [
+      {
+        "@radio_with_label": {
+          "$toggle_state_binding_name": "#game_mode_radio_0",
+          "$radio_label_text": "realmsSettingsScreen.survivalRadioButton"
+        }
+      },
+      {
+        "@radio_with_label": {
+          "$toggle_state_binding_name": "#game_mode_radio_1",
+          "$radio_label_text": "realmsSettingsScreen.creativeRadioButton"
+        }
+      }
+    ]
+  },
+
+  "game_mode_chooser@settings_common.option_custom_control": {
+    "$option_label": "realmsSettingsScreen.gameModeOptionLabel",
+    "$control_name": "realms_world_section.game_mode_radio_group"
+  },
+
+  "panel_content": {
+    "type": "stack_panel",
+    "controls": [
+      { "realm_name_edit@realm_name_edit": { } },
+      { "difficulty_slider@difficulty_slider": { } },
+      { "game_mode_chooser@game_mode_chooser": { } },
+      {
+        "reset_label": {
+          "type": "label",
+          "alignment": "left_middle",
+          "text": "realmsSettingsScreen.resetButtonHelperLabel",
+          "size": [ "100%", "20px" ]
+        }
+      },
+      { "reset_world_button@reset_world_button": { } },
+      {
+        "padding": {
+          "type": "panel",
+          "size": [ "100%", 2 ]
+        }
+      }
+    ]
+  }
+}

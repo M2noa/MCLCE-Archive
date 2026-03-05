@@ -1,0 +1,50 @@
+{
+	"lightningstone" : { 
+		"isotropic" : true,
+		"textures" : "glowstone",
+		"sound": "glass"
+	},
+	"directional_desire_block": {
+		"textures": {
+			"up": "mob_spawner",
+			"down": "mob_spawner",
+			"north": "mob_spawner",
+			"south": "directional_desire_block",
+			"west": "mob_spawner",
+			"east": "mob_spawner"
+		},
+		"sound": "metal",
+		"blockshape": "invisible"
+	},
+	"directional_mob_spawner": {
+		"textures": {
+			"up": "mob_spawner",
+			"down": "mob_spawner",
+			"north": "mob_spawner",
+			"south": "directional_mob_spawner",
+			"west": "mob_spawner",
+			"east": "mob_spawner"
+		},
+		"sound": "metal",
+		"blockshape": "invisible"
+	},
+    "crown": {
+    "blockshape": "block_half",
+    "textures": {
+      "up": "pedestal_top",
+      "down": "pedestal_bottom",
+      "side": "pedestal_side"
+    }
+  },
+  "crown_as_helm": {
+    "blockshape" :  "block",
+    "textures": {
+      "up": "crown_top",
+      "down": "crown_top",
+      "east": "crown_side",
+      "west": "crown_side",
+      "north": "crown_front",
+      "south": "crown_front"
+    }
+  }
+}

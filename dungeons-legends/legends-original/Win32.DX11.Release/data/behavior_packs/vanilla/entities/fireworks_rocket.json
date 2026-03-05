@@ -1,0 +1,17 @@
+{
+  "minecraft:entity": {
+    "format_version": "1.2.0",
+
+    "components": {
+      "minecraft:identifier": {
+        "id": "minecraft:fireworks_rocket"
+      },
+      "minecraft:collision_box": {
+        "width": 0.25,
+        "height": 0.25
+      },
+      "minecraft:physics": {
+      }
+    }
+  }
+}

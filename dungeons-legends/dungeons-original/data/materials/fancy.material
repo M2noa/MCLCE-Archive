@@ -1,0 +1,9 @@
+{
+	"clouds":{
+		"states": ["Blending", "DisableAlphaWrite"],
+
+		"vertexShader" : "shaders/cloud.vertex",
+		"fragmentShader" : "shaders/color.fragment"
+	}
+}
+

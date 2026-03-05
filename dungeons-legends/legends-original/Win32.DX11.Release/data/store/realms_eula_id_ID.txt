@@ -1,0 +1,175 @@
+PERJANJIAN LISENSI PENGGUNA AKHIR MINECRAFT REALMS
+Perjanjian Lisensi Pengguna Akhir ("EULA" atau "Ketentuan") ini merupakan perjanjian hukum antara Anda dan kami (Mojang AB). Ketentuan lisensi ini mencantumkan beberapa peraturan untuk menggunakan layanan Minecraft Realms ("Minecraft Realms"). Kami tidak suka membaca dokumen lisensi lebih dari Anda, sehingga kami mencoba membuatnya sesingkat mungkin. Jika Anda melanggar peraturan ini, kami dapat menghentikan Anda dari menggunakan Minecraft Realms. Jika menggunakan Minecraft Realms, Anda setuju untuk menerapkan peraturan Ketentuan ini. Jika Anda tidak ingin atau tidak dapat menyetujui peraturan ini, maka jangan menggunakan Minecraft Realms.
+
+Peraturan ini menggabungkan Kebijakan Privasi, Ketentuan Akun Mojang, Minecraft EULA, dan, jika Anda tinggal di Amerika Serikat, Perjanjian Arbitrasi. Oleh karena itu, hal yang tercakup dalam dokumen ini harus diperlakukan seolah-olah dicantumkan dalam Ketentuan ini. Ketika merujuk Persyaratan tersebut, kami merujuk ke persyaratan dan ketentuan yang Anda lihat di depan Anda, bersama dengan dokumen gabungan yang tersedia dengan mengikuti tautan yang relevan.
+
+PERJANJIAN ARBITRASI YANG MENGIKAT DAN PELEPASAN HAK TINDAKAN KELAS
+Bagi mereka yang tinggal di Amerika Serikat, klik di sini untuk meninjau perjanjian arbitrasi yang mengikat dan pelepasan hak tindakan kelas yang merupakan bagian dari EULA ini. Berdasarkan perjanjian, kita setuju untuk menggunakan arbitrator netral dalam memutuskan perselisihan individu yang mungkin timbul dan setuju untuk melepas hak kita untuk membawa klaim individu dalam pengadilan untuk pertimbangan hakim atau juri. Kita juga setuju bahwa perkara hukum tindakan kelas dan arbitrasi berbagai kelas tidak diizinkan berdasarkan ketentuan perjanjian.
+
+Perjanjian Arbitrase lengkap tersedia di halaman ini. Anda dan kami menyetujuinya, baca perjanjian tersebut.
+
+APA YANG DIMAKSUD DENGAN MINECRAFT REALMS
+Minecraft Realms merupakan layanan yang didesain untuk secara mudah mengizinkan orang memainkan Minecraft bersama orang lain pada server disediakan yang tunduk pada Ketentuan ini.
+
+Maka dari itu, "Minecraft Realm" merupakan satu dunia, server, atau instans Minecraft yang di-host oleh kami.
+
+Anda dapat menggunakan Minecraft Realms dengan memiliki Minecraft Realm sendiri ("Minecraft Realm Anda") atau dengan diberikan izin untuk menggunakan Minecraft Realm orang lain ("Minecraft Realm Lain"). Referensi untuk menggunakan Minecraft Realms mencakup penggunaan Minecraft Realm Anda dan Minecraft Realm Lain.
+
+MENGGUNAKAN MINECRAFT REALMS
+Untuk menggunakan Minecraft Realms, Anda, antara lain, harus:
+- memiliki salinan versi Permainan lengkap berlisensi sah dan aktif serta akun Xbox Live (untuk Minecraft) atau akun Mojang (untuk Minecraft: Java Edition);
+- menyetujui Ketentuan ini; dan
+- menggunakan perangkat yang cocok serta koneksi internet;
+
+MENDAPATKAN MINECRAFT REALM ANDA
+Anda memerlukan akun Xbox Live (untuk Minecraft) atau akun Mojang (untuk Minecraft: Java Edition) dengan Minecraft yang diaktifkan agar bisa mendapatkan Minecraft Realm Anda. Anda juga perlu membeli atau berlangganan dan membayarnya. Minecraft Realms merupakan layanan berlangganan dan biayanya seperti yang dirinci pada halaman pembelian yang berlaku dan/atau platform ketika pembelian, atau harga pembelian kartu atau kode hadiah yang dapat ditukarkan. Ketentuan dan persyaratan halaman pembelian yang berlaku, platform, kartu, dan/atau kode hadiah yang dapat ditukarkan juga akan berlaku dalam pembelian Minecraft Realms. Minecraft Realms merupakan layanan yang memulai segera setelah Minecraft Realm Anda tersedia untuk digunakan, setelahnya Anda tidak berhak membatalkan pesanan. MENGGUNAKAN MINECRAFT REALM ANDA
+
+Ketika mendapatkan Minecraft Realm Anda, Anda akan mendapatkan akses ke Minecraft Realm yang disediakan, tempat Anda dapat;
+
+memainkan Minecraft sendiri;
+mengundang beberapa orang bermain Minecraft dengan Anda (jumlah tergantung versi Realms yang Anda dapatkan).
+Namun Anda tidak dapat melakukan hal berikut:
+
+menjual, menyewa-gunakan, menyewakan, mentransfer, memberikan, atau persetujuan lainnya dalam mengakses Minecraft Realm Anda atau menerima pertimbangan untuk mengizinkan orang lain memainkan Minecraft Realm Anda.
+
+MENGGUNAKAN MINECRAFT REALMS LAIN
+Anda memerlukan salinan Minecraft aktif yang sah agar dapat menggunakan Minecraft Realms orang lain (Minecraft Realms Lain) Ketika Anda diberikan akses ke Minecraft Realm Lain, Anda akan mendapatkan akses ke Minecraft Realm yang disediakan untuk orang lain, tempat Anda dapat;
+
+- memainkan Minecraft dengan orang tersebut; dan
+- memainkan Minecraft dengan siapa saja yang diberi akses oleh orang tersebut.
+Namun Anda tidak dapat melakukan hal berikut:
+
+- menjual, menyewakan, mengontrakkan, mentransfer, memberikan, atau persetujuan lain dalam mengakses Minecraft Realms Lain atau membiarkan orang lain menggunakan akses Anda.
+JANGAN MEMBERIKAN AKSES MINECRAFT REALM KE SIAPA PUN YANG TIDAK ANDA KENAL. WASPADA KETIKA ANDA BERKOMUNIKASI DENGAN ORANG MELALUI MINECRAFT REALMS. SANGAT SULIT BAGI ANDA ATAU KAMI UNTUK MENGETAHUI SECARA PASTI APAKAH PERKATAAN ORANG TERSEBUT BENAR, ATAU BAHKAN ORANG TERSEBUT BENAR-BENAR SEPERTI YANG DIKATAKAN. ANDA HARUS SELALU BERPIKIR DUA KALI KETIKA MEMBERIKAN INFORMASI PRIBADI.
+
+AKUN
+Seperti yang dikemukakan di atas, Anda memerlukan akun Xbox Live (untuk Minecraft) atau akun Mojang (untuk Minecraft: Java Edition) dan versi Minecraft berlisensi yang aktif. Jika Anda tidak memiliki akun tersebut, maka Anda akan diminta memberikan informasi tertentu untuk menyiapkan dan mengaktifkan salah satu atau keduanya. Detail yang Anda berikan kepada kami sebagai bagian pendaftaran harus benar. Anda dapat mengubah detail pendaftaran jika sudah tidak berlaku lagi. Jika Anda dengan sengaja memberi tahu kami sesuatu yang Anda tahu tidak benar, kami dapat mengakhiri atau menangguhkan akun Anda.
+
+Anda bertanggung jawab atas nama pengguna dan sandi yang Anda buat dan aktivitas yang terjadi di akun Anda. Jika seseorang menggunakan sandi Anda untuk melakukan sesuatu yang tidak Anda sukai atau yang membahayakan Anda, kami tidak dapat dan tidak bertanggung jawab.
+
+KEPEMILIKAN MINECRAFT REALMS DAN HAL LAINNYA
+Minecraft Realms dibuat dari perangkat lunak, tekstur, aset, alat, infrastruktur, dan seluruh beban barang pintar (dan tidak terlalu pintar) lain yang kami miliki. Seluruh hak kami dalam barang tersebut ditegaskan dan dilindungi undang-undang namun Anda dapat menggunakannya dalam dan sehubungan dengan penggunaan Anda atas Minecraft Realms pada basis yang sama sebagaimana yang dinyatakan dalam Minecraft EULA dan Anda diberikan hak non-eksklusif untuk melakukannya dengan tunduk pada Ketentuan ini.
+
+Hal tersebut tidak berarti kami memiliki barang mengagumkan yang Anda buat menggunakan Minecraft Realms - Anda hanya harus menyetujui bahwa kami memiliki setiap Minecraft dan Minecraft Realms sebagai produk dan layanan serta hal tersebut yang disebutkan dalam kalimat sebelumnya - dan kami juga memiliki hak cipta dan lainnya yang disebut hak kekayaan intelektual ("HAKI") yang terkait dengan hal tersebut serta nama dan merek yang terkait dengan Minecraft dan Minecraft Realms.
+
+Anda tentu saja akan membuat barang mengagumkan di dan menggunakan Minecraft Realms. Kami tidak memiliki item asli yang Anda buat dan kami tidak mengklaim kepemilikan apa pun yang bukan hak kami. Namun, kami adalah pemilik hal yang merupakan salinan (atau salinan substansial) atau karya turunan properti dan kreasi kami (yang diuraikan di atas) - namun jika Anda yang pertama kali membuatnya, hal tersebut bukan milik kami. Jadi, sebagai contoh:
+
+- single block - kami memilikinya;
+- Gothic Cathedral dengan rollercoaster yang berjalan melaluinya - kami tidak memilikinya.
+Oleh karena itu, ketika Anda membayar penggunaan Minecraft Realms, Anda hanya membeli izin untuk menggunakan produk dan layanan Minecraft Realms sesuai dengan Ketentuan tersebut. Satu-satunya izin yang Anda miliki sehubungan dengan Minecraft Realms adalah izin yang dinyatakan dalam Ketentuan ini - dan pengecualian atau hak menurut undang-undang tertentu (termasuk yang disebut penggunaan adil atau hak kesepakatan adil) yang Anda dinyatakan berhak berdasarkan hukum namun secara umum berlaku terhadap Konten dan bukan Minecraft Realms itu sendiri.
+
+Beberapa versi Realms mungkin juga mengizinkan Anda untuk mencadangkan data dari Minecraft Realm Anda dan dengan melakukannya Anda mungkin dapat mengunduhnya ke perangkat dan menggunakannya dengan versi (sah) Minecraft milik Anda (dan tunduk pada Minecraft EULA).
+
+KONTEN ANDA
+Jika Anda membuat sesuatu menggunakan Minecraft Realms atau membuat konten atau materi apa pun yang tersedia di atau melaluinya ("Konten Anda"), Anda juga setuju untuk memberi izin kepada kami dan orang lain yang memiliki akses untuk menggunakannya. Hal itu juga berarti kami dapat menggunakan, menyalin, mengubah, menyesuaikan, mendistribusikan, menampilkan secara publik, atau membuat Konten Anda tersedia untuk orang lain (tanpa pembayaran atau pembatasan). Hal itu termasuk apa pun yang Anda bangun, kerjakan, atau buat dan komunikasi apa pun yang Anda buat seperti melalui fungsionalitas obrolan apa pun yang kami miliki atau kami sediakan. Anda juga setuju mengizinkan kami untuk menggunakan, menyalin, mengubah, menyesuaikan, mendistribusikan, dan membuat Konten Anda tersedia serta Anda setuju bahwa Anda mungkin tidak mendapatkan kredit atau atribusi untuk ini.
+
+Hal ini penting untuk sejumlah alasan, termasuk bahwa kami perlu memastikan bahwa ketika orang lain (yang mungkin Anda undang) mengakses Minecraft Realm Anda, mereka memiliki hak untuk melakukannya dan ketika Anda mengakses Minecraft Realms Lain, Anda memiliki hak untuk melakukannya. Kami juga perlu memastikan bahwa kami tidak bertanggung jawab atas tindakan orang lain terhadap Konten Anda ketika Anda mengizinkan mereka untuk menggunakannya - karena kami tidak dapat mengontrolnya - dan kami juga perlu merefleksikan fakta bahwa Konten Anda secara umum akan berisi perangkat lunak, tekstur, aset, alat, dsb yang kami miliki (lihat di atas).
+
+Izin tersebut berlaku selamanya dan tidak dapat dicabut. Jika Anda tidak ingin memberikan izin tersebut, jangan membuat konten tersedia menggunakan Minecraft Realms.
+
+Oleh karena itu, pikirkan dengan hati-hati sebelum Anda membuat konten apa pun tersedia, karena akan disediakan ke publik (termasuk ke siapa pun yang memiliki akses ke Minecraft Realms yang Anda akses) dan bahkan mungkin digunakan orang lain dengan cara yang tidak Anda sukai.
+
+Jika Anda akan membuat Konten Anda tersedia menggunakan Minecraft Realms, seperti di atau melalui Minecraft Realm Anda atau Minecraft Realms Lain, maka harus:
+
+- tidak menghina orang;
+- tidak ilegal atau melanggar hukum;
+- jujur dan tidak menyesatkan, menipu, atau memanfaatkan orang lain maupun menyamar sebagai orang lain;
+- tidak melanggar hak cipta atau hak lain seseorang;
+- tidak rasis, seksis, atau homofobia;
+- tidak mengintimidasi atau kasar;
+- tidak merusak reputasi kami atau orang lain;
+- tidak berisi pornografi;
+- tidak berisi iklan.
+
+Anda tidak harus membuat konten apa pun tersedia menggunakan Minecraft Realms yang melanggar hak orang lain.
+
+Anda bertanggung jawab atas semua konten yang dibuat tersedia oleh Anda menggunakan Minecraft Realms.
+
+Anda juga bertanggung jawab atas semua konten yang dibuat tersedia oleh Anda atau orang lain menggunakan Minecraft Realm Anda.
+
+Dengan membuat Konten Anda tersedia, Anda menjamin dan memberi tahu kami bawa Anda sepenuhnya berhak melakukan tindakan demikian berdasarkan Ketentuan ini dan bahwa kami berhak untuk menjalankan hak yang Anda berikan kepada kami berdasarkan Ketentuan ini.
+
+Jika Anda ingin memberi tahu kami bahwa seseorang melanggar hak kekayaan intelektual di Minecraft Realms atau salah satu layanan kami, kirimkan pemberitahuan di sini (https://www.microsoft.com/info/cpyrtInfrg.aspx). Kami berhak mengambil konten apa pun sesuai kebijaksanaan kami. Jika berlaku, kami dapat menghentikan atau menangguhkan akun pengguna yang mengulangi pelanggaran.
+
+KONTEN LAIN
+Ketika menggunakan Minecraft Realms, Anda mungkin juga dapat mengakses dan menggunakan konten yang dibuat orang lain ("Konten Lain"). Beberapa Konten Lain ini dibuat tersedia oleh orang yang Anda undang ke Minecraft Realm Anda dan beberapa mungkin dibuat tersedia sebagai bagian Minecraft Realm orang lain.
+
+Seperti dengan Konten Anda, Konten Lain secara umum juga akan berisi perangkat lunak, tekstur, aset, alat dsb yang kami miliki (lihat di atas).
+
+Jika seseorang membuat tersedia atau memberi Anda akses ke Konten Lain, maka Anda dapat menggunakannya dalam dan sehubungan dengan penggunaan Anda atas Minecraft Realms, yang tunduk pada Ketentuan ini. Bagaimana pun juga, Konten Lain tunduk pada Ketentuan ini.
+
+KONTEN PENGGUNA
+Berikut ini menyatakan beberapa persyaratan tentang Konten Anda dan Konten Lain - yang bersama-sama disebut sebagai "Konten Pengguna".
+
+Minecraft Realms merupakan layanan hiburan dan tambahan yang kami dilibatkan dalam transmisi, distribusi, penyimpanan, dan pemulihan Konten Pengguna tanpa pengulasan, pemilihan, atau perubahan konten - untuk yang hanya saluran - dan/atau hosting Konten Pengguna tanpa wawasan konten. Artinya adalah bahwa kami tidak memantau atau meninjau Konten Pengguna dan sehingga kami tidak mengetahui hal yang disirkulasi oleh Anda atau orang lain. Kami mungkin memeriksanya untuk kepatuhan teknis, kompatibilitas, dan/atau virus dsb namun kami tidak meninjau konten atau informasi yang terkandung di dalamnya. Kami memiliki peraturan ini dalam Ketentuan yang harus Anda dan orang lain patuhi namun kami tidak mengetahui apa pun yang berlangsung.
+
+Jadi perhatikan bahwa:
+
+- tampilan yang dinyatakan dalam Konten Pengguna apa pun merupakan tampilan penulis atau kreator individual dan bukan kami atau siapa pun yang terhubung dengan kami kecuali jika kami menyatakan sebaliknya;
+- kami tidak bertanggung jawab atas (dan, tunduk pada hukum yang berlaku, tidak membuat jaminan atau pernyataan yang terkait dengan dan menyangkal semua kewajiban untuk) semua Konten Pengguna termasuk komentar, tampilan, atau ucapan apa pun yang dinyatakan di dalamnya;
+- dengan menggunakan Minecraft Realms, Anda mengakui bahwa kami tidak bertanggung jawab untuk memantau atau meninjau konten dari Konten Pengguna apa pun dan bahwa semua Konten Pengguna dibuat tersedia pada dasar yang kami tidak perlu untuk dan tidak menjalankan kontrol atau keputusan lebih dari itu;
+- ketika Anda berkomunikasi dengan pemain lain, jangan meminta orang yang belum Anda temui di kehidupan nyata untuk bertemu dengan Anda di kehidupan nyata.
+NAMUN kami dapat menghapus, menolak, atau menangguhkan akses ke Konten Pengguna apa pun dan menghapus atau menangguhkan kemampuan Anda untuk mengepos, membuat tersedia, atau mengakses Konten Pengguna - termasuk menghapus atau menangguhkan akses ke Minecraft Realm Anda atau Minecraft Realms Lain jika kami mempertimbangkan bahwa layak untuk dilakukan, seperti karena Anda melanggar Ketentuan ini atau kami menerima pengaduan yang kami yakini menjamin tindakan tersebut. Kami juga akan bertindak secepatnya untuk menghapus atau menonaktifkan akses ke Konten Pengguna jika dan bila kami benar-benar yakin bahwa hal tersebut melanggar hukum.
+
+PEMBARUAN
+Kami dapat membuat peningkatan, pembaruan, atau patch (kami menyebut semuanya "pembaruan") yang tersedia dari waktu ke waktu, yang telah kami selesaikan sejauh ini, namun kami tidak memerlukannya.
+
+Kami juga tidak diwajibkan untuk menyediakan dukungan atau pemeliharaan terus-menerus untuk Minecraft Realms. Sebagai informasi untuk Anda.
+
+Tentu saja, kami berharap untuk terus merilis pembaruan baru Minecraft Realms, kami hanya tidak dapat menjamin bahwa kami akan melakukannya.
+
+PEMBAYARAN, PENGEMBALIAN DANA, DLL
+Ketentuan Akun Mojang mencakup pembayaran dan pengembalian dana, namun Minecraft Realms merupakan layanan yang memulai segera setelah Minecraft Realm Anda dibuat tersedia kepada Anda dan/atau Anda memiliki akses ke layanan tersebut. Oleh karena itu, Anda tidak dapat membatalkan pesanan atau pembelian apa pun setelahnya. Hal tersebut tidak memengaruhi hak pengguna yang Anda miliki dan jika Anda tidak dapat menggunakan Minecraft Realms karena kegagalan atau kesalahan, beri tahu kami dan kami akan mencoba serta memperbaikinya untuk Anda - dan jika kami tidak dapat memperbaikinya, Anda mungkin berhak mendapatkan pengembalian dana.
+
+KEWAJIBAN, PERATURAN PEMERINTAH, DAN TEMPAT UNTUK MENYELESAIKAN PERSELISIHAN
+
+EULA ini tidak memengaruhi hak hukum (menurut undang-undang) apa pun yang mungkin Anda miliki berdasarkan hukum yang berlaku kepada Anda untuk Minecraft Realms atau apa pun yang Anda beli melalui situs web. Anda mungkin memiliki hak tertentu yang hukum yang berlaku kepada Anda mengatakan tidak dapat dikecualikan. Tidak satu pun pernyataan kami dalam EULA ini akan memengaruhi hak hukum tersebut, meskipun kami menyatakan sesuatu yang terdengar bertentangan dengan hak hukum Anda. Itu yang kami maksud ketika kami mengatakan "tunduk pada hukum yang berlaku".
+
+DENGAN TUNDUK PADA HUKUM YANG BERLAKU, KAMI TIDAK BERTANGGUNG JAWAB ATAS:
+
+- PENGGUNAAN ATAU KESALAHAN PENGGUNAAN MINECRAFT REALM ANDA ATAU MINECRAFT REALMS LAIN;
+- PENGGUNAAN ATAU KESALAHAN PENGGUNAAN MINECRAFT REALMS OLEH ANDA ATAU ORANG LAIN;
+- KONTEN APA PUN YANG DIBUAT TERSEDIA OLEH ANDA MENGGUNAKAN MINECRAFT REALMS;
+- PELANGGARAN KETENTUAN INI OLEH ANDA;
+- PELANGGARAN KETENTUAN INI OLEH ORANG LAIN.
+- ANDA BERTANGGUNG JAWAB ATAS:
+- SALAH SATU DAN SELURUH PENGGUNAAN MINECRAFT REALMS OLEH ANDA;
+- SALAH SATU DAN SEMUA PENGGUNAAN MINECRAFT REALMS ANDA SERTA SALAH SATU DAN SEMUA PENGGUNAAN MINECRAFT LAIN OLEH ANDA;
+- PELANGGARAN KETENTUAN INI OLEH ANDA;
+- SEMUA KONTEN YANG DIBUAT TERSEDIA OLEH ANDA MENGGUNAKAN MINECRAFT REALMS;
+- SEMUA KONTEN YANG DIBUAT TERSEDIA OLEH ANDA ATAU ORANG LAIN MENGGUNAKAN MINECRAFT REALM.
+
+DENGAN TUNDUK PADA HUKUM YANG BERLAKU, Minecraft Realms disediakan 'sebagaimana adanya'. Pembaruan juga disediakan 'sebagaimana adanya'. Artinya bahwa kami tidak membuat janji apa pun kepada Anda terkait standar atau kualitas Minecraft Realms atau bahwa Minecraft Realms akan bebas dari gangguan atau kesalahan, SEJAUH YANG DIIZINKAN OLEH HUKUM YANG BERLAKU, kami tidak bertanggung jawab atas kehilangan atau kerusakan apa pun yang disebabkan. Anda harus menyetujui bahwa kami meluncurkan Minecraft Realms dalam versi beta serta kami memperkenalkan dan meningkatkan fitur secara terus-menerus, jadi mungkin (dan biasanya akan) memiliki bug - namun kami lebih memilih untuk merilis fitur ini sebelumnya dibanding membuat Anda menunggu untuk penyempurnaan.
+
+Jika Anda dan kami berselisih di pengadilan (dan sama seperti Anda, kami juga berharap hal ini tidak akan terjadi), forum eksklusif (yakni, lokasi penanganannya) yaitu pengadilan negara bagian atau federal di King County, WA (jika Anda tinggal di Amerika Serikat) atau pengadilan di Ontario (jika Anda tinggal di Kanada). (Jika Anda tinggal di Amerika Serikat, sebagian besar perselisihan akan diselesaikan dalam arbitrase, bukan pengadilan.) Undang-undang negara bagian atau provinsi mengatur EULA dan seluruh perselisihan, termasuk perselisihan terkait hal ini, Permainan, atau Situs Web kami, terlepas dari prinsip undang-undang yang Tindakan Arbitrasi Federal mengatur segala sesuatu terkait dengan arbitrasi.
+
+MINECRAFT REALMS MERUPAKAN KARYA YANG MASIH DIKEMBANGKAN DAN MUNGKIN BERISI KERUSAKAN DAN KESALAHAN, CRASH, DAN/ATAU MENGAKIBATKAN KEHILANGAN DATA. KAMI SANGAT MENYESAL JIKA HAL TERSEBUT TERJADI, JADI CADANGKAN SERTA LINDUNGI SEMUA DATA DAN PROGRAM DI PERANGKAT ANDA. DALAM ISTILAH SEDERHANA, ANDA MENANGGUNG SENDIRI RISIKO PENGGUNAAN MINECRAFT REALMS, DENGAN MENGETAHUI BAHWA LAYANAN DISEDIAKAN 'SEBAGAIMANA ADANYA'.
+
+PASTIKAN BAHWA ANDA MENCADANGKAN DATA DARI MINECRAFT REALM ANDA SECARA BERKALA. KAMI TIDAK SECARA OTOMATIS MELAKUKANNYA, JADI JIKA MINECRAFT REALM ATAU KONTEN PENGGUNA APA PUN MENGALAMI CRASH, DATA ANDA AKAN HILANG. JIKA HAL TERSEBUT TERJADI, KAMI MINTA MAAF NAMUN HANYA ITU YANG ANDA DAPATKAN. PELAPORAN
+
+Terkadang orang melakukan sesuatu yang tidak seharusnya. Kami tidak menyukai tindakan tersebut namun ada beberapa hal yang dapat kami lakukan untuk menghentikannya selain meminta siapa pun bertindak dengan benar. Kami mengandalkan Anda dan orang lain seperti Anda di komunitas untuk memberi tahu kami jika seseorang bertindak salah dan jika itu terjadi dan/atau Anda menganggap seseorang melanggar Ketentuan ini atau menggunakan Minecraft Realms dengan tidak benar, beri tahu kami. Kami memiliki sistem penanda/pelaporan untuk melakukannya, jadi gunakan sistem tersebut dan kami akan melakukan tindakan yang diperlukan untuk menyelesaikannya.
+
+PENGHENTIAN
+Jika Anda melanggar persyaratan ini atau sebagian dari persyaratan, kami dapat mengakhiri perjanjian lisensi dan penggunaan Anda atas Minecraft Realms. Anda juga dapat mengakhirinya, kapan pun - cukup berhenti menggunakan Minecraft Realm Anda dan berhenti memberi akses ke orang lain. Setelah pengakhiran, Anda tidak dapat lagi menggunakan Minecraft Realms atau memberi orang lain akses ke Minecraft Realm Anda. Namun Perjanjian Arbitrasi (jika Anda tinggal di Amerika Serikat) dan bagian tentang "Kepemilikan Minecraft Realms", "Kewajiban Kami", dan "Umum" akan terus berlaku bahkan setelah pengakhiran.
+
+UMUM
+EULA ini menjelaskan hak hukum tertentu. Undang-undang negara bagian atau negara mungkin memberi Anda hak lain, termasuk hak konsumen yang tidak dapat diubah oleh EULA; jika demikian, EULA ini berlaku sejauh diizinkan oleh hukum. Tidak ada pengecualian atau pembatasan kewajiban kami atas kematian atau cedera tubuh akibat dari kelalaian atau kekeliruan yang menipu.
+
+Kami juga dapat mengubah Ketentuan ini dari waktu ke waktu jika kami memiliki alasan untuk melakukannya. Misalnya, mungkin ada perubahan terhadap permainan, praktik, atau obligasi hukum, dan perubahan tersebut akan berlaku untuk penggunaan Anda atas Minecraft Realms ketika Anda menggunakannya nanti. Kami akan memberi tahu Anda terkait perubahan sebelum diterapkan, baik dengan mengepos pemberitahuan di Situs Web maupun dengan beberapa cara yang wajar. Kami akan berlaku adil - namun terkadang perubahan hukum atau seseorang melakukan sesuatu yang memengaruhi pengguna Minecraft Realms lain dan oleh karena itu, kita perlu mengatasinya.
+
+Jika Anda memberikan saran untuk Minecraft Realms yang sarannya dibuat gratis dan kami tidak wajib untuk menerima atau mempertimbangkannya. Artinya kami dapat menggunakan atau tidak menggunakan saran Anda dengan cara yang kami inginkan dan kami tidak harus membayar Anda untuk saran tersebut. Jika Anda merasa Anda memiliki saran yang Anda ingin kami membayarnya, jangan beri tahu saran Anda kepada kami kecuali Anda memberi tahu kami terlebih dulu jika Anda ingin dibayar dan kami menanggapinya secara tertulis dengan meminta Anda untuk mengirimkan saran.
+
+Jika ada hukum yang ingin Anda ketahui yang tidak dijawab dalam Ketentuan ini, jangan melakukannya, atau tanyakan kepada kami. Pada dasarnya, jangan bertindak bodoh dan kami tidak akan mempermasalahkannya.
+
+Informasi Perusahaan
+
+Mojang AB
+Maria Skolgata 83,
+
+SE-11853
+
+Stockholm
+Swedia
+Nomor organisasi:556819-2388
+
+Hubungi kami di sini atau di support@mojang.com

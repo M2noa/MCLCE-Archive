@@ -1,0 +1,17 @@
+[
+	{
+		"id": "default",
+		"loop": "/path/to/vindbrus.sfx",
+		"effects": []
+	},
+	{
+		"id": "cave",
+		"loop": "/path/to/loopsound.sfx",
+		"effects": [
+			"/path/to/effect1.sfx",
+			"/path/to/effect2.sfx",
+			"/path/to/effect3.sfx",
+			"/path/to/effect4.sfx"
+		]
+	}
+]

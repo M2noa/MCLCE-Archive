@@ -1,0 +1,174 @@
+{
+  "namespace": "disconnect",
+
+  "disconnect_screen_text": {
+    "type": "label",
+    "anchor_to": "center",
+    "anchor_from": "center",
+    "layer": 2,
+    "alignment": "center",
+    "shadow": false
+  },
+
+  "disconnect_text@disconnect.disconnect_screen_text": {
+    "offset": [ 0, -25 ],
+    "text": "#disconnect_text",
+    "wrap": true,
+    "bindings": [
+      { "binding_name": "#disconnect_text" }
+    ]
+  },
+
+  "disconnect_title_text@disconnect.disconnect_screen_text": {
+    "offset": [ 0, -10 ],
+    "text": "#title_text",
+    "wrap":  true,
+    "bindings": [
+      {
+        "binding_name": "#title_text",
+        "binding_condition": "visible"
+      }
+    ]
+  },
+
+  "title_panel": {
+    "type": "panel",
+    "size": [ "100%", "100%" ],
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      {
+        "@disconnect.disconnect_title_text": { }
+      },
+      {
+        "@disconnect.disconnect_text": { }
+      }
+    ]
+  },
+
+  "ok_button_text@disconnect.disconnect_screen_text": {
+    "type": "label",
+    "layer": 4,
+    "alignment": "center",
+    "text": "gui.ok",
+    "shadow": false
+  },
+
+  "ok_button@common.button": {
+    "$pressed_button_name": "button.menu_exit",
+    "size": [ 128, 26 ],
+    "offset": [ 0, 21 ],
+    "controls": [
+      {
+        "default@$button_state_default_base": {
+          "controls": [
+            {
+              "@disconnect.ok_button_text": {
+                "color": [ 1.0, 1.0, 1.0, 1.0 ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "hover@$button_state_hover_base": {
+          "controls": [
+            {
+              "@disconnect.ok_button_text": {
+                "color": [ 1.0, 1.0, 0.0, 1.0 ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "pressed@$button_state_pressed_base": {
+          "controls": [
+            {
+              "@disconnect.ok_button_text": {
+                "color": [ 1.0, 1.0, 0.0, 1.0 ],
+                "alpha": 0.65
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "button_panel": {
+    "type": "panel",
+    "size": [ "100%", "100%" ],
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      {
+        "@disconnect.ok_button": { }
+      }
+    ]
+  },
+
+  "gamepad_helpers": {
+    "type": "panel",
+    "size": [ 100, 10 ],
+    "offset": [ 0, "45%" ],
+    "controls": [
+      {
+        "@common.gamepad_helper_a": {
+          "size": [ "50%", "100%" ],
+          "offset": [ 0, "2%" ],
+          "anchor_from": "center",
+          "anchor_to": "center"
+        }
+      }
+    ]
+  },
+
+  "disconnect_screen@common.base_screen": {
+    "button_mappings": [
+      {
+        "from_button_id": "button.menu_cancel",
+        "to_button_id": "button.menu_exit",
+        "mapping_type": "global"
+      }
+    ],
+    "$screen_content": "disconnect.disconnect_screen_content"
+  },
+
+  "disconnect_screen_content": {
+    "type": "panel",
+    "variables": [
+      {
+        "requires": "$desktop_screen",
+        "$button_state_default_base": "common.button_state_default",
+        "$button_state_hover_base": "common.button_state_hover",
+        "$button_state_pressed_base": "common.button_state_pressed",
+        "$render_dirt_bg": true
+      },
+      {
+        "requires": "$pocket_screen",
+        "$button_state_default_base": "common-classic.button_state_default",
+        "$button_state_hover_base": "common-classic.button_state_hover",
+        "$button_state_pressed_base": "common-classic.button_state_pressed",
+        "$render_dirt_bg": true
+      }
+    ],
+    "controls": [
+      {
+        "@common.dirt_background": {
+          "visible": "$render_dirt_bg"
+        }
+      },
+      {
+        "@disconnect.title_panel": { }
+      },
+      {
+        "@disconnect.gamepad_helpers": { }
+      },
+      {
+        "@disconnect.button_panel": { }
+      }
+    ]
+  }
+
+}

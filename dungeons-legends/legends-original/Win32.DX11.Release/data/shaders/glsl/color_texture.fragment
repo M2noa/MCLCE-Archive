@@ -1,0 +1,88 @@
+// __multiversion__
+// This signals the loading code to prepend either #version 100 or #version 300 es as apropriate.
+
+#include "shaders/fragmentVersionCentroidUV.h"
+
+uniform sampler2D TEXTURE_0;
+uniform sampler2D TEXTURE_1;
+
+#include "shaders/uniformEntityConstants.h"
+#include "shaders/uniformShaderConstants.h"
+
+#ifdef EFFECTS_OFFSET
+#include "shaders/uniformEffectsConstants.h"
+#endif
+
+varying vec4 color;
+
+#ifdef ENABLE_FOG
+varying vec4 fogColor;
+#endif
+
+#ifdef GLINT
+	varying vec2 layer1UV;
+	varying vec2 layer2UV;
+
+	vec4 glintBlend(vec4 dest, vec4 source) {
+		return vec4(source.rgb * source.rgb, 0.0) + dest;
+	}
+#endif
+
+void main()
+{
+#ifdef EFFECTS_OFFSET
+	vec4 diffuse = texture2D( TEXTURE_0,  uv + EFFECT_UV_OFFSET);
+#else
+	vec4 diffuse = texture2D( TEXTURE_0,  uv );
+#endif
+
+#ifdef ALPHA_TEST
+#ifdef ENABLE_VERTEX_TINT_MASK
+	if(diffuse.a <= 0.0)
+#else
+	if(diffuse.a < 0.5)
+#endif
+	 	discard;
+#endif
+
+#ifdef ENABLE_VERTEX_TINT_MASK
+	diffuse.rgb = mix(diffuse.rgb, diffuse.rgb*color.rgb, diffuse.a);
+	if (color.a > 0.0) {
+		diffuse.a = (diffuse.a > 0.0) ? 1.0 : 0.0; // This line is needed for horse armour icon and dyed leather to work properly
+	}
+#endif
+
+#ifdef GLINT
+	vec4 layer1 = texture2D(TEXTURE_1, fract(layer1UV)).rgbr * GLINT_COLOR;
+	vec4 layer2 = texture2D(TEXTURE_1, fract(layer2UV)).rgbr * GLINT_COLOR;
+	vec4 glint = (layer1 + layer2);
+
+	#ifdef INVENTORY
+		diffuse.rgb = glint.rgb;
+	#else
+		diffuse.rgb = glintBlend(diffuse, glint).rgb;
+	#endif
+#endif
+
+#ifdef USE_OVERLAY
+	//use either the diffuse or the OVERLAY_COLOR
+	diffuse.rgb = mix(diffuse, OVERLAY_COLOR, OVERLAY_COLOR.a).rgb;
+#endif
+
+#ifdef ENABLE_FOG
+	//apply fog
+	diffuse.rgb = mix( diffuse.rgb, fogColor.rgb, fogColor.a );
+#endif
+
+#ifdef ENABLE_VERTEX_TINT_MASK
+
+#ifdef ENABLE_CURRENT_ALPHA_MULTIPLY
+	gl_FragColor = diffuse * vec4(1.0,1.0,1.0,HUD_OPACITY);
+#else
+	gl_FragColor = diffuse;
+#endif
+
+#else
+	gl_FragColor = diffuse * color;
+#endif
+}

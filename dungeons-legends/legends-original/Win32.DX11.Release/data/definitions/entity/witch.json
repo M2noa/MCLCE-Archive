@@ -1,0 +1,13 @@
+{
+  "definition.witch": {
+    "textures": {
+      "default": "textures/entity/witch"
+    },
+    "team_masks": {
+      "default": "textures/entity/team_mask/witch"
+    },
+    "geometry": {
+      "default": "geometry.villager.witch"
+    }
+  }
+}

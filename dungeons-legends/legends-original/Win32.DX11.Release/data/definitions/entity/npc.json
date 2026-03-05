@@ -1,0 +1,7 @@
+{
+  "definition.npc": {
+    "geometry": {
+      "default": "geometry.npc"
+    }
+  }
+}

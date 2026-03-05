@@ -1,0 +1,11 @@
+{
+  "definition.ghast": {
+    "textures": {
+      "default": "textures/entity/ghast/ghast",
+      "shooting": "textures/entity/ghast/ghast_shooting"
+    },
+    "geometry": {
+      "default": "geometry.ghast"
+    }
+  }
+}

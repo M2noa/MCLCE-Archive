@@ -1,0 +1,7 @@
+Minecraft offre ora la possibilità di acquistare Minecraft Realms. Realms è un servizio di abbonamento mensile che consente di creare mondi Minecraft online.
+Attualmente è possibile scegliere tra due opzioni di abbonamento, in base alle persone che si intende invitare a giocare contemporaneamente nel Realm. Il costo di un Realm per l'utente e 2 amici è di 3,99 USD/mese (o importo equivalente in valuta locale). Il costo di un Realm per l'utente e 10 amici è di 7,99 USD/mese (o importo equivalente in valuta locale).
+È disponibile una versione di valutazione di 30 giorni di Minecraft Realms per l'utente e 10 amici. L'eventuale parte non utilizzata del periodo di valutazione verrà persa al momento dell'acquisto di un abbonamento da parte dell'utente.
+
+Il pagamento verrà addebitato sull'account iTunes dell'utente alla conferma dell'acquisto e l'abbonamento viene rinnovato automaticamente, purché non venga disattivato almeno 24 ore prima della fine del periodo corrente. L'addebito per il rinnovo verrà effettuato sull'account entro le 24 ore precedenti alla fine del periodo corrente, in base al prezzo dell'opzione di abbonamento scelta in precedenza.
+
+L'abbonamento può essere gestito dall'utente e il rinnovo automatico può essere disattivato tramite l'accesso alle Impostazioni Account dell'utente, dopo l'acquisto. È anche disponibile un pulsante nel gioco che consente di accedere a tali impostazioni. Se l'utente disattiva l'abbonamento in seguito all'attivazione, non è previsto alcun rimborso per il periodo residuo dell'abbonamento.

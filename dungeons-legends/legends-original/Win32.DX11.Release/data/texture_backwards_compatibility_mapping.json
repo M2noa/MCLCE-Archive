@@ -1,0 +1,6362 @@
+{
+  "textures/ui/absorption_effect": {
+    "uv_size": [
+      18,
+      18
+    ],
+    "uv": [
+      36,
+      220
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/absorption_heart": {
+    "uv_size": [
+      9,
+      9
+    ],
+    "uv": [
+      160,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/icons"
+  },
+  "textures/ui/absorption_heart_half": {
+    "uv_size": [
+      9,
+      9
+    ],
+    "uv": [
+      169,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/icons"
+  },
+  "textures/ui/achievements_dialog": {
+    "uv_size": [
+      14,
+      28
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      14,
+      28
+    ],
+    "back_compat_texture": "textures/gui/achievements/fillalpha"
+  },
+  "textures/ui/achievement_locked_icon": {
+    "uv_size": [
+      7,
+      7
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      8,
+      8
+    ],
+    "back_compat_texture": "textures/gui/achievements/lock"
+  },
+  "textures/ui/addServer": {
+    "uv_size": [
+      17,
+      13
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      17,
+      13
+    ],
+    "back_compat_texture": "textures/gui/newgui/addServer"
+  },
+  "textures/ui/androidshare": {
+    "uv_size": [
+      16,
+      15
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      15
+    ],
+    "back_compat_texture": "textures/gui/newgui/storage/androidshare"
+  },
+  "textures/ui/anvil-plus": {
+    "uv_size": [
+      13,
+      13
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      13,
+      13
+    ],
+    "back_compat_texture": "textures/gui/newgui/anvil-plus"
+  },
+  "textures/ui/anvil_icon": {
+    "uv_size": [
+      15,
+      15
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/anvil-hammer"
+  },
+  "textures/ui/armor_empty": {
+    "uv_size": [
+      9,
+      9
+    ],
+    "uv": [
+      16,
+      9
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/icons"
+  },
+  "textures/ui/armor_full": {
+    "uv_size": [
+      9,
+      9
+    ],
+    "uv": [
+      34,
+      9
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/icons"
+  },
+  "textures/ui/armor_half": {
+    "uv_size": [
+      9,
+      9
+    ],
+    "uv": [
+      25,
+      9
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/icons"
+  },
+  "textures/ui/arrow": {
+    "uv_size": [
+      16,
+      13
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      13
+    ],
+    "back_compat_texture": "textures/gui/newgui/arrow"
+  },
+  "textures/ui/arrowDown": {
+    "uv_size": [
+      8,
+      8
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      8,
+      8
+    ],
+    "back_compat_texture": "textures/gui/newgui/arrowDown"
+  },
+  "textures/ui/arrowRight": {
+    "uv_size": [
+      8,
+      8
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      8,
+      8
+    ],
+    "back_compat_texture": "textures/gui/newgui/arrowRight"
+  },
+  "textures/ui/arrow_active": {
+    "uv_size": [
+      22,
+      15
+    ],
+    "uv": [
+      73,
+      36
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/spritesheet"
+  },
+  "textures/ui/arrow_icon": {
+    "uv_size": [
+      24,
+      16
+    ],
+    "uv": [
+      72,
+      20
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/spritesheet"
+  },
+  "textures/ui/arrow_inactive": {
+    "uv_size": [
+      22,
+      15
+    ],
+    "uv": [
+      73,
+      20
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/spritesheet"
+  },
+  "textures/ui/arrow_large": {
+    "uv_size": [
+      22,
+      15
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      22,
+      15
+    ],
+    "back_compat_texture": "textures/gui/newgui/anvil-arrow"
+  },
+  "textures/ui/arrow_l_default": {
+    "uv_size": [
+      7,
+      9
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      7,
+      9
+    ],
+    "back_compat_texture": "textures/gui/newgui/portfolio/arrow_l_default"
+  },
+  "textures/ui/arrow_l_hover": {
+    "uv_size": [
+      7,
+      9
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      7,
+      9
+    ],
+    "back_compat_texture": "textures/gui/newgui/portfolio/arrow_l_hover"
+  },
+  "textures/ui/arrow_l_pressed": {
+    "uv_size": [
+      7,
+      9
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      7,
+      9
+    ],
+    "back_compat_texture": "textures/gui/newgui/portfolio/arrow_l_pressed"
+  },
+  "textures/ui/arrow_r_default": {
+    "uv_size": [
+      7,
+      9
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      7,
+      9
+    ],
+    "back_compat_texture": "textures/gui/newgui/portfolio/arrow_r_default"
+  },
+  "textures/ui/arrow_r_hover": {
+    "uv_size": [
+      7,
+      9
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      7,
+      9
+    ],
+    "back_compat_texture": "textures/gui/newgui/portfolio/arrow_r_hover"
+  },
+  "textures/ui/arrow_r_pressed": {
+    "uv_size": [
+      7,
+      9
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      7,
+      9
+    ],
+    "back_compat_texture": "textures/gui/newgui/portfolio/arrow_r_pressed"
+  },
+  "textures/ui/background": {
+    "uv_size": [
+      16,
+      16
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/background"
+  },
+  "textures/ui/background_image": {
+    "uv_size": [
+      14,
+      14
+    ],
+    "uv": [
+      34,
+      43
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/spritesheet"
+  },
+  "textures/ui/background_indent_no_top": {
+    "uv_size": [
+      3,
+      2
+    ],
+    "uv": [
+      0,
+      1
+    ],
+    "base_size": [
+      3,
+      3
+    ],
+    "back_compat_texture": "textures/gui/newgui/MainBanners"
+  },
+  "textures/ui/background_panel": {
+    "uv_size": [
+      16,
+      16
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/spritesheet"
+  },
+  "textures/ui/Banners": {
+    "uv_size": [
+      4,
+      4
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      4,
+      4
+    ],
+    "back_compat_texture": "textures/gui/newgui/Banners"
+  },
+  "textures/ui/BannersTransparent": {
+    "uv_size": [
+      4,
+      4
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      4,
+      4
+    ],
+    "back_compat_texture": "textures/gui/newgui/BannersTransparent"
+  },
+  "textures/ui/beacon_background_pocket": {
+    "uv_size": [
+      10,
+      10
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      10,
+      10
+    ],
+    "back_compat_texture": "textures/gui/newgui/beacon/beacon_background_pocket"
+  },
+  "textures/ui/beacon_button_default": {
+    "uv_size": [
+      22,
+      22
+    ],
+    "uv": [
+      166,
+      184
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/beacon_button_hover": {
+    "uv_size": [
+      22,
+      22
+    ],
+    "uv": [
+      232,
+      184
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/beacon_button_locked": {
+    "uv_size": [
+      22,
+      22
+    ],
+    "uv": [
+      210,
+      184
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/beacon_button_pressed": {
+    "uv_size": [
+      22,
+      22
+    ],
+    "uv": [
+      188,
+      184
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/beacon_default_button_pocket": {
+    "uv_size": [
+      3,
+      3
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      3,
+      3
+    ],
+    "back_compat_texture": "textures/gui/newgui/beacon/beacon_default_button_pocket"
+  },
+  "textures/ui/beacon_item_seperator_pocket": {
+    "uv_size": [
+      5,
+      18
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      5,
+      18
+    ],
+    "back_compat_texture": "textures/gui/newgui/beacon/beacon_item_seperator_pocket"
+  },
+  "textures/ui/beacon_selected_button_pocket": {
+    "uv_size": [
+      3,
+      3
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      3,
+      3
+    ],
+    "back_compat_texture": "textures/gui/newgui/beacon/beacon_selected_button_pocket"
+  },
+  "textures/ui/bg32": {
+    "uv_size": [
+      32,
+      32
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      32,
+      32
+    ],
+    "back_compat_texture": "textures/gui/bg32"
+  },
+  "textures/ui/Black": {
+    "uv_size": [
+      2,
+      2
+    ],
+    "uv": [
+      280,
+      52
+    ],
+    "base_size": [
+      455,
+      256
+    ],
+    "back_compat_texture": "textures/gui/newgui/Black"
+  },
+  "textures/ui/blindness_effect": {
+    "uv_size": [
+      18,
+      18
+    ],
+    "uv": [
+      90,
+      202
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/book_binding": {
+    "uv_size": [
+      5,
+      2
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      5,
+      2
+    ],
+    "back_compat_texture": "textures/gui/newgui/portfolio/book_binding"
+  },
+  "textures/ui/book_frame": {
+    "uv_size": [
+      42,
+      42
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      42,
+      42
+    ],
+    "back_compat_texture": "textures/gui/newgui/portfolio/book_frame"
+  },
+  "textures/ui/book_spine": {
+    "uv_size": [
+      7,
+      1
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      7,
+      1
+    ],
+    "back_compat_texture": "textures/gui/newgui/portfolio/book_spine"
+  },
+  "textures/ui/bottle_empty": {
+    "uv_size": [
+      16,
+      16
+    ],
+    "uv": [
+      42,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/spritesheet2"
+  },
+  "textures/ui/brewing_arrow_empty": {
+    "uv_size": [
+      9,
+      28
+    ],
+    "uv": [
+      24,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/spritesheet2"
+  },
+  "textures/ui/brewing_arrow_full": {
+    "uv_size": [
+      9,
+      28
+    ],
+    "uv": [
+      33,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/spritesheet2"
+  },
+  "textures/ui/brewing_pipes": {
+    "uv_size": [
+      30,
+      20
+    ],
+    "uv": [
+      59,
+      1
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/spritesheet2"
+  },
+  "textures/ui/bubble": {
+    "uv_size": [
+      9,
+      9
+    ],
+    "uv": [
+      16,
+      18
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/icons"
+  },
+  "textures/ui/bubbles_empty": {
+    "uv_size": [
+      12,
+      29
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/spritesheet2"
+  },
+  "textures/ui/bubbles_full": {
+    "uv_size": [
+      12,
+      29
+    ],
+    "uv": [
+      12,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/spritesheet2"
+  },
+  "textures/ui/bubble_pop": {
+    "uv_size": [
+      9,
+      9
+    ],
+    "uv": [
+      25,
+      18
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/icons"
+  },
+  "textures/ui/button_borderless_dark": {
+    "uv_size": [
+      4,
+      4
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      4,
+      4
+    ],
+    "back_compat_texture": "textures/gui/newgui/buttons/borderless/dark"
+  },
+  "textures/ui/button_borderless_darkhover": {
+    "uv_size": [
+      4,
+      4
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      4,
+      4
+    ],
+    "back_compat_texture": "textures/gui/newgui/buttons/borderless/darkhover"
+  },
+  "textures/ui/button_borderless_darkpressed": {
+    "uv_size": [
+      4,
+      4
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      4,
+      4
+    ],
+    "back_compat_texture": "textures/gui/newgui/buttons/borderless/darkpressed"
+  },
+  "textures/ui/button_borderless_darkpressednohover": {
+    "uv_size": [
+      4,
+      4
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      4,
+      4
+    ],
+    "back_compat_texture": "textures/gui/newgui/buttons/borderless/darkpressednohover"
+  },
+  "textures/ui/button_borderless_imagelesshoverbg": {
+    "uv_size": [
+      3,
+      3
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      3,
+      3
+    ],
+    "back_compat_texture": "textures/gui/newgui/buttons/borderless/imagelesshoverbg"
+  },
+  "textures/ui/button_borderless_light": {
+    "uv_size": [
+      4,
+      4
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      4,
+      4
+    ],
+    "back_compat_texture": "textures/gui/newgui/buttons/borderless/light"
+  },
+  "textures/ui/button_borderless_lighthover": {
+    "uv_size": [
+      4,
+      4
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      4,
+      4
+    ],
+    "back_compat_texture": "textures/gui/newgui/buttons/borderless/lighthover"
+  },
+  "textures/ui/button_borderless_lightpressed": {
+    "uv_size": [
+      4,
+      4
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      4,
+      4
+    ],
+    "back_compat_texture": "textures/gui/newgui/buttons/borderless/lightpressed"
+  },
+  "textures/ui/button_borderless_lightpressednohover": {
+    "uv_size": [
+      4,
+      4
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      4,
+      4
+    ],
+    "back_compat_texture": "textures/gui/newgui/buttons/borderless/lightpressednohover"
+  },
+  "textures/ui/cancel": {
+    "uv_size": [
+      13,
+      13
+    ],
+    "uv": [
+      158,
+      206
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/Caution": {
+    "uv_size": [
+      13,
+      20
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      13,
+      20
+    ],
+    "back_compat_texture": "textures/gui/newgui/Caution"
+  },
+  "textures/ui/cell_image": {
+    "uv_size": [
+      5,
+      5
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      8,
+      8
+    ],
+    "back_compat_texture": "textures/gui/newgui/Indent"
+  },
+  "textures/ui/ChainSquare": {
+    "uv_size": [
+      17,
+      17
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      17,
+      17
+    ],
+    "back_compat_texture": "textures/gui/newgui/ChainSquare"
+  },
+  "textures/ui/chat_down_arrow": {
+    "uv_size": [
+      12,
+      8
+    ],
+    "uv": [
+      36,
+      9
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/spritesheet"
+  },
+  "textures/ui/chat_keyboard": {
+    "uv_size": [
+      13,
+      11
+    ],
+    "uv": [
+      36,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/spritesheet"
+  },
+  "textures/ui/chat_send": {
+    "uv_size": [
+      12,
+      12
+    ],
+    "uv": [
+      48,
+      4
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/spritesheet"
+  },
+  "textures/ui/checkboxFilledYellow": {
+    "uv_size": [
+      16,
+      13
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      13
+    ],
+    "back_compat_texture": "textures/gui/newgui/buttons/checkbox/checkboxFilledYellow"
+  },
+  "textures/ui/checkboxUnFilled": {
+    "uv_size": [
+      16,
+      13
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      13
+    ],
+    "back_compat_texture": "textures/gui/newgui/buttons/checkbox/checkboxUnFilled"
+  },
+  "textures/ui/checkbox_check": {
+    "uv_size": [
+      10,
+      10
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      10,
+      10
+    ],
+    "back_compat_texture": "textures/gui/newgui/buttons/new_checkbox/check"
+  },
+  "textures/ui/checkbox_checkDisabled": {
+    "uv_size": [
+      10,
+      10
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      10,
+      10
+    ],
+    "back_compat_texture": "textures/gui/newgui/buttons/new_checkbox/check"
+  },
+  "textures/ui/checkbox_checkHover": {
+    "uv_size": [
+      10,
+      10
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      10,
+      10
+    ],
+    "back_compat_texture": "textures/gui/newgui/buttons/new_checkbox/checkHover"
+  },
+  "textures/ui/checkbox_filled": {
+    "uv_size": [
+      16,
+      13
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      13
+    ],
+    "back_compat_texture": "textures/gui/newgui/buttons/checkbox/checkboxFilledYellow"
+  },
+  "textures/ui/checkbox_filled_disabled": {
+    "uv_size": [
+      16,
+      13
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      13
+    ],
+    "back_compat_texture": "textures/gui/newgui/buttons/checkbox/checkbox_filled_disabled"
+  },
+  "textures/ui/checkbox_filled_hover": {
+    "uv_size": [
+      16,
+      13
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      13
+    ],
+    "back_compat_texture": "textures/gui/newgui/buttons/checkbox/checkbox_filled_hover"
+  },
+  "textures/ui/checkbox_space": {
+    "uv_size": [
+      10,
+      10
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      10,
+      10
+    ],
+    "back_compat_texture": "textures/gui/newgui/buttons/new_checkbox/space"
+  },
+  "textures/ui/checkbox_spaceDisabled": {
+    "uv_size": [
+      10,
+      10
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      10,
+      10
+    ],
+    "back_compat_texture": "textures/gui/newgui/buttons/new_checkbox/space"
+  },
+  "textures/ui/checkbox_spaceHover": {
+    "uv_size": [
+      10,
+      10
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      10,
+      10
+    ],
+    "back_compat_texture": "textures/gui/newgui/buttons/new_checkbox/spaceHover"
+  },
+  "textures/ui/CheevList": {
+    "uv_size": [
+      413,
+      300
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      413,
+      300
+    ],
+    "back_compat_texture": "textures/gui/newgui/CheevList"
+  },
+  "textures/ui/chevron_left": {
+    "uv_size": [
+      4,
+      7
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      4,
+      7
+    ],
+    "back_compat_texture": "textures/gui/newgui/chevron_left"
+  },
+  "textures/ui/chevron_right": {
+    "uv_size": [
+      4,
+      7
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      4,
+      7
+    ],
+    "back_compat_texture": "textures/gui/newgui/chevron_right"
+  },
+  "textures/ui/classic-button-hover": {
+    "uv_size": [
+      5,
+      5
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      8,
+      8
+    ],
+    "back_compat_texture": "textures/gui/newgui/classic-button-hover"
+  },
+  "textures/ui/classic-button-pressed": {
+    "uv_size": [
+      5,
+      5
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      8,
+      8
+    ],
+    "back_compat_texture": "textures/gui/newgui/classic-button-pressed"
+  },
+  "textures/ui/classic-button": {
+    "uv_size": [
+      5,
+      5
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      8,
+      8
+    ],
+    "back_compat_texture": "textures/gui/newgui/classic-button"
+  },
+  "textures/ui/clock": {
+    "uv_size": [
+      11,
+      11
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      11,
+      11
+    ],
+    "back_compat_texture": "textures/gui/achievements/clock"
+  },
+  "textures/ui/close_button_default": {
+    "uv_size": [
+      15,
+      15
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/X"
+  },
+  "textures/ui/close_button_default_compact": {
+    "uv_size": [
+      15,
+      7
+    ],
+    "uv": [
+      0,
+      4
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/X"
+  },
+  "textures/ui/close_button_hover": {
+    "uv_size": [
+      15,
+      15
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/XHover"
+  },
+  "textures/ui/close_button_hover_compact": {
+    "uv_size": [
+      15,
+      7
+    ],
+    "uv": [
+      0,
+      4
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/XHover"
+  },
+  "textures/ui/close_button_pressed": {
+    "uv_size": [
+      15,
+      15
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/XPress"
+  },
+  "textures/ui/close_button_pressed_compact": {
+    "uv_size": [
+      15,
+      7
+    ],
+    "uv": [
+      0,
+      4
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/XPress"
+  },
+  "textures/ui/cloud_only_storage": {
+    "uv_size": [
+      12,
+      8
+    ],
+    "uv": [
+      32,
+      0
+    ],
+    "base_size": [
+      48,
+      8
+    ],
+    "back_compat_texture": "textures/gui/newgui/clouds"
+  },
+  "textures/ui/common-classic_hover": {
+    "uv_size": [
+      38,
+      20
+    ],
+    "uv": [
+      160,
+      226
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/touchgui"
+  },
+  "textures/ui/common-classic_hover_1": {
+    "uv_size": [
+      38,
+      20
+    ],
+    "uv": [
+      199,
+      226
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/touchgui"
+  },
+  "textures/ui/common-classic_toggle_checked_state": {
+    "uv_size": [
+      38,
+      20
+    ],
+    "uv": [
+      199,
+      206
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/touchgui"
+  },
+  "textures/ui/common-classic_toggle_unchecked_state": {
+    "uv_size": [
+      38,
+      20
+    ],
+    "uv": [
+      160,
+      206
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/touchgui"
+  },
+  "textures/ui/confirm": {
+    "uv_size": [
+      14,
+      12
+    ],
+    "uv": [
+      144,
+      206
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/control": {
+    "uv_size": [
+      2,
+      2
+    ],
+    "uv": [
+      14,
+      101
+    ],
+    "base_size": [
+      128,
+      128
+    ],
+    "back_compat_texture": "textures/gui/newgui/dialog-background-atlas"
+  },
+  "textures/ui/controller_glyph": {
+    "uv_size": [
+      21,
+      14
+    ],
+    "uv": [
+      50,
+      0
+    ],
+    "base_size": [
+      128,
+      64
+    ],
+    "back_compat_texture": "textures/gui/newgui/settings/glyph_atlas"
+  },
+  "textures/ui/controller_glyph_color": {
+    "uv_size": [
+      21,
+      14
+    ],
+    "uv": [
+      50,
+      0
+    ],
+    "base_size": [
+      128,
+      64
+    ],
+    "back_compat_texture": "textures/gui/newgui/settings/glyph_color_atlas"
+  },
+  "textures/ui/copy": {
+    "uv_size": [
+      13,
+      14
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      20,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/copy"
+  },
+  "textures/ui/CreateNewWorld": {
+    "uv_size": [
+      160,
+      92
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      160,
+      92
+    ],
+    "back_compat_texture": "textures/gui/newgui/CreateNewWorld"
+  },
+  "textures/ui/crossout": {
+    "uv_size": [
+      15,
+      15
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      15,
+      15
+    ],
+    "back_compat_texture": "textures/gui/newgui/anvil-crossout"
+  },
+  "textures/ui/cross_hair": {
+    "uv_size": [
+      16,
+      16
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/icons"
+  },
+  "textures/ui/cursor": {
+    "uv_size": [
+      16,
+      16
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/cursor"
+  },
+  "textures/ui/cursor_pc": {
+    "uv_size": [
+      3,
+      3
+    ],
+    "uv": [
+      0,
+      94
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/icons"
+  },
+  "textures/ui/DarkBannerNoBorder": {
+    "uv_size": [
+      2,
+      2
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      2,
+      2
+    ],
+    "back_compat_texture": "textures/gui/newgui/DarkBannerNoBorder"
+  },
+  "textures/ui/dark_bg": {
+    "uv_size": [
+      3,
+      3
+    ],
+    "uv": [
+      2,
+      2
+    ],
+    "base_size": [
+      8,
+      8
+    ],
+    "back_compat_texture": "textures/gui/newgui/play_screen/DarkButtonThinStroke1"
+  },
+  "textures/ui/dark_minus": {
+    "uv_size": [
+      64,
+      64
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      64,
+      64
+    ],
+    "back_compat_texture": "textures/gui/newgui/storage/minus"
+  },
+  "textures/ui/dark_plus": {
+    "uv_size": [
+      64,
+      64
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      64,
+      64
+    ],
+    "back_compat_texture": "textures/gui/newgui/storage/plus"
+  },
+  "textures/ui/debug_glyph": {
+    "uv_size": [
+      15,
+      15
+    ],
+    "uv": [
+      0,
+      17
+    ],
+    "base_size": [
+      128,
+      64
+    ],
+    "back_compat_texture": "textures/gui/newgui/settings/glyph_atlas"
+  },
+  "textures/ui/debug_glyph_color": {
+    "uv_size": [
+      15,
+      15
+    ],
+    "uv": [
+      0,
+      17
+    ],
+    "base_size": [
+      128,
+      64
+    ],
+    "back_compat_texture": "textures/gui/newgui/settings/glyph_color_atlas"
+  },
+  "textures/ui/default_indent": {
+    "uv_size": [
+      5,
+      5
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      8,
+      8
+    ],
+    "back_compat_texture": "textures/gui/newgui/play_screen/Indent2"
+  },
+  "textures/ui/default_world": {
+    "uv_size": [
+      128,
+      128
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      128,
+      128
+    ],
+    "back_compat_texture": "textures/gui/default_world"
+  },
+  "textures/ui/deop": {
+    "uv_size": [
+      14,
+      14
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      14,
+      14
+    ],
+    "back_compat_texture": "textures/gui/newgui/deop"
+  },
+  "textures/ui/dev_glyph": {
+    "uv_size": [
+      14,
+      14
+    ],
+    "uv": [
+      50,
+      34
+    ],
+    "base_size": [
+      128,
+      64
+    ],
+    "back_compat_texture": "textures/gui/newgui/settings/glyph_atlas"
+  },
+  "textures/ui/dev_glyph_color": {
+    "uv_size": [
+      14,
+      14
+    ],
+    "uv": [
+      50,
+      34
+    ],
+    "base_size": [
+      128,
+      64
+    ],
+    "back_compat_texture": "textures/gui/newgui/settings/glyph_color_atlas"
+  },
+  "textures/ui/dialog_background_hollow_1": {
+    "uv_size": [
+      18,
+      101
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      128,
+      128
+    ],
+    "back_compat_texture": "textures/gui/newgui/dialog-background-atlas"
+  },
+  "textures/ui/dialog_background_hollow_2": {
+    "uv_size": [
+      18,
+      67
+    ],
+    "uv": [
+      18,
+      0
+    ],
+    "base_size": [
+      128,
+      128
+    ],
+    "back_compat_texture": "textures/gui/newgui/dialog-background-atlas"
+  },
+  "textures/ui/dialog_background_hollow_3": {
+    "uv_size": [
+      18,
+      33
+    ],
+    "uv": [
+      36,
+      0
+    ],
+    "base_size": [
+      128,
+      128
+    ],
+    "back_compat_texture": "textures/gui/newgui/dialog-background-atlas"
+  },
+  "textures/ui/dialog_background_hollow_4": {
+    "uv_size": [
+      18,
+      18
+    ],
+    "uv": [
+      54,
+      0
+    ],
+    "base_size": [
+      128,
+      128
+    ],
+    "back_compat_texture": "textures/gui/newgui/dialog-background-atlas"
+  },
+  "textures/ui/dialog_background_hollow_5": {
+    "uv_size": [
+      18,
+      61
+    ],
+    "uv": [
+      72,
+      0
+    ],
+    "base_size": [
+      128,
+      128
+    ],
+    "back_compat_texture": "textures/gui/newgui/dialog-background-atlas"
+  },
+  "textures/ui/dialog_background_opaque": {
+    "uv_size": [
+      16,
+      16
+    ],
+    "uv": [
+      0,
+      106
+    ],
+    "base_size": [
+      128,
+      128
+    ],
+    "back_compat_texture": "textures/gui/newgui/dialog-background-atlas"
+  },
+  "textures/ui/dialog_divider": {
+    "uv_size": [
+      3,
+      1
+    ],
+    "uv": [
+      0,
+      101
+    ],
+    "base_size": [
+      128,
+      128
+    ],
+    "back_compat_texture": "textures/gui/newgui/dialog-background-atlas"
+  },
+  "textures/ui/disabledButton": {
+    "uv_size": [
+      3,
+      3
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      4,
+      4
+    ],
+    "back_compat_texture": "textures/gui/newgui/disabledButton"
+  },
+  "textures/ui/disabledButtonNoBorder": {
+    "uv_size": [
+      2,
+      2
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      2,
+      2
+    ],
+    "back_compat_texture": "textures/gui/newgui/disabledButtonNoBorder"
+  },
+  "textures/ui/down_arrow": {
+    "uv_size": [
+      12,
+      12
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/DownArrow"
+  },
+  "textures/ui/dropdown_background": {
+    "uv_size": [
+      5,
+      5
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      5,
+      5
+    ],
+    "back_compat_texture": "textures/gui/newgui/dropdown_background"
+  },
+  "textures/ui/dust_selectable_1": {
+    "uv_size": [
+      13,
+      11
+    ],
+    "uv": [
+      52,
+      2
+    ],
+    "base_size": [
+      128,
+      128
+    ],
+    "back_compat_texture": "textures/gui/enchanting_table"
+  },
+  "textures/ui/dust_selectable_2": {
+    "uv_size": [
+      13,
+      11
+    ],
+    "uv": [
+      68,
+      2
+    ],
+    "base_size": [
+      128,
+      128
+    ],
+    "back_compat_texture": "textures/gui/enchanting_table"
+  },
+  "textures/ui/dust_selectable_3": {
+    "uv_size": [
+      13,
+      11
+    ],
+    "uv": [
+      83,
+      2
+    ],
+    "base_size": [
+      128,
+      128
+    ],
+    "back_compat_texture": "textures/gui/enchanting_table"
+  },
+  "textures/ui/dust_unselectable_1": {
+    "uv_size": [
+      13,
+      11
+    ],
+    "uv": [
+      52,
+      19
+    ],
+    "base_size": [
+      128,
+      128
+    ],
+    "back_compat_texture": "textures/gui/enchanting_table"
+  },
+  "textures/ui/dust_unselectable_2": {
+    "uv_size": [
+      13,
+      11
+    ],
+    "uv": [
+      68,
+      19
+    ],
+    "base_size": [
+      128,
+      128
+    ],
+    "back_compat_texture": "textures/gui/enchanting_table"
+  },
+  "textures/ui/dust_unselectable_3": {
+    "uv_size": [
+      13,
+      11
+    ],
+    "uv": [
+      83,
+      19
+    ],
+    "base_size": [
+      128,
+      128
+    ],
+    "back_compat_texture": "textures/gui/enchanting_table"
+  },
+  "textures/ui/editIcon": {
+    "uv_size": [
+      22,
+      16
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      22,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/editIcon"
+  },
+  "textures/ui/edit_box_indent": {
+    "uv_size": [
+      6,
+      6
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      8,
+      8
+    ],
+    "back_compat_texture": "textures/gui/newgui/text_edit_base"
+  },
+  "textures/ui/edit_box_indent_hover": {
+    "uv_size": [
+      6,
+      6
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      8,
+      8
+    ],
+    "back_compat_texture": "textures/gui/newgui/text_edit_hover"
+  },
+  "textures/ui/effect_background": {
+    "uv_size": [
+      120,
+      32
+    ],
+    "uv": [
+      130,
+      106
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/elipses": {
+    "uv_size": [
+      28,
+      8
+    ],
+    "uv": [
+      228,
+      248
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/empty_armor_slot_boots": {
+    "uv_size": [
+      16,
+      16
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/empty_armor_slot_boots"
+  },
+  "textures/ui/empty_armor_slot_chestplate": {
+    "uv_size": [
+      16,
+      16
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/empty_armor_slot_chestplate"
+  },
+  "textures/ui/empty_armor_slot_helmet": {
+    "uv_size": [
+      16,
+      16
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/empty_armor_slot_helmet"
+  },
+  "textures/ui/empty_armor_slot_leggings": {
+    "uv_size": [
+      16,
+      16
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/empty_armor_slot_leggings"
+  },
+  "textures/ui/empty_armor_slot_shield": {
+    "uv_size": [
+      16,
+      16
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/empty_armor_slot_shield"
+  },
+  "textures/ui/empty_horse_slot_armor": {
+    "uv_size": [
+      16,
+      16
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/empty_horse_slot_armor"
+  },
+  "textures/ui/empty_horse_slot_saddle": {
+    "uv_size": [
+      16,
+      16
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/empty_horse_slot_saddle"
+  },
+  "textures/ui/empty_llama_slot_carpet": {
+    "uv_size": [
+      16,
+      16
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/empty_llama_slot_carpet"
+  },
+  "textures/ui/empty_progress_bar": {
+    "uv_size": [
+      13,
+      5
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/EventBars"
+  },
+  "textures/ui/enchanting_active_background": {
+    "uv_size": [
+      108,
+      19
+    ],
+    "uv": [
+      0,
+      33
+    ],
+    "base_size": [
+      128,
+      128
+    ],
+    "back_compat_texture": "textures/gui/enchanting_table"
+  },
+  "textures/ui/enchanting_active_background_with_hover_text": {
+    "uv_size": [
+      108,
+      19
+    ],
+    "uv": [
+      0,
+      71
+    ],
+    "base_size": [
+      128,
+      128
+    ],
+    "back_compat_texture": "textures/gui/enchanting_table"
+  },
+  "textures/ui/enchanting_dark_background": {
+    "uv_size": [
+      108,
+      19
+    ],
+    "uv": [
+      0,
+      52
+    ],
+    "base_size": [
+      128,
+      128
+    ],
+    "back_compat_texture": "textures/gui/enchanting_table"
+  },
+  "textures/ui/ErrorGlyph": {
+    "uv_size": [
+      13,
+      20
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      13,
+      20
+    ],
+    "back_compat_texture": "textures/gui/newgui/ErrorGlyph"
+  },
+  "textures/ui/experiencebarempty": {
+    "uv_size": [
+      13,
+      5
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      13,
+      5
+    ],
+    "back_compat_texture": "textures/gui/achievements/hotdogempty"
+  },
+  "textures/ui/experiencebarfull": {
+    "uv_size": [
+      13,
+      5
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      13,
+      5
+    ],
+    "back_compat_texture": "textures/gui/achievements/hotdogfull"
+  },
+  "textures/ui/experiencenub": {
+    "uv_size": [
+      11,
+      5
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      11,
+      5
+    ],
+    "back_compat_texture": "textures/gui/achievements/nub"
+  },
+  "textures/ui/Feedback": {
+    "uv_size": [
+      16,
+      16
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/Feedback"
+  },
+  "textures/ui/filled_progress_bar": {
+    "uv_size": [
+      13,
+      5
+    ],
+    "uv": [
+      0,
+      5
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/EventBars"
+  },
+  "textures/ui/fire_resistance_effect": {
+    "uv_size": [
+      18,
+      18
+    ],
+    "uv": [
+      126,
+      202
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/flame_empty_image": {
+    "uv_size": [
+      13,
+      13
+    ],
+    "uv": [
+      41,
+      21
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/spritesheet"
+  },
+  "textures/ui/flame_full_image": {
+    "uv_size": [
+      13,
+      13
+    ],
+    "uv": [
+      57,
+      21
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/spritesheet"
+  },
+  "textures/ui/focus_border_white": {
+    "uv_size": [
+      5,
+      5
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      8,
+      8
+    ],
+    "back_compat_texture": "textures/gui/newgui/focusBorder"
+  },
+  "textures/ui/FriendsDiversity": {
+    "uv_size": [
+      14,
+      14
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      14,
+      14
+    ],
+    "back_compat_texture": "textures/gui/newgui/FriendsDiversity"
+  },
+  "textures/ui/FriendsIcon": {
+    "uv_size": [
+      15,
+      15
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      15,
+      15
+    ],
+    "back_compat_texture": "textures/gui/newgui/FriendsIcon"
+  },
+  "textures/ui/gamepad_icon_button": {
+    "uv_size": [
+      15,
+      13
+    ],
+    "uv": [
+      241,
+      115
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/spritesheet"
+  },
+  "textures/ui/gamepad_icon_dpad": {
+    "uv_size": [
+      21,
+      21
+    ],
+    "uv": [
+      219,
+      107
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/spritesheet"
+  },
+  "textures/ui/gamepad_icon_left_bumper": {
+    "uv_size": [
+      27,
+      13
+    ],
+    "uv": [
+      225,
+      26
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/spritesheet"
+  },
+  "textures/ui/gamepad_icon_left_trigger": {
+    "uv_size": [
+      13,
+      27
+    ],
+    "uv": [
+      241,
+      71
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/spritesheet"
+  },
+  "textures/ui/gamepad_icon_right_bumper": {
+    "uv_size": [
+      27,
+      13
+    ],
+    "uv": [
+      225,
+      42
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/spritesheet"
+  },
+  "textures/ui/gamepad_icon_right_trigger": {
+    "uv_size": [
+      13,
+      27
+    ],
+    "uv": [
+      222,
+      71
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/spritesheet"
+  },
+  "textures/ui/gamepad_icon_thumbstick": {
+    "uv_size": [
+      12,
+      9
+    ],
+    "uv": [
+      223,
+      58
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/spritesheet"
+  },
+  "textures/ui/gamerpic": {
+    "uv_size": [
+      64,
+      64
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      64,
+      64
+    ],
+    "back_compat_texture": "textures/gui/newgui/gamerpic"
+  },
+  "textures/ui/gamerscore": {
+    "uv_size": [
+      11,
+      11
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      11,
+      11
+    ],
+    "back_compat_texture": "textures/gui/achievements/g"
+  },
+  "textures/ui/Gray": {
+    "uv_size": [
+      2,
+      2
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      2,
+      2
+    ],
+    "back_compat_texture": "textures/gui/newgui/Gray"
+  },
+  "textures/ui/Grey": {
+    "uv_size": [
+      2,
+      2
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      2,
+      2
+    ],
+    "back_compat_texture": "textures/gui/newgui/Grey"
+  },
+  "textures/ui/greyBorder": {
+    "uv_size": [
+      16,
+      16
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/greyBorder"
+  },
+  "textures/ui/grey_gamepad_icon_button": {
+    "uv_size": [
+      15,
+      13
+    ],
+    "uv": [
+      113,
+      115
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/spritesheet"
+  },
+  "textures/ui/hangar": {
+    "uv_size": [
+      32,
+      16
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      32,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/hangar"
+  },
+  "textures/ui/haste_effect": {
+    "uv_size": [
+      18,
+      18
+    ],
+    "uv": [
+      36,
+      184
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/header_bar": {
+    "uv_size": [
+      5,
+      8
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      8,
+      8
+    ],
+    "back_compat_texture": "textures/gui/newgui/TopBar"
+  },
+  "textures/ui/health_boost_effect": {
+    "uv_size": [
+      18,
+      18
+    ],
+    "uv": [
+      36,
+      220
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/heart": {
+    "uv_size": [
+      9,
+      9
+    ],
+    "uv": [
+      52,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/icons"
+  },
+  "textures/ui/heart_background": {
+    "uv_size": [
+      9,
+      9
+    ],
+    "uv": [
+      16,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/icons"
+  },
+  "textures/ui/heart_blink": {
+    "uv_size": [
+      9,
+      9
+    ],
+    "uv": [
+      25,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/icons"
+  },
+  "textures/ui/heart_flash": {
+    "uv_size": [
+      9,
+      9
+    ],
+    "uv": [
+      70,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/icons"
+  },
+  "textures/ui/heart_flash_half": {
+    "uv_size": [
+      9,
+      9
+    ],
+    "uv": [
+      79,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/icons"
+  },
+  "textures/ui/heart_half": {
+    "uv_size": [
+      9,
+      9
+    ],
+    "uv": [
+      61,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/icons"
+  },
+  "textures/ui/horse_heart": {
+    "uv_size": [
+      9,
+      9
+    ],
+    "uv": [
+      88,
+      9
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/icons"
+  },
+  "textures/ui/horse_heart_flash": {
+    "uv_size": [
+      9,
+      9
+    ],
+    "uv": [
+      106,
+      9
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/icons"
+  },
+  "textures/ui/horse_heart_flash_half": {
+    "uv_size": [
+      9,
+      9
+    ],
+    "uv": [
+      115,
+      9
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/icons"
+  },
+  "textures/ui/horse_heart_half": {
+    "uv_size": [
+      9,
+      9
+    ],
+    "uv": [
+      97,
+      9
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/icons"
+  },
+  "textures/ui/horse_jump_empty": {
+    "uv_size": [
+      182,
+      5
+    ],
+    "uv": [
+      0,
+      84
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/icons"
+  },
+  "textures/ui/horse_jump_full": {
+    "uv_size": [
+      182,
+      5
+    ],
+    "uv": [
+      0,
+      89
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/icons"
+  },
+  "textures/ui/hotbar_0": {
+    "uv_size": [
+      20,
+      22
+    ],
+    "uv": [
+      1,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/hotbar_1": {
+    "uv_size": [
+      20,
+      22
+    ],
+    "uv": [
+      21,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/hotbar_2": {
+    "uv_size": [
+      20,
+      22
+    ],
+    "uv": [
+      41,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/hotbar_3": {
+    "uv_size": [
+      20,
+      22
+    ],
+    "uv": [
+      61,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/hotbar_4": {
+    "uv_size": [
+      20,
+      22
+    ],
+    "uv": [
+      81,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/hotbar_5": {
+    "uv_size": [
+      20,
+      22
+    ],
+    "uv": [
+      101,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/hotbar_6": {
+    "uv_size": [
+      20,
+      22
+    ],
+    "uv": [
+      121,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/hotbar_7": {
+    "uv_size": [
+      20,
+      22
+    ],
+    "uv": [
+      141,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/hotbar_8": {
+    "uv_size": [
+      20,
+      22
+    ],
+    "uv": [
+      161,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/hotbar_end_cap": {
+    "uv_size": [
+      1,
+      22
+    ],
+    "uv": [
+      181,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/hotbar_start_cap": {
+    "uv_size": [
+      1,
+      22
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/how_to_play_button_hover": {
+    "back_compat_texture": "textures/ui/how_to_play_button_hovered"
+  },
+  "textures/ui/hud_mob_effect_background": {
+    "uv_size": [
+      22,
+      22
+    ],
+    "uv": [
+      144,
+      184
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/hunger_background": {
+    "uv_size": [
+      9,
+      9
+    ],
+    "uv": [
+      16,
+      27
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/icons"
+  },
+  "textures/ui/hunger_blink": {
+    "uv_size": [
+      9,
+      9
+    ],
+    "uv": [
+      25,
+      27
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/icons"
+  },
+  "textures/ui/hunger_effect": {
+    "uv_size": [
+      18,
+      18
+    ],
+    "uv": [
+      18,
+      202
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/hunger_effect_background": {
+    "uv_size": [
+      9,
+      9
+    ],
+    "uv": [
+      133,
+      27
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/icons"
+  },
+  "textures/ui/hunger_effect_flash_full": {
+    "uv_size": [
+      9,
+      9
+    ],
+    "uv": [
+      106,
+      27
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/icons"
+  },
+  "textures/ui/hunger_effect_flash_half": {
+    "uv_size": [
+      9,
+      9
+    ],
+    "uv": [
+      115,
+      27
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/icons"
+  },
+  "textures/ui/hunger_effect_full": {
+    "uv_size": [
+      9,
+      9
+    ],
+    "uv": [
+      88,
+      27
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/icons"
+  },
+  "textures/ui/hunger_effect_half": {
+    "uv_size": [
+      9,
+      9
+    ],
+    "uv": [
+      97,
+      27
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/icons"
+  },
+  "textures/ui/hunger_flash_full": {
+    "uv_size": [
+      9,
+      9
+    ],
+    "uv": [
+      70,
+      27
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/icons"
+  },
+  "textures/ui/hunger_flash_half": {
+    "uv_size": [
+      9,
+      9
+    ],
+    "uv": [
+      79,
+      27
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/icons"
+  },
+  "textures/ui/hunger_full": {
+    "uv_size": [
+      9,
+      9
+    ],
+    "uv": [
+      52,
+      27
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/icons"
+  },
+  "textures/ui/hunger_half": {
+    "uv_size": [
+      9,
+      9
+    ],
+    "uv": [
+      61,
+      27
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/icons"
+  },
+  "textures/ui/import": {
+    "uv_size": [
+      16,
+      16
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/import"
+  },
+  "textures/ui/ImpulseSquare": {
+    "uv_size": [
+      17,
+      17
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      17,
+      17
+    ],
+    "back_compat_texture": "textures/gui/newgui/ImpulseSquare"
+  },
+  "textures/ui/infobulb": {
+    "uv_size": [
+      15,
+      19
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      15,
+      19
+    ],
+    "back_compat_texture": "textures/gui/newgui/storage/infobulb"
+  },
+  "textures/ui/InvalidWorldDemoScreen": {
+    "uv_size": [
+      160,
+      92
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      160,
+      92
+    ],
+    "back_compat_texture": "textures/gui/newgui/InvalidWorldDemoScreen"
+  },
+  "textures/ui/invertedmultiselecticon": {
+    "uv_size": [
+      130,
+      105
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      130,
+      105
+    ],
+    "back_compat_texture": "textures/gui/newgui/storage/invertedmultiselecticon"
+  },
+  "textures/ui/invisibility_effect": {
+    "uv_size": [
+      18,
+      18
+    ],
+    "uv": [
+      0,
+      202
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/invite_base": {
+    "uv_size": [
+      16,
+      16
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/invite_base"
+  },
+  "textures/ui/invite_hover": {
+    "uv_size": [
+      16,
+      16
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/invite_hover"
+  },
+  "textures/ui/invite_pressed": {
+    "uv_size": [
+      16,
+      16
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/invite_pressed"
+  },
+  "textures/ui/iosshare": {
+    "uv_size": [
+      16,
+      15
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      15
+    ],
+    "back_compat_texture": "textures/gui/newgui/storage/iosshare"
+  },
+  "textures/ui/item_cell": {
+    "uv_size": [
+      16,
+      16
+    ],
+    "uv": [
+      200,
+      46
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/item_seperator": {
+    "uv_size": [
+      5,
+      18
+    ],
+    "uv": [
+      171,
+      206
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/jump_boost_effect": {
+    "uv_size": [
+      18,
+      18
+    ],
+    "uv": [
+      36,
+      202
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/keyboard_and_mouse_glyph": {
+    "uv_size": [
+      19,
+      9
+    ],
+    "uv": [
+      50,
+      17
+    ],
+    "base_size": [
+      128,
+      64
+    ],
+    "back_compat_texture": "textures/gui/newgui/settings/glyph_atlas"
+  },
+  "textures/ui/keyboard_and_mouse_glyph_color": {
+    "uv_size": [
+      19,
+      9
+    ],
+    "uv": [
+      50,
+      17
+    ],
+    "base_size": [
+      128,
+      64
+    ],
+    "back_compat_texture": "textures/gui/newgui/settings/glyph_color_atlas"
+  },
+  "textures/ui/language_glyph": {
+    "uv_size": [
+      25,
+      13
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      128,
+      64
+    ],
+    "back_compat_texture": "textures/gui/newgui/settings/glyph_atlas"
+  },
+  "textures/ui/language_glyph_color": {
+    "uv_size": [
+      25,
+      13
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      128,
+      64
+    ],
+    "back_compat_texture": "textures/gui/newgui/settings/glyph_color_atlas"
+  },
+  "textures/ui/lan_icon": {
+    "uv_size": [
+      14,
+      14
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/Local"
+  },
+  "textures/ui/lapis": {
+    "uv_size": [
+      16,
+      16
+    ],
+    "uv": [
+      16,
+      90
+    ],
+    "base_size": [
+      128,
+      128
+    ],
+    "back_compat_texture": "textures/gui/enchanting_table"
+  },
+  "textures/ui/lapis_image": {
+    "uv_size": [
+      16,
+      16
+    ],
+    "uv": [
+      0,
+      90
+    ],
+    "base_size": [
+      128,
+      128
+    ],
+    "back_compat_texture": "textures/gui/enchanting_table"
+  },
+  "textures/ui/lava": {
+    "uv_size": [
+      413,
+      300
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      413,
+      300
+    ],
+    "back_compat_texture": "textures/gui/newgui/lava"
+  },
+  "textures/ui/legacybanner": {
+    "uv_size": [
+      3,
+      3
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      3,
+      3
+    ],
+    "back_compat_texture": "textures/gui/newgui/legacybanner"
+  },
+  "textures/ui/legacy_pocket_close_button_default": {
+    "uv_size": [
+      18,
+      18
+    ],
+    "uv": [
+      60,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/spritesheet"
+  },
+  "textures/ui/legacy_pocket_close_button_pressed": {
+    "uv_size": [
+      18,
+      18
+    ],
+    "uv": [
+      78,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/spritesheet"
+  },
+  "textures/ui/levitation_effect": {
+    "uv_size": [
+      18,
+      18
+    ],
+    "uv": [
+      54,
+      220
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/listcheck": {
+    "uv_size": [
+      14,
+      11
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      14,
+      11
+    ],
+    "back_compat_texture": "textures/gui/newgui/listcheck"
+  },
+  "textures/ui/listx": {
+    "uv_size": [
+      14,
+      11
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      14,
+      11
+    ],
+    "back_compat_texture": "textures/gui/newgui/listx"
+  },
+  "textures/ui/LoadingWorldDemoScreen": {
+    "uv_size": [
+      160,
+      92
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      160,
+      92
+    ],
+    "back_compat_texture": "textures/gui/newgui/LoadingWorldDemoScreen"
+  },
+  "textures/ui/loading_bar": {
+    "uv_size": [
+      640,
+      8
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      640,
+      8
+    ],
+    "back_compat_texture": "textures/gui/newgui/loading_bar"
+  },
+  "textures/ui/local_and_cloud_storage": {
+    "uv_size": [
+      12,
+      8
+    ],
+    "uv": [
+      16,
+      0
+    ],
+    "base_size": [
+      48,
+      8
+    ],
+    "back_compat_texture": "textures/gui/newgui/clouds"
+  },
+  "textures/ui/local_only_storage": {
+    "uv_size": [
+      12,
+      8
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      48,
+      8
+    ],
+    "back_compat_texture": "textures/gui/newgui/clouds"
+  },
+  "textures/ui/lock": {
+    "uv_size": [
+      8,
+      8
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      8,
+      8
+    ],
+    "back_compat_texture": "textures/gui/newgui/lock"
+  },
+  "textures/ui/magnifyingGlass": {
+    "uv_size": [
+      16,
+      16
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/magnifyingGlass"
+  },
+  "textures/ui/mainbanners": {
+    "uv_size": [
+      3,
+      3
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      3,
+      3
+    ],
+    "back_compat_texture": "textures/gui/newgui/MainBanners"
+  },
+  "textures/ui/MainBannersHover": {
+    "uv_size": [
+      3,
+      3
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      3,
+      3
+    ],
+    "back_compat_texture": "textures/gui/newgui/MainBannersHover"
+  },
+  "textures/ui/MashupIcon": {
+    "uv_size": [
+      20,
+      20
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      20,
+      20
+    ],
+    "back_compat_texture": "textures/gui/newgui/Bundle/MashupIcon"
+  },
+  "textures/ui/MCoin": {
+    "uv_size": [
+      11,
+      11
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      11,
+      11
+    ],
+    "back_compat_texture": "textures/gui/newgui/MCoin"
+  },
+  "textures/ui/middle_strip": {
+    "uv_size": [
+      2,
+      1
+    ],
+    "uv": [
+      131,
+      118
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/minimize": {
+    "uv_size": [
+      16,
+      16
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/minimize"
+  },
+  "textures/ui/minimizeHover": {
+    "uv_size": [
+      16,
+      16
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/minimizeHover"
+  },
+  "textures/ui/minimizePress": {
+    "uv_size": [
+      16,
+      16
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/minimizePress"
+  },
+  "textures/ui/mining_fatigue_effect": {
+    "uv_size": [
+      18,
+      18
+    ],
+    "uv": [
+      54,
+      184
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/minus": {
+    "uv_size": [
+      11,
+      3
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      4
+    ],
+    "back_compat_texture": "textures/gui/newgui/minus"
+  },
+  "textures/ui/mob_effect_background": {
+    "uv_size": [
+      14,
+      14
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      14,
+      14
+    ],
+    "back_compat_texture": "textures/gui/newgui/mob_effects/mob_effect_background"
+  },
+  "textures/ui/move": {
+    "uv_size": [
+      105,
+      114
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      105,
+      114
+    ],
+    "back_compat_texture": "textures/gui/newgui/storage/move"
+  },
+  "textures/ui/multiplayer_glyph": {
+    "uv_size": [
+      22,
+      12
+    ],
+    "uv": [
+      100,
+      0
+    ],
+    "base_size": [
+      128,
+      64
+    ],
+    "back_compat_texture": "textures/gui/newgui/settings/glyph_atlas"
+  },
+  "textures/ui/multiplayer_glyph_color": {
+    "uv_size": [
+      22,
+      12
+    ],
+    "uv": [
+      100,
+      0
+    ],
+    "base_size": [
+      128,
+      64
+    ],
+    "back_compat_texture": "textures/gui/newgui/settings/glyph_color_atlas"
+  },
+  "textures/ui/multiselection": {
+    "uv_size": [
+      130,
+      105
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      130,
+      105
+    ],
+    "back_compat_texture": "textures/gui/newgui/storage/multiselection"
+  },
+  "textures/ui/nausea_effect": {
+    "uv_size": [
+      18,
+      18
+    ],
+    "uv": [
+      54,
+      202
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/newOffersIcon": {
+    "uv_size": [
+      21,
+      15
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      21,
+      15
+    ],
+    "back_compat_texture": "textures/gui/newgui/newOffersIcon"
+  },
+  "textures/ui/night_vision_effect": {
+    "uv_size": [
+      18,
+      18
+    ],
+    "uv": [
+      72,
+      202
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/NormalButtonNoStroke": {
+    "uv_size": [
+      10,
+      10
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      10,
+      10
+    ],
+    "back_compat_texture": "textures/gui/newgui/NormalButtonNoStroke"
+  },
+  "textures/ui/NormalButtonStroke": {
+    "uv_size": [
+      12,
+      12
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      12,
+      12
+    ],
+    "back_compat_texture": "textures/gui/newgui/NormalButtonStroke"
+  },
+  "textures/ui/NormalButtonThin": {
+    "uv_size": [
+      5,
+      5
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      5,
+      5
+    ],
+    "back_compat_texture": "textures/gui/newgui/NormalButtonThin"
+  },
+  "textures/ui/NormalButtonThinStroke": {
+    "uv_size": [
+      7,
+      7
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      7,
+      7
+    ],
+    "back_compat_texture": "textures/gui/newgui/NormalButtonThinStroke"
+  },
+  "textures/ui/normal_stroke_button": {
+    "uv_size": [
+      12,
+      12
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/play_screen/NormalButtonStroke"
+  },
+  "textures/ui/offline": {
+    "uv_size": [
+      8,
+      8
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      8,
+      8
+    ],
+    "back_compat_texture": "textures/gui/newgui/offline"
+  },
+  "textures/ui/online": {
+    "uv_size": [
+      8,
+      8
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      8,
+      8
+    ],
+    "back_compat_texture": "textures/gui/newgui/online"
+  },
+  "textures/ui/onlineLight": {
+    "uv_size": [
+      9,
+      9
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      9,
+      9
+    ],
+    "back_compat_texture": "textures/gui/newgui/onlineLight"
+  },
+  "textures/ui/op": {
+    "uv_size": [
+      14,
+      14
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      14,
+      14
+    ],
+    "back_compat_texture": "textures/gui/newgui/op"
+  },
+  "textures/ui/panel_outline": {
+    "uv_size": [
+      4,
+      4
+    ],
+    "uv": [
+      28,
+      42
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/spritesheet"
+  },
+  "textures/ui/panorama_0": {
+    "uv_size": [
+      256,
+      256
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/background/panorama_0"
+  },
+  "textures/ui/panorama_1": {
+    "uv_size": [
+      256,
+      256
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/background/panorama_1"
+  },
+  "textures/ui/panorama_2": {
+    "uv_size": [
+      256,
+      256
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/background/panorama_2"
+  },
+  "textures/ui/panorama_3": {
+    "uv_size": [
+      256,
+      256
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/background/panorama_3"
+  },
+  "textures/ui/panorama_4": {
+    "uv_size": [
+      256,
+      256
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/background/panorama_4"
+  },
+  "textures/ui/panorama_5": {
+    "uv_size": [
+      256,
+      256
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/background/panorama_5"
+  },
+  "textures/ui/photo_corner_bl": {
+    "uv_size": [
+      19,
+      19
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      19,
+      19
+    ],
+    "back_compat_texture": "textures/gui/newgui/portfolio/photo_corner_bl"
+  },
+  "textures/ui/photo_corner_br": {
+    "uv_size": [
+      19,
+      19
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      19,
+      19
+    ],
+    "back_compat_texture": "textures/gui/newgui/portfolio/photo_corner_br"
+  },
+  "textures/ui/photo_corner_tl": {
+    "uv_size": [
+      19,
+      19
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      19,
+      19
+    ],
+    "back_compat_texture": "textures/gui/newgui/portfolio/photo_corner_tl"
+  },
+  "textures/ui/photo_corner_tr": {
+    "uv_size": [
+      19,
+      19
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      19,
+      19
+    ],
+    "back_compat_texture": "textures/gui/newgui/portfolio/photo_corner_tr"
+  },
+  "textures/ui/PlaceholderStore": {
+    "uv_size": [
+      800,
+      450
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      800,
+      450
+    ],
+    "back_compat_texture": "textures/gui/newgui/PlaceholderStore"
+  },
+  "textures/ui/player_offline_icon": {
+    "uv_size": [
+      7,
+      7
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      8,
+      8
+    ],
+    "back_compat_texture": "textures/gui/newgui/offline"
+  },
+  "textures/ui/player_online_icon": {
+    "uv_size": [
+      7,
+      7
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      8,
+      8
+    ],
+    "back_compat_texture": "textures/gui/newgui/online"
+  },
+  "textures/ui/player_preview_border": {
+    "uv_size": [
+      16,
+      16
+    ],
+    "uv": [
+      188,
+      184
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/plus": {
+    "uv_size": [
+      11,
+      11
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/plus"
+  },
+  "textures/ui/pocket_button_default": {
+    "uv_size": [
+      8,
+      8
+    ],
+    "uv": [
+      8,
+      32
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/spritesheet"
+  },
+  "textures/ui/pocket_button_hover": {
+    "uv_size": [
+      6,
+      6
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      8,
+      8
+    ],
+    "back_compat_texture": "textures/gui/newgui/classic-button-hover"
+  },
+  "textures/ui/pocket_button_pressed": {
+    "uv_size": [
+      8,
+      8
+    ],
+    "uv": [
+      0,
+      32
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/spritesheet"
+  },
+  "textures/ui/pocket_tab_left_side": {
+    "uv_size": [
+      14,
+      14
+    ],
+    "uv": [
+      49,
+      43
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/spritesheet"
+  },
+  "textures/ui/pocket_tab_right_side": {
+    "uv_size": [
+      14,
+      14
+    ],
+    "uv": [
+      65,
+      55
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/spritesheet"
+  },
+  "textures/ui/pocket_ui_highlight_selected_slot": {
+    "uv_size": [
+      16,
+      16
+    ],
+    "uv": [
+      10,
+      42
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/spritesheet"
+  },
+  "textures/ui/pocket_ui_highlight_slot": {
+    "uv_size": [
+      24,
+      24
+    ],
+    "uv": [
+      0,
+      22
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/poison_effect": {
+    "uv_size": [
+      18,
+      18
+    ],
+    "uv": [
+      108,
+      184
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/poison_heart": {
+    "uv_size": [
+      9,
+      9
+    ],
+    "uv": [
+      88,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/icons"
+  },
+  "textures/ui/poison_heart_flash": {
+    "uv_size": [
+      9,
+      9
+    ],
+    "uv": [
+      106,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/icons"
+  },
+  "textures/ui/poison_heart_flash_half": {
+    "uv_size": [
+      9,
+      9
+    ],
+    "uv": [
+      115,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/icons"
+  },
+  "textures/ui/poison_heart_half": {
+    "uv_size": [
+      9,
+      9
+    ],
+    "uv": [
+      97,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/icons"
+  },
+  "textures/ui/portalBg": {
+    "uv_size": [
+      32,
+      32
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      32,
+      32
+    ],
+    "back_compat_texture": "textures/gui/portalBg"
+  },
+  "textures/ui/profile_glyph": {
+    "uv_size": [
+      11,
+      12
+    ],
+    "uv": [
+      25,
+      34
+    ],
+    "base_size": [
+      128,
+      64
+    ],
+    "back_compat_texture": "textures/gui/newgui/settings/glyph_atlas"
+  },
+  "textures/ui/profile_glyph_color": {
+    "uv_size": [
+      11,
+      12
+    ],
+    "uv": [
+      25,
+      34
+    ],
+    "base_size": [
+      128,
+      64
+    ],
+    "back_compat_texture": "textures/gui/newgui/settings/glyph_color_atlas"
+  },
+  "textures/ui/purpleBorder": {
+    "uv_size": [
+      16,
+      16
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/purpleBorder"
+  },
+  "textures/ui/pyramid_level_1": {
+    "uv_size": [
+      19,
+      20
+    ],
+    "uv": [
+      144,
+      228
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/pyramid_level_2": {
+    "uv_size": [
+      19,
+      20
+    ],
+    "uv": [
+      163,
+      228
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/pyramid_level_3": {
+    "uv_size": [
+      19,
+      20
+    ],
+    "uv": [
+      182,
+      228
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/pyramid_level_4": {
+    "uv_size": [
+      19,
+      20
+    ],
+    "uv": [
+      201,
+      228
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/radio_checked": {
+    "uv_size": [
+      10,
+      10
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      10,
+      10
+    ],
+    "back_compat_texture": "textures/gui/newgui/buttons/new_checkbox/check"
+  },
+  "textures/ui/radio_checked_hover": {
+    "uv_size": [
+      10,
+      10
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      10,
+      10
+    ],
+    "back_compat_texture": "textures/gui/newgui/buttons/new_checkbox/checkHover"
+  },
+  "textures/ui/radio_off": {
+    "uv_size": [
+      10,
+      10
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      10,
+      10
+    ],
+    "back_compat_texture": "textures/gui/newgui/buttons/new_checkbox/space"
+  },
+  "textures/ui/radio_off_hover": {
+    "uv_size": [
+      10,
+      10
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      10,
+      10
+    ],
+    "back_compat_texture": "textures/gui/newgui/buttons/new_checkbox/spaceHover"
+  },
+  "textures/ui/radio_on": {
+    "uv_size": [
+      10,
+      10
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      10,
+      10
+    ],
+    "back_compat_texture": "textures/gui/newgui/settings/radio_on"
+  },
+  "textures/ui/radio_on_hover": {
+    "uv_size": [
+      10,
+      10
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      10,
+      10
+    ],
+    "back_compat_texture": "textures/gui/newgui/settings/radio_on_hover"
+  },
+  "textures/ui/RealmDemoScreen": {
+    "uv_size": [
+      160,
+      92
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      160,
+      92
+    ],
+    "back_compat_texture": "textures/gui/newgui/RealmDemoScreen"
+  },
+  "textures/ui/realmsIcon": {
+    "uv_size": [
+      11,
+      14
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      11,
+      14
+    ],
+    "back_compat_texture": "textures/gui/newgui/realmsIcon"
+  },
+  "textures/ui/realms_art_icon": {
+    "uv_size": [
+      647,
+      760
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      647,
+      840
+    ],
+    "back_compat_texture": "textures/gui/newgui/RealmsArt"
+  },
+  "textures/ui/realms_green_check": {
+    "uv_size": [
+      15,
+      12
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      15,
+      12
+    ],
+    "back_compat_texture": "textures/gui/newgui/realms_green_check"
+  },
+  "textures/ui/realms_red_x": {
+    "uv_size": [
+      12,
+      12
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      12,
+      12
+    ],
+    "back_compat_texture": "textures/gui/newgui/realms_red_x"
+  },
+  "textures/ui/realms_text_background": {
+    "uv_size": [
+      5,
+      5
+    ],
+    "uv": [
+      642,
+      835
+    ],
+    "base_size": [
+      647,
+      840
+    ],
+    "back_compat_texture": "textures/gui/newgui/RealmsArt"
+  },
+  "textures/ui/redX1": {
+    "uv_size": [
+      12,
+      12
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      12,
+      12
+    ],
+    "back_compat_texture": "textures/gui/newgui/redX1"
+  },
+  "textures/ui/refresh": {
+    "uv_size": [
+      18,
+      14
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      20,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/refresh"
+  },
+  "textures/ui/regeneration_effect": {
+    "uv_size": [
+      18,
+      18
+    ],
+    "uv": [
+      126,
+      184
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/RepeatSquare": {
+    "uv_size": [
+      17,
+      17
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      17,
+      17
+    ],
+    "back_compat_texture": "textures/gui/newgui/RepeatSquare"
+  },
+  "textures/ui/resistance_effect": {
+    "uv_size": [
+      18,
+      18
+    ],
+    "uv": [
+      108,
+      202
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/Rotate": {
+    "uv_size": [
+      45,
+      7
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      45,
+      7
+    ],
+    "back_compat_texture": "textures/gui/newgui/Rotate"
+  },
+  "textures/ui/screenshot_frame": {
+    "uv_size": [
+      80,
+      80
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      80,
+      80
+    ],
+    "back_compat_texture": "textures/gui/newgui/portfolio/screenshot_frame"
+  },
+  "textures/ui/ScrollBox": {
+    "uv_size": [
+      3,
+      3
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      3,
+      3
+    ],
+    "back_compat_texture": "textures/gui/newgui/ScrollBox"
+  },
+  "textures/ui/ScrollGutterWithBG": {
+    "uv_size": [
+      3,
+      3
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      3,
+      3
+    ],
+    "back_compat_texture": "textures/gui/newgui/ScrollGutterWithBG"
+  },
+  "textures/ui/ScrollHandle": {
+    "uv_size": [
+      3,
+      5
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      3,
+      5
+    ],
+    "back_compat_texture": "textures/gui/newgui/ScrollHandle"
+  },
+  "textures/ui/seeds": {
+    "uv_size": [
+      16,
+      16
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/seeds"
+  },
+  "textures/ui/selected_hotbar_slot": {
+    "uv_size": [
+      24,
+      24
+    ],
+    "uv": [
+      0,
+      22
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/sign": {
+    "uv_size": [
+      24,
+      12
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      24,
+      12
+    ],
+    "back_compat_texture": "textures/gui/sign"
+  },
+  "textures/ui/slider_background": {
+    "uv_size": [
+      3,
+      3
+    ],
+    "uv": [
+      120,
+      21
+    ],
+    "base_size": [
+      455,
+      256
+    ],
+    "back_compat_texture": "textures/gui/achievements/placeholder"
+  },
+  "textures/ui/slider_border": {
+    "uv_size": [
+      3,
+      3
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      3,
+      3
+    ],
+    "back_compat_texture": "textures/gui/newgui/WhiteBorder"
+  },
+  "textures/ui/slider_button_default": {
+    "uv_size": [
+      6,
+      6
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      8,
+      8
+    ],
+    "back_compat_texture": "textures/gui/newgui/ButtonWithBorder"
+  },
+  "textures/ui/slider_button_hover": {
+    "uv_size": [
+      6,
+      6
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      8,
+      8
+    ],
+    "back_compat_texture": "textures/gui/newgui/ButtonWithBorderHover"
+  },
+  "textures/ui/slider_step_background": {
+    "uv_size": [
+      3,
+      3
+    ],
+    "uv": [
+      120,
+      21
+    ],
+    "base_size": [
+      455,
+      256
+    ],
+    "back_compat_texture": "textures/gui/achievements/placeholder"
+  },
+  "textures/ui/slowness_effect": {
+    "uv_size": [
+      18,
+      18
+    ],
+    "uv": [
+      18,
+      184
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/snowy": {
+    "uv_size": [
+      413,
+      300
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      413,
+      300
+    ],
+    "back_compat_texture": "textures/gui/newgui/snowy"
+  },
+  "textures/ui/solidtransparency": {
+    "uv_size": [
+      2,
+      2
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      2,
+      2
+    ],
+    "back_compat_texture": "textures/gui/achievements/solidtransparency"
+  },
+  "textures/ui/sound_glyph": {
+    "uv_size": [
+      16,
+      12
+    ],
+    "uv": [
+      75,
+      34
+    ],
+    "base_size": [
+      128,
+      64
+    ],
+    "back_compat_texture": "textures/gui/newgui/settings/glyph_atlas"
+  },
+  "textures/ui/sound_glyph_color": {
+    "uv_size": [
+      16,
+      12
+    ],
+    "uv": [
+      75,
+      34
+    ],
+    "base_size": [
+      128,
+      64
+    ],
+    "back_compat_texture": "textures/gui/newgui/settings/glyph_color_atlas"
+  },
+  "textures/ui/speed_effect": {
+    "uv_size": [
+      18,
+      18
+    ],
+    "uv": [
+      0,
+      184
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/storageIcon": {
+    "uv_size": [
+      17,
+      16
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      17,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/settings/storageIcon"
+  },
+  "textures/ui/storageIconColor": {
+    "uv_size": [
+      17,
+      16
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      17,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/settings/storageIconColor"
+  },
+  "textures/ui/StoreTopBar": {
+    "uv_size": [
+      3,
+      5
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      3,
+      5
+    ],
+    "back_compat_texture": "textures/gui/newgui/StoreTopBar"
+  },
+  "textures/ui/storexblsignin": {
+    "uv_size": [
+      413,
+      300
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      413,
+      300
+    ],
+    "back_compat_texture": "textures/gui/newgui/storexblsignin"
+  },
+  "textures/ui/strength_effect": {
+    "uv_size": [
+      18,
+      18
+    ],
+    "uv": [
+      72,
+      184
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/structure_block": {
+    "uv_size": [
+      16,
+      16
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/structure_block"
+  },
+  "textures/ui/structure_block_corner": {
+    "uv_size": [
+      16,
+      16
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/structure_block_corner"
+  },
+  "textures/ui/structure_block_data": {
+    "uv_size": [
+      16,
+      16
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/structure_block_data"
+  },
+  "textures/ui/structure_block_export": {
+    "uv_size": [
+      16,
+      16
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/structure_block_export"
+  },
+  "textures/ui/structure_block_load": {
+    "uv_size": [
+      16,
+      16
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/structure_block_load"
+  },
+  "textures/ui/structure_block_save": {
+    "uv_size": [
+      16,
+      16
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/structure_block_save"
+  },
+  "textures/ui/subscription_glyph": {
+    "uv_size": [
+      15,
+      13
+    ],
+    "uv": [
+      100,
+      34
+    ],
+    "base_size": [
+      128,
+      64
+    ],
+    "back_compat_texture": "textures/gui/newgui/settings/glyph_atlas"
+  },
+  "textures/ui/subscription_glyph_color": {
+    "uv_size": [
+      15,
+      13
+    ],
+    "uv": [
+      100,
+      34
+    ],
+    "base_size": [
+      128,
+      64
+    ],
+    "back_compat_texture": "textures/gui/newgui/settings/glyph_color_atlas"
+  },
+  "textures/ui/sword": {
+    "uv_size": [
+      16,
+      16
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/sword"
+  },
+  "textures/ui/TabTopBack": {
+    "uv_size": [
+      12,
+      10
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      12,
+      10
+    ],
+    "back_compat_texture": "textures/gui/newgui/TabBack"
+  },
+  "textures/ui/TabTopBackLeftMost": {
+    "uv_size": [
+      12,
+      11
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      12,
+      11
+    ],
+    "back_compat_texture": "textures/gui/newgui/TabBackInGameLeftMost"
+  },
+  "textures/ui/TabTopFront": {
+    "uv_size": [
+      12,
+      10
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      12,
+      10
+    ],
+    "back_compat_texture": "textures/gui/newgui/TabFront"
+  },
+  "textures/ui/TabTopFrontLeftMost": {
+    "uv_size": [
+      12,
+      11
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      12,
+      11
+    ],
+    "back_compat_texture": "textures/gui/newgui/TabFrontInGameLeftMost"
+  },
+  "textures/ui/text_edit_base": {
+    "uv_size": [
+      8,
+      8
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      8,
+      8
+    ],
+    "back_compat_texture": "textures/gui/newgui/text_edit_base"
+  },
+  "textures/ui/text_edit_hover": {
+    "uv_size": [
+      8,
+      8
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      8,
+      8
+    ],
+    "back_compat_texture": "textures/gui/newgui/text_edit_hover"
+  },
+  "textures/ui/text_label_box": {
+    "uv_size": [
+      4,
+      4
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      4,
+      4
+    ],
+    "back_compat_texture": "textures/gui/newgui/settings/text_label_box"
+  },
+  "textures/ui/ThinPlus": {
+    "uv_size": [
+      7,
+      7
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      7,
+      7
+    ],
+    "back_compat_texture": "textures/gui/newgui/ThinPlus"
+  },
+  "textures/ui/title_edu": {
+    "uv_size": [
+      1938,
+      472
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      1938,
+      472
+    ],
+    "back_compat_texture": "textures/gui/titleEdu"
+  },
+  "textures/ui/title_firetv": {
+    "uv_size": [
+      1936,
+      360
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      1936,
+      360
+    ],
+    "back_compat_texture": "textures/gui/titleFireTV"
+  },
+  "textures/ui/title_pe": {
+    "uv_size": [
+      512,
+      64
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      512,
+      64
+    ],
+    "back_compat_texture": "textures/gui/title"
+  },
+  "textures/ui/title_vr": {
+    "uv_size": [
+      1936,
+      375
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      1936,
+      375
+    ],
+    "back_compat_texture": "textures/gui/titleVR"
+  },
+  "textures/ui/title_win10": {
+    "uv_size": [
+      1936,
+      365
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      1936,
+      365
+    ],
+    "back_compat_texture": "textures/gui/titleOriginal"
+  },
+  "textures/ui/toggle_off": {
+    "uv_size": [
+      30,
+      16
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      30,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/settings/toggle_off"
+  },
+  "textures/ui/toggle_off_hover": {
+    "uv_size": [
+      30,
+      16
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      30,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/settings/toggle_off_hover"
+  },
+  "textures/ui/toggle_on": {
+    "uv_size": [
+      30,
+      16
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      30,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/settings/toggle_on"
+  },
+  "textures/ui/toggle_on_hover": {
+    "uv_size": [
+      30,
+      16
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      30,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/settings/toggle_on_hover"
+  },
+  "textures/ui/touch_glyph": {
+    "uv_size": [
+      20,
+      14
+    ],
+    "uv": [
+      25,
+      0
+    ],
+    "base_size": [
+      128,
+      64
+    ],
+    "back_compat_texture": "textures/gui/newgui/settings/glyph_atlas"
+  },
+  "textures/ui/touch_glyph_color": {
+    "uv_size": [
+      20,
+      14
+    ],
+    "uv": [
+      25,
+      0
+    ],
+    "base_size": [
+      128,
+      64
+    ],
+    "back_compat_texture": "textures/gui/newgui/settings/glyph_color_atlas"
+  },
+  "textures/ui/train": {
+    "uv_size": [
+      267,
+      243
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      267,
+      243
+    ],
+    "back_compat_texture": "textures/gui/newgui/train"
+  },
+  "textures/ui/trash": {
+    "uv_size": [
+      13,
+      17
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      13,
+      17
+    ],
+    "back_compat_texture": "textures/gui/newgui/storage/trash"
+  },
+  "textures/ui/trash_default": {
+    "uv_size": [
+      11,
+      12
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      11,
+      12
+    ],
+    "back_compat_texture": "textures/gui/newgui/portfolio/trash_default"
+  },
+  "textures/ui/trash_hover": {
+    "uv_size": [
+      11,
+      12
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      11,
+      12
+    ],
+    "back_compat_texture": "textures/gui/newgui/portfolio/trash_hover"
+  },
+  "textures/ui/trash_pressed": {
+    "uv_size": [
+      11,
+      12
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      11,
+      12
+    ],
+    "back_compat_texture": "textures/gui/newgui/portfolio/trash_pressed"
+  },
+  "textures/ui/trophy": {
+    "uv_size": [
+      16,
+      16
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/achievements/trophy"
+  },
+  "textures/ui/trophy_banner_icon": {
+    "uv_size": [
+      11,
+      14
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/achievements/trophy"
+  },
+  "textures/ui/undoArrow": {
+    "uv_size": [
+      14,
+      14
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      14,
+      14
+    ],
+    "back_compat_texture": "textures/gui/newgui/undoArrow"
+  },
+  "textures/ui/unLock": {
+    "uv_size": [
+      10,
+      8
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      10,
+      8
+    ],
+    "back_compat_texture": "textures/gui/newgui/unLock"
+  },
+  "textures/ui/update": {
+    "uv_size": [
+      11,
+      17
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      11,
+      17
+    ],
+    "back_compat_texture": "textures/gui/newgui/storage/update"
+  },
+  "textures/ui/UpdateGlyph": {
+    "uv_size": [
+      13,
+      20
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      13,
+      20
+    ],
+    "back_compat_texture": "textures/gui/newgui/UpdateGlyph"
+  },
+  "textures/ui/up_arrow": {
+    "uv_size": [
+      12,
+      12
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/UpArrow"
+  },
+  "textures/ui/video_glyph": {
+    "uv_size": [
+      15,
+      12
+    ],
+    "uv": [
+      25,
+      17
+    ],
+    "base_size": [
+      128,
+      64
+    ],
+    "back_compat_texture": "textures/gui/newgui/settings/glyph_atlas"
+  },
+  "textures/ui/video_glyph_color": {
+    "uv_size": [
+      15,
+      12
+    ],
+    "uv": [
+      25,
+      17
+    ],
+    "base_size": [
+      128,
+      64
+    ],
+    "back_compat_texture": "textures/gui/newgui/settings/glyph_color_atlas"
+  },
+  "textures/ui/vr_glyph": {
+    "uv_size": [
+      19,
+      11
+    ],
+    "uv": [
+      0,
+      51
+    ],
+    "base_size": [
+      128,
+      64
+    ],
+    "back_compat_texture": "textures/gui/newgui/settings/glyph_atlas"
+  },
+  "textures/ui/vr_glyph_color": {
+    "uv_size": [
+      19,
+      11
+    ],
+    "uv": [
+      0,
+      51
+    ],
+    "base_size": [
+      128,
+      64
+    ],
+    "back_compat_texture": "textures/gui/newgui/settings/glyph_color_atlas"
+  },
+  "textures/ui/WarningGlyph": {
+    "uv_size": [
+      13,
+      20
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      13,
+      20
+    ],
+    "back_compat_texture": "textures/gui/newgui/WarningGlyph"
+  },
+  "textures/ui/water_breathing_effect": {
+    "uv_size": [
+      18,
+      18
+    ],
+    "uv": [
+      0,
+      220
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/weakness_effect": {
+    "uv_size": [
+      18,
+      18
+    ],
+    "uv": [
+      90,
+      184
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/White": {
+    "uv_size": [
+      2,
+      2
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      2,
+      2
+    ],
+    "back_compat_texture": "textures/gui/newgui/White"
+  },
+  "textures/ui/windowsshare": {
+    "uv_size": [
+      16,
+      15
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      15
+    ],
+    "back_compat_texture": "textures/gui/newgui/storage/windowsshare"
+  },
+  "textures/ui/wither_effect": {
+    "uv_size": [
+      18,
+      18
+    ],
+    "uv": [
+      18,
+      220
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/gui"
+  },
+  "textures/ui/wither_heart": {
+    "uv_size": [
+      9,
+      9
+    ],
+    "uv": [
+      124,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/icons"
+  },
+  "textures/ui/wither_heart_flash": {
+    "uv_size": [
+      9,
+      9
+    ],
+    "uv": [
+      142,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/icons"
+  },
+  "textures/ui/wither_heart_flash_half": {
+    "uv_size": [
+      9,
+      9
+    ],
+    "uv": [
+      151,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/icons"
+  },
+  "textures/ui/wither_heart_half": {
+    "uv_size": [
+      9,
+      9
+    ],
+    "uv": [
+      133,
+      0
+    ],
+    "base_size": [
+      256,
+      256
+    ],
+    "back_compat_texture": "textures/gui/icons"
+  },
+  "textures/ui/World": {
+    "uv_size": [
+      16,
+      16
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      16
+    ],
+    "back_compat_texture": "textures/gui/newgui/World"
+  },
+  "textures/ui/WorldDemoScreen": {
+    "uv_size": [
+      160,
+      92
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      160,
+      92
+    ],
+    "back_compat_texture": "textures/gui/newgui/WorldDemoScreen"
+  },
+  "textures/ui/worldsIcon": {
+    "uv_size": [
+      16,
+      17
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      16,
+      17
+    ],
+    "back_compat_texture": "textures/gui/newgui/worldsIcon"
+  },
+  "textures/ui/world_glyph": {
+    "uv_size": [
+      16,
+      17
+    ],
+    "uv": [
+      75,
+      0
+    ],
+    "base_size": [
+      128,
+      64
+    ],
+    "back_compat_texture": "textures/gui/newgui/settings/glyph_atlas"
+  },
+  "textures/ui/world_glyph_color": {
+    "uv_size": [
+      16,
+      17
+    ],
+    "uv": [
+      75,
+      0
+    ],
+    "base_size": [
+      128,
+      64
+    ],
+    "back_compat_texture": "textures/gui/newgui/settings/glyph_color_atlas"
+  },
+  "textures/ui/Wrenches1": {
+    "uv_size": [
+      14,
+      14
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      14,
+      14
+    ],
+    "back_compat_texture": "textures/gui/newgui/Wrenches1"
+  },
+  "textures/ui/xbox4": {
+    "uv_size": [
+      27,
+      27
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      27,
+      27
+    ],
+    "back_compat_texture": "textures/gui/newgui/xbox4"
+  },
+  "textures/ui/XTab": {
+    "uv_size": [
+      10,
+      10
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      10,
+      10
+    ],
+    "back_compat_texture": "textures/gui/newgui/XTab"
+  },
+  "textures/ui/xyz_axis": {
+    "uv_size": [
+      63,
+      69
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      63,
+      69
+    ],
+    "back_compat_texture": "textures/gui/newgui/xyz_axis"
+  },
+  "textures/ui/x_default": {
+    "uv_size": [
+      7,
+      7
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      7,
+      7
+    ],
+    "back_compat_texture": "textures/gui/newgui/portfolio/x_default"
+  },
+  "textures/ui/x_hover": {
+    "uv_size": [
+      7,
+      7
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      7,
+      7
+    ],
+    "back_compat_texture": "textures/gui/newgui/portfolio/x_hover"
+  },
+  "textures/ui/x_pressed": {
+    "uv_size": [
+      7,
+      7
+    ],
+    "uv": [
+      0,
+      0
+    ],
+    "base_size": [
+      7,
+      7
+    ],
+    "back_compat_texture": "textures/gui/newgui/portfolio/x_pressed"
+  },
+  "textures/ui/lightgreybars": {
+    "uv_size": [ 1, 1 ],
+    "uv": [ 0, 0 ],
+    "base_size": [ 1, 1 ],
+    "back_compat_texture": "textures/gui/achievements/lightgreybars"
+  },
+  "textures/ui/mashup_hangar": {
+    "uv_size": [ 20, 20 ],
+    "uv": [ 0, 0 ],
+    "base_size": [ 20, 20 ],
+    "back_compat_texture": "textures/gui/newgui/Bundle/hangar"
+  },
+  "textures/ui/mashup_PaintBrush": {
+    "uv_size": [ 20, 20 ],
+    "uv": [ 0, 0 ],
+    "base_size": [ 20, 20 ],
+    "back_compat_texture": "textures/gui/newgui/Bundle/PaintBrush"
+  },
+  "textures/ui/mashup_world": {
+    "uv_size": [ 20, 20 ],
+    "uv": [ 0, 0 ],
+    "base_size": [ 20, 20 ],
+    "back_compat_texture": "textures/gui/newgui/Bundle/world"
+  },
+  "textures/ui/newTouchScrollBox": {
+    "uv_size": [ 1, 1 ],
+    "uv": [ 0, 0 ],
+    "base_size": [ 1, 1 ],
+    "back_compat_texture": "textures/gui/newgui/newTouchScrollBox"
+  },
+  "textures/ui/ScrollRail": {
+    "uv_size": [ 1, 1 ],
+    "uv": [ 0, 0 ],
+    "base_size": [ 1, 1 ],
+    "back_compat_texture": "textures/gui/newgui/ScrollRail"
+  },
+  "textures/ui/touchScrollBox": {
+    "uv_size": [ 1, 1 ],
+    "uv": [ 0, 0 ],
+    "base_size": [ 1, 1 ],
+    "back_compat_texture": "textures/gui/newgui/touchScrollBox"
+  }
+}

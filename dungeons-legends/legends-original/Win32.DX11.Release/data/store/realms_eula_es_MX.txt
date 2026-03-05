@@ -1,0 +1,175 @@
+﻿CONTRATO DE LICENCIA DEL USUARIO FINAL DE MINECRAFT REALMS
+Este Contrato de Licencia del Usuario Final (el "EULA" o los "Términos") es un acuerdo legal entre usted y nosotros (Mojang AB). Los términos de esta licencia establecen algunas reglas para usar el servicio de Minecraft Realms ("Minecraft Realms"). No nos gusta leer documentos de licencias más que a usted, así que hemos procurado hacer este contrato lo más corto posible. Si no cumple con estas reglas, podemos prohibirle que use Minecraft Realms. Si usted usa Minecraft Realms, está aceptando obedecer las reglas de estos Términos. Si no acepta estas reglas o no quiere seguirlas, por favor, no use Minecraft Realms.
+
+Estos Términos incorporan nuestra Política de Privacidad, los Términos de la Cuenta de Mojang, el EULA de Minecraft y, si usted vive en los Estados Unidos, nuestro Contrato de Arbitraje. Por lo tanto, los asuntos cubiertos en dichos documentos deberán ser tratados como si estuvieran estipulados en estos Términos. Cuando nos referimos a estos Términos, queremos decir los términos y condiciones que usted tiene delante, junto con los documentos incorporados que encontrará al seguir los vínculos relevantes.
+
+CONTRATO DE ARBITRAJE OBLIGATORIO Y EXENCIÓN DE DEMANDAS COLECTIVAS
+Aquellos que viven en los Estados Unidos, por favor den clic aquí para revisar el contrato de arbitraje obligatorio y la exención de demandas colectivas que forman parte de este EULA. De acuerdo con el contrato, ambas partes acordamos emplear a un árbitro neutral para decidir cualquier conflicto individual que pueda surgir y por ende, acordamos renunciar a nuestros derechos de presentar reclamos individuales ante la consideración de un juez o de un jurado en un tribunal. También acordamos que las demandas colectivas y los arbitrajes grupales no están permitidos de conformidad con los términos del contrato.
+
+El Contrato de Arbitraje completo está en esta página. Usted y nosotros damos nuestro consentimiento; por favor, léalo.
+
+QUÉ ES MINECRAFT REALMS
+Minecraft Realms es un servicio diseñado para permitir que las personas jueguen Minecraft fácilmente con otras personas en un servidor exclusivo de acuerdo con estos Términos.
+
+Un "Minecraft Realm" es, por lo tanto, un solo mundo, servidor o caso de Minecraft hospedado por nosotros.
+
+Puede usar Minecraft Realms si tiene su propio Minecraft Realm ("Su Minecraft Realm") o cuando le den permiso de usar el Minecraft Realm de alguien más ("Minecraft Realms de Otros"). Las referencias para usar Minecraft Realms incluyen, por lo tanto, el uso de Su Minecraft Realm y los Minecraft Realms de Otros.
+
+CÓMO USAR MINECRAFT REALMS
+Para usar Minecraft Realms, usted necesita, entre otras cosas:
+- tener una copia legítima autorizada por licencia de la versión completa y activada del Juego y una cuenta de Xbox Live (para Minecraft) o una cuenta de Mojang (para Minecraft: Java Edition);
+- aceptar estos Términos, y
+- tener un dispositivo adecuado y conexión a Internet;
+
+CÓMO OBTENER SU MINECRAFT REALM
+Usted necesita tener una cuenta de Xbox Live (para Minecraft) o una cuenta de Mojang (para Minecraft: Java Edition) con Minecraft activado para poder obtener Su Minecraft Realm. También necesitará comprar el servicio o subscribirse y pagar por él. Minecraft Realms es un servicio de suscripción y el costo se detalla en las páginas de compra correspondientes y/o en la plataforma al momento de la compra o en el precio de compra de la tarjeta canjeable o el código de regalo. También se aplicarán los términos y condiciones de las páginas de compra correspondientes, la plataforma, la tarjeta canjeable y/o el código de regalo con respecto a la compra de Minecraft Realms. Minecraft Realms es un servicio que comienza tan pronto como Su Minecraft Realm esté disponible para usarse, después de lo cual usted no tendrá derecho a cancelar su pedido del mismo. CÓMO USAR SU MINECRAFT REALM
+
+Cuando usted obtiene Su Minecraft Realm, tiene acceso a un Minecraft Realm exclusivo en el cual puede:
+
+jugar Minecraft usted mismo;
+invitar a varias personas más a jugar Minecraft con usted (la cantidad de personas depende de la versión de Realms que tenga).
+Sin embargo, usted no puede hacer lo siguiente:
+
+vender, alquilar, arrendar, transferir, regalar, traspasar o negociar de cualquier manera el acceso a Su Minecraft Realm o recibir compensación alguna por permitir que otras personas jueguen en Su Minecraft Realm.
+
+CÓMO USAR LOS MINECRAFT REALMS DE OTROS
+Necesita una copia legítima y activada de Minecraft para poder usar el Minecraft Realm de alguien más (los Minecraft Realms de Otros). Cuando se le permite el acceso a los Minecraft Realms de Otros, usted tiene acceso al Minecraft Realm exclusivo de alguien más, en el cual puede:
+
+- jugar Minecraft con esa persona; y
+- jugar Minecraft con cualquier otra persona a quien el titular le haya permitido el acceso.
+Sin embargo, usted no puede hacer lo siguiente:
+
+- vender, alquilar, arrendar, transferir, regalar, traspasar o negociar de cualquier manera el acceso a los Minecraft Realms de Otros o permitir que cualesquiera otras personas usen su acceso de cualquier manera.
+POR FAVOR NO PERMITA EL ACCESO A SU MINECRAFT REALM A NADIE QUE NO CONOZCA. TENGA CUIDADO SI SE COMUNICA CON OTRAS PERSONAS A TRAVÉS DE MINECRAFT REALMS. ES DIFÍCIL PARA USTED O PARA NOSOTROS SABER CON CERTEZA SI LO QUE LA GENTE DICE ES CIERTO O INCLUSO SI UNA PERSONA ES REALMENTE QUIEN DICE QUE ES. SIEMPRE DEBE PENSARLO DOS VECES ANTES DE DAR INFORMACIÓN PERSONAL A OTROS.
+
+CUENTAS
+Como se indicó antes, usted necesita una cuenta de Xbox Live (para Minecraft) o una cuenta de Mojang (para Minecraft: Java Edition) y una versión legítima autorizada por licencia y activada de Minecraft. Si no tiene esto, se le pedirá que proporcione cierta información para configurar y activar cualquiera de estas opciones o ambas. Los detalles que nos dé como parte del registro deben ser correctos. Usted puede cambiar los detalles de su registro si ya no están actualizados. Si deliberadamente nos dice algo que usted sabe que no es cierto, podemos finalizar o suspender su cuenta.
+
+El nombre de usuario y la contraseña que usted cree y las actividades que ocurran en su cuenta son su responsabilidad. Si alguien usa su contraseña para hacer algo que a usted no le gusta o que le cause daño, no podemos ser responsables y no lo somos.
+
+PROPIEDAD DE MINECRAFT REALMS Y OTRAS COSAS
+Minecraft Realms ha sido creado con nuestro software, texturas, activos, herramientas, infraestructura y toda una serie de otros materiales ingeniosos (y no tan ingeniosos) que son de nuestra propiedad. Todos nuestros derechos sobre dicho material están reservados y reivindicados, pero usted puede usarlos en relación con su uso de Minecraft Realms y dentro de dicho servicio en la misma base que se establece en el EULA de Minecraft y se le otorga un derecho no exclusivo a hacer esto sujeto a estos Términos.
+
+Eso no significa que seamos propietarios del genial material que usted cree usando Minecraft Realms; usted solo tiene que aceptar que nosotros somos los propietarios de cada Minecraft y Minecraft Realms como producto y servicio y las cosas mencionadas en el enunciado anterior, y que también poseemos los derechos de autor y otros llamados derechos de propiedad intelectual ("IPR") asociados con tales cosas, así como los nombres y marcas asociadas con Minecraft y Minecraft Realms.
+
+Usted, por supuesto, hará sus propios materiales usando Minecraft Realms. Nosotros no somos los propietarios del material original que usted cree y no reclamaremos propiedad de ningún tipo que no debamos reclamar. Sin embargo, reclamaremos como propias cosas que sean copias (o copias sustanciales) o derivados de nuestra propiedad y creaciones (antes descritas), excepto las cosas originales que usted cree que no sean nuestras. Por ejemplo:
+
+- un solo bloque es nuestra propiedad;
+- una catedral gótica a través de la cual corre una montaña rusa no es nuestra propiedad.
+Por lo tanto, cuando usted paga por usar Minecraft Realms, solo está comprando un permiso para usar el producto y el servicio de Minecraft Realms de acuerdo con estos Términos. Los únicos permisos que usted tiene en relación con Minecraft Realms son los permisos establecidos en estos Términos, y las excepciones legales o derechos específicos (incluidas las excepciones por uso legítimo o razonable o uso para fines no comerciales previstas en la ley) a los que tiene derecho de otra manera por ley, pero estos generalmente se aplicarán al Contenido y no al propio Minecraft Realms.
+
+Algunas versiones de Realms pueden también permitirle respaldar los datos de Su Minecraft Realm y hacerlo así para que pueda descargarlo a su dispositivo y usarlo con su propia versión (legítima) de Minecraft (y sujeto al EULA de Minecraft).
+
+SU CONTENIDO
+Si usted crea cosas usando Minecraft Realms o elabora algún contenido o material disponible en él o a través de él, ("Su Contenido"), también está de acuerdo en darnos permiso para usarlo, tanto a nosotros como a otras personas que tengan acceso a él. Eso también significa que podemos usar, copiar, modificar, adaptar, distribuir, mostrar públicamente y poner a disposición del público de cualquier manera Su Contenido a otras personas (sin pagos o restricciones). Eso incluye cualquier cosa que usted cree, elabore, arme o construya y todas las comunicaciones que tenga, como las realizadas a través de cualquier funcionalidad de chat que tengamos o pongamos a su disposición. Usted también acepta permitir que otros usen, copien, modifiquen, adapten, distribuyan, muestren públicamente Su Contenido y usted acepta no recibir crédito o atribución alguna por esto.
+
+Esto es necesario por diversas razones, entre ellas, que necesitamos asegurarnos que cuando otras personas (que usted puede invitar) tengan acceso a Su Minecraft Realm, tengan el derecho de hacerlo así y que cuando usted tenga acceso a los Minecraft Realms de Otros también tenga el derecho de hacerlo así. También necesitamos asegurarnos de que no quedemos como responsables de lo que otras personas hagan con Su Contenido cuando usted les permita usarlo porque no podemos controlar eso, y además necesitamos reflejar el hecho de que Su Contenido generalmente incluirá nuestro software, texturas, activos, herramientas, etc. que son de nuestra propiedad (vea los enunciados anteriores).
+
+Estos permisos duran para siempre y no pueden ser revocados. Si no desea otorgar estos permisos, no cree ningún contenido disponible usando Minecraft Realms.
+
+Por lo tanto, piense cuidadosamente antes de hacer disponible algún contenido porque puede hacerse público (incluso para cualquier otra persona que tenga acceso al Minecraft Realms al que usted accede) y puede ser utilizado por otras personas de una manera que a usted no le guste.
+
+Si va a hacer que Su Contenido esté disponible al usar Minecraft Realms al usarlo en Su Minecraft Realm o los Minecraft Realms de Otros, debe cumplir con lo siguiente:
+
+- no debe ser ofensivo para las personas;
+- no debe ser ilegal;
+- debe ser honesto y no engañar, confundir o explotar a ninguna otra persona, ni hacerse pasar por otras personas;
+- no violar los derechos de autor o cualquier otro derecho de nadie;
+- no ser racista, sexista u homofóbico;
+- no debe ser acosador o abusivo;
+- no dañar nuestra reputación o la alguna otra persona;
+- no incluir pornografía;
+- no incluir publicidad;
+
+No debe hacer ningún contenido disponible usando Minecraft Realms que viole los derechos de alguien más.
+
+Usted es responsable de todo el contenido que haga disponible usando Minecraft Realms.
+
+Usted es responsable también de todo el contenido que hagan disponible usted u otras personas usando Su Minecraft Realm.
+
+Al hacer disponible Su Contenido, usted nos dice y garantiza que usted tiene todo el derecho de hacerlo bajo estos Términos y que nosotros tenemos derecho a ejercer los derechos que nos ha otorgado bajo estos Términos.
+
+Si desea avisarnos de que alguien está violando sus derechos de propiedad intelectual en Minecraft Realms o cualquiera de nuestros servicios, envíe su aviso aquí: (https://www.microsoft.com/info/cpyrtInfrg.aspx). Nos reservamos el derecho a bajar cualquier contenido a nuestro criterio. Si es apropiado, podemos finalizar o suspender cuentas de usuarios que sean infractores reincidentes.
+
+OTRO CONTENIDO
+Cuando use Minecraft Realms, puede también acceder y usar contenidos creados por otras personas ("Otro Contenido"). Parte de este Otro Contenido pueden hacerlo disponible las personas a las que usted invite a Su Minecraft Realm y parte puede hacerse disponible por medio del Minecraft Realm de alguien más.
+
+Al igual que con Su Contenido, Otro Contenido también incluirá, por lo general, nuestro software, texturas, activos, herramientas, etc. que son de nuestra propiedad (vea los enunciados anteriores).
+
+Si alguien pone a su disposición o le da acceso a Otro Contenido, entonces usted puede usarlo en Minecraft Realms o en relación con su uso, sujeto a los siguientes Términos. En todo caso, el Otro Contenido está sujeto a estos Términos.
+
+CONTENIDO DEL USUARIO
+Lo siguiente establece algunos términos con respecto a Su Contenido y Otro Contenido, a los que en conjunto se les llama simplemente "Contenido del Usuario".
+
+Minecraft Realms es un servicio de entretenimiento y como complemento de esto, estamos involucrados en la transmisión, distribución, almacenamiento y recuperación del Contenido del Usuario sin revisar, seleccionar o alterar el contenido, del cual es un mero conducto, y/o en el hospedaje del Contenido del Usuario sin conocimiento de dicho contenido. Esto significa que no vigilamos o revisamos el Contenido del Usuario, así que no sabemos qué es lo que están divulgando usted u otras personas. Podemos revisarlo para fines de cumplimiento técnico, compatibilidad y/o detección de virus, etc., pero no revisamos el contenido mismo o la información que contiene. Tenemos estas reglas en los Términos que usted y otras personas tienen que cumplir, pero no podemos saber todo lo que ocurre.
+
+Por ello, tome en cuenta lo siguiente:
+
+- los puntos de vista que se expresen en todo Contenido del Usuario son opiniones de los autores o creadores en particular, no las nuestras, ni las de alguien relacionado con nosotros, a menos que así lo especifiquemos;
+- no somos responsables (y, sujeto a la ley aplicable, no establecemos garantía o declaración alguna sobre dicho asunto y nos deslindamos de toda responsabilidad al respecto) del Contenido del Usuario, incluidos los comentarios, opiniones u observaciones que en él se expresen;
+- al usar Minecraft Realms, usted reconoce que no tenemos la responsabilidad de vigilar o revisar el contenido de ningún Contenido del Usuario y que todo el Contenido del Usuario se hace disponible con base en que no estamos obligados, ni ejercemos control o juicio alguno sobre él;
+- cuando usted se comunica con otros jugadores, no pida conocer personalmente a personas que no conocía personalmente antes de usar el servicio.
+SIN EMBARGO, podemos retirar, rechazar o suspender el acceso a cualquier Contenido del Usuario y eliminar o suspender su capacidad para publicar, hacer disponible o acceder a Contenido del Usuario, incluso retirar o suspender el acceso a Su Minecraft Realm o a Minecraft Realms de Otros si lo consideramos apropiado, como en el caso de que no cumpla con estos Términos o si recibimos una queja que creamos que justifique dicha acción. También actuaremos en forma expedita para retirar o desactivar el acceso al Contenido del Usuario cuando tengamos conocimiento de que es ilegal.
+
+ACTUALIZACIONES
+Podemos hacer actualizaciones, mejoras o parches (que en conjunto los llamamos "actualizaciones") y ponerlas a disposición pública cada cierto tiempo, pero no estamos obligados a hacerlo.
+
+Tampoco estamos obligados a ofrecer mantenimiento o soporte continuo para Minecraft Realms. Así que ya lo sabe.
+
+Por supuesto, esperamos seguir lanzando nuevas actualizaciones de Minecraft Realms, pero no podemos garantizar que así lo haremos.
+
+PAGOS, REEMBOLSOS, ETC.
+Los Términos de la Cuenta de Mojang cubre los pagos y reembolsos; sin embargo, Minecraft Realms es un servicio que comienza tan pronto como Su Minecraft Realm esté disponible para usted o en cuanto usted pueda acceder a él. Por lo tanto, usted no puede cancelar ningún pedido o compra al respecto después de eso. Esto no afecta ningún derecho que usted tenga como consumidor y si no puede usar minecraft Realms por una falla o error, entonces infórmenos de ello y buscaremos cómo arreglarlo; si no podemos arreglarlo, entonces puede tener derecho a un reembolso.
+
+RESPONSABILIDAD, LEGISLACIÓN APLICABLE Y LUGAR PARA RESOLVER CONFLICTOS
+
+Este EULA no afecta ningunos derechos legales (estatutarios) que usted pueda tener bajo la ley aplicable para usted con respecto a Minecraft Realms o cualquier cosa que compre a través de nuestro sitio web. Usted puede tener ciertos derechos que, de acuerdo con la ley aplicable a usted, no pueden ser excluidos. Nada que digamos en este EULA afectará tales derechos legales, aún cuando digamos algo que parezca contradecir sus derechos legales. Eso es lo que queremos decir cuando nos referimos a "sujeto a la ley aplicable".
+
+SUJETO A LA LEY APLICABLE, NO SOMOS RESPONSABLES DE LO SIGUIENTE:
+
+- EL USO O MAL USO DE SU MINECRAFT REALM O LOS MINECRAFT REALMS DE OTROS;
+- EL USO O MAL USO DE MINECRAFT REALMS POR PARTE DE USTED O CUALQUIER OTRA PERSONA;
+- EL CONTENIDO QUE USTED HAGA DISPONIBLE AL USAR MINECRAFT REALMS.
+- EL INCUMPLIMIENTO CON ESTOS TÉRMINOS POR PARTE DE USTED;
+- EL INCUMPLIMIENTO CON ESTOS TÉRMINOS POR PARTE DE CUALQUIER OTRA PERSONA.
+- USTED ES RESPONSABLE DE LO SIGUIENTE:
+- TODO USO QUE USTED HAGA DE MINECRAFT REALMS;
+- TODO USO DE SU MINECRAFT REALM Y EL USO QUE USTED HAGA DE LOS MINECRAFT REALMS DE OTROS;
+- EL INCUMPLIMIENTO CON ESTOS TÉRMINOS POR PARTE DE USTED;
+- TODO EL CONTENIDO QUE USTED HAGA DISPONIBLE AL USAR MINECRAFT REALMS.
+- TODO EL CONTENIDO QUE USTED U OTROS HAGAN DISPONIBLE AL USAR SU MINECRAFT REALM.
+
+SUJETO A LA LEY APLICABLE, Minecraft Realms se proporciona 'tal cual'. Las actualizaciones también se proporcionan 'tal cual'. Esto significa que no estamos haciéndole promesas acerca del estándar o calidad de Minecraft Realms o que Minecraft Realms funcionará sin interrupciones o sin errores; HASTA EL MÁXIMO NIVEL PERMITIDO POR LA LEY APLICABLE, no somos responsables de las pérdidas o daños que esto cause. Usted tiene que aceptar que estamos lanzando Minecraft Realms en beta y que estamos introduciendo y mejorando sus funciones continuamente, así que puede tener errores (y a menudo los tendrá), pero preferimos lanzar estas funciones pronto en vez de hacerle esperar hasta lograr la perfección.
+
+Si alguna vez hay un conflicto entre usted y nosotros ante un tribunal (y al igual que usted, esperamos que eso no ocurra), el foro exclusivo (es decir, el lugar donde se manejará dicho conflicto) será un tribunal estatal o federal del condado de King, WA (si usted vive en los Estados Unidos) o en un tribunal de Ontario (si vive en Canadá). (Si vive en los Estados Unidos, la mayoría de los conflictos se van al arbitraje, no a un tribunal). Las leyes de su estado o provincia rigen este EULA y todos los conflictos, incluidos los conflictos relacionados con él, nuestro Juego o nuestro Sitio Web, independientemente del conflicto de principios legales, excepto donde intervenga la Ley de Arbitraje Federal, que rige todo lo relacionado con el arbitraje.
+
+MINECRAFT REALMS ES UN TRABAJO EN DESARROLLO Y PUEDE CONTENER DEFECTOS Y ERRORES, BLOQUEARSE Y/O CAUSAR PÉRDIDA DE DATOS. LO SENTIMOS SI ESO LE OCURRE; POR FAVOR RESPALDE Y GUARDE TODOS LOS DATOS Y PROGRAMAS DE SU DISPOSITIVO. EN TÉRMINOS SIMPLES, USTED USA MINECRAFT REALMS BAJO SU PROPIO RIESGO, A SABIENDAS DE QUE SE LE HA ENTREGADO "TAL CUAL".
+
+ASEGÚRESE DE RESPALDAR LOS DATOS DE SU MINECRAFT REALM REGULARMENTE. NOSOTROS NO RESPALDAMOS AUTOMÁTICAMENTE, ASÍ QUE SI UN MINECRAFT REALM O ALGÚN CONTENIDO DEL USUARIO SE BLOQUEA, PUEDE PERDERLO. SI ESO OCURRE, LO SENTIMOS, PERO LO ÚNICO QUE RECIBIRÁ DE NOSOTROS ES ESA DISCULPA. DENUNCIAS
+
+A veces, algunas personas hacen cosas indebidas. Eso no nos gusta, pero no podemos hacer mucho para evitarlo, mas que pedir a todos que se comporten apropiadamente. Confiamos en que usted y otras personas como usted en la comunidad nos informen si alguien no se está comportando debidamente y, si ese es el caso y/o usted cree que alguien no está cumpliendo con estos Términos o usando Minecraft Realms indebidamente, por favor infórmenos al respecto. Tenemos un sistema de banderazo o reporte para informar al respecto, por favor úselo y haremos lo que sea necesario para remediarlo.
+
+FINALIZACIÓN
+Si no cumple con estos términos o alguna parte de ellos, podemos finalizar este contrato de licencia y su uso de Minecraft Realms. Usted también puede finalizarlo en cualquier momento, solo deje de usar Su Minecraft Realm y deje de permitir que otros tengan acceso a él. Después de la finalización, usted ya no podrá usar Minecraft Realm o permitir el acceso de otras personas a su Minecraft Realm. Sin embargo, el Contrato de Arbitraje (si vive en los Estados Unidos) y las secciones acerca de la "Propiedad de Minecraft Realms", "Nuestra Responsabilidad y "General" se seguirán aplicando aún después de la finalización.
+
+GENERAL
+Este EULA describe ciertos derechos legales. Las leyes de su estado o país pueden otorgarle otros derechos, inclusive derechos como consumidor, que este EULA no puede cambiar; en tal caso, este EULA se aplicará hasta donde la ley lo permita. Nada excluye o limita nuestra responsabilidad en caso de que se causen lesiones corporales o muertes por negligencia o declaraciones fraudulentas de nuestra parte.
+
+También podemos cambiar estos Términos cada cierto tiempo si tenemos motivos para ello. Por ejemplo, pudieran haber cambios en nuestros juegos, nuestras prácticas o nuestras obligaciones legales, y que tales cambios se apliquen a su uso de Minecraft Realms a partir de su próximo uso. En tal caso, le informaremos del cambio antes de que entre en vigor, ya sea por medio de la publicación de un aviso en nuestro Sitio Web o por medio de otra vía razonable. No vamos a ser injustos sobre esto, pero a veces, las leyes cambian o alguien hace algo que afecta a otros usuarios de Minecraft Realms y por ello necesitamos poner un límite.
+
+Si acude a nosotros con una sugerencia para Minecraft Realms, dicha sugerencia se hará gratuitamente y no tendremos la obligación de aceptarla o considerarla. Eso significa que podremos o no usar su sugerencia de la manera que queramos y no tendremos que pagarle por eso. Si usted cree que tiene una buena sugerencia por la que estaríamos dispuestos a pagarle, por favor no nos diga su sugerencia, a menos que primero nos haya dicho que desea un pago a cambio y le hayamos respondido por escrito para pedirle que envíe dicha sugerencia.
+
+Si tiene alguna pregunta de tipo legal acerca de algo que no se haya respondido en estos Términos, no lo haga o pregúntenos al respecto. Básicamente, no haga el ridículo y nosotros tampoco lo haremos.
+
+Información de la compañía
+
+Mojang AB
+Maria Skolgata 83,
+
+SE-11853
+
+Estocolmo,
+Suecia
+Número de organización:556819-2388
+
+Contáctenos aquí o en support@mojang.com

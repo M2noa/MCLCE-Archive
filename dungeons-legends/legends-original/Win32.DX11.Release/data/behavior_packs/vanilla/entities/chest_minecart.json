@@ -1,0 +1,32 @@
+{
+  "minecraft:entity": {
+    "format_version": "1.2.0",
+
+    "components": {
+      "minecraft:identifier": {
+        "id": "minecraft:chest_minecart"
+      },
+      "minecraft:type_family": {
+        "family": [ "minecart", "inanimate" ]
+      },
+      "minecraft:collision_box": {
+        "width": 0.78,
+        "height": 0.7
+      },
+      "minecraft:rail_movement": {
+
+      },
+      "minecraft:inventory": {
+        "container_type": "minecart_chest",
+        "inventory_size": 27,
+        "can_be_siphoned_from": true
+      },
+      "minecraft:is_stackable": {
+        "value": true
+      },
+	  "minecraft:physics": {
+      }
+    }
+
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "definition.shulker": {
+    "textures": {
+      "undyed": "textures/entity/shulker/shulker_undyed",
+      "white": "textures/entity/shulker/shulker_white",
+      "orange": "textures/entity/shulker/shulker_orange",
+      "magenta": "textures/entity/shulker/shulker_magenta",
+      "light_blue": "textures/entity/shulker/shulker_light_blue",
+      "yellow": "textures/entity/shulker/shulker_yellow",
+      "lime": "textures/entity/shulker/shulker_lime",
+      "pink": "textures/entity/shulker/shulker_pink",
+      "gray": "textures/entity/shulker/shulker_gray",
+      "silver": "textures/entity/shulker/shulker_silver",
+      "cyan": "textures/entity/shulker/shulker_cyan",
+      "purple": "textures/entity/shulker/shulker_purple",
+      "blue": "textures/entity/shulker/shulker_blue",
+      "brown": "textures/entity/shulker/shulker_brown",
+      "green": "textures/entity/shulker/shulker_green",
+      "red": "textures/entity/shulker/shulker_red",
+      "black": "textures/entity/shulker/shulker_black"
+    },
+    "geometry": {
+      "default": "geometry.shulker"
+    }
+  }
+}

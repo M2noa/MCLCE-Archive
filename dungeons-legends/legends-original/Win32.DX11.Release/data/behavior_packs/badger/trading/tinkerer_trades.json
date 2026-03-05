@@ -1,0 +1,144 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "reward_exp": false,
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 32,
+                "max": 32
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:structure_builder:17"
+            }
+          ]
+        },
+        {
+          "reward_exp": false,
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 4,
+                "max": 4
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:structure_builder:3"
+            }
+          ]
+        },
+        {
+          "reward_exp": false,
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 4,
+                "max": 4
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:structure_builder:5"
+            }
+          ]
+        },
+        {
+          "reward_exp": false,
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 4,
+                "max": 4
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:structure_builder:6"
+            }
+          ]
+        },
+        {
+          "reward_exp": false,
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 4,
+                "max": 4
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:structure_builder:4"
+            }
+          ]
+        },
+        {
+          "reward_exp": false,
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 4,
+                "max": 4
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:structure_builder:33"
+            }
+          ]
+        },
+        {
+          "reward_exp": false,
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 4,
+                "max": 4
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:structure_builder:24"
+            }
+          ]
+        },
+        {
+          "reward_exp": false,
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": {
+                "min": 4,
+                "max": 4
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:structure_builder:2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

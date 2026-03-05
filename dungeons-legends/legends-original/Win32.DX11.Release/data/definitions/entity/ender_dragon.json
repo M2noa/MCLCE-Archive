@@ -1,0 +1,12 @@
+{
+  "definition.ender_dragon": {
+    "textures": {
+      "default": "textures/entity/dragon/dragon",
+      "exploding": "textures/entity/dragon/dragon_exploding",
+      "beam": "textures/entity/endercrystal/endercrystal_beam"
+    },
+    "geometry": {
+      "default": "geometry.dragon"
+    }
+  }
+}

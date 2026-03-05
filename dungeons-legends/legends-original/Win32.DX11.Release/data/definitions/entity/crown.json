@@ -1,0 +1,10 @@
+{
+  "definition.crown": {
+    "textures": {
+      "default": "textures/entity/crown"
+    },
+    "geometry": {
+      "default": "geometry.crown"
+    }
+  }
+}

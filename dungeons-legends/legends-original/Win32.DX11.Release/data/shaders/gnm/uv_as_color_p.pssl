@@ -1,0 +1,12 @@
+#include "ShaderConstantsGNM.h"
+
+struct PS_Input
+{
+    float4 position : S_POSITION;
+    float2 uv : TEXCOORD_0;
+};
+
+float4 main( in PS_Input PSInput ) : S_TARGET_OUTPUT
+{
+    return float4( PSInput.uv.xy, 0, 1 );
+}

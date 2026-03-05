@@ -1,0 +1,10 @@
+{
+  "definition.endermite": {
+    "textures": {
+      "default": "textures/entity/endermite"
+    },
+    "geometry": {
+      "default": "geometry.endermite"
+    }
+  }
+}

@@ -1,0 +1,175 @@
+{
+    "terrain_opaque": {
+        "vertexShader": "shaders/renderchunk.vertex",
+        "fragmentShader": "shaders/renderchunk.fragment",
+
+        "defines": [ "LOW_PRECISION", "TEXEL_AA", "ATLAS_TEXTURE" ],
+
+        "samplerStates": [
+          {
+            "samplerIndex": 0,
+            "textureFilter" : "TexelAA"
+          },
+          {
+            "samplerIndex": 1,
+            "textureFilter": "Bilinear"
+          }
+        ]
+    },
+
+    "terrain_opaque_seasons:terrain_opaque": {
+      "defines": [ "SEASONS" ],
+      "samplerStates": [
+        {
+          "samplerIndex": 0,
+          "textureFilter" : "TexelAA"
+        },
+        {
+          "samplerIndex": 1,
+          "textureFilter": "Bilinear"
+        },
+        {
+          "samplerIndex": 2,
+          "textureFilter": "Point"
+        }
+      ]
+
+    },
+
+    "terrain_blend:terrain_opaque": {
+        "defines": [ "BLEND" ],
+        "states": [
+          "Blending"
+        ]
+    },
+
+    "terrain_water:terrain_blend": {
+        "defines": [ "NEAR_WATER" ],
+
+        "states": [
+          "PolygonOffset",
+          "Blending"
+        ],
+
+        // Fix z-fighting by offsetting water polygons by epsilon
+        "polygonOffsetLevel": 0.1
+    },
+
+    "terrain_blend_below:terrain_blend": {
+        "states": [ "InvertCulling", "Blending", "EnableStencilTest" ]
+    },
+
+    "terrain_water_below:terrain_water": {
+        "states": [ "InvertCulling", "Blending", "EnableStencilTest" ]
+    },
+
+    "terrain_doubleside:terrain_opaque": {
+        "states": [ "DisableCulling" ]
+    },
+
+    "terrain_alpha_single_side:terrain_opaque": {
+        "defines": [ "ALPHA_TEST" ],
+        "states": [ "EnableAlphaToCoverage" ]
+    },
+
+    "terrain_alpha_seasons:terrain_opaque": {
+      "defines": [ "ALPHA_TEST", "SEASONS" ],
+      "states": [ "DisableCulling", "EnableAlphaToCoverage" ],
+      "samplerStates": [
+        {
+          "samplerIndex": 0,
+          "textureFilter" : "TexelAA"
+        },
+        {
+          "samplerIndex": 1,
+          "textureFilter": "Bilinear"
+        },
+        {
+          "samplerIndex": 2,
+          "textureFilter": "Point"
+        }
+      ]
+
+    },
+
+    "terrain_alpha:terrain_alpha_single_side": {
+        "states": [ "DisableCulling", "PolygonOffset" ],
+
+        // z-fighting fix
+        "polygonOffsetLevel" : 0.1
+    },
+
+    "terrain_opaque_fog:terrain_opaque": {
+        "defines": [ "FOG" ]
+    },
+
+    "terrain_water_fog:terrain_water": {
+        "defines": [ "FOG", "BLEND", "NEAR_WATER" ]
+    },
+
+    "terrain_water_below_fog:terrain_water_fog": {
+        "states": [ "InvertCulling", "Blending", "EnableStencilTest" ]
+    },
+
+    "terrain_blend_fog:terrain_blend": {
+        "defines": [ "FOG", "BLEND" ]
+    },
+
+    "terrain_blend_below_fog:terrain_blend_fog": {
+        "states": [ "InvertCulling", "Blending", "EnableStencilTest" ]
+    },
+
+    "terrain_doubleside_fog:terrain_doubleside": {
+        "defines": [ "FOG" ]
+    },
+
+    "terrain_alpha_single_side_fog:terrain_alpha_single_side": {
+        "defines": [ "FOG" ]
+    },
+
+    "terrain_alpha_fog:terrain_alpha": {
+        "defines": [ "FOG" ]
+    },
+
+    "terrain_far:terrain_opaque": {
+        "defines": [
+            "FOG",
+            "LOW_PRECISION"
+        ]
+    },
+
+    "terrain_seasons_far:terrain_opaque_seasons": {
+        "defines": [
+            "FOG",
+            "LOW_PRECISION"
+        ]
+    },
+
+    "terrain_seasons_far_alpha:terrain_opaque_seasons": {
+        "defines": [
+            "FOG",
+            "LOW_PRECISION",
+            "SEASONS_FAR"
+        ]
+    },
+
+	"terrain_fading_in:terrain_far": {
+		"defines" : ["ALLOW_FADE"]
+	},
+
+    "terrain_seasons_fading_in:terrain_seasons_far": {
+        "defines": [ "ALLOW_FADE" ]
+    },
+
+	"terrain_seasons_fading_in_alpha:terrain_seasons_far_alpha": {
+		"defines" : ["ALLOW_FADE"]
+	},
+
+  "terrain_inside_block": {
+    "depthFunc": "LessEqual",
+
+    "vertexShader": "shaders/position.vertex",
+    "fragmentShader": "shaders/current_color.fragment"
+  }
+
+}

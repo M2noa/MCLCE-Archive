@@ -1,0 +1,13 @@
+{
+  "definition.zombie_pigman": {
+    "textures": {
+      "default": "textures/entity/pig/pigzombie"
+    },
+    "geometry": {
+      "default": "geometry.pigzombie",
+      "armor1": "geometry.humanoid.armor1",
+      "armor2": "geometry.humanoid.armor2",
+      "baby": "geometry.pigzombie.baby"
+    }
+  }
+}

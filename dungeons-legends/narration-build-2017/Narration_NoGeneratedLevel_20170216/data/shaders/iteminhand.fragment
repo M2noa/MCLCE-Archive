@@ -1,0 +1,44 @@
+// __multiversion__
+// This signals the loading code to prepend either #version 100 or #version 300 es as apropriate.
+
+// To use centroid sampling we need to have version 300 es shaders, which requires changing:
+// attribute to in
+// varying to out when in vertex shaders or in when in fragment shaders
+// defining an out vec4 FragColor and replacing uses of gl_FragColor with FragColor
+// texture2D to texture
+#if __VERSION__ >= 300
+
+// version 300 code
+
+#define varying in
+#define texture2D texture
+layout(location = 0) out vec4 FragColor;
+#define gl_FragColor FragColor
+layout(location = 1) out vec4 FragData;
+#define gl_FragData FragData
+
+#else
+
+// version 100 code
+
+#endif
+
+uniform vec4 OVERLAY_COLOR;
+uniform vec4 BLOOM_CONTROL;
+
+varying vec4 light;
+
+void main()
+{
+	vec4 color = mix(vec4(1), light, light.a );
+
+	color.rgb = mix(color, OVERLAY_COLOR, OVERLAY_COLOR.a).rgb;
+
+#if __VERSION__ >= 300
+	gl_FragColor = color;
+	vec3 lightCol = pow(light.rgb, vec3(BLOOM_CONTROL.x)) * BLOOM_CONTROL.y * 0.5;
+	gl_FragData = vec4(lightCol, 1.0);
+#else
+	gl_FragColor = color;
+#endif
+}

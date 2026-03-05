@@ -1,0 +1,11 @@
+{
+  "definition.pig": {
+    "textures": {
+      "default": "textures/entity/pig/pig",
+      "saddled": "textures/entity/pig/pig_saddle"
+    },
+    "geometry": {
+      "default": "geometry.pig"
+    }
+  }
+}

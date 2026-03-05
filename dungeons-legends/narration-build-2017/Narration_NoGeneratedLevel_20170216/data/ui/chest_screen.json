@@ -1,0 +1,158 @@
+/********************************************************
++*   (c) Mojang. All rights reserved                       *
++*   (c) Microsoft. All rights reserved.                   *
++*********************************************************/
+
+{
+  "namespace": "chest",
+
+  ////---------------------------------------------------------------------------
+  //// #slot region area
+  ////---------------------------------------------------------------------------
+
+  "chest_label": {
+    "type": "label",
+    "size": [ 1, 1 ],
+    "offset": [ 7, 0 ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "alignment": "top_left",
+    "text": "container.chest",
+    "color": [ 0.25, 0.25, 0.25, 1.0 ],
+    "layer": 2
+  },
+
+  "large_chest_label@chest_label": {
+    "text": "container.chestDouble"
+  },
+
+  "chest_grid_item@common.container_item": {
+    "$item_collection_name": "container_items"
+  },
+
+  "small_chest_grid": {
+    "type": "grid",
+    "size": [ 162, 54 ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "grid_dimensions": [ 9, 3 ],
+    "grid_item_template": "chest_grid_item",
+    "collection_name": "container_items"
+  },
+
+  "large_chest_grid": {
+    "type": "grid",
+    "size": [ 162, 108 ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "grid_dimensions": [ 9, 6 ],
+    "grid_item_template": "chest_grid_item",
+    "collection_name": "container_items"
+  },
+
+  //// #endregion
+
+  ////---------------------------------------------------------------------------
+  //// #region chest area
+  ////---------------------------------------------------------------------------
+
+  "small_chest_panel_top_half": {
+    "type": "panel",
+    "size": [ "100%", "50%" ],
+    "offset": [ 0, 7 ],
+    "anchor_to": "top_left",
+    "anchor_from": "top_left",
+    "controls": [
+      { "@chest_label": { } },
+      {
+        "@small_chest_grid": {
+          "offset": [ 7, 9 ]
+        }
+      }
+    ]
+  },
+
+  "large_chest_panel_top_half": {
+    "type": "panel",
+    "size": [ "100%", 132 ],
+    "offset": [ 0, 7 ],
+    "anchor_to": "top_left",
+    "anchor_from": "top_left",
+    "controls": [
+      { "@large_chest_label": { } },
+      {
+        "@large_chest_grid": {
+          "offset": [ 7, 9 ]
+        }
+      }
+    ]
+  },
+
+  //// #endregion
+
+  ////---------------------------------------------------------------------------
+  //// #region screen
+  ////---------------------------------------------------------------------------
+
+  "small_chest_screen@common.inventory_screen_common": {
+    "controls": [
+      { "@common.container_gamepad_helpers": { } },
+      { "@common.screen_background": { } },
+      {
+        "@common.root_panel": {
+          "layer": 1,
+          "controls": [
+            { "@common.input_panel": { } },
+            { "@common.common_panel": { } },
+            {
+              "chest_panel": {
+                "type": "panel",
+                "layer": 5,
+                "controls": [
+                  { "@chest.small_chest_panel_top_half": { } },
+                  { "@common.inventory_panel_bottom_half_with_label": { } },
+                  { "hotbar_grid@common.hotbar_grid_template": { } },
+                  { "@common.inventory_take_progress_icon_button": { } }
+                ]
+              }
+            },
+            { "@common.inventory_selected_icon_button": { } }
+          ]
+        }
+      }
+    ]
+  },
+
+  "large_chest_screen@common.inventory_screen_common": {
+    "controls": [
+      { "@common.container_gamepad_helpers": { } },
+      { "@common.screen_background": { } },
+      {
+        "@common.root_panel": {
+          "size": [ 176, 220 ],
+          "layer": 1,
+          "controls": [
+            { "@common.input_panel": { } },
+            { "@common.common_panel": { } },
+            {
+              "chest_panel": {
+                "type": "panel",
+                "layer": 5,
+                "controls": [
+                  { "@chest.large_chest_panel_top_half": { } },
+                  { "@common.inventory_panel_bottom_half_with_label": { } },
+                  { "hotbar_grid@common.hotbar_grid_template": { } },
+                  { "@common.inventory_take_progress_icon_button": { } }
+                ]
+              }
+            },
+            { "@common.inventory_selected_icon_button": { } }
+          ]
+        }
+      }
+    ]
+  }
+}
+
+// #endregion
+

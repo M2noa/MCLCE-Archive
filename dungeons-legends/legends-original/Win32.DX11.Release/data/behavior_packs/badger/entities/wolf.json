@@ -1,0 +1,503 @@
+{
+	"minecraft:entity": {
+		"format_version": "1.2.0",
+
+		"component_groups": {
+			"check_for_buffs": {
+				"minecraft:structure_prox_trigger": {
+					"structure_filters": {
+						"all_of": [{
+							"test": "is_structure_same_team",
+							"subject": "other"
+						},{
+							"test": "is_structure_name",
+							"subject": "other",
+							"value": "placeable_magmablood"
+						}]
+					},
+					"opeartor": "and",
+					"filters": {
+						"all_of": [{
+							"test": "has_component",
+							"operator": "not",
+							"subject": "self",
+							"value": "magmablood"
+						}]
+					},
+					"event": "apply_magmablood"
+				}
+			},
+
+			"magmablood": {
+				"minecraft:behavior.spawn_block_on_death": {
+					"block_name": "flowing_lava",
+					"offset": [0.0, 0.0, 0.0],
+					"duration": 5.0
+				}
+			},
+
+			"minecraft:stats_normal": {
+				"minecraft:scale": {
+					"value": 1.0
+				},
+				"minecraft:health": {
+					"value": 12,
+					"max": 12
+				},
+				"minecraft:attack": {
+					"damage": 3
+				}
+			},
+
+			"minecraft:stats_giant": {
+				"minecraft:scale": {
+					"value": 4.0
+				},
+				"minecraft:health": {
+					"value": 36,
+					"max": 36
+				},
+				"minecraft:attack": {
+					"damage": 9
+				}
+			}
+		},
+
+		"components": {
+			"minecraft:identifier": {
+				"id": "minecraft:wolf"
+			},
+			"minecraft:nameable": {
+
+			},
+			"minecraft:type_family": {
+				"family": ["wolf"]
+			},
+			"minecraft:breathable": {
+				"totalSupply": 10,
+				"suffocateTime": 3
+			},
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 0.8
+			},
+			"minecraft:movement": {
+				"value": 0.35
+			},
+			"minecraft:navigation.walk": {
+				"can_float": true,
+				"avoid_damage_blocks": true,
+				"avoid_water": false
+			},
+			"minecraft:movement.basic": {
+
+			},
+			"minecraft:jump.static": {
+
+			},
+			"minecraft:can_climb": {
+
+			},
+			"minecraft:healable": {
+				"items": [{
+					"item": "porkchop",
+					"heal_amount": 3
+				},
+				{
+					"item": "cooked_porkchop",
+					"heal_amount": 8
+				},
+				{
+					"item": "fish",
+					"heal_amount": 2
+				},
+				{
+					"item": "salmon",
+					"heal_amount": 2
+				},
+				{
+					"item": "clownfish",
+					"heal_amount": 1
+				},
+				{
+					"item": "pufferfish",
+					"heal_amount": 1
+				},
+				{
+					"item": "cooked_fish",
+					"heal_amount": 5
+				},
+				{
+					"item": "cooked_salmon",
+					"heal_amount": 6
+				},
+				{
+					"item": "beef",
+					"heal_amount": 3
+				},
+				{
+					"item": "cooked_beef",
+					"heal_amount": 8
+				},
+				{
+					"item": "chicken",
+					"heal_amount": 2
+				},
+				{
+					"item": "cooked_chicken",
+					"heal_amount": 6
+				},
+				{
+					"item": "muttonRaw",
+					"heal_amount": 2
+				},
+				{
+					"item": "muttonCooked",
+					"heal_amount": 6
+				},
+				{
+					"item": "rotten_flesh",
+					"heal_amount": 4
+				},
+				{
+					"item": "rabbit",
+					"heal_amount": 3
+				},
+				{
+					"item": "cooked_rabbit",
+					"heal_amount": 5
+				},
+				{
+					"item": "rabbit_stew",
+					"heal_amount": 10
+				}]
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/entities/wolf.json"
+			},
+			"minecraft:rideable": {
+				"seat_count": 1,
+				"family_types": [
+					"zombie",
+					"Creeper",
+					"witch",
+					"skeleton"
+				],
+				"seats": {
+					"position": [ 0.0, 0.54, 0.0 ]
+				}
+			},
+			"minecraft:structure_sensor": {
+			},
+			"minecraft:enlargeable": {
+				"grow": {
+					"event": "minecraft:enlargeable_grow",
+					"target": "self"
+				},
+				"shrink": {
+					"event": "minecraft:enlargeable_shrink",
+					"target": "self"
+				}
+			},
+			"minecraft:behavior.float": {
+				"priority": 0
+			},
+			"minecraft:behavior.desire_position": {
+				"priority": 6
+			},
+			"minecraft:behavior.hurt_by_target": {
+				"priority": 1,
+				"entity_types": [{
+					"filters": {
+						"any_of": [{
+							"test": "is_family",
+							"subject": "other",
+							"value": "player"
+						},
+						{
+							"test": "is_family",
+							"subject": "other",
+							"value": "villager"
+						},
+						{
+							"test": "is_family",
+							"subject": "other",
+							"value": "spider"
+						},
+						{
+							"test": "is_family",
+							"subject": "other",
+							"value": "skeleton"
+						},
+						{
+							"test": "is_family",
+							"subject": "other",
+							"value": "zombie"
+						},
+						{
+							"test": "is_family",
+							"subject": "other",
+							"value": "witch"
+						}]
+					}
+				}]
+			},
+			"minecraft:behavior.nearest_attackable_target": {
+					"priority": 2,
+					"attack_interval": 3,
+					"within_radius": 20,
+					"entity_types": [
+				{
+				"filters": {
+				  "any_of": [
+					{
+					  "all_of": [
+					  {
+						"test": "is_on_team",
+						"subject": "self",
+						"value": "wild"
+					  },
+					  {
+						"test": "is_on_team",
+						"subject": "other",
+						"operator": "not",
+						"value": "wild"
+					  }
+					  ]
+					},
+					{
+					  "all_of": [
+					  {
+						"test": "is_on_team",
+						"subject": "self",
+						"value": "red"
+					  },
+					  {
+						"test": "is_on_team",
+						"subject": "other",
+						"operator": "not",
+						"value": "red"
+					  }
+					  ]
+					},
+					{
+					  "all_of": [
+					  {
+						"test": "is_on_team",
+						"subject": "self",
+						"value": "blue"
+					  },
+					  {
+						"test": "is_on_team",
+						"subject": "other",
+						"operator": "not",
+						"value": "blue"
+					  }
+					  ]
+					}
+				  ]
+				},
+				"max_dist": 25
+			  }
+			],
+					"must_see": false,
+					"must_see_forget_duration": 2.0
+			},
+			"minecraft:behavior.melee_attack": {
+				"priority": 4,
+				"target_dist": 1.1,
+				"track_target": true,
+				"reach_multiplier": 2.0
+			},
+			"minecraft:behavior.target_structures": {
+				"priority": 3,
+				"within_radius": 10,
+                "structure_types": [{
+                    "filters": [{
+                        "any_of": [
+							{
+								"all_of": [
+									{
+										"test": "is_on_team",
+										"subject": "self",
+										"value": "blue"
+									},
+									{
+										"any_of": [
+										{
+											"test": "is_structure_on_team",
+											"subject": "other",
+											"value": "red"
+										},
+										{
+											"test": "is_structure_on_team",
+											"subject": "other",
+											"value": "wild"
+										}]
+									},
+									{
+										"test": "has_structure_tag",
+										"operator": "not",
+										"value": "do_not_target",
+										"subject": "other"
+									},
+									{
+										"test": "has_structure_tag",
+										"operator": "not",
+										"value": "do_not_target_wall",
+										"subject": "other"
+									}
+								]
+							},
+							{
+								"all_of": [
+									{
+										"test": "is_on_team",
+										"subject": "self",
+										"value": "red"
+									},
+									{
+										"any_of": [
+										{
+											"test": "is_structure_on_team",
+											"subject": "other",
+											"value": "blue"
+										},
+										{
+											"test": "is_structure_on_team",
+											"subject": "other",
+											"value": "wild"
+										}]
+									},
+									{
+										"test": "has_structure_tag",
+										"operator": "not",
+										"value": "do_not_target",
+										"subject": "other"
+									},
+									{
+										"test": "has_structure_tag",
+										"operator": "not",
+										"value": "do_not_target_wall",
+										"subject": "other"
+									}
+								]
+							},
+							{
+								"all_of": [
+									{
+										"test": "is_on_team",
+										"subject": "self",
+										"value": "wild"
+									},
+									{
+										"any_of": [
+										{
+											"test": "is_structure_on_team",
+											"subject": "other",
+											"value": "red"
+										},
+										{
+											"test": "is_structure_on_team",
+											"subject": "other",
+											"value": "blue"
+										}]
+									},
+									{
+										"test": "has_structure_tag",
+										"operator": "not",
+										"value": "do_not_target",
+										"subject": "other"
+									},
+									{
+										"test": "has_structure_tag",
+										"operator": "not",
+										"value": "do_not_target_wall",
+										"subject": "other"
+									}
+								]
+							}
+						]
+                    }]
+                }]
+			},
+			"minecraft:behavior.leap_at_target": {
+				"priority": 4,
+				"target_dist": 0.4
+			},
+			"minecraft:behavior.panic": {
+				"priority": 5,
+				"speed_multiplier": 1.0
+			},
+			"minecraft:behavior.desire_direction": {
+				"priority": 7
+			},
+			"badger:behavior.idle": {
+				"priority": 1000,
+				"probability": 0.99,
+				"max_dist": 10,
+				"speed_multiplier": 0.8
+			},
+			"minecraft:physics": {
+
+			},
+			"minecraft:structure_sensor": {
+				"on_proximity": {
+					"event": "apply_buffs"
+				},
+				"on_leave": {
+					"event": "ignore_buffs"
+				}
+			}
+		},
+		
+		"events": {
+			"apply_buffs": {
+				"add":{ "component_groups": [
+					"check_for_buffs"
+				]}
+			},
+			"ignore_buffs": {
+				"remove":{ "component_groups": [
+					"check_for_buffs"
+				]}
+			},
+			"apply_magmablood": {
+				"add": { "component_groups": [
+					"magmablood"
+				]}
+			},
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"minecraft:stats_normal"
+					]
+				}
+			},
+			"minecraft:enlargeable_grow": {
+				"remove": {
+					"component_groups": [
+						"minecraft:stats_normal"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"minecraft:stats_giant"
+					]
+				}
+			},
+			"minecraft:enlargeable_shrink": {
+				"remove": {
+					"component_groups": [
+						"minecraft:stats_giant"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"minecraft:stats_normal"
+					]
+				}
+			}
+		}
+	}
+}

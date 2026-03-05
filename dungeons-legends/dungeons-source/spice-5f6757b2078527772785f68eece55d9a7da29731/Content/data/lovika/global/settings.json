@@ -1,0 +1,57 @@
+{
+	"mob.skeleton.speed": 0.2,
+	"mob.skeleton.damage_multiplier": 1,
+	"mob.zombie.speed": 0.23,
+	"mob.zombie.damage_multiplier": 0.5,
+	"mob.husk.speed": 0.2,
+	"mob.husk.damage_multiplier": 2.5,
+	"mob.husk.health": 100,
+
+	"mob.all.pinata_chance": 0.05,
+	"mob.all.drop_chance.health_potion": 0.05,
+	"mob.all.drop_chance.harming_splash_potion": 0.06,
+	"mob.skeleton.drop_chance.arrow_stack": 0.5,
+
+	"camera.offset.x": -12,
+	"camera.offset.y": 18,
+	"camera.offset.z": 12,
+
+	"camera.fov": 30,
+
+	"camera.interpolation.horizontal": 0.3,
+	"camera.interpolation.vertical": 0.1,
+	"camera.interpolation.zoom": 0.2,
+	"camera.interpolation.entity_zoom": 0.08,
+
+	"camera.player_movement.factor": 0.0,
+	"camera.player_movement.cap": 0.0,
+
+	"camera.player_direction.factor": 0.0,
+	"camera.player_direction.cap": 0.0,
+
+	"camera.entity_zoom.mob_threshold_max": 5,
+	"camera.entity_zoom.search_range_min": 2.0,
+	"camera.entity_zoom.search_range_max": 12.0,
+	"camera.entity_zoom.mob_weight": 0.08,
+
+	//With "lookahead":
+	//"camera.interpolation.horizontal": 0.2,
+	//"camera.player_movement.factor": 0.4,
+	//"camera.player_movement.cap": 2.0,
+
+	"level.generator.seed" : 22,
+	"level.fill.enabled": true,
+	"level.fill.block_id": 1,
+
+	"postfx.blur_size": 1.5,
+	"postfx.downsize_scale": 4,
+	"postfx.bloom_concentration": 3.9,
+	"postfx.bloom_power": 2.4,
+
+	"playerlight.distance": 8.0,
+	"playerlight.power": 0.9,
+
+	"editor.camera.ground_speed_multiplier": 10,
+	"editor.camera.flying_speed_multiplier": 25,
+	"editor.camera.flying_lift_multiplier": 3
+}

@@ -1,0 +1,644 @@
+{
+	"effects": {
+		"MonsterHit": {
+			"lifetime": 0.1,
+			"keyframes": {
+				"0": [
+					{
+						"emitterName": "impactEmitter"
+					}
+				]
+			}
+		},
+		"PlayerFootstep": {
+			"lifetime": 0.05,
+			"keyframes": {
+				"0": [
+					{
+						"emitterName": "FootDust"
+					}
+				]
+			}
+		},
+		"SplashPotionBreak": {
+			"lifetime": 0.4,
+			"keyframes": {
+				"30": [
+					{
+						"particleName": "potionAreaParticle",
+						"startSize": 1.5,
+						"lifetime": 0.3
+					},
+					{
+						"emitterName": "brokenGlassEmitter"
+					}
+				],
+				"33": [
+					{
+						"emitterName": "dustPuff"
+					}
+				]
+			}
+		},
+		"PlayerLevelUp": {
+			"lifetime": 0.5,
+			"keyframes": {
+				"0": [
+					{ 
+						"particleName": "levelUpTextParticle"
+					}
+				],
+				"1": [
+					{ 
+						"soundName": "level.start"
+					}
+				],
+				"50": [
+					{ 
+						"particleName": "levelUpTextParticle"
+					}
+				],
+				"51": [
+					{ 
+						"soundName": "random.levelup"
+					}
+				],
+				"99": [
+					{ 
+						"particleName": "levelUpTextParticle"
+					}
+				],
+				"100": [
+					{
+						"emitterName": "soulFireBlastSparksEmitter"
+					}
+				]
+			}
+		},
+		"PlayerHeal": {
+			"lifetime": 1.1,
+			"keyframes": {
+				"0": [
+					{ 
+						"emitterName": "HealPlayer"
+					}
+				]
+			}
+		},
+		"Checkpoint": {
+			"lifetime": 0.2,
+			"keyframes": {
+				"0": [
+					{
+						"soundName": "adventure.checkpoint"
+					}
+				],
+				"100": [
+					{ 
+						"particleName": "checkpointTextParticle"
+					}
+				]
+			}
+		},
+		"EmitterTest": {
+			"lifetime": 1,
+			"keyframes": {
+				"50": [
+					{
+						"emitterName": "discEmitter"
+					},
+					{
+						"emitterName": "coneEmitter"
+					}
+				],
+				"100": [
+					{
+						"emitterName": "discEmitter",
+						"positionalVelocity": [0, 0.1, 0],
+						"spawnRate": 0,
+						"burst": 30
+					}
+				]
+			}
+		},
+		"Slowness": {
+			"lifetime": 1,
+			"keyframes": {
+				"0": [
+					{
+						"soundName": "mob.spider.net"
+					},
+					{
+						"particleName": "webParticle",
+						"facingRotation": [0, 0, 30],
+						"startPosition": [0.5, 0.5, 0]
+					},
+					{
+						"particleName": "webParticle",
+						"facingRotation": [30, 90, 0],
+						"startPosition": [0, 0.5, -0.5]
+					},
+					{
+						"particleName": "webParticle",
+						"facingRotation": [0, 180, 30],
+						"startPosition": [-0.5, 0.5, 0]
+					},
+					{
+						"particleName": "webParticle",
+						"facingRotation": [-30, 270, 0],
+						"startPosition": [0, 0.5, 0.5]
+					}
+				]
+			}
+		}
+	},
+	"emitters": {
+		"brokenGlassEmitter": {
+			"type": "cone",
+			"particleName": "brokenglass",
+			"lifetime": 0.1,
+			"spawnRate": 5,
+			"burst": 10,
+			"startPosition": [0, 0, 0],
+			"facingRotation": [0, 0, 0],
+			"positionalVelocity": [0, 1, 0],
+			"size": 180
+		},
+		"impactEmitter": {
+			"type": "cone",
+			"particleName": "impactParticle",
+			"lifetime": 0.05,
+			"spawnRate": 0,
+			"burst": 5,
+			"startPosition": [0, 2, 0],
+			"facingRotation": [0, 0, 0],
+			"positionalVelocity": [0, 0.35, 0],
+			"size": 180
+		},
+		"soulFireRainEmitter": {
+			"type": "disc",
+			"particleName": "soulFire",
+			"lifetime": 2.5,
+			"spawnRate": 40,
+			"burst": 0,
+			"startPosition": [0, 0, 0],
+			"facingRotation": [0, 0, 0],
+			"positionalVelocity": [0, 0.05, 0],
+			"size": 0.7
+		},
+		"soulFireBlastEmitter": {
+			"type": "disc",
+			"particleName": "soulFireBlast",
+			"lifetime": 1,
+			"spawnRate": 10,
+			"burst": 0,
+			"startPosition": [0, 0, 0],
+			"facingRotation": [0, 0, 0],
+			"positionalVelocity": [0, 0, 0],
+			"size": 1
+		},
+		"soulFireBlastClimaxEmitter": {
+			"type": "box",
+			"particleName": "soulFireBlastClimax",
+			"lifetime": 0.3,
+			"spawnRate": 30,
+			"burst": 5,
+			"startPosition": [0, 1.7, 0],
+			"facingRotation": [0, 0, 0],
+			"positionalVelocity": [0, 0, 0],
+			"size": 1.5
+		},
+		"soulFireBlastSparksEmitter": {
+			"type": "sphere",
+			"particleName": "glitter",
+			"lifetime": 0.8,
+			"spawnRate": 100,
+			"burst": 2,
+			"startPosition": [0, -0.5, 0],
+			"facingRotation": [0, 0, 0],
+			"positionalVelocity": [0, 0, 0],
+			"size": 0.8,
+			"fadeTime": 0.8
+		},
+		"HealPlayer": {
+			"type": "sphere",
+			"particleName": "healglitter",
+			"lifetime": 0.8,
+			"spawnRate": 150,
+			"burst": 2,
+			"startPosition": [0, 1, 0],
+			"facingRotation": [0, 0, 0],
+			"positionalVelocity": [0, 0, 0],
+			"size": 0.6,
+			"fadeTime": 0.8
+		},
+		"FootDust": {
+			"type": "disc",
+			"particleName": "dust",
+			"lifetime": 0.05,
+			"spawnRate": 0,
+			"burst": 40,
+			"startPosition": [0, 2.2, 0],
+			"facingRotation": [0, 0, 0],
+			"positionalVelocity": [0, 0.02, 0],
+			"size": 0.4,
+			"fadeTime": 0.8
+		},
+		"dustPuff": {
+			"type": "cone",
+			"particleName": "dustBig",
+			"lifetime": 0.05,
+			"spawnRate": 0,
+			"burst": 400,
+			"startPosition": [0, 0.5, 0],
+			"facingRotation": [0, 0, 0],
+			"positionalVelocity": [0, 0.6, 0],
+			"size": 90,
+			"fadeTime": 0.4
+		},
+		"coneEmitter": {
+			"type": "cone",
+			"particleName": "smokeSpin",
+			"lifetime": 2,
+			"spawnRate": 40,
+			"burst": 0,
+			"startPosition": [0, 3, 0],
+			"facingRotation": [0, 0, 0],
+			"positionalVelocity": [0, 0.25, 0],
+			"size": 10
+		},
+		"discEmitter": {
+			"type": "disc",
+			"particleName": "smokeSpin2",
+			"lifetime": 10,
+			"spawnRate": 40,
+			"burst": 0,
+			"startPosition": [0, 0.2, 0],
+			"facingRotation": [0, 0, 0],
+			"positionalVelocity": [0, 0, 0],
+			"size": 3
+		}
+	},
+	"particles": {
+		"soulFire": {
+			"lifetime": 1.5,
+			"startYRotation": -1,
+			"yVelocity": 0,
+			"startPosition": [0, 0, 0],
+			"positionalVelocity": [0, 0, 0],
+			"gravity": -0.5,
+			"startSize": 0.6,
+			"growthVelocity": 0,
+			"facingRotation": [0, 0, 0],
+			"color": [1, 1, 1, 0.5],
+			"fadeTime": 0.3,
+			"useCollision": false,
+			"useBillboarded": true,
+			"textureAtlas": "atlas.particles",
+			"tileCountX": 16,
+			"tileCountY": 16,
+			"animationStartX": 0,
+			"animationStartY": 10,
+			"animationCount": 16
+		},
+		"healParticle": {
+			"lifetime": 0.2,
+			"startYRotation": -1,
+			"yVelocity": 10,
+			"startPosition": [0, 0.5, 0],
+			"positionalVelocity": [0, 0.5, 0],
+			"gravity": 0.6,
+			"startSize": 0.2,
+			"growthVelocity": -0.1,
+			"facingRotation": [0, 0.5, 0],
+			"color": [1.4, 0.75, 0.9, 1],
+			"fadeTime": 0.5,
+			"useCollision": false,
+			"useBillboarded": true,
+			"textureAtlas": "atlas.particles",
+			"tileCountX": 16,
+			"tileCountY": 16,
+			"animationStartX": 0,
+			"animationStartY": 9,
+			"animationCount": 8
+		},
+		"impactParticle": {
+			"lifetime": 0.25,
+			"startYRotation": 0,
+			"yVelocity": 0,
+			"startPosition": [0, 0, 0],
+			"positionalVelocity": [0, 0, 0],
+			"gravity": 1,
+			"startSize": 0.08,
+			"growthVelocity": 0,
+			"facingRotation": [0, 0, 0],
+			"color": [1.3, 1.3, 1.4, 1],
+			"fadeTime": 0.27,
+			"useCollision": false,
+			"useBillboarded": true,
+			"textureAtlas": "atlas.particles",
+			"tileCountX": 16,
+			"tileCountY": 16,
+			"animationStartX": 5,
+			"animationStartY": 10,
+			"animationCount": 1
+		},
+		"soulFireBlast": {
+			"lifetime": 0.5,
+			"startYRotation": -1,
+			"yVelocity": 0,
+			"startPosition": [0, 0.8, 0],
+			"positionalVelocity": [0, 0.2, 0],
+			"gravity": 0,
+			"startSize": 1.8,
+			"growthVelocity": 0.2,
+			"facingRotation": [0, 0, 0],
+			"color": [1, 1, 1, 1],
+			"fadeTime": 0.1,
+			"useCollision": false,
+			"useBillboarded": false,
+			"textureAtlas": "atlas.swosh",
+			"tileCountX": 8,
+			"tileCountY": 8,
+			"animationStartX": 0,
+			"animationStartY": 3,
+			"animationCount": 7
+		},
+		"soulFireBlastClimax": {
+			"lifetime": 0.25,
+			"startYRotation": 0,
+			"yVelocity": 0,
+			"startPosition": [0, 0, 0],
+			"positionalVelocity": [0, 0, 0],
+			"gravity": 0,
+			"startSize": 1.8,
+			"growthVelocity": 0,
+			"facingRotation": [0, 0, 0],
+			"color": [1, 1, 1, 1],
+			"fadeTime": 0.3,
+			"useCollision": false,
+			"useBillboarded": false,
+			"textureAtlas": "atlas.particles",
+			"tileCountX": 16,
+			"tileCountY": 16,
+			"animationStartX": 6,
+			"animationStartY": 10,
+			"animationCount": 1
+		},
+		"brokenglass": {
+			"lifetime": 0.5,
+			"startYRotation": -1,
+			"yVelocity": 1,
+			"startPosition": [0, 0, 0],
+			"positionalVelocity": [0, 0, 0],
+			"gravity": 2,
+			"startSize": 0.15,
+			"growthVelocity": -0.1,
+			"facingRotation": [0, 0, 0],
+			"color": [1, 1, 1, 0.7],
+			"fadeTime": 0.1,
+			"useCollision": true,
+			"useBillboarded": true,
+			"textureAtlas": "atlas.particles",
+			"tileCountX": 16,
+			"tileCountY": 16,
+			"animationStartX": 5,
+			"animationStartY": 10,
+			"animationCount": 1
+		},
+		"glitter": {
+			"lifetime": 0.5,
+			"startYRotation": 0,
+			"yVelocity": 5,
+			"startPosition": [0, 0, 0],
+			"positionalVelocity": [0, 0, 0],
+			"gravity": -0.5,
+			"startSize": 0.05,
+			"growthVelocity": 0.05,
+			"facingRotation": [0, 0, 0],
+			"color": [1, 1, 0.7, 1],
+			"fadeTime": 0.1,
+			"useCollision": false,
+			"useBillboarded": true,
+			"textureAtlas": "atlas.particles",
+			"tileCountX": 16,
+			"tileCountY": 16,
+			"animationStartX": 0,
+			"animationStartY": 9,
+			"animationCount": 8,
+			"unlit": true
+		},
+		"healglitter": {
+			"lifetime": 0.7,
+			"startYRotation": 0,
+			"yVelocity": 10,
+			"startPosition": [0, 0, 0],
+			"positionalVelocity": [0, 0, 0],
+			"gravity": -0.5,
+			"startSize": 0.08,
+			"growthVelocity": 0.01,
+			"facingRotation": [0, 0, 0],
+			"color": [0.3, 0.8, 1, 0.8],
+			"fadeTime": 0.1,
+			"useCollision": false,
+			"useBillboarded": true,
+			"textureAtlas": "atlas.particles",
+			"tileCountX": 16,
+			"tileCountY": 16,
+			"animationStartX": 0,
+			"animationStartY": 9,
+			"animationCount": 8,
+			"unlit": true
+		},
+		"sparks": {
+			"lifetime": 1.2,
+			"startYRotation": -1,
+			"yVelocity": 1,
+			"startPosition": [0, 0, 0],
+			"positionalVelocity": [0, 0, 0],
+			"gravity": 1,
+			"startSize": 0.15,
+			"growthVelocity": -0.1,
+			"facingRotation": [0, 0, 0],
+			"color": [1, 1, 1, 0.5],
+			"fadeTime": 0.1,
+			"useCollision": true,
+			"useBillboarded": true,
+			"textureAtlas": "atlas.particles",
+			"tileCountX": 16,
+			"tileCountY": 16,
+			"animationStartX": 5,
+			"animationStartY": 10,
+			"animationCount": 1
+		},
+		"dustBig": {
+			"growthVelocity": 0.05,
+			"color": [1, 0.85, 0.70, 0.5],
+			"lifetime": 0.65,
+			"startYRotation": -1,
+			"yVelocity": -1,
+			"startPosition": [0, 0, 0],
+			"positionalVelocity": [0, -1, 0],
+			"gravity": 0.1,
+			"startSize": 0.35,
+			"facingRotation": [0, 0, 0],
+			"fadeTime": 0.5,
+			"useCollision": true,
+			"useBillboarded": true,
+			"textureAtlas": "atlas.particles",
+			"tileCountX": 16,
+			"tileCountY": 16,
+			"animationStartX": 5,
+			"animationStartY": 10,
+			"animationCount": 1
+		},
+		"dust": {
+			"growthVelocity": 0.05,
+			"color": [0.95, 0.9, 0.85, 0.25],
+			"lifetime": 0.5,
+			"startYRotation": -1,
+			"yVelocity": -1,
+			"startPosition": [0, 0, 0],
+			"positionalVelocity": [0, 0, 0],
+			"gravity": 0.0,
+			"startSize": 0.05,
+			"facingRotation": [0, 0, 0],
+			"fadeTime": 0.3,
+			"useCollision": false,
+			"useBillboarded": true,
+			"textureAtlas": "atlas.particles",
+			"tileCountX": 16,
+			"tileCountY": 16,
+			"animationStartX": 5,
+			"animationStartY": 10,
+			"animationCount": 1
+		},
+		"potionAreaParticle": {
+			"lifetime": 0.04,
+			"startYRotation": 0,
+			"yVelocity": 20,
+			"startPosition": [0, 0.05, 0],
+			"positionalVelocity": [0, 0, 0],
+			"gravity": 0,
+			"startSize": 1.5,
+			"growthVelocity": -1,
+			"facingRotation": [0, 0, 0],
+			"color": [1.3, 1.3, 1.3, 1],
+			"fadeTime": 0.5,
+			"useCollision": false,
+			"useBillboarded": false,
+			"textureAtlas": "atlas.circle",
+			"tileCountX": 1,
+			"tileCountY": 1,
+			"animationStartX": 0,
+			"animationStartY": 0,
+			"animationCount": 1
+		},
+		"smokeSpin": {
+			"lifetime": 1,
+			"startYRotation": 0,
+			"yVelocity": 1,
+			"startPosition": [0, 0, 0],
+			"positionalVelocity": [0, 0, 0],
+			"gravity": 0.7,
+			"startSize": 0.4,
+			"growthVelocity": 0,
+			"facingRotation": [0, 0, 0],
+			"color": [1, 1, 1, 1],
+			"fadeTime": 0.1,
+			"useCollision": false,
+			"useBillboarded": false,
+			"textureAtlas": "atlas.particles",
+			"tileCountX": 16,
+			"tileCountY": 16,
+			"animationStartX": 0,
+			"animationStartY": 10,
+			"animationCount": 16
+		},
+		"smokeSpin2": {
+			"lifetime": 1,
+			"startYRotation": 0,
+			"yVelocity": 0,
+			"startPosition": [0, 0, 0],
+			"positionalVelocity": [0, 0, 0],
+			"gravity": 0.0,
+			"startSize": 0.25,
+			"growthVelocity": 0,
+			"facingRotation": [0, 0, 0],
+			"color": [1, 1, 0, 1],
+			"fadeTime": 0.1,
+			"useCollision": false,
+			"useBillboarded": false,
+			"textureAtlas": "atlas.particles",
+			"tileCountX": 16,
+			"tileCountY": 16,
+			"animationStartX": 0,
+			"animationStartY": 10,
+			"animationCount": 16
+		},
+		"levelUpTextParticle": {
+			"lifetime": 1.0,
+			"startYRotation": 180,
+			"yVelocity": 0,
+			"startPosition": [-0.25, -1, 0.3],
+			"positionalVelocity": [0, -0.75, 0],
+			"gravity": 0,
+			"startSize": 1.2,
+			"growthVelocity": 1.9,
+			"facingRotation": [0, 0, 0],
+			"color": [1, 1, 1, 1],
+			"fadeTime": 0.3,
+			"useCollision": false,
+			"useBillboarded": true,
+			"textureAtlas": "text.levelup",
+			"tileCountX": 1,
+			"tileCountY": 1,
+			"animationStartX": 0,
+			"animationStartY": 0,
+			"animationCount": 1,
+			"unlit": true
+		},
+		"checkpointTextParticle": {
+			"lifetime": 1.2,
+			"startYRotation": 180,
+			"yVelocity": 0,
+			"startPosition": [0, -1, 0],
+			"positionalVelocity": [0, -0.8, 0],
+			"gravity": 0,
+			"startSize": 1.0,
+			"growthVelocity": 10,
+			"facingRotation": [0, 0, 0],
+			"color": [0.7, 0.8, 0.9, 1],
+			"fadeTime": 0.3,
+			"useCollision": false,
+			"useBillboarded": true,
+			"textureAtlas": "text.checkpoint",
+			"tileCountX": 1,
+			"tileCountY": 1,
+			"animationStartX": 0,
+			"animationStartY": 0,
+			"animationCount": 1
+		},
+		"webParticle": {
+			"lifetime": 2.25,
+			"startYRotation": 0,
+			"yVelocity": 0,
+			"startPosition": [0, 0, 0],
+			"positionalVelocity": [0, 0, 0],
+			"gravity": 0,
+			"startSize": 0.5,
+			"growthVelocity": 0,
+			"facingRotation": [0, 0, 0],
+			"color": [1, 1, 1, 1],
+			"fadeTime": 0.05,
+			"useCollision": false,
+			"useBillboarded": false,
+			"textureAtlas": "block.web",
+			"tileCountX": 1,
+			"tileCountY": 1,
+			"animationStartX": 0,
+			"animationStartY": 0,
+			"animationCount": 1
+		}
+	}
+}

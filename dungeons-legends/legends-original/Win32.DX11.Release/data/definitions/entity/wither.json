@@ -1,0 +1,13 @@
+{
+  "definition.wither": {
+    "textures": {
+      "default": "textures/entity/wither_boss/wither",
+      "armor": "textures/entity/wither_boss/wither_armor",
+      "invulnerable": "textures/entity/wither_boss/wither_invulnerable"
+    },
+    "geometry": {
+      "default": "geometry.witherBoss",
+      "armor": "geometry.witherBoss.armor"
+    }
+  }
+}

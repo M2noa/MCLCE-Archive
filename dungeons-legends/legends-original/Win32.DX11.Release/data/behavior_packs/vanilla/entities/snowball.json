@@ -1,0 +1,36 @@
+{
+  "minecraft:entity": {
+    "format_version": "1.2.0",
+
+    "components": {
+      "minecraft:identifier": {
+        "id": "minecraft:snowball"
+      },
+      "minecraft:collision_box": {
+        "width": 0.25,
+        "height": 0.25
+      },
+      "minecraft:projectile": {
+        "onHit": {
+          "impact_damage": {
+            "filter": "blaze",
+            "damage": 3,
+            "knockback": true
+          },
+          "remove_on_hit": { },
+          "particle_on_hit": {
+            "particle_type": "snowballpoof",
+            "num_particles": 6,
+            "on_entity_hit": true,
+            "on_other_hit": true
+          }
+        },
+        "power": 1.5,
+        "gravity": 0.03,
+        "angleoffset": 0.0
+      },
+	    "minecraft:physics": {
+      }
+    }
+  }
+}

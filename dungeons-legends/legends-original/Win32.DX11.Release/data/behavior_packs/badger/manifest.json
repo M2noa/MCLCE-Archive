@@ -1,0 +1,17 @@
+{
+	"format_version": 1,
+	"header": {
+		"description": "Badger Behaviour Pack Description",
+		"name": "Badger Behaviour Pack",
+		"uuid": "12345678-0ad6-11e8-ba89-0ed5f89f718b",
+		"version": [0, 0, 1]
+	},
+	"modules": [
+         {
+            "description": "Badger Behaviour Description",
+            "type": "data",
+            "uuid": "79bff1c8-0ad6-11e8-ba89-0ed5f89f718b",
+            "version": [0, 0, 1]
+        }
+ ]
+}

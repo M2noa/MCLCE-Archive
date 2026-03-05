@@ -1,0 +1,475 @@
+{
+	"minecraft:entity": {
+		"format_version": "1.2.0",
+
+		"component_groups" : {
+			"check_for_buffs": {
+				"minecraft:structure_prox_trigger": {
+					"structure_filters": {
+						"all_of": [{
+							"test": "is_structure_same_team",
+							"subject": "other"
+						},{
+							"test": "is_structure_name",
+							"subject": "other",
+							"value": "placeable_magmablood"
+						}]
+					},
+					"opeartor": "and",
+					"filters": {
+						"all_of": [{
+							"test": "has_component",
+							"operator": "not",
+							"subject": "self",
+							"value": "magmablood"
+						}]
+					},
+					"event": "apply_magmablood"
+				}
+			},
+
+			"magmablood": {
+				"minecraft:behavior.spawn_block_on_death": {
+					"block_name": "flowing_lava",
+					"offset": [0.0, 0.0, 0.0],
+					"duration": 5.0
+				}
+			},
+			"minecraft:horny_for_spiders": {
+				"minecraft:behavior.combine_with_target": {
+					"priority": 5,
+					"structure_types": [{
+						"filters": { "test": "is_structure_name", "value": "placeable_mob_combiner" }
+					}],
+					"entity_types": [{
+						"filters": { "all_of": [
+							{"any_of":[
+								{"all_of":[
+									{"test": "is_family", "subject": "other", "value": "wolf"},
+									{"test": "is_on_team", "subject": "self", "value": "blue"},
+									{"test": "is_on_team", "subject": "other", "value": "blue"}
+								  ]},
+								  {"all_of":[
+									{"test": "is_family", "subject": "other", "value": "wolf"},
+									{"test": "is_on_team", "subject": "self", "value": "wild"},
+									{"test": "is_on_team", "subject": "other", "value": "wild"}
+								  ]},
+								  {"all_of":[
+									{"test": "is_family", "subject": "other", "value": "wolf"},
+									{"test": "is_on_team", "subject": "self", "value": "red"},
+									{"test": "is_on_team", "subject": "other", "value": "red"}
+								  ]},
+								  {"all_of":[
+									{"test": "is_family", "subject": "other", "value": "slime"},
+									{"test": "is_on_team", "subject": "self", "value": "blue"},
+									{"test": "is_on_team", "subject": "other", "value": "blue"}
+								  ]},
+								  {"all_of":[
+									{"test": "is_family", "subject": "other", "value": "slime"},
+									{"test": "is_on_team", "subject": "self", "value": "wild"},
+									{"test": "is_on_team", "subject": "other", "value": "wild"}
+								  ]},
+								  {"all_of":[
+									{"test": "is_family", "subject": "other", "value": "slime"},
+									{"test": "is_on_team", "subject": "self", "value": "red"},
+									{"test": "is_on_team", "subject": "other", "value": "red"}
+								  ]},
+								  {"all_of":[
+									{"test": "is_family", "subject": "other", "value": "spider"},
+									{"test": "is_on_team", "subject": "self", "value": "blue"},
+									{"test": "is_on_team", "subject": "other", "value": "blue"}
+								  ]},
+								  {"all_of":[
+									{"test": "is_family", "subject": "other", "value": "spider"},
+									{"test": "is_on_team", "subject": "self", "value": "wild"},
+									{"test": "is_on_team", "subject": "other", "value": "wild"}
+								  ]},
+								  {"all_of":[
+									{"test": "is_family", "subject": "other", "value": "spider"},
+									{"test": "is_on_team", "subject": "self", "value": "red"},
+									{"test": "is_on_team", "subject": "other", "value": "red"}
+								  ]}
+							]}
+						]}
+					}]
+				}
+			},
+			"minecraft:stats_normal": {
+				"minecraft:scale": {
+					"value": 1.0
+				},
+				"minecraft:health": {
+					"value": 12,
+					"max": 12
+				}
+			},
+
+			"minecraft:stats_giant": {
+				"minecraft:scale": {
+					"value": 4.0
+				},
+				"minecraft:health": {
+					"value": 36,
+					"max": 36
+				}
+			}
+		},
+
+		"events": {
+			"apply_buffs": {
+        "add":{ "component_groups": [
+          "check_for_buffs",
+          "minecraft:horny_for_spiders"
+        ]}
+      },
+      "ignore_buffs": {
+        "remove":{ "component_groups": [
+          "check_for_buffs"
+        ]}
+      },
+
+      "apply_magmablood": {
+        "add": { "component_groups": [
+          "magmablood"
+        ]}
+      },
+			"minecraft:get_horny": {
+				"add": { "component_groups": [
+					"minecraft:horny_for_spiders"
+				]}
+
+			},
+			"minecraft:turn_off": {
+				"remove": { "component_groups": [
+					"minecraft:horny_for_spiders"
+				]}
+			},
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"minecraft:stats_normal"
+					]
+				}
+			},
+			"minecraft:enlargeable_grow": {
+				"remove": {
+					"component_groups": [
+						"minecraft:stats_normal"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"minecraft:stats_giant"
+					]
+				}
+			},
+			"minecraft:enlargeable_shrink": {
+				"remove": {
+					"component_groups": [
+						"minecraft:stats_giant"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"minecraft:stats_normal"
+					]
+				}
+			}
+		},
+
+		"components": {
+			"minecraft:identifier": {
+				"id": "minecraft:skeleton"
+			},
+      "minecraft:structure_sensor": {
+				"on_proximity": {
+          "event": "apply_buffs"
+				},
+				"on_leave": {
+          "event": "ignore_buffs"
+        }
+			},
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 1.95
+			},
+			"minecraft:type_family": {
+				"family": ["skeleton",
+				"undead",
+				"monster"]
+			},
+			"minecraft:breathable": {
+				"totalSupply": 10,
+				"suffocateTime": 3
+			},
+			"minecraft:enlargeable": {
+				"grow": {
+					"event": "minecraft:enlargeable_grow",
+					"target": "self"
+				},
+				"shrink": {
+					"event": "minecraft:enlargeable_shrink",
+					"target": "self"
+				}
+			},
+			"minecraft:burns_in_daylight": {
+
+			},
+			"minecraft:movement": {
+				"value": 0.2
+			},
+			"minecraft:navigation.walk": {
+				"avoid_water": true
+			},
+			"minecraft:movement.basic": {
+
+			},
+			"minecraft:jump.static": {
+
+			},
+			"minecraft:can_climb": {
+
+			},
+			"minecraft:shooter": {
+				"type": "Arrow",
+				"def": "minecraft:arrow"
+			},
+			"minecraft:nameable": {
+
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/entities/skeleton.json"
+			},
+			"minecraft:equipment": {
+				"table": "loot_tables/entities/skeleton_gear.json"
+			},
+			"minecraft:behavior.restrict_sun": {
+				"priority": 1
+			},
+			"minecraft:behavior.desire_position": {
+				"priority": 5
+			},
+			"minecraft:behavior.hurt_by_target": {
+				"priority": 0,
+				"entity_types": [{
+					"filters": {
+						"any_of": [{
+							"test": "is_family",
+							"subject": "other",
+							"value": "player"
+						},
+						{
+							"test": "is_family",
+							"subject": "other",
+							"value": "villager"
+						},
+						{
+							"test": "is_family",
+							"subject": "other",
+							"value": "zombie"
+						},
+						{
+							"test": "is_family",
+							"subject": "other",
+							"value": "creeper"
+						},
+						{
+							"test": "is_family",
+							"subject": "other",
+							"value": "witch"
+						},
+						{
+							"test": "is_family",
+							"subject": "other",
+							"value": "spider"
+						}]
+					}
+				}]
+			},
+			"minecraft:behavior.flee_sun": {
+				"priority": 2,
+				"speed_multiplier": 1
+			},
+			"minecraft:behavior.nearest_attackable_target": {
+				"priority": 4,
+				"attack_interval": 3,
+				"within_radius": 25,
+				"entity_types": [
+				{
+				"filters": {
+				  "any_of": [
+					{
+					  "all_of": [
+					  {
+						"test": "is_on_team",
+						"subject": "self",
+						"value": "wild"
+					  },
+					  {
+						"test": "is_on_team",
+						"subject": "other",
+						"operator": "not",
+						"value": "wild"
+					  }
+					  ]
+					},
+					{
+					  "all_of": [
+					  {
+						"test": "is_on_team",
+						"subject": "self",
+						"value": "red"
+					  },
+					  {
+						"test": "is_on_team",
+						"subject": "other",
+						"operator": "not",
+						"value": "red"
+					  }
+					  ]
+					},
+					{
+					  "all_of": [
+					  {
+						"test": "is_on_team",
+						"subject": "self",
+						"value": "blue"
+					  },
+					  {
+						"test": "is_on_team",
+						"subject": "other",
+						"operator": "not",
+						"value": "blue"
+					  }
+					  ]
+					}
+				  ]
+				},
+				"max_dist": 40
+			  }
+			],
+				"must_see": false,
+				"must_see_forget_duration": 1.0
+			},
+			"minecraft:behavior.ranged_attack": {
+				"priority": 3,
+				"attack_interval_min": 2,
+				"attack_interval_max": 4,
+				"min_dist": 1,
+				"max_dist": 30,
+				"attack_radius": 30
+			},
+			"minecraft:behavior.desire_direction": {
+				"priority": 6
+			},
+			"minecraft:behavior.panic": {
+				"priority": 7,
+				"speed_multiplier": 1
+			},
+			"minecraft:behavior.target_structures": {
+				"priority": 5,
+				"attack_interval": 1,
+				"within_radius": 10,
+                "structure_types": [{
+                    "filters": [{
+                        "any_of": [
+							{
+								"all_of": [
+									{
+										"test": "is_on_team",
+										"subject": "self",
+										"value": "blue"
+									},
+									{
+										"any_of": [
+										{
+											"test": "is_structure_on_team",
+											"subject": "other",
+											"value": "red"
+										},
+										{
+											"test": "is_structure_on_team",
+											"subject": "other",
+											"value": "wild"
+										}]
+									},
+									{
+										"test": "has_structure_tag",
+										"operator": "not",
+										"value": "do_not_target",
+										"subject": "other"
+									}
+								]
+							},
+							{
+								"all_of": [
+									{
+										"test": "is_on_team",
+										"subject": "self",
+										"value": "red"
+									},
+									{
+										"any_of": [
+										{
+											"test": "is_structure_on_team",
+											"subject": "other",
+											"value": "blue"
+										},
+										{
+											"test": "is_structure_on_team",
+											"subject": "other",
+											"value": "wild"
+										}]
+									},
+									{
+										"test": "has_structure_tag",
+										"operator": "not",
+										"value": "do_not_target",
+										"subject": "other"
+									}
+								]
+							},
+							{
+								"all_of": [
+									{
+										"test": "is_on_team",
+										"subject": "self",
+										"value": "wild"
+									},
+									{
+										"any_of": [
+										{
+											"test": "is_structure_on_team",
+											"subject": "other",
+											"value": "red"
+										},
+										{
+											"test": "is_structure_on_team",
+											"subject": "other",
+											"value": "blue"
+										}]
+									},
+									{
+										"test": "has_structure_tag",
+										"operator": "not",
+										"value": "do_not_target",
+										"subject": "other"
+									}
+								]
+							}
+						]
+                    }]
+                }]
+			},
+			"badger:behavior.idle": {
+				"priority": 1000,
+				"probability": 0.99,
+				"max_dist": 10,
+				"speed_multiplier": 0.8
+			},
+			"minecraft:physics": {
+
+			}
+		}
+	}
+}

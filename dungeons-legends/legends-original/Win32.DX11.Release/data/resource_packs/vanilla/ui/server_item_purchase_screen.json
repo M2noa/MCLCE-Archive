@@ -1,0 +1,127 @@
+{
+  "namespace": "server_purchase_item",
+
+  //--------------------------------------------------------------------------------
+  // Root Controls
+  //--------------------------------------------------------------------------------
+  "content": {
+    "type": "panel",
+    "controls": [
+      { "content_stack_panel@content_stack_panel": {} }
+    ]
+  },
+
+  "content_stack_panel": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "size": [ "100% - 4px", "100% - 4px" ],
+    "controls": [
+      {
+        "key_art_and_text@purchase_common.key_art_and_text": {}
+      },
+      {
+        "empty_panel_0": {
+          "type": "panel",
+          "size": [ 0, 2 ]
+        }
+      },
+      {
+        "screenshot_carousel@purchase_common.screenshot_carousel": {
+          "size": [ "100%", 44 ]
+        }
+      },
+      {
+        "empty_panel_1": {
+          "type": "panel",
+          "size": [ 0, 2 ]
+        }
+      },
+      {
+        "interaction_panel": {
+          "type": "panel",
+          "size": [ "100%", 28 ],
+          "controls": [
+            {
+              "polymorphic_button@common_buttons.light_content_button": {
+                "$pressed_button_name": "button.polymorphic_button_press",
+                "$button_text_binding_type": "global",
+                "$button_text": "#polymorphic_button_text",
+                "$button_content": "common_store.unlock_with_coins_button_stack_panel",
+                "anchor_from": "bottom_left",
+                "anchor_to": "bottom_left",
+                "layer": 1,
+                "$button_focus_precedence|default": 10,
+                "$focus_id|default": "resource_pack_action_button",
+                "$focus_override_left|default": "resource_pack_action_button",
+                "$focus_override_right|default": "resource_pack_action_button",
+                "$focus_override_down|default": "resource_pack_action_button",
+                "$coin_visible": "#polymorphic_button_coins_visible",
+                "$coin_binding_type": "global",
+                "bindings": [
+                  {
+                    "binding_name": "#polymorphic_button_enabled",
+                    "binding_name_override": "#enabled"
+                  }
+                ],
+                // More bindings
+                "$button_binding_condition|default": "none",
+                "$button_text_grid_collection_name|default": ""
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "server_purchase_item@common.base_screen": {
+    "button_mappings": [
+      {
+        "from_button_id": "button.menu_cancel",
+        "to_button_id": "button.menu_exit",
+        "mapping_type": "global"
+      },
+      {
+        "from_button_id": "button.menu_up",
+        "to_button_id": "button.menu_up",
+        "mapping_type": "global",
+        "scope": "view"
+      },
+      {
+        "from_button_id": "button.controller_secondary_select",
+        "to_button_id": "button.coin_wallet",
+        "mapping_type": "global"
+      },
+      {
+        "from_button_id": "button.menu_down",
+        "to_button_id": "button.menu_down",
+        "mapping_type": "global",
+        "scope": "view"
+      },
+      {
+        "from_button_id": "button.menu_left",
+        "to_button_id": "button.menu_left",
+        "mapping_type": "global",
+        "scope": "view"
+      },
+      {
+        "from_button_id": "button.menu_right",
+        "to_button_id": "button.menu_right",
+        "mapping_type": "global",
+        "scope": "view"
+      }
+    ],
+    "$default_text_color": [ 0.3, 0.3, 0.3 ],
+    "$screen_content": "server_purchase_item.server_purchase_item_screen_dialog"
+  },
+
+  "server_purchase_item_screen_dialog@common_store.store_dialog_with_coin_header": {
+    "size": "$resource_pack_screen_size",
+    "min_size": "$min_resource_pack_screen_size",
+    "max_size": "$max_resource_pack_screen_size",
+    "$child_control": "server_purchase_item.content",
+    "$text_name": "#item_title",
+    "$title_text_binding_type": "global"
+  }
+
+}

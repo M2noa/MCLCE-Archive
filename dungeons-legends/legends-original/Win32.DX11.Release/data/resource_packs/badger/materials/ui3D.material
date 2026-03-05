@@ -1,0 +1,69 @@
+{
+  "materials": {
+    "version": "1.0.0",
+
+    "selection_box_badger": {
+      "+states": [
+        "DisableCulling"
+      ],
+
+      "depthFunc": "Always",
+      "vertexShader": "shaders/selection_box_variable.vertex",
+      "vrGeometryShader": "shaders/position.geometry",
+      "fragmentShader": "shaders/current_color.fragment",
+      "vertexFields": [
+        { "field": "Position" },
+        { "field": "Weights" }
+      ],
+
+      "msaaSupport": "Both"
+    },
+
+    "structure_preview_badger": {
+      "+states": [ "Blending", "DisableDepthWrite" ],
+      "depthFunc": "LessEqual",
+      "vertexShader": "shaders/structure_preview.vertex",
+      "vrGeometryShader": "shaders/position.geometry",
+      "fragmentShader": "shaders/structure_preview.fragment",
+      "vertexFields": [
+        { "field": "Position" },
+        { "field": "UV0" }
+      ],
+
+      "msaaSupport": "Both"
+    },
+
+    "structure_overlay_badger": {
+      "+states": [ "DisableCulling", "Blending", "DisableDepthWrite" ],
+      "blendSrc": "SourceAlpha",
+      "blendDst": "One",
+      "depthFunc": "LessEqual",
+      "vertexShader": "shaders/structure_preview.vertex",
+      "vrGeometryShader": "shaders/position.geometry",
+      "fragmentShader": "shaders/structure_overlay.fragment",
+      "vertexFields": [
+        { "field": "Position" },
+        { "field": "UV0" }
+      ],
+
+      "msaaSupport": "Both"
+    },
+
+    "projectile_trail": {
+      "+states": [ "DisableCulling", "Blending", "DisableDepthWrite" ],
+      "blendSrc": "SourceAlpha",
+      "blendDst": "One",
+      "depthFunc": "LessEqual",
+      "vertexShader": "shaders/projectile_trail.vertex",
+      "vrGeometryShader": "shaders/color.geometry",
+      "fragmentShader": "shaders/projectile_trail.fragment",
+      "vertexFields": [
+        { "field": "Position" },
+        { "field": "Weights" },
+        { "field": "Color" },
+        { "field": "UV0" }
+      ],
+      "msaaSupport": "Both"
+    }
+  }
+}

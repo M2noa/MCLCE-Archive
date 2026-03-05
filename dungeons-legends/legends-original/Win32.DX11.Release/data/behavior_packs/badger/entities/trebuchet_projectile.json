@@ -1,0 +1,67 @@
+{
+ "minecraft:entity": {
+    "format_version": "1.2.0",
+
+  "component_groups": {
+   "minecraft:exploding": {
+    "minecraft:explode": {
+     "fuseLength": 0,
+     "fuseLit": true,
+     "power": 6,
+     "depthLimit": -2,
+     "causesFire": true,
+     "fireAffectedByGriefing": true,
+     "destroyAffectedByGriefing": true
+    }
+   }
+  },
+
+  "components": {
+   "minecraft:identifier": {
+    "id": "minecraft:trebuchet_projectile"
+   },
+   "minecraft:collision_box": {
+    "width": 3.0,
+    "height": 3.0
+   },
+   "minecraft:projectile": {
+    "onHit": {
+      "impact_damage": {
+        "damage": [ 200, 200 ],
+        "knockback": true,
+        "semirandomdiffdamage": false,
+        "destroyonhit": true
+      },
+     "definition_event": {
+      "affectProjectile": true,
+      "eventTrigger": {
+            "event": "minecraft:explode",
+            "target": "self"
+      }
+     }
+    },
+    "power": 2.5,
+    "gravity": 0.0625,
+    "inertia": 1,
+    "uncertaintyBase": 5,
+    "uncertaintyMultiplier": 0,
+    "anchor": 0,
+    "offset": [ 0, -0.1, 0 ],
+    "reflectOnHurt": true,
+    "catchFire": false,
+    "shoottarget": false
+   },
+   "minecraft:physics": {
+   }
+  },
+  "events": {
+   "minecraft:explode": {
+    "add": {
+     "component_groups": [
+      "minecraft:exploding"
+     ]
+    }
+   }
+  }
+ }
+}

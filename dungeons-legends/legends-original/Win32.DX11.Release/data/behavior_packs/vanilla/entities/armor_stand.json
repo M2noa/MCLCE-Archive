@@ -1,0 +1,35 @@
+{
+  "minecraft:entity": {
+    "format_version": "1.2.0",
+
+    "component_groups": {
+    },
+
+    "components": {
+      "minecraft:identifier": {
+        "id": "minecraft:armor_stand"
+      },
+      "minecraft:type_family": {
+        "family": [ "armor_stand", "inanimate" ]
+      },
+      "minecraft:collision_box": {
+        "width": 0.5,
+        "height": 1.975
+      },
+      "minecraft:health": {
+        "value": 6,
+        "max": 6
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/armor_stand.json"
+      },
+      "minecraft:nameable": {
+      },
+      "minecraft:physics": {
+      }
+    },
+
+    "events": {
+    }
+  }
+}

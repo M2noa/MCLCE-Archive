@@ -1,0 +1,211 @@
+{
+  "minecraft:entity": {
+    "format_version": "1.2.0",
+
+    "component_groups": {
+      "minecraft:zombie_husk_baby": {
+        "minecraft:is_baby": {  },
+        "minecraft:scale": {
+          "value":0.53125
+        },
+        "minecraft:movement": {
+          "value": 0.35
+        }
+      },
+
+      "minecraft:zombie_husk_adult": {
+        "minecraft:movement": {
+          "value": 0.23
+        },
+        "minecraft:rideable": {
+          "seat_count": 1,
+          "family_types": [
+            "zombie"
+          ],
+          "seats": {
+            "position": [ 0.0, 1.1, -0.35 ],
+            "lock_rider_rotation": 0
+          }
+        },
+        "minecraft:behavior.mount_pathing": {
+          "priority": 2,
+          "speed_multiplier": 1.25,
+          "target_dist": 0.0,
+          "track_target": true
+        },
+        "minecraft:scale": {
+          "value": 1.0625
+        }
+      },
+
+      "minecraft:zombie_husk_jockey": {
+        "minecraft:behavior.find_mount": {
+          "priority": 1,
+          "within_radius": 16
+        }
+      }
+    },
+
+    "components": {
+      "minecraft:identifier": {
+        "id": "minecraft:husk"
+      },
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": 0
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.8
+      },
+      "minecraft:nameable": {
+      },
+      
+      // Zombie_husk Components
+      "minecraft:type_family": {
+        "family":["husk", "zombie", "undead", "monster"]          
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/zombie.json"
+      },
+      "minecraft:equipment": {
+        "table": "loot_tables/entities/zombie_equipment.json"
+      },
+  
+      "minecraft:health": {
+        "value": 20,
+        "max": 20
+      },
+      "minecraft:attack": {
+        "damage": 3,
+        "effect_name": "hunger",
+        "effect_duration": 30
+      },
+      "minecraft:variant": {
+        "value": 2
+      },
+      "minecraft:navigation.walk": {
+        "can_float": true,
+        "can_pass_doors": true,
+        "can_open_doors": true,
+        "avoid_water": false,
+        "avoid_portals": false
+      },
+      "minecraft:movement.basic": {
+        
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:can_climb": {
+      },
+
+      // Zombie_husk Behaviors
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:behavior.break_door": {
+        "priority": 1
+      },
+      "minecraft:behavior.melee_attack": {
+        "priority": 3,
+        "speed_multiplier": 1,
+        "track_target": false
+      },
+      "minecraft:behavior.move_towards_restriction": {
+        "priority": 4,
+        "speed_multiplier": 1
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 6,
+        "speed_multiplier": 1
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 7,
+        "look_distance": 6,
+        "probability": 0.02
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 7
+      },
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 1
+      },
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 2,
+        "within_radius": 25,
+        "entity_types": [
+          {
+            "filters": {
+              "any_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "player"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "snowgolem"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "irongolem"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "villager"
+                }
+              ]
+            },
+            "max_dist": 35
+          }
+        ],
+        "must_see": true
+      },
+	    "minecraft:physics": {
+      }
+    },
+
+    "events": {
+      "minecraft:entity_spawned": {
+        "randomize": [
+          {
+            "weight": 9500,
+            "remove": {
+            },
+            "add": {
+              "component_groups": [
+                "minecraft:zombie_husk_adult"
+              ]
+            }
+          },
+          {
+            "weight": 425,
+            "remove": {
+            },
+            "add": {
+              "component_groups": [
+                "minecraft:zombie_husk_baby"
+              ]
+
+            }
+          },
+          {
+            "weight": 75,
+            "remove": {
+            },
+            "add": {
+              "component_groups": [
+                "minecraft:zombie_husk_baby",
+                "minecraft:zombie_husk_jockey"
+              ]
+
+            }
+          }
+        ]
+      }
+    }
+  }
+}

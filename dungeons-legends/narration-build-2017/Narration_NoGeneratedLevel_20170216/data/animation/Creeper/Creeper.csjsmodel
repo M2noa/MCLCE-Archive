@@ -1,0 +1,70 @@
+{
+  "title": "Creeper",
+  "tree": [
+    {
+      "name": "CenterPivot",
+      "position": [ 0, 12, 0 ],
+      "offsetFromPivot": [ 0, 0, 0 ],
+      "size": [ 0, 0, 0 ],
+      "rotation": [ 0, 0, 0 ],
+      "texOffset": [ 0, 0 ],
+      "children": [
+        {
+          "name": "Body",
+          "position": [ 0, -6, 0 ],
+          "offsetFromPivot": [ 0, 6, 0 ],
+          "size": [ 8, 12, 4 ],
+          "rotation": [ 0, 0, 0 ],
+          "texOffset": [ 16, 16 ],
+          "children": [
+            {
+              "name": "Head",
+              "position": [ 0, 6, 0 ],
+              "offsetFromPivot": [ 0, 4, 0 ],
+              "size": [ 8, 8, 8 ],
+              "rotation": [ 0, 0, 0 ],
+              "texOffset": [ 0, 0 ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "LegFrontRight",
+          "position": [ -2, -6, 2 ],
+          "offsetFromPivot": [ 0, -3, 2 ],
+          "size": [ 4, 6, 4 ],
+          "rotation": [ 0, 0, 0 ],
+          "texOffset": [ 0, 16 ],
+          "children": []
+        },
+        {
+          "name": "LegBackLeft",
+          "position": [ 2, -6, -2 ],
+          "offsetFromPivot": [ 0, -3, -2 ],
+          "size": [ 4, 6, 4 ],
+          "rotation": [ 0, 0, 0 ],
+          "texOffset": [ 0, 16 ],
+          "children": []
+        },
+        {
+          "name": "LegBackRight",
+          "position": [ -2, -6, -2 ],
+          "offsetFromPivot": [ 0, -3, -2 ],
+          "size": [ 4, 6, 4 ],
+          "rotation": [ 0, 0, 0 ],
+          "texOffset": [ 0, 16 ],
+          "children": []
+        },
+        {
+          "name": "LegFrontLeft",
+          "position": [ 2, -6, 2 ],
+          "offsetFromPivot": [ 0, -3, 2 ],
+          "size": [ 4, 6, 4 ],
+          "rotation": [ 0, 0, 0 ],
+          "texOffset": [ 0, 16 ],
+          "children": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "settings": {
+    //Use twin stick (ie. camera-relative) controls when in "Badger Fixed" camera mode
+    //(also forces the player's head to stay locked to their body facing direction in that camera mode)
+    "twin_stick": true,
+
+    //Use the "new LT/RT" control scheme (for both gamepad and mouse), where to use an item you
+    //first hold LT (or RMB), and then press RT (or LMB) to actually use the item
+    "new_trigger_controls": true,
+
+    //Players will spawn a certain distance from each other in blocks
+    //If you set 100 blocks, then players will spawn 50 blocks from the center of the island.
+    //Blocks not to be confused with chunks (chunks are 16 blocks).
+    //TODO: Not yet implemented
+    "player_separation_blocks": 0,
+
+    //When this is true, the player will auto-jump in any direction (left, right, backward),
+    //not just forward (this is recommended / necessary when "twin_stick" is enabled).
+    "omnidirectional_auto_jump": true,
+
+    // Controller deadzone for the controller R stick
+    "deadzone": 0.05,
+
+    // When using a Badger camera, how far away a sound can play from the audio listener before it's cut off (originally hard coded to 16)
+    "audio_listen_distance": 24,
+
+    // Enable friendly fire when attacking friendly structures
+    "enable_friendlyfire": false,
+
+    // Use volume based collision detection for attacks
+    "use_attack_volume": true,
+
+    // The angle Steve aims when attacking using a hand equipped item (0 is straight ahead, positive values pitching down)
+    "attack_aiming_angle": 40.0,
+
+    // [IF use_attack_volume IS TRUE] The dimensions (approximately in blocks) for the sword attack
+    "attack_volume_sword_dims": [ 3.0, 3.0, 2.0 ],
+
+    // [IF use_attack_volume IS TRUE] The offset (approximately in blocks) relative to forward facing center for the sword attack
+    "attack_volume_sword_offset": [ 0.0, -3.0, 0.0 ],
+
+    // [IF use_attack_volume IS TRUE] Whether to prioritize attacking mobs or attacking buildings
+    "attack_volume_prioritize_mobs": true,
+
+    // Should the character attack enemy / wild mobs automatically
+    "auto_attack_enabled": true,
+
+    // [IF auto attack IS TRUE] the rate of fire (in seconds) the player will attack
+    "auto_attack_rof": 0.5,
+
+    // Is auto attacking enabled on the bow
+    "auto_fire_enabled": true,
+
+    // [IF auto_fire_enabled IS TRUE] the rate of fire (approx in seconds) the player will fire the bow
+    "auto_fire_rof": 1.25,
+
+    // [IF auto_fire_enabled IS TRUE] the distance enemy mobs have to be before the player will auto fire the bow at them
+    "auto_fire_range": 16.0,
+
+    "mob_jump_multiplier": 1.3,
+
+    "hero_banner_range": 50,
+
+    "hero_banner_speed_multiplier": 1.5,
+
+    // The amount of time a structure fire will burn (in seconds).
+    "structure_fire_burn_time": 5.0,
+
+    // The amount of damage a structure fire will affect the structure's health (in seconds per block on fire).
+    "structure_fire_damage_amount": 1.0,
+
+    // The distance the selector can travel when the current camera has "follow_structure_placement" to true
+    "max_structure_placement_range": 8.0,
+
+    // The sensitivity for when the structure placement selector is active and is associated to WASD / L-stick
+    "place_cursor_sensitivity_via_move": 0.5,
+
+    // The sensitivity for when the structure placement selector is active and is associated to Mouse Move / R-stick
+    "place_cursor_sensitivity_via_aim": 0.35,
+
+    // How much slowdown is applied to movement when the structure placement selector is active
+    "structure_placement_slowdown": 0.25,
+
+    // The max rotation rate while on a horse (in degrees)
+    "mounted_rotation_rate": 270.0,
+
+    // The delay time before health regen will start after a structure takes damage.
+    "regen_damage_delay": 2.5,
+
+    // The duration in ticks that is needed to reach max jump on the horse.
+    "horse_jump_max_ticks": 3,
+
+    // The sensitivity of aiming the trebuchet with the gamepad. A larger number makes the target "move faster".
+    "trebuchet_gamepad_aim_sensitivity": 0.015,
+
+    // The sensitivity of aiming the trebuchet with the mouse. A larger number makes the target "move faster".
+    "trebuchet_mouse_aim_sensitivity": 1.5,
+    
+    // The sensitivity of aiming structures with the gamepad. A larger number makes the target "move faster".
+    "building_gamepad_aim_sensitivity": 0.03,
+
+    // Force the "Play Badger" button to generate a flat world instead
+    "flat_world": false,
+
+    // Set a multiplier on the structure build speed.
+    "build_speed": 1
+  },
+
+  //Island-generation parameters.
+  "island_generation": {
+
+    //Force island generation which will override world generation type when creating server.
+    //You can use this to convert a saved normal world into an island world and even configure the distance.
+    //Be aware that chunks that have been interacted with will not be overridden and can make your world
+    //look crazy. If this is false, none of the other values in this section will take effect.
+    "forced": false,
+
+    /*Force a specific biome for the island landmass. Here is the current list (names are case-sensitive):
+        "Plains", "Desert", "Extreme Hills", "Forest" "Taiga", "Swampland" "River",
+        "Hell" "The End", "FrozenOcean" "FrozenRiver", "Ice Plains" "Ice Mountains",
+        "MushroomIsland" "MushroomIslandShore", "Beach" "DesertHills", "ForestHills" "TaigaHills",
+        "Extreme Hills Edge" "Jungle", "JungleHills" "JungleEdge", "Deep Ocean" "Stone Beach",
+        "Cold Beach" "Birch Forest", "Birch Forest Hills" "Roofed Forest", "Cold Taiga" "Cold Taiga Hills",
+        "Mega Taiga" "Mega Taiga Hills", "Extreme Hills+" "Savanna", "Savanna Plateau" "Mesa",
+        "Mesa Plateau F" "Mesa Plateau" 
+    Leave it blank or give it an invalid name to not force a biome. */
+    //TODO: Not yet implemented (I tried, but WorldGen is overriding me somewhere).
+    "biome_name": "Desert",
+
+    //Defines the size of the island's radius in chunks.
+    "chunk_radius": 6
+  },
+
+  //Each player is awarded list of items at game start with specified quantity
+  "player_settings": {
+    "starting_items": [
+      { "diamond_sword": {} },
+      {
+        "arrow": {
+          "quantity": 64
+        }
+      },
+      {
+        "splash_potion": {
+          // (see Potion.h for auxvalue mappings)
+          "auxvalue": [ 16, 30, 33, 17, 34, 27, 7, 22, 24, 11 ],
+          "quantity": 5
+        }
+      },
+      {
+        "tnt": {
+          "quantity": 0
+        }
+      },
+      {
+        "leather_helmet": {
+          "slot": "slot.armor.head"
+        }
+      },
+      {
+        "leather_chestplate": {
+          "slot": "slot.armor.chest"
+        }
+      },
+      {
+        "leather_leggings": {
+          "slot": "slot.armor.legs"
+        }
+      },
+      {
+        "leather_boots": {
+          "slot": "slot.armor.feet"
+        }
+      },
+      { "badger_shovel_a": {} },
+      { "badger_shovel_b": {} },
+      { "badger_shovel_c": {} },
+      { "badger_shovel_d": {} },
+      { "badger_shovel_e": {} },
+      { "badger_crowbar": {} },
+      {
+        "flint_and_steel": {
+          "quantity": 1
+        }
+      },
+      {
+        "torch": {
+          "quantity": 50
+        }
+      }
+    ],
+
+    // Supported mounts:
+    // horse
+    // skeleton_horse
+    // donkey
+    // llama
+    // mule
+    // pig
+    "starting_mount": "horse"
+  },
+
+  "debug": {
+    "entity_behavior_debug": false,
+    "show_attack_volume": false
+  },
+
+  "render_settings": {
+    "influence_search_radius": 35,
+    "trail_death_ticks": 16,
+    "trail_intensity": 0.75,
+
+    "progress_bars": [
+      // ordering here matches the enum BadgerOverlayPacket::Type
+      {
+        // capture bar
+        "range": 50.0,
+        "offset": [ 0, -9 ],
+        "size": [ 40, 3 ]
+      },
+      {
+        // health bar
+        "range": 50.0,
+        "offset": [ 0, -12 ],
+        "size": [ 50, 3 ]
+      }
+    ],
+
+    "lines": [
+      // matches BadgerRenderSettings::LineWidth enum
+      { "width": 1.0 }, // default
+      { "width": 5.0 }, // selection outline
+      { "width": 5.0 } // direction arrow
+    ],
+
+    "teams": [
+      {
+        "red": {
+          "id": 1,
+          "tint": [ 0.7, 0.2, 0.2, 1.0 ]
+        }
+      },
+      {
+        "blue": {
+          "id": 2,
+          "tint": [ 0.2, 0.2, 0.7, 1.0 ]
+        }
+      },
+      {
+        "wild": {
+          "id": 0,
+          "tint": [ 0.0, 0.0, 0.0, 0.0 ]
+        }
+      }
+    ]
+  }
+}

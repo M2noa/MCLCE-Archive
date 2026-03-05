@@ -1,0 +1,60 @@
+{
+	"weapons": {
+        "sword": {
+            "speed": 1,
+            "delay": 0,
+            "damage": 13
+        },
+        "bow": {
+            "speed": 1,
+            "delay": 5,
+            //Todo: damage for bow is not yet implemented or used
+            "damage": 10
+        }
+    },
+    "player": {
+        "speed": 6.1,
+        "autoAimDistance": 25,
+        "autoAimAngleDiff": 15,
+        "health": {
+            "max": 20,
+            "regenDelaySeconds": 3,
+            "regenInitialFrequency": 100
+        },
+        "attacks": {
+            "swing1": {
+                "animation": "swing1.anim",
+                "damageMultiplier": 1.0,
+                "maxAngle": 25,
+                "backDistance": 1,
+                "maxDistance": 3.3,
+                "knockback": 1.6,
+                "stunTime": 1,
+                "chargeDistance": 8,
+                "cooldown": 7
+            },
+            "swing2": {
+                "animation": "swing2.anim",
+                "damageMultiplier": 1.0,
+                "maxAngle": 25,
+                "backDistance": 1,
+                "maxDistance": 3.3,
+                "knockback": 1.6,
+                "stunTime": 1,
+                "chargeDistance": 8,
+                "cooldown": 7
+            },
+            "lunge": {
+                "animation": "lunge.anim",
+                "damageMultiplier": 1.0,
+                "maxAngle": 10,
+                "backDistance": 5,
+                "maxDistance": 4.2,
+                "knockback": 2,
+                "stunTime": 4,
+                "chargeDistance": 8,
+                "cooldown": 10
+            }
+        }
+    }
+}

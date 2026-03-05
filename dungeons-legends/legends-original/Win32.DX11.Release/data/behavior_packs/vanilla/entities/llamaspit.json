@@ -1,0 +1,35 @@
+{
+  "minecraft:entity": {
+    "format_version": "1.2.0",
+
+    "components": {
+      "minecraft:identifier": {
+        "id": "minecraft:llama_spit"
+      },
+      "minecraft:collision_box": {
+        "width": 0.31,
+        "height": 0.31
+      },
+      "minecraft:projectile": {
+
+        "onHit": {
+          "impact_damage": {
+            "damage": 1,
+            "knockback": false
+          },
+          "remove_on_hit": { }
+        },
+        "power": 1.5,
+        "gravity": 0.06,
+        "inertia": 1,
+        "uncertaintyBase": 10,
+        "uncertaintyMultiplier": 4,
+        "anchor": 1,
+        "offset": [ 0, -0.1, 0 ],
+        "reflectOnHurt": true
+      },
+	    "minecraft:physics": {
+      }
+    }
+  }
+}

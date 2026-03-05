@@ -1,0 +1,175 @@
+﻿MINECRAFT REALMSIN LOPPUKÄYTTÄJÄN LISENSSISOPIMUS
+Tämä loppukäyttäjän lisenssisopimus ("EULA" tai "ehdot") on laillinen sopimus sinun ja meidän (Mojang AB) välillä. Tämän lisenssin ehdoissa esitetään joitakin sääntöjä Minecraft Realms -palvelun ("Minecraft Realmsin") käytölle. Me emme pidä lisenssiasiakirjojen lukemisesta yhtään sinua enempää, joten olemme yrittäneet pitää tämän mahdollisimman lyhyenä. Jos rikot näitä sääntöjä, saatamme estää sinua käyttämästä Minecraft Realmsia. Jos käytät Minecraft Realmsia, sitoudut noudattamaan näiden ehtojen sääntöjä. Jos et halua tai pysty sitoutumaan näiden sääntöjen noudattamiseen, älä käytä Minecraft Realmsia.
+
+Nämä ehdot sisältävät tietosuojakäytäntömme, Mojang-tilien ehdot, Minecraftin EULA:n ja, jos asut Yhdysvalloissa, välityssopimuksemme. Siksi kyseisten asiakirjojen sisältöä on sovellettava samalla tavalla kuin näiden ehtojen sisältöä. Kun viittaamme näihin ehtoihin, tarkoitamme edessäsi olevia ehtoja ja määräyksiä sekä niihin sisällytettyjä asiakirjoja, jotka ovat saatavilla asianmukaisia linkkejä seuraamalla.
+
+SITOVA VÄLITYSSOPIMUS JA RYHMÄKANNEOIKEUDESTA LUOPUMINEN
+Jos asut Yhdysvalloissa, näet EULA:an kuuluvat sitovan välityssopimuksen ja ryhmäkanneoikeudesta luopumisen napsauttamalla tästä. Sopimuksen mukaan sitoudumme molemmat käyttämään puolueetonta välimiestä ratkaisemaan mahdolliset yksittäiset kiistat ja siten luopumaan oikeuksistamme viedä yksittäisiä kanteita oikeuteen tuomarin tai valamiehistön ratkaistavaksi. Sovimme myös, että ryhmäkanteet ja ryhmänlaajuiset välimiesmenettelyt ovat kiellettyjä tämän sopimuksen ehtojen mukaan.
+
+Välityssopimus esitetään kokonaisuudessaan tällä sivulla. Sinä ja me hyväksymme sen; luethan sen.
+
+TIETOJA MINECRAFT REALMSISTA
+Minecraft Realms on palvelu, jonka tarkoitus on mahdollistaa Minecraftin pelaaminen muiden ihmisten kanssa tähän tarkoitetulla palvelimella ja näiden ehtojen mukaisesti.
+
+"Minecraft-alue" on siksi yksittäinen meidän isännöimämme Minecraft-maailma, -palvelin tai -ilmentymä.
+
+Voit käyttää Minecraft Realmsia siten, että sinulla on oma Minecraft-alueesi ("Oma Minecraft-alueesi), tai siten, että sinulle on annettu lupa käyttää toisen henkilön Minecraft-aluetta ("Muut Minecraft-alueet"). Minecraft Realmsin käyttämisellä tarkoitetaan siksi sekä Oma Minecraft-alueesi että Muiden Minecraft-alueiden käyttöä.
+
+MINECRAFT REALMSIN KÄYTTÖ
+Minecraft Realmsin käyttöä varten
+- sinulla on mm. oltava täyden pelin aito, luvallinen ja aktivoitu kopio sekä Xbox Live -tili (Minecraftia) Mojang-tili (Minecraft: Java Editionia varten),
+- sinun on hyväksyttävä ehdot ja
+- sinulla on oltava soveltuva laite ja internet-yhteys.
+
+OMAN MINECRAFT-ALUEEN HANKKIMINEN
+Oman Minecraft-alueesi hankkimista varten sinulla on oltava Xbox Live -tili (Minecraftia varten) tai Mojang-tili (Minecraft: Java Editionia varten), jossa Minecraft on aktivoituna. Sinun on myös ostettava tai tilattava ja maksettava se. Minecraft Realms on tilauspalvelu, jonka hinta on määritetty sovellettavilla hankintasivuilla ja/tai -ympäristössä ostotapahtuman ajankohtana tai vastaa lunastettavan kortin tai lahjakoodin hintaa. Sovellettavien hankintasivujen tai -ympäristöjen, lunastettavien korttien ja/tai lahjakoodien ehdot ja määräykset pätevät myös Minecraft Realmsin ostamiseen. Minecraft Realms on palvelu, joka alkaa heti kun Oma Minecraft-alueesi on käytettävissä, minkä jälkeen et ole oikeutettu perumaan tilaustasi. OMAN MINECRAFT-ALUEESI KÄYTTÖ
+
+Kun saat Oman Minecraft-alueesi, saat käyttöösi erityisen Minecraft-alueen, jolla voit
+
+pelata Minecraftia yksiksesi tai
+kutsua useita muita ihmisiä pelaamaan Minecraftia kanssasi (määrä riippuu siitä, minkä Realmsin version hankit).
+Et kuitenkaan voi
+
+myydä, liisata, vuokrata, siirtää, lahjoittaa tai muuten luovuttaa käyttöoikeuttasi Omaan Minecraft-alueeseesi tai saada korvausta siitä, että annat muiden pelata Omalla Minecraft-alueellasi.
+
+MUIDEN MINECRAFT-ALUEIDEN KÄYTTÖ
+Tarvitset aidon, aktivoidun version Minecraftista, jotta voit käyttää muiden henkilöiden Minecraft Realmsia (Muita Minecraft-alueita). Kun saat käyttöoikeuden Muihin Minecraft-alueisiin, saat käyttöoikeuden muun henkilön erityiseen Minecraft-alueeseen, jolla voit
+
+- pelata Minecraftia kyseisen henkilön kanssa ja
+- pelata Minecraftia kenen tahansa muun henkilön kanssa, jolle alueen omistaja on antanut käyttöluvan.
+Et kuitenkaan voi
+
+- myydä, liisata, vuokrata, siirtää, lahjoittaa tai muuten luovuttaa käyttöoikeuttasi Muuhun Minecraft-alueeseen tai antaa kenenkään muun käyttää käyttöoikeuttasi millään tavoin.
+ÄLÄ ANNA KÄYTTÖOIKEUTTA MINECRAFT-ALUEESEESI TUNTEMATTOMILLE HENKILÖILLE. OLE VARUILLASI, KUN OLET YHTEYDESSÄ MUIHIN HENKILÖIHIN MINECRAFT REALMSIN KAUTTA. SINUN TAI MEIDÄN ON VAIKEA TIETÄÄ VARMASTI, PUHUVATKO MUUT HENKILÖT TOTTA TAI EDES SITÄ, OVATKO HE KEITÄ HE SANOVAT OLEVANSA. SINUN ON AINA HARKITTAVA TARKASTI HENKILÖTIETOJESI ANTAMISTA.
+
+TILIT
+Kuten edellä mainittiin, tarvitset Xbox Live -tilin (Minecraftia) tai Mojang-tilin (Minecraft: Java Editionia varten) sekä aktivoidun, luvallisen Minecraft-version. Jos sinulla ei ole näitä tilejä, sinua pyydetään antamaan tiettyjä tietoja toisen tai molempien luomista varten. Rekisteröinnin yhteydessä antamiesi tietojen on oltava oikein. Voit muuttaa rekisteröitymistietojasi, jos ne vanhenevat. Jos annat tahallasi vääriä tietoja, voimme lopettaa tai jäädyttää tilisi.
+
+Luomasi käyttäjänimi ja salasana sekä tililläsi tapahtuva toiminta ovat sinun vastuullasi. Jos joku käyttää salasanaasi tehdäkseen jotakin, mistä et pidä tai mikä aiheuttaa sinulle haittaa, me emme voi olla emmekä ole vastuussa siitä.
+
+MINECRAFT REALMSIN OMISTUS JA MUITA ASIOITA
+Minecraft Realms koostuu ohjelmistostamme, tekstuureistamme, resursseistamme, työkaluistamme, infrastruktuuristamme ja suuresta määrästä muita fiksuja (ja vähemmän fiksuja) asioita, jotka omistamme. Kaikkiin niitä koskeviin oikeuksiimme vedotaan ja ne pidätetään, mutta voit käyttää näitä asioita Minecraft Realmsia käyttäessäsi ja kyseiseen käyttöön liittyen Minecraftin EULA:ssa esitetyin perustein. Sinulle annetaan tähän myös rajoittamaton lupa, johon sovelletaan näitä ehtoja.
+
+Tämä ei tarkoita, että omistaisimme kaikki päheät jutut, jotka luot Minecraft Realmsissa. Sinun on vain hyväksyttävä, että omistamme sekä Minecraftin että Minecraft Realmsin tuotteena ja palveluna samoin kuin edellä mainitut asiat. Omistamme myös kyseisiin asioihin liittyvät tekijänoikeudet ja muut niin sanotut immateriaalioikeudet (IPR:t) sekä Minecraftiin ja Minecraft Realmsiin liittyvät nimet ja tavaramerkit.
+
+Sinä tietysti luot omat juttusi Minecraft Realmsissa. Me emme omista itse luomiasi alkuperäisjuttuja emmekä vaadi omistajuutta mistään sellaisesta, joka ei meille kuulu. Omistamme kuitenkin asiat, jotka ovat meidän omaisuutemme ja luomustemme (tarkennettu edellä) jäljennöksiä (tai suurimmaksi osaksi jäljennöksiä niistä) tai johdannaisia. Jos kuitenkin luot alkuperäisiä asioita, ne eivät ole meidän. Esimerkiksi:
+
+- yksittäinen kuutio - se on meidän;
+- goottilainen katedraali, jonka läpi kulkee vuoristorata - se ei ole meidän.
+Siksi ostat vain luvan käyttää Minecraft Realms -tuotetta ja -palvelua näiden ehtojen mukaisesti, kun maksat Minecraft Realmsin käytöstä. Ainoat oikeudet, jotka sinulla on Minecraft Realmsin osalta, ovat näissä ehdoissa esitetyt oikeudet sekä erityiset lainsäädännölliset poikkeukset tai oikeudet (niin sanotut vilpittömän käytön tai vilpittömän menettelyn oikeudet mukaan luettuna), joihin sinulla on lain nojalla oikeus. Viimeksi mainitut kuitenkin pätevät yleensä sisältöön eivätkä Minecraft Realmsiin itseensä.
+
+Jotkut Realmsin versiot saattavat sallia Oman Minecraft-alueesi tietojen varmuuskopioinnin. Tällöin voit ladata varmuuskopion laitteellesi ja käyttää sitä omalla (aidolla) Minecraft-versiollasi (Minecraftin EULA:n mukaisesti).
+
+OMA SISÄLTÖSI
+Jos luot asioita Minecraft Realmsissa tai annat mitä tahansa sisältöä tai materiaalia käyttöön sen kautta ("Oma sisältösi"), voit myös antaa meille tai muille henkilöille, joilla on käyttöoikeus, luvan käyttää sitä. Tämä tarkoittaa myös, että voimme käyttää, kopioida, muuttaa, muovata, jakaa, esittää julkisesti ja muulla tavalla antaa käyttöön Omaa sisältöäsi muille (ilman maksua tai rajoituksia). Tähän kuuluu kaikki mitä rakennat, nikkaroit tai luot sekä kaikki viestintäsi, jonka annat käyttöön esimerkiksi chat-toimintojemme kautta, Annat meille myös luvan käyttää, kopioida, muuttaa, muokata, jakaa ja antaa käyttöön Oman sisältösi ja hyväksyt, ettet välttämättä saa kunniaa tai ansioita siitä.
+
+Tämä on tarpeen useista syistä, kuten siitä, että meidän on varmistettava, että muilla henkilöillä (jotka saatat kutsua) on oikeus käyttää Omaa Minecraft-aluettasi kun he sitä yrittävät ja että sinulla on oikeus käyttää Muita Minecraft-alueita kun sitä yrität. Meidän on myös varmistettava, että me emme ole vastuussa siitä, mitä muut tekevät Omalla sisällölläsi, kun annat heidän käyttää sitä, koska emme voi valvoa tätä. Meidän on myös otettava huomioon, että Oma sisältösi sisältää yleensä ohjelmistoamme, tekstuureitamme, resurssejamme, työkalujamme jne. (ks. edellä).
+
+Nämä luvat kestävät ikuisesti eikä niitä voi perua. Jos et halua antaa näitä lupia, älä anna sisältöä käyttöön Minecraft Realmsin avulla.
+
+Harkitse siksi tarkoin ennen kuin annat sisältöä käyttöön. Siitä tulee nimittäin julkista (myös niille henkilöille, joilla on käyttöoikeus sinun käyttämiisi Minecraft-alueisiin), ja muut ihmiset saattavat jopa käyttää sitä tavalla, josta et pidä.
+
+Jos aiot antaa Oman sisältösi käytettäväksi Minecraft Realmsin kautta esimerkiksi Omalla Minecraft-alueellasi tai Muilla Minecraft-alueilla,
+
+- se ei saa loukata muita,
+- se ei saa olla laitonta tai luvatonta,
+- sen on oltava rehellistä eikä sillä saa johtaa harhaan, huijata tai käyttää hyväksi muita tai tekeytyä muuksi henkilöksi,
+- sillä ei saa rikkoa kenenkään tekijänoikeuksia tai muita oikeuksia,
+- se ei saa olla rasistista, seksististä tai homofobista,
+- se ei saa olla kiusaavaa tai solvaavaa,
+- se ei saa vahingoittaa meidän tai muiden henkilöiden mainetta,
+- se ei saa sisältää pornografiaa ja
+- se ei saa sisältää mainontaa.
+
+Et saa antaa Minecraft Realmsin kautta käytettäväksi mitään sisältöä, joka rikkoo muun henkilön oikeuksia.
+
+Olet vastuussa kaikesta sisällöstä, jonka annat käytettäväksi Minecraft Realmsin kautta.
+
+Olet myös vastuussa kaikesta sisällöstä, jonka sinä tai muut henkilöt antavat käytettäväksi Oman Minecraft-alueesi kautta.
+
+Antamalla Oman sisältösi käytettäväksi takaat ja kerrot meille, että sinulla on täysi oikeus tehdä niin näiden ehtojen nojalla ja että meillä on lupa käyttää oikeuksia, jotka olet antanut meille näiden ehtojen nojalla.
+
+Jos haluat ilmoittaa meille, että joku rikkoo immateriaalioikeuksiasi Minecraft Realmsissa tai jossakin muussa palvelussamme, ilmoita meille asiasta täällä (https://www.microsoft.com/info/cpyrtInfrg.aspx). Pidätämme oikeuden poistaa käytöstä minkä tahansa sisällön oman harkintamme mukaan. Tarvittaessa lopetamme tai jäädytämme toistuviin rikkomuksiin syyllistyneiden henkilöiden tilit.
+
+MUU SISÄLTÖ
+Minecraft Realmsissa sinulla voi olla mahdollisuus käyttää muiden luomaa sisältöä ("Muu sisältö"). Osan tästä Muusta sisällöstä saattaa olla sellaisten henkilöiden käytettäväksi antamaa, jotka kutsut Omalle Minecraft-alueellesi, ja osa voi olla käytettävänä osana jonkun muun Minecraft-aluetta.
+
+Kuten Oma sisältösi, myös Muu sisältö sisältää yleensä ohjelmistoamme, tekstuurejamme, resurssejamme, työkalujamme jne. (ks. edellä).
+
+Jos joku antaa käytettäväksi Muuta sisältöä tai antaa sinulle käyttöoikeuden sellaiseen, saat käyttää sitä Minecraft Realmsiin liittyen näiden ehtojen mukaisesti. Muuhun sisältöön sovelletaan aina näitä ehtoja.
+
+KÄYTTÄJÄSISÄLTÖ
+Seuraavassa esitetään sekä Omaa sisältöäsi että Muuta sisältöä (joita yhdessä kutsutaan "Käyttäjäsisällöksi") koskevia ehtoja.
+
+Minecraft Realms on viihdepalvelu, johon liittyen me osallistumme Käyttäjäsisällön siirtämiseen, jakamiseen, tallentamiseen ja hakemiseen – jossa Minecraft Realms toimii pelkkänä kanavana – ilman sen arvioimista, valitsemista tai muuttamista ja/tai isännöimme Käyttäjäsisältöä ilman tietoa sen varsinaisesta sisällöstä. Tämä tarkoittaa, että me emme valvo tai arvioi Käyttäjäsisältöä emmekä siten tiedä, mitä sinä tai muut henkilöt levitätte. Saatamme tarkistaa sen teknisen yhteensopivuuden ja yhteentoimivuuden ja/tai virusten jne. osalta, mutta me emme arvioi sisältöä itseään tai sen sisältämiä tietoja. Nämä säännöt sisältyvät ehtoihin, joita sinun ja muiden on noudatettava, mutta me emme voi tietää kaikkea, mitä on meneillään.
+
+Ota siis huomioon, että
+
+- Käyttäjäsisällöissä esitetyt mielipiteet ovat niiden yksittäisten kirjoittajien tai tekijöiden mielipiteitä eivätkä meidän tai kenenkään meihin liittyvän henkilön mielipiteitä, ellemme toisin ilmoita,
+- me emme ole vastuussa mistään Käyttäjäsisällöstä tai siinä esitetyistä lausunnoista, mielipiteistä tai kommenteista (ja sovellettavan lainsäädännön mukaisesti emme anna takuita tai tietoja Käyttäjäsisällöstä sekä kiellämme kaikki siihen liittyvät velvoitteet),
+- käyttämällä Minecraft Realmsia hyväksyt, että meillä ei ole vastuuta valvoa tai arvioida mitään Käyttäjäsisältöä ja että kaikki Käyttäjäsisältö annetaan käytettäväksi sillä perustalla, että meiltä ei edellytetä sen valvomista tai arvioimista emmekä niin myöskään tee ja
+- viestiessäsi muiden pelaajien kanssa et pyydä sellaisia henkilöitä tapaamaan sinua oikeassa elämässä, joita et ole tavannut oikeassa elämässä.
+TÄSTÄ HUOLIMATTA me voimme perua, hylätä tai jäädyttää käyttöoikeuden mihin tahansa Käyttäjäsisältöön ja poistaa tai jäädyttää sinun oikeutesi julkaista, antaa käyttöön tai käyttää Käyttäjäsisältöä. Voimme myös poistaa tai jäädyttää käyttöoikeutesi Omaan Minecraft-alueeseesi tai Muihin Minecraft-alueisiin, jos se on meidän mielestämme tarkoituksenmukaista esimerkiksi sen vuoksi, että olet rikkonut näitä ehtoja tai saamme valituksen, joka tekee näistä toimista perusteltuja. Lisäksi estämme tai keskeytämme nopeasti sellaisen Käyttäjäsisällön käytön, jonka tiedämme varmasti olevan luvatonta.
+
+PÄIVITYKSET
+Saatamme tehdä parannuksia, päivityksiä tai muutoksia (kutsumme näitä kaikkia päivitykseksi) silloin tällöin, kuten olemme tähän mennessä tehneet, pakko meidän ei kuitenkaan ole.
+
+Emme myöskään ole velvollisia tarjoamaan jatkuvaa tukea tai ylläpitoa Minecraft Realmsille. Ihan vain tiedoksi.
+
+Totta kai toivomme edelleen julkaisevamme uusia päivityksiä Minecraft Realmsiin, mutta me emme vain voi taata sitä.
+
+MAKSAMINEN, HYVITYKSET JNE.
+Mojang-tilin ehdot kattavat maksut ja hyvitykset. Minecraft Realms on kuitenkin palvelu, joka alkaa heti kun Oma Minecraft-alueesi on käytettävissäsi ja/tai kun sinulla on käyttöoikeus siihen. Tämän vuoksi et voi perua tilausta tai ostoa sen jälkeen. Tämä ei vaikuta kuluttajan oikeuksiin, ja jos et voi käyttää Minecraft Realmsia vian tai virheen vuoksi, pyydämme sinua ottamaan yhteyttä meihin, jotta voimme yrittää korjata asian – ja jos emme siihen kykene, saatat olla oikeutettu hyvitykseen.
+
+VASTUU, SOVELLETTAVA LAINSÄÄDÄNTÖ JA RIIDANRATKAISUPAIKKA
+
+Tämä EULA ei vaikuta laillisiin oikeuksiin, jotka sinulla voi olla sinuun Minecraft Realmsin tai muun verkkosivujemme kautta ostamasi asian osalta sovellettavan lainsäädännön nojalla. Sinulla voi olla tiettyjä oikeuksia, joita ei sinuun sovellettavan lainsäädännön mukaan voida poistaa. Mikään tässä EULA:ssa sanomamme ei vaikuta näihin laillisiin oikeuksiin, vaikka sanoisimmekin jotakin, joka vaikuttaisi olevan ristiriidassa laillisten oikeuksiesi kanssa. Tätä tarkoitamme, kun sanomme "sovellettavan lainsäädännön mukaisesti".
+
+SOVELLETTAVAN LAINSÄÄDÄNNÖN MUKAISESTI EMME OLE VASTUUSSA
+
+- OMAN MINECRAFT-ALUEESI TAI MUIDEN MINECRAFT-ALUEIDEN KÄYTÖSTÄ TAI VÄÄRINKÄYTÖSTÄ,
+- SINUN TAI MUUN HENKILÖN MINECRAFT REALMSIN KÄYTÖSTÄ TAI VÄÄRINKÄYTÖSTÄ,
+- SISÄLLÖSTÄ, JONKA ANNAT KÄYTETTÄVÄKSI MINECRAFT REALMSIN KAUTTA,
+- SIITÄ, ETTÄ RIKOT NÄITÄ EHTOJA,
+- SIITÄ, ETTÄ JOKIN MUU HENKILÖ RIKKOO JOTAKIN EHTOJA.
+- SINÄ OLET VASTUUSSA
+- KAIKESTA MINECRAFT REALMSIN KÄYTÖSTÄSI,
+- KAIKESTA OMASTA OMAN MINECRAFT-ALUEESI TAI MUIDEN MINECRAFT-ALUEIDEN KÄYTÖSTÄ TAI VÄÄRINKÄYTÖSTÄ,
+- SIITÄ, ETTÄ RIKOT NÄITÄ EHTOJA,
+- KAIKESTA SISÄLLÖSTÄ, JONKA ANNAT KÄYTETTÄVÄKSI MINECRAFT REALMSIN KAUTTA,
+- KAIKESTA SISÄLLÖSTÄ, JONKA SINÄ TAI MUU HENKILÖ ON ANTANUT KÄYTTÖÖN OMAN MINECRAFT-ALUEESI KAUTTA.
+
+Minecraft Realms tarjotaan "sellaisena kuin se on" SOVELLETTAVAN LAINSÄÄDÄNNÖN MUKAISESTI. Myös päivitykset tarjotaan "sellaisena kuin ne ovat". Tämä tarkoittaa, ettemme anna lupauksia Minecraft Realmsin standardeista tai laadusta tai siitä, että Minecraft Realms olisi keskeytymätön tai virheetön. NIIN LAAJASTI KUIN SOVELLETTAVA LAINSÄÄDÄNTÖ SALLII me emme ole vastuussa tappioista tai vahingoista, jotka se aiheuttaa. Sinun on hyväksyttävä, että käynnistämme Minecraft Realmsin beetaversiona ja että otamme jatkuvasti käyttöön ja parannamme ominaisuuksia, joten se saattaa sisältää (ja usein sisältääkin) ohjelmistovirheitä. Haluamme kuitenkin julkaista nämä ominaisuudet aikaisin sen sijaan, että antaisimme sinun odottaa täydellisyyttä.
+
+Jos me joskus riitelemme oikeudessa (ja me toivomme tätä aivan yhtä vähän kuin sinäkin), yksinomaisena tuomioistuimena (eli käsittelypaikkana) käytetään Washingtonin osavaltion King Countyn liittovaltion tuomioistuinta (jos asut Yhdysvalloissa) tai tuomioistuinta Ontarion provinssissa (jos asut Kanadassa). (Jos asut Yhdysvalloissa, useimmat riidat ratkaistaan välimiesmenettelyissä eikä tuomioistuimessa.) Tähän EULA:an ja siihen, peliimme tai verkkosivustoomme liittyviin riitoihin sovelletaan osavaltiosi tai provinssisi lainsäädäntöä riippumatta lainsäädäntöperiaatteiden ristiriidoista lukuun ottamatta sitä, että liittovaltion välimiesmenettelylakia (Federal Arbitration Act) sovelletaan kaikkiin välimiesmenettelyyn liittyviin seikkoihin.
+
+MINECRAFT REALMS ON VIELÄ KESKENERÄINEN JA SIINÄ SAATTAA OLLA VIKOJA JA VIRHEITÄ JA SE SAATTAA KAATUA JA / TAI AIHEUTTAA TIEDOSTOJEN MENETTÄMISTÄ. OLEMME PAHOILLAMME, JOS TÄMÄ TAPAHTUU SINULLE. VARMUUSKOPIOITHAN KAIKKI LAITTEESI TIEDOT JA OHJELMAT JA SUOJAAT NE. YKSINKERTAISESTI SANOTTUNA KÄYTÄT MINECRAFT REALMSIA OMALLA VASTUULLASI TIETÄEN, ETTÄ SE TARJOTAAN "SELLAISENA KUIN SE ON".
+
+VARMUUSKOPIOITHAN MINECRAFT-ALUEESI TIEDOT SÄÄNNÖLLISESTI. ME EMME VARMUUSKOPIOI NIITÄ AUTOMAATTISESTI. JOS MINECRAFT-ALUE TAI KÄYTTÄJÄSISÄLTÖ KAATUU, SAATAT SIIS MENETTÄÄ SEN. JOS NÄIN TAPAHTUU, OLEMME PAHOILLAMME, MUTTA ANTEEKSIPYYNTÖÄ ENEMPÄÄ ET VOI SAADA. RAPORTOINTI
+
+Joskus ihmiset tekevät asioita, joita heidän ei pitäisi tehdä. Emme pidä siitä, mutta emme voi tehdä juuri muuta sen estämiseksi kuin pyytää kaikkia käyttäytymään asiallisesti. Toivomme sinun ja muiden yhteisön jäsenten kertovan meille, jos joku ei käyttäydy asiallisesti. Kerrothan siis meille, jos huomaat jonkun käyttäytyvän epäasiallisesti ja/tai ajattelet jonkun rikkovan näitä ehtoja tai käyttävän Minecraft Realmsia epäasianmukaisesti. Meillä on merkintä-/raportointijärjestelmä tätä varten. Käytäthän siis sitä, jotta me voimme ryhtyä asianmukaisiin toimenpiteisiin asian käsittelemiseksi.
+
+IRTISANOMINEN
+Jos rikot näitä ehtoja tai joitakin niiden osia, voimme irtisanoa tämän lisenssisopimuksen ja lopettaa Minecraft Realms -käyttösi. Voit myös itse irtisanoa sen milloin tahansa – lopeta vain Oman Minecraft-alueesi käyttö ja käyttöoikeuden antaminen muille. Irtisanomisen jälkeen et voi enää käyttää Minecraft Realmsia tai antaa muille käyttöoikeutta Omaan Minecraft-alueeseesi. Välityssopimus (jos asut Yhdysvalloissa) ja kohdat "Minecraft Realmsin omistus", "Meidän vastuumme" ja "Yleistä" ovat kuitenkin voimassa myös irtisanomisen jälkeen.
+
+YLEISTÄ
+Tässä EULA:ssa kuvataan tiettyjä laillisia oikeuksia. Osavaltiosi tai maasi lainsäädäntö voi antaa sinulle muita oikeuksia, kuten kuluttajanoikeuksia, joita tämä EULA ei voi muuttaa. Tällöin tämä EULA pätee lainsäädännön sallimassa laajuudessa. Mikään ei poista tai rajoita vastuutamme laiminlyönnistämme tai vilpillisestä harhaanjohtamisestamme aiheutuvista kuolemista tai ruumiinvammoista.
+
+Voimme myös muuttaa näitä ehtoja silloin tällöin, jos meillä on aihetta siihen. Esimerkiksi peleihimme, käytäntöihimme tai lainsäädännöllisiin velvoitteisiimme voi tulla muutoksia, jotka pätevät seuraavalla kerralla, kun käytät Minecraft Realmsia. Ilmoitamme sinulle muutoksista ennen niiden voimaantuloa joko verkkosivustollamme tai muulla järkevällä tavalla. Me emme kuitenkaan aio olla epäreiluja tässä asiassa. Joskus lainsäädäntö kuitenkin muuttuu tai joku tekee jotakin, joka vaikuttaa muihin Minecraft Realmsin käyttäjiin, jolloin meidän on tehtävä loppu siitä.
+
+Jos teet meille Minecraft Realmsia koskevan ehdotuksen, ehdotuksesi on ilmainen, eikä meillä ole velvollisuutta hyväksyä tai harkita sitä. Tämä tarkoittaa, että voimme käyttää tai olla käyttämättä ehdotustasi miten vain haluamme eikä meidän tarvitse maksaa siitä sinulle. Jos ajattelet, että sinulla on ehdotus, josta haluamme maksaa sinulle, älä kerro ehdotustasi meille kertomatta ensin, että haluat siitä maksun, ja saamatta meiltä kirjallista vastausta, jossa pyydämme sinua lähettämään ehdotuksesi.
+
+Jos mielessäsi pyörii lakikysymyksiä, joihin näissä ehdoissa ei vastata, älä tee sitä tai kysy meiltä ainakin ensin. Älä heittäydy naurettavaksi niin mekään emme niin tee.
+
+Yritystiedot
+
+Mojang AB
+Maria Skolgata 83,
+
+SE-11853
+
+Stockholm
+Sweden
+Organisaationumero:556819-2388
+
+Ota meihin yhteyttä täällä tai osoitteella support@mojang.com

@@ -1,0 +1,10 @@
+{
+  "definition.minecart": {
+    "textures": {
+      "default": "textures/entity/minecart"
+    },
+    "geometry": {
+      "default": "geometry.minecart"
+    }
+  }
+}

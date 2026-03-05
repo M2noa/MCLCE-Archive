@@ -1,0 +1,389 @@
+{
+  "pedestal": {
+    "format_version": null,
+    "texture_width": 0,
+    "texture_height": 0,
+    "materials": {
+      "0": "pedestal"
+    },
+    "elements": [
+      {
+        "pivot": [ 8, 8, 8 ],
+        "rotation": [ 0, 0, 0 ],
+        "name": "pedestal_base",
+        "boxes": [
+          {
+            "origin": [ 0, 0, 0 ],
+            "size": [ 16, 1, 16 ],
+            "faces": {
+              "x_pos": {
+                "uv": [ 8, 8, 0, 9 ],
+                "material": "#0",
+                "rotation": 0.0
+              },
+              "x_neg": {
+                "uv": [ 8, 8, 0, 9 ],
+                "material": "#0",
+                "rotation": 0.0
+              },
+              "y_pos": {
+                "uv": [ 0, 0, 8, 8 ],
+                "material": "#0",
+                "rotation": 0.0
+              },
+              "y_neg": {
+                "uv": [ 8, 0, 16, 8 ],
+                "material": "#0",
+                "rotation": 0.0
+              },
+              "z_pos": {
+                "uv": [ 8, 8, 0, 9 ],
+                "material": "#0",
+                "rotation": 0.0
+              },
+              "z_neg": {
+                "uv": [ 0, 9, 8, 8 ],
+                "material": "#0",
+                "rotation": 0.0
+              }
+            }
+          },
+          {
+            "origin": [ 1.5, 1, 1 ],
+            "size": [ 13.5, 0.5, 14 ],
+            "faces": {
+              "x_pos": {
+                "uv": [ 8, 8.5, 0, 9 ],
+                "material": "#0",
+                "rotation": 0.0
+              },
+              "x_neg": {
+                "uv": [ 8, 8.5, 0, 9 ],
+                "material": "#0",
+                "rotation": 0.0
+              },
+              "y_pos": {
+                "uv": [ 1, 1, 7, 7 ],
+                "material": "#0",
+                "rotation": 0.0
+              },
+              "z_pos": {
+                "uv": [ 8, 8.5, 0, 9 ],
+                "material": "#0",
+                "rotation": 0.0
+              },
+              "z_neg": {
+                "uv": [ 0, 9, 8, 8.5 ],
+                "material": "#0",
+                "rotation": 180.0
+              }
+            }
+          }
+        ]
+      },
+      {
+        "pivot": [ 8, 8, 8 ],
+        "rotation": [ 0, 3.422334E-07, 0 ],
+        "name": "pedestal_body",
+        "boxes": [
+          {
+            "origin": [ 3, 1.5, 3 ],
+            "size": [ 10, 15, 10 ],
+            "faces": {
+              "x_pos": {
+                "uv": [ 0, 11, 7.5, 16 ],
+                "material": "#0",
+                "rotation": 270.0
+              },
+              "x_neg": {
+                "uv": [ 0, 11, 7.5, 16 ],
+                "material": "#0",
+                "rotation": 270.0
+              },
+              "z_pos": {
+                "uv": [ 0, 11, 7.5, 16 ],
+                "material": "#0",
+                "rotation": 270.0
+              },
+              "z_neg": {
+                "uv": [ 0, 11, 7.5, 16 ],
+                "material": "#0",
+                "rotation": 270.0
+              }
+            }
+          }
+        ]
+      },
+      {
+        "pivot": [ 8, 8, 8 ],
+        "rotation": [ 0, 1.33979E-05, 0 ],
+        "name": "pedestal_edge_1",
+        "boxes": [
+          {
+            "origin": [ 3, 1.5, 13 ],
+            "size": [ 2, 15, 1 ],
+            "faces": {
+              "x_pos": {
+                "uv": [ 0, 10.5, 7.5, 11 ],
+                "material": "#0",
+                "rotation": 270.0
+              },
+              "x_neg": {
+                "uv": [ 0, 11, 7.5, 10.5 ],
+                "material": "#0",
+                "rotation": 270.0
+              },
+              "z_pos": {
+                "uv": [ 0, 10.5, 7.5, 9.5 ],
+                "material": "#0",
+                "rotation": 270.0
+              }
+            }
+          },
+          {
+            "origin": [ 2, 1.5, 11 ],
+            "size": [ 1, 15, 2 ],
+            "faces": {
+              "x_neg": {
+                "uv": [ 0, 9.5, 7.5, 10.5 ],
+                "material": "#0",
+                "rotation": 270.0
+              },
+              "z_pos": {
+                "uv": [ 0, 10.5, 7.5, 11 ],
+                "material": "#0",
+                "rotation": 270.0
+              },
+              "z_neg": {
+                "uv": [ 0, 10.5, 7.5, 11 ],
+                "material": "#0",
+                "rotation": 270.0
+              }
+            }
+          }
+        ]
+      },
+      {
+        "pivot": [ 8, 8, 8 ],
+        "rotation": [ 0, -270, 0 ],
+        "name": "pedestal_edge_2",
+        "boxes": [
+          {
+            "origin": [ 3, 1.5, 13 ],
+            "size": [ 2, 15, 1 ],
+            "faces": {
+              "x_pos": {
+                "uv": [ 0, 10.5, 7.5, 11 ],
+                "material": "#0",
+                "rotation": 270.0
+              },
+              "x_neg": {
+                "uv": [ 0, 11, 7.5, 10.5 ],
+                "material": "#0",
+                "rotation": 270.0
+              },
+              "z_pos": {
+                "uv": [ 0, 10.5, 7.5, 9.5 ],
+                "material": "#0",
+                "rotation": 270.0
+              }
+            }
+          },
+          {
+            "origin": [ 2, 1.5, 11 ],
+            "size": [ 1, 15, 2 ],
+            "faces": {
+              "x_neg": {
+                "uv": [ 0, 9.5, 7.5, 10.5 ],
+                "material": "#0",
+                "rotation": 270.0
+              },
+              "z_pos": {
+                "uv": [ 0, 10.5, 7.5, 11 ],
+                "material": "#0",
+                "rotation": 270.0
+              },
+              "z_neg": {
+                "uv": [ 0, 10.5, 7.5, 11 ],
+                "material": "#0",
+                "rotation": 270.0
+              }
+            }
+          }
+        ]
+      },
+      {
+        "pivot": [ 8, 8, 8 ],
+        "rotation": [ 0, -180, 0 ],
+        "name": "pedestal_edge_3",
+        "boxes": [
+          {
+            "origin": [ 3, 1.5, 13 ],
+            "size": [ 2, 15, 1 ],
+            "faces": {
+              "x_pos": {
+                "uv": [ 0, 10.5, 7.5, 11 ],
+                "material": "#0",
+                "rotation": 270.0
+              },
+              "x_neg": {
+                "uv": [ 0, 11, 7.5, 10.5 ],
+                "material": "#0",
+                "rotation": 270.0
+              },
+              "z_pos": {
+                "uv": [ 0, 10.5, 7.5, 9.5 ],
+                "material": "#0",
+                "rotation": 270.0
+              }
+            }
+          },
+          {
+            "origin": [ 2, 1.5, 11 ],
+            "size": [ 1, 15, 2 ],
+            "faces": {
+              "x_neg": {
+                "uv": [ 0, 9.5, 7.5, 10.5 ],
+                "material": "#0",
+                "rotation": 270.0
+              },
+              "z_pos": {
+                "uv": [ 0, 10.5, 7.5, 11 ],
+                "material": "#0",
+                "rotation": 270.0
+              },
+              "z_neg": {
+                "uv": [ 0, 10.5, 7.5, 11 ],
+                "material": "#0",
+                "rotation": 270.0
+              }
+            }
+          }
+        ]
+      },
+      {
+        "pivot": [ 8, 8, 8 ],
+        "rotation": [ 0, -89.99998, 0 ],
+        "name": "pedestal_edge_4",
+        "boxes": [
+          {
+            "origin": [ 3, 1.5, 13 ],
+            "size": [ 2, 15, 1 ],
+            "faces": {
+              "x_pos": {
+                "uv": [ 0, 10.5, 7.5, 11 ],
+                "material": "#0",
+                "rotation": 270.0
+              },
+              "x_neg": {
+                "uv": [ 0, 11, 7.5, 10.5 ],
+                "material": "#0",
+                "rotation": 270.0
+              },
+              "z_pos": {
+                "uv": [ 0, 10.5, 7.5, 9.5 ],
+                "material": "#0",
+                "rotation": 270.0
+              }
+            }
+          },
+          {
+            "origin": [ 2, 1.5, 11 ],
+            "size": [ 1, 15, 2 ],
+            "faces": {
+              "x_neg": {
+                "uv": [ 0, 9.5, 7.5, 10.5 ],
+                "material": "#0",
+                "rotation": 270.0
+              },
+              "z_pos": {
+                "uv": [ 0, 10.5, 7.5, 11 ],
+                "material": "#0",
+                "rotation": 270.0
+              },
+              "z_neg": {
+                "uv": [ 0, 10.5, 7.5, 11 ],
+                "material": "#0",
+                "rotation": 270.0
+              }
+            }
+          }
+        ]
+      },
+      {
+        "pivot": [ 8, 8, 8 ],
+        "rotation": [ 0, 0, 0 ],
+        "name": "pedestal_top",
+        "boxes": [
+          {
+            "origin": [ 0, 16.5, 0 ],
+            "size": [ 16, 1, 16 ],
+            "faces": {
+              "x_pos": {
+                "uv": [ 16, 8, 8, 9 ],
+                "material": "#0",
+                "rotation": 0.0
+              },
+              "x_neg": {
+                "uv": [ 16, 8, 8, 9 ],
+                "material": "#0",
+                "rotation": 0.0
+              },
+              "y_pos": {
+                "uv": [ 8, 0, 16, 8 ],
+                "material": "#0",
+                "rotation": 0.0
+              },
+              "y_neg": {
+                "uv": [ 8, 0, 16, 8 ],
+                "material": "#0",
+                "rotation": 0.0
+              },
+              "z_pos": {
+                "uv": [ 16, 8, 8, 9 ],
+                "material": "#0",
+                "rotation": 0.0
+              },
+              "z_neg": {
+                "uv": [ 8, 9, 16, 8 ],
+                "material": "#0",
+                "rotation": 0.0
+              }
+            }
+          },
+          {
+            "origin": [ 1.5, 17.5, 1 ],
+            "size": [ 13.5, 0.5, 14 ],
+            "faces": {
+              "x_pos": {
+                "uv": [ 16, 8.5, 8, 9 ],
+                "material": "#0",
+                "rotation": 0.0
+              },
+              "x_neg": {
+                "uv": [ 16, 8.5, 8, 9 ],
+                "material": "#0",
+                "rotation": 0.0
+              },
+              "y_pos": {
+                "uv": [ 9, 1, 15, 7 ],
+                "material": "#0",
+                "rotation": 0.0
+              },
+              "z_pos": {
+                "uv": [ 16, 8.5, 8, 9 ],
+                "material": "#0",
+                "rotation": 0.0
+              },
+              "z_neg": {
+                "uv": [ 8, 9, 16, 8.5 ],
+                "material": "#0",
+                "rotation": 180.0
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

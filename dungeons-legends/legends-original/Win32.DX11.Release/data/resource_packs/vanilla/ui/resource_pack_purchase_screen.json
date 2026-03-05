@@ -1,0 +1,181 @@
+{
+  "namespace": "resource_pack_purchase",
+
+  "download_progress@purchase_common.banner_fill": {
+    "$baseLayer|default": 2,
+    "bindings": [
+      {
+        "binding_name": "#download_info_visible",
+        "binding_name_override": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "stacker": {
+          "type": "stack_panel",
+          "orientation": "vertical",
+          "size": [ "100%", "100%" ],
+          "controls": [
+            {
+              "sizer_text": {
+                "type": "panel",
+                "size": [ "100%", "50%" ],
+                "controls": [
+                  {
+                    "download_progress_text": {
+                      "type": "label",
+                      "layer": "($baseLayer + 1)",
+                      "size": [ "70%", "100%" ],
+                      "offset": [ 0, "50%" ],
+                      "color": "$body_text_color",
+                      "text": "#text",
+                      "bindings": [
+                        {
+                          "binding_name": "#download_info_text",
+                          "binding_name_override": "#text"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "sizer_bar": {
+                "type": "panel",
+                "size": [ "100%", "50%" ],
+                "bindings": [
+                  {
+                    "binding_name": "#download_progress_bar_visible",
+                    "binding_name_override": "#visible"
+                  }
+                ],
+                "controls": [
+                  {
+                    "download_progress_bar@file_upload.progress_bar_icon": {
+                      "size": [ "70%", 5 ],
+                      "layer": "($baseLayer + 1)",
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "$progress_bindings": [
+                        {
+                          "binding_name": "#download_progress_bar_percentage",
+                          "binding_name_override": "#clip_ratio"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "content": {
+    "type": "panel",
+    "controls": [
+      { "content_stack_panel@content_stack_panel": {} }
+    ]
+  },
+
+  "content_stack_panel": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "size": [ "100% - 4px", "100% - 4px" ],
+    "controls": [
+      {
+        "key_art_and_text@purchase_common.key_art_and_text": {}
+      },
+      {
+        "empty_panel_0": {
+          "type": "panel",
+          "size": [ 0, 2 ]
+        }
+      },
+      {
+        "screenshot_carousel@purchase_common.screenshot_carousel": {
+          "size": [ "100%", 44 ]
+        }
+      },
+      {
+        "empty_panel_1": {
+          "type": "panel",
+          "size": [ 0, 2 ]
+        }
+      },
+      {
+        "interaction_panel": {
+          "type": "panel",
+          "size": [ "100%", 28 ],
+          "controls": [
+            {
+              "polymorphic_button@common_buttons.light_content_button": {
+                "$pressed_button_name": "button.polymorphic_button_press",
+                "$button_text_binding_type": "global",
+                "$button_text": "#polymorphic_button_text",
+                "$button_content": "common_store.unlock_with_coins_button_stack_panel",
+                "anchor_from": "bottom_left",
+                "anchor_to": "bottom_left",
+                "layer": 1,
+                "$button_focus_precedence|default": 10,
+                "$focus_id|default": "content_action_button_id",
+                "$focus_override_left": "content_action_button_id",
+                "$focus_override_right": "content_action_button_id",
+                "$focus_override_up": "grid_button_0",
+                "$focus_override_down": "content_action_button_id",
+                "$coin_visible": "#polymorphic_button_coins_visible",
+                "$coin_binding_type": "global",
+                "bindings": [
+                  {
+                    "binding_name": "#polymorphic_button_visible",
+                    "binding_name_override": "#visible"
+                  },
+                  {
+                    "binding_name": "#item_meets_requirements",
+                    "binding_name_override": "#enabled"
+                  }
+                ],
+                // More bindings
+                "$button_binding_condition|default": "none",
+                "$button_text_grid_collection_name|default": ""
+              }
+            },
+            {
+              "progress_bar@download_progress": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "resource_pack_purchase@common.base_screen": {
+    "$screen_header_title_visible": false,
+    "button_mappings": [
+      {
+        "from_button_id": "button.menu_cancel",
+        "to_button_id": "button.menu_exit",
+        "mapping_type": "global"
+      },
+      {
+        "from_button_id": "button.controller_secondary_select",
+        "to_button_id": "button.coin_wallet",
+        "mapping_type": "global"
+      }
+    ],
+    "$default_text_color": [ 0.3, 0.3, 0.3 ],
+    "$screen_content": "resource_pack_purchase.resource_pack_purchase_screen_dialog"
+  },
+
+  "resource_pack_purchase_screen_dialog@common_store.store_dialog_with_coin_header": {
+    "size": "$resource_pack_screen_size",
+    "min_size": "$min_resource_pack_screen_size",
+    "max_size": "$max_resource_pack_screen_size",
+    "$child_control": "resource_pack_purchase.content",
+    "$text_name": "#item_title",
+    "$title_text_binding_type": "global"
+  }
+}

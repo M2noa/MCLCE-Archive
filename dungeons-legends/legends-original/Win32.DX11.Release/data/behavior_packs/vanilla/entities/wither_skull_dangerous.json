@@ -1,0 +1,70 @@
+{
+ "minecraft:entity": {
+  "format_version": "1.2.0",
+
+  "component_groups": {
+    "minecraft:exploding": {
+      "minecraft:explode": {
+        "fuseLength": 0,
+        "fuseLit": true,
+        "power": 1,
+        "causesFire": false,
+        "maxResistance": 4.0,
+        "destroyAffectedByGriefing": true
+      }
+    }
+  },
+
+  "components": {
+    "minecraft:identifier": {
+      "id": "minecraft:wither_skull_dangerous"
+    },
+    "minecraft:collision_box": {
+      "width": 0.15,
+      "height": 0.15
+    },
+    "minecraft:projectile": {
+      "onHit": {
+        "definition_event": {
+          "affectProjectile": true,
+          "eventTrigger": {
+            "event": "minecraft:explode",
+            "target": "self"
+          }
+        },
+        "mob_effect": {
+          "effect": "wither",
+          "durationeasy": 0,
+          "durationnormal": 200,
+          "durationhard": 800,
+          "amplifier": 1
+        }
+      },
+      "power": 0.6,
+      "gravity": 0.00,
+      "uncertaintyBase": 7.5,
+      "uncertaintyMultiplier": 1,
+      "shootSound": "bow",
+      "hitSound": "bow.hit",
+      "anchor": 1,
+      "offset": [ 0, -0.1, 0 ],
+      "isdangerous": true,
+      "inertia": 1.0,
+      "liquid_inertia": 1.0,
+      "shoottarget": false,
+      "reflectOnHurt": true 
+    },
+	  "minecraft:physics": {
+    }
+  },
+  "events": {
+   "minecraft:explode": {
+    "add": {
+     "component_groups": [
+      "minecraft:exploding"
+     ]
+    }
+   }
+  }
+ }
+}

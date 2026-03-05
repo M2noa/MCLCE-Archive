@@ -1,0 +1,297 @@
+{
+  "RenderChunkConstants": [
+    {
+      "Name": "CHUNK_ORIGIN_AND_SCALE",
+      "Type": "Float4"
+    },
+    {
+      "Name": "RENDER_CHUNK_FOG_ALPHA",
+      "Type": "Float1"
+    }
+  ],
+
+  "EntityConstants": [
+    {
+      "Name": "OVERLAY_COLOR",
+      "Type": "Float4"
+    },
+    {
+      "Name": "TILE_LIGHT_COLOR",
+      "Type": "Float4"
+    },
+    {
+      "Name": "CHANGE_COLOR",
+      "Type": "Float4"
+    },
+    {
+      "Name": "GLINT_COLOR",
+      "Type": "Float4"
+    },
+    {
+      "Name": "TEAM_COLOR",
+      "Type": "Float4"
+    },
+    {
+      "Name": "UV_ANIM",
+      "Type": "Float4"
+    },
+    {
+      "Name": "UV_OFFSET",
+      "Type": "Float2"
+    },
+    {
+      "Name": "UV_ROTATION",
+      "Type": "Float2"
+    },
+    {
+      "Name": "GLINT_UV_SCALE",
+      "Type": "Float2"
+    }
+  ],
+
+  "PerFrameConstants": [
+    {
+      "Name": "VIEW_POS",
+      "Type": "Float3"
+    },
+    {
+      "Name": "TIME",
+      "Type": "Float1"
+    },
+    {
+      "Name": "FOG_COLOR",
+      "Type": "Float4"
+    },
+    {
+      "Name": "FOG_CONTROL",
+      "Type": "Float2"
+    },
+    {
+      "Name": "RENDER_DISTANCE",
+      "Type": "Float1"
+    },
+    {
+      "Name": "FAR_CHUNKS_DISTANCE",
+      "Type": "Float1"
+    }
+  ],
+
+  "WorldConstants": [
+    {
+      "Name": "WORLDVIEWPROJ",
+      "Type": "Matrix4x4"
+    },
+    {
+      "Name": "WORLD",
+      "Type": "Matrix4x4"
+    },
+    {
+      "Name": "WORLDVIEW",
+      "Type": "Matrix4x4"
+    },
+    {
+      "Name": "PROJ",
+      "Type": "Matrix4x4"
+    }
+  ],
+
+  "WorldConstantsStereographic": [
+    {
+      "Name": "WORLDVIEWPROJ_STEREO",
+      "Type": "Matrix4x4",
+      "Elements": 2
+    },
+    {
+      "Name": "WORLD_STEREO",
+      "Type": "Matrix4x4"
+    },
+    {
+      "Name": "WORLDVIEW_STEREO",
+      "Type": "Matrix4x4",
+      "Elements": 2
+    },
+    {
+      "Name": "PROJ_STEREO",
+      "Type": "Matrix4x4",
+      "Elements": 2
+    }
+  ],
+
+  "ShaderConstants": [
+    {
+      "Name": "CURRENT_COLOR",
+      "Type": "Float4"
+    },
+    {
+      "Name": "DARKEN",
+      "Type": "Float4"
+    },
+    {
+      "Name": "TEXTURE_DIMENSIONS",
+      "Type": "Float3"
+    },
+    {
+      "Name": "HUD_OPACITY",
+      "Type": "Float1"
+    },
+    {
+      "Name": "UV_TRANSFORM",
+      "Type": "Matrix4x4"
+    },
+    {
+      "Name": "MSAA_SAMPLECOUNT",
+      "Type": "Int1"
+    }
+  ],
+
+  "WeatherConstants": [
+    {
+      "Name": "POSITION_OFFSET",
+      "Type": "Float4"
+    },
+    {
+      "Name": "VELOCITY",
+      "Type": "Float4"
+    },
+    {
+      "Name": "ALPHA",
+      "Type": "Float4"
+    },
+    {
+      "Name": "VIEW_POSITION",
+      "Type": "Float4"
+    },
+    {
+      "Name": "SIZE_SCALE",
+      "Type": "Float4"
+    },
+    {
+      "Name": "FORWARD",
+      "Type": "Float4"
+    },
+    {
+      "Name": "UV_INFO",
+      "Type": "Float4"
+    },
+    {
+      "Name": "PARTICLE_BOX",
+      "Type": "Float4"
+    }
+  ],
+
+  "FlipbookTextureConstants": [
+    {
+      "Name": "V_OFFSET",
+      "Type": "Float1"
+    },
+    {
+      "Name": "V_BLEND_OFFSET",
+      "Type": "Float1"
+    }
+  ],
+
+  "EffectsConstants": [
+    {
+      "Name": "EFFECT_UV_OFFSET",
+      "Type": "Float2"
+    }
+  ],
+
+  "BannerConstants": [
+    {
+      "Name": "BANNER_COLORS",
+      "Type": "Float4",
+      "Elements": 7
+    },
+    {
+      "Name": "BANNER_UV_OFFSETS",
+      "Type": "Float4",
+      "Elements": 7
+    }
+  ],
+
+  "TextConstants": [
+    {
+      "Name": "GLYPH_SMOOTH_RADIUS",
+      "Type": "Float1"
+    },
+    {
+      "Name": "GLYPH_CUTOFF",
+      "Type": "Float1"
+    },
+    {
+      "Name": "OUTLINE_CUTOFF",
+      "Type": "Float1"
+    },
+    {
+      "Name": "OUTLINE_COLOR",
+      "Type": "Float4"
+    },
+    {
+      "Name": "SHADOW_SMOOTH_RADIUS",
+      "Type": "Float1"
+    },
+    {
+      "Name": "SHADOW_COLOR",
+      "Type": "Float4"
+    },
+    {
+      "Name": "SHADOW_OFFSET",
+      "Type": "Float2"
+    }
+  ],
+
+  "InterFrameConstants": [
+    {
+      "Name": "TOTAL_REAL_WORLD_TIME",
+      "Type": "Float1"
+    },
+    {
+      "Name": "CUBE_MAP_ROTATION",
+      "Type": "Matrix4x4"
+    }
+  ],
+
+  "DebugConstants": [
+    {
+      "Name": "TEXTURE_ARRAY_INDEX_0",
+      "Type": "Float1"
+    }
+  ],
+
+  "PostProcessConstants": [
+    {
+      "Name": "GaussianBlurSize",
+      "Type": "Int1"
+    },
+    {
+      "Name": "DepthOfFieldNearEndDepth",
+      "Type": "Float1"
+    },
+    {
+      "Name": "DepthOfFieldFarStartDepth",
+      "Type": "Float1"
+    },
+    {
+      "Name": "DepthOfFieldFarEndDepth",
+      "Type": "Float1"
+    }
+  ],
+
+  "BadgerConstants": [
+    {
+      "Name": "NUM_STRUCTURES",
+      "Type": "Int1"
+    },
+    {
+      "Name": "STRUCTURE_DATA",
+      "Type": "Float4",
+      "Elements": 8
+    },
+    {
+      "Name": "STRUCTURE_COLOR",
+      "Type": "Float4",
+      "Elements": 8
+    }
+  ]
+}

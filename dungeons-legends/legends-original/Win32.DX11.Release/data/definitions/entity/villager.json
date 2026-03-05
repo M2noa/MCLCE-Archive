@@ -1,0 +1,14 @@
+{
+  "definition.villager": {
+    "textures": {
+      "farmer": "textures/entity/villager/farmer",
+      "librarian": "textures/entity/villager/librarian",
+      "priest": "textures/entity/villager/priest",
+      "smith": "textures/entity/villager/smith",
+      "butcher": "textures/entity/villager/butcher"
+    },
+    "geometry": {
+      "default": "geometry.villager"
+    }
+  }
+}

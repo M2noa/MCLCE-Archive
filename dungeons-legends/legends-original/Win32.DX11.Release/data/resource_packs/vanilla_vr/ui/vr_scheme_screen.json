@@ -1,0 +1,472 @@
+{
+  "namespace": "vrscheme",
+
+  "gamepad_helpers": {
+    "type": "panel",
+    "size": [ 100, 10 ],
+    "offset": [ 0, "45%" ],
+    "controls": [
+      {
+        "gamepad_helper_a@common.gamepad_helper_a": {
+          "anchor_from": "center",
+          "anchor_to": "center"
+        }
+      }
+    ]
+  },
+
+  "rift_options_bg": {
+    "type": "panel",
+    "controls": [
+      {
+        "bg_image@common.dialog_background_hollow_2": {
+          "layer": 1
+        }
+      }
+    ]
+  },
+
+  "rift_control_button@common_buttons.light_text_button": {
+    "size": [ "50%-2px", "100%" ],
+    "property_bag": {
+      "experimental_radio_button_state": false,
+      "classic_radio_button_state": false
+    },
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "vr_classic_scheme_panel_button",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "classic_radio_button_state"
+      }
+    ]
+  },
+
+  "play_button@vrscheme.rift_control_button": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [ "50%-2px", "100%" ],
+    "$pressed_button_name": "button.menu_exit",
+    "$button_text": "gui.ok"
+  },
+
+  "more_information_button@vrscheme.rift_control_button": {
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "size": [ "50%-2px", "100%" ],
+    "$pressed_button_name": "button.menu_vr_more_information",
+    "$button_text": "vr.moreInformation"
+  },
+
+  "button_panel": {
+    "type": "panel",
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "size": [ "100%-10px", 25 ],
+    "offset": [ 5, -5 ],
+    "controls": [
+      { "more_information_button@vrscheme.more_information_button": { } },
+      { "play_button@vrscheme.play_button": { } }
+    ]
+  },
+
+  "rift_control_title": {
+    "type": "label",
+    "layer": 4,
+    "size": [ "90%", "100%" ],
+    "offset": [ 0, 8 ],
+    "text": "vr.controls.title",
+    "color": "$title_text_color"
+  },
+
+  "plain_text": {
+    "type": "label",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "layer": 4,
+    "size": [ "100%", "default" ],
+    "text": "vr.controls.title",
+    "shadow": false,
+    "color": "$title_text_color"
+  },
+
+  "vr_scheme_classic_title@vrscheme.plain_text": {
+    "text": "vr.controls.title.classic",
+    "color": "$title_text_color",
+    "offset": [ 15, 4 ],
+    "size": [ "100%-15px", "100%-4px" ]
+  },
+
+  "vr_scheme_classic_description@vrscheme.plain_text": {
+    "text": "vr.controls.classicDescription",
+    "color": "$body_text_color",
+    "offset": [ 15, 15 ],
+    "size": [ "100%-15px", "100%-15px" ]
+  },
+
+  "vr_scheme_experimental_title@vrscheme.plain_text": {
+    "text": "vr.controls.title.experimental",
+    "color": "$body_text_color",
+    "offset": [ 15, 4 ],
+    "size": [ "100%-15px", "100%-4px" ]
+  },
+
+  "vr_scheme_experimental_description@vrscheme.plain_text": {
+    "text": "vr.controls.experimentalDescription",
+    "color": "$body_text_color",
+    "offset": [ 15, 15 ],
+    "size": [ "100%-15px", "100%-15px" ]
+  },
+
+  "vr_scheme_shared_more_info@vrscheme.plain_text": {
+    "text": "vr.controls.sharedDescription",
+    "color": "$body_text_color"
+  },
+
+  "vr_experimental_scheme_panel@common.toggle": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [ "100%", "45%" ],
+    "$unchecked_control": "vrscheme.vr_experimental_scheme_panel_unchecked",
+    "$checked_control": "vrscheme.vr_experimental_scheme_panel_checked",
+    "$unchecked_hover_control": "vrscheme.vr_experimental_scheme_panel_unchecked_hover",
+    "$checked_hover_control": "vrscheme.vr_experimental_scheme_panel_checked_hover",
+    "$unchecked_locked_control": "vrscheme.vr_experimental_scheme_panel_unchecked",
+    "$unchecked_locked_hover_control": "vrscheme.vr_experimental_scheme_panel_unchecked",
+    "$checked_locked_control": "vrscheme.vr_experimental_scheme_panel_checked",
+    "$checked_locked_hover_control": "vrscheme.vr_experimental_scheme_panel_checked",
+    "$radio_toggle_group": true,
+    "$toggle_name": "radio_button_group",
+    "$toggle_group_default_selected": 0,
+    "$toggle_group_forced_index": 0,
+    "$toggle_state_binding_name": "#enhanced_radio_state"
+  },
+
+  "vr_experimental_scheme_panel_unchecked": {
+    "type": "panel",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "vr_scheme_experimental_title@vrscheme.vr_scheme_experimental_title": { }
+      },
+      {
+        "vr_scheme_experimental_description@vrscheme.vr_scheme_experimental_description": { }
+      },
+      {
+        "radio_toggle_unchecked_state@common.radio_toggle_unchecked_state": {
+          "anchor_from": "top_left",
+          "anchor_to": "top_left"
+        }
+      }
+    ]
+  },
+
+  "vr_experimental_scheme_panel_unchecked_hover@vr_experimental_scheme_panel_unchecked": {
+    "controls": [
+      {
+        "vr_scheme_experimental_title@vrscheme.vr_scheme_experimental_title": { }
+      },
+      {
+        "vr_scheme_experimental_description@vrscheme.vr_scheme_experimental_description": { }
+      },
+      {
+        "radio_toggle_unchecked_hover_state@common.radio_toggle_unchecked_hover_state": {
+          "anchor_from": "top_left",
+          "anchor_to": "top_left"
+        }
+      }
+    ]
+  },
+
+  "vr_experimental_scheme_panel_checked": {
+    "type": "panel",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "vr_scheme_experimental_title@vrscheme.vr_scheme_experimental_title": { }
+      },
+      {
+        "vr_scheme_experimental_description@vrscheme.vr_scheme_experimental_description": { }
+      },
+      {
+        "radio_toggle_checked_state@common.radio_toggle_checked_state": {
+          "anchor_from": "top_left",
+          "anchor_to": "top_left"
+        }
+      }
+    ]
+  },
+
+  "vr_experimental_scheme_panel_checked_hover@vr_experimental_scheme_panel_checked": {
+    "controls": [
+      {
+        "vr_scheme_experimental_title@vrscheme.vr_scheme_experimental_title": { }
+      },
+      {
+        "vr_scheme_experimental_description@vrscheme.vr_scheme_experimental_description": { }
+      },
+      {
+        "radio_toggle_checked_hover_state@common.radio_toggle_checked_hover_state": {
+          "anchor_from": "top_left",
+          "anchor_to": "top_left"
+        }
+      }
+    ]
+  },
+
+  "vr_classic_scheme_panel@common.toggle": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [ "100%", "35%" ],
+    "offset": [ 0, "45%" ],
+    "$unchecked_control": "vrscheme.vr_classic_scheme_panel_unchecked",
+    "$checked_control": "vrscheme.vr_classic_scheme_panel_checked",
+    "$unchecked_hover_control": "vrscheme.vr_classic_scheme_panel_unchecked_hover",
+    "$checked_hover_control": "vrscheme.vr_classic_scheme_panel_checked_hover",
+    "$unchecked_locked_control": "vrscheme.vr_classic_scheme_panel_unchecked",
+    "$unchecked_locked_hover_control": "vrscheme.vr_classic_scheme_panel_unchecked",
+    "$checked_locked_control": "vrscheme.vr_classic_scheme_panel_checked",
+    "$checked_locked_hover_control": "vrscheme.vr_classic_scheme_panel_checked",
+    "$radio_toggle_group": true,
+    "$toggle_name": "radio_button_group",
+    "$toggle_group_default_selected": 0,
+    "$toggle_group_forced_index": 1,
+    "$toggle_state_binding_name": "#classic_radio_state"
+  },
+
+  "vr_classic_scheme_panel_unchecked": {
+    "type": "panel",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "vr_scheme_classic_title@vrscheme.vr_scheme_classic_title": { }
+      },
+      {
+        "vr_scheme_classic_description@vrscheme.vr_scheme_classic_description": { }
+      },
+      {
+        "radio_toggle_unchecked_state@common.radio_toggle_unchecked_state": {
+          "anchor_from": "top_left",
+          "anchor_to": "top_left"
+        }
+      }
+    ]
+  },
+
+  "vr_classic_scheme_panel_unchecked_hover@vr_classic_scheme_panel_unchecked": {
+    "controls": [
+      {
+        "vr_scheme_classic_title@vrscheme.vr_scheme_classic_title": { }
+      },
+      {
+        "vr_scheme_classic_description@vrscheme.vr_scheme_classic_description": { }
+      },
+      {
+        "radio_toggle_unchecked_hover_state@common.radio_toggle_unchecked_hover_state": {
+          "anchor_from": "top_left",
+          "anchor_to": "top_left"
+        }
+      }
+    ]
+  },
+
+  "vr_classic_scheme_panel_checked": {
+    "type": "panel",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "vr_scheme_classic_title@vrscheme.vr_scheme_classic_title": { }
+      },
+      {
+        "vr_scheme_classic_description@vrscheme.vr_scheme_classic_description": { }
+      },
+      {
+        "radio_toggle_checked_state@common.radio_toggle_checked_state": {
+          "anchor_from": "top_left",
+          "anchor_to": "top_left"
+        }
+      }
+    ]
+  },
+
+  "vr_classic_scheme_panel_checked_hover@vr_classic_scheme_panel_checked": {
+    "controls": [
+      {
+        "vr_scheme_classic_title@vrscheme.vr_scheme_classic_title": { }
+      },
+      {
+        "vr_scheme_classic_description@vrscheme.vr_scheme_classic_description": { }
+      },
+      {
+        "radio_toggle_checked_hover_state@common.radio_toggle_checked_hover_state": {
+          "anchor_from": "top_left",
+          "anchor_to": "top_left"
+        }
+      }
+    ]
+  },
+
+  "vr_shared_info_panel": {
+    "type": "panel",
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "size": [ "100%", "20%" ],
+    "controls": [
+      {
+        "vr_scheme_shared_more_info@vrscheme.vr_scheme_shared_more_info": { }
+      }
+    ]
+  },
+
+  "vr_schemes_content_panel": {
+    "type": "panel",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [ "100%-24px", "100%-60px" ],
+    "offset": [ 12, 26 ],
+    "controls": [
+      { "vr_experimental_scheme_panel@vrscheme.vr_experimental_scheme_panel": { } },
+      { "vr_classic_scheme_panel_button@vrscheme.vr_classic_scheme_panel": { } },
+      { "vr_shared_info_panel@vrscheme.vr_shared_info_panel": { } }
+    ]
+  },
+
+  "rift_options_panel": {
+    "type": "panel",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "size": [ "80%", "80%" ],
+    "controls": [
+      { "rift_options_bg@vrscheme.rift_options_bg": { } },
+      { "rift_control_title@vrscheme.rift_control_title": { } },
+      { "vr_schemes_content_panel@vrscheme.vr_schemes_content_panel": { } },
+      { "button_panel@vrscheme.button_panel": { } }
+    ]
+  },
+
+  //---------------------------------------------------------------------------
+  // More Information
+  //---------------------------------------------------------------------------
+
+  "rift_information_button@common_buttons.light_text_button": {
+    "size": [ "50%-2px", "100%" ]
+  },
+
+  "back_button@vrscheme.rift_information_button": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [ "50%-2px", "100%" ],
+    "$pressed_button_name": "button.menu_vr_back",
+    "$button_text": "gui.back"
+  },
+
+  "more_options_button@vrscheme.rift_information_button": {
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "size": [ "50%-2px", "100%" ],
+    "$pressed_button_name": "button.menu_vr_more_options",
+    "$button_text": "vr.moreOptions"
+  },
+
+  "information_button_panel": {
+    "type": "panel",
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "size": [ "100%-10px", 25 ],
+    "offset": [ 5, -5 ],
+    "controls": [
+      { "more_options_button@vrscheme.more_options_button": { } },
+      { "back_button@vrscheme.back_button": { } }
+    ]
+  },
+
+  "vr_scheme_information_label@vrscheme.plain_text": {
+    "text": "vr.detailedInformation",
+    "color": "$body_text_color"
+  },
+
+  "vr_scheme_go_to_vr_label@vrscheme.plain_text": {
+    "text": "vr.detailedInformationLink",
+    "color": "$body_text_color"
+  },
+
+  "vr_information_panel": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [ "100%-24px", "100%-60px" ],
+    "offset": [ 12, 26 ],
+    "controls": [
+      {
+        "vr_scheme_information_label@vrscheme.vr_scheme_information_label": { }
+      },
+      {
+        "spacing_gap": {
+          "type": "panel",
+          "size":  [ 0, 20 ]
+        }
+      },
+      {
+        "vr_scheme_go_to_vr_label@vrscheme.vr_scheme_go_to_vr_label": { }
+      }
+    ]
+  },
+
+  "rift_information_panel": {
+    "type": "panel",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "size": [ "65%", "80%" ],
+    "controls": [
+      { "rift_options_bg@vrscheme.rift_options_bg": { } },
+      { "rift_control_title@vrscheme.rift_control_title": { } },
+      { "vr_information_panel@vrscheme.vr_information_panel": { } },
+      { "information_button_panel@vrscheme.information_button_panel": { } }
+    ]
+  },
+
+  //---------------------------------------------------------------------------
+  // Screens
+  //---------------------------------------------------------------------------
+
+  "scheme_screen@common.base_screen": {
+    "button_mappings": [
+      {
+        "from_button_id": "button.menu_cancel",
+        "to_button_id": "button.menu_cancel",
+        "mapping_type": "global"
+      }
+    ],
+    "$screen_content": "vrscheme.scheme_screen_content"
+  },
+
+  "scheme_screen_content": {
+    "type": "panel",
+    "controls": [
+      { "rift_options_panel@vrscheme.rift_options_panel": { } }
+    ]
+  },
+
+  "vr_information_screen@common.base_screen": {
+    "button_mappings": [
+      {
+        "from_button_id": "button.menu_cancel",
+        "to_button_id": "button.menu_vr_back",
+        "mapping_type": "global"
+      }
+    ],
+    "$screen_content": "vrscheme.vr_information_screen_content"
+  },
+
+  "vr_information_screen_content": {
+    "type": "panel",
+    "controls": [
+      { "rift_information_panel@vrscheme.rift_information_panel": { } }
+    ]
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "generation": {
+    "features": [
+      {
+        "structures": [
+          "test_platform"
+        ],
+        "frequency": 3,
+        "max_delta_height": 3
+      },
+      {
+        "structures": [
+          "test_platform",
+          "spawner_zombie_generated"
+        ],
+        "frequency": 3,
+        "max_delta_height": 3
+      },
+      {
+        "structures": [
+          "test_platform",
+          "spawner_spider_generated"
+        ],
+        "frequency": 3,
+        "max_delta_height": 3
+      },
+      {
+        "structures": [
+          "test_platform",
+          "spawner_wolf_generated"
+        ],
+        "frequency": 2,
+        "max_delta_height": 3
+      },
+      {
+        "structures": [
+          "test_platform",
+          "spawner_skeleton_generated"
+        ],
+        "frequency": 3,
+        "max_delta_height": 3
+      },
+      {
+        "structures": [
+          "test_platform",
+          "spawner_creeper_generated"
+        ],
+        "frequency": 2,
+        "max_delta_height": 3
+      },
+      {
+        "structures": [
+          "test_platform",
+          "spawner_witch_generated"
+        ],
+        "frequency": 2,
+        "max_delta_height": 3
+      },
+      {
+        "structures": [
+          "test_platform",
+          "spawner_slime_generated"
+        ],
+        "frequency": 2,
+        "max_delta_height": 3
+      }
+    ],
+    "seeds": [],
+    "ores": [
+      {
+        "type": "stone",
+        "count": 3,
+        "size": 20
+      },
+      {
+        "type": "iron_ore",
+        "count": 2,
+        "size": 15
+      },
+      {
+        "type": "diamond_ore",
+        "count": 1,
+        "size": 10
+      }
+    ],
+    "forests": [
+      {
+        "biome": "Plains",
+        "count": 0
+      },
+      {
+        "biome": "Forest",
+        "count": 5
+      },
+      {
+        "biome": "ForestHills",
+        "count": 5
+      },
+      {
+        "biome": "Birch Forest",
+        "count": 5
+      },
+      {
+        "biome": "Birch Forest M",
+        "count": 5
+      },
+      {
+        "biome": "Roofed Forest",
+        "count": 0
+      },
+      {
+        "biome": "Jungle",
+        "count": 15
+      },
+      {
+        "biome": "JungleHills",
+        "count": 15
+      },
+      {
+        "biome": "Taiga",
+        "count": 5
+      },
+      {
+        "biome": "Mega Taiga",
+        "count": 5
+      },
+      {
+        "biome": "Mega Taiga Hills",
+        "count": 0.1
+      },
+      {
+        "biome": "Cold Taiga",
+        "count": 5
+      },
+      {
+        "biome": "Taiga M",
+        "count": 5
+      }
+    ]
+  }
+}

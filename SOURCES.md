@@ -41,15 +41,15 @@ This document maps all archived content to their original download sources.
 | `Narration_NoGeneratedLevel_20170216.zip` | `dungeons-legends/narration-build-2017/` | https://hazbinhelluvageneral.com/cubevideojuego/cubegame | Dungeons dev build based on MCBE 0.15.0.0 (by MDLC) |
 | `filelist.txt` | `dungeons-legends/filelist.txt` | https://hazbinhelluvageneral.com/cubevideojuego/cubegame | File listing |
 
-### Story Mode (Pending)
+### Story Mode
 
 | Archive | Extracted To | Source | Notes |
 |---------|--------------|--------|-------|
 | `info_storymode.txt` | `story-mode/info_storymode.txt` | https://hazbinhelluvageneral.com/cubevideojuego/cubegame | Beta branch passwords |
-| `enderman.zip` | *Pending* | https://hazbinhelluvageneral.com/cubevideojuego/cubegame | Not yet downloaded |
-| `endercon.zip` | *Pending* | https://hazbinhelluvageneral.com/cubevideojuego/cubegame | Not yet downloaded |
-| `linux-test.zip` | *Pending* | https://hazbinhelluvageneral.com/cubevideojuego/cubegame | Not yet downloaded |
-| `patch.zip` | *Pending* | https://hazbinhelluvageneral.com/cubevideojuego/cubegame | Not yet downloaded |
+| `enderman.zip` | `story-mode/enderman/` | https://hazbinhelluvageneral.com/cubevideojuego/cubegame | Steam beta branch (Steam-cracked) |
+| `endercon.zip` | `story-mode/endercon/` | https://hazbinhelluvageneral.com/cubevideojuego/cubegame | Steam beta branch (Steam-cracked) |
+| `linux-test.zip` | `story-mode/linux-test/` | https://hazbinhelluvageneral.com/cubevideojuego/cubegame | Steam beta branch (Steam-cracked) |
+| `patch.zip` | `story-mode/patch/` | https://hazbinhelluvageneral.com/cubevideojuego/cubegame | Steam beta branch (Steam-cracked) |
 
 ### Additional Sources (Not Yet Obtained)
 
@@ -61,23 +61,7 @@ This document maps all archived content to their original download sources.
 
 ## Archive Verification
 
-### MD5 Hashes (Extracted Folders)
-
-| Folder | MD5 Hash | Files | Size |
-|--------|----------|-------|------|
-| `pocket-edition-2013/mcpe-source/` | `74ef70b0550aecd50a316ced271fab71` | 2,100 | 63 MB |
-| `infdev-2014/source/` | `c7c1cc66ee4b6d6f558a7bc8abaa96cd` | 430 | 4.6 MB |
-| `console-edition-2014/full-multiplatform/` | *Computing...* | 19,433 | ~3 GB |
-| `console-edition-2014/oct-2014-backup/` | *Computing...* | 19,433 | ~3 GB |
-| `console-edition-2014/ps3-only-stripped/` | *Computing...* | 16,345 | 1.14 GB |
-| `console-edition-2014/dec-2014-build/` | *Computing...* | 5,375 | 632 MB |
-| `precompiled-windows/` | *Computing...* | 2,591 | 810 MB |
-| `dungeons-legends/dungeons-source/` | *Computing...* | 2,670 | 296 MB |
-| `dungeons-legends/dungeons-original/` | *Computing...* | 4,782 | 257 MB |
-| `dungeons-legends/legends-original/` | *Computing...* | 5,012 | 583 MB |
-| `dungeons-legends/narration-build-2017/` | *Computing...* | 4,937 | 343 MB |
-
-*Note: MD5 hashes for large folders (>1GB) require extended computation time. Use file counts and sizes for verification.*
+MD5 hashes are for original archive files, not extracted folders. Use file counts and sizes for verification of extracted content.
 
 ## Git Hashes (Where Available)
 
@@ -148,4 +132,4 @@ https://bin.skylvi.net/dmca
 ---
 
 **Last Updated:** 2026-03-04  
-**Repository Status:** Active - Story Mode builds pending download
+**Repository Status:** Complete - All available builds archived

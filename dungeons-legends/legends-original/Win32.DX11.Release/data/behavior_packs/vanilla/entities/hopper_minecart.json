@@ -1,0 +1,85 @@
+{
+  "minecraft:entity": {
+    "format_version": "1.2.0",
+
+    "component_groups": {
+      "minecraft:hopper_active": {
+        "minecraft:item_hopper": {
+
+        },
+        "minecraft:rail_sensor": {
+          "on_activate": {
+            "event": "minecraft:hopper_deactivate"
+          }
+        }
+      },
+      "minecraft:hopper_inactive": {
+        "minecraft:rail_sensor": {
+          "on_deactivate": {
+            "event": "minecraft:hopper_activate"
+          }
+        }        
+      }
+    },
+
+    "components": {
+      "minecraft:identifier": {
+        "id": "minecraft:hopper_minecart"
+      },
+      "minecraft:type_family": {
+        "family": [ "minecart", "inanimate" ]
+      },
+      "minecraft:collision_box": {
+        "width": 0.78,
+        "height": 0.7
+      },
+      "minecraft:rail_movement": {
+
+      },
+      "minecraft:inventory": {
+        "container_type": "minecart_hopper",
+        "inventory_size": 5,
+        "can_be_siphoned_from": true
+      },
+      "minecraft:is_stackable": {
+      },
+	    "minecraft:physics": {
+      }
+    },
+
+    "events": {
+      "minecraft:entity_spawned": {
+        "add": {
+          "component_groups": [
+            "minecraft:hopper_active"
+          ]
+        }
+      },
+      "minecraft:hopper_activate": {
+        "remove": {
+          "component_groups": [
+            "minecraft:hopper_inactive"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:hopper_active"
+          ]
+        }
+      },
+      "minecraft:hopper_deactivate": {
+        "remove": {
+          "component_groups": [
+            "minecraft:hopper_active"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:hopper_inactive"
+          ]
+        }
+      }
+    }
+
+  }
+}

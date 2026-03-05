@@ -1,0 +1,32 @@
+// __multiversion__
+// This signals the loading code to prepend either #version 100 or #version 300 es as apropriate.
+
+#include "shaders/fragmentVersionSimple.h"
+
+#include "shaders/uniformShaderConstants.h"
+#include "shaders/uniformPerFrameConstants.h"
+#include "shaders/util.h"
+
+varying vec2 uv0;
+
+void main()
+{
+	vec4 color = CURRENT_COLOR;
+
+	const float cycleTime = 1.f;
+	const float cutoff = cycleTime * 0.75f;
+
+	float a = mod(TIME, cycleTime) / cutoff;
+	a = 1.f - smoothstep(clamp(a - 0.1f, 0, 1), a, uv0.x);
+	if (a > 0.f) {
+		color = mix(vec4(1, 1, 1, 1), color, a);
+		a = 1.f;
+	}
+	color.a = a;
+
+	gl_FragColor = color;
+
+#if defined(FORCE_DEPTH_ZERO) && __VERSION__ >= 300
+	gl_FragDepth = 0.0;
+#endif
+}

@@ -1,0 +1,74 @@
+item.badger_shovel_a.name=Terraform Steps (Small)
+item.badger_shovel_b.name=Terraform Steps (Large)
+item.badger_shovel_c.name=Terraform Flatten
+item.badger_shovel_d.name=Terraform Tunnel
+item.badger_shovel_e.name=Terraform Bridge
+
+createWorldScreen.gameMode.badger=Badger
+createWorldScreen.gameMode.badger.desc=Badger mode description goes here.
+
+key.badgerCameraZoomIn=Camera Zoom In
+key.badgerCameraZoomOut=Camera Zoom Out
+key.badgerCameraRotateLeft=Camera Rotate Left
+key.badgerCameraRotateRight=Camera Rotate Right
+key.modbarUp=Cycle Modbar Up
+key.modbarDown=Cycle Modbar Down
+
+options.thirdperson.badgerfollow0=Badger Follow_FOV70_D10
+options.thirdperson.badgerfollow1=Badger Follow_FOV55_D17.5
+options.thirdperson.badgerfixed0=Badger Strategic_View
+options.thirdperson.badgerfixed1=Badger Fixed_FOV55_P47_D22.5
+options.thirdperson.badgerfree0=Badger Far_FOV65_P20_P65_D18
+options.thirdperson.badgerfree1=Badger Close_FOV55_P15_P70_D16.5
+options.thirdperson.badgerfree2=Badger Orbit_FOV70_P35_P55_D15
+options.thirdperson.badgerfree3=Badger Free_FOV70_D12.5
+
+entity.villager.enchanter=Enchanter
+
+commands.giveallstructures.description=Gives all structures to a player.
+commands.giveallstructures.error=Unable to give structure %1$s!
+commands.giveallstructures.success=Gave all structures to %1$s
+commands.giveallstructures.successRecipient=You have been given all structures
+commands.giveallresources.description=Gives all core and fuel resources to a player.
+commands.giveallresources.error=Unable to give resource %1$s!
+commands.giveallresources.success=Gave all resources * %1$s to %2$s
+commands.giveallresources.successRecipient=You have been given all resources * %1$s
+
+commands.building.description=Spawns a building
+commands.building.failed=Unable to a spawn a building
+commands.building.success=Building successfully spawned
+
+commands.assignbadgerteam.description=Change players team assignments.
+commands.assignbadgerteam.error=Unable to assign team, team %1$s does not exist!
+commands.assignbadgerteam.success=Assigned %1$s to team %2$s.
+
+commands.assignbadgerowner.description=Change entities owner.
+commands.assignbadgerowner.success=Assigned %1$s to owner %2$s.
+
+menu.play_video=Play Video
+
+match_complete_screen.messageWon=%s won!
+match_complete_screen.messageLost=%s lost!
+match_complete_screen.play_video=Play Video
+
+generator.island=Island
+
+itemGroup.name.building=Building
+
+tile.crown.name=Crown
+tile.building.name=Building
+
+potion.moveSpeed.postfix=Increase Speed (potion)
+potion.regeneration.postfix=Increase Health Slowly (potion)
+potion.heal.postfix=Instant Health Increase (potion)
+potion.damageBoost.postfix=Increase Strength (potion)
+potion.invisibility.postfix=Make Invisible (potion)
+potion.jump.postfix=Increase Jump Height (potion)
+potion.moveSlowdown.postfix=Decrease Speed (potion)
+potion.poison.postfix=Decrease Health Slowly (potion)
+potion.harm.postfix=Instant Health Decrease (potion)
+potion.weakness.postfix=Decrease Strength (potion)
+
+
+
+

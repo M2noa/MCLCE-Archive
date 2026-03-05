@@ -1,0 +1,113 @@
+{
+  "namespace": "vr_align_screen",
+
+  "text_message": {
+    "type": "label",
+    "size": [ "100%", "default" ],
+    "layer": 2,
+    "shadow": true,
+    "text": "#text",
+    "color": "$body_text_color",
+    "bindings": [
+      {
+        "binding_name": "#message",
+        "binding_name_override": "#text"
+      }
+    ]
+  },
+
+  "warning_label": {
+    "type": "label",
+    "layer": 2,
+    "size": [ "100%", "default" ],
+    "shadow": true,
+    "text": "#text",
+    "color": "$warning_text_color",
+    "bindings": [
+      {
+        "binding_name": "#warning",
+        "binding_name_override": "#text"
+      },
+      {
+        "binding_name": "#showwarning",
+        "binding_name_override": "#visible"
+      }
+    ]
+  },
+
+  "vrinfo_label": {
+    "type": "label",
+    "layer": 2,
+    "size": [ "100%", "default" ],
+    "shadow": true,
+    "text": "#vr_alignscreen_text",
+    "color": "$body_text_color",
+    "bindings": [
+      {
+        "binding_name": "#vr_alignscreen_text",
+        "binding_condition": "once"
+      }
+    ]
+  },
+
+  "vr_align_screen@common.base_screen": {
+    "send_telemetry": false,
+    "button_mappings": [
+      {
+        "from_button_id": "button.controller_select",
+        "to_button_id": "button.controller_select",
+        "mapping_type": "global"
+      },
+      {
+        "from_button_id": "button.menu_select",
+        "to_button_id": "button.mouse_clicked_vralign",
+        "mapping_type": "global"
+      },
+      {
+        "from_button_id": "button.menu_cancel",
+        "to_button_id": "button.menu_exit",
+        "mapping_type": "global"
+      }
+    ],
+    "$screen_content": "vr_align_screen.vr_align_screen_content"
+  },
+
+  "vr_align_screen_content": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "size": [ "70%", "default" ],
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "offset": [ 0, 40 ],
+    "controls": [
+      {
+        "vrinfo_label@vrinfo_label": { }
+      },
+      {
+        "spacing_gap_1": {
+          "type": "panel",
+          "size":  [ 0, 30 ]
+        }
+      },
+      {
+        "warning_label@warning_label": {
+        }
+      },
+      {
+        "spacing_gap_2": {
+          "type": "panel",
+          "size":  [ 0, 10 ],
+          "bindings": [
+            {
+           "binding_name": "#showwarning",
+           "binding_name_override": "#visible"
+            }
+          ]        
+        }
+      },
+      {
+        "text_message@text_message": { }
+      }
+    ]
+  }
+}

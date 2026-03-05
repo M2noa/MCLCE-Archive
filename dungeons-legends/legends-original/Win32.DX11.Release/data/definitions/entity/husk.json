@@ -1,0 +1,12 @@
+{
+  "definition.husk": {
+    "textures": {
+      "default": "textures/entity/zombie/husk"
+    },
+    "geometry": {
+      "default": "geometry.zombie.husk",
+      "armor1": "geometry.humanoid.armor1",
+      "armor2": "geometry.humanoid.armor2"
+    }
+  }
+}

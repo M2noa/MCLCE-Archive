@@ -1,0 +1,128 @@
+{
+  "postprocess": {
+    "states": [
+      "DisableDepthTest",
+      "DisableDepthWrite"
+    ],
+
+    "msaaSupport": "Both",
+
+    "vertexShader": "shaders/uv.vertex",
+    "vrGeometryShader": "shaders/uv.geometry",
+    "fragmentShader": "shaders/texture.fragment",
+    "vertexFields": [
+      { "field": "Position" },
+      { "field": "UV0" }
+    ],
+    "samplerStates": [
+      {
+        "samplerIndex": 0,
+        "textureFilter": "Point"
+      }
+    ]
+
+  },
+
+  "gaussian_dof:postprocess": {
+
+    "vertexShader": "shaders/uv.vertex",
+    "vrGeometryShader": "shaders/uv.geometry",
+    "fragmentShader": "shaders/depth_of_field.fragment",
+
+    "samplerStates": [
+      {
+        "samplerIndex": 0,
+        "textureFilter": "Point"
+      },
+      {
+        "samplerIndex": 1,
+        "textureFilter": "Point"
+      },
+      {
+        "samplerIndex": 2,
+        "textureFilter": "Point"
+      },
+      {
+        "samplerIndex": 3,
+        "textureFilter": "Point"
+      }
+    ]
+
+  },
+
+  "gaussianblur_h:postprocess": {
+
+    "vertexShader": "shaders/uv.vertex",
+    "vrGeometryShader": "shaders/uv.geometry",
+    "fragmentShader": "shaders/blur.fragment",
+
+    "defines": [
+      "GAUSSIAN_H"
+    ],
+
+    "samplerStates": [
+      {
+        "samplerIndex": 0,
+        "textureFilter": "Bilinear",
+        "textureWrap": "Clamp"
+      }
+    ]
+
+  },
+
+  "gaussianblur_v:postprocess": {
+
+    "vertexShader": "shaders/uv.vertex",
+    "vrGeometryShader": "shaders/uv.geometry",
+    "fragmentShader": "shaders/blur.fragment",
+
+    "defines": [
+      "GAUSSIAN_V"
+    ],
+
+    "samplerStates": [
+      {
+        "samplerIndex": 0,
+        "textureFilter": "Bilinear",
+        "textureWrap": "Clamp"
+      }
+    ]
+
+  },
+
+  "blit:postprocess": {
+
+    "vertexShader": "shaders/uv.vertex",
+    "vrGeometryShader": "shaders/uv.geometry",
+    "fragmentShader": "shaders/texture.fragment",
+    "samplerStates": [
+      {
+        "samplerIndex": 0,
+        "textureFilter": "Point"
+      }
+    ]
+
+  },
+
+  "depth_downsample:postprocess": {
+
+    "vertexShader": "shaders/uv.vertex",
+    "vrGeometryShader": "shaders/uv.geometry",
+    "fragmentShader": "shaders/depth_downsample.fragment",
+    "samplerStates": [
+      {
+        "samplerIndex": 0,
+        "textureFilter": "Point",
+        "textureWrap": "Clamp"
+      }
+    ]
+
+  },
+
+  "resolve_depth:postprocess": {
+    "fragmentShader": "shaders/resolve_depth.fragment",
+    "renderTargetFormats": [
+      []
+    ]
+  }
+}

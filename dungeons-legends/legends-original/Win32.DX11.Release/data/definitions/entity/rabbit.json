@@ -1,0 +1,16 @@
+{
+  "definition.rabbit": {
+    "textures": {
+      "brown": "textures/entity/rabbit/brown",
+      "white": "textures/entity/rabbit/white",
+      "black": "textures/entity/rabbit/blackrabbit",
+      "white_splotched": "textures/entity/rabbit/white_splotched",
+      "gold": "textures/entity/rabbit/gold",
+      "salt": "textures/entity/rabbit/salt",
+      "toast": "textures/entity/rabbit/toast"
+    },
+    "geometry": {
+      "default": "geometry.rabbit"
+    }
+  }
+}

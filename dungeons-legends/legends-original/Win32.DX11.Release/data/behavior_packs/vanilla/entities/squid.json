@@ -1,0 +1,137 @@
+{
+  "minecraft:entity": {
+    "format_version": "1.2.0",
+
+    "component_groups":{
+      "minecraft:squid_baby": {
+        "minecraft:is_baby": {
+        },
+        "minecraft:scale": {
+          "value": 0.5
+        }
+      },
+
+      "minecraft:squid_leashed": {
+        "minecraft:behavior.move_towards_restriction": {
+          "priority": 2,
+          "speed_multiplier": 1.0
+        }
+      }
+    },
+    
+    "components":{
+      "minecraft:identifier": {
+        "id": "minecraft:squid"
+      },
+	  "minecraft:nameable": {
+	  },
+      "minecraft:type_family": {
+        "family":["squid"]          
+      },
+
+      "minecraft:collision_box":{
+        "width": 0.95,
+        "height": 0.95
+      },
+      
+      "minecraft:health": {
+        "value": 10,
+        "max": 10
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/squid.json"
+      },
+
+      "minecraft:breathable":{
+        "totalSupply":15,
+        "suffocateTime":0,
+        "breathesAir": false,
+        "breathesWater": true
+      },
+
+      "minecraft:movement": {
+        "value": 0.2
+      },
+      "minecraft:navigation.walk": {
+        "can_float": true
+      },
+      "minecraft:movement.basic": {
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:can_climb": {
+      },
+
+      "minecraft:leashable": {
+        "soft_distance": 4.0,
+        "hard_distance": 6.0,
+        "max_distance": 10.0,
+        "on_leash": {
+          "event": "minecraft:on_leash",
+          "target": "self"
+        },
+        "on_unleash": {
+          "event": "minecraft:on_unleash",
+          "target": "self"
+        }
+      },
+      
+      "minecraft:behavior.squid_move_away_from_ground":{
+        "priority": 1
+      },
+      "minecraft:behavior.squid_flee":{
+        "priority": 2
+      },
+      "minecraft:behavior.squid_idle":{
+        "priority": 2
+      },
+      "minecraft:behavior.squid_dive":{
+        "priority": 2
+      },
+      "minecraft:behavior.squid_out_of_water":{
+        "priority": 2
+      },
+	    "minecraft:physics": {
+      }
+    },
+    
+    "events":{
+      "minecraft:entity_spawned": {
+        "randomize": [
+          {
+            "weight": 95,
+            "remove": {
+            },
+            "add": {
+            }
+          },
+          {
+            "weight": 5,
+            "remove": {
+            },
+            "add": {
+              "component_groups": [
+                "minecraft:squid_baby"
+              ]
+            }
+          }
+        ]
+      },
+
+      "minecraft:on_leash": {
+        "add": {
+          "component_groups": [
+            "minecraft:squid_leashed"
+          ]
+        }
+      },
+      "minecraft:on_unleash": {
+        "remove": {
+          "component_groups": [
+            "minecraft:squid_leashed"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,123 @@
+﻿xblLogin.LoginMessageGearVR=Please remove your phone from the headset to sign in to Xbox Live.
+xblLogin.AddFriendMessageGearVR=Please remove your phone from the headset to add Xbox Live friends.
+xblLogin.LoginMessageRift=Please remove the headset to sign in to Xbox Live.
+xblLogin.AddFriendMessageRift=Please remove the headset to add Xbox Live friends.
+xblLogin.ShowGamerCardMessageRift=Please remove the headset to view gamercard.
+
+LostFocus.Rift=Lost the mouse! Select Minecraft, on the desktop, if you want to use it.
+
+vr.controls.HandControllerTracked=Oculus Touch Tracking Acquired
+vr.controls.HandControllerTrackingLost=Oculus Touch Tracking Lost
+
+FileBrowser.Rift.Skin=Please remove the headset to select a Custom Skin.
+FileBrowser.Rift.Export=Please remove the headset to export your world.
+FileBrowser.Rift.Import=Please remove the headset to import your world.
+FileBrowser.Rift.ExportBook=Please remove the headset to export your book.
+FileBrowser.Rift.ExportPortfolio=Please remove the headset to export your portfolio.
+FileBrowser.Rift.FileChooser=Choose File
+FileBrowser.Rift.ExportWorld=Export World
+FileBrowser.Rift.ExportResourcesPrompt=Please remove the headset to export these resources.
+FileBrowser.Rift.ExportResources=Export Resources
+FileBrowser.Rift.SkinChooser=Choose Skin
+
+
+options.group.vr=VR
+options.group.vrTitle=VR Settings
+options.vrHideGUI=VR Hide GUI
+options.vrHideHud=Hide HUD
+options.vrHideHand=Hide Hand
+options.comfortControls=VR Comfort Controls
+options.vrHideGUI=Hide GUI in VR
+options.vrGamma=VR Brightness
+options.vrMsaa=VR Anti-Aliasing
+options.vrRenderDistance=VR Render Distance
+options.vrParticleRenderDistance=VR Particle Render Distance
+options.vrResetPlayerAlignment=Reset VR Alignment
+options.vrHMDdisplacement=Use HMD displacement to Move
+options.vrHeadSteering=VR Head Steering
+options.vrTurningOptions=Turning Options
+options.StutterTurn=VR Turning
+options.StutterTurnSound=VR Turn Sound
+options.StutterConstantAngleOrTime=VR Turn Constant Time Mode
+options.vrTapTurn=Tap Turning
+options.vrTapTurnSensitivity=Tap Turning Sensitiviy
+options.vrRollTurning=Roll Turning
+options.vrRollTurnSensitivity=Roll Turning Sensitiviy
+options.3DRendering=3D Rendering
+options.vrHudAtTop=HUD at Top
+options.vrAutojump=VR Auto-Jump
+options.vrLinearJump=VR Linear Jump
+options.vrLinearMotion=VR Linear Motion
+options.stickyMining=Sticky Mining
+options.stickyMiningHand=Sticky mining for Hand Controller
+options.vrMovingBackwardsHardStop=Hard Stop in Reverse
+options.comfortControls=VR Controls
+options.ShowComfortSelectScreen=Show Control Selection Screen
+options.vrHudDrifts=HUD Drift
+options.vrLivingRoomCursorCentered=VR Living Room Cursor Centered
+options.vrMirrorTexture=VR Mirror Texture
+options.vrTapTurn=Tap Turning
+options.vrTapTurnSensitivity=Tap Turning Sensitivity
+options.vrRollTurning=Wheel Turning
+options.vrRollTurnSensitivity=Wheel Turning Sensitivity
+options.vrHandControlsItem=Hand Controller Controls Item
+options.vrHandControlsHUD=Hand Controller Controls HUD
+options.vrHandPointer=Hand Controller Pointer Visible
+options.vrHandsVisible=Hands Visible
+options.vr180Turning=Reverse Stick 180
+options.vrMirrorTexture=Enable Mirror Texture
+options.vrSensitivity=VR Sensitivity
+options.vrUIMouseSensitivity=VR UI Sensitivity
+
+## VR control Scheme Strings
+vr.controls.title=VR Controls
+
+vr.controls.title.classic=Classic Controls - Intense
+vr.controls.title.experimental=VR Controls - Moderate
+vr.controls.classicDescription=The classic jumping and turning, not tuned for VR. It has a comfort level of intense for most people.
+vr.controls.experimentalDescription=Turning occurs in segments. The cursor and jumping have been tuned for VR to improve the comfort during movement for most people (work in progress).
+vr.controls.sharedDescription=Controls can also be changed in-game via the options menu.
+vr.moreOptions=More Options...
+vr.moreInformation=More Info...
+vr.detailedInformation=Several game features have been adjusted for a more comfortable VR experience. For example; VR turning is a feature that segments the turning motion to reduce disorientation.
+vr.detailedInformationLink=For more info on VR controls and a behind the scenes look; go to minecraft.net/vr
+
+vr.pausescreen.recenterDevice=Recenter Device
+vr.pausescreen.recenterDeviceKeyboard=Press N To Recenter Device
+vr.warning.controllerRequired=Game controller required
+vr.warning.controllerRecommended=A game controller is recommended for VR
+vr.warning.controllerOrMouseRecommended=A game controller or mouse is recommended for VR
+vr.warning.exitGameWarning=Do you want to exit Minecraft?
+vr.alignscreen.pressButtonX=Please press the 'X' button on your controller to continue
+vr.alignscreen.pressButtonXOrMouse=Please click, or press any button on your controller, to continue
+vr.alignscreen.pressButtonAOrRightTrigger=Please press the 'A' button or right trigger on your controller to continue
+vr.alignscreen.pressAnyButton=Align your head to a neutral position and press any button
+vr.alignscreen.info=Notice: This is a work in progress. VR may cause discomfort for some people. Remember to take a break as often as you need and to utilize the Living Room mode by tapping the touchpad for a less intense view.
+vr.alignscreen.info_viewbutton=Notice: This is a work in progress. VR may cause discomfort for some people. Remember to take a break as often as you need and to utilize the Living Room mode by pressing D-Pad Up for a less intense view.
+
+## Oculus Rift Installer
+ori.confirm.exit=Are you sure you want to exit?
+ori.confirm.update=Update Minecraft?
+ori.pending=Waiting for Windows Update to complete.
+ori.installing=Installing...
+ori.updating=Updating...
+ori.launching=Launching!
+ori.check_for_update=Checking for updates...
+ori.error.unavailable=Minecraft was unavailable. Make sure you are connected to the Internet and logged into the store.
+ori.error.unknown=An unknown error occurred. Try again later.
+ori.error.not_supported=Minecraft is not supported on this system.
+ori.error.launch_failure=Failed to launch Minecraft.
+ori.error.version=Your version of Minecraft is out of date. Please update to play.
+ori.error.win10=Windows 10 version 1607, or later, is required.
+ori.error.install_error=We've encountered an error. Error code: 0x
+ori.error.low_storage=Unable to install. Available storage space is insufficient.
+ori.error.no_internet=Unable to connect. Please check your Internet connection.
+ori.error.winUpdateDisabled=Windows Update must be enabled.
+ori.confirm.controls.controller.confirm=Confirm
+ori.confirm.controls.controller.cancel=Cancel
+ori.confirm.controls.keyboard.confirm=Confirm: [Enter]
+ori.confirm.controls.keyboard.cancel=Cancel: [Esc]
+ori.exit.controls.controller=Exit
+ori.exit.controls.keyboard=Exit: [Enter]
+ori.cancelling=Cancelling...
+

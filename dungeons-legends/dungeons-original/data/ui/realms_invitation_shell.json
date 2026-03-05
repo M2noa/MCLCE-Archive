@@ -1,0 +1,119 @@
+/********************************************************
++*   (c) Mojang. All rights reserved                       *
++*   (c) Microsoft. All rights reserved.                   *
++*********************************************************/
+
+{
+  "namespace": "realms_invitation", 
+
+  // -----------------------------------------------
+  //
+  //    screen
+  //
+  // -----------------------------------------------
+
+  "gamepad_helpers": {
+    "type": "panel",
+    "layer": 2,
+    "controls": [
+      {
+        "@common.gamepad_helper_a": {
+          "size": [ 30, 10 ],
+          "offset": [ -70, -2 ],
+          "anchor_from": "bottom_right",
+          "anchor_to": "bottom_right"
+        }
+      }
+    ]
+  },  
+
+  "realms_invitation_content_panel@realms_common.main_panel_short_bottom": {
+    "$child_control": "realms_invitation.realms_invitation_content_panel_children",
+    "$text_name": "Add Realm Players",
+    "$show_close_button": false,
+    "size": "$narrow_screen_size"
+  },
+
+  "realms_invitation_content_panel_children": {
+    "type": "panel",
+    "anchor_to": "top_left",
+    "anchor_from": "top_left",
+    "controls": [
+      {
+        "@realms_invitation.realms_invitation_panel_content": {
+          "offset": [ 2, 0 ],
+          "$scrolling_pane_size": [ "100% - 4px", "100%" ]
+        }
+      },
+      {
+        "done_button@realms_common.new_ui_button": {
+          "anchor_from": "bottom_middle",
+          "anchor_to": "top_middle",
+          "size": [ "100% + 2px", 30 ],
+          "offset": [ 0, 5 ],
+          "layer": 2,
+          "$button_text": "realmsInvitationScreen.done",
+          "button_mappings": [
+            {
+              "from_button_id": "button.menu_select",
+              "to_button_id": "button.menu_realm_send_invites",
+              "mapping_type": "pressed"
+            },
+            {
+              "from_button_id": "button.menu_ok",
+              "to_button_id": "button.menu_realm_send_invites",
+              "mapping_type": "focused"
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "realms_invitation_screen@common.base_screen": {
+    "button_mappings": [
+      {
+        "from_button_id": "button.menu_up",
+        "to_button_id": "button.menu_up",
+        "mapping_type": "global",
+        "scope": "view"
+      },
+      {
+        "from_button_id": "button.menu_down",
+        "to_button_id": "button.menu_down",
+        "mapping_type": "global",
+        "scope": "view"
+      },
+      {
+        "from_button_id": "button.menu_left",
+        "to_button_id": "button.menu_left",
+        "mapping_type": "global",
+        "scope": "view"
+      },
+      {
+        "from_button_id": "button.menu_right",
+        "to_button_id": "button.menu_right",
+        "mapping_type": "global",
+        "scope": "view"
+      }
+    ],
+    "$screen_content": "realms_invitation.realms_invitation_content"
+  },
+
+  "realms_invitation_content": {
+    "type": "panel",
+        "controls": [
+      {
+        "root_panel": {
+          "type": "input_panel",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "controls": [
+            { "@realms_invitation.realms_invitation_content_panel": { "layer": 1 } },
+            { "@realms_invitation.gamepad_helpers": { } }
+          ]
+        }
+      }
+    ]
+  }
+}

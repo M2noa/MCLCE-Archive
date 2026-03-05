@@ -1,0 +1,509 @@
+/********************************************************
++*   (c) Mojang. All rights reserved                       *
++*   (c) Microsoft. All rights reserved.                   *
++*********************************************************/
+
+// Used to control the layout of the Realm Settings screen. Player gets to this screen
+// by selecting the "configure" button in the Realms List screen.
+
+{
+  "namespace": "realms_common",
+
+  // Common
+  // This should no longer be used! Legacy buttons
+  "dark_thin_button@common-classic.button_state_default": {
+  },
+
+  "dark_thin_button_hover@common-classic.button_state_hover": {
+  },
+
+  "dark_thin_button_pressed@common-classic.button_state_pressed": {
+  },
+
+  // This should no longer be used! Legacy header
+  "header_panel": {
+    "type": "panel",
+    "size": [ "100%", "27px" ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "header_background": {
+          "type": "image",
+          "nineslice_size": [ 3, 3, 3, 6 ],
+          "texture": "gui/newgui/TopBar.png",
+          "uv": [ 0, 0 ],
+          "uv_size": [ 5, 8 ]
+        }
+      },
+      {
+        "title_label": {
+          "type": "label",
+          "size": [ "100%", 30 ],
+          "alignment": "center",
+          "text": "$text_name",
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "layer": 1,
+          "shadow": false
+        }
+      },
+      {
+        "inside_header_panel@$child_control": { }
+      }
+    ]
+  },
+
+  // This should no longer be used! Legacy button
+  "back_button@common-classic.button": {
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "size": [ 66, 18 ],
+    "offset": [ 4, -6 ],
+    "button_mappings": [
+      {
+        "from_button_id": "button.menu_select",
+        "to_button_id": "button.menu_exit",
+        "mapping_type": "pressed"
+      },
+      {
+        "from_button_id": "button.menu_ok",
+        "to_button_id": "button.menu_exit",
+        "mapping_type": "focused"
+      }
+    ],
+    "controls": [
+      {
+        "default@common-classic.button_state_default": {
+          "controls": [
+            {
+              "@common.button_text": {
+                "text": "gui.back"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "hover@common-classic.button_state_hover": {
+          "controls": [
+            {
+              "@common.button_text": {
+                "text": "gui.back",
+                "color": [ 1.0, 1.0, 0.2 ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "pressed@common-classic.button_state_pressed": {
+          "controls": [
+            {
+              "@common.button_text": {
+                "text": "gui.back",
+                "color": [ 1.0, 1.0, 0.2 ],
+                "alpha": 0.65
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  // The "envelope" icon that shows in the header panel if you have a pending invite
+  "pending_invites_icon": {
+    "type": "image",
+    "texture": "gui/newgui/invite_base.png",
+    "layer": 5,
+    "anchor_from": "bottom_right",
+    "anchor_to": "bottom_right",
+
+    "bindings": [
+      {
+        "binding_name": "#pending_invites_visible",
+        "binding_name_override": "#visible",
+        "binding_type": "global"
+      }
+    ],
+    "uv": [ 0, 0 ],
+    "uv_size": [ 16, 16 ],
+    "size": [ 16, 16 ]
+  },
+
+  /////////////////
+  // NEW UI COMMON
+  /////////////////
+
+  "main_panel_long_bottom": {
+    "type": "panel",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      {
+        "@common.common_panel": { "$dialog_background": "dialog_background_hollow_1" }
+      },
+      {
+        "@realms_common.title_label": { }
+      },
+      {
+        "panel_indent": {
+          "type": "panel",
+          "size": [ "100% - 16px", "100% - 78px" ],
+          "offset": [ 0, 23 ],
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "controls": [
+            { "inside_header_panel@$child_control": { } }
+          ]
+        }
+      }
+    ]
+  },
+
+  "main_panel_short_bottom": {
+    "type": "panel",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      {
+        "@common.common_panel": { "$dialog_background": "dialog_background_hollow_2" }
+      },
+      {
+        "@realms_common.title_label": { }
+      },
+      {
+        "panel_indent": {
+          "type": "panel",
+          "size": [ "100% - 16px", "100% - 65px" ],
+          "offset": [ 0, 23 ],
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "controls": [
+            { "inside_header_panel@$child_control": { } }
+          ]
+        }
+      }
+    ]
+  },
+
+  "main_panel_no_bottom": {
+    "type": "panel",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      {
+        "@common.common_panel": { "$dialog_background": "dialog_background_hollow_3" }
+      },
+      {
+        "@realms_common.title_label": { }
+      },
+      {
+        "panel_indent": {
+          "type": "panel",
+          "size": [ "100% - 16px", "100% - 31px" ],
+          "offset": [ 0, 23 ],
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "controls": [
+            { "inside_header_panel@$child_control": { } }
+          ]
+        }
+      }
+    ]
+  },
+
+  "main_panel_no_padding": {
+    "type": "panel",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      {
+        "@common.common_panel": { "$dialog_background": "dialog_background_hollow_4" }
+      },
+      {
+        "panel_indent": {
+          "type": "panel",
+          "size": [ "100% - 16px", "100% - 16px" ],
+          "offset": [ 0, 8 ],
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "controls": [
+            { "inside_header_panel@$child_control": { } }
+          ]
+        }
+      }
+    ]
+  },
+
+  "main_panel": {
+    "type": "panel",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      { "@modal.modal_background_image": { "layer": 1 } },
+      {
+        "panel_indent": {
+          "type": "panel",
+          "size": [ "100% - 14px", "100% - 14px" ],
+          "controls": [
+            { "inside_header_panel@$child_control": { } }
+          ]
+        }
+      }
+    ]
+  },
+
+  "title_label": {
+    "type": "label",
+    "size": [ "100%", 15 ],
+    "offset": [ 0, 9 ],
+    "color": [ 0.275, 0.275, 0.275 ],
+    "alignment": "top_middle",
+    "text": "$text_name",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "layer": 4,
+    "shadow": false
+  },
+  
+  "dark_banner": {
+    "type": "image",
+    "texture": "gui/newgui/MainBanners.png",
+    "layer": 1,
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "uv": [ 0, 0 ],
+    "uv_size": [ 3, 3 ],
+    "nineslice_size": 1.0
+  },
+  
+  "dark_banner_hover@dark_banner": {
+    "texture": "gui/newgui/MainBannersHover.png"
+  },
+
+  // Legacy - do not use
+  "legacy_banner": {
+    "type": "image",
+    "texture": "gui/newgui/legacybanner.png",
+    "layer": 1,
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "uv": [ 0, 0 ],
+    "uv_size": [ 3, 3 ],
+    "nineslice_size": 1.0
+  },
+
+  "main_banner": {
+    "type": "image",
+    "texture": "gui/newgui/MainBanners.png",
+    "layer": 1,
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "uv": [ 0, 0 ],
+    "uv_size": [ 3, 3 ],
+    "nineslice_size": 1.0
+  },
+
+  // This needs you to define the button mapping and the size of the button
+  "new_ui_button@common.button": {    
+    "default_control": "default",
+    "hover_control": "hover",
+    "pressed_control": "pressed",    
+    "$default_color|default": [ 0.3, 0.3, 0.3 ],
+    "$hover_color|default": [ 1.00, 0.96, 0.02 ],
+    "$pressed_color|default": [ 1.00, 0.96, 0.02 ],
+    "$button_offset|default": [ 0, 0 ],
+    "$button_text": "",
+    "controls": [
+      {
+        "default@realms_common.new_ui_button_panel": {
+          "$new_ui_button_texture": "gui/newgui/ButtonWithBorder.png",
+          "$custom_color": "$default_color"
+        }
+      },
+      {
+        "hover@realms_common.new_ui_button_panel": {
+          "$new_ui_button_texture": "gui/newgui/ButtonWithBorderHover.png",
+          "$custom_color": "$hover_color"
+
+        }
+      },
+      {
+        "pressed@realms_common.new_ui_button_panel": {
+          "$new_ui_button_texture": "gui/newgui/ButtonWithBorderPressed.png",
+          "$custom_color": "$pressed_color",
+          "$button_offset|default": [ 0, 1 ]
+        }
+      }
+    ]
+  },
+
+  "new_ui_content_button@common.button": {
+    "default_control": "default",
+    "hover_control": "hover",
+    "pressed_control": "pressed",
+    "$button_offset|default": [ 0, 0 ],
+    "controls": [
+      {
+        "default@realms_common.new_ui_content_button_panel": {
+          "$new_ui_button_texture": "gui/newgui/ButtonWithBorder.png"
+        }
+      },
+      {
+        "hover@realms_common.new_ui_content_button_panel": {
+          "$new_ui_button_texture": "gui/newgui/ButtonWithBorderHover.png"
+        }
+      },
+      {
+        "pressed@realms_common.new_ui_content_button_panel": {
+          "$new_ui_button_texture": "gui/newgui/ButtonWithBorderPressed.png",
+          "$button_offset": [ 0, 1 ]
+        }
+      }
+    ]
+  },
+
+  "new_ui_button_image": {
+    "type": "image",
+    "layer": 1,
+    "texture": "$new_ui_button_texture",
+    "uv": [ 0, 0 ],
+    "uv_size": [ 6, 6 ],
+    "nineslice_size": 2.0
+  },
+
+  "new_ui_button_label": {
+    "type": "label",
+    "layer": 2,
+    "text": "$button_text",
+    "color": "$custom_color",
+    "offset": "$button_offset",
+    "alignment": "center",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "shadow": false
+  },
+
+  "new_ui_button_panel": {
+    "type": "panel",
+    "layer": 1,
+    "controls": [
+      { "@realms_common.new_ui_button_image": { } },
+      { "@realms_common.new_ui_button_label": { } }
+    ]
+  },
+
+  "new_ui_content_button_panel": {
+    "type": "panel",
+    "layer": 1,
+    "controls": [
+      { "@realms_common.new_ui_button_image": { } },
+      {
+        "container": {
+          "type": "panel",
+          "offset": "$button_offset",
+          "controls": [            
+            {
+              "content@$button_content": {
+                "layer": 2
+              }
+            }            
+          ]
+        }
+      }
+    ]
+  },
+
+  /////////////////
+  // GLYPH
+  /////////////////
+
+  "new_ui_glyph_button@common.button": {
+    "$default_color|default": [ 0.3, 0.3, 0.3 ],
+    "$hover_color|default": [ 1.00, 0.96, 0.02 ],
+    "$pressed_color|default": [ 1.00, 0.96, 0.02 ],
+    "$button_offset|default": [ 0, 0 ],
+    "controls": [
+      {
+        "default@realms_common.new_ui_glyph_content_button_panel": {          
+          "$new_ui_button_texture": "gui/newgui/ButtonWithBorder.png",
+          "$custom_color": "$default_color"
+        }
+      },
+      {
+        "hover@realms_common.new_ui_glyph_content_button_panel": {          
+          "$new_ui_button_texture": "gui/newgui/ButtonWithBorderHover.png",
+          "$custom_color": "$hover_color"
+        }
+      },
+      {
+        "pressed@realms_common.new_ui_glyph_content_button_panel": {          
+          "$new_ui_button_texture": "gui/newgui/ButtonWithBorderPressed.png",
+          "$custom_color": "$pressed_color",
+          "$button_offset": [ 0, 1 ]
+        }
+      }
+    ]
+  },
+
+  "new_ui_glyph_content_button_panel": {
+    "type": "panel",
+    "layer": 1,
+    "controls": [
+      {
+        "@realms_common.new_ui_button_image": { }
+      },
+      {
+        "xyz@$button_content": {
+          "color": "$custom_color",
+          "layer": 3,
+          "offset": "$button_offset"
+        }
+      }
+    ]
+  },
+
+
+  // Check box toggle
+  "toggle_state": {
+    "type": "image",
+    "size": [ 10, 10 ]
+  },
+  
+  "toggle_off_state@realms_common.toggle_state": {
+    "texture": "gui/newgui/realms_toggle_off.png",
+    "color": [ 1.0, 1.0, 1.0, 1.0 ]
+  },
+
+  "toggle_on_state@realms_common.toggle_state": {
+    "texture": "gui/newgui/realms_toggle_on.png",
+    "color": [ 1.0, 1.0, 1.0, 1.0 ]
+  },
+
+  "toggle_off_hover_state@realms_common.toggle_off_state": {
+    "color": [ 1.0, 1.0, 0.0, 1.0 ]
+  },
+
+  "toggle_on_hover_state@realms_common.toggle_on_state": {
+    "color": [ 1.0, 1.0, 0.0, 1.0 ]
+  },
+
+  "toggle_off_locked_state@realms_common.toggle_off_state": {
+    "color": [ 0.5, 0.5, 0.5, 0.5 ]
+  },
+
+  "toggle_on_locked_state@realms_common.toggle_on_state": {
+    "color": [ 0.5, 0.5, 0.5, 0.5 ]
+  },
+
+  "toggle@common.toggle": {
+    "$unchecked_control": "realms_common.toggle_off_state",
+    "$checked_control": "realms_common.toggle_on_state",
+    "$unchecked_hover_control": "realms_common.toggle_off_hover_state",
+    "$checked_hover_control": "realms_common.toggle_on_hover_state",
+    "$unchecked_locked_control": "realms_common.toggle_off_locked_state",
+    "$checked_locked_control": "realms_common.toggle_on_locked_state"
+  }
+}

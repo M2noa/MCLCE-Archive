@@ -1,0 +1,10 @@
+{
+  "definition.evoker": {
+    "textures": {
+      "default": "textures/entity/illager/evoker"
+    },
+    "geometry": {
+      "default": "geometry.evoker"
+    }
+  }
+}

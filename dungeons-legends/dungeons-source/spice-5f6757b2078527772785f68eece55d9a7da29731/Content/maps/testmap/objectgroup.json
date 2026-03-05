@@ -1,0 +1,2314 @@
+
+{
+ "objects" : 
+ [
+  
+  {
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 11, 2, 27 ],
+     "size" : [ 5, 1, 1 ]
+    }
+   ],
+   "id" : "cstart001_180",
+   "pos" : [ 144, 15, 188 ],
+   "size" : [ 22, 8, 28 ],
+   "tags" : "",
+   "y" : 2
+  },
+  
+  {
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 31, 5, 26 ],
+     "size" : [ 1, 1, 5 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 22, 5, 40 ],
+     "size" : [ 5, 1, 1 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 7, 5, 0 ],
+     "size" : [ 5, 1, 1 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 0, 5, 9 ],
+     "size" : [ 1, 1, 5 ]
+    }
+   ],
+   "id" : "cc009_270",
+   "pos" : [ 148, 12, 216 ],
+   "regions" : 
+   [
+    
+    {
+     "name" : "cd_gold001_180",
+     "pos" : [ 21, 5, 37 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_redstone006_180",
+     "pos" : [ 15, 5, 21 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_iron004_90",
+     "pos" : [ 21, 5, 30 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_redstone005_270",
+     "pos" : [ 13, 5, 14 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd018_270",
+     "pos" : [ 4, 5, 9 ],
+     "size" : [ 8, 1, 8 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd007_180",
+     "pos" : [ 18, 5, 27 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_iron006_90",
+     "pos" : [ 12, 5, 23 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_redstone001_270",
+     "pos" : [ 23, 5, 23 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 4, 5, 4 ],
+     "size" : [ 13, 1, 13 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 8, 5, 18 ],
+     "size" : [ 15, 1, 9 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 15, 5, 27 ],
+     "size" : [ 14, 1, 7 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 21, 5, 35 ],
+     "size" : [ 7, 1, 4 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 23, 5, 23 ],
+     "size" : [ 8, 1, 2 ],
+     "type" : "spawn"
+    }
+   ],
+   "size" : [ 32, 8, 41 ],
+   "tags" : "",
+   "y" : 5
+  },
+  
+  {
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 6, 3, 0 ],
+     "size" : [ 5, 1, 1 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 0, 3, 6 ],
+     "size" : [ 1, 1, 5 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 9, 3, 21 ],
+     "size" : [ 5, 1, 1 ]
+    }
+   ],
+   "id" : "cc008_180",
+   "pos" : [ 180, 14, 236 ],
+   "regions" : 
+   [
+    
+    {
+     "name" : "cd_iron004_270",
+     "pos" : [ 3, 3, 8 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_la004_270",
+     "pos" : [ 1, 3, 7 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_iron001_0",
+     "pos" : [ 11, 3, 14 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_diamond007_90",
+     "pos" : [ 11, 3, 16 ],
+     "size" : [ 3, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_coal001_270",
+     "pos" : [ 9, 3, 19 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_redstone004_0",
+     "pos" : [ 3, 3, 6 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd008_180",
+     "pos" : [ 8, 3, 3 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_gold004_0",
+     "pos" : [ 11, 3, 19 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 5, 3, 3 ],
+     "size" : [ 9, 1, 11 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 8, 3, 14 ],
+     "size" : [ 6, 1, 7 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 1, 3, 6 ],
+     "size" : [ 4, 1, 4 ],
+     "type" : "spawn"
+    }
+   ],
+   "size" : [ 16, 6, 22 ],
+   "tags" : "",
+   "y" : 3
+  },
+  
+  {
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 16, 5, 48 ],
+     "size" : [ 5, 1, 1 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 0, 5, 31 ],
+     "size" : [ 1, 1, 5 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 21, 5, 0 ],
+     "size" : [ 5, 1, 1 ]
+    }
+   ],
+   "id" : "cc001_180",
+   "pos" : [ 168, 12, 258 ],
+   "regions" : 
+   [
+    
+    {
+     "name" : "cd013_90",
+     "pos" : [ 20, 5, 37 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_iron004_0",
+     "pos" : [ 28, 5, 27 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_gold004_0",
+     "pos" : [ 22, 5, 12 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_redstone004_0",
+     "pos" : [ 22, 5, 7 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd032_90",
+     "pos" : [ 17, 5, 42 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_la007_180",
+     "pos" : [ 18, 5, 45 ],
+     "size" : [ 2, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 28, 5, 18 ],
+     "size" : [ 2, 1, 17 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 16, 5, 41 ],
+     "size" : [ 4, 1, 7 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 20, 5, 37 ],
+     "size" : [ 5, 1, 3 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 22, 5, 2 ],
+     "size" : [ 4, 1, 13 ],
+     "type" : "spawn"
+    }
+   ],
+   "size" : [ 35, 8, 49 ],
+   "tags" : "",
+   "y" : 5
+  },
+  
+  {
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 0, 16, 22 ],
+     "size" : [ 1, 1, 5 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 17, 16, 17 ],
+     "size" : [ 1, 1, 5 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 10, 16, 0 ],
+     "size" : [ 5, 1, 1 ]
+    }
+   ],
+   "id" : "cu004_270",
+   "pos" : [ 150, 1, 272 ],
+   "regions" : 
+   [
+    
+    {
+     "name" : "cd032_180",
+     "pos" : [ 8, 16, 17 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_iron007_0",
+     "pos" : [ 8, 16, 12 ],
+     "size" : [ 2, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_la004_180",
+     "pos" : [ 6, 16, 23 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_redstone005_90",
+     "pos" : [ 11, 16, 5 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd032_270",
+     "pos" : [ 11, 16, 2 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 11, 16, 1 ],
+     "size" : [ 3, 1, 19 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 8, 16, 12 ],
+     "size" : [ 3, 1, 9 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 4, 16, 19 ],
+     "size" : [ 4, 1, 9 ],
+     "type" : "spawn"
+    }
+   ],
+   "size" : [ 18, 21, 32 ],
+   "tags" : "",
+   "y" : 16
+  },
+  
+  {
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 19, 3, 0 ],
+     "size" : [ 5, 1, 1 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 0, 3, 16 ],
+     "size" : [ 1, 1, 5 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 28, 3, 38 ],
+     "size" : [ 5, 1, 1 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 43, 3, 18 ],
+     "size" : [ 1, 1, 5 ]
+    }
+   ],
+   "id" : "cc028_180",
+   "pos" : [ 106, 14, 276 ],
+   "regions" : 
+   [
+    
+    {
+     "name" : "cd_gold006_270",
+     "pos" : [ 21, 3, 29 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_coal005_0",
+     "pos" : [ 32, 3, 25 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_gravel002_180",
+     "pos" : [ 4, 3, 18 ],
+     "size" : [ 5, 1, 5 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_la006_270",
+     "pos" : [ 22, 3, 32 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_granite002_90",
+     "pos" : [ 8, 3, 24 ],
+     "size" : [ 9, 1, 8 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd032_90",
+     "pos" : [ 31, 3, 5 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd032_90",
+     "pos" : [ 9, 3, 11 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_la003_270",
+     "pos" : [ 36, 3, 16 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd032_180",
+     "pos" : [ 11, 3, 8 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_redstone004_180",
+     "pos" : [ 35, 3, 21 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_redstone004_270",
+     "pos" : [ 5, 3, 31 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_gravel003_90",
+     "pos" : [ 31, 3, 8 ],
+     "size" : [ 6, 1, 4 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_diamond007_270",
+     "pos" : [ 32, 3, 15 ],
+     "size" : [ 3, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_granite003_270",
+     "pos" : [ 14, 3, 8 ],
+     "size" : [ 6, 1, 5 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 5, 3, 24 ],
+     "size" : [ 14, 1, 12 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 4, 3, 15 ],
+     "size" : [ 16, 1, 8 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 5, 3, 7 ],
+     "size" : [ 16, 1, 7 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 22, 3, 3 ],
+     "size" : [ 7, 1, 11 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 30, 3, 5 ],
+     "size" : [ 7, 1, 9 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 22, 3, 15 ],
+     "size" : [ 17, 1, 8 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 20, 3, 24 ],
+     "size" : [ 8, 1, 13 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 29, 3, 24 ],
+     "size" : [ 7, 1, 12 ],
+     "type" : "spawn"
+    }
+   ],
+   "size" : [ 44, 6, 39 ],
+   "tags" : "",
+   "y" : 3
+  },
+  
+  {
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 0, 3, 7 ],
+     "size" : [ 1, 1, 5 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 29, 3, 32 ],
+     "size" : [ 5, 1, 1 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 48, 3, 12 ],
+     "size" : [ 1, 1, 5 ]
+    }
+   ],
+   "id" : "cu003_270",
+   "pos" : [ 96, 14, 243 ],
+   "regions" : 
+   [
+    
+    {
+     "name" : "cd_la006_270",
+     "pos" : [ 19, 3, 4 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_diamond003_90",
+     "pos" : [ 29, 3, 3 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_la004_270",
+     "pos" : [ 14, 3, 4 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_redstone006_0",
+     "pos" : [ 26, 3, 3 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd032_180",
+     "pos" : [ 31, 3, 3 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_diamond003_180",
+     "pos" : [ 23, 3, 24 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_gold002_0",
+     "pos" : [ 17, 3, 5 ],
+     "size" : [ 2, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 14, 3, 4 ],
+     "size" : [ 8, 1, 4 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 31, 3, 22 ],
+     "size" : [ 8, 1, 2 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 19, 3, 23 ],
+     "size" : [ 6, 1, 3 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 22, 3, 3 ],
+     "size" : [ 13, 1, 3 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 38, 3, 13 ],
+     "size" : [ 9, 1, 4 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 4, 3, 10 ],
+     "size" : [ 10, 1, 3 ],
+     "type" : "spawn"
+    }
+   ],
+   "size" : [ 49, 6, 33 ],
+   "tags" : "",
+   "y" : 3
+  },
+  
+  {
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 1, 1, 0 ],
+     "size" : [ 5, 1, 1 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 9, 1, 13 ],
+     "size" : [ 1, 1, 5 ]
+    }
+   ],
+   "id" : "cc023_90",
+   "pos" : [ 86, 16, 237 ],
+   "regions" : 
+   [
+    
+    {
+     "name" : "cd007_0",
+     "pos" : [ 6, 1, 14 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd032_0",
+     "pos" : [ 3, 1, 2 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_gold005_90",
+     "pos" : [ 3, 1, 11 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 3, 1, 1 ],
+     "size" : [ 3, 1, 13 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 6, 1, 12 ],
+     "size" : [ 3, 1, 5 ],
+     "type" : "spawn"
+    }
+   ],
+   "size" : [ 10, 4, 19 ],
+   "tags" : "",
+   "y" : 1
+  },
+  
+  {
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 24, 1, 6 ],
+     "size" : [ 1, 1, 3 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 11, 1, 0 ],
+     "size" : [ 5, 1, 1 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 5, 1, 16 ],
+     "size" : [ 5, 1, 1 ]
+    }
+   ],
+   "id" : "cc003_270",
+   "pos" : [ 82, 16, 220 ],
+   "regions" : 
+   [
+    
+    {
+     "name" : "cd_diorite003_270",
+     "pos" : [ 9, 1, 1 ],
+     "size" : [ 6, 1, 4 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_diorite002_270",
+     "pos" : [ 5, 1, 6 ],
+     "size" : [ 6, 1, 6 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_redstone003_270",
+     "pos" : [ 7, 1, 1 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_gravel002_0",
+     "pos" : [ 16, 1, 5 ],
+     "size" : [ 5, 1, 5 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_gold003_270",
+     "pos" : [ 15, 1, 1 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd032_180",
+     "pos" : [ 11, 1, 11 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_diamond004_90",
+     "pos" : [ 14, 1, 9 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 3, 1, 5 ],
+     "size" : [ 18, 1, 9 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 7, 1, 1 ],
+     "size" : [ 11, 1, 4 ],
+     "type" : "spawn"
+    }
+   ],
+   "size" : [ 25, 4, 17 ],
+   "tags" : "",
+   "y" : 1
+  },
+  
+  {
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 16, 6, 42 ],
+     "size" : [ 5, 1, 1 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 38, 6, 10 ],
+     "size" : [ 1, 1, 5 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 18, 6, 0 ],
+     "size" : [ 5, 1, 1 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 0, 6, 19 ],
+     "size" : [ 1, 1, 5 ]
+    }
+   ],
+   "id" : "cc030_270",
+   "pos" : [ 77, 11, 177 ],
+   "regions" : 
+   [
+    
+    {
+     "name" : "cd_la001_270",
+     "pos" : [ 26, 6, 4 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_la002_270",
+     "pos" : [ 26, 6, 36 ],
+     "size" : [ 3, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_redstone001_90",
+     "pos" : [ 5, 6, 28 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd013_0",
+     "pos" : [ 20, 6, 3 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_redstone006_180",
+     "pos" : [ 29, 6, 33 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd032_0",
+     "pos" : [ 6, 6, 33 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_redstone004_0",
+     "pos" : [ 9, 6, 34 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_iron007_0",
+     "pos" : [ 12, 6, 2 ],
+     "size" : [ 2, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_cobble003_270",
+     "pos" : [ 14, 6, 3 ],
+     "size" : [ 5, 1, 4 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd007_90",
+     "pos" : [ 33, 6, 7 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_la007_90",
+     "pos" : [ 26, 6, 6 ],
+     "size" : [ 3, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_restone007_270",
+     "pos" : [ 3, 6, 30 ],
+     "size" : [ 3, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_gold006_90",
+     "pos" : [ 8, 6, 36 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_iron002_0",
+     "pos" : [ 2, 6, 16 ],
+     "size" : [ 2, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 12, 6, 2 ],
+     "size" : [ 13, 1, 5 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 25, 6, 3 ],
+     "size" : [ 5, 1, 5 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 32, 6, 6 ],
+     "size" : [ 4, 1, 4 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 4, 6, 32 ],
+     "size" : [ 7, 1, 4 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 3, 6, 27 ],
+     "size" : [ 5, 1, 5 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 8, 6, 36 ],
+     "size" : [ 5, 1, 3 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 2, 6, 14 ],
+     "size" : [ 2, 1, 8 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 28, 6, 33 ],
+     "size" : [ 4, 1, 3 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 25, 6, 36 ],
+     "size" : [ 4, 1, 2 ],
+     "type" : "spawn"
+    }
+   ],
+   "size" : [ 39, 11, 43 ],
+   "tags" : "",
+   "y" : 6
+  },
+  
+  {
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 3, 3, 0 ],
+     "size" : [ 5, 1, 1 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 1, 3, 30 ],
+     "size" : [ 5, 1, 1 ]
+    }
+   ],
+   "id" : "cc007_270",
+   "pos" : [ 94, 14, 146 ],
+   "regions" : 
+   [
+    
+    {
+     "name" : "cd032_90",
+     "pos" : [ 2, 3, 27 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_gold001_0",
+     "pos" : [ 2, 3, 25 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_diamond002_0",
+     "pos" : [ 6, 3, 4 ],
+     "size" : [ 2, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd008_180",
+     "pos" : [ 5, 3, 1 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd032_270",
+     "pos" : [ 11, 3, 17 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_iron003_0",
+     "pos" : [ 4, 3, 7 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_coal003_270",
+     "pos" : [ 4, 3, 25 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_coal003_180",
+     "pos" : [ 4, 3, 4 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_coal001_0",
+     "pos" : [ 6, 3, 7 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_iron004_0",
+     "pos" : [ 9, 3, 16 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_diamond001_270",
+     "pos" : [ 7, 3, 13 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd010_270",
+     "pos" : [ 9, 3, 9 ],
+     "size" : [ 5, 1, 5 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 7, 3, 9 ],
+     "size" : [ 7, 1, 12 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 2, 3, 23 ],
+     "size" : [ 4, 1, 7 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 4, 3, 1 ],
+     "size" : [ 4, 1, 8 ],
+     "type" : "spawn"
+    }
+   ],
+   "size" : [ 18, 6, 31 ],
+   "tags" : "",
+   "y" : 3
+  },
+  
+  {
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 7, 3, 29 ],
+     "size" : [ 5, 1, 1 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 5, 3, 0 ],
+     "size" : [ 5, 1, 1 ]
+    }
+   ],
+   "id" : "ccp001_0",
+   "pos" : [ 90, 14, 116 ],
+   "size" : [ 21, 6, 30 ],
+   "tags" : "",
+   "y" : 3
+  },
+  
+  {
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 3, 3, 0 ],
+     "size" : [ 5, 1, 1 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 1, 3, 30 ],
+     "size" : [ 5, 1, 1 ]
+    }
+   ],
+   "id" : "cc007_270",
+   "pos" : [ 94, 14, 85 ],
+   "regions" : 
+   [
+    
+    {
+     "name" : "cd_lava008_180",
+     "pos" : [ 7, 3, 10 ],
+     "size" : [ 7, 1, 9 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 7, 3, 9 ],
+     "size" : [ 7, 1, 12 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 2, 3, 23 ],
+     "size" : [ 4, 1, 7 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 4, 3, 1 ],
+     "size" : [ 4, 1, 8 ],
+     "type" : "spawn"
+    }
+   ],
+   "size" : [ 18, 6, 31 ],
+   "tags" : "",
+   "y" : 3
+  },
+  
+  {
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 1, 1, 0 ],
+     "size" : [ 5, 1, 1 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 3, 1, 8 ],
+     "size" : [ 5, 1, 1 ]
+    }
+   ],
+   "id" : "cc020_90",
+   "pos" : [ 94, 16, 76 ],
+   "regions" : 
+   [
+    
+    {
+     "name" : "cd_gold004_270",
+     "pos" : [ 4, 1, 6 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_la002_180",
+     "pos" : [ 3, 1, 3 ],
+     "size" : [ 2, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 3, 1, 1 ],
+     "size" : [ 3, 1, 7 ],
+     "type" : "spawn"
+    }
+   ],
+   "size" : [ 9, 4, 9 ],
+   "tags" : "",
+   "y" : 1
+  },
+  
+  {
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 10, 3, 30 ],
+     "size" : [ 5, 1, 1 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 12, 3, 0 ],
+     "size" : [ 5, 1, 1 ]
+    }
+   ],
+   "id" : "cc007_90",
+   "pos" : [ 85, 14, 45 ],
+   "regions" : 
+   [
+    
+    {
+     "name" : "cdr009_0",
+     "pos" : [ 5, 3, 15 ],
+     "size" : [ 5, 1, 5 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_redstone004_0",
+     "pos" : [ 10, 3, 24 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_lava002_270",
+     "pos" : [ 13, 3, 1 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_lava012_270",
+     "pos" : [ 13, 3, 5 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cdr006_270",
+     "pos" : [ 10, 3, 26 ],
+     "size" : [ 4, 1, 4 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 4, 3, 10 ],
+     "size" : [ 7, 1, 12 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 12, 3, 1 ],
+     "size" : [ 4, 1, 7 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 10, 3, 22 ],
+     "size" : [ 4, 1, 8 ],
+     "type" : "spawn"
+    }
+   ],
+   "size" : [ 18, 6, 31 ],
+   "tags" : "",
+   "y" : 3
+  },
+  
+  {
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 0, 15, 22 ],
+     "size" : [ 1, 1, 5 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 11, 15, 44 ],
+     "size" : [ 5, 1, 1 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 22, 15, 0 ],
+     "size" : [ 5, 1, 1 ]
+    }
+   ],
+   "id" : "cu002_0",
+   "pos" : [ 86, 2, 0 ],
+   "regions" : 
+   [
+    
+    {
+     "name" : "cd032_90",
+     "pos" : [ 27, 15, 15 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd032_180",
+     "pos" : [ 24, 15, 5 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd032_0",
+     "pos" : [ 27, 15, 3 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd031_270",
+     "pos" : [ 8, 15, 15 ],
+     "size" : [ 13, 1, 13 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 7, 15, 15 ],
+     "size" : [ 16, 1, 15 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 10, 15, 31 ],
+     "size" : [ 6, 1, 10 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 27, 15, 12 ],
+     "size" : [ 4, 1, 9 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 22, 15, 3 ],
+     "size" : [ 9, 1, 6 ],
+     "type" : "spawn"
+    }
+   ],
+   "size" : [ 36, 18, 45 ],
+   "tags" : "",
+   "y" : 15
+  },
+  
+  {
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 10, 2, 0 ],
+     "size" : [ 5, 1, 1 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 17, 2, 17 ],
+     "size" : [ 1, 1, 5 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 0, 2, 22 ],
+     "size" : [ 1, 1, 5 ]
+    }
+   ],
+   "id" : "cc014_270",
+   "pos" : [ 68, 15, 5 ],
+   "regions" : 
+   [
+    
+    {
+     "name" : "cd032_90",
+     "pos" : [ 12, 2, 6 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd032_90",
+     "pos" : [ 10, 2, 25 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd032_180",
+     "pos" : [ 12, 2, 1 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd032_270",
+     "pos" : [ 9, 2, 22 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd032_180",
+     "pos" : [ 10, 2, 10 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 2, 2, 22 ],
+     "size" : [ 11, 1, 6 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 7, 2, 17 ],
+     "size" : [ 9, 1, 5 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 9, 2, 10 ],
+     "size" : [ 4, 1, 7 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 12, 2, 1 ],
+     "size" : [ 3, 1, 9 ],
+     "type" : "spawn"
+    }
+   ],
+   "size" : [ 18, 5, 30 ],
+   "tags" : "",
+   "y" : 2
+  },
+  
+  {
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 3, 3, 13 ],
+     "size" : [ 5, 1, 1 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 13, 3, 2 ],
+     "size" : [ 1, 1, 5 ]
+    }
+   ],
+   "id" : "cc011_0",
+   "pos" : [ 54, 14, 25 ],
+   "regions" : 
+   [
+    
+    {
+     "name" : "cd019_270",
+     "pos" : [ 3, 3, 3 ],
+     "size" : [ 5, 1, 5 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 2, 3, 3 ],
+     "size" : [ 9, 1, 8 ],
+     "type" : "spawn"
+    }
+   ],
+   "size" : [ 14, 6, 14 ],
+   "tags" : "",
+   "y" : 3
+  },
+  
+  {
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 0, 16, 22 ],
+     "size" : [ 1, 1, 5 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 17, 16, 17 ],
+     "size" : [ 1, 1, 5 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 10, 16, 0 ],
+     "size" : [ 5, 1, 1 ]
+    }
+   ],
+   "id" : "cu004_270",
+   "pos" : [ 47, 1, 39 ],
+   "regions" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 11, 16, 1 ],
+     "size" : [ 3, 1, 19 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 8, 16, 12 ],
+     "size" : [ 3, 1, 9 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 4, 16, 19 ],
+     "size" : [ 4, 1, 9 ],
+     "type" : "spawn"
+    }
+   ],
+   "size" : [ 18, 21, 32 ],
+   "tags" : "",
+   "y" : 16
+  },
+  
+  {
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 17, 16, 5 ],
+     "size" : [ 1, 1, 5 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 0, 16, 10 ],
+     "size" : [ 1, 1, 5 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 3, 16, 31 ],
+     "size" : [ 5, 1, 1 ]
+    }
+   ],
+   "id" : "cu004_90",
+   "pos" : [ 29, 1, 56 ],
+   "regions" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 4, 16, 12 ],
+     "size" : [ 3, 1, 19 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 7, 16, 11 ],
+     "size" : [ 3, 1, 9 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 10, 16, 4 ],
+     "size" : [ 4, 1, 9 ],
+     "type" : "spawn"
+    }
+   ],
+   "size" : [ 18, 21, 32 ],
+   "tags" : "",
+   "y" : 16
+  },
+  
+  {
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 3, 16, 0 ],
+     "size" : [ 5, 1, 1 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 12, 16, 6 ],
+     "size" : [ 1, 1, 5 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 4, 16, 12 ],
+     "size" : [ 5, 1, 1 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 0, 16, 4 ],
+     "size" : [ 1, 1, 5 ]
+    }
+   ],
+   "id" : "cr009_90",
+   "pos" : [ 16, 1, 60 ],
+   "regions" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 4, 16, 10 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 10, 16, 5 ],
+     "size" : [ 2, 1, 6 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 2, 16, 1 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 1, 16, 4 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "spawn"
+    }
+   ],
+   "size" : [ 13, 19, 13 ],
+   "tags" : "",
+   "y" : 16
+  },
+  
+  {
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 5, 5, 18 ],
+     "size" : [ 5, 1, 1 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 6, 5, 0 ],
+     "size" : [ 5, 1, 1 ]
+    }
+   ],
+   "id" : "cr007_90",
+   "pos" : [ 14, 12, 73 ],
+   "regions" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 5, 5, 13 ],
+     "size" : [ 4, 1, 5 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 5, 5, 7 ],
+     "size" : [ 2, 1, 5 ],
+     "type" : "spawn"
+    }
+   ],
+   "size" : [ 12, 8, 19 ],
+   "tags" : "",
+   "y" : 5
+  },
+  
+  {
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 12, 16, 3 ],
+     "size" : [ 1, 1, 5 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 2, 16, 12 ],
+     "size" : [ 5, 1, 1 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 0, 16, 4 ],
+     "size" : [ 1, 1, 5 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 4, 16, 0 ],
+     "size" : [ 5, 1, 1 ]
+    }
+   ],
+   "id" : "cr009_0",
+   "pos" : [ 15, 1, 92 ],
+   "regions" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 1, 16, 4 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 2, 16, 10 ],
+     "size" : [ 6, 1, 2 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 10, 16, 2 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 7, 16, 1 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "spawn"
+    }
+   ],
+   "size" : [ 13, 19, 13 ],
+   "tags" : "",
+   "y" : 16
+  },
+  
+  {
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 0, 2, 3 ],
+     "size" : [ 1, 1, 5 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 17, 2, 0 ],
+     "size" : [ 5, 1, 1 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 22, 2, 17 ],
+     "size" : [ 5, 1, 1 ]
+    }
+   ],
+   "id" : "cc014_0",
+   "pos" : [ 0, 15, 105 ],
+   "regions" : 
+   [
+    
+    {
+     "name" : "cd_lava012_180",
+     "pos" : [ 6, 2, 3 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_lava010_270",
+     "pos" : [ 23, 2, 8 ],
+     "size" : [ 5, 1, 7 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 22, 2, 5 ],
+     "size" : [ 6, 1, 11 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 17, 2, 2 ],
+     "size" : [ 5, 1, 9 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 10, 2, 5 ],
+     "size" : [ 7, 1, 4 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 1, 2, 3 ],
+     "size" : [ 9, 1, 3 ],
+     "type" : "spawn"
+    }
+   ],
+   "size" : [ 30, 5, 18 ],
+   "tags" : "",
+   "y" : 2
+  },
+  
+  {
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 10, 2, 0 ],
+     "size" : [ 5, 1, 1 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 17, 2, 17 ],
+     "size" : [ 1, 1, 5 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 0, 2, 22 ],
+     "size" : [ 1, 1, 5 ]
+    }
+   ],
+   "id" : "cc014_270",
+   "pos" : [ 12, 15, 123 ],
+   "regions" : 
+   [
+    
+    {
+     "name" : "cd_lava012_270",
+     "pos" : [ 12, 2, 1 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_lava002_0",
+     "pos" : [ 10, 2, 12 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_lava012_270",
+     "pos" : [ 11, 2, 19 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_lava002_90",
+     "pos" : [ 8, 2, 18 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_lava009_90",
+     "pos" : [ 6, 2, 22 ],
+     "size" : [ 5, 1, 5 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 2, 2, 22 ],
+     "size" : [ 11, 1, 6 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 7, 2, 17 ],
+     "size" : [ 9, 1, 5 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 9, 2, 10 ],
+     "size" : [ 4, 1, 7 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 12, 2, 1 ],
+     "size" : [ 3, 1, 9 ],
+     "type" : "spawn"
+    }
+   ],
+   "size" : [ 18, 5, 30 ],
+   "tags" : "",
+   "y" : 2
+  },
+  
+  {
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 0, 6, 12 ],
+     "size" : [ 1, 1, 5 ]
+    }
+   ],
+   "id" : "cend001_270",
+   "pos" : [ 30, 11, 128 ],
+   "size" : [ 26, 12, 19 ],
+   "tags" : "",
+   "y" : 6
+  },
+  
+  {
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 1, 1, 0 ],
+     "size" : [ 5, 1, 1 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 0, 1, 1 ],
+     "size" : [ 1, 1, 5 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 7, 1, 3 ],
+     "size" : [ 1, 1, 5 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 2, 1, 9 ],
+     "size" : [ 5, 1, 1 ]
+    }
+   ],
+   "id" : "cc026_270",
+   "pos" : [ 140, 16, 222 ],
+   "regions" : 
+   [
+    
+    {
+     "name" : "cd032_90",
+     "pos" : [ 2, 1, 5 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 2, 1, 2 ],
+     "size" : [ 4, 1, 7 ],
+     "type" : "spawn"
+    }
+   ],
+   "size" : [ 8, 4, 10 ],
+   "tags" : "",
+   "y" : 1
+  },
+  
+  {
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 8, 3, 0 ],
+     "size" : [ 5, 1, 1 ]
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 23, 3, 16 ],
+     "size" : [ 1, 1, 5 ]
+    }
+   ],
+   "id" : "cc002_180",
+   "pos" : [ 53, 14, 180 ],
+   "regions" : 
+   [
+    
+    {
+     "name" : "cd_diamond007_90",
+     "pos" : [ 15, 3, 22 ],
+     "size" : [ 3, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd005_180",
+     "pos" : [ 8, 3, 5 ],
+     "size" : [ 5, 1, 5 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd032_270",
+     "pos" : [ 8, 3, 11 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_coal004_180",
+     "pos" : [ 18, 3, 22 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_diamond003_90",
+     "pos" : [ 16, 3, 18 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd032_90",
+     "pos" : [ 11, 3, 18 ],
+     "size" : [ 3, 1, 3 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_gravel003_90",
+     "pos" : [ 9, 3, 1 ],
+     "size" : [ 6, 1, 4 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_coal001_0",
+     "pos" : [ 12, 3, 16 ],
+     "size" : [ 2, 1, 2 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "cd_diorite003_0",
+     "pos" : [ 15, 3, 12 ],
+     "size" : [ 4, 1, 6 ],
+     "type" : "placed-prefab"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 8, 3, 1 ],
+     "size" : [ 7, 1, 17 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 15, 3, 11 ],
+     "size" : [ 4, 1, 9 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 14, 3, 22 ],
+     "size" : [ 6, 1, 2 ],
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 11, 3, 18 ],
+     "size" : [ 4, 1, 3 ],
+     "type" : "spawn"
+    }
+   ],
+   "size" : [ 24, 6, 26 ],
+   "tags" : "",
+   "y" : 3
+  }
+ ]
+}

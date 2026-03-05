@@ -1,0 +1,175 @@
+﻿MINECRAFT REALMS LİSANS KOŞULLARI
+Bu Lisans Koşulları ("EULA" veya "Koşullar"), siz ve biz (Mojang AB) arasında yapılmış yasal bir anlaşmadır. Bu lisansın koşulları, Minecraft Realms hizmetinin ("Minecraft Realms") kullanılmasına ilişkin bazı kuralları tanımlamaktadır. Biz de sizin kadar lisans belgeleri okumaktan hoşlanmadığımız için, bu koşulları olabildiğince kısa tutmaya çalıştık. Bu kuralları çiğnemeniz durumunda, Minecraft Realms kullanımınızı durdurabiliriz. Minecraft Realms'ı kullanmanız durumunda, bu Koşulların kurallarına bağlı kalmayı kabul edersiniz. Bu kuralları kabul etmek istememeniz veya kabul edemeyecek olmanız durumunda, lütfen Minecraft Realms'ı kullanmayın.
+
+Bu Koşullar; Gizlilik İlkemizi, Mojang Hesabı Koşullarını, Minecraft EULA'sını ve ABD'de yaşıyor olmanız durumunda Tahkim Anlaşmamızı kapsamına dahil eder. Bu nedenle, bu belgelerin kapsadığı konular, bu Koşullarda tanımlanmış gibi kabul edilmelidir. "Bu Koşullara" atıfta bulunduğumuzda, ilgili bağlantıları izleyerek ulaşabileceğiniz söz konusu dahil edilmiş belgelerle birlikte, şu anda görüntülemekte olduğunuz şartları ve koşulları ifade ederiz.
+
+BAĞLAYICI TAHKİM ANLAŞMASI VE GRUP DAVASI FERAGATİ
+Amerika Birleşik Devletleri'nde yaşayanların, bu EULA'nın bir parçası olan bağlayıcı tahkim anlaşması ve grup davası feragatini incelemesini öneririz. Anlaşma kapsamında, oluşabilecek tüm münferit uyuşmazlıkların karara bağlanması amacıyla tarafsız bir arabulucuya başvurmayı ve dolayısıyla, münferit hak taleplerinin hakim veya jüri huzurunda görüşülmek üzere mahkemeye taşınmasına ilişkin haklarımızdan feragat ettiğimizi her ikimiz de kabul ederiz. Ayrıca, grup davası mahkemelerine ve grup çapında tahkimlere; bu anlaşmanın koşulları kapsamında izin verilmediğini de kabul ederiz.
+
+Tahkim Anlaşmasının tamamı bu sayfadadır. Siz ve biz, bu Tahkim Anlaşmasını kabul ederiz. Lütfen Tahkim Anlaşmasını okuyun.
+
+MINECRAFT REALMS NEDİR
+Minecraft Realms; kişilerin ayrılmış bir sunucu üzerinden başka kişilerle, bu Koşullara tabi olarak kolayca Minecraft oynamasını sağlamak için tasarlanmış bir hizmettir.
+
+Dolayısıyla, bir "Minecraft Realm", bizim tarafımızdan barındırılan tek bir Minecraft dünyası, sunucusu veya örneğidir.
+
+Minecraft Realms'ı kendi Minecraft Realm'ınıza ("Minecraft Realm'ınız") sahip olarak veya bir başkasının Minecraft Realm'ını ("Diğer Minecraft Realms") kullanmaya izinli olarak kullanabilirsiniz. Bu nedenle, Minecraft Realms kullanımına yapılan atıflar, hem Minecraft Realm'ınızı hem de Diğer Minecraft Realms'ı kullanımınızı içerir.
+
+MINECRAFT REALMS'I KULLANMA
+Minecraft Realms'ı kullanmak için, diğer şeylerin yanında, şunlara ihtiyacınız vardır:
+- Oyunun tam, etkinleştirilmiş sürümünün yasal, lisanslı bir kopyasına ve bir Xbox Live hesabına (Minecraft için) ya da bir Mojang hesabına (Minecraft: Java Edition için) sahip olmak;
+- Bu Koşulları kabul etmek ve
+- Uygun bir cihaza ve internet bağlantısına sahip olmak;
+
+MINECRAFT REALM'INIZI ALMA
+Minecraft Realm'ınızı alabilmek için, Minecraft'ın etkinleştirildiği bir Xbox Live hesabına (Minecraft için) veya bir Mojang hesabına (Minecraft: Java Edition için) ihtiyacınız vardır. Ayrıca, Minecraft Realm'ı satın almanız veya buna abone olmanız ve bunun için ödeme yapmanız gerekir. Minecraft Realms bir abonelik hizmetidir ve maliyeti, satın alma sırasında ilgili satın alma sayfalarında ve/veya platformunda açıklanan tutar veya paraya çevrilebilir kart ya da hediye kodunun satın alma fiyatıdır. İlgili satın alma sayfalarının, platformunun, paraya çevrilebilir kartın ve/veya hediye kodunun şart ve koşulları ayrıca, Minecraft Realms satın alımı için de geçerlidir. Minecraft Realms; Minecraft Realm'ınız kullanıma sunulduğu anda başlayan bir hizmettir. Bu aşamadan sonra, Minecraft Realm siparişinizi iptal etme hakkınız olmayacaktır. MINECRAFT REALM'INIZI KULLANMA
+
+Minecraft Realm'ınızı aldığınızda, ayrılmış bir Minecraft Realm'a erişime sahip olursunuz. Bununla:
+
+Minecraft'ı kendi başınıza oynayabilir;
+Diğer pek çok kişiyi sizinle Minecraft oynamaya davet edebilirsiniz (kişi sayısı, aldığınız Realms sürümüne bağlıdır).
+Ancak aşağıdakileri yapamazsınız:
+
+Minecraft Realm'ınıza erişimi satamaz, finansal kiralama yoluyla satamaz, kiralayamaz, aktaramaz, başkasına veremez veya bunun başka şekilde ticaretini yapamaz ya da başkalarının Minecraft Realm'ınızı oynamasına izin vererek ücret alamazsınız.
+
+DİĞER MINECRAFT REALMS'I KULLANMA
+Başkasının Minecraft Realms'ını (Diğer Minecraft Realms) kullanabilmek için, Minecraft'ın yasal, etkinleştirilmiş bir kopyasına ihtiyacınız vardır. Diğer Minecraft Realms'a erişiminiz sağlandığında, başkasının ayrılmış Minecraft Realm'ına erişime sahip olursunuz. Bununla:
+
+- Bu kişiyle Minecraft oynar ve
+- Bu kişinin erişim verdiği başka herhangi bir kişiyle Minecraft oynarsınız.
+Ancak aşağıdakileri yapamazsınız:
+
+- Diğer Minecraft Realms'a erişiminizi satamaz, finansal kiralama yoluyla satamaz, kiralayamaz, aktaramaz, başkasına veremez veya bunun başka şekilde ticaretini yapamaz ya da başka herhangi bir kimsenin erişiminizi herhangi bir şekilde kullanmasına izin veremezsiniz.
+TANIMADIĞINIZ KİŞİLERİN MINECRAFT REALM'INIZA ERİŞMESİNE İZİN VERMEYİN. KİŞİLERLE MINECRAFT REALMS YOLUYLA İLETİŞİM KURUYORSANIZ DİKKATLİ OLUN. KİŞİLERİN SÖYLEDİĞİNİN DOĞRU OLDUĞUNU VEYA KİŞİLERİN GERÇEKTEN SÖYLEDİKLERİ KİŞİ OLDUKLARINI BİLMEK BİLE SİZİN İÇİN DE BİZİM İÇİN DE ZORDUR. KİŞİSEL BİLGİLERİNİZİ VERMEDEN ÖNCE HER ZAMAN İKİ KEZ DÜŞÜNÜN.
+
+HESAPLAR
+Yukarıda belirtildiği gibi, bir Xbox Live hesabına (Minecraft için) veya Mojang hesabına (Minecraft: Java Edition için) ve Minecraft'ın etkinleştirilmiş bir lisanslı sürümüne sahip olmanız gerekir. Bunlara sahip olmamanız durumunda, bu hesaplardan birinin veya ikisinin de kurulması ve etkinleştirilmesi için sizden belirli bilgileri sağlamanız istenir. Kaydın bir parçası olarak bize sağlamış olduğunuz bilgiler doğru olmalıdır. Kayıt bilgilerinizin güncelliğini yitirmesi durumunda, bunları değiştirebilirsiniz. Doğru olmadığını bildiğiniz bir şeyi bize kasıtlı olarak söylemeniz durumunda, hesabınızı sonlandırabilir veya askıya alabiliriz.
+
+Oluşturduğunuz kullanıcı adı ve parola ile hesabınızda gerçekleşen etkinlikler sizin sorumluluğunuzdadır. Bir kişinin, istemediğiniz bir şey yapmak veya size zarar verecek bir şey yapmak için parolanızı kullanması durumunda, bundan sorumlu olmaz ve olamayız.
+
+MINECRAFT REALMS'IN VE DİĞER ŞEYLERİN MÜLKİYETİ
+Minecraft Realms bizim yazılımımız, dokularımız, varlıklarımız, araçlarımız, altyapımız ve sahibi olduğumuz diğer bir sürü akıllı (ve o kadar da akıllı olmayan) şeyden oluşur. Bu öğelerdeki tüm haklarımız ileri sürülmüştür ve saklıdır, ancak bunları; Minecraft EULA'sında açıklananla aynı gerçeğe istinaden Minecraft Realms kullanımınız kapsamında ve bununla bağlantılı olarak kullanabilirsiniz ve size bunları, bu Koşullara tabi olarak kullanmanız için münhasır olmayan bir hak verilmiştir.
+
+Size münhasır olmayan bir hak verilmiş olması, Minecraft Realms'ı kullanarak yarattığınız güzel öğelerin sahibi olduğumuz anlamına gelmez. Sizin yalnızca, bir ürün ve hizmet olarak Minecraft ve Minecraft Realms ile önceki cümlede bahsedilen diğer şeylerin her birinin sahibinin biz olduğumuzu ve aynı zamanda, bu şeylerle ilişkilendirilmiş telif hakkının ve "fikri mülkiyet hakları" denilen diğer şeylerle birlikte, Minecraft ve Minecraft Realms ile ilişkilendirilmiş adların ve markaların da sahibi olduğumuzu kabul etmeniz gerekir.
+
+Siz elbette, Minecraft Realms'ta ve bunu kullanarak kendi öğelerinizi yaratacaksınız. Yaratmış olduğunuz özgün öğeler bizim değildir ve hak talep etmememiz gereken hiçbir şeyin mülkiyetine ilişkin hiçbir hak talep etmeyiz. Bununla birlikte, kendi iyelik ve yaratımlarımızın (yukarıda özetlenen) kopyası (veya önemli kopyaları) ya da türevleri olan şeyler bize aittir ama özgün şeyler yaratırsanız, onlar bizim değildir. Mesela:
+
+- Tek bir blok bizimdir;
+- İçinden hız treni geçen bir Gotik katedral bizim değildir.
+Bu nedenle, Minecraft Realms kullanımı için para ödediğinizde, yalnızca Minecraft Realms ürün ve hizmetini bu Koşullara uygun olarak kullanmak için izin satın almış olursunuz. Minecraft Realms ile bağlantılı olarak sahip olduğunuz izinler sadece, bu Koşullarda açıklananlarla ve yasa gereği hak sahibi olduğunuz diğer belirli yasal istisnalar veya haklarla ("adil kullanım ve adil ticaret hakları" denilenler dahil) sınırlıdır, ancak bunlar genel olarak Minecraft Realms'ın kendisi için değil, İçerik için geçerli haklardır.
+
+Realms'ın bazı sürümleri aynı zamanda, Minecraft Realm'ınızdaki verileri yedeklemenize ve böylece, bunları cihazınıza indirmenize ve bunu kendi Minecraft sürümünüzle (yasal) kullanmanıza da (ve Minecraft EULA'sına tabi olarak) izin verebilir.
+
+İÇERİĞİNİZ
+Minecraft Realms kullanarak bir şeyler yaratır veya Minecraft Realms üzerinden veya yoluyla herhangi bir içeriği ya da materyali kullanıma sunmanız durumunda ("İçeriğiniz"), ayrıca bize ve buna erişimi olan başka kişilere bunu kullanma izni vermeyi de kabul edersiniz. Bu aynı zamanda, İçeriğinizi kullanabileceğimiz, kopyalayabileceğimiz, değiştirebileceğimiz, uyarlayabileceğimiz, dağıtabileceğimiz, herkese açık şekilde gösterebileceğimiz ve farklı bir şekilde, başkalarının kullanımına sunabileceğimiz (ödeme veya kısıtlama olmaksızın) anlamına da gelir. Bu, inşa ettiğiniz, işlediğiniz veya yarattığınız her şey ve sahibi olduğumuz ya da kullanıma sunduğumuz herhangi bir sohbet özelliği yoluyla vb. gerçekleştirdiğiniz tüm iletişimleri içerir. Ayrıca, başkalarının İçeriğinizi kullanmasına, kopyalamasına, değiştirmesine, uyarlamasına, dağıtmasına ve kullanıma sunmasına izin vermemize de müsaade ettiğinizi ve size bunlar için bir teşekkür veya takdir alamayabileceğinizi de kabul edersiniz.
+
+Bu, başka kişiler (davet edebileceğiniz) Minecraft Realm'ınıza eriştiklerinde, onların bunu yapma hakkının olup olmadığından ve siz Diğer Minecraft Realms'a eriştiğinizde, bunu yapma hakkınızın olup olmadığından emin olmaya ihtiyacımızın olması dahil, birtakım nedenlerden ötürü gereklidir. Başka kişilerin İçeriğinizi kullanmasına izin verdiğinizde onların İçeriğinizle yaptığı şeyden sorumlu olmadığımızdan emin olmaya da ihtiyaç duyarız. Çünkü, İçeriğinizi kontrol edemeyiz ve ayrıca, İçeriğinizin genel olarak; sahibi olduğumuz yazılımımızı, dokularımızı, varlıklarımızı, araçlarımızı vb. içerdiği gerçeğini yansıtmaya ihtiyaç duyarız (yukarıya bakın).
+
+Bu izinler sonsuza dek kalıcıdır ve iptal edilemez. Bu izinleri vermek istemiyorsanız, Minecraft Realms kullanarak içerik kullanıma sunmayın.
+
+Bu nedenle, içerik herkese açık hale geleceği (eriştiğiniz Minecraft Realms'a erişimi olan diğer herkes de dahil) ve başka kişilerce de istemediğiniz şekilde kullanılabileceği için, herhangi bir içeriği kullanıma sunmadan önce dikkatlice düşünün.
+
+İçeriğinizi; Minecraft Realm'ınız veya Diğer Minecraft Realms üzerinden veya yoluyla vb. Minecraft Realms kullanarak kullanıma sunacaksanız, içeriğiniz:
+
+- Kişilere karşı saldırganca olmayacaktır;
+- Yasa dışı veya kanuna aykırı olmayacaktır;
+- Dürüst olacaktır ve hiç kimseyi yanıltmayacak, kandırmayacak, hiç kimsenin açıklarından istifade etmeyecek veya başkalarının kimliğine bürünmeyecektir;
+- Hiç kimsenin telif hakkı veya diğer haklarını ihlal etmeyecektir;
+- Irkçı, cinsiyet ayrımcı veya homofobik olmayacaktır;
+- Zorba veya rahatsız edici olmayacaktır;
+- Bizim veya başka bir kişinin itibarına zarar vermeyecektir;
+- Pornografi içermeyecektir;
+- Reklam içermeyecektir.
+
+Başka bir kişinin haklarını ihlal eden hiçbir içeriği Minecraft Realms kullanarak kullanıma sunamazsınız.
+
+Minecraft Realms kullanılarak sizin tarafınızdan kullanıma sunulan tüm içerikten siz sorumlu olursunuz.
+
+Aynı şekilde, Minecraft Realm'ınız kullanılarak sizin tarafınızdan veya başkaları tarafından kullanıma sunulan tüm içerikten siz sorumlu olursunuz.
+
+İçeriğinizi kullanıma sunmakla, İçeriğinizi bu Koşullar kapsamında kullanıma sunmaya tam yetkili olduğunuzu ve bizim; bu Koşullar kapsamında bize vermiş olduğunuz hakları kullanmaya yetkili olduğumuzu garanti ve beyan edersiniz.
+
+Bir kişinin, Minecraft Realm'ınız veya hizmetlerimizin herhangi biri üstündeki fikri mülkiyet hakkınızı ihlal ettiğini bize bildirmek isterseniz, lütfen bildiriminizi (https://www.microsoft.com/info/cpyrtInfrg.aspx) adresine gönderin. Herhangi bir içeriği kendi takdirimizle kaldırma hakkını saklı tutarız. Uygun olması durumunda, ihlalleri tekrarlayan kullanıcıların hesaplarını iptal edebilir veya askıya alabiliriz.
+
+DİĞER İÇERİK
+Minecraft Realms'ı kullanırken aynı zamanda başka kişilerce ("Diğer İçerik") yaratılan içeriğe de erişebilir ve onu kullanabilirsiniz. Bu Diğer İçeriğin bazısı, Minecraft Realm'ınıza davet ettiğiniz kişilerce ve bazısı, bir başkasının Minecraft Realm'ının bir parçası olarak kullanıma sunulmuş olabilir.
+
+İçeriğiniz konusunda geçerli olduğu gibi, Diğer İçerik de genel olarak; sahibi olduğumuz yazılımımızı, dokularımızı, varlıklarımızı, araçlarımızı vb. içerecektir (yukarıya bakın).
+
+Bir kişinin, Diğer İçeriği kullanımınıza veya erişiminize sunması durumunda, Diğer İçeriği bu Koşullara tabi olmak üzere, Minecraft Realms kullanımınız kapsamında ve bununla bağlantılı olarak kullanabilirsiniz. Diğer İçerik her türlü durumda bu Koşullara tabidir.
+
+KULLANICI İÇERİĞİ
+Aşağıdaki maddeler, birlikte "Kullanıcı İçeriği" olarak anılan, İçeriğinize ve Diğer İçeriğe ilişkin bazı koşulları açıklamaktadır.
+
+Minecraft Realms bir eğlence hizmetidir ve bununla bağlantılı olarak, içeriği gözden geçirmeden, seçmeden veya değiştirmeden Kullanıcı İçeriğinin aktarımı, dağıtımı, depolaması ve alınması konusunda faaliyet gösteririz. Bununla ilgili olarak, Minecraft Realms yalnızca, içerik hakkında bilgisi olmaksızın Kullanıcı İçeriğini aktaran, dağıtan, depolayan veya alan bir aracıdır ve/veya Kullanıcı İçeriğinin barındırma hizmeti sağlayıcısıdır. Dolayısıyla bu, Kullanıcı İçeriğini izlemediğimiz veya gözden geçirmediğimiz ve bu nedenle, siz veya başka kişiler tarafından yayılanın ne olduğunu bilemeyeceğimiz anlamına gelir. Kullanıcı İçeriğini; teknik uygunluk, uyumluluk ve/veya virüsler vb. açısından kontrol edebiliriz, ancak içeriği veya onun içerdiği bilgileri gözden geçirmeyiz. Bu Koşullarda açıklanan kurallar, sizin ve başka kişilerin uyması gereken kurallarımız olmasına rağmen, olup biten her şeyi bilemeyiz.
+
+Bu nedenle, lütfen şunları unutmayın:
+
+- Herhangi bir Kullanıcı İçeriğinde ifade edilen görüşler, biz aksini belirtmedikçe bizim veya bizimle bağlantılı herhangi bir kişinin değil, münferit yazarların veya yaratıcıların görüşleridir;
+- Kullanıcı İçeriğinde ifade edilen herhangi bir yorum, görüş veya açıklama dahil, hiçbir Kullanıcı İçeriği ile ilgili sorumluluğumuz bulunmamaktadır (ve ilgili yasaya tabi olarak, herhangi bir Kullanıcı İçeriği ile ilgili hiçbir garanti veya beyanda bulunmayız ve bununla ilgili tüm sorumluluğu reddederiz);
+- Minecraft Realms'ı kullanmakla, herhangi bir Kullanıcı İçeriğini izlemeye veya gözden geçirmeye ilişkin hiçbir sorumluluğumuzun olmadığını ve tüm Kullanıcı İçeriğinin; Kullanıcı İçeriği üzerinde herhangi bir kontrolümüzün ya da kanımızın olması gerekmediği ve herhangi bir kontrol veya kanımızın olmadığı gerçeğine istinaden kullanıma sunulduğunu kabul edersiniz;
+- Diğer oyuncularla iletişim kurduğunuzda, gerçek yaşamda tanımadığınız kişilerden, gerçek yaşamda tanışmayı istemeyin.
+BUNUNLA BİRLİKTE, herhangi bir Kullanıcı İçeriğine erişimi kaldırabilir, reddedebilir veya askıya alabilir ve bu Koşulları ihlal etmiş olmanız veya ihlalinizi teyit ettiğine inandığımız bir şikayet almamız vb. dolayısıyla, Minecraft Realm'ınıza ya da Diğer Minecraft Realms'a erişiminizi kaldırmak veya askıya almak da dahil, Kullanıcı İçeriği gönderme, kullanıma sunma ya da buna erişim imkanınızı kaldırabilir veya askıya alabiliriz. Kullanıcı İçeriğinin kanuna aykırı olduğu konusunda gerçek bilgiye sahip olursak ve olduğumuzda, Kullanıcı İçeriğini kaldırma veya ona erişimi devre dışı bırakma konusunda ivedi davranırız.
+
+GÜNCELLEMELER
+Şu ana dek yaptığımız üzere, zaman içinde yükseltmeler, güncellemeler veya yamalar (bunların tümüne "güncellemeler" deriz) kullanıma sunabiliriz, ancak sunmak zorunda değiliz.
+
+Ayrıca, Minecraft Realms için devam eden destek veya bakım sağlama yükümlülüğümüz de bulunmamaktadır. Bunları bilin diye söylüyoruz.
+
+Tabii ki, Minecraft Realms için yeni güncellemeler yayımlamaya devam etmeyi isteriz; yalnızca, sunacağımızı taahhüt edemiyoruz.
+
+ÖDEME, PARA İADELERİ VB.
+Mojang Hesabı Koşulları ödeme ve para iadelerini kapsar, ancak Minecraft Realms; Minecraft Realm'ınız kullanımınıza sunulmaya başladığı ve/veya siz ona erişime sahip olduğunuz anda başlayan bir hizmettir. Bu nedenle, kullanımınıza sunulduğu veya ona erişime sahip olduğunuz andan sonra hiçbir siparişi veya satın almayı iptal edemezsiniz. Bu, sahip olduğunuz hiçbir tüketici hakkını etkilemez. Minecraft Realms'ı bir arıza veya hata nedeniyle kullanamazsanız, lütfen bizi bilgilendirin ve onu sizin için düzeltmeyi deneyelim ve düzeltelim. Düzeltemediğimiz takdirde, para iadesi alma hakkına sahip olursunuz.
+
+SORUMLULUK, TABİ OLUNAN YASA VE UYUŞMAZLIKLARIN ÇÖZÜMLENECEĞİ YER
+
+Bu EULA, yasa kapsamında sahip olabileceğiniz Minecraft Realms için veya Web Sitemiz üzerinden aldığınız herhangi bir şey için geçerli hiçbir yasal (kanuni) hakkı etkilemez. Size uygulanan yasanın, hariç tutulamayacağını söylediği belirli haklarınız olabilir. Yasal haklarınızla çelişir gibi gelen bir şey söylesek dahi, bu EULA'da söylediğimiz hiçbir şey, söz konusu yasal hakları etkilemez. "İlgili yasaya tabi" demekle bunu kastederiz.
+
+İLGİLİ YASAYA TABİ OLARAK, ŞUNLARDAN SORUMLU OLMAYIZ:
+
+- MINECRAFT REALM'INIZIN VEYA DİĞER MINECRAFT REALMS'IN HERHANGİ BİR ŞEKİLDE KULLANILMASI VEYA KÖTÜYE KULLANILMASI;
+- MINECRAFT REALM'INIZIN VEYA DİĞER MINECRAFT REALMS'IN SİZ VEYA BAŞKA HERHANGİ BİR KİŞİ TARAFINDAN HERHANGİ BİR ŞEKİLDE KULLANILMASI VEYA KÖTÜYE KULLANILMASI;
+- MINECRAFT REALMS KULLANILARAK SİZİN TARAFINIZDAN KULLANIMA SUNULAN HERHANGİ BİR İÇERİK;
+- BU KOŞULLARIN SİZİN TARAFINIZDAN İHLALİ;
+- HERHANGİ BİR KOŞULUN BAŞKA HERHANGİ BİR KİŞİ TARAFINDAN İHLALİ.
+- ŞUNLARDAN SORUMLU OLURSUNUZ:
+- MINECRAFT REALMS'IN SİZİN TARAFINIZDAN HERHANGİ BİR VE HER ŞEKİLDE KULLANILMASI;
+- MINECRAFT REALM'INIZIN VE DİĞER MINECRAFT REALMS'IN SİZİN TARAFINIZDAN HERHANGİ BİR VE HER ŞEKİLDE KULLANILMASI;
+- BU KOŞULLARIN SİZİN TARAFINIZDAN İHLALİ;
+- MINECRAFT REALMS KULLANILARAK SİZİN TARAFINIZDAN KULLANIMA SUNULAN TÜM İÇERİK;
+- MINECRAFT REALM'INIZ KULLANILARAK SİZİN TARAFINIZDAN VEYA BAŞKALARI TARAFINDAN KULLANIMA SUNULAN TÜM İÇERİK.
+
+İLGİLİ YASAYA TABİ OLARAK, Minecraft Realms "olduğu gibi" sağlanmaktadır. Güncellemeler de "olduğu gibi" sağlanmaktadır. Bu, Minecraft Realms'ın standardına veya kalitesine ya da Minecraft Realms'ın kesintisiz veya hatasız olacağına ilişkin herhangi bir garantide bulunmadığımız, İLGİLİ YASANIN İZİN VERDİĞİ AZAMİ ÖLÇÜDE, Minecraft Realms'ın sebep olduğu hiçbir kayıp veya zarardan sorumlu olmadığımız anlamına gelir. Minecraft Realms'ı beta olarak piyasaya sürdüğümüzü ve sürekli olarak özellikler tanıttığımızı, özellikleri geliştirdiğimizi ve bu yüzden, Minecraft Realms'ın hatalar içerebileceğini (ve çoğu zaman içereceğini), ancak mükemmel hale gelmesi için sizi bekletmek yerine, bu özellikleri erkenden yayımlamayı tercih ettiğimizi kabul etmeniz gerekir.
+
+Sizinle aramızda mahkemeye taşınacak bir uyuşmazlık olması durumunda (tabii ki biz de sizin kadar bunun olmasını istemeyiz), münhasır yargı yeri (davanın görüleceği yer), King County, Washington'daki (Amerika Birleşik Devletleri'nde yaşıyor olmanız durumunda) veya Ontario'daki (Kanada'da yaşıyor olmanız durumunda) bir eyalet mahkemesi veya bir federal mahkeme olacaktır. (Amerika Birleşik Devletleri'nde yaşıyor olmanız durumunda, çoğu uyuşmazlık mahkemeye değil tahkime gider.) Tahkime ilişkin her şeyin Federal Tahkim Kanunu'na tabi olması hariç olmak üzere, bu EULA ve EULA'ya, Oyunumuza veya Web Sitemize ilişkin uyuşmazlıklar dahil tüm uyuşmazlıklar, yasaların çatışması ilkelerine bakılmaksızın eyaletinizin veya ilinizin yasalarına tabidir.
+
+MINECRAFT REALMS DEVAM EDEN BİR İŞTİR VE EKSİKLER VE HATALAR İÇEREBİLİR, KİLİTLENEBİLİR VE/VEYA VERİ KAYBINA NEDEN OLABİLİR. BU TÜR BİR DURUMDA OLUŞABİLECEK OLUMSUZLUKLARDAN ÖTÜRÜ ÜZGÜNÜZ. LÜTFEN CİHAZINIZDAKİ TÜM VERİLERİ VE PROGRAMLARI YEDEKLEYİN VE KAYIPLARA KARŞI KORUYUN. KISACA, MINECRAFT REALMS'IN "OLDUĞU GİBİ" SAĞLANDIĞINI BİLEREK KULLANMA RİSKİ TARAFINIZA AİTTİR.
+
+LÜTFEN MINECRAFT REALM'INIZDAKİ VERİLERİNİZİ DÜZENLİ OLARAK YEDEKLEYİN. OTOMATİK YEDEKLEME GERÇEKLEŞTİRMİYORUZ. BU NEDENLE, BİR MINECRAFT REALM'IN VEYA HERHANGİ BİR KULLANICI İÇERİĞİNİN KİLİTLENMESİ DURUMUNDA, ONU KAYBEDEBİLİRSİNİZ. BU TÜR BİR DURUMDA OLUŞABİLECEK OLUMSUZLUKLARDAN ÖTÜRÜ ÜZGÜNÜZ, ANCAK BİZDEN ALABİLECEĞİNİZ HER ŞEY DİLEYECEĞİMİZ ÖZÜRDEN İBARETTİR. RAPORLAMA
+
+Bazen kişiler yapmamaları gereken şeyler yapar. Hiç hoşlanmasak da, bunu durdurmak için herkesin düzgün davranmasını istemekten daha fazlası elimizden gelmiyor. Bir kişinin düzgün davranmadığını bilebilmek için size ve sizin gibi toplumdaki başka kişilere güveniyoruz. Bir kişinin düzgün davranmaması ve/veya bu Koşulları ihlal etmesi ya da Minecraft Realms'ı uygun olmayan şekilde kullanması durumunda, lütfen bize haber verin. Bu tür eylemlere girişenler için bir etiketleme/raporlama sistemi uyguluyoruz. Bu yüzden, lütfen bize haber verin ve biz de gerekeni yapalım.
+
+FESİH
+Bu Koşulları veya herhangi bir kısmını ihlal etmeniz durumunda, bu Lisans Koşullarını feshedebilir ve Minecraft Realms kullanımınızı sonlandırabiliriz. Pek tabii siz de Minecraft Realm'ınızı kullanmayı sonlandırarak ve başkalarının ona erişimini durdurarak, bu Lisans Koşullarını herhangi bir zamanda feshedebilirsiniz. Feshin ardından, artık Minecraft Realms'ı kullanamaz veya başkaları için Minecraft Realm'ınıza erişim veremezsiniz. Tahkim Anlaşması (Amerika Birleşik Devletleri'nde yaşıyorsanız) ve "Minecraft Realms'ın Mülkiyeti" ile ilgili maddeler, "Sorumluluğumuz" ve "Genel" maddeleri fesihten sonra da geçerli olmaya devam edecektir.
+
+GENEL
+Bu EULA, belirli yasal hakları tanımlamaktadır. Bulunduğunuz eyaletin veya ülkenin yasaları size, bu EULA'nın değiştiremeyeceği tüketici hakları dahil olmak üzere, başka haklar verebilir. Bu durumda, bu EULA, yasanın izin verdiği azami ölçüde geçerlidir. Hiçbir şey, ihmalimizden veya yanıltıcı beyanlarımızdan kaynaklanan ölüm veya yaralanmalara karşı sorumluluğumuzu ortadan kaldırmaz veya sınırlamaz.
+
+Gerek görmemiz durumunda bu Koşulları da zaman içerisinde değiştirebiliriz. Örneğin, oyunlarımızda, faaliyetlerimizde veya yasal yükümlülüklerimizde değişiklikler olabilir ve bu değişiklikler, bir sonraki Minecraft Realms kullanımınız için geçerli olur. Bir değişiklik gerçekleşmeden önce, Web Sitemizde bir bildirim yayınlayarak ya da uygun başka bir şekilde haber vererek sizi bilgilendiririz. Bu konuda adaletsiz davranmayacak olsak da kimi zaman yasalar değişir veya birileri, başka kullanıcıların Minecraft Realms kullanımını etkileyen bir şey yapar ve neticede, bizim de Minecraft Realms'a bir son vermemiz gerekebilir.
+
+Bize Minecraft Realms'a yönelik bir öneriyle gelirseniz, bu öneri ücretsiz olur ve bu öneriyi kabul etmekle veya değerlendirmekle yükümlü olmayız. Bu, önerinizi istediğimiz gibi kullanabileceğimiz veya kullanmayacağımız ve bunun için para ödemek zorunda olmayacağımız anlamına gelir. Size para ödemeyi isteyeceğimiz türden bir öneriniz olduğunu düşünüyorsanız, ilk olarak size para ödememizi istediğinizi bize söylemeden ve biz sizden önerinizi göndermenizi yazılı olarak istemeden, lütfen önerinizi bize söylemeyin.
+
+Bu Koşullarda cevaplanmamış ve cevaplanmasını istediğiniz herhangi bir yasal konu olması durumunda, fikrinizi bize söylemeyin veya merak ettiklerinizi bize sorun. Özetle siz saçmalamayın, biz de saçmalamayalım.
+
+Şirket Bilgileri
+
+Mojang AB
+Maria Skolgata 83,
+
+SE-11853
+
+Stockholm
+İsveç
+Kuruluş numarası:556819-2388
+
+Lütfen bizimle buradan veya support@mojang.com adresine e-posta göndererek iletişime geçin.

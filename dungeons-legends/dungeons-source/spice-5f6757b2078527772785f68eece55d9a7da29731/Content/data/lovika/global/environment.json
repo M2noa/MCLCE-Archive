@@ -1,0 +1,62 @@
+{
+	"start": {
+		"fogColor": [0.1, 0.05, 0.0, 0.5],
+		"fogNear": 5.0,
+		"fogFar": 25.0,
+		"light": 0.0
+	},
+	"checkpoint": {
+		"fogColor": [0.2, 0.2, 0.5, 0.3],
+		"fogNear": 5.0,
+		"fogFar": 35.0,
+		"light": 0.9
+	},
+	"end": {
+		"fogColor": [0.5, 0.5, 0.5, 0.3],
+		"fogNear": 5.0,
+		"fogFar": 35.0,
+		"light": 0.3
+	},
+	"forest": {
+		"fogColor": [0.5, 0.5, 0.0, 0.2],
+		"fogNear": 5.0,
+		"fogFar": 35.0,
+		"light": 0.5
+	},
+	"cave_red": {
+		"fogColor": [0.6, 0.2, 0.1, 0.2],
+		"fogNear": 3.0,
+		"fogFar": 40.0,
+		"light": 0.0
+	},
+	"cave_blue": {
+		"fogColor": [0.0, 0.1, 0.4, 0.5],
+		"fogNear": 4.0,
+		"fogFar": 30.0,
+		"light": 0.4
+	},
+	"cave_purple": {
+		"fogColor": [0.25, 0.0, 0.3, 0.5],
+		"fogNear": 4.0,
+		"fogFar": 30.0,
+		"light": 0.0
+	},
+	"cave_green": {
+		"fogColor": [0.0, 0.3, 0.1, 0.4],
+		"fogNear": 5.0,
+		"fogFar": 35.0,
+		"light": 0.0
+	},
+	"cave_dark": {
+		"fogColor": [0.0, 0.0, 0.1, 0.05],
+		"fogNear": 5.0,
+		"fogFar": 45.0,
+		"light": 0.0
+	},
+	"cave_boss": {
+		"fogColor": [0.8, 0.2, 0.0, 0.4],
+		"fogNear": 2.0,
+		"fogFar": 30.0,
+		"light": 0.0
+	}
+}

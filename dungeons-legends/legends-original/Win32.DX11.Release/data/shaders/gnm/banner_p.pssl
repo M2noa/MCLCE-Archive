@@ -1,0 +1,49 @@
+#include "ShaderConstantsGNM.h"
+
+struct PS_Input {
+	float4 position : S_POSITION;
+#ifdef ENABLE_LIGHT
+	float4 light : LIGHT;
+#endif
+#ifdef ENABLE_FOG
+	float4 fogColor : FOG_COLOR;
+#endif
+
+#ifndef DISABLE_TINTING
+	float4 color : COLOR;
+#endif
+
+	float2 texCoords : TEXCOORD_0_FB_MSAA;
+};
+
+float4 main(in PS_Input PSInput) : S_TARGET_OUTPUT
+{
+	float4 diffuse = TEXTURE_0.Sample(TextureSampler0, PSInput.texCoords);
+
+#ifndef DISABLE_TINTING
+	diffuse.a = lerp(diffuse.r * diffuse.a, diffuse.a, PSInput.color.a);
+	diffuse.rgb *= PSInput.color.rgb;
+#endif
+
+#ifdef ENABLE_LIGHT
+	diffuse.rgb *= PSInput.light.rgb;
+#endif
+
+#ifdef ENABLE_FOG
+	//apply fog
+	diffuse.rgb = lerp(diffuse.rgb, PSInput.fogColor.rgb, PSInput.fogColor.a );
+#endif
+
+	//WARNING do not refactor this 
+	//PSOutput.color = diffuse;
+	float4 outputColor = diffuse;
+
+#ifdef VR_FEATURE
+	// On Rift, the transition from 0 brightness to the lowest 8 bit value is abrupt, so clamp to 
+	// the lowest 8 bit value.
+	//PSOutput.color = max(PSOutput.color, 1 / 255.0f);
+	outputColor =  max(outputColor, 1 / 255.0f);
+#endif
+
+	return outputColor;
+}

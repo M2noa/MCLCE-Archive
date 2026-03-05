@@ -1,0 +1,144 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "reward_exp": false,
+          "wants": [
+            {
+              "item": "minecraft:glowstone_dust",
+              "quantity": {
+                "min": 12,
+                "max": 12
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:structure_builder:40"
+            }
+          ]
+        },
+        {
+          "reward_exp": false,
+          "wants": [
+            {
+              "item": "minecraft:glowstone_dust",
+              "quantity": {
+                "min": 16,
+                "max": 16
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:structure_builder:42"
+            }
+          ]
+        },
+        {
+          "reward_exp": false,
+          "wants": [
+            {
+              "item": "minecraft:glowstone_dust",
+              "quantity": {
+                "min": 8,
+                "max": 8
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:structure_builder:35"
+            }
+          ]
+        },
+        {
+          "reward_exp": false,
+          "wants": [
+            {
+              "item": "minecraft:glowstone_dust",
+              "quantity": {
+                "min": 8,
+                "max": 8
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:structure_builder:38"
+            }
+          ]
+        },
+        {
+          "reward_exp": false,
+          "wants": [
+            {
+              "item": "minecraft:glowstone_dust",
+              "quantity": {
+                "min": 12,
+                "max": 12
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:tnt"
+            }
+          ]
+        },
+        {
+          "reward_exp": false,
+          "wants": [
+            {
+              "item": "minecraft:glowstone_dust",
+              "quantity": {
+                "min": 64,
+                "max": 64
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:structure_builder:12"
+            }
+          ]
+        },
+        {
+          "reward_exp": false,
+          "wants": [
+        {
+          "item": "minecraft:glowstone_dust",
+          "quantity": {
+            "min": 8,
+            "max": 8
+          }
+        }
+      ],
+      "gives": [
+        {
+          "item": "minecraft:structure_builder:41"
+        }
+      ]
+    },
+    {
+      "reward_exp": false,
+      "wants": [
+    {
+      "item": "minecraft:glowstone_dust",
+      "quantity": {
+        "min": 8,
+        "max": 8
+      }
+    }
+  ],
+  "gives": [
+    {
+      "item": "minecraft:structure_builder:44"
+    }
+  ]
+}
+      ]
+    }
+  ]
+}

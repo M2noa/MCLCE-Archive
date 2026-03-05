@@ -1,0 +1,110 @@
+
+{
+	"id": "cave-test-level",
+	"object-groups": [
+		"cave_01"
+	],
+
+    "#tg": "First 'c' stands for Cave!",
+	"tile-groups": [
+    	{
+    	   "#": "Start tile",
+			"id": "start",
+			"tiles": ["cstart001"]
+		},
+    	{
+    	   "#": "Checkpoint tile (would be nice if the redstone lamp lit up when you get close and activate checkpoint)",
+			"id": "checkpoint",
+			"tiles": ["ccp001"]
+		},
+    	{
+    	   "#": "End tile",
+			"id": "end",
+			"tiles": ["cend001"]
+		},
+    	{
+    	   "#": "Common random mess of tiles, no rails, no distinguishing features",
+			"id": "common",
+			"tiles": ["cc001", "cc002", "cc003", "cc004", "cc005", "cc006", "cc007", "cc008", "cc009", "cc010", "cc011", "cc012", "cc013", "cc014", "cc015", "cc016", "cc017", "cc018", "cc019", "cc020", "cc021", "cc022", "cc023", "cc024", "cc025", "cc026", "cc027", "cc028", "cc029", "cc030", "cc031", "cc032", "cc033"]
+		},
+		{
+    	   "#": "Common plus cu001",
+			"id": "common",
+			"tiles": ["cu001", "cc001", "cc002", "cc003", "cc004", "cc005", "cc006", "cc007", "cc008", "cc009", "cc010", "cc011", "cc012", "cc013", "cc014", "cc015", "cc016", "cc017", "cc018", "cc019", "cc020", "cc021", "cc022", "cc023", "cc024"]
+		},
+    	{
+    	   "#": "Uncommon tiles with a distinguishing feature, like water, ravine, lava",
+			"id": "uncommon",
+			"tiles": ["cu001", "cu002", "cu003", "cu004"]
+		},
+    	{
+    	   "#": "Mineshaft tiles with bits of rails",
+			"id": "rails",
+			"tiles": ["cr001", "cr002", "cr003"]
+		},
+    	{
+    	   "#": "Winding narrow caves",
+			"id": "winding",
+			"tiles": ["cc005", "cc006", "cc007", "cc008", "cc010", "cc015", "cc016", "cc017", "cc018", "cc019", "cc020", "cc021", "cc022", "cc023", "cc024", "cc031", "cc032", "cc033"]
+		},
+    	{
+    	   "#": "Short stops, very short with only one door",
+			"id": "short-stop",
+			"tiles": ["cc016", "cc017", "cc018"]
+		},
+    	{
+    	   "#": "Open areas",
+			"id": "open",
+			"tiles": ["cc001", "cc002", "cc003", "cc009", "cc011", "cc014", "cu002"]
+		},
+    	{
+    	   "#": "Vertically challenged, i.e. with stairs",
+			"id": "stairs",
+			"tiles": ["cc004", "cc005", "cc006"]
+		}
+	],
+	"stretches": [
+		{
+			"id": "start",
+			"tile-groups": ["start"]
+		},
+		{
+			"id": "",
+			"tile-groups": ["common", "open"],
+			"length": 6
+		},
+		{
+			"id": "",
+			"tile-groups": ["stairs", "common", "uncommon"],
+			"length": 15
+		},
+		{
+			"id": "",
+			"tile-groups": [{"id": "common", "weight": 5}, "uncommon"],
+			"length": 15
+		},
+		{
+			"id": "checkpoint-1",
+			"tile-groups": ["checkpoint"]
+		},
+		{
+			"id": "",
+			"tile-groups": ["stairs", "open", {"id": "winding", "weight": 5}],
+			"length": 10
+		},
+		{
+			"id": "",
+			"tile-groups": ["open"],
+			"length": 8
+		},
+		{
+			"id": "",
+			"tile-groups": ["stairs", "uncommon", "rails"],
+			"length": 10
+		},
+		{
+			"id": "end",
+			"tile-groups": ["end"]
+		}
+	]
+}

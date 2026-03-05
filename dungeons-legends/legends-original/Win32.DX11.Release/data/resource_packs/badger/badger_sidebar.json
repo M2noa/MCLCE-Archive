@@ -1,0 +1,39 @@
+{
+  "categories": [
+    {
+      "name": "category-sword",
+      "icon": "diamond_sword"
+    },
+    {
+      "name": "category-pickaxe",
+      "icon": "diamond_pickaxe"
+    },
+    {
+      "name": "category-hammer",
+      "icon": "diamond_axe"
+    },
+    {
+      "name": "category-shovel",
+      "icon": "diamond_shovel"
+    },
+    {
+      "name": "category-chest",
+      "icon": "chest"
+    },
+    {
+      "name": "category-placeable",
+      "icon": "jukebox"
+    }
+  ],
+  "item_categories": {
+    "bow": "category-sword",
+    "splash_potion": "category-sword",
+    "crown": "category-pickaxe",
+    "badger_shovel_a": "category-shovel",
+    "badger_shovel_b": "category-shovel",
+    "badger_shovel_c": "category-shovel",
+    "badger_shovel_d": "category-shovel",
+    "badger_shovel_e": "category-shovel",
+    "badger_crowbar": "category-shovel"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "definition.zombie": {
+    "textures": {
+      "default": "textures/entity/zombie/zombie"
+    },
+    "team_masks": {
+      "default": "textures/entity/team_mask/zombie"
+    },
+    "geometry": {
+      "default": "geometry.zombie",
+      "armor1": "geometry.humanoid.armor1",
+      "armor2": "geometry.humanoid.armor2"
+    }
+  }
+}

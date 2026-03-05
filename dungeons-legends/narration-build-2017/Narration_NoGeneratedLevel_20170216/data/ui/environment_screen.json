@@ -1,0 +1,132 @@
+/********************************************************
++*   (c) Mojang. All rights reserved                       *
++*   (c) Microsoft. All rights reserved.                   *
++*********************************************************/
+
+{
+  "namespace": "environment",
+
+
+  // -----------------------------------------------
+  //
+  //    Screen Window and Border
+  //
+  // -----------------------------------------------
+
+  "main_content_panel": {
+    "type": "panel",
+    "size": [ "100%", "100%" ],
+    "anchor_to": "top_left",
+    "anchor_from": "top_left",
+    "controls": [
+      {
+        "@common.scrolling_panel": {
+          "anchor_to": "top_left",
+          "anchor_from": "top_left",
+          "$show_background": false,
+          "size": [ "100%", "100%" ],
+          "$scrolling_content": "environment.inside_header_panel",
+          "$scroll_track_size": [ 3, "100% - 4px" ],
+          "$scroll_track_offset": [ -1, 2 ],
+          "$scroll_box_size": [ 5, "100% - 4px" ],
+          "$scroll_box_offset": [ 0, 2 ],
+          "$scrolling_pane_size": [ "100% - 4px", "100%" ],
+          "$scrolling_pane_offset": [ 2, 0 ]
+        }
+      }
+    ]
+  },
+
+  "inside_header_panel": {
+    "type": "panel",
+    "size": [ "100%", "100%" ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "@common.slider": {
+          "size": [ "80%", "10px" ],
+          "$slider_steps": 4,
+          "$option_label": "fish",
+          "$slider_name": "crap_slider"
+          // "$slider_value_binding_name": "#world_difficulty"
+          // "$label_bindings": 
+          // [
+          //   {
+          //     "binding_name": "#difficulty_slider_label"
+          //   }
+          // ]
+        }
+      },
+      {
+        "padding_indent2": {
+          "type": "panel",
+          "size": [ "100%", "100%" ]
+        }
+      }
+    ]
+  },
+
+  // -----------------------------------------------
+  //
+  //    screen
+  //
+  // -----------------------------------------------
+  "environment_screen@common.base_screen": {
+    "button_mappings": [
+      {
+        "from_button_id": "button.menu_cancel",
+        "to_button_id": "button.menu_exit",
+        "mapping_type": "global"
+      },
+      {
+        "from_button_id": "button.menu_up",
+        "to_button_id": "button.menu_up",
+        "mapping_type": "global",
+        "scope": "view"
+      },
+      {
+        "from_button_id": "button.menu_down",
+        "to_button_id": "button.menu_down",
+        "mapping_type": "global",
+        "scope": "view"
+      },
+      {
+        "from_button_id": "button.menu_left",
+        "to_button_id": "button.menu_left",
+        "mapping_type": "global",
+        "scope": "view"
+      },
+      {
+        "from_button_id": "button.menu_right",
+        "to_button_id": "button.menu_right",
+        "mapping_type": "global",
+        "scope": "view"
+      }
+    ],
+    "$screen_content": "environment.environment_screen_content"
+  },
+
+  "environment_screen_content": {
+    "type": "panel",    
+    "controls": [
+      {
+        "root_panel": {
+          "type": "panel",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "controls": [
+            {
+              "main_panel@realms_common.main_panel_no_bottom": {
+                "size": "$achievement_screen_size",
+                "offset": [ 0, 0 ],
+                "$text_name": "Environment",
+                "$child_control": "environment.main_content_panel"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

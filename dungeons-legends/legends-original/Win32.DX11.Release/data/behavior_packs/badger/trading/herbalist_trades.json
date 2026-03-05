@@ -1,0 +1,209 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "reward_exp": false,
+          "wants": [
+            {
+              "item": "minecraft:glowstone_dust",
+              "quantity": {
+                "min": 4,
+                "max": 4
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "splash_potion:16",
+              "quantity": {
+                "min": 5,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:glowstone_dust",
+              "quantity": {
+                "min": 6,
+                "max": 6
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "splash_potion:17",
+              "quantity": {
+                "min": 5,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:glowstone_dust",
+              "quantity": {
+                "min": 4,
+                "max": 4
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "splash_potion:30",
+              "quantity": {
+                "min": 5,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:glowstone_dust",
+              "quantity": {
+                "min": 4,
+                "max": 4
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "splash_potion:27",
+              "quantity": {
+                "min": 5,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:glowstone_dust",
+              "quantity": {
+                "min": 6,
+                "max": 6
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "splash_potion:33",
+              "quantity": {
+                "min": 5,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:glowstone_dust",
+              "quantity": {
+                "min": 6,
+                "max": 6
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "splash_potion:34",
+              "quantity": {
+                "min": 5,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:glowstone_dust",
+              "quantity": {
+                "min": 6,
+                "max": 6
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "splash_potion:7",
+              "quantity": {
+                "min": 5,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:glowstone_dust",
+              "quantity": {
+                "min": 8,
+                "max": 8
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "splash_potion:22",
+              "quantity": {
+                "min": 5,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:glowstone_dust",
+              "quantity": {
+                "min": 8,
+                "max": 8
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "splash_potion:24",
+              "quantity": {
+                "min": 5,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:glowstone_dust",
+              "quantity": {
+                "min": 6,
+                "max": 6
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "splash_potion:11",
+              "quantity": {
+                "min": 5,
+                "max": 5
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "definition.polar_bear": {
+    "textures": {
+      "default": "textures/entity/polarbear"
+    },
+    "geometry": {
+      "default": "geometry.polarbear"
+    }
+  }
+}

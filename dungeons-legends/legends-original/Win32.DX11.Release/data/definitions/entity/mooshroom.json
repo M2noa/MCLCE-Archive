@@ -1,0 +1,10 @@
+{
+  "definition.mooshroom": {
+    "textures": {
+      "default": "textures/entity/cow/mooshroom"
+    },
+    "geometry": {
+      "default": "geometry.mooshroom"
+    }
+  }
+}

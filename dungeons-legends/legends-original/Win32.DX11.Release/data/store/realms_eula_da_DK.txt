@@ -1,0 +1,175 @@
+﻿SLUTBRUGERLICENSAFTALE FOR MINECRAFT REALMS
+Denne Slutbrugerlicensaftale ("Vilkår”) er en juridisk aftale mellem dig og os (Mojang AB). Vilkårene i denne licens opstiller en række regler for anvendelse af Minecraft Realms-tjenesten ("Minecraft Realms"). Vi bryder os ligeså lidt om at læse licensdokumenter, som du gør, så vi har forsøgt at gøre det så kort som muligt. Hvis du overtræder reglerne, kan vi forhindre dig i at bruge Minecraft Realms. Hvis du bruger Minecraft Realms, accepterer du at følge reglerne i disse Vilkår. Undlad at bruge Minecraft Realms, hvis du ikke vil eller kan acceptere disse regler.
+
+Disse Vilkår omfatter vores Politik om beskyttelse af personlige oplysninger, Mojang – Kontovilkår, Slutbrugerlicensaftale for Minecraft og, hvis du bor i USA, vores Voldgiftsaftale. Alt, hvad der er indeholdt i de pågældende dokumenter, anses derfor for at indgå i disse Vilkår. Når vi refererer til disse Vilkår, henviser vi til de vilkår og betingelser, du ser foran dig, sammen med de omfattede dokumenter, der kan tilgås ved at følge de relevante links.
+
+UFRAVIGELIG VOLDGIFTSAFTALE OG AFSTÅELSE AF KOLLEKTIVE SØGSMÅL
+Hvis du bor i USA, kan du se Slutbrugerlicensaftalens ufravigelige voldgiftsaftale og afståelse af kollektive søgsmål ved at klikke her. Iht. aftalen accepterer vi begge at benytte en neutral opmand til at træffe afgørelse i alle individuelle tvister, der kan opstå, og vi accepterer derfor også at afstå vores ret til at indbringe individuelle krav for retten til vurdering hos en dommer eller jury. Vi accepterer desuden, at aftalevilkårene ikke tillader kollektive søgsmål og kollektive voldgifter.
+
+Den fuldstændige Voldgiftsaftale findes på denne side. Både du og vi accepterer den; læs den.
+
+HVAD ER MINECRAFT REALMS
+Minecraft Realms er en tjeneste, der er designet til at give brugerne let adgang til at spille Minecraft med andre på en dedikeret server underlagt disse Vilkår.
+
+Et "Minecraft-realm" er derfor en enkelt Minecraft-verden, -server eller -forekomst, der hostes af os.
+
+Du kan enten bruge Minecraft Realms ved at have dit eget Minecraft-realm ("Dit Minecraft-realm") eller ved at få tilladelse til at bruge en anden persons Minecraft-realm ("Andre Minecraft-realms"). Henvisninger til brug af Minecraft Realms indeholder derfor både anvendelse af Dit Minecraft-realm og Andre Minecraft-realms.
+
+ANVENDELSE AF MINECRAFT REALMS
+Hvis du vil bruge Minecraft Realms, skal du bl.a.:
+- Have en gyldig licenseret kopi af den fulde, aktiverede version af spillet og en Xbox Live-konto (til Minecraft) eller en Mojang-konto (til Minecraft: Java Edition).
+- Acceptere disse Vilkår.
+- Have en passende enhed og internetforbindelse.
+
+ANSKAFFELSE AF DIT MINECRAFT-REALM
+Du skal have en Xbox Live-konto (til Minecraft) eller en Mojang-konto (til Minecraft: Java Edition) med Minecraft aktiveret for at kunne få dit Minecraft Realm. Derudover skal du købe eller tegne abonnement på og betale for Minecraft Realms. Minecraft Realms er en abonnementstjeneste, og prisen er som angivet på de relevante købssider og/eller platforme på købstidspunktet – eller købsprisen på gavekortet eller gavekoden. Vilkår og betingelser for de relevante købssider, platforme, gavekort og/eller gavekoder gælder også ifm. købet af Minecraft Realms. Minecraft Realms er en tjeneste, der begynder, så snart Dit Minecraft-realm er klar til brug, hvorefter du ikke længere har ret til at annullere din bestilling. ANVENDELSE AF DIT MINECRAFT-REALM
+
+Når du får Dit Minecraft-realm, får du adgang til et dedikeret Minecraft-realm, hvori du kan:
+
+Spille Minecraft alene.
+Invitere andre til at spille Minecraft med dig (antallet af medspillere afhænger af, hvilken version af Realms du køber).
+Du må imidlertid ikke gøre følgende:
+
+Sælge, lease, udleje, overføre, bortgive eller på anden måde handle med adgangen til Dit Minecraft-realm eller modtage vederlag for at give andre adgang til spille i Dit Minecraft-realm.
+
+ANVENDELSE AF ANDRE MINECRAFT-REALMS
+Du har brug for en legitim, aktiveret udgave af Minecraft for at kunne bruge andre personers Minecraft-realms (Andre Minecraft-realms). Når du får adgang til Andre Minecraft-realms, får du adgang til en anden persons dedikerede Minecraft-realm, hvori du kan:
+
+- Spille Minecraft med den pågældende person.
+- Spille Minecraft med alle andre, den pågældende person har givet adgang til.
+Du må imidlertid ikke gøre følgende:
+
+- Sælge, lease, udleje, overføre, bortgive eller på anden måde handle med adgangen til Andre Minecraft-realms eller giver andre mulighed for at benytte din adgang på nogen måde.
+GIV ALDRIG PERSONER, DU IKKE KENDER, ADGANG TIL DIT MINECRAFT-REALM. VÆR FORSIGTIG, HVIS DU KOMMUNIKERER MED ANDRE VIA MINECRAFT REALMS. HVERKEN DU ELLER VI KAN VÆRE SIKRE PÅ, AT ANDRE FORTÆLLER SANDHEDEN ELLER ENDDA, AT DE ER, HVEM DE GIVER SIG UD FOR AT VÆRE. DU BØR ALTID TÆNKE DIG GRUNDIGT OM, INDEN DU AFSLØRER PERSONLIGE OPLYSNINGER.
+
+KONTI
+Som nævnt ovenfor skal du have en Xbox Live-konto (til Minecraft) eller en Mojang-konto (til Minecraft: Java Edition) og en aktiveret, licenseret version af Minecraft. Hvis du ikke har det, bliver du bedt om at angive en række oplysninger, så du kan konfigurere og aktivere det, du mangler. De oplysninger, du giver os i forbindelse med registreringen, skal være korrekte. Du kan ændre dine registrerede oplysninger, hvis de bliver forældede. Hvis du bevidst fortæller os noget, som, du ved, ikke er sandt, kan vi lukke eller suspendere din konto.
+
+Du er selv ansvarlig for det brugernavn og den adgangskode, du opretter, samt de aktiviteter, der foregår på din konto. Hvis andre benytter din adgangskode til at foretage sig noget, du ikke bryder dig om, eller der på anden måde skader dig, kan vi ikke holdes og er ikke ansvarlige.
+
+EJERSKAB AF MINECRAFT REALMS OG ANDRE TING
+Minecraft Realms består af vores software, teksturer, aktiver, værktøjer, infrastruktur og en hel masse andre smarte (og knap så smarte) ting, som vi ejer. Alle vores rettigheder til de pågældende ting er veletablerede og reserverede, men du kan bruge dem i og i forbindelse med din brug af Minecraft Realms på samme grundlag, som det er angivet i Slutbrugerlicensaftalen for Minecraft, og du tildeles en ikkeeksklusiv ret til at gøre det i henhold til disse Vilkår.
+
+Det betyder ikke, at vi ejer de ting, du skaber med Minecraft Realms – du er bare nødt til at acceptere, at vi ejer både Minecraft og Minecraft Realms som produkt og tjeneste samt de ting, der nævnes i den tidligere sætning. Derudover har vi ophavsret og andre såkaldte intellektuelle ejendomsrettigheder til de pågældende ting samt de navne og brands, der er tilknyttet Minecraft og Minecraft Realms.
+
+Du kommer selvfølgelig til at skabe dine egne ting i og med Minecraft Realms. Vi ejer ikke de originale ting, du skaber, og vi gør ikke nogen form for krav på at eje noget, der ikke er vores. Vi ejer imidlertid ting, der er kopier (eller stort set kopier) eller afledninger af vores ejendom og værker (som skitseret ovenfor) – men hvis du skaber originale ting, er de ikke vores. Eksempelvis:
+
+- En enkelt blok – den ejer vi.
+- En gotisk katedral med indbygget rutsjebane – den ejer vi ikke.
+Altså; når du betaler for at bruge Minecraft Realms, køber du kun tilladelse til at anvende Minecraft Realms-produktet og –tjenesten i henhold til disse Vilkår. De eneste tilladelser, du har i forbindelse med Minecraft Realms, er de tilladelser, der er angivet i disse Vilkår – og de specifikke lovmæssige undtagelser og rettigheder (inklusive rettigheder til såkaldt "fair use" og "fair dealing"), som du ellers er berettiget til ved lov, men de vil generelt gælde for Indhold og ikke selve Minecraft Realms.
+
+Visse versioner af Realms tillader også, at du sikkerhedskopierer data fra Dit Minecraft-realm, hvorefter du kan downloade det til din enhed og bruge det i din egen (legitime) version af Minecraft (underlagt Slutbrugerlicensaftalen for Minecraft).
+
+DIT INDHOLD
+Hvis du skaber ting med Minecraft Realms eller gør andet indhold eller materiale tilgængeligt i eller igennem det ("Dit Indhold"), accepterer du samtidig at give os og andre, der har adgang til det, tilladelse til at bruge det. Det betyder også, at vi kan anvende, kopiere, ændre, tilpasse, distribuere, offentliggøre og på anden måde gøre Dit Indhold tilgængeligt for andre (uden betaling og begrænsninger). Dette inkluderer alt, hvad du bygger, fremstiller og skaber samt enhver form for kommunikation, f.eks. den du foretager via vores nuværende og fremtidige chatfunktioner. Du accepterer også, at vi giver andre tilladelse til at anvende, kopiere, ændre, tilpasse, distribuere og på anden måde gøre Dit Indhold tilgængeligt. Du accepterer desuden, at du hverken krediteres eller attribueres for dette.
+
+Ovenstående er nødvendigt af flere grunde, herunder at vi er nødt til at sikre, at når andre personer (som du kan invitere) får adgang til Dit Minecraft-realm, har de ret til at gøre det, og når du får adgang til Andre Minecraft-realms, har du ret til at gøre det. Vi er også nødt til at sikre os, at vi ikke hæfter for, hvad andre foretager sig med Dit Indhold, når du giver dem adgang til at bruge det – det kan vi nemlig ikke kontrollere – og vi skal samtidig afspejle det faktum, at Dit Indhold generelt vil indeholde vores software, teksturer, aktiver, værktøjer etc., som vi ejer (se ovenfor).
+
+Disse tilladelser gælder for evigt og kan ikke tilbagekaldes. Undlad at gøre indhold tilgængeligt via Minecraft Realms, hvis du ikke vil give disse tilladelser.
+
+Overvej det derfor omhyggeligt, inden du gør indhold tilgængeligt. Det offentliggøres (også til alle andre, der har adgang til de Minecraft-realms, du benytter), og det kan bruges af andre på måder, du ikke bryder dig om.
+
+Hvis du gør Dit Indhold tilgængeligt via Minecraft Realms, f.eks. i eller igennem Dit Minecraft-realm eller Andre Minecraft-realms, må det:
+
+- Ikke være stødende for andre.
+- Ikke være illegalt eller ulovligt.
+- Ikke være uærligt eller på nogen måde vildlede, snyde eller udnytte andre – eller udgive sig for at være andre.
+- Ikke krænke andres ophavsret eller andre rettigheder.
+- Ikke være racistisk, sexistisk eller homofobisk.
+- Ikke være chikanerende eller stødende.
+- Ikke skade vores eller andres omdømme.
+- Ikke indeholde pornografi.
+- Ikke indeholde reklamer.
+
+Du må ikke gøre indhold tilgængeligt via Minecraft Realms, hvis det krænker andres rettigheder.
+
+Du er selv ansvarlig for alt indhold, du gør tilgængeligt via Minecraft Realms.
+
+Du er også ansvarlig for alt indhold, du eller andre gør tilgængeligt via Dit Minecraft-realm.
+
+Når du gør Dit Indhold tilgængeligt, fortæller du os og står inde for, at du har de fulde rettigheder til at gøre det i henhold til disse Vilkår, og at vi har ret til at udøve de rettigheder, du har tildelt os i disse Vilkår.
+
+Hvis du vil rapportere en krænkelse af dine intellektuelle rettigheder i Minecraft Realms eller andre af vores tjenester, kan du indsende din anmeldelse her (https://www.microsoft.com/info/cpyrtInfrg.aspx). Vi forbeholder os ret til at fjerne enhver form for indhold efter eget skøn. Hvis en bruger gentagne gange krænker andres rettigheder, kan vi lukke eller suspendere vedkommendes konto.
+
+ANDET INDHOLD
+Når du anvender Minecraft Realms, kan du også få adgang til og bruge indhold, der er skabt af andre ("Andet Indhold"). Noget af dette Andet Indhold kan være gjort tilgængeligt af personer, du har inviteret til Dit Minecraft-realm, mens andet kan være gjort tilgængeligt som en del af andres Minecraft-realms.
+
+Som med Dit Indhold indeholder Andet Indhold generelt også vores software, teksturer, aktiver, værktøjer etc., som vi ejer (se ovenfor).
+
+Hvis andre giver dig adgang til Andet Indhold eller på anden måde gør det tilgængeligt, kan du bruge det i og i forbindelse med din brug af Minecraft Realms i henhold til disse Vilkår. Andet Indhold er under alle omstændigheder underlagt disse Vilkår.
+
+BRUGERINDHOLD
+I det følgende opstilles en række vilkår, der gælder for både Dit Indhold og Andet Indhold – til sammen kaldet "Brugerindhold".
+
+Minecraft Realms er en underholdningstjeneste, og som en del deraf indgår vi i overførsel, distribution, opbevaring og hentning af Brugerindhold uden evaluering, udvælgelse og ændring af indholdet – for hvilket vi alene fungerer som kanal – og/eller hosting af Brugerindhold uden viden om indholdet. Det betyder, at vi hverken overvåger eller gennemgår Brugerindhold, og vi ved derfor ikke, hvad der cirkulerer mellem dig og andre. Vi kan kontrollere, at indholdet er kompatibelt, overholder de tekniske regler og standarder og ikke indeholder virusser, men vi gennemgår ikke selve indholdet eller de oplysninger, der indgår i det. Vi har en angivet en række regler i vores Vilkår, som du og andre skal overholde, men vi kan ikke vide alt, hvad der foregår.
+
+Vær derfor opmærksom på, at:
+
+- De holdninger, der fremgår af Brugerindhold, er udtryk for de individuelle forfatteres eller skaberes holdninger. De tilhører hverken os eller nogen, der er tilknyttet os, medmindre vi angiver andet.
+- Vi er ikke ansvarlige for (og – underlagt gældende lovgivning – står ikke inde for, repræsenterer ikke og frasiger os enhver hæftelse for) nogen form for Brugerindhold, herunder kommentarer, holdninger og bemærkninger, der ytres i det.
+- Når du anvender Minecraft Realms, anerkender du, at vi ikke har noget ansvar for at overvåge eller gennemgå nogen form for Brugerindhold, og at alt Brugerindhold gøres tilgængeligt på baggrund af, at vi ikke er forpligtet til og ikke udøver nogen form for kontrol eller vurdering af det.
+- Når du kommunikerer med andre spillere, må du ikke spørge folk, du ikke har mødt i virkeligheden, om de vil mødes i virkeligheden.
+Vi kan IMIDLERTID fjerne, afvise og suspendere adgang til enhver form for Brugerindhold og fjerne eller suspendere din mulighed for at indsende, tilgængeliggøre og få adgang til Brugerindhold – inklusive fjernelse eller suspendering af din adgang til Dit Minecraft-realm og Andre Minecraft-realms – hvis vi vurderer, at det er relevant, f.eks. hvis du har overtrådt disse Vilkår, eller vi modtager en klage, der berettiger en sådan handling. Vi fjerner eller deaktiverer desuden adgangen til Brugerindhold øjeblikkeligt, hvis vi får reel viden om, at det er ulovligt.
+
+OPDATERINGER
+Vi har mulighed for at gøre opgraderinger, opdateringer og programrettelser (vi kalder det hele "opdateringer") tilgængelige fra tid til anden. Det har vi gjort hidtil, men vi behøver ikke at gøre det.
+
+Vi er heller ikke forpligtet til at levere vedvarende support eller vedligehold af Minecraft Realms. Bare så du ved det.
+
+Vi håber selvfølgelig, at vi kan fortsætte med at udgive opdateringer til Minecraft Realms, men vi kan bare ikke garantere det.
+
+BETALING, REFUSION ETC.
+Betaling og refusion er beskrevet i Mojang – Kontovilkår. Minecraft Realms er imidlertid en tjeneste, der begynder, så snart Dit Minecraft-realm er tilgængeligt for dig, og/eller du får adgang til det. Derfor kan du ikke annullere din bestilling eller dit køb derefter. Dette påvirker ikke dine rettigheder som forbruger, og hvis du ikke kan bruge Minecraft Realms pga. en fejl eller defekt, bør du derfor give os besked hurtigst muligt, så vi kan forsøge at løse problemet. Hvis vi ikke kan løse problemet, kan du være berettiget til refusion.
+
+ANSVAR, GÆLDENDE LOV og AFGØRELSESSTED FOR TVISTER
+
+Denne Slutbrugerlicensaftale påvirker på ingen måde dine juridiske (lovmæssige) rettigheder under gældende lovgivning vedrørende Minecraft Realms og det, du køber via vores Website. Du kan have visse rettigheder, som ikke kan fraviges i henhold til gældende lovgivning. Der er intet i denne Slutbrugerlicensaftale, der påvirker disse juridiske rettigheder, heller ikke hvis vi angiver noget, der lyder som om, det strider imod dine juridiske rettigheder. Det er det, vi mener, når vi siger "underlagt gældende lovgivning".
+
+UNDERLAGT GÆLDENDE LOVGIVNING ER VI IKKE ANSVARLIGE FOR:
+
+- BRUG ELLER MISBRUG AF DIT MINECRAFT-REALM ELLER ANDRE MINECRAFT-REALMS.
+- DIT ELLER ANDRE PERSONERS BRUG ELLER MISBRUG AF MINECRAFT REALMS.
+- DET INDHOLD, DU GØR TILGÆNGELIGT VIA MINECRAFT REALMS.
+- DINE OVERTRÆDELSER AF DISSE VILKÅR.
+- ANDRES OVERTRÆDELSER AF DISSE VILKÅR.
+- DU ER ANSVARLIG FOR:
+- DIN ANVENDELSE AF MINECRAFT REALMS I ENHVER FORM.
+- DIN ANVENDELSE AF DIT MINECRAFT-REALM I ENHVER FORM OG AF ANDRE MINECRAFT-REALMS I ENHVER FORM.
+- DINE OVERTRÆDELSER AF DISSE VILKÅR.
+- ALT INDHOLD, DU GØR TILGÆNGELIGT VIA MINECRAFT REALMS.
+- ALT INDHOLD, DU ELLER ANDRE GØR TILGÆNGELIGT VIA DIT MINECRAFT-REALM.
+
+UNDERLAGT GÆLDENDE LOVGIVNING leveres Minecraft Realms "som det er og forefindes". Opdateringer leveres ligeledes "som de er og forefindes". Det betyder, at vi hverken lover dig noget om standarden og kvaliteten af Minecraft Realms, eller at Minecraft Realms fungerer uforstyrret eller fejlfrit; I DET VIDEST MULIGE OMFANG, DER TILLADES AF GÆLDENDE LOVGIVNING, er vi ikke ansvarlige for nogen form tab eller skade, der forårsages af Minecraft Realms. Du er nødt til at acceptere, at vi lancerer Minecraft Realms i beta, og at vi kontinuerligt introducerer og forbedrer funktioner. Der kan derfor (ofte) være fejl – men vi foretrækker at udgive funktionerne tidligt frem for at lade dig vente på det perfekte.
+
+Hvis en tvist mellem dig og os nogensinde skal afgøres i retten (og det håber vi ligeså lidt, som du gør), kan det udelukkende foregå ved en statslig eller føderal domstol i King County, Washington (hvis du bor i USA), eller en domstol i Ontario (hvis du bor i Canada). (Hvis du bor i USA, afgøres de fleste sager ved en voldgift og ikke i retten.) Denne Slutbrugerlicensaftale og alle tvister, herunder tvister vedrørende selve aftalen, vores Spil og vores Website, reguleres af lovene i din stat eller provins uanset principperne for international privatret. Dog regulerer Federal Arbitration Act, alt hvad der vedrører voldgift.
+
+MINECRAFT REALMS ER UNDER KONSTANT UDVIKLING OG KAN INDEHOLDE FEJL OG DEFEKTER, GÅ NED OG/ELLER FORÅRSAGE DATATAB. VI VIL VÆRE KEDE AF, HVIS DET SKER FOR DIG, SÅ SØRG FOR AT SIKKERHEDSKOPIERE OG BESKYTTE ALLE DATA OG PROGRAMMER PÅ DIN ENHED. SAGT MED ANDRE ORD; DU BRUGER MINECRAFT REALMS PÅ EGEN RISIKO, NÅR DU VED, AT DET LEVERES "SOM DET ER OG FOREFINDES".
+
+SØRG FOR AT SIKKERHEDSKOPIERE DATA FRA DIT MINECRAFT-REALM JÆVNLIGT. VI GØR DET IKKE AUTOMATISK, SÅ HVIS ET MINECRAFT-REALM ELLER ET ELLER ANDET BRUGERINDHOLD GÅR NED, KAN DET GÅ TABT. VI BEKLAGER, HVIS DET SKER, MEN DET ENESTE, DU FÅR, ER UNDSKYLDNINGEN. RAPPORTERING
+
+En gang imellem gør folk noget, de ikke burde. Vi kan ikke lide det, men der er ikke meget, vi kan stille op, udover at opfordre alle til at opføre sig ordentligt. Vi er afhængige af, at du og andre i fællesskabet underretter os, hvis nogen opfører sig uhensigtsmæssigt, så hvis det sker, og/eller du mener, at nogen overtræder disse Vilkår eller benytter Minecraft Realms på en upassende måde, må du meget gerne give os besked. Du kan underrette os via vores markerings-/rapporteringssystem. Herefter foretager vi det nødvendige for at håndtere problemet.
+
+OPSIGELSE
+Hvis du overtræder disse Vilkår eller nogen del af dem, kan vi opsige licensaftalen og lukke for din brug af Minecraft Realms. Du kan også til enhver tid opsige aftalen – bare stop med at bruge Dit Minecraft-realm, og hold op med at give andre adgang til det. Hvis aftalen opsiges, kan du ikke længere bruge Minecraft Realms eller give andre adgang til Dit Minecraft-realm. Voldgiftsaftalen (hvis du bor i USA) og afsnittene om "Ejerskab af Minecraft Realms", "Vores ansvar" og "Generelt" gælder imidlertid også efter opsigelsen.
+
+GENERELT
+Denne Slutbrugerlicensaftale beskriver visse juridiske rettigheder. Lovgivningen i din stat eller dit land kan give dig andre rettigheder, herunder forbrugerrettigheder, som denne Slutbrugerlicensaftale ikke kan ændre. Hvis det er tilfældet, gælder denne Slutbrugerlicensaftale i så vid udstrækning, som loven tillader. Intet ekskluderer eller begrænser vores ansvar for dødsfald eller fysisk skade, der opstår som et resultat af vores uagtsomhed eller svig.
+
+Vi kan også fra tid til anden ændre disse Vilkår, hvis vi har en årsag til det. Det kan f.eks. være ændringer af vores spil, vores praksis eller vores juridiske forpligtelser. De pågældende ændringer træder i kraft for din anvendelse af Minecraft Realms, næste gang du bruger det. Vi informerer dig om ændringerne, før de træder i kraft, enten via et opslag på vores Website eller på en anden fornuftig måde. Det er ikke noget, vi gør for at være unfair, men nogle gange ændres loven, eller nogen gør noget, der påvirker andre brugere af Minecraft Realms, hvorefter vi er nødt til at lægge låg på det.
+
+Hvis du henvender dig til os med et forslag til Minecraft Realms, leverer du forslaget gratis, og vi er hverken forpligtet til at acceptere eller overveje det. Det betyder, at vi kan bruge eller lade være med at bruge dit forslag, på en hvilken som helst måde vi vil, og vi skal ikke betale dig for det. Hvis du har et forslag, som du tror, vi vil være villige til at betale for, skal du ikke give os det, før du har fortalt os, at du vil have betaling for det, og vi har svaret dig skriftligt med en anmodning om at indsende forslaget.
+
+Hvis du er i tvivl om noget juridisk, der ikke er beskrevet i disse Vilkår, så lad være med at gøre det, eller spørg os om det. I bund og grund; hvis du ikke opfører dig urimeligt, gør vi det heller ikke.
+
+Virksomhedsoplysninger
+
+Mojang AB
+Maria Skolgata 83,
+
+SE-11853
+
+Stockholm
+Sverige
+Organisationsnummer:556819-2388
+
+Kontakt os her eller på support@mojang.com

@@ -1,0 +1,34 @@
+{
+	"sun_moon": {
+		"states":[
+      "DisableDepthWrite",
+      "DisableAlphaWrite",
+			"Blending"],
+
+		"blendSrc": "SourceAlpha",
+		"blendDst": "One",
+
+		"vertexShader" : "shaders/uv.vertex",
+		"fragmentShader" : "shaders/texture_ccolor.fragment"
+	},
+
+	"stars": {
+		"states":[
+      "DisableDepthWrite",
+      "DisableAlphaWrite",
+			"Blending"],
+
+		"blendSrc": "OneMinusDestColor",
+		"blendDst": "One",
+
+		"vertexShader" : "shaders/color.vertex",
+		"fragmentShader" : "shaders/stars.fragment"
+	},
+
+	"skyplane": {
+		"states":[ "DisableDepthWrite", "DisableAlphaWrite" ],
+
+		"vertexShader" : "shaders/sky.vertex",
+		"fragmentShader" : "shaders/color.fragment"
+	}
+}

@@ -1,0 +1,100 @@
+{
+	"id": "cave-test-level",
+	"object-groups": [
+		"cave_01"
+	],
+
+    "#tg": "First 'c' stands for Cave!",
+	"tile-groups": [
+    	{
+    	   "#": "Start tile",
+			"id": "start",
+			"tiles": ["cstart001"]
+		},
+    	{
+    	   "#": "Checkpoint tile (would be nice if the redstone lamp lit up when you get close and activate checkpoint)",
+			"id": "checkpoint",
+			"tiles": ["ccp001"]
+		},
+    	{
+    	   "#": "End tile",
+			"id": "end",
+			"tiles": ["cend001"]
+		},
+    	{
+    	   "#": "Common random mess of tiles, no rails, no distinguishing features",
+			"id": "common",
+			"tiles": ["cc001", "cc002", "cc003", "cc004", "cc005", "cc006", "cc007", "cc008", "cc009", "cc010", "cc011", "cc012", "cc013", "cc014", "cc015", "cc016", "cc017", "cc018", "cc019", "cc020", "cc021", "cc022", "cc023", "cc024"]
+		},
+    	{
+    	   "#": "Uncommon tiles with a distinguishing feature, like water, ravine, lava",
+			"id": "uncommon",
+			"tiles": ["cu001", "cu002", "cu003", "cu004"]
+		},
+    	{
+    	   "#": "Mineshaft tiles with bits of rails",
+			"id": "rails",
+			"tiles": ["cr001", "cr002", "cr003"]
+		},
+    	{
+    	   "#": "Winding narrow caves",
+			"id": "winding",
+			"tiles": ["cc005", "cc006", "cc007", "cc008", "cc010", "cc015", "cc016", "cc017", "cc018", "cc019", "cc020", "cc021", "cc022", "cc023", "cc024"]
+		},
+    	{
+    	   "#": "Short stops, very short with only one door",
+			"id": "short-stop",
+			"tiles": ["cc016", "cc017", "cc018"]
+		},
+    	{
+    	   "#": "Open areas",
+			"id": "open",
+			"tiles": ["cc001", "cc002", "cc003", "cc009", "cc011", "cc014"]
+		},
+    	{
+    	   "#": "Vertically challenged, i.e. with stairs",
+			"id": "stairs",
+			"tiles": ["cc004", "cc005", "cc006"]
+		}
+	],
+	"stretches": [
+		{
+			"id": "weighted",
+			"tile-groups": [{"id": "start", "weight": 3}, "end"]
+		},
+		{
+			"id": "start",
+			"tile-groups": ["start"]
+		},
+		{
+			"tile-groups": ["common", "open"],
+			"length": 6
+		},
+		{
+			"tile-groups": ["common", "uncommon"],
+			"length": 6
+		},
+		{
+			"id": "checkpoint-1",
+			"tile-groups": ["checkpoint"]
+		},
+		{
+			"tile-groups": ["winding"],
+			"length": 10
+		},
+		{
+			"id": "",
+			"tile-groups": ["open"],
+			"length": 8
+		},
+		{
+			"id": "",
+			"tile-groups": ["stairs", "uncommon", "rails"],
+			"length": 10
+		},
+		{
+			"id": "end",
+			"tile-groups": ["end"]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+  "minecraft:entity": {
+    "format_version": "1.2.0",
+
+    "components": {
+      "minecraft:identifier": {
+        "id": "minecraft:xp_bottle"
+      },
+      "minecraft:collision_box": {
+        "width": 0.25,
+        "height": 0.25
+      },
+      "minecraft:projectile": {
+       "onHit": {
+        "grant_xp": {
+          "minXP": 3,
+          "maxXP": 11
+        },
+        "remove_on_hit": { }
+       },
+        "power": 0.5,
+        "gravity": 0.05,
+        "angleoffset": -20.0,
+        "hitSound": "glass"
+      },
+	    "minecraft:physics": {
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "minecraft:entity": {
+    "format_version": "1.2.0",
+
+    "components": {
+      "minecraft:identifier": {
+        "id": "minecraft:egg"
+      },
+      "minecraft:collision_box": {
+        "width": 0.25,
+        "height": 0.25
+      },
+      "minecraft:projectile": {
+        "onHit": {
+          "impact_damage": {
+            "damage": 0,
+            "knockback": true,
+            "destroyonhit": true
+          },
+          "spawn_chance": {
+            "firstSpawnChance": 8,
+            "secondSpawnChance": 32,
+            "firstSpawnCount": 1,
+            "secondSpawnCount": 4,
+            "spawnMob": "chicken",
+            "spawnDefinition": "minecraft:chicken",
+            "spawnBaby": true
+          },
+          "remove_on_hit": {},
+          "particle_on_hit": {
+            "particle_type": "iconcrack",
+            "num_particles": 6,
+            "on_entity_hit": true,
+            "on_other_hit": true
+          }
+        },
+        "power": 1.5,
+        "gravity": 0.03,
+        "angleoffset": 0.0
+      },
+	    "minecraft:physics": {
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "materials": {
+    "version": "1.0.0",
+
+    "player_obscured:entity": {
+      "+defines": [ "USE_COLOR_MASK" ],
+      "depthBias": 1000000.0
+    },
+   "crown:entity_alphatest": {}
+  }
+}

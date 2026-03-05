@@ -1,0 +1,713 @@
+{
+	"air" : {
+	"blockshape": "invisible"
+	},
+	"stone" : { 
+		"textures" : "stone"
+	},
+	"grass" : {
+		"isotropic" : {"up" : true, "down" : true},
+		"textures" : { "up" : "grass_top", "down" : "grass_bottom", "side" : "grass_side"},
+		"carried_textures" : { "up" : "grass_carried_top", "down" : "grass_carried_bottom", "side" : "grass_carried"}
+	},
+	"dirt" : { 
+		"isotropic" : true,
+		"textures" : "dirt"
+	},
+	"cobblestone" : {
+		"textures" : "cobblestone"
+	},
+	"planks" : { 
+		"textures" : "planks"
+	},
+	"sapling" : { 
+		"blockshape" : "cross_texture_poly",
+		"textures" : "sapling"
+	},
+	"bedrock" : { 
+		"textures" : "bedrock"
+	},
+	"flowing_water" : { 
+		"blockshape" : "water",
+		"textures" : { "up" : "still_water", "down" : "still_water", "side" : "flowing_water"}
+	},
+	"water" : { 
+		"blockshape" : "water",
+		"textures" : { "up" : "still_water", "down" : "still_water", "side" : "flowing_water"}
+	},
+	"flowing_lava" : { 
+		"blockshape" : "water",
+		"textures" : { "up" : "still_lava", "down" : "still_lava", "side" : "flowing_lava"}
+	},
+	"lava" : { 
+		"isotropic" : true,
+		"blockshape" : "water",
+		"textures" : { "up" : "still_lava", "down" : "still_lava", "side" : "flowing_lava"}
+	},
+	"sand" : { 
+		"isotropic" : true,
+		"textures" : "sand"
+	},
+	"gravel" : { 
+		"textures" : "gravel"
+	},
+	"gold_ore" : { 
+		"textures" : "gold_ore"
+	},
+	"iron_ore" : { 
+		"textures" : "iron_ore"
+	},
+	"coal_ore" : { 
+		"textures" : "coal_ore"
+	},
+	"log" : { 
+		"blockshape" : "tree",
+		"textures" : { "up" : "log_top", "down" : "log_top", "side" : "log_side"}
+	},
+	"leaves" : { 
+		"isotropic" : {"up" : true, "down" : true},
+		"textures" : "leaves",
+		"carried_textures" : "leaves_carried"
+	},
+	"sponge.dry" : { 
+		"isotropic" : true,
+		"textures" : "sponge"
+	},
+	"glass" : { 
+		"textures" : "glass"
+	},
+	"lapis_ore" : { 
+		"textures" : "lapis_ore"
+	},
+	"lapis_block" : { 
+		"textures" : "lapis_block"
+	},
+	"dispenser" : { 
+		"textures" : { "up" : "dispenser_top", "down" : "dispenser_top", "north" : "dispenser_side",  "south" : "dispenser_front_vertical", "west" : "dispenser_side",  "east" : "dispenser_front_horizontal"}
+	},
+	"sandstone" : { 
+		"isotropic" : {"up" : true, "down" : true},
+		"textures" : { "up" : "sandstone_top", "down" : "sandstone_bottom", "side" : "sandstone_side"}
+	},
+	"noteblock" : { 
+		"textures" : "noteblock"
+	},
+  "bed": {
+    "blockshape": "bed",
+    "textures": { "up": "bed_top", "down": "bed_bottom", "north": "bed_north", "south": "bed_south", "west": "bed_west", "east": "bed_east" }
+  }, 
+	"golden_rail" : { 
+		"blockshape" : "rail", 
+		"textures" : { "up" : "rail_golden_powered", "down" : "rail_golden", "side" : "rail_golden"}
+	},
+	"detector_rail" : { 
+		"blockshape" : "rail",
+		"textures" : { "up" : "rail_detector_powered", "down" : "rail_detector", "side" : "rail_detector"}
+	},
+	"sticky_piston" : { 
+		"blockshape" : "piston", 
+		"textures" : { "up" : "piston_top", "down" : "piston_bottom", "side" : "piston_side"},
+	  "carried_textures" : { "up" : "piston_top_sticky", "down" : "piston_bottom", "side" : "piston_side"}
+  },
+	"web" : { 
+		"blockshape" : "cross_texture",
+		"textures" : "web"
+	},
+	"tallgrass" : { 
+		"blockshape" : "cross_texture_poly", 
+		"textures" : "tallgrass", 
+		"carried_textures" : "tallgrass_carried"
+	},
+	"deadbush" : { 
+		"blockshape" : "cross_texture_poly", 
+		"textures" : "deadbush"
+	},
+	"piston" : { 
+		"blockshape" : "piston",
+		"textures" : { "up" : "piston_top", "down" : "piston_bottom", "side" : "piston_side"},
+	  "carried_textures" :  { "up" : "piston_top_normal", "down" : "piston_bottom", "side" : "piston_side"}
+  },
+	"pistonArmCollision" : { 
+		"blockshape" : "invisible",
+		"textures" : "piston_top"
+	},
+	"wool" : {
+		"textures" : "wool"
+	},
+	"stone_gradient" : {
+		"textures" : "stone_gradient"
+	},
+	"yellow_flower" : {
+		"blockshape" : "cross_texture_poly",
+		"textures" : "yellow_flower"
+	},
+	"red_flower" : { 
+		"blockshape" : "cross_texture_poly",
+		"textures" : "red_flower"
+	},
+	"brown_mushroom" : { 
+		"blockshape" : "cross_texture_poly",
+		"textures" : "mushroom_brown"
+	},
+	"red_mushroom" : { 
+		"blockshape" : "cross_texture_poly",
+		"textures" : "mushroom_red"
+	},
+	"gold_block" : { 
+		"textures" : "gold_block"
+	},
+	"iron_block" : { 
+		"textures" : "iron_block"
+	},
+	"double_stone_slab" : { 
+		"textures" : { "up" : "stone_slab_top", "down" : "stone_slab_bottom", "side" : "stone_slab_side"}
+	},
+	"stone_slab" : { 
+		"blockshape" : "block_half",
+		"textures" : { "up" : "stone_slab_top", "down" : "stone_slab_bottom", "side" : "stone_slab_side"}
+	},
+	"brick_block" : { 
+		"textures" : "brick"
+	},
+	"tnt" : { 
+		"isotropic" : {"up" : true, "down" : true},
+		"textures" : { "up" : "tnt_top", "down" : "tnt_bottom", "side" : "tnt_side"}
+	},
+	"bookshelf" : { 
+		"textures" : { "up" : "bookshelf_top", "down" : "bookshelf_top", "side" : "bookshelf"}
+	},
+	"mossy_cobblestone" : { 
+		"textures" : "cobblestone_mossy"
+	},
+	"obsidian" : { 
+		"isotropic" : true,
+		"textures" : "obsidian"
+	},
+	"torch" : { 
+		"blockshape" : "torch",
+		"textures" : "torch_on"
+	},
+	"mob_spawner" : { 
+		"textures" : "mob_spawner"
+	},
+	"oak_stairs" : { 
+		"blockshape" : "stairs",
+		"textures" : "wood_oak"
+	},
+	"chest" : { 
+		"blockshape" : "chest", 
+    "textures" : { "up" : "chest_inventory_top", "down" : "chest_inventory_top", "north" : "chest_inventory_side",  "south" : "chest_inventory_front", "west" : "chest_inventory_side",  "east" : "chest_inventory_side"}
+	},
+	"redstone_wire" : { 
+		"blockshape" : "red_dust",
+		"textures" : { "up" : "redstone_dust_cross", "down" : "redstone_dust_line", "side" : "redstone_dust_line"}
+	},
+	"diamond_ore" : { 
+		"textures" : "diamond_ore"
+	},
+	"diamond_block" : { 
+		"textures" : "diamond_block"
+	},
+	"crafting_table" : { 
+		"textures" : { "up" : "crafting_table_top", "down" : "crafting_table_bottom", "north" : "crafting_table_front",  "south" : "crafting_table_front", "west" : "crafting_table_side",  "east" : "crafting_table_side"}
+	},
+	"wheat" : { 
+		"blockshape" : "rows",
+		"textures" : "wheat"
+	},
+	"farmland" : { 
+		"textures" : { "up" : "farmland", "down" : "dirt", "side" : "dirt"}
+	},
+	"furnace" : { 
+		"textures" : { "up" : "furnace_top", "down" : "furnace_top", "north" : "furnace_side",  "south" : "furnace_front_off", "west" : "furnace_side",  "east" : "furnace_front_on"}
+	},
+	"lit_furnace" : { 
+		"textures" : { "up" : "furnace_top", "down" : "furnace_top", "north" : "furnace_side",  "south" : "furnace_front_off", "west" : "furnace_side",  "east" : "furnace_front_on"}
+	},
+	"standing_sign" : { 
+		"blockshape" : "invisible",
+		"textures" : "sign"
+	},
+	"wooden_door" : { 
+		"blockshape" : "door",
+		"textures" : { "up" : "door_lower", "down" : "door_lower", "side" : "door_upper"}
+	},
+	"ladder" : { 
+		"blockshape" : "ladder",
+		"textures" : "ladder"
+	},
+	"rail" : { 
+		"blockshape" : "rail",
+		"textures" : { "up" : "rail_normal_turned", "down" : "rail_normal", "side" : "rail_normal"}
+	},
+	"stone_stairs" : { 
+		"blockshape" : "stairs",
+		"textures" : "cobblestone"
+	},
+	"wall_sign" : { 
+		"blockshape" : "invisible",
+		"textures" : "planks"
+	},
+	"lever" : { 
+		"blockshape" : "lever", 
+		"textures" : { "up" : "lever", "down" : "lever", "north" : "lever",  "south" : "lever", "west" : "lever",  "east" : "lever_particle"}
+	},
+	"stone_pressure_plate" : { 
+		"textures" : "stone"
+	},
+	"iron_door" : { 
+		"blockshape" : "door",
+		"textures" : { "up" : "door_lower", "down" : "door_lower", "side" : "door_upper"}
+	},
+	"wooden_pressure_plate" : { 
+		"textures" : "planks"
+	},
+	"redstone_ore" : { 
+		"textures" : "redstone_ore"
+	},
+	"lit_redstone_ore" : { 
+		"textures" : "redstone_ore"
+	},
+	"unlit_redstone_torch" : { 
+		"blockshape" : "torch",
+		"textures" : "redstone_torch_off"
+	},
+	"redstone_torch" : { 
+		"blockshape" : "torch",
+		"textures" : "redstone_torch_on"
+	},
+	"stone_button" : { 
+		"textures" : "stone"
+	},
+	"snow_layer" : { 
+		"isotropic" : true,
+		"textures" : "snow"
+	},
+	"ice" : { 
+		"textures" : "ice"
+	},
+	"snow" : { 
+		"isotropic" : true,
+		"textures" : "snow"
+	},
+	"cactus" : { 
+		"blockshape" : "cactus",
+		"textures" : { "up" : "cactus_top", "down" : "cactus_bottom", "side" : "cactus_side"}
+	},
+	"clay" : { 
+		"isotropic" : true,
+		"textures" : "clay"
+	},
+	"reeds" : { 
+		"blockshape" : "cross_texture",
+		"textures" : "reeds"
+	},
+	"fence" : { 
+		"blockshape" : "fence",
+		"textures" : "planks"
+	},
+	"nether_brick_fence" : { 
+		"blockshape" : "fence",
+		"textures" : "nether_brick"
+	},
+	"pumpkin" : { 
+		"textures" : { "up" : "pumpkin_top", "down" : "pumpkin_top", "north" : "pumpkin_side",  "south" : "pumpkin_face", "west" : "pumpkin_side",  "east" : "pumpkin_side"}
+	},
+	"netherrack" : { 
+		"isotropic" : true,
+		"textures" : "netherrack"
+	},
+	"soul_sand" : { 
+		"textures" : "soul_sand"
+	},
+	"glowstone" : { 
+		"isotropic" : true,
+		"textures" : "glowstone"
+	},
+	"portal" : { 
+		"textures" : "portal"
+	},
+	"lit_pumpkin" : { 
+		"textures" : { "up" : "pumpkin_top", "down" : "pumpkin_top", "north" : "pumpkin_side",  "south" : "pumpkin_face", "west" : "pumpkin_side",  "east" : "pumpkin_side"}
+	},
+	"cake" : { 
+		"textures" : { "up" : "cake_top", "down" : "cake_bottom", "north" : "cake_side",  "south" : "cake_side", "west" : "cake_west",  "east" : "cake_side"}
+	},
+	"unpowered_repeater" : { 
+		"blockshape" : "repeater",
+		"textures" : { "up" : "repeater_up", "down" : "repeater_torch", "side" : "repeater_floor"}
+	},
+	"powered_repeater" : { 
+		"blockshape" : "repeater",
+		"textures" : { "up" : "repeater_up", "down" : "repeater_torch", "side" : "repeater_floor"}
+	},
+	"invisibleBedrock" : { 
+		"blockshape" : "invisible",
+		"textures" : "stone"
+	},
+	"trapdoor" : { 
+		"blockshape" : "block_half",
+		"textures" : "trapdoor"
+	},
+	"monster_egg" : { 
+		"textures" : "monster_egg"
+	},
+	"stonebrick" : { 
+		"textures" : "stonebrick"
+	},
+	"brown_mushroom_block" : { 
+		"textures" : { "up" : "mushroom_brown_top", "down" : "mushroom_brown_bottom", "north" : "mushroom_brown_north",  "south" : "mushroom_brown_south", "west" : "mushroom_brown_west",  "east" : "mushroom_brown_east"}
+	},
+	"red_mushroom_block" : { 
+		"textures" : { "up" : "mushroom_red_top", "down" : "mushroom_red_bottom", "north" : "mushroom_red_north",  "south" : "mushroom_red_south", "west" : "mushroom_red_west",  "east" : "mushroom_red_east"}
+	},
+	"iron_bars" : { 
+		"blockshape" : "iron_fence",
+		"textures" : { "up" : "iron_bars", "down" : "iron_bars", "north" : "iron_bars",  "south" : "iron_bars", "west" : "iron_bars",  "east" : "iron_bars_edge"}
+	},
+	"glass_pane" : { 
+		"blockshape" : "iron_fence",
+		"textures" : { "up" : "glass", "down" : "glass", "north" : "glass",  "south" : "glass", "west" : "glass",  "east" : "glass_pane_top"}
+	},
+	"melon_block" : { 
+		"textures" : { "up" : "melon_top", "down" : "melon_side", "side" : "melon_side"}
+	},
+	"pumpkin_stem" : { 
+		"blockshape" : "stem",
+		"textures" : "pumpkin_stem"
+	},
+	"melon_stem" : { 
+		"blockshape" : "stem",
+		"textures" : "melon_stem"
+	},
+	"vine" : { 
+		"blockshape" : "vine",
+		"textures" : "vine",
+		"carried_textures" : "vine_carried"
+	},
+	"fence_gate" : { 
+		"blockshape" : "fence_gate",
+		"textures" : "wood_oak"
+	},
+	"brick_stairs" : { 
+		"blockshape" : "stairs",
+		"textures" : "brick"
+	},
+	"mycelium" : { 
+		"isotropic" : {"up" : true, "down" : true},
+		"textures" : { "up" : "mycelium_top", "down" : "mycelium_bottom", "side" : "mycelium_side"}
+	},
+	"waterlily" : { 
+		"blockshape" : "lilypad",
+		"textures" : "waterlily",
+		"carried_textures" : "waterlily_carried"
+	},
+	"brewing_stand" : { 
+		"blockshape" : "brewing_stand",
+		"textures" : { "up" : "brewing_stand", "down" : "brewing_stand_base", "side" : "brewing_stand"}
+	},
+	"cauldron" : { 
+		"blockshape" : "cauldron", 
+		"textures" : { "up" : "cauldron_top", "down" : "cauldron_bottom", "north" : "cauldron_side",  "south" : "cauldron_inner", "west" : "cauldron_water",  "east" : "still_water"}
+	},
+	"end_portal_frame" : { 
+		"blockshape" : "portal_frame",
+		"textures" : { "up" : "endframe_top", "down" : "endframe_bottom", "north" : "endframe_side",  "south" : "endframe_side", "west" : "endframe_side",  "east" : "endframe_side"},
+	  "carried_textures" :  "endframe_eye"
+  },
+	"end_stone" : { 
+		"textures" : "end_stone"
+	},
+	"redstone_lamp" : { 
+		"textures" : "redstone_lamp_off"
+	},
+	"lit_redstone_lamp" : { 
+		"textures" : "redstone_lamp_on"
+	},
+	"cocoa" : { 
+		"blockshape" : "cocoa",
+		"textures" : "cocoa"
+	},
+	"emerald_ore" : { 
+		"textures" : "emerald_ore"
+	},
+	"emerald_block" : { 
+		"textures" : "emerald_block"
+	},
+	"spruce_stairs" : { 
+		"blockshape" : "stairs",
+		"textures" : "wood_spruce"
+	},
+	"birch_stairs" : { 
+		"blockshape" : "stairs",
+		"textures" : "wood_birch"
+	},
+	"jungle_stairs" : { 
+		"blockshape" : "stairs",
+		"textures" : "wood_jungle"
+	},
+	"wooden_button" : { 
+		"textures" : "planks"
+	},
+	"stone_brick_stairs" : { 
+		"blockshape" : "stairs",
+		"textures" : "stonebrick"
+	},
+	"nether_brick" : { 
+		"textures" : "nether_brick"
+	},
+	"nether_brick_stairs" : { 
+		"blockshape" : "stairs",
+		"textures" : "nether_brick"
+	},
+	"nether_wart" : { 
+		"blockshape" : "rows",
+		"textures" : "nether_wart"
+	},
+	"enchanting_table" : { 
+		"blockshape" : "block_half",
+		"textures" : { "up" : "enchanting_table_top", "down" : "enchanting_table_bottom", "side" : "enchanting_table_side"}
+	},
+	"dropper" : { 
+		"textures" : { "up" : "dropper_top", "down" : "dropper_top", "north" : "dropper_side",  "south" : "dropper_front_vertical", "west" : "dropper_side",  "east" : "dropper_front_horizontal"}
+	},
+	"activator_rail" : { 
+		"blockshape" : "rail", 
+		"textures" : { "up" : "rail_activator_powered", "down" : "rail_activator", "side" : "rail_activator"}
+	},
+	"sandstone_stairs" : { 
+		"isotropic" : {"up" : true, "down" : true},
+		"blockshape" : "stairs", 
+		"textures" : { "up" : "sandstone_top", "down" : "sandstone_bottom", "side" : "sandstone_side"}
+	},
+	"tripwire_hook" : { 
+		"blockshape" : "tripwire_hook",
+		"textures" : { "up" : "trip_wire_source", "down" : "trip_wire_base", "side" : "trip_wire_source"}
+	},
+	"tripWire" : { 
+		"blockshape" : "tripwire", 
+		"textures" : "trip_wire"
+	},
+	"cobblestone_wall" : { 
+		"blockshape" : "wall", 
+		"textures" : "cobblestone_wall"
+	},
+	"flower_pot" : { 
+		"blockshape" : "flower_pot", 
+		"textures" : "flower_pot"
+	},
+	"carrots" : { 
+		"blockshape" : "rows",
+		"textures" : "carrots"
+	},
+	"potatoes" : { 
+		"blockshape" : "rows", 
+		"textures" : "potatoes"
+	},
+	"skull" : { 
+		"blockshape" : "invisible", 
+		"textures" : "skull"
+	},
+	"anvil" : { 
+		"blockshape" : "anvil", 
+		"textures" : { "up" : "anvil_top_damaged_x", "down" : "anvil_base", "side" : "anvil_base"}
+	},
+	"trapped_chest" : { 
+		"blockshape" : "chest", 
+    "textures" : { "up" : "chest_inventory_top", "down" : "chest_inventory_top", "north" : "chest_inventory_side",  "south" : "chest_inventory_front", "west" : "chest_inventory_side",  "east" : "chest_inventory_side"}
+	},
+	"light_weighted_pressure_plate" : { 
+		"textures" : "gold_block"
+	},
+	"heavy_weighted_pressure_plate" : { 
+		"textures" : "iron_block"
+	},
+	"unpowered_comparator" : { 
+		"blockshape" : "comparator", 
+		"textures" : { "up" : "comparator_up", "down" : "comparator_torch", "side" : "comparator_stone_slab"}
+	},
+	"powered_comparator" : { 
+		"blockshape" : "comparator", 
+		"textures" : { "up" : "comparator_up", "down" : "comparator_torch", "side" : "comparator_stone_slab"}
+	},
+	"daylight_detector" : { 
+		"textures" : { "up" : "daylight_detector_top", "down" : "daylight_detector_side", "side" : "daylight_detector_side"}
+	},
+	"redstone_block" : { 
+		"textures" : "redstone_block"
+	},
+	"quartz_ore" : { 
+		"textures" : "quartz_ore"
+	},
+	"hopper" : { 
+		"blockshape" : "hopper", 
+		"textures" : { "up" : "hopper_top", "down" : "hopper_inside", "north" : "hopper_outside",  "south" : "hopper_outside", "west" : "hopper_outside",  "east" : "hopper_outside"}
+	},
+	"quartz_block" : { 
+		"blockshape" : "tree", 
+		"textures" : { "up" : "quartz_block_top", "down" : "quartz_block_bottom", "side" : "quartz_block_side"}
+	},
+	"quartz_stairs" : { 
+		"blockshape" : "stairs",
+		"textures" : { "up" : "stair_quartz_block_top", "down" : "stair_quartz_block_bottom", "side" : "stair_quartz_block_side"}
+	},
+	"double_wooden_slab" : { 
+		"textures" : "planks"
+	},
+	"wooden_slab" : { 
+		"blockshape" : "block_half",
+		"textures" : "planks"
+	},
+	"stained_hardened_clay" : { 
+		"isotropic" : true,
+		"textures" : "stained_clay"
+	},
+	"leaves2" : { 
+		"isotropic" : {"up" : true, "down" : true},
+		"textures" : "leaves2",
+		"carried_textures" : "leaves_carried2"
+	},
+	"log2" : { 
+		"blockshape" : "tree",
+		"textures" : { "up" : "log_top2", "down" : "log_top2", "side" : "log_side2"}
+	},
+	"acacia_stairs" : { 
+		"blockshape" : "stairs",
+		"textures" : "wood_acacia"
+	},
+	"dark_oak_stairs" : { 
+		"blockshape" : "stairs",
+		"textures" : "wood_big_oak"
+	},
+	"slime" : { 
+		"blockshape" : "slime_block",
+		"textures" : "slime_block"
+	},
+	"iron_trapdoor" : { 
+		"blockshape" : "block_half",
+		"textures" : "iron_trapdoor"
+	},
+	"hay_block" : { 
+		"blockshape" : "tree",
+		"textures" : { "up" : "hayblock_top", "down" : "hayblock_side", "side" : "hayblock_side"}
+	},
+	"carpet" : { 
+		"textures" : "wool"
+	},
+	"hardened_clay" : { 
+		"isotropic" : true,
+		"textures" : "hardened_clay"
+	},
+	"coal_block" : { 
+		"textures" : "coal_block"
+	},
+	"packed_ice" : { 
+		"textures" : "ice_packed"
+	},
+	"double_plant" : { 
+		"blockshape" : "double_plant_poly",
+		"textures" : { "up" : "double_plant_top", "down" : "double_plant_bottom", "side" : "sunflower_additional"},
+		"carried_textures" : "double_plant_carried"
+	},
+	"daylight_detector_inverted" : { 
+		"textures" : { "up" : "daylight_detector_top", "down" : "daylight_detector_side", "side" : "daylight_detector_side"}
+	},
+	"red_sandstone" : { 
+		"isotropic" : {"up" : true, "down" : true},
+		"textures" : { "up" : "redsandstone_top", "down" : "redsandstone_bottom", "side" : "redsandstone_side"}
+	},
+	"red_sandstone_stairs" : { 
+		"isotropic" : {"up" : true, "down" : true},
+		"blockshape" : "stairs",
+		"textures" : "redsandstone_side"	
+	},
+	"double_stone_slab2" : { 
+		"textures" : { "up" : "stone_slab_top_2", "down" : "stone_slab_bottom_2", "side" : "stone_slab_side_2"}
+	},
+	"stone_slab2" : { 
+		"blockshape" : "block_half",
+		"textures" : { "up" : "stone_slab_top_2", "down" : "stone_slab_bottom_2", "side" : "stone_slab_side_2"}
+	},
+	"spruce_fence_gate" : { 
+		"blockshape" : "fence_gate", 
+		"textures" : "wood_spruce"
+	},
+	"birch_fence_gate" : { 
+		"blockshape" : "fence_gate",
+		"textures" : "wood_birch"
+	},
+	"jungle_fence_gate" : { 
+		"blockshape" : "fence_gate", 
+		"textures" : "wood_jungle"
+	},
+	"dark_oak_fence_gate" : { 
+		"blockshape" : "fence_gate",
+		"textures" : "wood_big_oak"
+	},
+	"acacia_fence_gate" : { 
+		"blockshape" : "fence_gate", 
+		"textures" : "wood_acacia"
+	},
+	"spruce_door" : { 
+		"blockshape" : "door", 
+		"textures" : { "up" : "door_lower", "down" : "door_lower", "side" : "door_upper"}
+	},
+	"birch_door" : { 
+		"blockshape" : "door", 
+		"textures" : { "up" : "door_lower", "down" : "door_lower", "side" : "door_upper"}
+	},
+	"jungle_door" : { 
+		"blockshape" : "door",
+		"textures" : { "up" : "door_lower", "down" : "door_lower", "side" : "door_upper"}
+	},
+	"acacia_door" : { 
+		"blockshape" : "door", 
+		"textures" : { "up" : "door_lower", "down" : "door_lower", "side" : "door_upper"}
+	},
+	"dark_oak_door" : { 
+		"blockshape" : "door", 
+		"textures" : { "up" : "door_lower", "down" : "door_lower", "side" : "door_upper"}
+	},
+	"grass_path" : { 
+		"isotropic" : {"up" : true, "down" : true},
+		"textures" : { "up" : "grass_path_top", "down" : "grass_path_side", "side" : "grass_path_side"}
+	},
+	"frame" : { 
+		"blockshape" : "invisible", 
+		"textures" : "planks"
+	},
+	"podzol" : { 
+		"isotropic" : {"up" : true, "down" : true},
+		"textures" : { "up" : "dirt_podzol_top", "down" : "dirt_podzol_bottom", "side" : "dirt_podzol_side"}
+	},
+	"beetroot" : { 
+		"blockshape" : "rows", 
+		"textures" : "beetroot"
+	},
+	"stonecutter" : { 
+		"textures" : { "up" : "stonecutter_top", "down" : "stonecutter_bottom", "north" : "stonecutter_side",  "south" : "stonecutter_side", "west" : "stonecutter_other_side",  "east" : "stonecutter_other_side"}
+	},
+	"glowingobsidian" : { 
+		"textures" : "glowing_obsidian"
+	},
+	"netherreactor" : { 
+		"textures" : "reactor_core"
+	},
+	"info_update" : { 
+		"textures" : "missing_tile"
+	},
+	"info_update2" : { 
+		"textures" : "missing_tile"
+	},
+  "movingBlock": {
+    "blockshape": "invisible",
+    "textures": "missing_tile"
+  },
+	"reserved6" : { 
+		"textures" : "missing_tile"
+	},
+	"fire" : { 
+		"blockshape" : "fire", 
+		"textures" : "fire"
+	}
+}

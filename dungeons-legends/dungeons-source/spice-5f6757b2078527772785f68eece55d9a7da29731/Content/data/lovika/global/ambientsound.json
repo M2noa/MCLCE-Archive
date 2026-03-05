@@ -1,0 +1,24 @@
+[
+	{
+		"id": "menu",
+		"loop": "",
+		"effects": []
+	},
+	{
+		"id": "cave",
+		"loop": "ambient/caveambience",
+		"effects": [
+			"/path/to/effect1.sfx",
+			"/path/to/effect2.sfx",
+			"/path/to/effect3.sfx"
+		]
+	},
+	{
+		"id": "forest",
+		"loop": "ambient/defaultambience",
+		"effects": [
+			"/path/to/effect1.sfx",
+			"/path/to/effect2.sfx"
+		]
+	}
+]

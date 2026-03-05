@@ -1,0 +1,2976 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Dungeons.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{071E2146-4335-44D5-9725-7BCA2BC19363}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Dungeons.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\DungeonsEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{80AF8867-DCD8-47B2-9EAF-DAFC864D30B1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{0023F9F1-7ACE-408E-83DB-7BAEC04DEB02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\RuntimeMeshComponent">
+      <UniqueIdentifier>{15E83AB7-A36F-438C-9B1D-B13F1016FA59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\RuntimeMeshComponent\Source">
+      <UniqueIdentifier>{0CD04DD4-4E63-4C66-AB3A-F37465AFF38F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent">
+      <UniqueIdentifier>{07BBA9B7-8C12-44BC-8381-A25BC51808F7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\RuntimeMeshComponent.Build.cs">
+      <Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent</Filter>
+    </None>
+    <Filter Include="Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Private">
+      <UniqueIdentifier>{55856AF0-48FA-42B8-98DC-F82876ACAEA8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Private\RuntimeMeshComponent.cpp">
+      <Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Private\RuntimeMeshComponentPlugin.cpp">
+      <Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Private\RuntimeMeshComponentPluginPrivatePCH.h">
+      <Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Private\RuntimeMeshCore.cpp">
+      <Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Private\RuntimeMeshGenericVertex.cpp">
+      <Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Private\RuntimeMeshLibrary.cpp">
+      <Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Private\TessellationUtilities.cpp">
+      <Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Private\TessellationUtilities.h">
+      <Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public">
+      <UniqueIdentifier>{216DC6C6-E660-42FF-84A2-47D64291B578}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public\RuntimeMeshAsync.h">
+      <Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public\RuntimeMeshBuilder.h">
+      <Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public\RuntimeMeshComponent.h">
+      <Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public\RuntimeMeshComponentPlugin.h">
+      <Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public\RuntimeMeshCore.h">
+      <Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public\RuntimeMeshGenericVertex.h">
+      <Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public\RuntimeMeshLibrary.h">
+      <Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public\RuntimeMeshProfiling.h">
+      <Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public\RuntimeMeshRendering.h">
+      <Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public\RuntimeMeshSection.h">
+      <Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public\RuntimeMeshSectionProxy.h">
+      <Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public\RuntimeMeshUpdateCommands.h">
+      <Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public\RuntimeMeshVersion.h">
+      <Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\RuntimeMeshComponent\RuntimeMeshComponent.uplugin">
+      <Filter>Plugins\RuntimeMeshComponent</Filter>
+    </None>
+    <Filter Include="Plugins\RuntimeMeshComponent\Resources">
+      <UniqueIdentifier>{29517CD1-9C60-4926-A382-4174881966D0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\RuntimeMeshComponent\Resources\Icon128.png">
+      <Filter>Plugins\RuntimeMeshComponent\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponentEditor">
+      <UniqueIdentifier>{10D0F4FB-569D-4CA7-BA9E-A5CF776F23C0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponentEditor\RuntimeMeshComponentEditor.Build.cs">
+      <Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponentEditor</Filter>
+    </None>
+    <Filter Include="Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponentEditor\Private">
+      <UniqueIdentifier>{092A502E-EFD5-4AC9-8A42-FED85957AF7E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponentEditor\Private\RuntimeMeshComponentDetails.cpp">
+      <Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponentEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponentEditor\Private\RuntimeMeshComponentDetails.h">
+      <Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponentEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponentEditor\Private\RuntimeMeshComponentEditorPlugin.cpp">
+      <Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponentEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponentEditor\Private\RuntimeMeshComponentEditorPrivatePCH.h">
+      <Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponentEditor\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponentEditor\Public">
+      <UniqueIdentifier>{AD0AB7B7-1AF4-46A8-A8C9-088A791EFC98}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponentEditor\Public\IRuntimeMeshComponentEditorPlugin.h">
+      <Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponentEditor\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\Dungeons">
+      <UniqueIdentifier>{E4722941-0941-4067-B606-1B2A23718056}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Dungeons\ChunkSourceView.h">
+      <Filter>Source\Dungeons</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\CommonTypes.cpp">
+      <Filter>Source\Dungeons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\CommonTypes.h">
+      <Filter>Source\Dungeons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\common_header.h">
+      <Filter>Source\Dungeons</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Dungeons\Dungeons.Build.cs">
+      <Filter>Source\Dungeons</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Dungeons\Dungeons.cpp">
+      <Filter>Source\Dungeons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\Dungeons.h">
+      <Filter>Source\Dungeons</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\DungeonsCharacter.cpp">
+      <Filter>Source\Dungeons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\DungeonsCharacter.h">
+      <Filter>Source\Dungeons</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\DungeonsGameMode.cpp">
+      <Filter>Source\Dungeons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\DungeonsGameMode.h">
+      <Filter>Source\Dungeons</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\DungeonsPlayerController.cpp">
+      <Filter>Source\Dungeons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\DungeonsPlayerController.h">
+      <Filter>Source\Dungeons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\EntityUniqueID.h">
+      <Filter>Source\Dungeons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\PrivateConstants.h">
+      <Filter>Source\Dungeons</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\SharedConstants.cpp">
+      <Filter>Source\Dungeons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\SharedConstants.h">
+      <Filter>Source\Dungeons</Filter>
+    </ClInclude>
+    <Filter Include="Source\Dungeons\client">
+      <UniqueIdentifier>{E30EE797-B00F-4E87-BF82-456C04688865}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Dungeons\client\game">
+      <UniqueIdentifier>{695E7E36-97D4-438B-A85F-CBC21C0E6E4A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Dungeons\client\game\ExternalServersFile.cpp">
+      <Filter>Source\Dungeons\client\game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\client\game\ExternalServersFile.h">
+      <Filter>Source\Dungeons\client\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\client\game\NullVibration.h">
+      <Filter>Source\Dungeons\client\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\client\game\Vibration.h">
+      <Filter>Source\Dungeons\client\game</Filter>
+    </ClInclude>
+    <Filter Include="Source\Dungeons\client\renderer">
+      <UniqueIdentifier>{C10580CD-1D26-4C3D-B88C-80EA36D60EC7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Dungeons\client\renderer\block">
+      <UniqueIdentifier>{8C50270B-83DD-43B6-984B-469E76913A77}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Dungeons\client\renderer\block\AmbientOcclusionCalculator.cpp">
+      <Filter>Source\Dungeons\client\renderer\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\client\renderer\block\AmbientOcclusionCalculator.h">
+      <Filter>Source\Dungeons\client\renderer\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\client\renderer\block\BlockGraphics.cpp">
+      <Filter>Source\Dungeons\client\renderer\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\client\renderer\block\BlockGraphics.h">
+      <Filter>Source\Dungeons\client\renderer\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\client\renderer\block\BlockOccluder.cpp">
+      <Filter>Source\Dungeons\client\renderer\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\client\renderer\block\BlockOccluder.h">
+      <Filter>Source\Dungeons\client\renderer\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\client\renderer\block\BlockTessellator.cpp">
+      <Filter>Source\Dungeons\client\renderer\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\client\renderer\block\BlockTessellator.h">
+      <Filter>Source\Dungeons\client\renderer\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\client\renderer\block\BlockTessellatorCache.cpp">
+      <Filter>Source\Dungeons\client\renderer\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\client\renderer\block\BlockTessellatorCache.h">
+      <Filter>Source\Dungeons\client\renderer\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\client\renderer\block\BlockTextureTessellator.cpp">
+      <Filter>Source\Dungeons\client\renderer\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\client\renderer\block\BlockTextureTessellator.h">
+      <Filter>Source\Dungeons\client\renderer\block</Filter>
+    </ClInclude>
+    <Filter Include="Source\Dungeons\client\renderer\chunks">
+      <UniqueIdentifier>{7706C972-8C05-4B7D-A8F1-0AEAB0C374BA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Dungeons\client\renderer\chunks\BlockQueue.cpp">
+      <Filter>Source\Dungeons\client\renderer\chunks</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\client\renderer\chunks\BlockQueue.h">
+      <Filter>Source\Dungeons\client\renderer\chunks</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\client\renderer\chunks\RangeIndices.cpp">
+      <Filter>Source\Dungeons\client\renderer\chunks</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\client\renderer\chunks\RangeIndices.h">
+      <Filter>Source\Dungeons\client\renderer\chunks</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\client\renderer\chunks\RenderChunk.cpp">
+      <Filter>Source\Dungeons\client\renderer\chunks</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\client\renderer\chunks\RenderChunk.h">
+      <Filter>Source\Dungeons\client\renderer\chunks</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\client\renderer\chunks\RenderChunkBuilder.cpp">
+      <Filter>Source\Dungeons\client\renderer\chunks</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\client\renderer\chunks\RenderChunkBuilder.h">
+      <Filter>Source\Dungeons\client\renderer\chunks</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\client\renderer\chunks\RenderChunkSorter.cpp">
+      <Filter>Source\Dungeons\client\renderer\chunks</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\client\renderer\chunks\RenderChunkSorter.h">
+      <Filter>Source\Dungeons\client\renderer\chunks</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\client\renderer\chunks\VisibilityExtimator.cpp">
+      <Filter>Source\Dungeons\client\renderer\chunks</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\client\renderer\chunks\VisibilityExtimator.h">
+      <Filter>Source\Dungeons\client\renderer\chunks</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\client\renderer\chunks\VisibilityNode.cpp">
+      <Filter>Source\Dungeons\client\renderer\chunks</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\client\renderer\chunks\VisibilityNode.h">
+      <Filter>Source\Dungeons\client\renderer\chunks</Filter>
+    </ClInclude>
+    <Filter Include="Source\Dungeons\client\renderer\renderer">
+      <UniqueIdentifier>{E95A0B76-A784-4319-9710-DE4E49667926}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Dungeons\client\renderer\renderer\MinimumCoveringRectangles.h">
+      <Filter>Source\Dungeons\client\renderer\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\client\renderer\renderer\PrimitiveMode.h">
+      <Filter>Source\Dungeons\client\renderer\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\client\renderer\renderer\TerrainLayer.h">
+      <Filter>Source\Dungeons\client\renderer\renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\client\renderer\renderer\Tessellator.cpp">
+      <Filter>Source\Dungeons\client\renderer\renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\client\renderer\renderer\Tessellator.h">
+      <Filter>Source\Dungeons\client\renderer\renderer</Filter>
+    </ClInclude>
+    <Filter Include="Source\Dungeons\client\renderer\texture">
+      <UniqueIdentifier>{1F2DA048-7BD9-49F4-8689-F79C2759ABFB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Dungeons\client\renderer\texture\TextureAtlas.cpp">
+      <Filter>Source\Dungeons\client\renderer\texture</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\client\renderer\texture\TextureAtlas.h">
+      <Filter>Source\Dungeons\client\renderer\texture</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\client\renderer\texture\TextureAtlasItem.cpp">
+      <Filter>Source\Dungeons\client\renderer\texture</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\client\renderer\texture\TextureAtlasItem.h">
+      <Filter>Source\Dungeons\client\renderer\texture</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\client\renderer\texture\TextureAtlasTile.cpp">
+      <Filter>Source\Dungeons\client\renderer\texture</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\client\renderer\texture\TextureAtlasTile.h">
+      <Filter>Source\Dungeons\client\renderer\texture</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\client\renderer\texture\TextureTessellator.cpp">
+      <Filter>Source\Dungeons\client\renderer\texture</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\client\renderer\texture\TextureTessellator.h">
+      <Filter>Source\Dungeons\client\renderer\texture</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\client\renderer\texture\TextureUVCoordinateSet.cpp">
+      <Filter>Source\Dungeons\client\renderer\texture</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\client\renderer\texture\TextureUVCoordinateSet.h">
+      <Filter>Source\Dungeons\client\renderer\texture</Filter>
+    </ClInclude>
+    <Filter Include="Source\Dungeons\locale">
+      <UniqueIdentifier>{85A3CFA6-5579-4BD3-80E4-F001DF54F892}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Dungeons\locale\I18n.cpp">
+      <Filter>Source\Dungeons\locale</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\locale\I18n.h">
+      <Filter>Source\Dungeons\locale</Filter>
+    </ClInclude>
+    <Filter Include="Source\Dungeons\lovika">
+      <UniqueIdentifier>{5941FFA6-D09E-4EF8-9D8D-A1A9C930815A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Dungeons\lovika\BlockCuboid.cpp">
+      <Filter>Source\Dungeons\lovika</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\lovika\BlockCuboid.h">
+      <Filter>Source\Dungeons\lovika</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\lovika\BlockRegion.cpp">
+      <Filter>Source\Dungeons\lovika</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\lovika\BlockRegion.h">
+      <Filter>Source\Dungeons\lovika</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\lovika\RegionType.cpp">
+      <Filter>Source\Dungeons\lovika</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\lovika\RegionType.h">
+      <Filter>Source\Dungeons\lovika</Filter>
+    </ClInclude>
+    <Filter Include="Source\Dungeons\lovika\io">
+      <UniqueIdentifier>{0233F23A-FC7E-438C-AD40-494A01BDF259}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Dungeons\lovika\io\ObjectGroupFile.cpp">
+      <Filter>Source\Dungeons\lovika\io</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\lovika\io\ObjectGroupFile.h">
+      <Filter>Source\Dungeons\lovika\io</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\lovika\io\TextureFile.cpp">
+      <Filter>Source\Dungeons\lovika\io</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\lovika\io\TextureFile.h">
+      <Filter>Source\Dungeons\lovika\io</Filter>
+    </ClInclude>
+    <Filter Include="Source\Dungeons\lovika\lib">
+      <UniqueIdentifier>{40C440DA-67F2-43F8-99AB-770A995E65E5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Dungeons\lovika\lib\optional">
+      <UniqueIdentifier>{BB317461-96C2-44C2-95E2-12EF5EE33A44}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Dungeons\lovika\lib\optional\copyright.txt">
+      <Filter>Source\Dungeons\lovika\lib\optional</Filter>
+    </None>
+    <None Include="..\..\Source\Dungeons\lovika\lib\optional\LICENSE_1_0.txt">
+      <Filter>Source\Dungeons\lovika\lib\optional</Filter>
+    </None>
+    <None Include="..\..\Source\Dungeons\lovika\lib\optional\optional.hpp">
+      <Filter>Source\Dungeons\lovika\lib\optional</Filter>
+    </None>
+    <Filter Include="Source\Dungeons\nbt">
+      <UniqueIdentifier>{79F3F9C1-29A1-489C-AA1A-4C50DC4C3C27}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Dungeons\nbt\ByteArrayTag.cpp">
+      <Filter>Source\Dungeons\nbt</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\nbt\ByteArrayTag.h">
+      <Filter>Source\Dungeons\nbt</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\nbt\ByteTag.cpp">
+      <Filter>Source\Dungeons\nbt</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\nbt\ByteTag.h">
+      <Filter>Source\Dungeons\nbt</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\nbt\CompoundTag.cpp">
+      <Filter>Source\Dungeons\nbt</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\nbt\CompoundTag.h">
+      <Filter>Source\Dungeons\nbt</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\nbt\DoubleTag.cpp">
+      <Filter>Source\Dungeons\nbt</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\nbt\DoubleTag.h">
+      <Filter>Source\Dungeons\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\nbt\EndTag.h">
+      <Filter>Source\Dungeons\nbt</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\nbt\FloatTag.cpp">
+      <Filter>Source\Dungeons\nbt</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\nbt\FloatTag.h">
+      <Filter>Source\Dungeons\nbt</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\nbt\Int64Tag.cpp">
+      <Filter>Source\Dungeons\nbt</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\nbt\Int64Tag.h">
+      <Filter>Source\Dungeons\nbt</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\nbt\IntArrayTag.cpp">
+      <Filter>Source\Dungeons\nbt</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\nbt\IntArrayTag.h">
+      <Filter>Source\Dungeons\nbt</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\nbt\IntTag.cpp">
+      <Filter>Source\Dungeons\nbt</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\nbt\IntTag.h">
+      <Filter>Source\Dungeons\nbt</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\nbt\ListTag.cpp">
+      <Filter>Source\Dungeons\nbt</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\nbt\ListTag.h">
+      <Filter>Source\Dungeons\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\nbt\NamedTag.h">
+      <Filter>Source\Dungeons\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\nbt\NbtIo.h">
+      <Filter>Source\Dungeons\nbt</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\nbt\ShortTag.cpp">
+      <Filter>Source\Dungeons\nbt</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\nbt\ShortTag.h">
+      <Filter>Source\Dungeons\nbt</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\nbt\StringTag.cpp">
+      <Filter>Source\Dungeons\nbt</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\nbt\StringTag.h">
+      <Filter>Source\Dungeons\nbt</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\nbt\Tag.cpp">
+      <Filter>Source\Dungeons\nbt</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\nbt\Tag.h">
+      <Filter>Source\Dungeons\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\nbt\TagMemoryChunk.h">
+      <Filter>Source\Dungeons\nbt</Filter>
+    </ClInclude>
+    <Filter Include="Source\Dungeons\network">
+      <UniqueIdentifier>{666C55E1-8E6E-4B10-919F-49E08E6A6423}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Dungeons\network\BinaryStream.cpp">
+      <Filter>Source\Dungeons\network</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\network\BinaryStream.h">
+      <Filter>Source\Dungeons\network</Filter>
+    </ClInclude>
+    <Filter Include="Source\Dungeons\util">
+      <UniqueIdentifier>{02199403-AC39-4E7E-8BBB-6D3775928511}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Dungeons\util\ArrayWithLength.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\util\Base64.cpp">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\util\Base64.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\util\Bezier.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\util\BlockListSerializer.cpp">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\util\BlockListSerializer.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\util\Bounds.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\util\Boxed.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\util\ClassID.cpp">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\util\ClassID.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\util\CollectionUtils.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\util\ColorFormat.cpp">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\util\ColorFormat.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\util\DataIO.cpp">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\util\DataIO.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\util\DebugStats.cpp">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\util\DebugStats.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\util\Easing.cpp">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\util\Easing.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\util\EntityUtil.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\util\EnumHash.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\util\FilePickerInterface.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\util\FilePickerSettings.cpp">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\util\FilePickerSettings.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\util\FloatRange.cpp">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\util\FloatRange.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\util\GridArea.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\util\GzipUtils.cpp">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\util\GzipUtils.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\util\ItemListSerializer.cpp">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\util\ItemListSerializer.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\util\JSONReadVerifier.cpp">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\util\JSONReadVerifier.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\util\JSONUtils.cpp">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\util\JSONUtils.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\util\KeySpan.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\util\KeyValueInput.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\util\LootTableUtil.cpp">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\util\LootTableUtil.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\util\Math.cpp">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\util\Math.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\util\MovePriorityQueue.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\util\MPMCQueue.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\util\NewType.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\util\NibblePair.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\util\ParameterStringify.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\util\PoolAllocator.cpp">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\util\PoolAllocator.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\util\RakDataIO.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\util\Random.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\util\range.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\util\RetryDelay.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\util\RunningAverage.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\util\SemVersion.cpp">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\util\SemVersion.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\util\SharedLock.cpp">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\util\SharedLock.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\util\SmallSet.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\util\SmoothFloat.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\util\SpinLock.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\util\StringByteInput.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\util\StringByteOutput.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\util\StringHash.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\util\StringUtils.cpp">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\util\StringUtils.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\util\Token.cpp">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\util\Token.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\util\VariantParameterList.cpp">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\util\VariantParameterList.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\util\WeighedRandom.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\util\ZLibUtil.h">
+      <Filter>Source\Dungeons\util</Filter>
+    </ClInclude>
+    <Filter Include="Source\Dungeons\world">
+      <UniqueIdentifier>{00447145-539B-4C78-BEBE-840B8C2DC4CF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Dungeons\world\Container.cpp">
+      <Filter>Source\Dungeons\world</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\Container.h">
+      <Filter>Source\Dungeons\world</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\world\Difficulty.h">
+      <Filter>Source\Dungeons\world</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\world\Direction.h">
+      <Filter>Source\Dungeons\world</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\Facing.cpp">
+      <Filter>Source\Dungeons\world</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\Facing.h">
+      <Filter>Source\Dungeons\world</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\world\Pos.h">
+      <Filter>Source\Dungeons\world</Filter>
+    </ClInclude>
+    <Filter Include="Source\Dungeons\world\attribute">
+      <UniqueIdentifier>{A51BEB8E-6FE9-4E53-BA44-0F28B37DE673}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Dungeons\world\attribute\Attribute.cpp">
+      <Filter>Source\Dungeons\world\attribute</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\attribute\Attribute.h">
+      <Filter>Source\Dungeons\world\attribute</Filter>
+    </ClInclude>
+    <Filter Include="Source\Dungeons\world\entity">
+      <UniqueIdentifier>{A357D2DA-F8FB-4027-8C5C-07E9BEF0B26A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Dungeons\world\entity\Entity.cpp">
+      <Filter>Source\Dungeons\world\entity</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\entity\Entity.h">
+      <Filter>Source\Dungeons\world\entity</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\entity\EntityClassTree.cpp">
+      <Filter>Source\Dungeons\world\entity</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\entity\EntityClassTree.h">
+      <Filter>Source\Dungeons\world\entity</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\entity\EntityDefinitionIdentifier.cpp">
+      <Filter>Source\Dungeons\world\entity</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\entity\EntityDefinitionIdentifier.h">
+      <Filter>Source\Dungeons\world\entity</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\entity\EntityTypes.cpp">
+      <Filter>Source\Dungeons\world\entity</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\entity\EntityTypes.h">
+      <Filter>Source\Dungeons\world\entity</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\entity\Mob.cpp">
+      <Filter>Source\Dungeons\world\entity</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\entity\Mob.h">
+      <Filter>Source\Dungeons\world\entity</Filter>
+    </ClInclude>
+    <Filter Include="Source\Dungeons\world\entity\player">
+      <UniqueIdentifier>{FF274D0D-5FC8-4FBA-A3B1-F8E3AACAEA1E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Dungeons\world\entity\player\Abilities.cpp">
+      <Filter>Source\Dungeons\world\entity\player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\entity\player\Abilities.h">
+      <Filter>Source\Dungeons\world\entity\player</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\entity\player\Player.cpp">
+      <Filter>Source\Dungeons\world\entity\player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\entity\player\Player.h">
+      <Filter>Source\Dungeons\world\entity\player</Filter>
+    </ClInclude>
+    <Filter Include="Source\Dungeons\world\item">
+      <UniqueIdentifier>{EAF5172D-E8BB-41E1-A0E5-839DA190F18C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Dungeons\world\item\Item.cpp">
+      <Filter>Source\Dungeons\world\item</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\item\Item.h">
+      <Filter>Source\Dungeons\world\item</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\item\ItemCategory.cpp">
+      <Filter>Source\Dungeons\world\item</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\item\ItemCategory.h">
+      <Filter>Source\Dungeons\world\item</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\item\ItemInstance.cpp">
+      <Filter>Source\Dungeons\world\item</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\item\ItemInstance.h">
+      <Filter>Source\Dungeons\world\item</Filter>
+    </ClInclude>
+    <Filter Include="Source\Dungeons\world\level">
+      <UniqueIdentifier>{498AFE8E-C380-418A-9D34-14B780CABA0E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\BlockPatternBuilder.cpp">
+      <Filter>Source\Dungeons\world\level</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\BlockPatternBuilder.h">
+      <Filter>Source\Dungeons\world\level</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\BlockPos.cpp">
+      <Filter>Source\Dungeons\world\level</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\BlockPos.h">
+      <Filter>Source\Dungeons\world\level</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\BlockSource.cpp">
+      <Filter>Source\Dungeons\world\level</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\BlockSource.h">
+      <Filter>Source\Dungeons\world\level</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\BlockSourceListener.cpp">
+      <Filter>Source\Dungeons\world\level</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\BlockSourceListener.h">
+      <Filter>Source\Dungeons\world\level</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\ChunkBlockPos.cpp">
+      <Filter>Source\Dungeons\world\level</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\ChunkBlockPos.h">
+      <Filter>Source\Dungeons\world\level</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\ChunkPos.cpp">
+      <Filter>Source\Dungeons\world\level</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\ChunkPos.h">
+      <Filter>Source\Dungeons\world\level</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\FoliageColor.cpp">
+      <Filter>Source\Dungeons\world\level</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\FoliageColor.h">
+      <Filter>Source\Dungeons\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\GameType.h">
+      <Filter>Source\Dungeons\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\GeneratorType.h">
+      <Filter>Source\Dungeons\world\level</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\Level.cpp">
+      <Filter>Source\Dungeons\world\level</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\Level.h">
+      <Filter>Source\Dungeons\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\LevelConstants.h">
+      <Filter>Source\Dungeons\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\LevelListener.h">
+      <Filter>Source\Dungeons\world\level</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\LevelSettings.cpp">
+      <Filter>Source\Dungeons\world\level</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\LevelSettings.h">
+      <Filter>Source\Dungeons\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\Rect2D.h">
+      <Filter>Source\Dungeons\world\level</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\Seasons.cpp">
+      <Filter>Source\Dungeons\world\level</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\Seasons.h">
+      <Filter>Source\Dungeons\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\SubChunkBlockPos.h">
+      <Filter>Source\Dungeons\world\level</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\Tick.cpp">
+      <Filter>Source\Dungeons\world\level</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\Tick.h">
+      <Filter>Source\Dungeons\world\level</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\Weather.cpp">
+      <Filter>Source\Dungeons\world\level</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\Weather.h">
+      <Filter>Source\Dungeons\world\level</Filter>
+    </ClInclude>
+    <Filter Include="Source\Dungeons\world\level\biome">
+      <UniqueIdentifier>{12BDAE79-5E00-4304-8B1C-801F19848715}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\biome\BeachBiome.cpp">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\biome\BeachBiome.h">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\biome\Biome.cpp">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\biome\Biome.h">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\biome\BiomeDecorator.cpp">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\biome\BiomeDecorator.h">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\biome\BiomeInclude.h">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\biome\BiomeSource.cpp">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\biome\BiomeSource.h">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\biome\DesertBiome.cpp">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\biome\DesertBiome.h">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\biome\ExtremeHillsBiome.cpp">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\biome\ExtremeHillsBiome.h">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\biome\FixedBiomeSource.cpp">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\biome\FixedBiomeSource.h">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\biome\FlatBiome.h">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\biome\ForestBiome.cpp">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\biome\ForestBiome.h">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\biome\HellBiome.cpp">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\biome\HellBiome.h">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\biome\IceBiome.cpp">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\biome\IceBiome.h">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\biome\JungleBiome.cpp">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\biome\JungleBiome.h">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\biome\MesaBiome.cpp">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\biome\MesaBiome.h">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\biome\MobSpawnerData.h">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\biome\MobSpawnUtils.cpp">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\biome\MobSpawnUtils.h">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\biome\MushroomIslandBiome.cpp">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\biome\MushroomIslandBiome.h">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\biome\MutatedBiome.cpp">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\biome\MutatedBiome.h">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\biome\MutatedBirchForest.cpp">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\biome\MutatedBirchForest.h">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\biome\MutatedSavannaBiome.cpp">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\biome\MutatedSavannaBiome.h">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\biome\OceanBiome.h">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\biome\PlainsBiome.cpp">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\biome\PlainsBiome.h">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\biome\RiverBiome.h">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\biome\SavannaBiome.cpp">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\biome\SavannaBiome.h">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\biome\StoneBeachBiome.cpp">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\biome\StoneBeachBiome.h">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\biome\SwampBiome.cpp">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\biome\SwampBiome.h">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\biome\TaigaBiome.cpp">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\biome\TaigaBiome.h">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\biome\TheEndBiome.cpp">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\biome\TheEndBiome.h">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\biome\TheEndBiomeDecorator.cpp">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\biome\TheEndBiomeDecorator.h">
+      <Filter>Source\Dungeons\world\level\biome</Filter>
+    </ClInclude>
+    <Filter Include="Source\Dungeons\world\level\block">
+      <UniqueIdentifier>{69212982-631F-4A30-8240-E3C83975F655}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\ActivatorRailBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\ActivatorRailBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\AirBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\AirBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\AnvilBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\AnvilBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\BasePressurePlateBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\BasePressurePlateBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\BaseRailBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\BaseRailBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\BeaconBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\BeaconBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\BedBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\BedBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\BedrockBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\BedrockBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\BeetrootBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\BeetrootBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\Block.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\Block.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\BlockInclude.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\BlockRenderLayer.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\BlockState.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\BlockState.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\BlockVolume.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\BookshelfBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\BookshelfBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\BorderBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\BorderBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\BrewingStandBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\BrewingStandBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\BushBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\BushBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\ButtonBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\ButtonBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\CactusBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\CactusBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\CakeBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\CakeBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\CameraBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\CameraBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\CarrotBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\CarrotBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\CauldronBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\CauldronBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\ChalkboardBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\ChalkboardBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\ChestBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\ChestBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\ChorusFlowerBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\ChorusFlowerBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\ChorusPlantBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\ChorusPlantBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\ClayBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\ClayBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\ClothBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\ClothBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\CocoaBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\CocoaBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\ColoredBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\ColoredBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\ComparatorBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\ComparatorBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\CropBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\CropBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\DaylightDetectorBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\DaylightDetectorBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\DeadBush.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\DeadBush.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\DetectorRailBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\DetectorRailBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\DiodeBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\DiodeBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\DirtBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\DirtBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\DispenserBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\DispenserBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\DoorBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\DoorBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\DoublePlantBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\DoublePlantBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\DragonEggBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\DragonEggBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\DropperBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\DropperBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\EnchantingTableBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\EnchantingTableBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\EnderChestBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\EnderChestBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\EndGatewayBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\EndGatewayBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\EndPortalBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\EndPortalBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\EndPortalFrameBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\EndPortalFrameBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\EndRodBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\EndRodBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\EntityBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\EntityBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\FarmBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\FarmBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\FenceBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\FenceBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\FenceGateBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\FenceGateBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\FireBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\FireBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\FlowerBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\FlowerBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\FlowerPotBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\FlowerPotBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\FurnaceBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\FurnaceBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\GlassBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\GlassBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\GrassBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\GrassBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\GrassPathBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\GrassPathBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\GravelBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\GravelBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\HalfTransparentBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\HalfTransparentBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\HayBlockBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\HayBlockBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\HeavyBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\HeavyBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\HopperBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\HopperBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\HugeMushroomBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\HugeMushroomBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\IceBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\IceBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\InvisibleBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\InvisibleBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\ItemFrameBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\ItemFrameBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\LadderBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\LadderBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\LeafBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\LeafBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\LevelEvent.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\LevelEvent.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\LeverBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\LeverBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\LightGemBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\LightGemBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\LiquidBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\LiquidBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\LiquidBlockDynamic.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\LiquidBlockDynamic.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\LiquidBlockStatic.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\LiquidBlockStatic.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\LogBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\LogBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\MelonBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\MelonBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\MetalBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\MetalBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\MobSpawnerBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\MobSpawnerBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\MonsterEggBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\MonsterEggBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\MultiTextureBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\MultiTextureBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\MushroomBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\MushroomBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\MyceliumBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\MyceliumBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\NetherReactor.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\NetherReactor.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\NetherReactorPattern.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\NetherReactorPattern.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\NetherWartBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\NetherWartBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\NewLeafBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\NewLeafBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\NewLogBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\NewLogBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\NoteBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\NoteBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\ObserverBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\ObserverBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\ObsidianBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\ObsidianBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\OldLeafBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\OldLeafBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\OldLogBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\OldLogBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\OreBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\OreBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\PistonArmBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\PistonArmBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\PistonBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\PistonBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\PodzolBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\PodzolBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\PortalBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\PortalBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\PotatoBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\PotatoBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\PoweredRailBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\PoweredRailBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\PressurePlateBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\PressurePlateBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\PrismarineBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\PrismarineBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\PumpkinBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\PumpkinBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\QuartzBlockBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\QuartzBlockBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\RailBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\RailBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\RedstoneBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\RedstoneBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\RedstoneLampBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\RedstoneLampBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\RedStoneOreBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\RedStoneOreBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\RedstoneTorchBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\RedstoneTorchBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\RedStoneWireBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\RedStoneWireBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\ReedBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\ReedBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\RepeaterBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\RepeaterBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\RotatedPillarBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\RotatedPillarBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\SandBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\SandBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\SandStoneBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\SandStoneBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\Sapling.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\Sapling.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\SeaLanternBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\SeaLanternBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\SignBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\SignBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\SkullBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\SkullBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\SlabBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\SlabBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\SlimeBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\SlimeBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\SnowBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\SnowBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\SoulSandBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\SoulSandBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\SpongeBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\SpongeBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\StainedGlassBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\StainedGlassBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\StainedGlassPaneBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\StainedGlassPaneBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\StairBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\StairBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\StemBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\StemBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\StoneBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\StoneBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\StoneButtonBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\StoneButtonBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\StonecutterBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\StonecutterBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\StoneSlabBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\StoneSlabBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\StructureBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\StructureBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\StructureVoid.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\StructureVoid.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\TallGrass.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\TallGrass.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\ThinFenceBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\ThinFenceBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\TntBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\TntBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\TopSnowBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\TopSnowBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\TorchBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\TorchBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\TransparentBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\TransparentBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\TrapDoorBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\TrapDoorBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\TripWireBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\TripWireBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\TripWireHookBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\TripWireHookBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\VineBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\VineBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\WallBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\WallBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\WaterlilyBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\WaterlilyBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\WebBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\WebBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\WeightedPressurePlateBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\WeightedPressurePlateBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\WoodBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\WoodBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\WoodButtonBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\WoodButtonBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\WoodSlabBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\WoodSlabBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\WoolCarpetBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\WoolCarpetBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\WorkbenchBlock.cpp">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\WorkbenchBlock.h">
+      <Filter>Source\Dungeons\world\level\block</Filter>
+    </ClInclude>
+    <Filter Include="Source\Dungeons\world\level\block\entity">
+      <UniqueIdentifier>{4F249D2A-011B-498B-823F-937F3B45BA8D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\block\entity\BlockEntity.cpp">
+      <Filter>Source\Dungeons\world\level\block\entity</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\entity\BlockEntity.h">
+      <Filter>Source\Dungeons\world\level\block\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\block\entity\BlockEntityRendererId.h">
+      <Filter>Source\Dungeons\world\level\block\entity</Filter>
+    </ClInclude>
+    <Filter Include="Source\Dungeons\world\level\chunk">
+      <UniqueIdentifier>{5FB7232C-653D-4EEA-8999-D5FD2BE7E264}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\chunk\ChunkRefCount.cpp">
+      <Filter>Source\Dungeons\world\level\chunk</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\chunk\ChunkRefCount.h">
+      <Filter>Source\Dungeons\world\level\chunk</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\chunk\ChunkSource.cpp">
+      <Filter>Source\Dungeons\world\level\chunk</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\chunk\ChunkSource.h">
+      <Filter>Source\Dungeons\world\level\chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\chunk\ChunkState.h">
+      <Filter>Source\Dungeons\world\level\chunk</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\chunk\ChunkViewSource.cpp">
+      <Filter>Source\Dungeons\world\level\chunk</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\chunk\ChunkViewSource.h">
+      <Filter>Source\Dungeons\world\level\chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\chunk\DataLayer.h">
+      <Filter>Source\Dungeons\world\level\chunk</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\chunk\EmptyChunkSource.cpp">
+      <Filter>Source\Dungeons\world\level\chunk</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\chunk\EmptyChunkSource.h">
+      <Filter>Source\Dungeons\world\level\chunk</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\chunk\LevelChunk.cpp">
+      <Filter>Source\Dungeons\world\level\chunk</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\chunk\LevelChunk.h">
+      <Filter>Source\Dungeons\world\level\chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\chunk\LevelChunkFormat.h">
+      <Filter>Source\Dungeons\world\level\chunk</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\chunk\MainChunkSource.cpp">
+      <Filter>Source\Dungeons\world\level\chunk</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\chunk\MainChunkSource.h">
+      <Filter>Source\Dungeons\world\level\chunk</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\chunk\NetworkChunkSource.cpp">
+      <Filter>Source\Dungeons\world\level\chunk</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\chunk\NetworkChunkSource.h">
+      <Filter>Source\Dungeons\world\level\chunk</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\chunk\PlayerChunkSource.cpp">
+      <Filter>Source\Dungeons\world\level\chunk</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\chunk\PlayerChunkSource.h">
+      <Filter>Source\Dungeons\world\level\chunk</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\chunk\PostprocessingManager.cpp">
+      <Filter>Source\Dungeons\world\level\chunk</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\chunk\PostprocessingManager.h">
+      <Filter>Source\Dungeons\world\level\chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\chunk\SubLevelChunkFormat.h">
+      <Filter>Source\Dungeons\world\level\chunk</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\chunk\WorldLimitChunkSource.cpp">
+      <Filter>Source\Dungeons\world\level\chunk</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\chunk\WorldLimitChunkSource.h">
+      <Filter>Source\Dungeons\world\level\chunk</Filter>
+    </ClInclude>
+    <Filter Include="Source\Dungeons\world\level\dimension">
+      <UniqueIdentifier>{E5BD4BA0-4120-464F-BAFB-AE6EF88E922A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\dimension\Dimension.cpp">
+      <Filter>Source\Dungeons\world\level\dimension</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\dimension\Dimension.h">
+      <Filter>Source\Dungeons\world\level\dimension</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\dimension\HellDimension.cpp">
+      <Filter>Source\Dungeons\world\level\dimension</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\dimension\HellDimension.h">
+      <Filter>Source\Dungeons\world\level\dimension</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\dimension\NormalDimension.cpp">
+      <Filter>Source\Dungeons\world\level\dimension</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\dimension\NormalDimension.h">
+      <Filter>Source\Dungeons\world\level\dimension</Filter>
+    </ClInclude>
+    <Filter Include="Source\Dungeons\world\level\levelgen">
+      <UniqueIdentifier>{09F2DA7A-F62D-44C6-A55F-C80D713F72B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Dungeons\world\level\levelgen\feature">
+      <UniqueIdentifier>{754AC025-F908-404C-882E-990A1B9EB46A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\feature\BirchFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\BirchFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\feature\BlockBlobFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\BlockBlobFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\feature\CactusFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\CactusFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\feature\ClayFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\ClayFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\feature\DeadBushFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\DeadBushFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\feature\DesertWellFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\DesertWellFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\feature\DoublePlantFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\DoublePlantFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\feature\EndGatewayFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\EndGatewayFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\feature\EndIslandFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\EndIslandFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\feature\EndPodiumFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\EndPodiumFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\feature\FancyTreeFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\FancyTreeFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\feature\Feature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\Feature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\feature\FlowerFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\FlowerFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\feature\GlowStoneFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\GlowStoneFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\feature\GroundBushFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\GroundBushFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\feature\HellFireFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\HellFireFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\feature\HellSpringFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\HellSpringFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\feature\HugeMushroomFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\HugeMushroomFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\feature\IcePatchFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\IcePatchFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\feature\IceSpikeFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\IceSpikeFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\feature\JungleTreeFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\JungleTreeFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\feature\LakeFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\LakeFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\feature\MegaJungleTreeFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\MegaJungleTreeFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\feature\MegaPineTreeFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\MegaPineTreeFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\feature\MegaTreeFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\MegaTreeFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\feature\MelonFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\MelonFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\feature\MonsterRoomFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\MonsterRoomFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\OakFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\feature\OreFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\OreFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\feature\PineFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\PineFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\feature\PumpkinFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\PumpkinFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\feature\ReedsFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\ReedsFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\feature\RoofTreeFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\RoofTreeFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\feature\SandFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\SandFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\feature\SavannaTreeFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\SavannaTreeFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\feature\SpikeFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\SpikeFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\feature\SpringFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\SpringFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\feature\SpruceFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\SpruceFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\feature\SwampTreeFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\SwampTreeFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\feature\TallGrassFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\TallGrassFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\feature\TreeFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\TreeFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\feature\VinesFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\VinesFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\feature\WaterlilyFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\feature\WaterlilyFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <Filter Include="Source\Dungeons\world\level\levelgen\flat">
+      <UniqueIdentifier>{0B709EAC-D0EC-4773-BA29-D99FF34F54FA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\flat\FlatLevelSource.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\flat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\flat\FlatLevelSource.h">
+      <Filter>Source\Dungeons\world\level\levelgen\flat</Filter>
+    </ClInclude>
+    <Filter Include="Source\Dungeons\world\level\levelgen\structure">
+      <UniqueIdentifier>{601E9626-04F2-4743-BA47-E299705A5D46}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\structure\BoundingBox.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\structure\BoundingBox.h">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\structure\EndCityFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\structure\EndCityFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\structure\EndCityPieces.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\structure\EndCityPieces.h">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\structure\MineshaftFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\structure\MineshaftFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\structure\MineshaftPieces.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\structure\MineshaftPieces.h">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\structure\NetherBridgeFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\structure\NetherBridgeFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\structure\NetherBridgePieces.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\structure\NetherBridgePieces.h">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\structure\OceanMonumentFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\structure\OceanMonumentFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\structure\OceanMonumentPieces.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\structure\OceanMonumentPieces.h">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\structure\RandomScatteredLargeFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\structure\RandomScatteredLargeFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\structure\ScatteredFeaturePieces.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\structure\ScatteredFeaturePieces.h">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\structure\StrongholdFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\structure\StrongholdFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\structure\StrongholdPieces.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\structure\StrongholdPieces.h">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\structure\StructureFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\structure\StructureFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\structure\StructureFeatureType.h">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\structure\StructureManager.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\structure\StructureManager.h">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\structure\StructurePiece.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\structure\StructurePiece.h">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\structure\StructurePieceFactory.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\structure\StructurePieceFactory.h">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\structure\StructurePieceType.h">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\structure\StructureStart.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\structure\StructureStart.h">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\structure\StructureTemplate.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\structure\StructureTemplate.h">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\structure\StructureTemplateHelpers.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\structure\StructureTemplateHelpers.h">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\structure\StructureTemplateMapping.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\structure\TemplateStructurePiece.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\structure\TemplateStructurePiece.h">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\structure\VillageFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\structure\VillageFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\structure\VillagePieces.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\structure\VillagePieces.h">
+      <Filter>Source\Dungeons\world\level\levelgen\structure</Filter>
+    </ClInclude>
+    <Filter Include="Source\Dungeons\world\level\levelgen\synth">
+      <UniqueIdentifier>{AE8CCAA8-A6B7-42E4-ABEB-2C60A0034ACB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\synth\ImprovedNoise.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\synth</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\synth\ImprovedNoise.h">
+      <Filter>Source\Dungeons\world\level\levelgen\synth</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\synth\PerlinNoise.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\synth</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\synth\PerlinNoise.h">
+      <Filter>Source\Dungeons\world\level\levelgen\synth</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\synth\PerlinSimplexNoise.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\synth</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\synth\PerlinSimplexNoise.h">
+      <Filter>Source\Dungeons\world\level\levelgen\synth</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\synth\SimplexNoise.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\synth</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\synth\SimplexNoise.h">
+      <Filter>Source\Dungeons\world\level\levelgen\synth</Filter>
+    </ClInclude>
+    <Filter Include="Source\Dungeons\world\level\levelgen\v1">
+      <UniqueIdentifier>{BECFEA8D-1922-4965-8BD8-95DC641DE24E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\v1\EndGatewayChunkSource.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\v1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\v1\EndGatewayChunkSource.h">
+      <Filter>Source\Dungeons\world\level\levelgen\v1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\v1\FarlandsFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\v1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\v1\FarlandsFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\v1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\v1\HellRandomLevelSource.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\v1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\v1\HellRandomLevelSource.h">
+      <Filter>Source\Dungeons\world\level\levelgen\v1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\v1\LargeCaveFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\v1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\v1\LargeCaveFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\v1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\v1\LargeFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\v1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\v1\LargeFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\v1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\v1\LargeHellCaveFeature.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\v1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\v1\LargeHellCaveFeature.h">
+      <Filter>Source\Dungeons\world\level\levelgen\v1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\v1\RandomLevelSource.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\v1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\v1\RandomLevelSource.h">
+      <Filter>Source\Dungeons\world\level\levelgen\v1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\levelgen\v1\TheEndRandomLevelSource.cpp">
+      <Filter>Source\Dungeons\world\level\levelgen\v1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\levelgen\v1\TheEndRandomLevelSource.h">
+      <Filter>Source\Dungeons\world\level\levelgen\v1</Filter>
+    </ClInclude>
+    <Filter Include="Source\Dungeons\world\level\material">
+      <UniqueIdentifier>{F0D4B4C4-E799-4B59-B73D-E58BBF7E1AEC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\material\Material.cpp">
+      <Filter>Source\Dungeons\world\level\material</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\material\Material.h">
+      <Filter>Source\Dungeons\world\level\material</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\material\MaterialType.h">
+      <Filter>Source\Dungeons\world\level\material</Filter>
+    </ClInclude>
+    <Filter Include="Source\Dungeons\world\level\newbiome">
+      <UniqueIdentifier>{E81CE7CF-54D6-4343-A3F7-5CB106EC299C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\newbiome\AddDeepOceanLayer.cpp">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\newbiome\AddDeepOceanLayer.h">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\newbiome\AddEdgeLayer.cpp">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\newbiome\AddEdgeLayer.h">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\newbiome\AddIslandLayer.cpp">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\newbiome\AddIslandLayer.h">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\newbiome\AddMushroomIslandLayer.cpp">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\newbiome\AddMushroomIslandLayer.h">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\newbiome\AddSnowLayer.cpp">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\newbiome\AddSnowLayer.h">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\newbiome\BiomeEdgeLayer.cpp">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\newbiome\BiomeEdgeLayer.h">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\newbiome\BiomeInitLayer.cpp">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\newbiome\BiomeInitLayer.h">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\newbiome\DownfallLayer.cpp">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\newbiome\DownfallLayer.h">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\newbiome\DownfallMixerLayer.cpp">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\newbiome\DownfallMixerLayer.h">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\newbiome\FuzzyZoomLayer.cpp">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\newbiome\FuzzyZoomLayer.h">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\newbiome\IslandLayer.cpp">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\newbiome\IslandLayer.h">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\newbiome\Layer.cpp">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\newbiome\Layer.h">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\newbiome\RareBiomeSpotLayer.cpp">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\newbiome\RareBiomeSpotLayer.h">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\newbiome\RegionHillsLayer.cpp">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\newbiome\RegionHillsLayer.h">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\newbiome\RemoveTooMuchOceanLayer.cpp">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\newbiome\RemoveTooMuchOceanLayer.h">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\newbiome\RiverInitLayer.cpp">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\newbiome\RiverInitLayer.h">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\newbiome\RiverLayer.cpp">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\newbiome\RiverLayer.h">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\newbiome\RiverMixerLayer.cpp">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\newbiome\RiverMixerLayer.h">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\newbiome\ShoreLayer.cpp">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\newbiome\ShoreLayer.h">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\newbiome\SmoothLayer.cpp">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\newbiome\SmoothLayer.h">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\newbiome\SmoothZoomLayer.cpp">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\newbiome\SmoothZoomLayer.h">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\newbiome\VoronoiZoom.cpp">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\newbiome\VoronoiZoom.h">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\newbiome\ZoomLayer.cpp">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\newbiome\ZoomLayer.h">
+      <Filter>Source\Dungeons\world\level\newbiome</Filter>
+    </ClInclude>
+    <Filter Include="Source\Dungeons\world\level\pathfinder">
+      <UniqueIdentifier>{E98330F5-7839-48F1-8EBB-443DF41E5D0B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\pathfinder\BinaryHeap.cpp">
+      <Filter>Source\Dungeons\world\level\pathfinder</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\pathfinder\BinaryHeap.h">
+      <Filter>Source\Dungeons\world\level\pathfinder</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\pathfinder\Node.cpp">
+      <Filter>Source\Dungeons\world\level\pathfinder</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\pathfinder\Node.h">
+      <Filter>Source\Dungeons\world\level\pathfinder</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\pathfinder\Path.cpp">
+      <Filter>Source\Dungeons\world\level\pathfinder</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\pathfinder\Path.h">
+      <Filter>Source\Dungeons\world\level\pathfinder</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\pathfinder\PathFinder.cpp">
+      <Filter>Source\Dungeons\world\level\pathfinder</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\pathfinder\PathFinder.h">
+      <Filter>Source\Dungeons\world\level\pathfinder</Filter>
+    </ClInclude>
+    <Filter Include="Source\Dungeons\world\level\saveddata">
+      <UniqueIdentifier>{8E0F1765-685D-45EF-97E6-6E526D03125B}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\saveddata\SavedData.h">
+      <Filter>Source\Dungeons\world\level\saveddata</Filter>
+    </ClInclude>
+    <Filter Include="Source\Dungeons\world\level\storage">
+      <UniqueIdentifier>{CB86B2C9-5223-4D72-B5B7-C215167D127E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\storage\DBChunkStorage.cpp">
+      <Filter>Source\Dungeons\world\level\storage</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\storage\DBChunkStorage.h">
+      <Filter>Source\Dungeons\world\level\storage</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\storage\DBStorage.cpp">
+      <Filter>Source\Dungeons\world\level\storage</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\storage\DBStorage.h">
+      <Filter>Source\Dungeons\world\level\storage</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\storage\ExternalFileLevelStorage.cpp">
+      <Filter>Source\Dungeons\world\level\storage</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\storage\ExternalFileLevelStorage.h">
+      <Filter>Source\Dungeons\world\level\storage</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\storage\ExternalFileLevelStorageSource.cpp">
+      <Filter>Source\Dungeons\world\level\storage</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\storage\ExternalFileLevelStorageSource.h">
+      <Filter>Source\Dungeons\world\level\storage</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\storage\GameRules.cpp">
+      <Filter>Source\Dungeons\world\level\storage</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\storage\GameRules.h">
+      <Filter>Source\Dungeons\world\level\storage</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\storage\LevelData.cpp">
+      <Filter>Source\Dungeons\world\level\storage</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\storage\LevelData.h">
+      <Filter>Source\Dungeons\world\level\storage</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\storage\LevelStorage.cpp">
+      <Filter>Source\Dungeons\world\level\storage</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\storage\LevelStorage.h">
+      <Filter>Source\Dungeons\world\level\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\storage\LevelStorageSource.h">
+      <Filter>Source\Dungeons\world\level\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\storage\LevelStorageState.h">
+      <Filter>Source\Dungeons\world\level\storage</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\storage\LevelSummary.cpp">
+      <Filter>Source\Dungeons\world\level\storage</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\storage\LevelSummary.h">
+      <Filter>Source\Dungeons\world\level\storage</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\storage\RegionFile.cpp">
+      <Filter>Source\Dungeons\world\level\storage</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\storage\RegionFile.h">
+      <Filter>Source\Dungeons\world\level\storage</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\storage\SavedDataStorage.cpp">
+      <Filter>Source\Dungeons\world\level\storage</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\storage\SavedDataStorage.h">
+      <Filter>Source\Dungeons\world\level\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\storage\StorageVersion.h">
+      <Filter>Source\Dungeons\world\level\storage</Filter>
+    </ClInclude>
+    <Filter Include="Source\Dungeons\world\phys">
+      <UniqueIdentifier>{0F1DEC60-ADA8-4598-B850-E0374A31722F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Dungeons\world\phys\AABB.cpp">
+      <Filter>Source\Dungeons\world\phys</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\phys\AABB.h">
+      <Filter>Source\Dungeons\world\phys</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\phys\HitResult.cpp">
+      <Filter>Source\Dungeons\world\phys</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\phys\HitResult.h">
+      <Filter>Source\Dungeons\world\phys</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\phys\Vec2.cpp">
+      <Filter>Source\Dungeons\world\phys</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\phys\Vec2.h">
+      <Filter>Source\Dungeons\world\phys</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dungeons\world\phys\Vec3.cpp">
+      <Filter>Source\Dungeons\world\phys</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dungeons\world\phys\Vec3.h">
+      <Filter>Source\Dungeons\world\phys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\world\phys\Vec4.h">
+      <Filter>Source\Dungeons\world\phys</Filter>
+    </ClInclude>
+    <Filter Include="Source\Dungeons\world\redstone">
+      <UniqueIdentifier>{DCE17B9E-9E0D-464A-BD35-2D1930EAC6F2}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Dungeons\world\redstone\Redstone.h">
+      <Filter>Source\Dungeons\world\redstone</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Dungeons\world\level\LightLayer.h">
+      <Filter>Source\Dungeons\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\lovika\LovikaLevelActor.h">
+      <Filter>Source\Dungeons\lovika</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\lovika\LovikaLevelSource.h">
+      <Filter>Source\Dungeons\lovika</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\client\renderer\texture\TextureData.h">
+      <Filter>Source\Dungeons\client\renderer\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\GameVersion.h">
+      <Filter>Source\Dungeons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\platform\file.h">
+      <Filter>Source\Dungeons\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dungeons\lovika\LovikaBlockSource.h">
+      <Filter>Source\Dungeons\lovika</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Dungeons\world\level\LightLayer.cpp">
+      <Filter>Source\Dungeons\world\level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dungeons\world\Direction.cpp">
+      <Filter>Source\Dungeons\world</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dungeons\lovika\LovikaLevelActor.cpp">
+      <Filter>Source\Dungeons\lovika</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dungeons\lovika\LovikaLevelSource.cpp">
+      <Filter>Source\Dungeons\lovika</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dungeons\client\renderer\texture\TextureData.cpp">
+      <Filter>Source\Dungeons\client\renderer\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dungeons\GameVersion.cpp">
+      <Filter>Source\Dungeons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dungeons\platform\file.cpp">
+      <Filter>Source\Dungeons\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dungeons\lovika\LovikaBlockSource.cpp">
+      <Filter>Source\Dungeons\lovika</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\Dungeons\platform">
+      <UniqueIdentifier>{a2650326-4c02-45f4-8691-b6b58474ce6f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

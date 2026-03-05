@@ -1,0 +1,178 @@
+{
+  "minecraft:entity": {
+    "format_version": "1.2.0",
+
+    "components": {
+      "minecraft:identifier": {
+        "id": "minecraft:iron_golem"
+      },
+      "minecraft:type_family": {
+        "family": [ "irongolem" ]
+      },
+      "minecraft:nameable": {
+      },
+      "minecraft:collision_box": {
+        "width": 1.4,
+        "height": 1.5
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/golem.json"
+      },
+      "minecraft:health": {
+        "value": 40,
+        "max": 40
+      },
+      "minecraft:movement": {
+        "value": 0.22
+      },
+      "minecraft:navigation.walk": {
+        "can_float": false,
+        "avoid_water": true,
+        "avoid_damage_blocks": true
+      },
+      "minecraft:movement.basic": {
+      },
+			"minecraft:jump.static": {
+			},
+      "minecraft:attack": {
+        "damage": {
+          "range_min": 20,
+          "range_max": 20
+        }
+      },
+      "minecraft:fall_damage": {
+        "value": 0.0
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1.0
+      },
+      "minecraft:behavior.melee_attack": {
+        "priority": 1,
+        "target_dist": 1.0,
+        "track_target": true
+      },
+      "minecraft:behavior.move_towards_target": {
+        "priority": 2,
+        "speed_multiplier": 1.0,
+        "within_radius": 20
+      },
+			"badger:defender": {
+				"priority": 3,
+				"entity_types": [{
+					"filters": {
+						"any_of": [{
+							"test": "is_family",
+							"subject": "other",
+							"value": "player"
+						}]
+					},
+					"max_dist": 20,
+					"walk_speed_multiplier": 1,
+					"sprint_speed_multiplier": 1
+				},
+				{
+					"filters": {
+						"any_of": [{
+							"test": "is_family",
+							"subject": "other",
+							"value": "villager"
+						}]
+					},
+					"max_dist": 20,
+					"walk_speed_multiplier": 1,
+					"sprint_speed_multiplier": 1
+				}]
+			},
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 3,
+        "entity_types": [
+          {
+            "filters": {
+              "any_of": [
+				{
+				  "all_of": [
+				  {
+					"test": "is_on_team",
+					"subject": "self",
+					"value": "wild"
+				  },
+				  {
+					"test": "is_on_team",
+					"subject": "other",
+					"operator": "not",
+					"value": "wild"
+				  }
+				  ]
+				},
+				{
+				  "all_of": [
+				  {
+					"test": "is_on_team",
+					"subject": "self",
+					"value": "red"
+				  },
+				  {
+					"test": "is_on_team",
+					"subject": "other",
+					"operator": "not",
+					"value": "red"
+				  }
+				  ]
+				},
+				{
+				  "all_of": [
+				  {
+					"test": "is_on_team",
+					"subject": "self",
+					"value": "blue"
+				  },
+				  {
+					"test": "is_on_team",
+					"subject": "other",
+					"operator": "not",
+					"value": "blue"
+				  }
+				  ]
+				}
+              ]
+            },
+            "max_dist": 20
+          }
+        ],
+        "must_see": false,
+        "must_reach": true
+      },
+      "minecraft:behavior.move_towards_restriction": {
+        "priority": 5,
+        "speed_multiplier": 1
+      },
+			"minecraft:behavior.desire_direction": {
+				"priority": 6
+			},
+      "minecraft:behavior.loiter": {
+        "priority": 7,
+				"speed_multiplier": 0.8,
+        "structure_tag": "golem_factory"
+      },
+      "minecraft:behavior.offer_flower": {
+        "priority": 8
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 8,
+        "look_distance": 6.0,
+        "probability": 0.2
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 8
+      },
+			"badger:behavior.idle": {
+				"priority": 1000,
+				"probability": 0.99,
+				"max_dist": 5,
+				"speed_multiplier": 0.8
+			},
+	    "minecraft:physics": {
+      }
+    }
+  }
+}

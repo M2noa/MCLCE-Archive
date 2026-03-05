@@ -1,0 +1,15 @@
+{
+  "definition.skeleton": {
+    "textures": {
+      "default": "textures/entity/skeleton/skeleton"
+    },
+    "team_masks": {
+      "default": "textures/entity/team_mask/skeleton"
+    },
+    "geometry": {
+      "default": "geometry.skeleton",
+      "armor1": "geometry.humanoid.armor1",
+      "armor2": "geometry.humanoid.armor2"
+    }
+  }
+}

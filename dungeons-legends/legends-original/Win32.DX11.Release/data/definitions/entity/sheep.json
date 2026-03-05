@@ -1,0 +1,11 @@
+{
+  "definition.sheep": {
+    "textures": {
+      "default": "textures/entity/sheep/sheep"
+    },
+    "geometry": {
+      "default": "geometry.sheep",
+      "sheared": "geometry.sheep.sheared"
+    }
+  }
+}

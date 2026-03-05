@@ -1,0 +1,852 @@
+{"HardwareInfo": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Flavor":"Alpha","Plat":"Win32 debug version","cpuCores":8,"cpuFeatures":"unsupported","cpuName":"GenuineIntel","cpuType":"x64","deviceName":"Win32","graphicsExtensions":"","graphicsRenderer":"","graphicsVendor":"","graphicsVersion":"","isTablet":true,"memorySize":17021300736,"os":"Win32 debug version","screenHeight":0,"screenWidth":0}
+,  "Measurements": {"Count":1}
+ } }
+{"MultiplayerConnectionStateChanged": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","ConnectionType":"","Dim":2,"Flavor":"Alpha","FromState":0,"Mode":1,"Plat":"Win32 debug version","Port":0,"Role":"Server","StateType":"Live","Status":"","ToState":1,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"WorldGenerated": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Flavor":"Alpha","Plat":"Win32 debug version","SaveId":"JWkJAHfqAAA=","WorldSeed":2859232503,"gameMode":1}
+,  "Measurements": {"Count":1}
+ } }
+{"StartClient": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Flavor":"Alpha","Plat":"Win32 debug version","applicationId":"windows.dev","locale":"en_GB"}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Flavor":"Alpha","Plat":"Win32 debug version","ScreenName":"lovika_start_screen","TimeStamp":3.924342153346310}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Flavor":"Alpha","Plat":"Win32 debug version","ScreenName":"start_screen","TimeStamp":34.56699078834932}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Flavor":"Alpha","Plat":"Win32 debug version","ScreenName":"play_screen - worlds","TimeStamp":35.44844900802015}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Flavor":"Alpha","Plat":"Win32 debug version","ScreenName":"create_world_screen","TimeStamp":56.31484906080037}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Flavor":"Alpha","Plat":"Win32 debug version","ScreenName":"progress_screen - local_world_load","TimeStamp":60.02911445763380}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"hud_screen","ServerId":"162130203267072079","TimeStamp":62.33132905428975,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"lovika_tileset_editor_screen","ServerId":"162130203267072079","TimeStamp":62.33730831118684,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"pause_screen","ServerId":"162130203267072079","TimeStamp":71.67672901660089,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"leave_level_screen","ServerId":"162130203267072079","TimeStamp":73.56132046960180,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"performanceMetrics": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Flavor":"Alpha","Plat":"Win32 debug version"}
+,  "Measurements": {"avgEndFrameTimeMS":3.230542182922363,"avgFPS":260.1666564941406,"avgRemainderTimePercent":3.045717716217041,"avgRenderTimeMS":0.7308158278465271,"avgTickTimeMS":2.108662366867065,"fps17orLessCnt":2,"mUnaccountedTimePercent":4.131391525268555,"numSamples":30}
+ } }
+{"performanceMetrics": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"162130203267072079","gameMode":1,"vrMode":false}
+,  "Measurements": {"avgEndFrameTimeMS":1.617042183876038,"avgFPS":291.750,"avgRemainderTimePercent":5.772700786590576,"avgRenderTimeMS":1.435774207115173,"avgTickTimeMS":1.043915629386902,"fps70Plus70Cnt":6,"mUnaccountedTimePercent":2.507187128067017,"numSamples":6}
+ } }
+{"WorldLoaded": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"Plat":"Win32 debug version","WorldSeed":2859232503}
+,  "Measurements": {"Count":1}
+ } }
+{"MultiplayerRoundStart": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","DifficultyLevelId":1,"Dim":2,"Flavor":"Alpha","GameplayModeId":1,"MatchTypeId":0,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","RoundId":"JWkJAHfqAAA=","SectionId":0,"ServerId":"162130203267072079","gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"GameSessionStart": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"Plat":"Win32 debug version","controlType":1,"difficulty":"PEACEFUL","gameMode":1,"gameType":"local","isModded":false,"lefty":false,"onWifi":true,"skinId":"Standard_Alex","splitControls":false,"swapJump":false,"vrMode":false,"worldGeneratorType":"Overworld"}
+,  "Measurements": {"Count":1}
+ } }
+{"PlayerTravelled": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","HasRelevantBuff":false,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"162130203267072079","TravelMethodType":2,"gameMode":1,"vrMode":false}
+,  "Measurements": {"MetersTravelled":3.809999883174896,"NewBiome":0,"PosXAvg":196.9199981689453,"PosYAvg":33.65999603271484,"PosZAvg":-78.40000152587891}
+ } }
+{"PlayerTravelled": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","HasRelevantBuff":false,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"162130203267072079","TravelMethodType":0,"gameMode":1,"vrMode":false}
+,  "Measurements": {"MetersTravelled":53.59999680519104,"NewBiome":0,"PosXAvg":197.0059814453125,"PosYAvg":33.62000656127930,"PosZAvg":-78.39994812011719}
+ } }
+{"PlayerTravelled": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","HasRelevantBuff":false,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"162130203267072079","TravelMethodType":5,"gameMode":1,"vrMode":false}
+,  "Measurements": {"MetersTravelled":131.2199922204018,"NewBiome":0,"PosXAvg":197.0,"PosYAvg":33.81996917724609,"PosZAvg":-78.40010070800781}
+ } }
+{"performanceMetrics": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"Plat":"Win32 debug version","gameMode":1,"vrMode":false}
+,  "Measurements": {"avgEndFrameTimeMS":5.335850238800049,"avgFPS":155.0555572509766,"avgRemainderTimePercent":1.748565673828125,"avgRenderTimeMS":0.5471193194389343,"avgTickTimeMS":5.083668231964111,"fps70Plus70Cnt":9,"mUnaccountedTimePercent":0.3662671744823456,"numSamples":9}
+ } }
+{"performanceMetrics": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"162130203267072079","gameMode":1,"vrMode":false}
+,  "Measurements": {"avgEndFrameTimeMS":1.759338974952698,"avgFPS":242.0,"avgRemainderTimePercent":7.462146759033203,"avgRenderTimeMS":1.312792897224426,"avgTickTimeMS":8.024056434631348,"fps70Plus70Cnt":1,"mUnaccountedTimePercent":2.222486257553101,"numSamples":1}
+ } }
+{"GameSessionComplete": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"Plat":"Win32 debug version","difficulty":"EASY","gameMode":1,"onWifi":true,"playTimeInSeconds":13,"publishedWorld":"on","vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"MultiplayerRoundEnd": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","DifficultyLevelId":1,"Dim":2,"ExitStatusId":0,"Flavor":"Alpha","GameplayModeId":1,"MatchTypeId":0,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","RoundId":"JWkJAHfqAAA=","SectionId":0,"ServerId":"162130203267072079","gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"MultiplayerConnectionStateChanged": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","ConnectionType":"","Dim":2,"Flavor":"Alpha","FromState":1,"Mode":1,"Plat":"Win32 debug version","Port":0,"Role":"Server","StateType":"Live","Status":"","ToState":0,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"MultiplayerConnectionStateChanged": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","ConnectionType":"","Dim":2,"Flavor":"Alpha","FromState":0,"Mode":1,"Plat":"Win32 debug version","Port":0,"Role":"Server","StateType":"Live","Status":"","ToState":1,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"Plat":"Win32 debug version","ScreenName":"lovika_start_screen","TimeStamp":74.99397728632997,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"Plat":"Win32 debug version","ScreenName":"progress_screen - local_world_load","TimeStamp":90.40142048338944,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"hud_screen","ServerId":"162130203267072079","TimeStamp":91.37200538389911,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"lovika_tileset_editor_screen","ServerId":"162130203267072079","TimeStamp":91.37833624559556,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"pause_screen","ServerId":"162130203267072079","TimeStamp":92.68453345796209,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"leave_level_screen","ServerId":"162130203267072079","TimeStamp":93.22788929268572,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"WorldLoaded": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"Plat":"Win32 debug version","WorldSeed":2859232503,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"MultiplayerRoundStart": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","DifficultyLevelId":1,"Dim":2,"Flavor":"Alpha","GameplayModeId":1,"MatchTypeId":0,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","RoundId":"JWkJAHfqAAA=","SectionId":0,"ServerId":"162130203267072079","gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"GameSessionStart": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"Plat":"Win32 debug version","controlType":1,"difficulty":"PEACEFUL","gameMode":1,"gameType":"local","isModded":false,"lefty":false,"onWifi":true,"skinId":"Standard_Alex","splitControls":false,"swapJump":false,"vrMode":false,"worldGeneratorType":"Overworld"}
+,  "Measurements": {"Count":1}
+ } }
+{"PlayerTravelled": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","HasRelevantBuff":false,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"162130203267072079","TravelMethodType":5,"gameMode":1,"vrMode":false}
+,  "Measurements": {"MetersTravelled":38.96999770402908,"NewBiome":0,"PosXAvg":196.9918212890625,"PosYAvg":33.71998214721680,"PosZAvg":-78.39996337890625}
+ } }
+{"performanceMetrics": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"Plat":"Win32 debug version","gameMode":1,"vrMode":false}
+,  "Measurements": {"avgEndFrameTimeMS":4.603313922882080,"avgFPS":151.1250,"avgRemainderTimePercent":2.388062953948975,"avgRenderTimeMS":0.7949326038360596,"avgTickTimeMS":12.56990242004395,"fps70Plus70Cnt":4,"mUnaccountedTimePercent":1.358943700790405,"numSamples":4}
+ } }
+{"performanceMetrics": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"162130203267072079","gameMode":1,"vrMode":false}
+,  "Measurements": {"avgEndFrameTimeMS":2.697201967239380,"avgFPS":234.1000061035156,"avgRemainderTimePercent":5.695028781890869,"avgRenderTimeMS":1.295517325401306,"avgTickTimeMS":2.111860752105713,"fps70Plus70Cnt":5,"mUnaccountedTimePercent":2.299016475677490,"numSamples":5}
+ } }
+{"GameSessionComplete": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"Plat":"Win32 debug version","difficulty":"EASY","gameMode":1,"onWifi":true,"playTimeInSeconds":2,"publishedWorld":"on","vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"MultiplayerRoundEnd": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","DifficultyLevelId":1,"Dim":2,"ExitStatusId":0,"Flavor":"Alpha","GameplayModeId":1,"MatchTypeId":0,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","RoundId":"JWkJAHfqAAA=","SectionId":0,"ServerId":"162130203267072079","gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"MultiplayerConnectionStateChanged": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","ConnectionType":"","Dim":2,"Flavor":"Alpha","FromState":1,"Mode":1,"Plat":"Win32 debug version","Port":0,"Role":"Server","StateType":"Live","Status":"","ToState":0,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"MultiplayerConnectionStateChanged": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","ConnectionType":"","Dim":2,"Flavor":"Alpha","FromState":0,"Mode":1,"Plat":"Win32 debug version","Port":0,"Role":"Server","StateType":"Live","Status":"","ToState":1,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"Plat":"Win32 debug version","ScreenName":"lovika_start_screen","TimeStamp":94.54292482254822,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"Plat":"Win32 debug version","ScreenName":"progress_screen - local_world_load","TimeStamp":101.6672305512176,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"hud_screen","ServerId":"162130203267072079","TimeStamp":102.6188698789650,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"lovika_tileset_editor_screen","ServerId":"162130203267072079","TimeStamp":102.6240289880379,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"hud_screen","ServerId":"162130203267072079","TimeStamp":105.2874187506494,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"lovika_in_game_play_screen","ServerId":"162130203267072079","TimeStamp":105.2962088706335,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"lovika_leveltitle_screen","ServerId":"162130203267072079","TimeStamp":105.3003443751726,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"hud_screen","ServerId":"162130203267072079","TimeStamp":106.0981163069170,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"death_screen","ServerId":"162130203267072079","TimeStamp":106.1132767947549,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"hud_screen","ServerId":"162130203267072079","TimeStamp":107.0374846271666,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"death_screen","ServerId":"162130203267072079","TimeStamp":108.0131014269229,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"hud_screen","ServerId":"162130203267072079","TimeStamp":108.7472372356594,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"pause_screen","ServerId":"162130203267072079","TimeStamp":109.3335627324197,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"leave_level_screen","ServerId":"162130203267072079","TimeStamp":110.4190773653028,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"death_screen","ServerId":"162130203267072079","TimeStamp":110.4542591785643,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"WorldLoaded": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"Plat":"Win32 debug version","WorldSeed":2859232503,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"MultiplayerRoundStart": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","DifficultyLevelId":1,"Dim":2,"Flavor":"Alpha","GameplayModeId":1,"MatchTypeId":0,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","RoundId":"JWkJAHfqAAA=","SectionId":0,"ServerId":"162130203267072079","gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"GameSessionStart": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"Plat":"Win32 debug version","controlType":1,"difficulty":"PEACEFUL","gameMode":1,"gameType":"local","isModded":false,"lefty":false,"onWifi":true,"skinId":"Standard_Alex","splitControls":false,"swapJump":false,"vrMode":false,"worldGeneratorType":"Overworld"}
+,  "Measurements": {"Count":1}
+ } }
+{"PlayerTravelled": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","HasRelevantBuff":false,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"162130203267072079","TravelMethodType":5,"gameMode":1,"vrMode":false}
+,  "Measurements": {"MetersTravelled":50.16999703645706,"NewBiome":0,"PosXAvg":196.9936370849609,"PosYAvg":33.71997833251953,"PosZAvg":-78.39994812011719}
+ } }
+{"PlayerTravelled": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","HasRelevantBuff":false,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"162130203267072079","TravelMethodType":2,"gameMode":1,"vrMode":false}
+,  "Measurements": {"MetersTravelled":2.409999907016754,"NewBiome":0,"PosXAvg":197.3999786376953,"PosYAvg":33.63439941406250,"PosZAvg":-78.40000152587891}
+ } }
+{"PlayerTravelled": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","HasRelevantBuff":false,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"162130203267072079","TravelMethodType":0,"gameMode":1,"vrMode":false}
+,  "Measurements": {"MetersTravelled":34.73999798297882,"NewBiome":0,"PosXAvg":196.9636383056641,"PosYAvg":33.62454223632813,"PosZAvg":-78.39997100830078}
+ } }
+{"ItemDropped": {"Properties": {"AuxType":0,"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"162130203267072079","Type":456,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":3}
+ } }
+{"ItemDropped": {"Properties": {"AuxType":0,"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"162130203267072079","Type":457,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":3}
+ } }
+{"ItemDropped": {"Properties": {"AuxType":0,"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"162130203267072079","Type":262,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":3}
+ } }
+{"ItemDropped": {"Properties": {"AuxType":21,"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"162130203267072079","Type":373,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":3}
+ } }
+{"ItemDropped": {"Properties": {"AuxType":23,"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"162130203267072079","Type":438,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":3}
+ } }
+{"ItemDropped": {"Properties": {"AuxType":0,"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"162130203267072079","Type":345,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":3}
+ } }
+{"performanceMetrics": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"Plat":"Win32 debug version","gameMode":1,"vrMode":false}
+,  "Measurements": {"avgEndFrameTimeMS":3.644644021987915,"avgFPS":190.6428527832031,"avgRemainderTimePercent":3.030133962631226,"avgRenderTimeMS":0.8968946337699890,"avgTickTimeMS":7.686725139617920,"fps70Plus70Cnt":7,"mUnaccountedTimePercent":1.553586125373840,"numSamples":7}
+ } }
+{"performanceMetrics": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"162130203267072079","gameMode":1,"vrMode":false}
+,  "Measurements": {"avgEndFrameTimeMS":3.714661121368408,"avgFPS":161.4444427490234,"avgRemainderTimePercent":9.683729171752930,"avgRenderTimeMS":1.584058880805969,"avgTickTimeMS":1.100044488906860,"fps70Plus70Cnt":9,"mUnaccountedTimePercent":0.5788879394531250,"numSamples":9}
+ } }
+{"performanceMetrics": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"162130203267072079","gameMode":1,"vrMode":false}
+,  "Measurements": {"avgEndFrameTimeMS":2.020756721496582,"avgFPS":221.6190490722656,"avgRemainderTimePercent":5.607006072998047,"avgRenderTimeMS":2.01986551284790,"avgTickTimeMS":0.9280196428298950,"fps70Plus70Cnt":21,"mUnaccountedTimePercent":3.066739797592163,"numSamples":21}
+ } }
+{"performanceMetrics": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"162130203267072079","gameMode":1,"vrMode":false}
+,  "Measurements": {"avgEndFrameTimeMS":2.414765596389771,"avgFPS":209.0,"avgRemainderTimePercent":4.999420166015625,"avgRenderTimeMS":1.890314817428589,"avgTickTimeMS":1.147525429725647,"fps70Plus70Cnt":1,"mUnaccountedTimePercent":2.735270261764526,"numSamples":1}
+ } }
+{"GameSessionComplete": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"Plat":"Win32 debug version","difficulty":"EASY","gameMode":1,"onWifi":true,"playTimeInSeconds":8,"publishedWorld":"on","vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"GameSessionComplete": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"162130203267072079","difficulty":"EASY","gameMode":1,"onWifi":true,"playTimeInSeconds":60,"publishedWorld":"on","vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"MultiplayerRoundEnd": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","DifficultyLevelId":1,"Dim":2,"ExitStatusId":0,"Flavor":"Alpha","GameplayModeId":1,"MatchTypeId":0,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","RoundId":"JWkJAHfqAAA=","SectionId":0,"ServerId":"162130203267072079","gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"WorldGenerated": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"Plat":"Win32 debug version","SaveId":"ZWkJAGrmAQA=","WorldSeed":3830213966,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"MultiplayerConnectionStateChanged": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","ConnectionType":"","Dim":2,"Flavor":"Alpha","FromState":1,"Mode":1,"Plat":"Win32 debug version","Port":0,"Role":"Server","StateType":"Live","Status":"","ToState":0,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"MultiplayerConnectionStateChanged": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","ConnectionType":"","Dim":2,"Flavor":"Alpha","FromState":0,"Mode":1,"Plat":"Win32 debug version","Port":0,"Role":"Server","StateType":"Live","Status":"","ToState":1,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"Plat":"Win32 debug version","ScreenName":"lovika_start_screen","TimeStamp":111.7702159920134,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"Plat":"Win32 debug version","ScreenName":"start_screen","TimeStamp":115.4739648497917,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"Plat":"Win32 debug version","ScreenName":"play_screen - worlds","TimeStamp":116.9644361621981,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"Plat":"Win32 debug version","ScreenName":"create_world_screen","TimeStamp":119.5475829935475,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"Plat":"Win32 debug version","ScreenName":"progress_screen - local_world_load","TimeStamp":124.6205101746133,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"hud_screen","ServerId":"162130203267072079","TimeStamp":125.5441044764032,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"lovika_in_game_play_screen","ServerId":"162130203267072079","TimeStamp":125.5609657043099,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"lovika_leveltitle_screen","ServerId":"162130203267072079","TimeStamp":125.5651087150188,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"hud_screen","ServerId":"162130203267072079","TimeStamp":142.5050238004844,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"pause_screen","ServerId":"162130203267072079","TimeStamp":185.4605493489188,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"leave_level_screen","ServerId":"162130203267072079","TimeStamp":186.1380309578149,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"WorldLoaded": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"Plat":"Win32 debug version","WorldSeed":3830213966,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"MultiplayerRoundStart": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","DifficultyLevelId":1,"Dim":2,"Flavor":"Alpha","GameplayModeId":1,"MatchTypeId":0,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","RoundId":"ZWkJAGrmAQA=","SectionId":0,"ServerId":"162130203267072079","gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"GameSessionStart": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"Plat":"Win32 debug version","controlType":1,"difficulty":"PEACEFUL","gameMode":1,"gameType":"local","isModded":false,"lefty":false,"onWifi":true,"skinId":"Standard_Alex","splitControls":false,"swapJump":false,"vrMode":false,"worldGeneratorType":"Overworld"}
+,  "Measurements": {"Count":1}
+ } }
+{"PlayerTravelled": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","HasRelevantBuff":false,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"162130203267072079","TravelMethodType":0,"gameMode":1,"vrMode":false}
+,  "Measurements": {"MetersTravelled":167.5299963764846,"NewBiome":0,"PosXAvg":201.1441345214844,"PosYAvg":23.36322593688965,"PosZAvg":104.9762649536133}
+ } }
+{"PlayerTravelled": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","HasRelevantBuff":false,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"162130203267072079","TravelMethodType":2,"gameMode":1,"vrMode":false}
+,  "Measurements": {"MetersTravelled":14.02999978512526,"NewBiome":0,"PosXAvg":208.9108276367188,"PosYAvg":22.63609695434570,"PosZAvg":100.3494110107422}
+ } }
+{"PlayerTravelled": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","HasRelevantBuff":false,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"162130203267072079","TravelMethodType":1,"gameMode":1,"vrMode":false}
+,  "Measurements": {"MetersTravelled":26.80999941751361,"NewBiome":0,"PosXAvg":225.0949249267578,"PosYAvg":18.76678466796875,"PosZAvg":88.85038757324219}
+ } }
+{"PlayerTravelled": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","HasRelevantBuff":false,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"162130203267072079","TravelMethodType":1,"gameMode":1,"vrMode":false}
+,  "Measurements": {"MetersTravelled":4.309999909251928,"NewBiome":0,"PosXAvg":222.8352508544922,"PosYAvg":18.61999702453613,"PosZAvg":81.40183258056641}
+ } }
+{"ItemAcquired": {"Properties": {"AcquisitionMethodID":1,"AuxType":23,"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"162130203267072079","Type":438,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ItemAcquired": {"Properties": {"AcquisitionMethodID":1,"AuxType":21,"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"162130203267072079","Type":373,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"HardwareInfo": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Flavor":"Alpha","Plat":"Win32 debug version","cpuCores":8,"cpuFeatures":"unsupported","cpuName":"GenuineIntel","cpuType":"x64","deviceName":"Win32","graphicsExtensions":"","graphicsRenderer":"","graphicsVendor":"","graphicsVersion":"","isTablet":true,"memorySize":17021300736,"os":"Win32 debug version","screenHeight":0,"screenWidth":0}
+,  "Measurements": {"Count":1}
+ } }
+{"MultiplayerConnectionStateChanged": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","ConnectionType":"","Dim":2,"Flavor":"Alpha","FromState":0,"Mode":1,"Plat":"Win32 debug version","Port":0,"Role":"Server","StateType":"Live","Status":"","ToState":1,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"WorldGenerated": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Flavor":"Alpha","Plat":"Win32 debug version","SaveId":"7WkJAEUwAAA=","WorldSeed":4108888428,"gameMode":1}
+,  "Measurements": {"Count":1}
+ } }
+{"StartClient": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Flavor":"Alpha","Plat":"Win32 debug version","applicationId":"windows.dev","locale":"en_GB"}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Flavor":"Alpha","Plat":"Win32 debug version","ScreenName":"lovika_start_screen","TimeStamp":3.722023220929098}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Flavor":"Alpha","Plat":"Win32 debug version","ScreenName":"start_screen","TimeStamp":6.073640662265418}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Flavor":"Alpha","Plat":"Win32 debug version","ScreenName":"play_screen - worlds","TimeStamp":6.708510139847846}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Flavor":"Alpha","Plat":"Win32 debug version","ScreenName":"create_world_screen","TimeStamp":7.869462175027289}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Flavor":"Alpha","Plat":"Win32 debug version","ScreenName":"confirm_screen","TimeStamp":8.637877476394083}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Flavor":"Alpha","Plat":"Win32 debug version","ScreenName":"play_screen - worlds","TimeStamp":9.240403658112134}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Flavor":"Alpha","Plat":"Win32 debug version","ScreenName":"create_world_screen","TimeStamp":9.771579349499516}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Flavor":"Alpha","Plat":"Win32 debug version","ScreenName":"confirm_screen","TimeStamp":10.26081767473870}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Flavor":"Alpha","Plat":"Win32 debug version","ScreenName":"play_screen - worlds","TimeStamp":10.75230429538596}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Flavor":"Alpha","Plat":"Win32 debug version","ScreenName":"create_world_screen","TimeStamp":11.37957713399422}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Flavor":"Alpha","Plat":"Win32 debug version","ScreenName":"progress_screen - local_world_load","TimeStamp":12.44866115608448}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"hud_screen","ServerId":"315252590845405764","TimeStamp":13.51982320204515,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"lovika_in_game_play_screen","ServerId":"315252590845405764","TimeStamp":13.52672808820619,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"lovika_leveltitle_screen","ServerId":"315252590845405764","TimeStamp":13.52979258082268,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"hud_screen","ServerId":"315252590845405764","TimeStamp":14.24157304036621,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"pause_screen","ServerId":"315252590845405764","TimeStamp":68.14043253711307,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"performanceMetrics": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Flavor":"Alpha","Plat":"Win32 debug version"}
+,  "Measurements": {"avgEndFrameTimeMS":4.473666667938232,"avgFPS":119.4166641235352,"avgRemainderTimePercent":5.160921096801758,"avgRenderTimeMS":1.811110138893127,"avgTickTimeMS":10.31580734252930,"fps17orLessCnt":2,"mUnaccountedTimePercent":18.81537437438965,"numSamples":6}
+ } }
+{"performanceMetrics": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"315252590845405764","gameMode":1,"vrMode":false}
+,  "Measurements": {"avgEndFrameTimeMS":2.791692972183228,"avgFPS":153.50,"avgRemainderTimePercent":21.16050529479980,"avgRenderTimeMS":1.123228311538696,"avgTickTimeMS":8.010288238525391,"fps70Plus70Cnt":1,"mUnaccountedTimePercent":2.750309228897095,"numSamples":1}
+ } }
+{"performanceMetrics": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"315252590845405764","gameMode":1,"vrMode":false}
+,  "Measurements": {"avgEndFrameTimeMS":1.852165341377258,"avgFPS":252.4482727050781,"avgRemainderTimePercent":5.857893466949463,"avgRenderTimeMS":1.764199018478394,"avgTickTimeMS":0.5871796011924744,"fps70Plus70Cnt":29,"mUnaccountedTimePercent":2.422662258148193,"numSamples":29}
+ } }
+{"performanceMetrics": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"315252590845405764","gameMode":1,"vrMode":false}
+,  "Measurements": {"avgEndFrameTimeMS":2.757899522781372,"avgFPS":222.5521697998047,"avgRemainderTimePercent":3.496938467025757,"avgRenderTimeMS":1.523534655570984,"avgTickTimeMS":0.4233987629413605,"fps70Plus70Cnt":115,"mUnaccountedTimePercent":0.4489690065383911,"numSamples":115}
+ } }
+{"WorldLoaded": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"Plat":"Win32 debug version","WorldSeed":4108888428}
+,  "Measurements": {"Count":1}
+ } }
+{"MultiplayerRoundStart": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","DifficultyLevelId":1,"Dim":2,"Flavor":"Alpha","GameplayModeId":1,"MatchTypeId":0,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","RoundId":"7WkJAEUwAAA=","SectionId":0,"ServerId":"315252590845405764","gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"GameSessionStart": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"Plat":"Win32 debug version","controlType":1,"difficulty":"PEACEFUL","gameMode":1,"gameType":"local","isModded":false,"lefty":false,"onWifi":true,"skinId":"Standard_Alex","splitControls":false,"swapJump":false,"vrMode":false,"worldGeneratorType":"Overworld"}
+,  "Measurements": {"Count":1}
+ } }
+{"PlayerTravelled": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","HasRelevantBuff":false,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"315252590845405764","TravelMethodType":0,"gameMode":1,"vrMode":false}
+,  "Measurements": {"MetersTravelled":234.2999944481999,"NewBiome":0,"PosXAvg":61.05964660644531,"PosYAvg":31.67252731323242,"PosZAvg":432.5953979492188}
+ } }
+{"PlayerTravelled": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","HasRelevantBuff":false,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"315252590845405764","TravelMethodType":2,"gameMode":1,"vrMode":false}
+,  "Measurements": {"MetersTravelled":12.35999984294176,"NewBiome":0,"PosXAvg":48.77322387695313,"PosYAvg":33.19461059570313,"PosZAvg":420.1158142089844}
+ } }
+{"ItemAcquired": {"Properties": {"AcquisitionMethodID":1,"AuxType":23,"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"315252590845405764","Type":438,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":2}
+ } }
+{"ItemAcquired": {"Properties": {"AcquisitionMethodID":1,"AuxType":21,"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"315252590845405764","Type":373,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"GameSessionComplete": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"315252590845405764","difficulty":"EASY","gameMode":1,"onWifi":true,"playTimeInSeconds":60,"publishedWorld":"on","vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"GameSessionComplete": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"315252590845405764","difficulty":"EASY","gameMode":1,"onWifi":true,"playTimeInSeconds":120,"publishedWorld":"on","vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"GameSessionComplete": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"315252590845405764","difficulty":"EASY","gameMode":1,"onWifi":true,"playTimeInSeconds":180,"publishedWorld":"on","vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"GameSessionComplete": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"315252590845405764","difficulty":"EASY","gameMode":1,"onWifi":true,"playTimeInSeconds":240,"publishedWorld":"on","vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"GameSessionComplete": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"315252590845405764","difficulty":"EASY","gameMode":1,"onWifi":true,"playTimeInSeconds":300,"publishedWorld":"on","vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"performanceMetrics": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"315252590845405764","gameMode":1,"vrMode":false}
+,  "Measurements": {"avgEndFrameTimeMS":2.902562141418457,"avgFPS":216.8333282470703,"avgRemainderTimePercent":3.445254325866699,"avgRenderTimeMS":1.485127925872803,"avgTickTimeMS":0.4457930028438568,"fps70Plus70Cnt":9,"mUnaccountedTimePercent":0.5401343107223511,"numSamples":9}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"leave_level_screen","ServerId":"315252590845405764","TimeStamp":320.9843804506151,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"HardwareInfo": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Flavor":"Alpha","Plat":"Win32 debug version","cpuCores":8,"cpuFeatures":"unsupported","cpuName":"GenuineIntel","cpuType":"x64","deviceName":"Win32","graphicsExtensions":"","graphicsRenderer":"","graphicsVendor":"","graphicsVersion":"","isTablet":true,"memorySize":17021300736,"os":"Win32 debug version","screenHeight":0,"screenWidth":0}
+,  "Measurements": {"Count":1}
+ } }
+{"MultiplayerConnectionStateChanged": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","ConnectionType":"","Dim":2,"Flavor":"Alpha","FromState":0,"Mode":1,"Plat":"Win32 debug version","Port":0,"Role":"Server","StateType":"Live","Status":"","ToState":1,"WorldType":"Local","gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"StartClient": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Flavor":"Alpha","Plat":"Win32 debug version","applicationId":"windows.dev","locale":"en_GB"}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Flavor":"Alpha","Plat":"Win32 debug version","ScreenName":"lovika_start_screen","TimeStamp":3.746232199019378}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Flavor":"Alpha","Plat":"Win32 debug version","ScreenName":"start_screen","TimeStamp":44.83092154827791}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Flavor":"Alpha","Plat":"Win32 debug version","ScreenName":"skin_picker_screen","TimeStamp":46.12676024621818}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Flavor":"Alpha","Plat":"Win32 debug version","ScreenName":"start_screen","TimeStamp":54.19663241614522}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Flavor":"Alpha","Plat":"Win32 debug version","ScreenName":"play_screen - worlds","TimeStamp":59.02241895410609}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Flavor":"Alpha","Plat":"Win32 debug version","ScreenName":"progress_screen - local_world_load","TimeStamp":59.98025798310795,"WorldType":"Local"}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"hud_screen","ServerId":"959267337896459597","TimeStamp":60.78973914479441,"WorldType":"Local","gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"lovika_in_game_play_screen","ServerId":"959267337896459597","TimeStamp":60.79662072232268,"WorldType":"Local","gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"lovika_leveltitle_screen","ServerId":"959267337896459597","TimeStamp":60.79918388180390,"WorldType":"Local","gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"hud_screen","ServerId":"959267337896459597","TimeStamp":61.47745916939885,"WorldType":"Local","gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"pause_screen","ServerId":"959267337896459597","TimeStamp":64.61660380578616,"WorldType":"Local","gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"hud_screen","ServerId":"959267337896459597","TimeStamp":76.02917411193121,"WorldType":"Local","gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"death_screen","ServerId":"959267337896459597","TimeStamp":263.3341470284851,"WorldType":"Local","gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"performanceMetrics": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Flavor":"Alpha","Plat":"Win32 debug version"}
+,  "Measurements": {"avgEndFrameTimeMS":4.606278419494629,"avgFPS":145.5172424316406,"avgRemainderTimePercent":1.911250114440918,"avgRenderTimeMS":1.980318427085876,"avgTickTimeMS":2.184177637100220,"fps17orLessCnt":2,"mUnaccountedTimePercent":4.077633380889893,"numSamples":29}
+ } }
+{"performanceMetrics": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Flavor":"Alpha","Plat":"Win32 debug version","WorldType":"Local"}
+,  "Measurements": {"avgEndFrameTimeMS":3.103555679321289,"avgFPS":209.50,"avgRemainderTimePercent":14.67498207092285,"avgRenderTimeMS":1.068506717681885,"avgTickTimeMS":0.07907469570636749,"fps70Plus70Cnt":1,"mUnaccountedTimePercent":2.002020835876465,"numSamples":1}
+ } }
+{"performanceMetrics": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"959267337896459597","WorldType":"Local","gameMode":1,"vrMode":false}
+,  "Measurements": {"avgEndFrameTimeMS":2.720439434051514,"avgFPS":161.0,"avgRemainderTimePercent":4.705500125885010,"avgRenderTimeMS":1.536136746406555,"avgTickTimeMS":10.03573036193848,"fps70Plus70Cnt":1,"mUnaccountedTimePercent":0.9973918199539185,"numSamples":1}
+ } }
+{"performanceMetrics": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"959267337896459597","WorldType":"Local","gameMode":1,"vrMode":false}
+,  "Measurements": {"avgEndFrameTimeMS":1.775611877441406,"avgFPS":264.2069091796875,"avgRemainderTimePercent":3.655528068542480,"avgRenderTimeMS":1.829281568527222,"avgTickTimeMS":0.6436673998832703,"fps70Plus70Cnt":29,"mUnaccountedTimePercent":0.9035553336143494,"numSamples":29}
+ } }
+{"performanceMetrics": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"959267337896459597","WorldType":"Local","gameMode":1,"vrMode":false}
+,  "Measurements": {"avgEndFrameTimeMS":1.961036443710327,"avgFPS":232.3680572509766,"avgRemainderTimePercent":6.490041255950928,"avgRenderTimeMS":1.953858256340027,"avgTickTimeMS":0.6782524585723877,"fps70Plus70Cnt":72,"mUnaccountedTimePercent":2.510156393051147,"numSamples":72}
+ } }
+{"StartWorld": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Flavor":"Alpha","Plat":"Win32 debug version","WorldType":"Local"}
+,  "Measurements": {"Count":1}
+ } }
+{"WorldLoaded": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"Plat":"Win32 debug version","WorldSeed":4108888428,"WorldType":"Local"}
+,  "Measurements": {"Count":1}
+ } }
+{"MultiplayerRoundStart": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","DifficultyLevelId":1,"Dim":2,"Flavor":"Alpha","GameplayModeId":1,"MatchTypeId":0,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","RoundId":"7WkJAEUwAAA=","SectionId":0,"ServerId":"959267337896459597","WorldType":"Local","gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"GameSessionStart": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"Plat":"Win32 debug version","WorldType":"Local","controlType":1,"difficulty":"PEACEFUL","gameMode":1,"gameType":"local","isModded":false,"lefty":false,"onWifi":true,"skinId":"Standard_Steve","splitControls":false,"swapJump":false,"vrMode":false,"worldGeneratorType":"Overworld"}
+,  "Measurements": {"Count":1}
+ } }
+{"PlayerTravelled": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","HasRelevantBuff":false,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"959267337896459597","TravelMethodType":0,"WorldType":"Local","gameMode":1,"vrMode":false}
+,  "Measurements": {"MetersTravelled":32.93999921157956,"NewBiome":0,"PosXAvg":82.07328033447266,"PosYAvg":30.48723983764648,"PosZAvg":469.5384521484375}
+ } }
+{"PlayerTravelled": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","HasRelevantBuff":false,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"959267337896459597","TravelMethodType":2,"WorldType":"Local","gameMode":1,"vrMode":false}
+,  "Measurements": {"MetersTravelled":3.789999961853027,"NewBiome":0,"PosXAvg":82.39572906494141,"PosYAvg":30.41413307189941,"PosZAvg":470.4085998535156}
+ } }
+{"PlayerTravelled": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","HasRelevantBuff":false,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"959267337896459597","TravelMethodType":0,"WorldType":"Local","gameMode":1,"vrMode":false}
+,  "Measurements": {"MetersTravelled":712.9699832219630,"NewBiome":0,"PosXAvg":58.47795104980469,"PosYAvg":31.46899032592773,"PosZAvg":378.8168029785156}
+ } }
+{"PlayerTravelled": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","HasRelevantBuff":false,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"959267337896459597","TravelMethodType":2,"WorldType":"Local","gameMode":1,"vrMode":false}
+,  "Measurements": {"MetersTravelled":43.30999930948019,"NewBiome":0,"PosXAvg":55.73792648315430,"PosYAvg":31.89696884155273,"PosZAvg":390.4216308593750}
+ } }
+{"PlayerTravelled": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","HasRelevantBuff":false,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"959267337896459597","TravelMethodType":3,"WorldType":"Local","gameMode":1,"vrMode":false}
+,  "Measurements": {"MetersTravelled":2.459999948740005,"NewBiome":0,"PosXAvg":26.40071868896484,"PosYAvg":32.61999893188477,"PosZAvg":285.1309814453125}
+ } }
+{"PlayerTravelled": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","HasRelevantBuff":false,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"959267337896459597","TravelMethodType":1,"WorldType":"Local","gameMode":1,"vrMode":false}
+,  "Measurements": {"MetersTravelled":17.85999961197376,"NewBiome":0,"PosXAvg":118.8280944824219,"PosYAvg":30.62007141113281,"PosZAvg":265.8195190429688}
+ } }
+{"GameSessionComplete": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"959267337896459597","WorldType":"Local","difficulty":"EASY","gameMode":1,"onWifi":true,"playTimeInSeconds":60,"publishedWorld":"on","vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"GameSessionComplete": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"959267337896459597","WorldType":"Local","difficulty":"EASY","gameMode":1,"onWifi":true,"playTimeInSeconds":120,"publishedWorld":"on","vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"GameSessionComplete": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"959267337896459597","WorldType":"Local","difficulty":"EASY","gameMode":1,"onWifi":true,"playTimeInSeconds":180,"publishedWorld":"on","vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ItemAcquired": {"Properties": {"AcquisitionMethodID":1,"AuxType":23,"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"959267337896459597","Type":438,"WorldType":"Local","gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":4}
+ } }
+{"ItemAcquired": {"Properties": {"AcquisitionMethodID":1,"AuxType":21,"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"959267337896459597","Type":373,"WorldType":"Local","gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":2}
+ } }
+{"ItemAcquired": {"Properties": {"AcquisitionMethodID":1,"AuxType":0,"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"959267337896459597","Type":262,"WorldType":"Local","gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":7}
+ } }
+{"ItemDropped": {"Properties": {"AuxType":0,"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"959267337896459597","Type":456,"WorldType":"Local","gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ItemDropped": {"Properties": {"AuxType":0,"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"959267337896459597","Type":457,"WorldType":"Local","gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ItemDropped": {"Properties": {"AuxType":0,"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"959267337896459597","Type":262,"WorldType":"Local","gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ItemDropped": {"Properties": {"AuxType":21,"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"959267337896459597","Type":373,"WorldType":"Local","gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ItemDropped": {"Properties": {"AuxType":23,"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"959267337896459597","Type":438,"WorldType":"Local","gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ItemDropped": {"Properties": {"AuxType":0,"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"959267337896459597","Type":345,"WorldType":"Local","gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"PlayerTravelled": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","HasRelevantBuff":false,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","TravelMethodType":2,"gameMode":1,"vrMode":false}
+,  "Measurements": {"MetersTravelled":0.8399999737739563,"NewBiome":0,"PosXAvg":83.0,"PosYAvg":29.83000183105469,"PosZAvg":480.0}
+ } }
+{"PlayerTravelled": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","HasRelevantBuff":false,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","TravelMethodType":5,"gameMode":1,"vrMode":false}
+,  "Measurements": {"MetersTravelled":276.4799978137016,"NewBiome":0,"PosXAvg":68.96733856201172,"PosYAvg":63.04781723022461,"PosZAvg":351.2812194824219}
+ } }
+{"PlayerTravelled": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","HasRelevantBuff":false,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","TravelMethodType":5,"gameMode":1,"vrMode":false}
+,  "Measurements": {"MetersTravelled":44.51999998092651,"NewBiome":0,"PosXAvg":51.96884155273438,"PosYAvg":59.87143707275391,"PosZAvg":395.2722167968750}
+ } }
+{"PlayerTravelled": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","HasRelevantBuff":false,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","TravelMethodType":5,"gameMode":1,"vrMode":false}
+,  "Measurements": {"MetersTravelled":949.8299975395203,"NewBiome":0,"PosXAvg":194.9556732177734,"PosYAvg":64.19988250732422,"PosZAvg":180.9467315673828}
+ } }
+{"PlayerTravelled": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","HasRelevantBuff":false,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","TravelMethodType":5,"gameMode":1,"vrMode":false}
+,  "Measurements": {"MetersTravelled":142.1999996900558,"NewBiome":0,"PosXAvg":136.6127014160156,"PosYAvg":71.41291046142578,"PosZAvg":194.7611541748047}
+ } }
+{"HardwareInfo": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Flavor":"Alpha","Plat":"Win32 debug version","cpuCores":8,"cpuFeatures":"unsupported","cpuName":"GenuineIntel","cpuType":"x64","deviceName":"Win32","graphicsExtensions":"","graphicsRenderer":"","graphicsVendor":"","graphicsVersion":"","isTablet":true,"memorySize":17021300736,"os":"Win32 debug version","screenHeight":0,"screenWidth":0}
+,  "Measurements": {"Count":1}
+ } }
+{"MultiplayerConnectionStateChanged": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","ConnectionType":"","Dim":2,"Flavor":"Alpha","FromState":0,"Mode":1,"Plat":"Win32 debug version","Port":0,"Role":"Server","StateType":"Live","Status":"","ToState":1,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"StartClient": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Flavor":"Alpha","Plat":"Win32 debug version","applicationId":"windows.dev","locale":"en_GB"}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Flavor":"Alpha","Plat":"Win32 debug version","ScreenName":"lovika_start_screen","TimeStamp":3.829240956349252}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Flavor":"Alpha","Plat":"Win32 debug version","ScreenName":"progress_screen - local_world_load","TimeStamp":6.756832491127905}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"hud_screen","ServerId":"617561481460","TimeStamp":7.572215082581696,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"lovika_in_game_play_screen","ServerId":"617561481460","TimeStamp":7.580785943393208,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"lovika_leveltitle_screen","ServerId":"617561481460","TimeStamp":7.583998189037753,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"hud_screen","ServerId":"617561481460","TimeStamp":8.167139884586712,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"hud_screen","ServerId":"617561481460","TimeStamp":10.08044441266393,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"lovika_tileset_editor_screen","ServerId":"617561481460","TimeStamp":10.09210030929371,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"creative_inventory_screen","ServerId":"617561481460","TimeStamp":23.72117502373332,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"hud_screen","ServerId":"617561481460","TimeStamp":24.51424335239769,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"pause_screen","ServerId":"617561481460","TimeStamp":41.89123836395522,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"hud_screen","ServerId":"617561481460","TimeStamp":117.1885490613139,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"pause_screen","ServerId":"617561481460","TimeStamp":210.6210474583516,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"leave_level_screen","ServerId":"617561481460","TimeStamp":211.4373264445130,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"CraftingSessionCompleted": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","CraftingSessionID":1,"Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","UsedCraftingTable":false,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"performanceMetrics": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Flavor":"Alpha","Plat":"Win32 debug version"}
+,  "Measurements": {"avgEndFrameTimeMS":4.475498199462891,"avgFPS":21.33333396911621,"avgRemainderTimePercent":5.622565746307373,"avgRenderTimeMS":0.7914244532585144,"avgTickTimeMS":20.49417304992676,"fps17orLessCnt":2,"mUnaccountedTimePercent":34.71665573120117,"numSamples":3}
+ } }
+{"performanceMetrics": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","gameMode":1,"vrMode":false}
+,  "Measurements": {"avgEndFrameTimeMS":2.769444465637207,"avgFPS":187.0,"avgRemainderTimePercent":10.36617660522461,"avgRenderTimeMS":1.514091730117798,"avgTickTimeMS":5.315800189971924,"fps70Plus70Cnt":2,"mUnaccountedTimePercent":1.897739410400391,"numSamples":2}
+ } }
+{"performanceMetrics": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","gameMode":1,"vrMode":false}
+,  "Measurements": {"avgEndFrameTimeMS":1.881738185882568,"avgFPS":199.4807739257813,"avgRemainderTimePercent":3.14840555191040,"avgRenderTimeMS":3.264061212539673,"avgTickTimeMS":0.4302243590354919,"fps70Plus70Cnt":26,"mUnaccountedTimePercent":1.215888142585754,"numSamples":26}
+ } }
+{"performanceMetrics": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","gameMode":1,"vrMode":false}
+,  "Measurements": {"avgEndFrameTimeMS":0.3497622609138489,"avgFPS":266.50,"avgRemainderTimePercent":3.914210557937622,"avgRenderTimeMS":3.129036426544189,"avgTickTimeMS":0.7949725389480591,"fps70Plus70Cnt":2,"mUnaccountedTimePercent":2.002008676528931,"numSamples":2}
+ } }
+{"performanceMetrics": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","gameMode":1,"vrMode":false}
+,  "Measurements": {"avgEndFrameTimeMS":1.760020494461060,"avgFPS":179.6692352294922,"avgRemainderTimePercent":2.614546298980713,"avgRenderTimeMS":3.695718050003052,"avgTickTimeMS":0.5793886780738831,"fps70Plus70Cnt":65,"mUnaccountedTimePercent":1.011910438537598,"numSamples":65}
+ } }
+{"performanceMetrics": {"Properties": {"Biome":0,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","gameMode":1,"vrMode":false}
+,  "Measurements": {"avgEndFrameTimeMS":0.4720938503742218,"avgFPS":218.4285736083984,"avgRemainderTimePercent":3.235863208770752,"avgRenderTimeMS":3.869132995605469,"avgTickTimeMS":0.7211058735847473,"fps70Plus70Cnt":7,"mUnaccountedTimePercent":1.481659054756165,"numSamples":7}
+ } }
+{"WorldLoaded": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"Plat":"Win32 debug version","WorldSeed":4108888428}
+,  "Measurements": {"Count":1}
+ } }
+{"MultiplayerRoundStart": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","DifficultyLevelId":1,"Dim":2,"Flavor":"Alpha","GameplayModeId":1,"MatchTypeId":0,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","RoundId":"7WkJAEUwAAA=","SectionId":0,"ServerId":"617561481460","gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"GameSessionStart": {"Properties": {"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"Plat":"Win32 debug version","controlType":1,"difficulty":"PEACEFUL","gameMode":1,"gameType":"local","isModded":false,"lefty":false,"onWifi":true,"skinId":"Standard_Steve","splitControls":false,"swapJump":false,"vrMode":false,"worldGeneratorType":"Overworld"}
+,  "Measurements": {"Count":1}
+ } }
+{"ItemDropped": {"Properties": {"AuxType":0,"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","Type":0,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":4}
+ } }
+{"GameSessionComplete": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","difficulty":"EASY","gameMode":1,"onWifi":true,"playTimeInSeconds":60,"publishedWorld":"on","vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"GameSessionComplete": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","difficulty":"EASY","gameMode":1,"onWifi":true,"playTimeInSeconds":120,"publishedWorld":"on","vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"GameSessionComplete": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","difficulty":"EASY","gameMode":1,"onWifi":true,"playTimeInSeconds":180,"publishedWorld":"on","vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"performanceMetrics": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"Plat":"Win32 debug version","gameMode":1,"vrMode":false}
+,  "Measurements": {"avgEndFrameTimeMS":4.534881591796875,"avgFPS":167.1111145019531,"avgRemainderTimePercent":2.617396354675293,"avgRenderTimeMS":0.8764049410820007,"avgTickTimeMS":5.120409011840820,"fps70Plus70Cnt":9,"mUnaccountedTimePercent":1.830888986587524,"numSamples":9}
+ } }
+{"performanceMetrics": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","gameMode":1,"vrMode":false}
+,  "Measurements": {"avgEndFrameTimeMS":2.198143959045410,"avgFPS":216.5666656494141,"avgRemainderTimePercent":9.352817535400391,"avgRenderTimeMS":1.833539605140686,"avgTickTimeMS":0.9698020219802856,"fps70Plus70Cnt":30,"mUnaccountedTimePercent":2.249499559402466,"numSamples":30}
+ } }
+{"performanceMetrics": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","gameMode":1,"vrMode":false}
+,  "Measurements": {"avgEndFrameTimeMS":2.140128135681152,"avgFPS":233.3873901367188,"avgRemainderTimePercent":5.268197059631348,"avgRenderTimeMS":1.752234816551208,"avgTickTimeMS":0.7978698611259460,"fps70Plus70Cnt":111,"mUnaccountedTimePercent":2.856070041656494,"numSamples":111}
+ } }
+{"GameSessionComplete": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"Plat":"Win32 debug version","difficulty":"EASY","gameMode":1,"onWifi":true,"playTimeInSeconds":204,"publishedWorld":"on","vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"GameSessionComplete": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","difficulty":"EASY","gameMode":1,"onWifi":true,"playTimeInSeconds":60,"publishedWorld":"on","vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"GameSessionComplete": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","difficulty":"EASY","gameMode":1,"onWifi":true,"playTimeInSeconds":120,"publishedWorld":"on","vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"GameSessionComplete": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","difficulty":"EASY","gameMode":1,"onWifi":true,"playTimeInSeconds":180,"publishedWorld":"on","vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"GameSessionComplete": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","difficulty":"EASY","gameMode":1,"onWifi":true,"playTimeInSeconds":240,"publishedWorld":"on","vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"MultiplayerRoundEnd": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","DifficultyLevelId":1,"Dim":0,"ExitStatusId":0,"Flavor":"Alpha","GameplayModeId":1,"MatchTypeId":0,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","RoundId":"7WkJAEUwAAA=","SectionId":0,"ServerId":"617561481460","gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"WorldGenerated": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"Plat":"Win32 debug version","SaveId":"Pm0JAFmAAwA=","WorldSeed":1706634005,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"MultiplayerConnectionStateChanged": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","ConnectionType":"","Dim":0,"Flavor":"Alpha","FromState":1,"Mode":1,"Plat":"Win32 debug version","Port":0,"Role":"Server","StateType":"Live","Status":"","ToState":0,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"MultiplayerConnectionStateChanged": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","ConnectionType":"","Dim":2,"Flavor":"Alpha","FromState":0,"Mode":1,"Plat":"Win32 debug version","Port":0,"Role":"Server","StateType":"Live","Status":"","ToState":1,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"Plat":"Win32 debug version","ScreenName":"lovika_start_screen","TimeStamp":212.7043691044468,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"Plat":"Win32 debug version","ScreenName":"start_screen","TimeStamp":223.5634731601094,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"Plat":"Win32 debug version","ScreenName":"play_screen - worlds","TimeStamp":224.2058650050904,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"Plat":"Win32 debug version","ScreenName":"create_world_screen","TimeStamp":225.3556209953102,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"Plat":"Win32 debug version","ScreenName":"progress_screen - local_world_load","TimeStamp":229.5738794769859,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"hud_screen","ServerId":"617561481460","TimeStamp":230.4894931399533,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"lovika_in_game_play_screen","ServerId":"617561481460","TimeStamp":230.5103579218339,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"lovika_leveltitle_screen","ServerId":"617561481460","TimeStamp":230.5135697724169,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"hud_screen","ServerId":"617561481460","TimeStamp":238.8425241115954,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"WorldLoaded": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"Plat":"Win32 debug version","WorldSeed":1706634005,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"MultiplayerRoundStart": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","DifficultyLevelId":1,"Dim":2,"Flavor":"Alpha","GameplayModeId":1,"MatchTypeId":0,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","RoundId":"Pm0JAFmAAwA=","SectionId":0,"ServerId":"617561481460","gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"GameSessionStart": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"Plat":"Win32 debug version","controlType":1,"difficulty":"PEACEFUL","gameMode":1,"gameType":"local","isModded":false,"lefty":false,"onWifi":true,"skinId":"Standard_Steve","splitControls":false,"swapJump":false,"vrMode":false,"worldGeneratorType":"Overworld"}
+,  "Measurements": {"Count":1}
+ } }
+{"PlayerTravelled": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","HasRelevantBuff":false,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","TravelMethodType":0,"gameMode":1,"vrMode":false}
+,  "Measurements": {"MetersTravelled":237.8499948289245,"NewBiome":0,"PosXAvg":718.354003906250,"PosYAvg":25.50049781799316,"PosZAvg":213.1356201171875}
+ } }
+{"PlayerTravelled": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","HasRelevantBuff":false,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","TravelMethodType":2,"gameMode":1,"vrMode":false}
+,  "Measurements": {"MetersTravelled":17.30999950319529,"NewBiome":0,"PosXAvg":723.4081420898438,"PosYAvg":25.86386108398438,"PosZAvg":211.1805114746094}
+ } }
+{"PlayerTravelled": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","HasRelevantBuff":false,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","TravelMethodType":0,"gameMode":1,"vrMode":false}
+,  "Measurements": {"MetersTravelled":1159.659973010421,"NewBiome":0,"PosXAvg":648.05761718750,"PosYAvg":25.23693275451660,"PosZAvg":107.4236526489258}
+ } }
+{"PlayerTravelled": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","HasRelevantBuff":false,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","TravelMethodType":2,"gameMode":1,"vrMode":false}
+,  "Measurements": {"MetersTravelled":89.70999807119370,"NewBiome":0,"PosXAvg":648.2864990234375,"PosYAvg":24.65451622009277,"PosZAvg":122.9477462768555}
+ } }
+{"PlayerTravelled": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","HasRelevantBuff":false,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","TravelMethodType":3,"gameMode":1,"vrMode":false}
+,  "Measurements": {"MetersTravelled":2.769999951124191,"NewBiome":0,"PosXAvg":743.5486450195313,"PosYAvg":22.61999702453613,"PosZAvg":61.19837951660156}
+ } }
+{"ItemAcquired": {"Properties": {"AcquisitionMethodID":1,"AuxType":23,"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","Type":438,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":4}
+ } }
+{"ItemAcquired": {"Properties": {"AcquisitionMethodID":1,"AuxType":21,"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":2,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","Type":373,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":2}
+ } }
+{"ItemAcquired": {"Properties": {"AcquisitionMethodID":1,"AuxType":0,"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","Type":262,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":7}
+ } }
+{"ItemAcquired": {"Properties": {"AcquisitionMethodID":1,"AuxType":23,"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","Type":438,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"PlayerTravelled": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","HasRelevantBuff":false,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","TravelMethodType":0,"gameMode":1,"vrMode":false}
+,  "Measurements": {"MetersTravelled":1242.639971658587,"NewBiome":0,"PosXAvg":373.7330017089844,"PosYAvg":30.91336822509766,"PosZAvg":162.4839324951172}
+ } }
+{"PlayerTravelled": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","HasRelevantBuff":false,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","TravelMethodType":2,"gameMode":1,"vrMode":false}
+,  "Measurements": {"MetersTravelled":61.27999866753817,"NewBiome":0,"PosXAvg":421.3072814941406,"PosYAvg":30.49560165405273,"PosZAvg":139.9382781982422}
+ } }
+{"PlayerTravelled": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","HasRelevantBuff":false,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","TravelMethodType":1,"gameMode":1,"vrMode":false}
+,  "Measurements": {"MetersTravelled":22.26999954693019,"NewBiome":0,"PosXAvg":332.9669799804688,"PosYAvg":30.74050140380859,"PosZAvg":179.1051177978516}
+ } }
+{"PlayerTravelled": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","HasRelevantBuff":false,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","TravelMethodType":3,"gameMode":1,"vrMode":false}
+,  "Measurements": {"MetersTravelled":3.109999895095825,"NewBiome":0,"PosXAvg":233.3847656250,"PosYAvg":31.61999893188477,"PosZAvg":246.5076293945313}
+ } }
+{"GameSessionComplete": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","difficulty":"EASY","gameMode":1,"onWifi":true,"playTimeInSeconds":300,"publishedWorld":"on","vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"GameSessionComplete": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","difficulty":"EASY","gameMode":1,"onWifi":true,"playTimeInSeconds":360,"publishedWorld":"on","vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"GameSessionComplete": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","difficulty":"EASY","gameMode":1,"onWifi":true,"playTimeInSeconds":420,"publishedWorld":"on","vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"GameSessionComplete": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","difficulty":"EASY","gameMode":1,"onWifi":true,"playTimeInSeconds":480,"publishedWorld":"on","vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"GameSessionComplete": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","difficulty":"EASY","gameMode":1,"onWifi":true,"playTimeInSeconds":540,"publishedWorld":"on","vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ItemAcquired": {"Properties": {"AcquisitionMethodID":1,"AuxType":21,"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","Type":373,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":2}
+ } }
+{"ItemAcquired": {"Properties": {"AcquisitionMethodID":1,"AuxType":23,"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","Type":438,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":3}
+ } }
+{"ItemAcquired": {"Properties": {"AcquisitionMethodID":1,"AuxType":0,"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","Type":262,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":7}
+ } }
+{"performanceMetrics": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","gameMode":1,"vrMode":false}
+,  "Measurements": {"avgEndFrameTimeMS":1.818948149681091,"avgFPS":245.1933288574219,"avgRemainderTimePercent":5.382816791534424,"avgRenderTimeMS":1.900162339210510,"avgTickTimeMS":0.7459877133369446,"fps70Plus70Cnt":150,"mUnaccountedTimePercent":2.510672092437744,"numSamples":150}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"pause_screen","ServerId":"617561481460","TimeStamp":711.3900818212022,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"hud_screen","ServerId":"617561481460","TimeStamp":735.2005411553417,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"pause_screen","ServerId":"617561481460","TimeStamp":749.1690105011317,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"hud_screen","ServerId":"617561481460","TimeStamp":751.7946304021214,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"PlayerTravelled": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","HasRelevantBuff":false,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","TravelMethodType":0,"gameMode":1,"vrMode":false}
+,  "Measurements": {"MetersTravelled":1002.689976476133,"NewBiome":0,"PosXAvg":63.85991287231445,"PosYAvg":26.89114189147949,"PosZAvg":132.54785156250}
+ } }
+{"PlayerTravelled": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","HasRelevantBuff":false,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","TravelMethodType":2,"gameMode":1,"vrMode":false}
+,  "Measurements": {"MetersTravelled":91.30999823659658,"NewBiome":0,"PosXAvg":50.84689712524414,"PosYAvg":25.96546554565430,"PosZAvg":109.4462738037109}
+ } }
+{"PlayerTravelled": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","HasRelevantBuff":false,"Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","TravelMethodType":1,"gameMode":1,"vrMode":false}
+,  "Measurements": {"MetersTravelled":3.209999948740005,"NewBiome":0,"PosXAvg":128.3225250244141,"PosYAvg":31.356933593750,"PosZAvg":226.3835601806641}
+ } }
+{"GameSessionComplete": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","difficulty":"EASY","gameMode":1,"onWifi":true,"playTimeInSeconds":600,"publishedWorld":"on","vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"GameSessionComplete": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","difficulty":"EASY","gameMode":1,"onWifi":true,"playTimeInSeconds":660,"publishedWorld":"on","vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"GameSessionComplete": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","difficulty":"EASY","gameMode":1,"onWifi":true,"playTimeInSeconds":720,"publishedWorld":"on","vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"GameSessionComplete": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","difficulty":"EASY","gameMode":1,"onWifi":true,"playTimeInSeconds":780,"publishedWorld":"on","vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ItemAcquired": {"Properties": {"AcquisitionMethodID":1,"AuxType":0,"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","Type":262,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":6}
+ } }
+{"ItemAcquired": {"Properties": {"AcquisitionMethodID":1,"AuxType":23,"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","Type":438,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":4}
+ } }
+{"ItemAcquired": {"Properties": {"AcquisitionMethodID":1,"AuxType":21,"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","Type":373,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":4}
+ } }
+{"performanceMetrics": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ServerId":"617561481460","gameMode":1,"vrMode":false}
+,  "Measurements": {"avgEndFrameTimeMS":2.025904893875122,"avgFPS":226.3333282470703,"avgRemainderTimePercent":5.550117492675781,"avgRenderTimeMS":2.000969886779785,"avgTickTimeMS":0.7737839818000793,"fps70Plus70Cnt":114,"mUnaccountedTimePercent":2.607250928878784,"numSamples":114}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"pause_screen","ServerId":"617561481460","TimeStamp":843.0638174562697,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"hud_screen","ServerId":"617561481460","TimeStamp":850.4075696167627,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"lovika_levelend_screen","ServerId":"617561481460","TimeStamp":1021.226135614366,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"hud_screen","ServerId":"617561481460","TimeStamp":1022.433900075496,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"pause_screen","ServerId":"617561481460","TimeStamp":1037.200656118259,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }
+{"ScreenChanged": {"Properties": {"Biome":1,"Build":"0.15.0","Cheevos":true,"ClientId":"e5ef4eda3f5b45dd8ed95589ad0bcd96","Dim":0,"Flavor":"Alpha","Mode":1,"MultiplayerCorrelationId":"","Plat":"Win32 debug version","ScreenName":"leave_level_screen","ServerId":"617561481460","TimeStamp":1039.334950188662,"gameMode":1,"vrMode":false}
+,  "Measurements": {"Count":1}
+ } }

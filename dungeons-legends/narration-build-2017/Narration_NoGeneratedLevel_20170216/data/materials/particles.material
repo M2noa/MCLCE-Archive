@@ -1,0 +1,28 @@
+{
+  "particles_opaque": {
+    "defines": [ "ENABLE_FOG" ],
+    "states": [ "DisableAlphaWrite" ],
+
+    "vertexShader": "shaders/color_uv.vertex",
+    "fragmentShader": "shaders/color_texture.fragment"
+  },
+
+	"particles_alpha": {
+
+    "defines": [ "ALPHA_TEST", "ENABLE_FOG" ],
+    "states": [ "DisableAlphaWrite" ],
+		
+		"vertexShader" : "shaders/color_uv.vertex",
+		"fragmentShader" : "shaders/color_texture.fragment"
+	},
+
+  "particles_alpha_blended": {
+    "defines": [ "ENABLE_FOG" ],
+    "states": [ "DisableCulling", "DisableDepthWrite", "Blending" ],
+    "blendSrc": "SourceAlpha",
+    "blendDst": "OneMinusSrcAlpha",
+    
+    "vertexShader" : "shaders/color_uv.vertex",
+    "fragmentShader" : "shaders/color_texture.fragment"
+  }
+}

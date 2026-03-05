@@ -1,0 +1,10 @@
+{
+  "definition.cow": {
+    "textures": {
+      "default": "textures/entity/cow/cow"
+    },
+    "geometry": {
+      "default": "geometry.cow"
+    }
+  }
+}

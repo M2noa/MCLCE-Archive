@@ -1,0 +1,83 @@
+{
+  "postfx_base": {
+    "states": [
+      "DisableDepthTest"
+    ],
+    "depthFunc": "Always",
+    "samplerStates": [
+      {
+        "samplerIndex": 0,
+        "textureFilter": "Bilinear"
+      }
+    ]
+  },
+
+  "convolutionX:postfx_base": {
+    "vertexShader": "shaders/convolution.vertex",
+    "fragmentShader": "shaders/convolution.fragment",
+    "defines":["X_INCREMENT 0.0078125", "Y_INCREMENT 0.0"]
+  },
+  "convolutionY:postfx_base": {
+    "vertexShader": "shaders/convolution.vertex",
+    "fragmentShader": "shaders/convolution.fragment",
+    "defines":["Y_INCREMENT 0.0078125", "X_INCREMENT 0.0"]
+  },
+
+  "postfx_textured_blend": {
+    "states": [
+      "DisableDepthTest",
+      "Blending"
+    ],
+
+    "vertexShader": "shaders/uv.vertex",
+    "fragmentShader": "shaders/add_blend.fragment",
+
+    "blendSrc": "SourceAlpha",
+    "blendDst": "One",
+
+    "samplerStates": [
+      {
+        "samplerIndex": 0,
+        "textureFilter": "Bilinear"
+      },
+      {
+        "samplerIndex": 1,
+        "textureFilter": "Bilinear"
+      }
+    ]
+  },
+
+  "postfx_textured_bilinear": {
+    "states": [
+      "DisableDepthTest"
+    ],
+
+    "vertexShader": "shaders/uv.vertex",
+    "fragmentShader": "shaders/texture.fragment",
+
+    "samplerStates": [
+      {
+        "samplerIndex": 0,
+        "textureFilter": "Bilinear"
+      }
+    ]
+  },
+
+  "postfx_textured_blit": {
+    "states": [
+      "DisableDepthTest"
+    ],
+
+    "vertexShader": "shaders/uv.vertex",
+    "fragmentShader": "shaders/texture.fragment"
+  },
+
+  "postfx_grading_blit": {
+    "states": [
+      "DisableDepthTest"
+    ],
+
+    "vertexShader": "shaders/uv.vertex",
+    "fragmentShader": "shaders/texture_grading.fragment"
+  }
+}

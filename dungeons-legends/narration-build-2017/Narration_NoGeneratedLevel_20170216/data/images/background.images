@@ -1,0 +1,10 @@
+{
+"textures":[
+		"gui/background/panorama_0.png",
+		"gui/background/panorama_1.png",
+		"gui/background/panorama_2.png",
+		"gui/background/panorama_3.png",
+		"gui/background/panorama_4.png",
+		"gui/background/panorama_5.png"
+]
+}

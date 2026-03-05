@@ -1,0 +1,15 @@
+{
+  "definition.spider": {
+    "textures": {
+      "default": "textures/entity/spider/spider",
+      "cave_spider": "textures/entity/spider/cave_spider"
+    },
+    "team_masks": {
+      "default": "textures/entity/team_mask/spider",
+      "cave_spider": "textures/entity/team_mask/spider"
+    },
+    "geometry": {
+      "default": "geometry.spider"
+    }
+  }
+}

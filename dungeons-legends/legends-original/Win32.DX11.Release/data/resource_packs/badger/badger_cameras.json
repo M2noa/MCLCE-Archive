@@ -1,0 +1,244 @@
+{
+  //////////////////////////////////// Fixed Cameras
+  //"Strategic_View"
+  "fixed_camera0": {
+    //This is the distance of the camera from Steve.
+    "distance": 90.0,
+
+    //This is the tranaslation offset of the "Badger Fixed" and "Badger Follow" cameras.
+    "offset": [0.0, 0.0, 0.0],
+
+    //This is the downward angle of the camera.
+    "pitch": 90,
+
+    //This is the downard angle that Steve faces in the "Badger Follow" and "Badger Orbit" cameras.
+    "head_pitch": 35.0,
+
+    //This is the FOV that this camera will use (overrides the default value)
+    "fov": 80.0,
+
+    //This controls how quickly the fixed camera rotates (percentage rotation per tick, ie. 0.1 == 10% rotation per tick)
+    "lerp": 0.05,
+
+    //This controls whether the left stick allows the player to move a placement cursor around when holding a structure
+    "follow_structure_placement": true
+  },
+
+  //"fixed_fov55_p47_d22.5"
+  "fixed_camera1_UNUSED": {
+    //This is the distance of the camera from Steve.
+    "distance": 22.5,
+
+    //This is the tranaslation offset of the "Badger Fixed" and "Badger Follow" cameras.
+    "offset": [0.0, 0.0, 0.0],
+
+    //This is the downward angle of the camera.
+    "pitch": 47.0,
+
+    //This is the downard angle that Steve faces in the "Badger Follow" and "Badger Orbit" cameras.
+    "head_pitch": 35.0,
+
+    //This is the FOV that this camera will use (overrides the default value)
+    "fov": 55.0,
+
+    //This controls how quickly the fixed camera rotates (percentage rotation per tick, ie. 0.1 == 10% rotation per tick)
+    "lerp": 0.05,
+
+    //This controls whether the left stick allows the player to move a placement cursor around when holding a structure
+    "follow_structure_placement": true
+  },
+
+  //////////////////////////////////// Free Cameras
+  //"orbit_fov70_p35_p55_d15"
+  "free_camera2_UNUSED": {
+    //This is the distance of the camera from Steve.
+    "distance": 15,
+
+    //This is the tranaslation offset of the "Badger Fixed" and "Badger Follow" cameras.
+    "offset": [0.0, 0.0, 0.0],
+
+    //This is the downward angle the orbit camera is initalized with.
+    "pitch": 45.0,
+
+    //This is the maximum downward angle the player can look at (MC default is -90.0).
+    "pitch_min": 35.0,
+
+    //This is the maximum upward angle the player can look at (MC default is 90.0).
+    "pitch_max": 55.0,
+
+    //This is the downard angle that Steve faces in the "Badger Follow" and "Badger Orbit" cameras.
+    "head_pitch": 35.0,
+
+    //This is the FOV that this camera will use (overrides the default value)
+    "fov": 70.0,
+
+    //This controls whether the left stick allows the player to move a placement cursor around when holding a structure
+    "follow_structure_placement": true
+  },
+
+  //"Far_fov65_p20_p65_d18"
+  "free_camera0": {
+    //This is the distance of the camera from Steve.
+    "distance": 18,
+
+    //This is the tranaslation offset of the cameras.
+    "offset": [0.0, 0.0, 0.0],
+
+    //This is the downward angle the orbit camera is initialized with.
+    "pitch": 45,
+
+    //This is the maximum downward angle the player can look at (MC default is -90.0).
+    "pitch_min": 20,
+
+    //This is the maximum upward angle the player can look at (MC default is 90.0).
+    "pitch_max": 65,
+
+    //This is the downard angle that Steve faces in the "Badger Follow" and "Badger Orbit" cameras.
+    "head_pitch": 35.0,
+
+    //This is the FOV that this camera will use (overrides the default value)
+    "fov": 65.0,
+
+    //This controls whether the left stick allows the player to move a placement cursor around when holding a structure
+    "follow_structure_placement": true
+  },
+
+  //"free_fov70_d12.5"
+  "free_camera3_UNUSED": {
+    //This is the distance of the camera from Steve.
+    "distance": 12.5,
+
+    //This is the tranaslation offset of the cameras.
+    "offset": [0.0, 0.0, 0.0],
+
+    //This is the downward angle the orbit camera is initalized with.
+    "pitch": 40.0,
+
+    //This is the maximum downward angle the player can look at (MC default is -90.0).
+    "pitch_min": 0.0,
+
+    //This is the maximum upward angle the player can look at (MC default is 90.0).
+    "pitch_max": 85.0,
+
+    //This is the downard angle that Steve faces in the "Badger Follow" and "Badger Orbit" cameras.
+    "head_pitch": 35.0,
+
+    //This is the FOV that this camera will use (overrides the default value)
+    "fov": 70.0,
+
+    //This controls how quickly the fixed camera rotates (percentage rotation per tick, ie. 0.1 == 10% rotation per tick)
+    "lerp": 0.05,
+
+    //This controls whether the left stick allows the player to move a placement cursor around when holding a structure
+    "follow_structure_placement": true
+  },
+
+  //"Close_fov55_p15_p70_d16.5"
+  "free_camera1": {
+    //This is the distance of the camera from Steve.
+    "distance": 16.5,
+
+    //This is the tranaslation offset of the cameras.
+    "offset": [0.0, 0.0, 0.0],
+
+    //This is the downward angle the orbit camera is initalized with.
+    "pitch": 45.0,
+
+    //This is the maximum downward angle the player can look at (MC default is -90.0).
+    "pitch_min": 15.0,
+
+    //This is the maximum upward angle the player can look at (MC default is 90.0).
+    "pitch_max": 70.0,
+
+    //This is the downard angle that Steve faces in the "Badger Follow" and "Badger Orbit" cameras.
+    "head_pitch": 35.0,
+
+    //This is the FOV that this camera will use (overrides the default value)
+    "fov": 55.0,
+
+    //This controls how quickly the fixed camera rotates (percentage rotation per tick, ie. 0.1 == 10% rotation per tick)
+    "lerp": 0.05,
+
+    //This controls whether the left stick allows the player to move a placement cursor around when holding a structure
+    "follow_structure_placement": true
+  },
+
+  //////////////////////////////////// Follow Cameras
+  //"follow_fov70_d10"
+  "follow_camera0_UNUSED": {
+    //This is the distance of the camera from Steve.
+    "distance": 10,
+
+    //This is the tranaslation offset of the "Badger Fixed" and "Badger Follow" cameras.
+    "offset": [0.0, 0.0, 0.0],
+
+    //This is the downward angle the camera will try to approach.
+    "pitch": 40.0,
+
+    //This is the maximum downward angle the player can look at (MC default is -90.0).
+    "pitch_min": 0.0,
+
+    //This is the maximum upward angle the player can look at (MC default is 90.0).
+    "pitch_max": 85.0,
+
+    //This is the downard angle that Steve faces in the "Badger Follow" and "Badger Orbit" cameras.
+    "head_pitch": 35.0,
+
+    //This is the FOV that this camera will use (overrides the default value)
+    "fov": 70.0,
+
+    //Below are a bunch of tweaks for manipulating the follow camera
+    // +/- max angle in degrees per frame that the camera offset can swing about the player
+    "follow_clamp": 1.0,
+    // The fractional rate per frame that the swing (from above) rate to zero
+    "follow_rate": 1,
+    // The fractional rate per second that the camera tries to get behind the player (0.1 == 90% swing offset, 10% right behind the player)
+    "follow_lerp": 0.002,
+    // The velocity Steve has to travel in order for the camera to try and swing behind him
+    "follow_velocity": 0.1,
+    // The delay in seconds before the camera attempts to swing behind the player after some movement AND the right stick is released
+    "follow_delay": 0.5,
+
+    //This controls whether the left stick allows the player to move a placement cursor around when holding a structure
+    "follow_structure_placement": true
+  },
+
+  //"follow_fov55_d17.5"
+  "follow_camera1_UNUSED": {
+    //This is the distance of the camera from Steve.
+    "distance": 17.5,
+
+    //This is the tranaslation offset of the "Badger Fixed" and "Badger Follow" cameras.
+    "offset": [0.0, 0.0, 0.0],
+
+    //This is the downward angle the camera will try to approach.
+    "pitch": 40.0,
+
+    //This is the maximum downward angle the player can look at (MC default is -90.0).
+    "pitch_min": 0.0,
+
+    //This is the maximum upward angle the player can look at (MC default is 90.0).
+    "pitch_max": 85.0,
+
+    //This is the downard angle that Steve faces in the "Badger Follow" and "Badger Orbit" cameras.
+    "head_pitch": 35.0,
+
+    //This is the FOV that this camera will use (overrides the default value)
+    "fov": 55.0,
+
+    //Below are a bunch of tweaks for manipulating the follow camera
+    // +/- max angle in degrees per frame that the camera offset can swing about the player
+    "follow_clamp": 1.0,
+    // The fractional rate per frame that the swing (from above) rate to zero
+    "follow_rate": 1,
+    // The fractional rate per second that the camera tries to get behind the player (0.1 == 90% swing offset, 10% right behind the player)
+    "follow_lerp": 0.002,
+    // The velocity Steve has to travel in order for the camera to try and swing behind him
+    "follow_velocity": 0.1,
+    // The delay in seconds before the camera attempts to swing behind the player after some movement AND the right stick is released
+    "follow_delay": 0.5,
+
+    //This controls whether the left stick allows the player to move a placement cursor around when holding a structure
+    "follow_structure_placement": true
+  }
+}

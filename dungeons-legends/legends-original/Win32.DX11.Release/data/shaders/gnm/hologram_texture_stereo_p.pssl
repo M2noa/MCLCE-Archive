@@ -1,0 +1,13 @@
+// DO NOT HAVE THIS INCLUDE BE THE FIRST LINE!  we need a #define to be respected in the .fxh file
+#include "ShaderConstantsGNM.h"
+
+struct PS_Input
+{
+	float4	position		: S_POSITION;
+	float2	uv				: TEXCOORD_0; // the stereo texture uses a texture array
+};
+
+float4 main( in PS_Input PSInput ) : S_TARGET_OUTPUT
+{
+	return TEXTURE_0.Sample(TextureSampler0, PSInput.uv);
+}

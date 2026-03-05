@@ -1,0 +1,16 @@
+{
+"textures":[
+"font/default8.png",
+"gui/background.png",
+"gui/bg32.png",
+"gui/cursor.png",
+"gui/default_world.png",
+"gui/gui.png",
+"gui/gui2.png",
+"gui/icons.png",
+"gui/spritesheet.png",
+"gui/title.png",
+"gui/touchgui.png",
+"gui/touchgui2.png"
+]
+}

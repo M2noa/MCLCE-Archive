@@ -1,0 +1,283 @@
+{
+  "namespace": "xbl_login",
+
+  "language_icon": {
+    "type": "image",
+    "texture": "gui/newgui/Language16.png",
+    "layer": 3,
+    "uv": [ 0, 0 ],
+    "uv_size": [ 16, 16 ],
+    "size": [ 18, 18 ]
+  },
+
+  "text_label": {
+    "type": "label",
+    "shadow": false,
+    "layer": 2
+  },
+
+  "play_button_text@common.button_text": {
+    "text": "xbox.signin"
+  },
+
+  "messageline1_pocket": {
+    "type": "label",
+    "shadow": false,
+    "wrap": true,
+    "alignment": "top_middle",
+    "text": "xbox.signin.error.pocket.line1",
+    "visible": "$pocket_edition"
+  },
+
+  "messageline2_pocket": {
+    "type": "label",
+    "shadow": false,
+    "wrap": true,
+    "alignment": "top_middle",
+    "text": "xbox.signin.error.pocket.line2",
+    "visible": "$pocket_edition"
+  },
+
+  "messageline3_pocket": {
+    "type": "label",
+    "shadow": false,
+    "wrap": true,
+    "alignment": "top_middle",
+    "text": "xbox.signin.error.pocket.line3",
+    "visible": "$pocket_edition"
+  },
+
+
+  "xbl_login_screen@common.base_screen": {
+    "button_mappings": [
+      {
+        "from_button_id": "button.menu_up",
+        "to_button_id": "button.menu_up",
+        "mapping_type": "global",
+        "scope": "view"
+      },
+      {
+        "from_button_id": "button.menu_down",
+        "to_button_id": "button.menu_down",
+        "mapping_type": "global",
+        "scope": "view"
+      },
+      {
+        "from_button_id": "button.menu_left",
+        "to_button_id": "button.menu_left",
+        "mapping_type": "global",
+        "scope": "view"
+      },
+      {
+        "from_button_id": "button.menu_right",
+        "to_button_id": "button.menu_right",
+        "mapping_type": "global",
+        "scope": "view"
+      }
+    ],
+    "$screen_content": "xbl_login.xbl_login_screen_content"
+  },
+
+  "xbl_login_screen_content": {
+    "type": "panel",
+    "variables": [
+      {
+        "requires": "$win10_edition",
+        "$win10_visible": true,
+        "$pocket_visible": false
+      },
+      {
+        "requires": "$pocket_edition",
+        "$win10_visible": false,
+        "$pocket_visible": true
+      }
+    ],
+    "controls": [
+
+      {
+        "title_panel": {
+          "type": "panel",          
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "controls": [
+            {
+              "win10_title_image": {
+                "type": "image",
+                "size": [ "55%", "10.6%x" ],
+                "offset": [ 0, "10%" ],
+                "anchor_from": "top_middle",
+                "anchor_to": "top_middle",
+                "layer": 1,
+                "texture": "gui/titleOriginal.png",
+                "uv": [ 0, 0 ],
+                "uv_size": [ 1936, 375 ],
+                "visible": "$win10_visible"
+              }
+            },
+            {
+              "pocket_title_image": {
+                "type": "image",
+                "size": [ "100%", "12.5%x" ],
+                "offset": [ 0, "10%" ],
+                "anchor_from": "top_middle",
+                "anchor_to": "top_middle",
+                "layer": 1,
+                "texture": "gui/title.png",
+                "uv": [ 0, 0 ],
+                "uv_size": [ 512, 64 ],
+                "visible": "$pocket_visible"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "copyright@text_label": {
+          "alignment": "bottom_left",
+          "text": "menu.copyright"
+        }
+      },
+      {
+        "development_version@text_label": {
+          "alignment": "bottom_middle",
+          "text": "#development_version",
+          "bindings": [
+            {
+              "binding_name": "#development_version",
+              "binding_condition": "visible"
+            }
+          ]
+        }
+      },
+      {
+        "version@text_label": {
+          "alignment": "bottom_right",
+          "text": "#version",
+          "bindings": [
+            {
+              "binding_name": "#version",
+              "binding_condition": "visible"
+            }
+          ]
+        }
+      },
+      {
+        "language@common.button": {
+          "$pressed_button_name": "button.menu_language",
+          "size": [ 24, 24 ],
+          "offset": [ "-5%", "-10%" ],
+          "anchor_to": "bottom_right",
+          "anchor_from": "bottom_right",
+          "controls": [
+            {
+              "default@common.button_state_default": {
+                "controls": [
+                  { "@xbl_login.language_icon": { } }
+                ]
+              }
+            },
+            {
+              "hover@common.button_state_hover": {
+                "controls": [
+                  { "@xbl_login.language_icon": { } }
+                ]
+              }
+            },
+            {
+              "pressed@common.button_state_pressed": {
+                "controls": [
+                  { "@xbl_login.language_icon": { } }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "message_panel": {
+          "type": "panel",
+          "size": [ "80%", "20%" ],
+          "controls": [
+            {
+              "messageline_win10": {
+                "type": "label",
+                "shadow": false,
+                "wrap": true,
+                "alignment": "top_middle",
+                "text": "xbox.signin.error",
+                "visible": "$win10_edition"
+              }
+            },                        
+            {
+              "messageline_pocket_panel": {
+                "type": "panel",
+                "controls": [
+                  { "@messageline1_pocket": { } },
+                  {
+                    "@messageline2_pocket": {
+                      "offset": [ 0, 20 ]
+                    }
+                  },
+                  {
+                    "@messageline3_pocket": {
+                      "offset": [ 0, 30 ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "button_panel": {
+          "type": "panel",
+          "anchor_to": "bottom_middle",
+          "anchor_from": "bottom_middle",
+          "size": [ "35%", "13%" ],
+          "offset": [ 0, "-10%" ],
+          "controls": [
+            {
+              "play@common.button": {
+                "size": [ "100%", "100%" ],
+                "$pressed_button_name": "button.menu_play",
+                "controls": [
+                  {
+                    "default@common.button_state_default": {
+                      "controls": [
+                        { "@xbl_login.play_button_text": { } }
+                      ]
+                    }
+                  },
+                  {
+                    "hover@common.button_state_hover": {
+                      "controls": [
+                        {
+                          "@xbl_login.play_button_text": {
+                            "color": [ 1.0, 1.0, 0.2 ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "pressed@common.button_state_pressed": {
+                      "controls": [
+                        {
+                          "@xbl_login.play_button_text": {
+                            "color": [ 1.0, 1.0, 0.2 ],
+                            "alpha": 0.65
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "definition.silverfish": {
+    "textures": {
+      "default": "textures/entity/silverfish"
+    },
+    "geometry": {
+      "default": "geometry.silverfish"
+    }
+  }
+}

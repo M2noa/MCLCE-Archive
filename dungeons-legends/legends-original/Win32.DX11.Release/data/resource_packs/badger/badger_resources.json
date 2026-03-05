@@ -1,0 +1,65 @@
+{
+  "resources": {
+    "definitions": [
+      {
+        "type": "villager"
+      },
+      {
+        "type": "wood",
+        "stacks": [
+          [
+            "dirt",
+            "log",
+            "log"
+          ],
+          [
+            "grass",
+            "log",
+            "log"
+          ],
+          [
+            "dirt",
+            "log2",
+            "log2"
+          ],
+          [
+            "grass",
+            "log2",
+            "log2"
+          ]
+        ]
+      },
+      {
+        "type": "stone",
+        "stacks": [
+          [
+            "stone",
+            "air"
+          ]
+        ]
+      },
+      {
+        "type": "iron",
+        "stacks": [
+          [
+            "iron_ore",
+            "air"
+          ]
+        ]
+      },
+      {
+        "type": "diamond",
+        "stacks": [
+          [
+            "diamond_ore",
+            "air"
+          ]
+        ]
+      }
+    ],
+    "special": [
+      "glowstone_dust",
+      "emerald"
+    ]
+  }
+}

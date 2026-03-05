@@ -1,0 +1,7 @@
+Minecraft nyní nabízí možnost zakoupit službu Minecraft Realms. Realms je měsíční předplacená služba, která vám umožní vytvořit si vlastní a vždy online svět Minecraftu.
+Aktuálně nabízíme dvě varianty předplatného, ze kterých si můžete vybrat podle počtu lidí, které chcete současně pozvat ke hře ve vaší říši. Říše pro vás a 2 přátele stojí 3,99 USD/měsíc (nebo v místní měně) a říše pro vás a 10 přátel stojí 7,99 USD/měsíc (nebo v místní měně).
+Pro vás a 10 přátel je k dispozici 30denní zkušební období služby Minecraft Realms. Veškerá nevyužitá část bezplatného zkušebního období propadne, pokud uživatel zakoupí předplatné.
+
+Platba bude stržena z vašeho účtu iTunes při potvrzení nákupu a předplatné se bude automaticky obnovovat, pokud nevypnete funkci automatického obnovování alespoň 24 hodin před koncem aktuálního období. Za obnovení bude platba z vašeho účtu stržena během 24 hodin před koncem aktuálního období. Cena odpovídá variantě předplatného, kterou jste vybrali dříve.
+
+Vaše předplatné může spravovat uživatel a funkci automatického obnovování lze vypnout po nákupu v Nastavení účtu uživatele. Ve hře je také tlačítko, pomocí něhož přejdete k těmto nastavením. Pokud předplatné zrušíte po jeho aktivaci, nebudou vám vráceny peníze za zbývající aktivní období předplatného.

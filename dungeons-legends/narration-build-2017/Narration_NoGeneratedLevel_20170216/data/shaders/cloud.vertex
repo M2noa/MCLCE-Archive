@@ -1,0 +1,46 @@
+// __multiversion__
+// This signals the loading code to prepend either #version 100 or #version 300 es as apropriate.
+
+// To use centroid sampling we need to have version 300 es shaders, which requires changing:
+// attribute to in
+// varying to out when in vertex shaders or in when in fragment shaders
+// defining an out vec4 FragColor and replacing uses of gl_FragColor with FragColor
+// texture2D to texture
+#if __VERSION__ >= 300
+#define attribute in
+#define varying out
+
+#else
+
+
+#endif
+
+uniform MAT4 WORLDVIEWPROJ;
+uniform MAT4 WORLD;
+uniform float RENDER_DISTANCE;
+uniform vec4 FOG_COLOR;
+uniform vec4 CURRENT_COLOR;
+
+attribute mediump vec4 POSITION;
+attribute vec4 COLOR;
+
+varying vec4 color;
+
+const float fogNear = 0.9;
+
+const vec3 inverseLightDirection = vec3(0.62, 0.78, 0.0);
+const float ambient = 0.7;
+
+void main()
+{
+    POS4 pos = WORLDVIEWPROJ * POSITION;
+	POS4 worldPos = WORLD * POSITION;
+ 	gl_Position = pos;
+
+ 	color = COLOR * CURRENT_COLOR;
+
+ 	float depth = length(worldPos.xyz) / RENDER_DISTANCE;
+ 	float fog = max(depth - fogNear, 0.0);
+
+ 	color.a *= 1.0 - fog;
+}

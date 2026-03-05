@@ -1,0 +1,8128 @@
+{
+
+  "buildables": {
+
+    "buildings": [
+
+      {
+
+        "name": "crown_hall",
+
+        "id": 0,
+
+        "art": {
+
+          "nbt_file": "crownhall",
+
+          "ground_offset": 1,
+
+          "description": "Crown Hall",
+
+          "icon": "textures/items/crown"
+
+        },
+
+        "stats": {
+
+          "build_time": 16,
+
+          "health_amount": 1400,
+          "repair_rate": 1400,
+          "built_by_villagers": false,
+
+          "tags": [
+
+            "halls",
+
+            "category-pickaxe",
+
+            "spider_attacks",
+
+            "zombie_attacks",
+
+            "skeleton_attacks",
+
+            "creeper_attacks",
+
+            "wolf_attacks",
+
+            "witch_attacks"
+
+          ],
+
+          "fees": [
+
+            "crown_hall"
+
+          ],
+
+          "rewards": [
+
+            "villager",
+
+            "villager",
+
+            "villager",
+
+            "villager",
+
+            "wood",
+
+            "wood",
+
+            "wood",
+
+            "wood",
+
+            "wood",
+
+            "wood",
+
+            "wood",
+
+            "wood",
+
+            "wood",
+
+            "wood"
+
+          ]
+
+        },
+
+        "turret": [
+
+          "fast_arrow"
+
+        ],
+
+        "upgrades": [
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              }
+
+            ],
+
+            "nbt_file": "crownhall",
+
+            "ground_offset": 1,
+            "build_time": 32,
+            "health_amount": 1400,
+            "repair_rate": 700,
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "mason"
+
+              }
+
+            ],
+
+            "nbt_file": "crownhall_stone",
+
+            "ground_offset": 1,
+            "build_time": 32,
+            "health_amount": 2100,
+            "repair_rate": 2100
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "crownhall",
+
+            "overlay_nbt": [
+
+              "overlay_smith_crownhall"
+
+            ],
+
+            "ground_offset": 1,
+            "build_time": 32,
+            "health_amount": 1400,
+            "repair_rate": 1400,
+            "has_spikes": true
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "mason"
+
+              }
+
+            ],
+
+            "nbt_file": "crownhall_stone",
+
+            "ground_offset": 1,
+            "build_time": 32,
+            "health_amount": 2100,
+            "repair_rate": 1050,
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "crownhall",
+
+            "overlay_nbt": [
+
+              "overlay_smith_crownhall"
+
+            ],
+
+            "ground_offset": 1,
+            "build_time": 32,
+            "health_amount": 1400,
+            "repair_rate": 700,
+            "has_spikes": true,
+
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "mason"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "crownhall_stone",
+
+            "overlay_nbt": [
+
+              "overlay_smith_crownhall"
+
+            ],
+
+            "ground_offset": 1,
+            "build_time": 32,
+            "health_amount": 2100,
+            "repair_rate": 2100,
+            "has_spikes": true
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "mason"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "crownhall_stone",
+
+            "overlay_nbt": [
+
+              "overlay_smith_crownhall"
+
+            ],
+
+            "ground_offset": 1,
+            "build_time": 32,
+            "health_amount": 2100,
+            "repair_rate": 1050,
+            "has_spikes": true,
+
+            "particle_type": "townaura"
+
+          }
+
+        ],
+
+        "tech_tree": {
+
+          "unlocks": [
+
+            "villager_hut",
+
+            "forester_hut",
+
+            "quarry",
+
+            "mine",
+
+            "wall_post",
+
+            "defense_tower",
+
+            "spawner_golem_owned",
+
+            "gate",
+
+            "enchanter",
+
+            "tinkerer"
+
+          ],
+
+          "max_count": 1
+
+        },
+
+        "waypoint": {
+
+          "icon": "textures/ui/crown-waypoint",
+
+          "max_blink_rate": 5.0,
+
+          "team_color": true,
+
+          "visible_to_all": true,
+
+          "strategic_view_only": false
+
+        }
+
+      },
+
+      {
+
+        "name": "forester_hut",
+
+        "id": 1,
+
+        "art": {
+
+          "nbt_file": "forester_hut",
+
+          "description": "Wood Resource",
+
+          "icon": "textures/items/structure_builder_forester"
+
+        },
+
+        "stats": {
+
+          "build_time": 12,
+
+          "health_amount": 700,
+          "repair_rate": 700,
+          "built_by_villagers": false,
+
+          "affect_range": 8,
+
+          "tags": [
+
+            "resource",
+
+            "category-pickaxe",
+
+            "spider_attacks",
+
+            "zombie_attacks",
+
+            "skeleton_attacks",
+
+            "creeper_attacks",
+
+            "wolf_attacks",
+
+            "witch_attacks"
+
+          ],
+
+          "fees": [
+
+            "villager"
+
+          ]
+
+        },
+
+        "upgrades": [
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              }
+
+            ],
+
+            "nbt_file": "forester_hut",
+            "build_time": 24,
+            "health_amount": 700,
+            "repair_rate": 350,
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "mason"
+
+              }
+
+            ],
+
+            "nbt_file": "forester_hut_stone",
+            "build_time": 24,
+            "health_amount": 1050,
+            "repair_rate": 1050
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "forester_hut",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+            "build_time": 24,
+            "health_amount": 700,
+            "repair_rate": 700,
+            "has_spikes": true
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "mason"
+
+              }
+
+            ],
+
+            "nbt_file": "forester_hut_stone",
+            "build_time": 24,
+            "health_amount": 1050,
+            "repair_rate": 525,
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "forester_hut",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+            "build_time": 24,
+            "health_amount": 700,
+
+            "repair_rate": 350,
+
+            "has_spikes": true,
+
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "mason"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "forester_hut_stone",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+            "build_time": 24,
+            "health_amount": 1050,
+            "repair_rate": 1050,
+            "has_spikes": true
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "mason"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "forester_hut_stone",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+            "build_time": 24,
+            "health_amount": 1050,
+            "repair_rate": 525,
+            "has_spikes": true,
+
+            "particle_type": "townaura"
+
+          }
+
+        ],
+
+        "tech_tree": {
+
+          "unlocks": [
+
+            "carpenter"
+
+          ]
+
+        },
+
+        "placement": {
+
+          "resources": [
+
+            {
+
+              "resource": "wood",
+
+              "radius": 6,
+
+              "offset": 0,
+
+              "reward_scale": 5
+
+            }
+
+          ]
+
+        }
+
+      },
+
+      {
+
+        "name": "spawner_wolf_owned",
+
+        "id": 2,
+
+        "art": {
+
+          "nbt_file": "spawner_wolf",
+
+          "description": "Wolf Spawner",
+
+          "icon": "textures/items/structure_builder_wolf",
+
+          "ground_offset": 1,
+
+          "show_debug": true
+
+        },
+
+        "stats": {
+
+          "build_time": 10,
+
+          "capture_time": 2,
+
+          "capture_field_size": 6,
+
+          "health_amount": 300,
+
+          "repair_rate": 0,
+
+          "built_by_villagers": false,
+
+          "tags": [
+
+            "spawner",
+
+            "category-chest",
+
+            "directable"
+
+          ],
+
+          "fees": [
+
+            "emerald",
+
+            "emerald",
+
+            "emerald",
+
+            "emerald"
+
+          ]
+
+        },
+
+        "director": {
+
+          "range": 150,
+
+          "divergence": 5
+
+        },
+
+        "spawner": {
+
+          "type": "Wolf",
+
+          "rate": 5,
+
+          "cap": 12
+
+        },
+
+        "placement": {
+
+          "required_structures": [
+
+            "test_platform"
+
+          ]
+
+        }
+
+      },
+
+      {
+
+        "name": "spawner_skeleton_owned",
+
+        "id": 3,
+
+        "art": {
+
+          "nbt_file": "spawner_skeleton",
+
+          "description": "Skeleton Spawner",
+
+          "icon": "textures/items/structure_builder_skeleton",
+
+          "ground_offset": 1,
+
+          "show_debug": true
+
+        },
+
+        "stats": {
+
+          "build_time": 8,
+
+          "capture_time": 2,
+
+          "capture_field_size": 6,
+
+          "health_amount": 300,
+
+          "repair_rate": 0,
+
+          "built_by_villagers": false,
+
+          "tags": [
+
+            "category-chest",
+
+            "spawner",
+
+            "directable"
+
+          ],
+
+          "fees": [
+
+            "emerald",
+
+            "emerald",
+
+            "emerald",
+
+            "emerald"
+
+          ]
+
+        },
+
+        "director": {
+
+          "range": 150,
+
+          "divergence": 5
+
+        },
+
+        "spawner": {
+
+          "type": "Skeleton",
+
+          "rate": 5,
+
+          "cap": 10,
+
+          "upgrades": [
+
+            {
+
+              "influence": {
+
+                "structure_name": "spawner_skeleton_owned"
+
+              },
+
+              "table": "loot_tables/upgrades/skeleton_default.json"
+
+            }
+
+          ]
+
+        },
+
+        "placement": {
+
+          "required_structures": [
+
+            "test_platform"
+
+          ]
+
+        }
+
+      },
+
+      {
+
+        "name": "spawner_creeper_owned",
+
+        "id": 4,
+
+        "art": {
+
+          "nbt_file": "spawner_creeper",
+
+          "description": "Creeper Spawner",
+
+          "icon": "textures/items/structure_builder_creeper",
+
+          "ground_offset": 1,
+
+          "show_debug": true
+
+        },
+
+        "stats": {
+
+          "build_time": 10,
+
+          "capture_time": 2,
+
+          "capture_field_size": 6,
+
+          "health_amount": 300,
+
+          "repair_rate": 0,
+
+          "built_by_villagers": false,
+
+          "tags": [
+
+            "spawner",
+
+            "category-chest",
+
+            "directable"
+
+          ],
+
+          "fees": [
+
+            "emerald",
+
+            "emerald",
+
+            "emerald",
+
+            "emerald"
+
+          ]
+
+        },
+
+        "director": {
+
+          "range": 150,
+
+          "divergence": 5
+
+        },
+
+        "spawner": {
+
+          "type": "Creeper",
+
+          "rate": 5,
+
+          "cap": 6
+
+        },
+
+        "placement": {
+
+          "required_structures": [
+
+            "test_platform"
+
+          ]
+
+        }
+
+      },
+
+      {
+
+        "name": "spawner_spider_owned",
+
+        "id": 5,
+
+        "art": {
+
+          "nbt_file": "spawner_spider",
+
+          "description": "Spider Spawner",
+
+          "icon": "textures/items/structure_builder_spider",
+
+          "ground_offset": 1,
+
+          "show_debug": true
+
+        },
+
+        "stats": {
+
+          "build_time": 8,
+
+          "capture_time": 2,
+
+          "capture_field_size": 6,
+
+          "health_amount": 300,
+
+          "repair_rate": 0,
+
+          "built_by_villagers": false,
+
+          "tags": [
+
+            "spawner",
+
+            "category-chest",
+
+            "directable"
+
+          ],
+
+          "fees": [
+
+            "emerald",
+
+            "emerald",
+
+            "emerald",
+
+            "emerald"
+
+          ]
+
+        },
+
+        "director": {
+
+          "range": 150,
+
+          "divergence": 5
+
+        },
+
+        "spawner": {
+
+          "type": "Spider",
+
+          "rate": 5,
+
+          "cap": 7
+
+        },
+
+        "placement": {
+
+          "required_structures": [
+
+            "test_platform"
+
+          ]
+
+        }
+
+      },
+
+      {
+
+        "name": "spawner_zombie_owned",
+
+        "id": 6,
+
+        "art": {
+
+          "nbt_file": "spawner_zombie",
+
+          "description": "Zombie Spawner",
+
+          "icon": "textures/items/structure_builder_zombie",
+
+          "ground_offset": 1,
+
+          "show_debug": true
+
+        },
+
+        "stats": {
+
+          "build_time": 8,
+
+          "capture_time": 2,
+
+          "capture_field_size": 6,
+
+          "health_amount": 300,
+
+          "repair_rate": 0,
+
+          "built_by_villagers": false,
+
+          "tags": [
+
+            "spawner",
+
+            "category-chest",
+
+            "directable"
+
+          ],
+
+          "fees": [
+
+            "emerald",
+
+            "emerald",
+
+            "emerald",
+
+            "emerald"
+
+          ]
+
+        },
+
+        "director": {
+
+          "range": 150,
+
+          "divergence": 5
+
+        },
+
+        "spawner": {
+
+          "type": "Zombie",
+
+          "rate": 5,
+
+          "cap": 10,
+
+          "upgrades": [
+
+            {
+
+              "influence": {
+
+                "structure_name": "spawner_zombie_owned"
+
+              },
+
+              "table": "loot_tables/upgrades/zombie_default.json"
+
+            }
+
+          ]
+
+        },
+
+        "placement": {
+
+          "required_structures": [
+
+            "test_platform"
+
+          ]
+
+        }
+
+      },
+
+      {
+
+        "name": "lightning_tower",
+
+        "id": 7,
+
+        "art": {
+
+          "nbt_file": "lightning_tower",
+
+          "description": "Lightning Tower",
+
+          "icon": "textures/items/structure_builder_lightning",
+
+          "show_debug": true
+
+        },
+
+        "stats": {
+
+          "build_time": 20,
+
+          "health_amount": 80,
+
+          "tags": [
+
+            "category-chest"
+
+          ],
+
+          "fees": [
+
+            "iron",
+
+            "iron",
+
+            "iron",
+
+            "iron"
+
+          ]
+
+        }
+
+      },
+
+      {
+
+        "name": "quarry",
+
+        "id": 8,
+
+        "art": {
+
+          "nbt_file": "quarry",
+
+          "ground_offset": 1,
+
+          "description": "Stone Resource",
+
+          "icon": "textures/items/structure_quarry"
+
+        },
+
+        "stats": {
+
+          "build_time": 12,
+
+          "health_amount": 700,
+          "repair_rate": 700,
+          "built_by_villagers": false,
+
+          "tags": [
+
+            "category-pickaxe",
+
+            "resource",
+
+            "spider_attacks",
+
+            "zombie_attacks",
+
+            "skeleton_attacks",
+
+            "creeper_attacks",
+
+            "wolf_attacks",
+
+            "witch_attacks"
+
+          ],
+
+          "fees": [
+
+            "wood",
+
+            "villager"
+
+          ]
+
+        },
+
+        "upgrades": [
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              }
+
+            ],
+
+            "nbt_file": "quarry",
+
+            "ground_offset": 1,
+            "build_time": 24,
+            "health_amount": 700,
+            "repair_rate": 350,
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "mason"
+
+              }
+
+            ],
+
+            "nbt_file": "quarry_stone",
+
+            "ground_offset": 1,
+            "build_time": 24,
+            "health_amount": 1050,
+            "repair_rate": 1050
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "quarry",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+
+            "ground_offset": 1,
+            "build_time": 24,
+            "health_amount": 700,
+            "repair_rate": 700,
+            "has_spikes": true
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "mason"
+
+              }
+
+            ],
+
+            "nbt_file": "quarry_stone",
+
+            "ground_offset": 1,
+            "build_time": 24,
+            "health_amount": 1050,
+            "repair_rate": 525,
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "quarry",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+
+            "ground_offset": 1,
+            "build_time": 24,
+            "health_amount": 700,
+            "repair_rate": 350,
+            "has_spikes": true,
+
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "mason"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "quarry_stone",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+
+            "ground_offset": 1,
+            "build_time": 24,
+            "health_amount": 1050,
+            "repair_rate": 1050,
+            "has_spikes": true
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "mason"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "quarry_stone",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+
+            "ground_offset": 1,
+            "build_time": 24,
+            "health_amount": 1050,
+            "repair_rate": 525,
+            "has_spikes": true,
+
+            "particle_type": "townaura"
+
+          }
+
+        ],
+
+        "tech_tree": {
+
+          "unlocks": [
+
+            "mason"
+
+          ]
+
+        },
+
+        "placement": {
+
+          "resources": [
+
+            {
+
+              "resource": "stone",
+
+              "radius": 0,
+
+              "offset": 2,
+
+              "reward_scale": 1
+
+            }
+
+          ]
+
+        }
+
+      },
+
+      {
+
+        "name": "mine",
+
+        "id": 9,
+
+        "art": {
+
+          "nbt_file": "mine",
+
+          "ground_offset": 0,
+
+          "description": "Iron & Diamond Resource",
+
+          "icon": "textures/items/structure_mine"
+
+        },
+
+        "stats": {
+
+          "build_time": 12,
+
+          "health_amount": 700,
+          "repair_rate": 700,
+          "built_by_villagers": false,
+
+          "tags": [
+
+            "category-pickaxe",
+
+            "resource",
+
+            "spider_attacks",
+
+            "zombie_attacks",
+
+            "skeleton_attacks",
+
+            "creeper_attacks",
+
+            "wolf_attacks",
+
+            "witch_attacks"
+
+          ],
+
+          "fees": [
+
+            "wood",
+
+            "villager"
+
+          ]
+
+        },
+
+        "upgrades": [
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              }
+
+            ],
+
+            "nbt_file": "mine",
+
+            "ground_offset": 1,
+            "build_time": 24,
+            "health_amount": 700,
+            "repair_rate": 350,
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "mason"
+
+              }
+
+            ],
+
+            "nbt_file": "mine_stone",
+
+            "ground_offset": 1,
+            "build_time": 24,
+            "health_amount": 1050,
+            "repair_rate": 1050
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "mine",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+
+            "ground_offset": 1,
+            "build_time": 24,
+            "health_amount": 700,
+            "repair_rate": 700,
+            "has_spikes": true
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "mason"
+
+              }
+
+            ],
+
+            "nbt_file": "mine_stone",
+
+            "ground_offset": 1,
+            "build_time": 24,
+            "health_amount": 1050,
+            "repair_rate": 525,
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "mine",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+
+            "ground_offset": 1,
+            "build_time": 24,
+            "health_amount": 700,
+            "repair_rate": 350,
+            "has_spikes": true,
+
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "mason"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "mine_stone",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+
+            "ground_offset": 1,
+            "build_time": 24,
+            "health_amount": 1050,
+            "repair_rate": 1050,
+            "has_spikes": true
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "mason"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "mine_stone",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+
+            "ground_offset": 1,
+            "build_time": 24,
+            "health_amount": 1050,
+            "repair_rate": 525,
+            "has_spikes": true,
+
+            "particle_type": "townaura"
+
+          }
+
+        ],
+
+        "tech_tree": {
+
+          "unlocks": [
+
+            "smith"
+
+          ]
+
+        },
+
+        "placement": {
+
+          "resources": [
+
+            {
+
+              "resource": "iron",
+
+              "radius": 0,
+
+              "offset": 2,
+
+              "reward_scale": 1
+
+            },
+
+            {
+
+              "resource": "redstone",
+
+              "radius": 0,
+
+              "offset": 2,
+
+              "reward_scale": 1
+
+            },
+
+            {
+
+              "resource": "diamond",
+
+              "radius": 0,
+
+              "offset": 2,
+
+              "reward_scale": 1
+
+            }
+
+          ]
+
+        }
+
+      },
+
+      {
+
+        "name": "wall_panel",
+
+        "id": 10,
+
+        "art": {
+
+          "nbt_file": "wall_wood_1",
+
+          "description": "Wall",
+
+          "icon": "textures/items/structure_builder_wall_section",
+
+          "ground_offset": 1,
+
+          "show_health": false
+
+        },
+
+        "stats": {
+          "build_time": 10,
+          "health_amount": 175,
+          "repair_rate": 175,
+
+          "built_by_villagers": false,
+
+          "tags": [
+
+            "category-none",
+
+            "spider_attacks",
+
+            "zombie_attacks",
+
+            "skeleton_attacks",
+
+            "creeper_attacks",
+
+            "wolf_attacks",
+
+            "witch_attacks",
+            "do_not_target_wall"
+          ]
+
+        },
+
+        "upgrades": [
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              }
+
+            ],
+
+            "nbt_file": "wall_wood_1",
+            "build_time": 15,
+            "health_amount": 175,
+            "repair_rate": 90,
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "mason"
+
+              }
+
+            ],
+
+            "nbt_file": "wall_stone_1",
+            "build_time": 15,
+            "health_amount": 300,
+            "repair_rate": 300
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "wall_wood_iron_1",
+
+            "overlay_nbt": [
+
+              "wall_spikes"
+
+            ],
+            "build_time": 15,
+            "health_amount": 175,
+            "repair_rate": 175,
+
+            "has_spikes": true
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "mason"
+
+              }
+
+            ],
+
+            "nbt_file": "wall_stone_1",
+            "build_time": 15,
+            "health_amount": 300,
+            "repair_rate": 150,
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "wall_wood_iron_1",
+
+            "overlay_nbt": [
+
+              "wall_spikes"
+
+            ],
+            "build_time": 15,
+            "health_amount": 175,
+            "repair_rate": 90,
+            "has_spikes": true,
+
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "mason"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "wall_stone_iron_1",
+
+            "overlay_nbt": [
+
+              "wall_spikes"
+
+            ],
+            "build_time": 15,
+            "health_amount": 300,
+            "repair_rate": 300,
+
+            "has_spikes": true
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "mason"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "wall_stone_iron_1",
+
+            "overlay_nbt": [
+
+              "wall_spikes"
+
+            ],
+            "build_time": 15,
+            "health_amount": 300,
+            "repair_rate": 150,
+            "has_spikes": true,
+
+            "particle_type": "townaura"
+
+          }
+
+        ]
+
+      },
+
+      {
+
+        "name": "wall_post",
+
+        "id": 11,
+
+        "art": {
+
+          "nbt_file": "wall_wood_2",
+
+          "description": "Wall",
+
+          "icon": "textures/items/structure_builder_wall_section",
+
+          "ground_offset": 1,
+
+          "show_health": false
+
+        },
+
+        "stats": {
+          "build_time": 10,
+          "health_amount": 175,
+          "repair_rate": 175,
+
+          "built_by_villagers": false,
+
+          "tags": [
+
+            "category-pickaxe",
+
+            "spider_attacks",
+
+            "zombie_attacks",
+
+            "skeleton_attacks",
+
+            "creeper_attacks",
+
+            "wolf_attacks",
+
+            "witch_attacks",
+            "do_not_target_wall"
+          ],
+
+          "fees": [
+
+            "wood"
+
+          ]
+
+        },
+
+        "upgrades": [
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              }
+
+            ],
+
+            "nbt_file": "wall_wood_2",
+            "build_time": 15,
+            "health_amount": 175,
+            "repair_rate": 90,
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "mason"
+
+              }
+
+            ],
+
+            "nbt_file": "wall_stone_2",
+            "build_time": 15,
+            "health_amount": 300,
+            "repair_rate": 300
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "wall_wood_iron_2",
+
+            "overlay_nbt": [
+
+              "wall_spikes"
+
+            ],
+            "build_time": 15,
+            "health_amount": 175,
+            "repair_rate": 175,
+
+            "has_spikes": true
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "mason"
+
+              }
+
+            ],
+
+            "nbt_file": "wall_stone_2",
+            "build_time": 15,
+            "health_amount": 300,
+            "repair_rate": 150,
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "wall_wood_iron_2",
+
+            "overlay_nbt": [
+
+              "wall_spikes"
+
+            ],
+            "build_time": 15,
+            "health_amount": 175,
+            "repair_rate": 90,
+            "has_spikes": true,
+
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "mason"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "wall_stone_iron_2",
+
+            "overlay_nbt": [
+
+              "wall_spikes"
+
+            ],
+            "build_time": 15,
+            "health_amount": 300,
+            "repair_rate": 300,
+
+            "has_spikes": true,
+
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "mason"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "wall_stone_iron_2",
+
+            "overlay_nbt": [
+
+              "wall_spikes"
+
+            ],
+            "build_time": 15,
+            "health_amount": 300,
+            "repair_rate": 150,
+            "has_spikes": true,
+
+            "particle_type": "townaura"
+
+          }
+
+        ]
+
+      },
+
+      {
+
+        "name": "armorsmith",
+
+        "id": 13,
+
+        "art": {
+
+          "nbt_file": "armorer",
+
+          "description": "Armorer",
+
+          "icon": "textures/items/structure_builder_armorsmith",
+
+          "show_debug": true
+
+        },
+
+        "stats": {
+
+          "build_time": 20,
+
+          "health_amount": 1000,
+
+          "repair_rate": 500,
+
+          "built_by_villagers": false,
+
+          "tags": [
+
+            "category-hammer",
+
+            "spider_attacks",
+
+            "zombie_attacks",
+
+            "skeleton_attacks",
+
+            "creeper_attacks",
+
+            "wolf_attacks",
+
+            "witch_attacks",
+
+            "armorer"
+
+          ],
+
+          "fees": [
+
+            "wood",
+
+            "diamond",
+
+            "diamond",
+
+            "iron",
+
+            "iron",
+
+            "villager"
+
+          ]
+
+        },
+
+        "upgrades": [
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              }
+
+            ],
+
+            "nbt_file": "armorer",
+
+            "build_time": 20,
+
+            "health_amount": 1000,
+
+            "repair_rate": 200,
+
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "mason"
+
+              }
+
+            ],
+
+            "nbt_file": "armorer_stone",
+
+            "build_time": 20,
+
+            "health_amount": 1500,
+
+            "repair_rate": 750
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "armorer",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+
+            "build_time": 20,
+
+            "health_amount": 1000,
+
+            "repair_rate": 500,
+
+            "has_spikes": true
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "mason"
+
+              }
+
+            ],
+
+            "nbt_file": "armorer_stone",
+
+            "build_time": 20,
+
+            "health_amount": 1500,
+
+            "repair_rate": 300,
+
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "armorer",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+
+            "build_time": 20,
+
+            "health_amount": 1000,
+
+            "repair_rate": 200,
+
+            "has_spikes": true,
+
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "mason"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "armorer_stone",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+
+            "build_time": 20,
+
+            "health_amount": 1500,
+
+            "repair_rate": 750,
+
+            "has_spikes": true
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "mason"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "armorer_stone",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+
+            "build_time": 20,
+
+            "health_amount": 1500,
+
+            "repair_rate": 300,
+
+            "has_spikes": true,
+
+            "particle_type": "townaura"
+
+          }
+
+        ],
+
+        "spawner": {
+
+          "type": "Villager",
+
+          "event": "become_armorer",
+
+          "rate": 1,
+
+          "cap": 1,
+
+          "range": 0,
+
+          "undirected_range": 2,
+
+          "upgrades": [
+
+            {
+
+              "influence": {
+
+                "structure_name": "armorsmith"
+
+              },
+
+              "table": "loot_tables/upgrades/villager_armorer_equipment.json"
+
+            }
+
+          ]
+
+        },
+
+        "waypoint": {
+
+          "icon": "textures/items/structure_builder_armorsmith",
+
+          "max_blink_rate": 0.0,
+
+          "team_color": false,
+
+          "visible_to_all": false,
+
+          "strategic_view_only": true
+
+        }
+
+      },
+
+      {
+
+        "name": "enchanter",
+
+        "id": 14,
+
+        "art": {
+
+          "nbt_file": "enchanter",
+
+          "description": "Placeables Shop",
+
+          "icon": "textures/items/structure_enchanter",
+
+          "ground_offset": 0,
+
+          "show_debug": true
+
+        },
+
+        "stats": {
+
+          "build_time": 20,
+
+          "health_amount": 1000,
+          "repair_rate": 1000,
+          "built_by_villagers": false,
+
+          "tags": [
+
+            "category-hammer",
+
+            "spider_attacks",
+
+            "zombie_attacks",
+
+            "skeleton_attacks",
+
+            "creeper_attacks",
+
+            "wolf_attacks",
+
+            "witch_attacks",
+
+            "enchanter"
+
+          ],
+
+          "fees": [
+
+            "wood",
+
+            "stone",
+
+            "diamond",
+
+            "diamond",
+
+            "iron",
+
+            "villager"
+
+          ]
+
+        },
+
+        "upgrades": [
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              }
+
+            ],
+
+            "nbt_file": "enchanter",
+            "build_time": 40,
+            "health_amount": 1000,
+            "repair_rate": 500,
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "mason"
+
+              }
+
+            ],
+
+            "nbt_file": "enchanter_stone",
+            "build_time": 40,
+            "health_amount": 1500,
+            "repair_rate": 1500
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "enchanter",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+            "build_time": 40,
+            "health_amount": 1000,
+            "repair_rate": 1000,
+            "has_spikes": true
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "mason"
+
+              }
+
+            ],
+
+            "nbt_file": "enchanter_stone",
+            "build_time": 40,
+            "health_amount": 1500,
+            "repair_rate": 750,
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "enchanter",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+            "build_time": 40,
+            "health_amount": 1000,
+            "repair_rate": 500,
+            "has_spikes": true,
+
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "mason"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "enchanter_stone",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+            "build_time": 40,
+            "health_amount": 1500,
+            "repair_rate": 1500,
+            "has_spikes": true
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "mason"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "enchanter_stone",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+            "build_time": 40,
+            "health_amount": 1500,
+            "repair_rate": 750,
+            "has_spikes": true,
+
+            "particle_type": "townaura"
+
+          }
+
+        ],
+
+        "tech_tree": {
+
+          "unlocks": [
+
+            "placeable_tnt",
+
+            "trebuchet",
+
+            "placeable_buff_lure",
+
+            "placeable_buff_strength",
+
+            "placeable_buff_fire_resistance",
+
+            "placeable_mob_combiner",
+
+            "placeable_buff_spawner_batching",
+
+            "placeable_giantmobs"
+
+          ]
+
+        },
+
+        "waypoint": {
+
+          "icon": "textures/items/structure_enchanter",
+
+          "max_blink_rate": 0.0,
+
+          "team_color": false,
+
+          "visible_to_all": false,
+
+          "strategic_view_only": true
+
+        }
+
+      },
+
+      {
+
+        "name": "villager_hut",
+
+        "id": 15,
+
+        "art": {
+
+          "nbt_file": "villager_hut",
+
+          "description": "Villager Resource",
+
+          "icon": "textures/items/structure_builder_villager_hut",
+
+          "ground_offset": 1
+
+        },
+
+        "stats": {
+
+          "build_time": 8,
+
+          "health_amount": 350,
+          "repair_rate": 350,
+          "built_by_villagers": false,
+
+          "tags": [
+
+            "category-pickaxe",
+
+            "spawner",
+
+            "spider_attacks",
+
+            "zombie_attacks",
+
+            "skeleton_attacks",
+
+            "creeper_attacks",
+
+            "wolf_attacks",
+
+            "witch_attacks"
+
+          ],
+
+          "fees": [
+
+            "wood"
+
+          ],
+
+          "rewards": [
+
+            "villager",
+
+            "villager",
+
+            "villager",
+
+            "villager"
+
+          ]
+
+        },
+
+        "upgrades": [
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              }
+
+            ],
+
+            "nbt_file": "villager_hut",
+
+            "ground_offset": 1,
+            "build_time": 16,
+            "health_amount": 350,
+            "repair_rate": 175,
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "mason"
+
+              }
+
+            ],
+
+            "nbt_file": "villager_hut_stone",
+
+            "ground_offset": 1,
+            "build_time": 16,
+            "health_amount": 525,
+            "repair_rate": 525
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "villager_hut",
+
+            "overlay_nbt": [
+
+              "overlay_smith_villager"
+
+            ],
+
+            "ground_offset": 1,
+            "build_time": 16,
+            "health_amount": 350,
+            "repair_rate": 350,
+            "has_spikes": true
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "mason"
+
+              }
+
+            ],
+
+            "nbt_file": "villager_hut_stone",
+
+            "ground_offset": 1,
+            "build_time": 16,
+            "health_amount": 525,
+            "repair_rate": 275,
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "villager_hut",
+
+            "overlay_nbt": [
+
+              "overlay_smith_villager"
+
+            ],
+
+            "ground_offset": 1,
+            "build_time": 16,
+            "health_amount": 350,
+            "repair_rate": 175,
+            "has_spikes": true,
+
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "mason"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "villager_hut_stone",
+
+            "overlay_nbt": [
+
+              "overlay_smith_villager"
+
+            ],
+
+            "ground_offset": 1,
+            "build_time": 16,
+            "health_amount": 525,
+            "repair_rate": 525,
+            "has_spikes": true
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "mason"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "villager_hut_stone",
+
+            "overlay_nbt": [
+
+              "overlay_smith_villager"
+
+            ],
+
+            "ground_offset": 1,
+            "build_time": 16,
+            "health_amount": 525,
+            "repair_rate": 275,
+            "has_spikes": true,
+
+            "particle_type": "townaura"
+
+          }
+
+        ],
+
+        "tech_tree": {
+
+          "unlocks": [
+
+            "pyromancer"
+
+          ]
+
+        }
+
+      },
+
+      {
+
+        "name": "defense_tower",
+
+        "id": 16,
+
+        "art": {
+
+          "nbt_file": "tower",
+
+          "description": "Archer Tower",
+
+          "icon": "textures/items/structure_builder_defense_tower",
+
+          "ground_offset": 1
+
+        },
+
+        "stats": {
+
+          "build_time": 12,
+
+          "health_amount": 800,
+
+          "capture_field_size": 15,
+          "repair_rate": 800,
+          "built_by_villagers": false,
+
+          "tags": [
+
+            "category-pickaxe",
+
+            "spider_attacks",
+
+            "zombie_attacks",
+
+            "skeleton_attacks",
+
+            "creeper_attacks",
+
+            "wolf_attacks",
+
+            "witch_attacks",
+
+            "tower"
+
+          ],
+
+          "fees": [
+
+            "wood",
+
+            "wood",
+
+            "iron",
+
+            "villager"
+
+          ]
+
+        },
+
+        "turret": [
+
+          "basic_arrow"
+
+        ],
+
+        "upgrades": [
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              }
+
+            ],
+
+            "nbt_file": "tower",
+            "build_time": 24,
+            "health_amount": 800,
+            "repair_rate": 400,
+            "particle_type": "townaura",
+
+            "turret": [
+
+              "basic_arrow"
+
+            ]
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "mason"
+
+              }
+
+            ],
+
+            "nbt_file": "tower_stone",
+            "build_time": 24,
+            "health_amount": 1200,
+            "repair_rate": 1200,
+            "turret": [
+
+              "basic_arrow"
+
+            ]
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "tower",
+
+            "overlay_nbt": [
+
+              "overlay_smith_tower"
+
+            ],
+
+            "ground_offset": 1,
+            "build_time": 24,
+            "health_amount": 800,
+
+            "has_spikes": true,
+            "repair_rate": 800,
+            "turret": [
+
+              "basic_arrow"
+
+            ]
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "mason"
+
+              }
+
+            ],
+
+            "nbt_file": "tower_stone",
+            "build_time": 24,
+            "health_amount": 1200,
+            "repair_rate": 600,
+            "particle_type": "townaura",
+
+            "turret": [
+
+              "basic_arrow"
+
+            ]
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "tower",
+
+            "overlay_nbt": [
+
+              "overlay_smith_tower"
+
+            ],
+            "build_time": 24,
+            "health_amount": 800,
+
+            "has_spikes": true,
+            "repair_rate": 400,
+            "particle_type": "townaura",
+
+            "turret": [
+
+              "basic_arrow"
+
+            ]
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "mason"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "tower_stone",
+
+            "overlay_nbt": [
+
+              "overlay_smith_tower"
+
+            ],
+            "build_time": 24,
+            "health_amount": 1200,
+
+            "has_spikes": true,
+            "repair_rate": 1200,
+            "turret": [
+
+              "basic_arrow"
+
+            ]
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "mason"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "tower_stone",
+
+            "overlay_nbt": [
+
+              "overlay_smith_tower"
+
+            ],
+            "build_time": 24,
+            "health_amount": 1200,
+
+            "has_spikes": true,
+            "repair_rate": 600,
+            "particle_type": "townaura",
+
+            "turret": [
+
+              "basic_arrow"
+
+            ]
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "pyromancer"
+
+              }
+
+            ],
+
+            "nbt_file": "tower",
+            "build_time": 24,
+            "health_amount": 800,
+            "repair_rate": 800,
+            "turret": [
+
+              "basic_arrow",
+
+              "small_fire_ball"
+
+            ]
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "pyromancer"
+
+              }
+
+            ],
+
+            "nbt_file": "tower",
+            "build_time": 24,
+            "health_amount": 800,
+            "repair_rate": 400,
+            "particle_type": "townaura",
+
+            "turret": [
+
+              "basic_arrow",
+
+              "small_fire_ball"
+
+            ]
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "mason"
+
+              },
+
+              {
+
+                "structure_name": "pyromancer"
+
+              }
+
+            ],
+
+            "nbt_file": "tower_stone",
+            "build_time": 24,
+            "health_amount": 1200,
+            "repair_rate": 1200,
+            "particle_type": "townaura",
+
+            "turret": [
+
+              "basic_arrow",
+
+              "small_fire_ball"
+
+            ]
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "smith"
+
+              },
+
+              {
+
+                "structure_name": "pyromancer"
+
+              }
+
+            ],
+
+            "nbt_file": "tower",
+            "build_time": 24,
+            "health_amount": 800,
+            "repair_rate": 800,
+            "overlay_nbt": [
+
+              "overlay_smith_tower"
+
+            ],
+
+            "turret": [
+
+              "basic_arrow",
+
+              "small_fire_ball"
+
+            ]
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "mason"
+
+              },
+
+              {
+
+                "structure_name": "pyromancer"
+
+              }
+
+            ],
+
+            "nbt_file": "tower_stone",
+            "build_time": 24,
+            "health_amount": 1200,
+            "repair_rate": 600,
+            "turret": [
+
+              "basic_arrow",
+
+              "small_fire_ball"
+
+            ]
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              },
+
+              {
+
+                "structure_name": "pyromancer"
+
+              }
+
+            ],
+
+            "nbt_file": "tower",
+            "build_time": 24,
+            "health_amount": 800,
+            "repair_rate": 400,
+            "overlay_nbt": [
+
+              "overlay_smith_tower"
+
+            ],
+
+            "turret": [
+
+              "basic_arrow",
+
+              "small_fire_ball"
+
+            ]
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "mason"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              },
+
+              {
+
+                "structure_name": "pyromancer"
+
+              }
+
+            ],
+
+            "nbt_file": "tower_stone",
+            "build_time": 24,
+            "health_amount": 1200,
+            "repair_rate": 1200,
+            "overlay_nbt": [
+
+              "overlay_smith_tower"
+
+            ],
+
+            "turret": [
+
+              "basic_arrow",
+
+              "small_fire_ball"
+
+            ]
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "mason"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              },
+
+              {
+
+                "structure_name": "pyromancer"
+
+              }
+
+            ],
+
+            "nbt_file": "tower_stone",
+            "build_time": 24,
+            "health_amount": 1200,
+            "repair_rate": 600,
+            "overlay_nbt": [
+
+              "overlay_smith_tower"
+
+            ],
+
+            "turret": [
+
+              "basic_arrow",
+
+              "small_fire_ball"
+
+            ]
+
+          }
+
+        ]
+
+      },
+
+      {
+
+        "name": "test_platform",
+
+        "id": 17,
+
+        "art": {
+
+          "nbt_file": "test_platform",
+
+          "description": "Spawner Foundation (Requirement)",
+
+          "icon": "textures/items/spawner_base",
+
+          "ground_offset": -2,
+
+          "show_health": false
+
+        },
+
+        "stats": {
+
+          "tags": [
+
+            "do_not_target",
+
+            "category-chest"
+
+          ],
+
+          "fees": [
+
+            "emerald",
+
+            "emerald",
+
+            "emerald",
+
+            "emerald",
+
+            "emerald",
+
+            "emerald",
+
+            "emerald",
+
+            "emerald",
+
+            "emerald",
+
+            "emerald",
+
+            "emerald",
+
+            "emerald",
+
+            "emerald",
+
+            "emerald",
+
+            "emerald",
+
+            "emerald",
+
+            "emerald",
+
+            "emerald",
+
+            "emerald",
+
+            "emerald",
+
+            "emerald",
+
+            "emerald",
+
+            "emerald",
+
+            "emerald",
+
+            "emerald",
+
+            "emerald",
+
+            "emerald",
+
+            "emerald",
+
+            "emerald",
+
+            "emerald",
+
+            "emerald",
+
+            "emerald"
+
+          ]
+
+        }
+
+      },
+
+      {
+
+        "name": "test_spawner",
+
+        "id": 18,
+
+        "art": {
+
+          "nbt_file": "test_spawner",
+
+          "description": "Spawner Base",
+
+          "ground_offset": -2
+
+        },
+
+        "stats": {
+
+          "tags": [
+
+            "do_not_target"
+
+          ]
+
+        },
+
+        "spawner": {
+
+          "type": "Zombie",
+
+          "rate": 15,
+
+          "cap": 15,
+
+          "range": 20,
+
+          "undirected_range": 0,
+
+          "divergence": 5,
+
+          "upgrades": [
+
+            {
+
+              "influence": {
+
+                "structure_name": "test_spawner"
+
+              },
+
+              "table": "loot_tables/upgrades/zombie_default.json"
+
+            }
+
+          ]
+
+        },
+
+        "placement": {
+
+          "required_structures": [
+
+            "test_platform"
+
+          ]
+
+        }
+
+      },
+
+      {
+
+        "name": "carpenter",
+
+        "id": 19,
+
+        "art": {
+
+          "nbt_file": "carpenter",
+
+          "description": "Wood Upgrade - Regen",
+
+          "icon": "textures/items/structure_builder_carpenter",
+
+          "show_debug": true,
+
+          "influence_color": [
+
+            0.59,
+
+            0.29,
+
+            0.0,
+
+            0.1
+
+          ]
+
+        },
+
+        "stats": {
+
+          "build_time": 16,
+
+          "health_amount": 800,
+          "repair_rate": 400,
+          "built_by_villagers": false,
+
+          "affect_range": 20,
+
+          "particle_type": "townaura",
+
+          "tags": [
+
+            "resource",
+
+            "category-hammer",
+
+            "spider_attacks",
+
+            "zombie_attacks",
+
+            "skeleton_attacks",
+
+            "creeper_attacks",
+
+            "wolf_attacks",
+
+            "witch_attacks"
+
+          ],
+
+          "fees": [
+
+            "wood",
+
+            "wood",
+
+            "villager"
+
+          ]
+
+        },
+
+        "upgrades": [
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "mason"
+
+              }
+
+            ],
+
+            "nbt_file": "carpenter_stone",
+            "build_time": 32,
+            "health_amount": 1200,
+            "repair_rate": 600
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "carpenter",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+            "build_time": 32,
+            "health_amount": 800,
+            "repair_rate": 400,
+            "has_spikes": true
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "mason"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "carpenter_stone",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+            "build_time": 32,
+            "health_amount": 1200,
+            "repair_rate": 600,
+            "has_spikes": true
+
+          }
+
+        ],
+
+        "tech_tree": {
+
+          "unlocks": []
+
+        }
+
+      },
+
+      {
+
+        "name": "mason",
+
+        "id": 20,
+
+        "art": {
+
+          "nbt_file": "mason",
+
+          "description": "Stone Upgrade - Health",
+
+          "icon": "textures/items/structure_builder_mason",
+
+          "show_debug": true,
+
+          "influence_color": [
+
+            0.5,
+
+            0.5,
+
+            0.5,
+
+            0.1
+
+          ]
+
+        },
+
+        "stats": {
+
+          "build_time": 16,
+
+          "health_amount": 1200,
+          "repair_rate": 1200,
+          "built_by_villagers": false,
+
+          "affect_range": 20,
+
+          "tags": [
+
+            "resource",
+
+            "category-hammer",
+
+            "spider_attacks",
+
+            "zombie_attacks",
+
+            "skeleton_attacks",
+
+            "creeper_attacks",
+
+            "wolf_attacks",
+
+            "witch_attacks"
+
+          ],
+
+          "fees": [
+
+            "stone",
+
+            "stone",
+
+            "villager"
+
+          ]
+
+        },
+
+        "upgrades": [
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              }
+
+            ],
+
+            "nbt_file": "mason",
+            "build_time": 32,
+            "health_amount": 1200,
+            "repair_rate": 600,
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "mason",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+            "build_time": 32,
+            "health_amount": 1200,
+            "repair_rate": 1200,
+            "has_spikes": true
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "mason",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+            "build_time": 32,
+            "health_amount": 1200,
+            "repair_rate": 600,
+            "has_spikes": true,
+
+            "particle_type": "townaura"
+
+          }
+
+        ],
+
+        "tech_tree": {
+
+          "unlocks": []
+
+        }
+
+      },
+
+      {
+
+        "name": "smith",
+
+        "id": 21,
+
+        "art": {
+
+          "nbt_file": "blacksmith",
+
+          "description": "Iron Upgrade - Damage",
+
+          "icon": "textures/items/structure_builder_blacksmith",
+
+          "show_debug": true,
+
+          "influence_color": [
+
+            0.46,
+
+            0.5,
+
+            0.52,
+
+            0.1
+
+          ]
+
+        },
+
+        "stats": {
+
+          "build_time": 16,
+
+          "health_amount": 800,
+
+          "has_spikes": true,
+          "repair_rate": 800,
+          "built_by_villagers": false,
+
+          "affect_range": 20,
+
+          "tags": [
+
+            "resource",
+
+            "category-hammer",
+
+            "spider_attacks",
+
+            "zombie_attacks",
+
+            "skeleton_attacks",
+
+            "creeper_attacks",
+
+            "wolf_attacks",
+
+            "witch_attacks"
+
+          ],
+
+          "fees": [
+
+            "iron",
+
+            "iron",
+
+            "villager"
+
+          ]
+
+        },
+
+        "upgrades": [
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              }
+
+            ],
+
+            "nbt_file": "blacksmith",
+            "build_time": 32,
+            "health_amount": 800,
+
+            "has_spikes": true,
+            "repair_rate": 400,
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "mason"
+
+              }
+
+            ],
+
+            "nbt_file": "blacksmith_stone",
+            "build_time": 32,
+            "health_amount": 1200,
+
+            "has_spikes": true,
+            "repair_rate": 1200
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "mason"
+
+              }
+
+            ],
+
+            "nbt_file": "blacksmith_stone",
+            "build_time": 32,
+            "health_amount": 1200,
+
+            "has_spikes": true,
+            "repair_rate": 600,
+            "particle_type": "townaura"
+
+          }
+
+        ],
+
+        "tech_tree": {
+
+          "unlocks": []
+
+        }
+
+      },
+
+      {
+
+        "name": "herbalist",
+
+        "id": 22,
+
+        "art": {
+
+          "nbt_file": "herbalist",
+
+          "description": "Potion Shop",
+
+          "icon": "textures/items/structure_herbalist",
+
+          "ground_offset": 0,
+
+          "show_debug": true
+
+        },
+
+        "stats": {
+
+          "build_time": 20,
+
+          "health_amount": 1000,
+          "repair_rate": 1000,
+          "built_by_villagers": false,
+
+          "tags": [
+
+            "category-hammer",
+
+            "spider_attacks",
+
+            "zombie_attacks",
+
+            "skeleton_attacks",
+
+            "creeper_attacks",
+
+            "wolf_attacks",
+
+            "witch_attacks",
+
+            "herbalist"
+
+          ],
+
+          "fees": [
+
+            "wood",
+
+            "diamond",
+
+            "diamond",
+
+            "stone",
+
+            "iron",
+
+            "villager"
+
+          ]
+
+        },
+
+        "upgrades": [
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              }
+
+            ],
+
+            "nbt_file": "herbalist",
+            "build_time": 40,
+            "health_amount": 1000,
+            "repair_rate": 500,
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "mason"
+
+              }
+
+            ],
+
+            "nbt_file": "herbalist_stone",
+            "build_time": 40,
+            "health_amount": 1500,
+            "repair_rate": 1500
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "herbalist",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+            "build_time": 40,
+            "health_amount": 1000,
+            "repair_rate": 1000,
+            "has_spikes": true
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "mason"
+
+              }
+
+            ],
+
+            "nbt_file": "herbalist_stone",
+            "build_time": 40,
+            "health_amount": 1500,
+            "repair_rate": 750,
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "herbalist",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+            "build_time": 40,
+            "health_amount": 1000,
+            "repair_rate": 500,
+            "has_spikes": true,
+
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "mason"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "herbalist_stone",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+            "build_time": 40,
+            "health_amount": 1500,
+            "repair_rate": 1500,
+            "has_spikes": true
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "mason"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "herbalist_stone",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+            "build_time": 40,
+            "health_amount": 1500,
+            "repair_rate": 750,
+            "has_spikes": true,
+
+            "particle_type": "townaura"
+
+          }
+
+        ],
+
+        "tech_tree": {
+
+          "unlocks": []
+
+        },
+
+        "waypoint": {
+
+          "icon": "textures/items/structure_herbalist",
+
+          "max_blink_rate": 0.0,
+
+          "team_color": false,
+
+          "visible_to_all": false,
+
+          "strategic_view_only": true
+
+        }
+
+      },
+
+      {
+
+        "name": "tinkerer",
+
+        "id": 23,
+
+        "art": {
+
+          "nbt_file": "tinkerer",
+
+          "description": "Spawner Shop",
+
+          "icon": "textures/items/structure_tinkerer",
+
+          "ground_offset": 0,
+
+          "show_debug": true
+
+        },
+
+        "stats": {
+
+          "build_time": 20,
+
+          "health_amount": 1000,
+          "repair_rate": 1000,
+          "built_by_villagers": false,
+
+          "tags": [
+
+            "category-hammer",
+
+            "spider_attacks",
+
+            "zombie_attacks",
+
+            "skeleton_attacks",
+
+            "creeper_attacks",
+
+            "wolf_attacks",
+
+            "witch_attacks",
+
+            "tinkerer"
+
+          ],
+
+          "fees": [
+
+            "wood",
+
+            "stone",
+
+            "stone",
+
+            "diamond",
+
+            "diamond",
+
+            "villager"
+
+          ]
+
+        },
+
+        "upgrades": [
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              }
+
+            ],
+
+            "nbt_file": "tinkerer",
+            "build_time": 40,
+            "health_amount": 1000,
+            "repair_rate": 500,
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "mason"
+
+              }
+
+            ],
+
+            "nbt_file": "tinkerer_stone",
+            "build_time": 40,
+            "health_amount": 1500,
+            "repair_rate": 1500
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "tinkerer",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+            "build_time": 40,
+            "health_amount": 1000,
+            "repair_rate": 1000,
+            "has_spikes": true
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "mason"
+
+              }
+
+            ],
+
+            "nbt_file": "tinkerer_stone",
+            "build_time": 40,
+            "health_amount": 1500,
+            "repair_rate": 750,
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "tinkerer",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+            "build_time": 40,
+            "health_amount": 1000,
+            "repair_rate": 500,
+            "has_spikes": true,
+
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "mason"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "tinkerer_stone",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+            "build_time": 40,
+            "health_amount": 1500,
+            "repair_rate": 1500,
+            "has_spikes": true
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "mason"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "tinkerer_stone",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+            "build_time": 40,
+            "health_amount": 1500,
+            "repair_rate": 750,
+            "has_spikes": true,
+
+            "particle_type": "townaura"
+
+          }
+
+        ],
+
+        "tech_tree": {
+
+          "unlocks": [
+
+            "spawner_creeper_owned",
+
+            "spawner_skeleton_owned",
+
+            "spawner_slime_owned",
+
+            "spawner_spider_owned",
+
+            "spawner_witch_owned",
+
+            "spawner_wolf_owned",
+
+            "spawner_zombie_owned",
+
+            "test_platform"
+
+          ]
+
+        },
+
+        "waypoint": {
+
+          "icon": "textures/items/structure_tinkerer",
+
+          "max_blink_rate": 0.0,
+
+          "team_color": false,
+
+          "visible_to_all": false,
+
+          "strategic_view_only": true
+
+        }
+
+      },
+
+      {
+
+        "name": "spawner_witch_owned",
+
+        "id": 24,
+
+        "art": {
+
+          "nbt_file": "spawner_witcher",
+
+          "description": "Witch Spawner",
+
+          "icon": "textures/items/spawner_witch",
+
+          "ground_offset": 1,
+
+          "show_debug": true
+
+        },
+
+        "stats": {
+
+          "build_time": 20,
+
+          "capture_time": 2,
+
+          "capture_field_size": 6,
+
+          "health_amount": 300,
+
+          "repair_rate": 0,
+
+          "built_by_villagers": false,
+
+          "tags": [
+
+            "spawner",
+
+            "category-chest",
+
+            "directable"
+
+          ],
+
+          "fees": [
+
+            "emerald",
+
+            "emerald",
+
+            "emerald",
+
+            "emerald"
+
+          ]
+
+        },
+
+        "director": {
+
+          "range": 150,
+
+          "divergence": 5
+
+        },
+
+        "spawner": {
+
+          "type": "Witch",
+
+          "rate": 5,
+
+          "cap": 6
+
+        },
+
+        "placement": {
+
+          "required_structures": [
+
+            "test_platform"
+
+          ]
+
+        }
+
+      },
+
+      {
+
+        "name": "spawner_wolf_generated",
+
+        "id": 25,
+
+        "art": {
+
+          "nbt_file": "spawner_wolf",
+
+          "description": "Wolf Spawner",
+
+          "ground_offset": 1,
+
+          "show_debug": true
+
+        },
+
+        "stats": {
+
+          "build_time": 5,
+
+          "capture_time": 2,
+
+          "capture_field_size": 6,
+
+          "health_amount": 300,
+
+          "repair_rate": 0,
+
+          "built_by_villagers": false,
+
+          "tags": [
+
+            "spawner",
+
+            "category-none",
+
+            "capturable",
+
+            "directable"
+
+          ]
+
+        },
+
+        "director": {
+
+          "range": 150,
+
+          "divergence": 5
+
+        },
+
+        "spawner": {
+
+          "type": "Wolf",
+
+          "rate": 15,
+
+          "cap": 8
+
+        },
+
+        "placement": {
+
+          "required_structures": [
+
+            "test_platform"
+
+          ]
+
+        }
+
+      },
+
+      {
+
+        "name": "spawner_skeleton_generated",
+
+        "id": 26,
+
+        "art": {
+
+          "nbt_file": "spawner_skeleton",
+
+          "description": "Skeleton Spawner",
+
+          "ground_offset": 1,
+
+          "show_debug": true
+
+        },
+
+        "stats": {
+
+          "build_time": 5,
+
+          "capture_time": 2,
+
+          "capture_field_size": 6,
+
+          "health_amount": 300,
+
+          "repair_rate": 0,
+
+          "built_by_villagers": false,
+
+          "tags": [
+
+            "category-none",
+
+            "spawner",
+
+            "capturable",
+
+            "directable"
+
+          ]
+
+        },
+
+        "director": {
+
+          "range": 150,
+
+          "divergence": 5
+
+        },
+
+        "spawner": {
+
+          "type": "Skeleton",
+
+          "rate": 10,
+
+          "cap": 7,
+
+          "upgrades": [
+
+            {
+
+              "influence": {
+
+                "structure_name": "spawner_skeleton_generated"
+
+              },
+
+              "table": "loot_tables/upgrades/skeleton_default.json"
+
+            }
+
+          ]
+
+        },
+
+        "placement": {
+
+          "required_structures": [
+
+            "test_platform"
+
+          ]
+
+        }
+
+      },
+
+      {
+
+        "name": "spawner_creeper_generated",
+
+        "id": 27,
+
+        "art": {
+
+          "nbt_file": "spawner_creeper",
+
+          "description": "Creeper Spawner",
+
+          "ground_offset": 1,
+
+          "show_debug": true
+
+        },
+
+        "stats": {
+
+          "build_time": 5,
+
+          "capture_time": 2,
+
+          "capture_field_size": 6,
+
+          "health_amount": 300,
+
+          "repair_rate": 0,
+
+          "built_by_villagers": false,
+
+          "tags": [
+
+            "category-none",
+
+            "spawner",
+
+            "capturable",
+
+            "directable"
+
+          ]
+
+        },
+
+        "director": {
+
+          "range": 150,
+
+          "divergence": 5
+
+        },
+
+        "spawner": {
+
+          "type": "Creeper",
+
+          "rate": 15,
+
+          "cap": 4
+
+        },
+
+        "placement": {
+
+          "required_structures": [
+
+            "test_platform"
+
+          ]
+
+        }
+
+      },
+
+      {
+
+        "name": "spawner_spider_generated",
+
+        "id": 28,
+
+        "art": {
+
+          "nbt_file": "spawner_spider",
+
+          "description": "Spider Spawner",
+
+          "ground_offset": 1,
+
+          "show_debug": true
+
+        },
+
+        "stats": {
+
+          "build_time": 5,
+
+          "capture_time": 2,
+
+          "capture_field_size": 6,
+
+          "health_amount": 300,
+
+          "repair_rate": 0,
+
+          "built_by_villagers": false,
+
+          "tags": [
+
+            "category-none",
+
+            "spawner",
+
+            "capturable",
+
+            "directable"
+
+          ]
+
+        },
+
+        "director": {
+
+          "range": 150,
+
+          "divergence": 5
+
+        },
+
+        "spawner": {
+
+          "type": "Spider",
+
+          "rate": 15,
+
+          "cap": 5
+
+        },
+
+        "placement": {
+
+          "required_structures": [
+
+            "test_platform"
+
+          ]
+
+        }
+
+      },
+
+      {
+
+        "name": "spawner_zombie_generated",
+
+        "id": 29,
+
+        "art": {
+
+          "nbt_file": "spawner_zombie",
+
+          "description": "Zombie Spawner",
+
+          "ground_offset": 1,
+
+          "show_debug": true
+
+        },
+
+        "stats": {
+
+          "build_time": 5,
+
+          "capture_time": 2,
+
+          "capture_field_size": 6,
+
+          "health_amount": 300,
+
+          "repair_rate": 0,
+
+          "built_by_villagers": false,
+
+          "tags": [
+
+            "category-none",
+
+            "spawner",
+
+            "capturable",
+
+            "directable"
+
+          ]
+
+        },
+
+        "director": {
+
+          "range": 150,
+
+          "divergence": 5
+
+        },
+
+        "spawner": {
+
+          "type": "Zombie",
+
+          "rate": 15,
+
+          "cap": 7,
+
+          "upgrades": [
+
+            {
+
+              "influence": {
+
+                "structure_name": "spawner_zombie_generated"
+
+              },
+
+              "table": "loot_tables/upgrades/zombie_default.json"
+
+            }
+
+          ]
+
+        },
+
+        "placement": {
+
+          "required_structures": [
+
+            "test_platform"
+
+          ]
+
+        }
+
+      },
+
+      {
+
+        "name": "spawner_witch_generated",
+
+        "id": 30,
+
+        "art": {
+
+          "nbt_file": "spawner_witcher",
+
+          "description": "Witch Spawner",
+
+          "ground_offset": 1,
+
+          "show_debug": true
+
+        },
+
+        "stats": {
+
+          "build_time": 5,
+
+          "health_amount": 300,
+
+          "capture_time": 2,
+
+          "capture_field_size": 6,
+
+          "repair_rate": 0,
+
+          "built_by_villagers": false,
+
+          "tags": [
+
+            "spawner",
+
+            "category-none",
+
+            "capturable",
+
+            "directable"
+
+          ]
+
+        },
+
+        "director": {
+
+          "range": 150,
+
+          "divergence": 5
+
+        },
+
+        "spawner": {
+
+          "type": "Witch",
+
+          "rate": 15,
+
+          "cap": 4
+
+        },
+
+        "placement": {
+
+          "required_structures": [
+
+            "test_platform"
+
+          ]
+
+        }
+
+      },
+
+      {
+
+        "name": "gate",
+
+        "id": 31,
+
+        "art": {
+
+          "nbt_file": "tower_gate",
+
+          "icon": "textures/items/structure_gate",
+
+          "description": "Gate",
+
+          "team_away_nbt": [
+
+            "gate"
+
+          ]
+
+        },
+
+        "stats": {
+
+          "build_time": 14,
+
+          "health_amount": 1000,
+          "repair_rate": 1000,
+          "capture_field_size": 2,
+
+          "built_by_villagers": false,
+
+          "tags": [
+
+            "category-pickaxe",
+
+            "spider_attacks",
+
+            "zombie_attacks",
+
+            "skeleton_attacks",
+
+            "creeper_attacks",
+
+            "wolf_attacks",
+
+            "witch_attacks",
+            "do_not_target_wall"
+          ],
+
+          "fees": [
+
+            "stone",
+
+            "stone",
+
+            "iron"
+
+          ]
+
+        },
+
+        "upgrades": [
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              }
+
+            ],
+
+            "nbt_file": "tower_gate",
+
+            "team_away_nbt": [
+
+              "gate"
+
+            ],
+            "build_time": 28,
+            "health_amount": 1000,
+            "repair_rate": 500,
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "mason"
+
+              }
+
+            ],
+
+            "nbt_file": "tower_gate_stone",
+
+            "team_away_nbt": [
+
+              "gate_stone"
+
+            ],
+            "build_time": 28,
+            "health_amount": 1500,
+            "repair_rate": 1500
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "tower_gate",
+
+            "overlay_nbt": [
+
+              "overlay_smith_gate"
+
+            ],
+
+            "team_away_nbt": [
+
+              "gate"
+
+            ],
+            "build_time": 28,
+            "health_amount": 1000,
+            "repair_rate": 1000,
+            "has_spikes": true
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "mason"
+
+              }
+
+            ],
+
+            "nbt_file": "tower_gate_stone",
+
+            "team_away_nbt": [
+
+              "gate_stone"
+
+            ],
+            "build_time": 28,
+            "health_amount": 1500,
+            "repair_rate": 750,
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "tower_gate",
+
+            "overlay_nbt": [
+
+              "overlay_smith_gate"
+
+            ],
+
+            "team_away_nbt": [
+
+              "gate"
+
+            ],
+            "build_time": 28,
+            "health_amount": 1000,
+            "repair_rate": 500,
+            "has_spikes": true,
+
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "mason"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "tower_gate_stone",
+
+            "overlay_nbt": [
+
+              "overlay_smith_gate"
+
+            ],
+
+            "team_away_nbt": [
+
+              "gate_stone"
+
+            ],
+            "build_time": 28,
+            "health_amount": 1500,
+            "repair_rate": 1500,
+            "has_spikes": true
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "mason"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "tower_gate_stone",
+
+            "overlay_nbt": [
+
+              "overlay_smith_gate"
+
+            ],
+
+            "team_away_nbt": [
+
+              "gate_stone"
+
+            ],
+            "build_time": 28,
+            "health_amount": 1500,
+            "repair_rate": 750,
+            "has_spikes": true,
+
+            "particle_type": "townaura"
+
+          }
+
+        ]
+
+      },
+
+      {
+
+        "name": "spawner_golem_owned",
+
+        "id": 32,
+
+        "art": {
+
+          "nbt_file": "golem_factory",
+
+          "description": "Golem Factory",
+
+          "icon": "textures/items/structure_golem",
+
+          "ground_offset": 1,
+
+          "show_debug": true
+
+        },
+
+        "stats": {
+
+          "build_time": 10,
+
+          "health_amount": 1000,
+          "repair_rate": 1000,
+          "built_by_villagers": false,
+
+          "tags": [
+
+            "golem_factory",
+
+            "spider_attacks",
+
+            "zombie_attacks",
+
+            "skeleton_attacks",
+
+            "creeper_attacks",
+
+            "wolf_attacks",
+
+            "witch_attacks",
+
+            "slime_attacks",
+
+            "category-pickaxe"
+
+          ],
+
+          "fees": [
+
+            "stone",
+
+            "stone",
+
+            "stone",
+
+            "iron",
+
+            "iron",
+
+            "iron"
+
+          ]
+
+        },
+
+        "spawner": {
+
+          "type": "IronGolem",
+
+          "rate": 30,
+
+          "cap": 1
+
+        },
+
+        "upgrades": [
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              }
+
+            ],
+
+            "nbt_file": "golem_factory",
+
+            "ground_offset": 1,
+            "build_time": 20,
+            "health_amount": 1000,
+            "repair_rate": 500,
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "mason"
+
+              }
+
+            ],
+
+            "nbt_file": "golem_factory_stone",
+
+            "ground_offset": 1,
+            "build_time": 20,
+            "health_amount": 1500,
+            "repair_rate": 1500
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "golem_factory",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+
+            "ground_offset": 1,
+            "build_time": 20,
+            "health_amount": 1000,
+            "repair_rate": 1000,
+            "has_spikes": true
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "mason"
+
+              }
+
+            ],
+
+            "nbt_file": "golem_factory_stone",
+
+            "ground_offset": 1,
+            "build_time": 20,
+            "health_amount": 1500,
+            "repair_rate": 750,
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "golem_factory",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+
+            "ground_offset": 1,
+            "build_time": 20,
+            "health_amount": 1000,
+            "repair_rate": 500,
+            "has_spikes": true,
+
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "mason"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "golem_factory_stone",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+
+            "ground_offset": 1,
+            "build_time": 20,
+            "health_amount": 1500,
+            "repair_rate": 1500,
+            "has_spikes": true
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "mason"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "golem_factory_stone",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+
+            "ground_offset": 1,
+            "build_time": 20,
+            "health_amount": 1500,
+            "repair_rate": 750,
+            "has_spikes": true,
+
+            "particle_type": "townaura"
+
+          }
+
+        ]
+
+      },
+
+      {
+
+        "name": "spawner_slime_owned",
+
+        "id": 33,
+
+        "art": {
+
+          "nbt_file": "spawner_witcher",
+
+          "description": "Slime Spawner",
+
+          "icon": "textures/items/spawner_slime",
+
+          "ground_offset": 1,
+
+          "show_debug": true
+
+        },
+
+        "stats": {
+
+          "build_time": 10,
+
+          "capture_time": 2,
+
+          "capture_field_size": 6,
+
+          "health_amount": 300,
+
+          "repair_rate": 0,
+
+          "built_by_villagers": false,
+
+          "tags": [
+
+            "spawner",
+
+            "category-chest",
+
+            "directable"
+
+          ],
+
+          "fees": [
+
+            "emerald",
+
+            "emerald",
+
+            "emerald",
+
+            "emerald"
+
+          ]
+
+        },
+
+        "director": {
+
+          "range": 150,
+
+          "divergence": 5
+
+        },
+
+        "spawner": {
+
+          "type": "Slime",
+
+          "rate": 5,
+
+          "cap": 6
+
+        },
+
+        "placement": {
+
+          "required_structures": [
+
+            "test_platform"
+
+          ]
+
+        }
+
+      },
+
+      {
+
+        "name": "spawner_slime_generated",
+
+        "id": 34,
+
+        "art": {
+
+          "nbt_file": "spawner_witcher",
+
+          "description": "Slime Spawner",
+
+          "icon": "textures/items/structure_builder_wolf",
+
+          "ground_offset": 1,
+
+          "show_debug": true
+
+        },
+
+        "stats": {
+
+          "build_time": 10,
+
+          "health_amount": 300,
+
+          "capture_time": 2,
+
+          "capture_field_size": 6,
+
+          "repair_rate": 0,
+
+          "built_by_villagers": false,
+
+          "tags": [
+
+            "spawner",
+
+            "category-chest",
+
+            "capturable",
+
+            "directable"
+
+          ]
+
+        },
+
+        "director": {
+
+          "range": 150,
+
+          "divergence": 5
+
+        },
+
+        "spawner": {
+
+          "type": "Slime",
+
+          "rate": 15,
+
+          "cap": 4
+
+        },
+
+        "placement": {
+
+          "required_structures": [
+
+            "test_platform"
+
+          ]
+
+        }
+
+      },
+
+      {
+
+        "name": "trebuchet",
+
+        "id": 12,
+
+        "art": {
+
+          "nbt_file": "trebuchet",
+
+          "overlay_nbt": [
+
+            "overlay_trebuchet_frame"
+
+          ],
+
+          "icon": "textures/items/placeable_treb",
+
+          "description": "Siege Weapon - Trebuchet",
+
+          "ground_offset": 1
+
+        },
+
+        "stats": {
+
+          "build_time": 10,
+
+          "health_amount": 500,
+
+          "repair_rate": 0,
+
+          "capture_field_size": 6,
+
+          "built_by_villagers": false,
+
+          "tags": [
+
+            "category-placeable",
+
+            "directable",
+
+            "rotatable",
+
+            "fireable"
+
+          ],
+
+          "fees": [
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust"
+
+          ]
+
+        },
+
+        "catapult": {
+
+          "projectile": "minecraft:trebuchet_projectile",
+
+          "rate_of_fire": 5,
+
+          "rounds_per_salvo": 5
+
+        },
+
+        "animation": {
+
+          "nbt_frames": [
+
+            "overlay_trebuchet_arm_1",
+
+            "overlay_trebuchet_arm_2",
+
+            "overlay_trebuchet_arm_3"
+
+          ],
+
+          "anim_rate": 0.2
+
+        },
+
+        "waypoint": {
+
+          "icon": "textures/items/placeable_treb",
+
+          "max_blink_rate": 3,
+
+          "team_color": true,
+
+          "visible_to_all": true,
+
+          "strategic_view_only": false
+
+        }
+
+      },
+
+      {
+
+        "name": "placeable_buff_fire_resistance",
+
+        "id": 35,
+
+        "art": {
+
+          "nbt_file": "placeable_fireresistence",
+
+          "description": "Mob Buff - Fire & Daylight Protection",
+
+          "icon": "textures/items/fireResistance",
+
+          "show_debug": true
+
+        },
+
+        "stats": {
+
+          "built_by_villagers": false,
+
+          "build_time": 1,
+
+          "health_amount": 100,
+
+          "affect_range": 10,
+
+          "capture_field_size": 10,
+
+          "effect_duration": 60,
+
+          "effect_amplifier": 1,
+
+          "tags": [
+
+            "category-placeable",
+
+            "mob_effect_fire_resistance",
+
+            "do_not_target"
+
+          ],
+
+          "fees": [
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust"
+
+          ]
+
+        }
+
+      },
+
+      {
+
+        "name": "placeable_buff_invisibility",
+
+        "id": 36,
+
+        "art": {
+
+          "nbt_file": "placeable_invisibility",
+
+          "description": "Invisibility",
+
+          "icon": "textures/items/invisibility",
+
+          "show_debug": true
+
+        },
+
+        "stats": {
+
+          "built_by_villagers": false,
+
+          "build_time": 1,
+
+          "health_amount": 100,
+
+          "affect_range": 10,
+
+          "capture_field_size": 10,
+
+          "effect_duration": 30,
+
+          "effect_amplifier": 1,
+
+          "tags": [
+
+            "category-placeable",
+
+            "mob_effect_invisibility",
+
+            "do_not_target"
+
+          ]
+
+        }
+
+      },
+
+      {
+
+        "name": "placeable_buff_speed",
+
+        "id": 37,
+
+        "art": {
+
+          "nbt_file": "placeable_buff",
+
+          "description": "Speed",
+
+          "icon": "textures/items/speed",
+
+          "show_debug": true
+
+        },
+
+        "stats": {
+
+          "built_by_villagers": false,
+
+          "build_time": 1,
+
+          "health_amount": 100,
+
+          "affect_range": 10,
+
+          "capture_field_size": 10,
+
+          "effect_duration": 30,
+
+          "effect_amplifier": 1,
+
+          "tags": [
+
+            "category-placeable",
+
+            "mob_effect_speed",
+
+            "do_not_target"
+
+          ]
+
+        }
+
+      },
+
+      {
+
+        "name": "placeable_buff_strength",
+
+        "id": 38,
+
+        "art": {
+
+          "nbt_file": "placeable_buff",
+
+          "description": "Mob Buff - Increase Mob Strength",
+
+          "icon": "textures/items/strength",
+
+          "show_debug": true
+
+        },
+
+        "stats": {
+
+          "built_by_villagers": false,
+
+          "build_time": 1,
+
+          "health_amount": 100,
+
+          "affect_range": 10,
+
+          "capture_field_size": 10,
+
+          "effect_duration": 30,
+
+          "effect_amplifier": 2,
+
+          "tags": [
+
+            "category-placeable",
+
+            "mob_effect_strength",
+
+            "do_not_target"
+
+          ],
+
+          "fees": [
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust"
+
+          ]
+
+        }
+
+      },
+
+      {
+
+        "name": "placeable_buff_resistance",
+
+        "id": 39,
+
+        "art": {
+
+          "nbt_file": "placeable_buff",
+
+          "description": "Resistance",
+
+          "icon": "textures/items/resistance",
+
+          "show_debug": true
+
+        },
+
+        "stats": {
+
+          "built_by_villagers": false,
+
+          "build_time": 1,
+
+          "health_amount": 100,
+
+          "affect_range": 10,
+
+          "capture_field_size": 10,
+
+          "effect_duration": 30,
+
+          "effect_amplifier": 2,
+
+          "tags": [
+
+            "category-placeable",
+
+            "mob_effect_resistance",
+
+            "do_not_target"
+
+          ]
+
+        }
+
+      },
+
+      {
+
+        "name": "placeable_mob_combiner",
+
+        "id": 40,
+
+        "art": {
+
+          "nbt_file": "placeable_combiner",
+
+          "description": "Mob Buff - Combines Mobs & Mounts",
+
+          "icon": "textures/items/placeable_combiner",
+
+          "show_debug": true
+
+        },
+
+        "stats": {
+
+          "built_by_villagers": false,
+
+          "build_time": 1,
+
+          "health_amount": 100,
+
+          "affect_range": 5,
+
+          "capture_field_size": 5,
+
+          "effect_duration": 3,
+
+          "effect_amplifier": 0.001,
+
+          "tags": [
+
+            "category-placeable",
+
+            "proximity-test",
+
+            "do_not_target"
+
+          ],
+
+          "fees": [
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust"
+
+          ]
+
+        }
+
+      },
+
+      {
+
+        "name": "placeable_buff_lure",
+
+        "id": 41,
+
+        "art": {
+
+          "nbt_file": "placeable_lure",
+
+          "description": "Mob Lure - Attracts Team Mobs",
+
+          "icon": "textures/items/placeable_lure",
+
+          "show_debug": true
+
+        },
+
+        "attractor": {
+
+          "range": 50,
+
+          "speed_multiplier": 1.0
+
+        },
+
+        "stats": {
+
+          "built_by_villagers": false,
+
+          "build_time": 1,
+
+          "health_amount": 100,
+
+          "affect_range": 50,
+
+          "effect_duration": 15,
+
+          "tags": [
+
+            "category-placeable",
+
+            "mob_effect_friendlies_only",
+
+            "do_not_target"
+
+          ],
+
+          "fees": [
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust"
+
+          ]
+
+        }
+
+      },
+
+      {
+
+        "name": "placeable_buff_spawner_batching",
+
+        "id": 42,
+
+        "art": {
+
+          "nbt_file": "placeable_batchspawner",
+
+          "description": "Spawner Buff - Increases Spawn Count",
+
+          "icon": "textures/items/placeable_batch",
+
+          "show_debug": true
+
+        },
+
+        "stats": {
+
+          "built_by_villagers": false,
+
+          "build_time": 1,
+
+          "health_amount": 100,
+
+          "affect_range": 5,
+
+          "capture_field_size": 5,
+
+          "effect_duration": 15,
+
+          "spawner_delay_multiplier": 3,
+
+          "spawner_max_multiplier": 3,
+
+          "spawner_batch_multiplier": 3,
+
+          "tags": [
+
+            "category-placeable",
+
+            "mob_effect_spawner_batching",
+
+            "mob_effect_friendlies_only",
+
+            "do_not_target"
+
+          ],
+
+          "fees": [
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust"
+
+          ]
+
+        }
+
+      },
+
+      {
+
+        "name": "placeable_tnt",
+
+        "id": 43,
+
+        "art": {
+
+          "nbt_file": "placeable_tnt",
+
+          "description": "Self Igniting TnT",
+
+          "icon": "textures/items/placeable_tnt",
+
+          "show_debug": true
+
+        },
+
+        "stats": {
+
+          "built_by_villagers": false,
+
+          "build_time": 1,
+		  "health_amount": 1,
+          "repair_rate": -1,
+
+          "tags": [
+
+            "category-placeable",
+
+            "spawns_badger_tnt",
+
+            "do_not_target"
+
+          ],
+
+          "fees": [
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust"
+
+          ]
+
+        }
+
+      },
+
+      {
+
+        "name": "placeable_magmablood",
+
+        "id": 44,
+
+        "art": {
+
+          "nbt_file": "placeable_buff",
+
+          "description": "Spawn Lava on Death - Magmablood",
+
+          "icon": "textures/items/placeable_buff",
+
+          "show_debug": true
+
+        },
+
+        "stats": {
+
+          "built_by_villagers": false,
+
+          "build_time": 1,
+
+          "health_amount": 100,
+
+          "affect_range": 5,
+
+          "capture_field_size": 5,
+
+          "effect_duration": 15,
+
+          "tags": [
+
+            "proximity-test",
+
+            "category-placeable",
+
+            "do_not_target",
+
+            "stackable"
+
+          ],
+
+          "fees": [
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust",
+
+            "glowstone_dust"
+
+          ]
+
+        }
+
+      },
+
+      {
+
+        "name": "pyromancer",
+
+        "id": 45,
+
+        "art": {
+
+          "nbt_file": "pyromancer",
+
+          "description": "Turret Upgrade - Fire",
+
+          "icon": "textures/items/structure_builder_pyromancer",
+
+          "show_debug": true,
+
+          "influence_color": [
+
+            0.59,
+
+            0.29,
+
+            0.0,
+
+            0.1
+
+          ]
+
+        },
+
+        "stats": {
+
+          "build_time": 16,
+
+          "health_amount": 800,
+          "repair_rate": 800,
+          "built_by_villagers": false,
+
+          "affect_range": 20,
+
+          "tags": [
+
+            "resource",
+
+            "category-hammer",
+
+            "spider_attacks",
+
+            "zombie_attacks",
+
+            "skeleton_attacks",
+
+            "creeper_attacks",
+
+            "wolf_attacks",
+
+            "witch_attacks"
+
+          ],
+
+          "fees": [
+
+            "stone",
+
+            "iron",
+
+            "villager"
+
+          ]
+
+        },
+
+        "turret": [
+
+          "small_fire_ball"
+
+        ],
+
+        "upgrades": [
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              }
+
+            ],
+
+            "nbt_file": "pyromancer",
+
+            "ground_offset": 1,
+            "build_time": 32,
+            "health_amount": 800,
+            "repair_rate": 400,
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "mason"
+
+              }
+
+            ],
+
+            "nbt_file": "pyromancer_stone",
+
+            "ground_offset": 1,
+            "build_time": 32,
+            "health_amount": 1200,
+            "repair_rate": 1200
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "pyromancer",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+
+            "ground_offset": 1,
+            "build_time": 32,
+            "health_amount": 800,
+            "repair_rate": 800,
+            "has_spikes": true
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "mason"
+
+              }
+
+            ],
+
+            "nbt_file": "pyromancer_stone",
+
+            "ground_offset": 1,
+            "build_time": 32,
+            "health_amount": 1200,
+            "repair_rate": 600,
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "pyromancer",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+
+            "ground_offset": 1,
+            "build_time": 32,
+            "health_amount": 800,
+            "repair_rate": 400,
+            "has_spikes": true,
+
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "mason"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "pyromancer_stone",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+
+            "ground_offset": 1,
+            "build_time": 32,
+            "health_amount": 1200,
+            "repair_rate": 1200,
+            "has_spikes": true
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "mason"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "pyromancer_stone",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+
+            "ground_offset": 1,
+            "build_time": 32,
+            "health_amount": 1200,
+            "repair_rate": 600,
+            "has_spikes": true,
+
+            "particle_type": "townaura"
+
+          }
+
+        ],
+
+        "tech_tree": {
+
+          "unlocks": []
+
+        }
+
+      },
+
+      {
+
+        "name": "medic",
+
+        "id": 46,
+
+        "art": {
+
+          "nbt_file": "medic",
+
+          "description": "Turret Upgrade - Health",
+
+          "icon": "textures/items/structure_builder_medic",
+
+          "show_debug": true,
+
+          "influence_color": [
+
+            0.5,
+
+            0.5,
+
+            0.5,
+
+            0.1
+
+          ]
+
+        },
+
+        "stats": {
+
+          "build_time": 16,
+
+          "health_amount": 800,
+
+          "repair_rate": 400,
+
+          "built_by_villagers": false,
+
+          "affect_range": 20,
+
+          "tags": [
+
+            "resource",
+
+            "category-hammer",
+
+            "spider_attacks",
+
+            "zombie_attacks",
+
+            "skeleton_attacks",
+
+            "creeper_attacks",
+
+            "wolf_attacks",
+
+            "witch_attacks"
+
+          ],
+
+          "fees": [
+
+            "wood",
+
+            "diamond",
+
+            "villager"
+
+          ]
+
+        },
+
+        "turret": [
+
+          "basic_health"
+
+        ],
+
+        "upgrades": [
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              }
+
+            ],
+
+            "nbt_file": "medic",
+
+            "ground_offset": 1,
+
+            "build_time": 16,
+
+            "health_amount": 800,
+
+            "repair_rate": 160,
+
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "mason"
+
+              }
+
+            ],
+
+            "nbt_file": "medic_stone",
+
+            "ground_offset": 1,
+
+            "build_time": 16,
+
+            "health_amount": 1200,
+
+            "repair_rate": 600
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "medic",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+
+            "ground_offset": 1,
+
+            "build_time": 16,
+
+            "health_amount": 800,
+
+            "repair_rate": 400,
+
+            "has_spikes": true
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "mason"
+
+              }
+
+            ],
+
+            "nbt_file": "medic_stone",
+
+            "ground_offset": 1,
+
+            "build_time": 16,
+
+            "health_amount": 1200,
+
+            "repair_rate": 240,
+
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "medic",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+
+            "ground_offset": 1,
+
+            "build_time": 16,
+
+            "health_amount": 800,
+
+            "repair_rate": 160,
+
+            "has_spikes": true,
+
+            "particle_type": "townaura"
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "mason"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "medic_stone",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+
+            "ground_offset": 1,
+
+            "build_time": 16,
+
+            "health_amount": 1200,
+
+            "repair_rate": 600,
+
+            "has_spikes": true
+
+          },
+
+          {
+
+            "influences": [
+
+              {
+
+                "structure_name": "carpenter"
+
+              },
+
+              {
+
+                "structure_name": "mason"
+
+              },
+
+              {
+
+                "structure_name": "smith"
+
+              }
+
+            ],
+
+            "nbt_file": "medic_stone",
+
+            "overlay_nbt": [
+
+              "overlay_smith_default"
+
+            ],
+
+            "ground_offset": 1,
+
+            "build_time": 16,
+
+            "health_amount": 1200,
+
+            "repair_rate": 240,
+
+            "has_spikes": true,
+
+            "particle_type": "townaura"
+
+          }
+
+        ],
+
+        "tech_tree": {
+
+          "unlocks": []
+
+        }
+
+      },
+
+      {
+
+        "name": "placeable_giantmobs",
+
+        "id": 47,
+
+        "art": {
+
+          "nbt_file": "placeable_buff",
+
+          "description": "Mob Buff - Giant Mobs Placeable",
+
+          "icon": "textures/items/placeable_embiggening",
+
+          "show_debug": true
+
+        },
+
+        "stats": {
+
+          "built_by_villagers": false,
+
+          "build_time": 1,
+
+          "health_amount": 100,
+
+          "affect_range": 5,
+
+          "capture_field_size": 5,
+
+          "effect_duration": 15,
+
+          "tags": [
+
+            "category-placeable",
+
+            "mob_effect_enlarge",
+
+            "mob_effect_friendlies_only",
+
+            "do_not_target"
+
+          ],
+
+          "fees": [
+
+		  ]
+        }
+
+      }
+
+    ],
+
+    "turrets": [
+
+      {
+
+        "name": "basic_arrow",
+
+        "ammo": "arrow",
+
+        "rate": 1.25
+
+      },
+
+      {
+
+        "name": "fast_arrow",
+
+        "ammo": "arrow",
+
+        "rate": 0.75
+
+      },
+
+      {
+
+        "name": "sulker_bullet",
+
+        "ammo": "sulkerbullet",
+
+        "rate": 0.75
+
+      },
+
+      {
+
+        "name": "small_fire_ball",
+
+        "ammo": "small_fireball",
+
+        "rate": 1.5
+
+      },
+
+      {
+
+        "name": "hell_on_earth",
+
+        "ammo": "primedtnt",
+
+        "rate": 1.75
+
+      },
+
+      {
+
+        "name": "basic_health",
+
+        "ammo": "splash_potion[30]",
+
+        "rate": 5.00,
+
+        "friendly_fire": true
+
+      },
+
+      {
+
+        "name": "orb_xp",
+
+        "ammo": "xp_orb",
+
+        "rate": 8.75,
+
+        "friendly_fire": true
+
+      },
+
+      {
+
+        "name": "basic_vex",
+
+        "ammo": "vex",
+
+        "rate": 1.75,
+
+        "friendly_fire": true
+
+      },
+
+      {
+
+        "name": "fireball",
+
+        "ammo": "dragon_fireball",
+
+        "rate": 1.5
+
+      }
+
+    ]
+
+  }
+
+}

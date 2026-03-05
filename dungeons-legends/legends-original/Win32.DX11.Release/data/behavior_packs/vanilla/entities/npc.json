@@ -1,0 +1,51 @@
+{
+  "minecraft:entity": {
+    "format_version": "1.2.0",
+
+    "components": {
+      "minecraft:damage_sensor": [
+        {
+          "cause": "all",
+          "deals_damage": false
+        }
+      ],
+      "minecraft:identifier": {
+        "id": "minecraft:npc"
+      },
+      "minecraft:type_family": {
+        "family": [ "npc" ]
+      },
+      "minecraft:fire_immune": true,
+      "minecraft:health": {
+        "value": 20,
+        "max": 20,
+        "min":  20
+      },
+      "minecraft:movement": {
+        "value": 0.5
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/empty.json"
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 2.1
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 0,
+        "look_distance": 6.0,
+        "probability": 0.02
+      },
+      "minecraft:npc": {
+      },
+      "minecraft:nameable": {
+        "alwaysShow": true,
+        "allowNameTagRenaming": false
+      },
+	    "minecraft:physics": {
+      }
+
+    }
+
+  }
+}

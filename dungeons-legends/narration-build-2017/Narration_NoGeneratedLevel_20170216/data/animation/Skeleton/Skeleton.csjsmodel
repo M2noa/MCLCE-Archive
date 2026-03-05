@@ -1,0 +1,93 @@
+{
+  "title": "Skeleton",
+  "texturewidth": 64,
+  "textureheight": 32,
+  "tree": [
+    {
+      "name": "CenterPivot",
+      "position": [ 0, 18, 0 ],
+      "offsetFromPivot": [ 0, 0, 0 ],
+      "size": [ 0, 0, 0 ],
+      "rotation": [ 0, 0, 0 ],
+      "texOffset": [ 16, 16 ],
+      "children": [
+        {
+          "name": "Body",
+          "position": [ 0, -6, 0 ],
+          "offsetFromPivot": [ 0, 6, 0 ],
+          "size": [ 8, 12, 4 ],
+          "rotation": [ 0, 0, 0 ],
+          "texOffset": [ 16, 16 ],
+          "children": [
+            {
+              "name": "Head",
+              "position": [ 0, 6, 0 ],
+              "offsetFromPivot": [ 0, 4, 0 ],
+              "size": [ 8, 8, 8 ],
+              "rotation": [ 0, 0, 0 ],
+              "texOffset": [ 0, 0 ],
+              "children": []
+            },
+            {
+              "name": "RightArm",
+              "position": [ -4, 5, 0 ],
+              "offsetFromPivot": [ -1, -5, 0 ],
+              "size": [ 2, 12, 2 ],
+              "rotation": [ 0, 0, 0 ],
+              "texOffset": [ 40, 16 ],
+              "children": [
+                {
+                  "name": "HandAnchorRight",
+                  "position": [ 0, -4, 0 ],
+                  "offsetFromPivot": [ 0, 0, 0 ],
+                  "size": [ 0, 0, 0 ],
+                  "rotation": [ 0, 0, 0 ],
+                  "texOffset": [ 42, 18 ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "LeftArm",
+              "position": [ 4, 5, 0 ],
+              "offsetFromPivot": [ 1, -5, 0 ],
+              "size": [ 2, 12, 2 ],
+              "rotation": [ 0, 0, 0 ],
+              "texOffset": [ 40, 16 ],
+              "children": [
+                {
+                  "name": "HandAnchorLeft",
+                  "position": [ 0, -4, 0 ],
+                  "offsetFromPivot": [ 0, 0, 0 ],
+                  "size": [ 0, 0, 0 ],
+                  "rotation": [ 0, 0, 0 ],
+                  "texOffset": [ 42, 18 ],
+                  "children": [
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "LeftLeg",
+          "position": [ 2, -6, 0 ],
+          "offsetFromPivot": [ 0, -6, 0 ],
+          "size": [ 2, 12, 2 ],
+          "rotation": [ 0, 0, 0 ],
+          "texOffset": [ 0, 16 ],
+          "children": []
+        },
+        {
+          "name": "RightLeg",
+          "position": [ -2, -6, 0 ],
+          "offsetFromPivot": [ 0, -6, 0 ],
+          "size": [ 2, 12, 2 ],
+          "rotation": [ 0, 0, 0 ],
+          "texOffset": [ 0, 16 ],
+          "children": []
+        }
+      ]
+    }
+  ]
+}

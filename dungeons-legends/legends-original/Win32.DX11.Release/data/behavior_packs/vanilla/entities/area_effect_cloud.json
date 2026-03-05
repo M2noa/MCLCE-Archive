@@ -1,0 +1,14 @@
+{
+  "minecraft:entity": {
+    "format_version": "1.2.0",
+
+    "components": {
+      "minecraft:identifier": {
+        "id": "minecraft:area_effect_cloud"
+      },
+      "minecraft:physics": {
+        "has_collision": false
+      }
+    }
+  }
+}

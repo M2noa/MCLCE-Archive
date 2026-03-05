@@ -1,0 +1,32 @@
+{
+  "resource_pack_name": "badger",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "directional_desire_block": {
+      "textures": "textures/blocks/directional_desire_block"
+    },
+    "directional_mob_spawner": {
+      "textures": "textures/blocks/directional_mob_spawner"
+    },
+    "pedestal_bottom": {
+      "textures": "textures/blocks/pedestal_bottom"
+    },
+    "pedestal_side": {
+      "textures": "textures/blocks/pedestal_side"
+    },
+    "pedestal_top": {
+      "textures": "textures/blocks/pedestal_top"
+    },
+    "crown_top": {
+      "textures": "textures/blocks/crown_top"
+    },
+    "crown_side": {
+      "textures": "textures/blocks/crown_side"
+    },
+    "crown_front": {
+      "textures": "textures/blocks/crown_front"
+    }
+  }
+}

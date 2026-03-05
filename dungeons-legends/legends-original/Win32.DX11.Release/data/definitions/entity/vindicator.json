@@ -1,0 +1,12 @@
+{
+  "definition.vindicator": {
+    "textures": {
+      "default": "textures/entity/vindicator"
+    },
+    "geometry": {
+      "default": "geometry.vindicator",
+      "armor1": "geometry.humanoid.armor1",
+      "armor2": "geometry.humanoid.armor2"
+    }
+  }
+}

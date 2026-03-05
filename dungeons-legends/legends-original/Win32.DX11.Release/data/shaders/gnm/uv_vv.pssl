@@ -1,0 +1,22 @@
+#include "ShaderConstantsGNM.h"
+
+struct VS_Input
+{
+    float3 position : POSITION;
+    float2 uv : TEXCOORD_0;
+};
+
+struct PS_Input
+{
+    float4 position : S_POSITION;
+    float2 uv : TEXCOORD_0;
+};
+
+PS_Input main( in VS_Input VSInput )
+{
+	PS_Input PSInput = (PS_Input)0;
+    PSInput.uv = VSInput.uv;
+	PSInput.position = mul(WORLDVIEWPROJ, float4(VSInput.position, 1));
+
+	return PSInput;
+}

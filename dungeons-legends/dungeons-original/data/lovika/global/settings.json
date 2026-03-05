@@ -1,0 +1,69 @@
+{
+	"player.speed": 6.0,
+	"player.health.regen_delay_seconds": 4,
+	"player.health.regen_initial_frequency": 20,
+	"player.melee.max_distance": 5.0,
+	"player.melee.max_hit_angle": 20,
+	"player.ranged.auto_aim_distance": 25,
+	"player.ranged.auto_aim_angle_diff": 15,
+
+	"mob.skeleton.speed": 0.2,
+	"mob.skeleton.damage_multiplier": 1,
+	"mob.zombie.speed": 0.23,
+	"mob.zombie.damage_multiplier": 0.5,
+
+	//"camera.offset.x": -8.0,
+	//"camera.offset.y": 14.0,
+	//"camera.offset.z": 8.0,
+
+	//"camera.offset.x": -12,
+	//"camera.offset.y": 21.0,
+	//"camera.offset.z": 12,
+
+	"camera.offset.x": -10.3,
+	"camera.offset.y": 18.0,
+	"camera.offset.z": 10.3,
+
+	"camera.fov": 30,
+
+	"camera.interpolation.horizontal": 0.3,
+	"camera.interpolation.vertical": 0.1,
+	"camera.interpolation.zoom": 0.2,
+	"camera.interpolation.entity_zoom": 0.08,
+
+	"camera.player_movement.factor": 0.0,
+	"camera.player_movement.cap": 0.0,
+
+	"camera.player_direction.factor": 0.0,
+	"camera.player_direction.cap": 0.0,
+
+	"camera.entity_zoom.mob_threshold_max": 5,
+	"camera.entity_zoom.search_range_min": 2.0,
+	"camera.entity_zoom.search_range_max": 12.0,
+	"camera.entity_zoom.mob_weight": 0.08,
+
+
+	//With "lookahead":
+	//"camera.interpolation.horizontal": 0.2,
+	//"camera.player_movement.factor": 0.4,
+	//"camera.player_movement.cap": 2.0,
+
+	"postfx.blur_size": 1.0,
+	"postfx.downsize_scale": 3,
+
+	"spawns": [
+		// x, y, z, count, spread, skeleton_chance
+		198, 17, -103, 1, 1, 0.3,
+		200, 17, -114, 5, 10, 0.25,
+		218, 17, -169, 5, 8, 0.25,
+		204, 17, -177, 5, 8, 0.25,
+		173, 17, -196, 5, 5, 0.25,
+		179, 17, -213, 5, 5, 0.25,
+		155, 17, -222, 8, 5, 0.25,
+		200, 17, -231, 5, 5, 0.25,
+		213, 16, -250, 5, 3, 1.0,
+		252, 17, -255, 5, 5, 0.25,
+		272, 17, -252, 15, 10, 0.25,
+		154, 17, -168, 5, 10, 0.25
+	]
+}

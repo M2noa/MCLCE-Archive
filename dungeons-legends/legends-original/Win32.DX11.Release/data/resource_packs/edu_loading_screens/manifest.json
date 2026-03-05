@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "resourcePack.loading_screens.description",
+        "name": "resourcePack.loading_screens.namez",
+        "uuid": "1b8e9a90-66ab-46d5-9643-206bd063333f",
+        "version": [0, 0, 1]
+    },
+    "modules": [
+        {
+            "description": "resourcePack.loading_screens.description",
+            "type": "resources",
+            "uuid": "cc16372c-798c-419d-857b-9b5733b8f84a",
+            "version": [0, 0, 1]
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+#include "ShaderConstantsGNM.h"
+
+struct PS_Input
+{
+    float4 position : S_POSITION;
+    float2 uv : TEXCOORD_0;
+};
+
+float4 main( in PS_Input PSInput ) : S_TARGET_OUTPUT
+{
+	// when copying the levelstage texture for the rift overlay, we need to ensure alpha is 1, and
+	// convert from linear space to SRGB
+	float4 outColor;
+    outColor = TEXTURE_0.Sample( TextureSampler0, PSInput.uv );
+	outColor.a = 1.0;
+	outColor = pow(outColor, 2.2); // conversion to srgb
+	return outColor;
+}

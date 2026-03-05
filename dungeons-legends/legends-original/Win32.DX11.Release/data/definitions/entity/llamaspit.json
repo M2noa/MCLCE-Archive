@@ -1,0 +1,10 @@
+{
+  "definition.llama_spit": {
+    "textures": {
+      "default": "textures/entity/llama/spit"
+    },
+    "geometry": {
+      "default": "geometry.llamaspit"
+    }
+  }
+}

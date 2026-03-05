@@ -1,0 +1,175 @@
+﻿CONTRATTO DI LICENZA CON L'UTENTE FINALE PER MINECRAFT REALMS
+Il presente Contratto di Licenza con l'Utente Finale ("Contratto di Licenza con l'Utente Finale" o "Condizioni") costituisce un contratto legale tra il licenziatario e Mojang AB. Le condizioni della presente licenza stabiliscono alcune regole per l'utilizzo del servizio Minecraft Realms ("Minecraft Realms"). Per velocizzare la lettura dei documenti relativi alla licenza, Mojang AB ha cercato di riassumerli il più possibile. Qualora il licenziatario non si attenga a tali regole, Mojang AB potrà impedirgli di utilizzare Minecraft Realms. Il licenziatario che utilizza Minecraft Realms accetta di attenersi alle presenti Condizioni. Se non desidera o non può accettare le presenti condizioni, il licenziatario è pregato di non utilizzare Minecraft Realms.
+
+Le presenti Condizioni incorporano l'Informativa sulla Privacy di Mojang AB, le Condizioni per l'Utilizzo dell'Account di Mojang AB, il Contratto di Licenza con l'Utente Finale per Minecraft e il Contratto di Arbitrato, esclusivamente per coloro che risiedono negli Stati Uniti. Pertanto, quanto esposto nei suddetti documenti dovrà essere considerato come stabilito nelle presenti Condizioni. Quando Mojang AB cita tali Condizioni, fa riferimento alle condizioni di cui è in possesso il licenziatario, unitamente ai suddetti documenti incorporati disponibili seguendo i collegamenti specifici.
+
+CONTRATTO DI ARBITRATO VINCOLANTE E RINUNCIA ALL'AZIONE COLLETTIVA
+I residenti negli Stati Uniti dovranno fare clic qui per visualizzare il contratto di arbitrato vincolante e la rinuncia all'azione collettiva facenti parte del presente Contratto di Licenza con l'Utente Finale. Ai sensi del contratto, entrambe le parti accettano di avvalersi di un arbitro neutrale per le singole controversie che potrebbero sorgere, rinunciando pertanto a far valere il proprio diritto di risolvere i singoli reclami in un tribunale, davanti a un giudice o a una giuria. Le parti accettano inoltre che le azioni collettive e gli arbitrati su basi collettive non sono consentiti ai sensi delle condizioni del presente contratto.
+
+Il Contratto di Arbitrato completo è disponibile su questa pagina. Il licenziatario e Mojang AB accettano tale contratto, che dovrà essere letto con attenzione dal licenziatario.
+
+PANORAMICA DI MINECRAFT REALMS
+Minecraft Realms è un servizio ideato per agevolare il gioco Minecraft tra le persone su un server dedicato in conformità alle presenti Condizioni.
+
+Un "Minecraft Realm" indica quindi un singolo mondo, server o istanza di Minecraft ospitata da Mojang AB.
+
+Il licenziatario potrà utilizzare Minecraft Realms tramite un Minecraft Realm personale ("Minecraft Realm del Licenziatario") oppure ottenendo l'autorizzazione di usare il Minecraft Realm di un terzo ("Minecraft Realm di Terzi"). Il riferimento all'utilizzo di Minecraft Realms include perciò l'utilizzo sia del Minecraft Realm del Licenziatario sia dei Minecraft Realm di Terzi.
+
+UTILIZZO DI MINECRAFT REALMS
+Per utilizzare Minecraft Realms il licenziatario, tra l'altro, deve:
+- disporre di una copia con licenza autentica della versione completa, attivata del Gioco e di un account Xbox Live (per Minecraft) o di un account Mojang (per Minecraft: Java Edition);
+- accettare le presenti Condizioni e
+- disporre di un dispositivo adeguato e di una connessione Internet.
+
+COME OTTENERE UN MINECRAFT REALM DEL LICENZIATARIO
+Il licenziatario deve disporre di un account Xbox Live (per Minecraft) o di un account Mojang (per Minecraft: Java Edition) con Minecraft attivato per poter ottenere un Minecraft Realm del Licenziatario. Dovrà inoltre effettuarne l'acquisto o l'abbonamento e pagarlo. Minecraft Realms è un servizio di abbonamento e il costo è quello riportato in dettaglio sulle pagine relative all'acquisto e/o sulla piattaforma applicabile al momento dell'acquisto oppure dal prezzo del codice regalo o del buono rimborsabile. Le condizioni delle pagine relative all'acquisto, della piattaforma, del codice regalo e/o del buono riscattabile saranno valide anche per l'acquisto di Minecraft Realms. Minecraft Realms è un servizio che inizia non appena il Minecraft Realm del Licenziatario risulta disponibile per l'uso, dopodiché il licenziatario non sarà autorizzato ad annullare l'ordine del servizio. UTILIZZO DEL MINECRAFT REALM DEL LICENZIATARIO
+
+Quando il licenziatario otterrà il proprio Minecraft Realm del Licenziatario, avrà accesso a un Minecraft Realm dedicato, sul quale potrà:
+
+giocare da solo a Minecraft;
+invitare altre persone a giocare a Minecraft (il numero varia in base alla versione di Realms in possesso).
+Il licenziatario non potrà tuttavia effettuare quanto segue:
+
+vendere, concedere in locazione, noleggiare, trasferire, cedere o in altro modo operare relativamente all'accesso al Minecraft Realm del Licenziatario né ricevere pagamenti per consentire ad altre persone di giocare sul Minecraft Realm del Licenziatario.
+
+UTILIZZO DI MINECRAFT REALM DI TERZI
+Il licenziatario deve disporre di una copia autentica, attivata di Minecraft per poter utilizzare i Minecraft Realm di altre persone (Minecraft Realm di Terzi) Il licenziatario a cui viene consentito l'accesso ai Minecraft Realm di Terzi avrà accesso a un Minecraft Realm dedicato di un'altra persona, sul quale potrà:
+
+- giocare a Minecraft con quella persona e
+- giocare a Minecraft con chiunque altro abbia ricevuto l'accesso da tale persona.
+Il licenziatario non potrà tuttavia effettuare quanto segue:
+
+- vendere, concedere in locazione, noleggiare, trasferire, cedere o in altro modo operare relativamente all'accesso ai Minecraft Realm di Terzi né autorizzare altre persone a utilizzare in alcun modo il proprio accesso.
+IL LICENZIATARIO NON POTRÀ CONSENTIRE A SCONOSCIUTI DI ACCEDERE AL PROPRIO MINECRAFT REALM DEL LICENZIATARIO E DOVRÀ PRESTARE ATTENZIONE QUALORA COMUNICHI CON PERSONE TRAMITE MINECRAFT REALMS PER IL LICENZIATARIO COSÌ COME PER MOJANG AB È DIFFICILE AVERE LA CERTEZZA CHE LE AFFERMAZIONI DI TALI PERSONE SIANO VERITIERE O CHE L'IDENTITÀ DICHIARATA SIA REALE. IL LICENZIATARIO DOVRÀ PRESTARE SEMPRE LA MASSIMA ATTENZIONE PRIMA DI COMUNICARE LE PROPRIE INFORMAZIONI PERSONALI.
+
+ACCOUNT
+Come indicato in precedenza, il licenziatario deve disporre di un account Xbox Live (per Minecraft) o di un account Mojang (per Minecraft: Java Edition) e di una versione con licenza attivata di Minecraft. In caso contrario, al licenziatario verranno chieste alcune informazioni per configurare e attivare uno dei due o entrambi. I dettagli forniti dal licenziatario in fase di registrazione dovranno essere corretti. Il licenziatario può modificare i propri dati di registrazione qualora non siano più validi. Mojang AB potrà interrompere o sospendere l'account, qualora il licenziatario comunichi deliberatamente dati non veritieri.
+
+Il licenziatario è responsabile del nome utente e della password che crea e delle attività eseguite sul proprio account. Qualora un terzo utilizzi la password del licenziatario per svolgere attività non gradite o che rechino danno al licenziatario stesso, Mojang AB non può assumersi né si assume alcuna responsabilità.
+
+TITOLARITÀ DI MINECRAFT REALMS E DI ALTRI MATERIALI
+Minecraft Realms è costituito da software, texture, risorse, strumenti, infrastruttura e da numerosi altri materiali più o meno ingegnosi di proprietà di Mojang AB. Tutti i diritti di Mojang AB relativi a tali materiali sono dichiarati e riservati. Il licenziatario può tuttavia utilizzare tali materiali nell'ambito di e in relazione all'uso di Minecraft Realms, ai sensi di quanto stabilito nel Contratto di Licenza con l'Utente Finale per Minecraft. Al licenziatario viene infatti concesso un diritto non esclusivo in conformità alle presenti Condizioni.
+
+Ciò non significa che Mojang AB detenga la titolarità dei materiali creati dal licenziatario tramite Minecraft Realms: il licenziatario è tenuto esclusivamente ad accettare che Mojang AB sia titolare di Minecraft e Minecraft Realms in quanto prodotto e servizio e di quanto citato nella frase precedente, oltre che del copyright e di altri diritti di proprietà intellettuale ("Diritti di Proprietà Intellettuale") associati a tali materiali, così come dei nomi e dei marchi associati a Minecraft e a Minecraft Realms.
+
+Il licenziatario creerà ovviamente i propri materiali in Minecraft Realms e tramite Minecraft Realms. Mojang AB non sarà titolare delle creazioni originali del licenziatario né porrà reclamo circa la titolarità di ciò che non le spetta. Mojang AB avrà invece la titolarità di materiali che rappresentano copie (o copie sostanziali) di proprietà e creazioni di Mojang AB o lavori derivati da tali proprietà e creazioni (delineati sopra). Eventuali creazioni originali del licenziatario non sono invece di proprietà di Mojang AB. Ad esempio:
+
+- un singolo blocco è di proprietà di Mojang AB;
+- una Cattedrale Gotica con una montagna russa che la attraversa non è di proprietà di Mojang AB.
+Pertanto, quando il licenziatario paga l'utilizzo di Minecraft Realms, sta semplicemente acquistando un'autorizzazione a utilizzare il prodotto e il servizio Minecraft Realms in conformità alle presenti Condizioni. Le uniche autorizzazioni di cui dispone il licenziatario in relazione a Minecraft Realms sono le autorizzazioni stabilite nelle presenti Condizioni e le eccezioni o i diritti imperativi specifici (inclusi i cosiddetti diritti di fair use o fair dealing) che sono in altro modo riconosciuti al licenziatario per legge, ma che a livello generale si applicano al Contenuto e non a Minecraft Realms.
+
+Alcune versioni di Realms potranno inoltre consentire al licenziatario di eseguire il backup dei dati del Minecraft Realm del Licenziatario. Al termine dell'operazione, il licenziatario potrà scaricare il backup sul proprio dispositivo e utilizzarlo con la propria (autentica) versione di Minecraft, in conformità al Contratto di Licenza con l'Utente Finale per Minecraft.
+
+CONTENUTO DEL LICENZIATARIO
+Creando materiali tramite Minecraft Realms o rendendo disponibile contenuto o materiali su o tramite Minecraft Realms ("Contenuto del Licenziatario"), il licenziatario accetta anche di autorizzarne l'utilizzo da parte di Mojang AB e di terzi che vi hanno accesso. In tal modo Mojang AB può utilizzare, duplicare, modificare, adattare, distribuire, visualizzare pubblicamente e in altro modo rendere disponibile il Contenuto del Licenziatario a terzi (senza alcun pagamento né restrizione). Il contenuto include tutto ciò che viene costruito, realizzato o creato e qualsiasi comunicazione effettuata attraverso una funzionalità di chat di proprietà di Mojang AB o che Mojang AB rende disponibile. Il licenziatario accetta anche che Mojang AB permetta a terzi di utilizzare, duplicare, modificare, adattare, distribuire e rendere disponibile il Contenuto del Licenziatario. Accetta inoltre che non riceverà alcun credito né attribuzione per tale contenuto.
+
+Ciò si rende necessario per svariati motivi, tra cui la necessità da parte di Mojang AB di avere la certezza che i terzi (eventualmente invitati dal licenziatario) che accedono al Minecraft Realm del Licenziatario siano autorizzati in tal senso e che il licenziatario che accede al Minecraft Realm di Terzi abbia il diritto di farlo. Non essendo in grado di controllare le attività che terzi autorizzati possono svolgere con il Contenuto del Licenziatario, Mojang AB deve avere la certezza di non esserne ritenuta responsabile. Deve inoltre essere nelle condizioni di rendere noto che il Contenuto del Licenziatario includerà, a livello generale, software, texture, risorse, strumenti e altri elementi di cui è titolare (come indicato sopra).
+
+Tali autorizzazioni sono permanenti e non possono essere revocate. Qualora il licenziatario non le conceda, non dovrà rendere disponibile alcun contenuto tramite Minecraft Realms.
+
+Il licenziatario dovrà riflettere attentamente prima di rendere disponibile eventuale contenuto, in quanto tale contenuto verrà reso pubblico (anche a terzi che accedono allo stesso Minecraft Realms cui accede il licenziatario) e potrebbe venire utilizzato da altre persone in modo non gradito.
+
+L'eventuale Contenuto del Licenziatario che il licenziatario renderà disponibile tramite Minecraft Realms, ad esempio in o tramite un Minecraft Realm del Licenziatario o Minecraft Realm di Terzi:
+
+- non dovrà essere offensivo nei confronti delle persone;
+- non dovrà essere illegale né illecito;
+- dovrà essere corretto, non dovrà essere fuorviante o ingannevole né dovrà implicare lo sfruttamento o l'impersonificazione di altre persone;
+- non dovrà violare il copyright o altri diritti di terzi;
+- non dovrà utilizzare riferimenti razzisti, sessisti o omofobici;
+- non dovrà utilizzare un tono prepotente o offensivo;
+- non dovrà danneggiare la reputazione di Mojang AB o di terzi;
+- non dovrà includere materiali pornografici;
+- non dovrà includere annunci pubblicitari.
+
+Il licenziatario non dovrà rendere disponibile tramite Minecraft Realms alcun contenuto che violi i diritti di terzi.
+
+Il licenziatario è responsabile di tutto il contenuto che rende disponibile tramite Minecraft Realms.
+
+Il licenziatario è inoltre responsabile di tutto il contenuto che rende disponibile o che terzi rendono disponibile tramite il Minecraft Realm del Licenziatario.
+
+Rendendo disponibile il Contenuto del Licenziatario, il licenziatario garantisce e informa Mojang AB di essere pienamente autorizzato ad agire in tal modo ai sensi delle presenti Condizioni e che Mojang AB è autorizzata a esercitare i diritti che il licenziatario le ha concesso ai sensi di tali Condizioni.
+
+Per informare Mojang AB circa la presunta violazione della propria proprietà intellettuale su Minecraft Realms o su uno dei servizi di Mojang AB, il licenziatario dovrà inviare una comunicazione qui: (https://www.microsoft.com/info/cpyrtInfrg.aspx). Mojang AB si riserva il diritto di rimuovere qualsiasi contenuto a propria discrezione. Qualora sia necessario, Mojang AB potrà interrompere o sospendere gli account di utenti che effettuano ripetute violazioni.
+
+CONTENUTO DI TERZI
+Utilizzando Minecraft Realms, il licenziatario potrà anche essere in grado di accedere a contenuto creato da altre persone ("Contenuto di Terzi") e di utilizzarlo. Parte del Contenuto di Terzi potrebbe essere resa disponibile da persone invitate dal licenziatario al Minecraft Realm del Licenziatario e un'altra parte potrebbe essere resa disponibile nell'ambito del Minecraft Realm di Terzi.
+
+Analogamente al Contenuto del Licenziatario, anche il Contenuto di Terzi includerà in genere software, texture, risorse, strumenti e altro di proprietà di Mojang AB (come indicato sopra).
+
+Qualora terzi rendano disponibile o consentano al licenziatario l'accesso al Contenuto di Terzi, il licenziatario potrà utilizzarlo nell'ambito di e in relazione al proprio utilizzo di Minecraft Realms, in conformità alle presenti Condizioni. In ogni caso il Contenuto di Terzi è soggetto alle presenti Condizioni.
+
+CONTENUTO DELL'UTENTE
+Di seguito sono riportate alcune condizioni riguardanti il Contenuto del Licenziatario e il Contenuto di Terzi, collettivamente definiti "Contenuto dell'Utente".
+
+Minecraft Realms è un servizio di intrattenimento e Mojang AB fornisce il proprio contributo occupandosi della trasmissione, della distribuzione, dell'archiviazione e del recupero del Contenuto dell'Utente, senza che tale contenuto sia oggetto di revisione, selezione o modifica, e/o dell'hosting del Contenuto dell'Utente senza essere a conoscenza di ciò di cui tratta. Ciò significa che Mojang AB non monitora né rivede il Contenuto dell'Utente e di conseguenza non è a conoscenza dei materiali immessi in circolazione dal licenziatario o da terzi. Mojang AB potrà verificare la conformità tecnica, la compatibilità e/o la presenza di virus e altro, ma non esaminerà il contenuto né le informazioni presenti. Sebbene tali regole siano stabilite nelle Condizioni alle quali il licenziatario e i terzi devono conformarsi, Mojang AB non può essere a conoscenza di tutto ciò che si verifica.
+
+Tenere pertanto presente quanto segue:
+
+- nel Contenuto dell'Utente sono espressi i punti di vista dei singoli autori o creatori, non di Mojang AB né di chiunque abbia qualsivoglia relazione con Mojang AB, se non diversamente specificato;
+- Mojang AB non è responsabile di (e, in conformità alla legge applicabile, non rilascia alcuna garanzia o dichiarazione in merito a né riconosce alcuna responsabilità per) tutto il Contenuto dell'Utente, inclusi eventuali commenti, punti di vista o osservazioni espresse in tale contenuto;
+- utilizzando Minecraft Realms il licenziatario dà atto che Mojang AB non è in alcun modo responsabile del monitoraggio o della revisione del Contenuto dell'Utente e che qualsiasi Contenuto dell'Utente è reso disponibile presupponendo che Mojang AB non abbia alcun obbligo in tal senso e non eserciti pertanto alcun controllo né esprima alcun giudizio su di essi;
+- quando il licenziatario comunica con altri giocatori, non dovrà chiedere a persone mai conosciute nella vita reale di incontrarsi effettivamente.
+TUTTAVIA Mojang AB potrà rimuovere, rifiutare o sospendere l'accesso a qualsiasi Contenuto dell'Utente e togliere o sospendere al licenziatario la possibilità di pubblicare, rendere disponibile o accedere al Contenuto dell'Utente, inclusa la rimozione o la sospensione dell'accesso al Minecraft Realm del Licenziatario o ai Minecraft Realm di Terzi, qualora Mojang AB lo ritenga appropriato, come nel caso in cui il licenziatario abbia violato le presenti Condizioni o Mojang AB abbia ricevuto un reclamo per cui ritenga necessaria tale azione. Mojang AB si adopererà rapidamente per rimuovere o disabilitare l'accesso al Contenuto dell'Utente anche qualora abbia la certezza che tale contenuto sia illegale.
+
+AGGIORNAMENTI
+Mojang AB potrà rendere periodicamente disponibili aggiornamenti o patch (collettivamente "aggiornamenti"), così come ha fatto fino ad ora, ma non ha alcun obbligo a riguardo.
+
+Mojang AB non è inoltre obbligata a fornire supporto o manutenzione per Minecraft Realms e il licenziatario deve essere a conoscenza di ciò.
+
+Naturalmente, Mojang AB spera, ma non può garantire, di continuare a rilasciare nuovi aggiornamenti per Minecraft Realms.
+
+PAGAMENTO, RIMBORSI E ALTRO
+Le Condizioni per l'Utilizzo dell'Account Mojang disciplinano le modalità di pagamento e rimborso. Tuttavia, Minecraft Realms è un servizio che inizia non appena il Minecraft Realm del Licenziatario risulta disponibile per l'uso e/o il licenziatario vi ha accesso. Dopodiché il licenziatario non può annullare un ordine o un acquisto effettuato. Ciò non influisce sui diritti dei consumatori di cui dispone il licenziatario. Qualora il licenziatario non possa utilizzare Minecraft Realms a causa di un guasto o di un errore, dovrà comunicarlo a Mojang AB, che tenterà di correggerlo. Nel caso Mojang AB non vi riesca, il licenziatario potrà essere idoneo a ricevere un rimborso.
+
+RESPONSABILITÀ, LEGGE APPLICABILE E FORO PER LA RISOLUZIONE DELLE CONTROVERSIE
+
+Il presente Contratto di Licenza con l'Utente Finale non influisce su alcun diritto legale (imperativo) al quale il licenziatario potrebbe doversi conformare ai sensi della legge applicabile all'uso di Minecraft Realms o agli acquisti effettuati tramite il Sito Web di Mojang AB. Il licenziatario potrà vantare determinati diritti la cui esclusione non è prevista dalla legge applicabile. Nessuna disposizione del presente Contratto di Licenza con l'Utente Finale influirà sui suddetti diritti legali, anche nel caso in cui alcune disposizioni ivi contenute potrebbero sembrare contraddittorie. Questo è il significato dell'affermazione "soggetto alla legge applicabile".
+
+SOGGETTO ALLA LEGGE APPLICABILE, INDICA CHE MOJANG AB NON È RESPONSABILE DI:
+
+- ALCUN UTILIZZO CONSENTITO O IMPROPRIO DEL MINECRAFT REALM DEL LICENZIATARIO O DEI MINECRAFT REALM DI TERZI;
+- ALCUN UTILIZZO CONSENTITO O IMPROPRIO DI MINECRAFT REALMS DA PARTE DEL LICENZIATARIO O DI TERZI;
+- ALCUN CONTENUTO RESO DISPONIBILE DAL LICENZIATARIO TRAMITE MINECRAFT REALMS;
+- QUALSIASI VIOLAZIONE ALLE PRESENTI CONDIZIONI DA PARTE DEL LICENZIATARIO;
+- QUALSIASI VIOLAZIONE A EVENTUALI CONDIZIONI DA PARTE DI TERZI;
+- IL LICENZIATARIO È RESPONSABILE DI:
+- QUALSIASI UTILIZZO DI MINECRAFT REALMS DA PARTE SUA;
+- QUALSIASI UTILIZZO DA PARTE SUA DEL MINECRAFT REALM DEL LICENZIATARIO E DEI MINECRAFT REALM DI TERZI;
+- QUALSIASI VIOLAZIONE ALLE PRESENTI CONDIZIONI DA PARTE SUA;
+- TUTTO IL CONTENUTO RESO DISPONIBILE TRAMITE MINECRAFT REALMS;
+- TUTTO IL CONTENUTO RESO DISPONIBILE DAL LICENZIATARIO STESSO O DA TERZI TRAMITE IL MINECRAFT REALM DEL LICENZIATARIO;
+
+SOGGETTO ALLA LEGGE APPLICABILE, indica che Minecraft Realms viene fornito "com'è". Anche gli aggiornamenti vengono forniti "come sono". Mojang AB non fa alcuna promessa al licenziatario riguardo allo standard o alla qualità di Minecraft Realms o in merito al fatto che Minecraft Realms funzionerà senza interruzioni o errori. NELLA MISURA MASSIMA CONSENTITA DALLA LEGGE APPLICABILE Mojang AB non è responsabile di alcuna perdita o danno causato. Il licenziatario deve accettare che Mojang AB stia rilasciando la versione beta di Minecraft Realms e che continui a introdurre e a migliorare le funzionalità. Di conseguenza tale versione potrà presentare (e spesso presenterà) bug. Mojang AB preferisce tuttavia rilasciare tali funzionalità in anticipo, anziché chiedere al licenziatario di aspettare la versione perfetta.
+
+Nell'eventualità di una controversia (sebbene Mojang AB, analogamente al licenziatario, si auguri che ciò non debba mai accadere), il foro esclusivo (ovvero il luogo in cui verrà risolta) sarà un tribunale statale o federale con sede a King County, WA (se il licenziatario risiede negli Stati Uniti) o un tribunale con sede in Ontario (se il licenziatario risiede in Canada). Per i residenti negli Stati Uniti, la maggior parte delle controversie viene risolta tramite arbitrato, non in tribunale. Le leggi dello stato o della provincia in cui risiede il licenziatario disciplineranno il presente Contratto di Licenza con l'Utente Finale e tutte le controversie, incluse le controversie correlate al contratto stesso, al Gioco e al Sito Web di Mojang AB, indipendentemente dai principi in materia di conflitto di leggi, fatta eccezione per tutte le disposizioni relative all'arbitrato, che saranno disciplinate dal Federal Arbitration Act.
+
+MINECRAFT REALMS È IN FASE DI SVILUPPO E POTRÀ CONTENERE DIFETTI ED ERRORI, ARRESTARSI IN MODO ANOMALO E/O CAUSARE PERDITE DI DATI COME MISURA DI SICUREZZA MOJANG AB CONSIGLIA DI ESEGUIRE IL BACKUP DI TUTTI I DATI E I PROGRAMMI SUL DISPOSITIVO IN USO. IN ALTRE PAROLE, IL LICENZIATARIO UTILIZZA MINECRAFT REALMS A SUO RISCHIO ED È CONSAPEVOLE CHE VIENE FORNITO "COM'È".
+
+IL LICENZIATARIO DOVRÀ ASSICURARSI DI ESEGUIRE PERIODICAMENTE IL BACKUP DEI DATI DEL MINECRAFT REALM DEL LICENZIATARIO. IL BACKUP NON VIENE ESEGUITO AUTOMATICAMENTE DA MOJANG AB, DI CONSEGUENZA, IN CASO DI ARRESTO ANOMALO DI UN MINECRAFT REALM O DI QUALSIASI CONTENUTO DELL'UTENTE, POTREBBE VERIFICARSI UNA PERDITA DI DATI. QUALORA CIÒ AVVENGA, MOJANG AB NON SI RITERRÀ RESPONSABILE AVENDO IN PRECEDENZA INFORMATO IL LICENZIATARIO DELLA POSSIBILITÀ DEL VERIFICARSI DI TALE SITUAZIONE. SEGNALAZIONE
+
+Talvolta le persone svolgono attività che non dovrebbero. L'unico modo per cercare di evitare che ciò si verifichi è chiedere di adottare un comportamento corretto. Mojang AB si affida al licenziatario e ad altre persone della community per venire a conoscenza di eventuali comportamenti scorretti e li invita a effettuare segnalazioni qualora ciò avvenga e/o qualora ritengano che una persona violi le presenti Condizioni o utilizzi Minecraft Realms in modo non adeguato. Mojang AB mette a disposizione un sistema di segnalazione e invita a utilizzarlo in modo da poter porre in essere tutte le misure necessarie per contrastare tali comportamenti.
+
+RISOLUZIONE
+Qualora il licenziatario violi le presenti condizioni o parte di esse, Mojang AB potrà risolvere il contratto di licenza e impedire al licenziatario di utilizzare Minecraft Realms. Anche il licenziatario può risolvere il contratto in qualsiasi momento. A tal fine, sarà sufficiente che cessi di utilizzare il Minecraft Realm del Licenziatario e di consentire l'accesso a terzi. Dopo la risoluzione, il licenziatario non sarà più in grado di utilizzare Minecraft Realms né potrà consentire a terzi l'accesso al Minecraft Realm del Licenziatario. Quanto stabilito nel Contratto di Arbitrato (qualora il licenziatario risieda negli Stati Uniti) e negli articoli relativi a "Titolarità di Minecraft Realms", "Responsabilità di Mojang AB" e "In generale" continuerà tuttavia a essere valido anche dopo la risoluzione.
+
+IN GENERALE
+Nel presente Contratto di Licenza con l'Utente Finale vengono stabiliti determinati diritti legali. Al licenziatario potranno essere concessi altri diritti ai sensi delle leggi dello stato o del paese di residenza, inclusi i diritti dei consumatori che non possono essere modificati dal presente Contratto di Licenza con l'Utente Finale. In tal caso, il presente Contratto è applicabile nella misura massima consentita dalla legge. Nessuna disposizione esclude o limita la responsabilità di Mojang AB in caso di decesso o danni fisici risultanti da sua negligenza o falsa rappresentazione.
+
+Mojang AB potrà inoltre apportare modifiche periodiche alle presenti Condizioni, qualora ne abbia motivo. Potrebbero, ad esempio, essere apportate modifiche ai giochi, alle procedure o agli obblighi legali di Mojang AB e tali modifiche diventeranno effettive al successivo utilizzo di Minecraft Realms da parte del licenziatario. Mojang AB informerà il licenziatario della modifica prima che abbia effetto, pubblicando una comunicazione sul proprio Sito Web o tramite un altro modo ragionevole. Sebbene Mojang AB non intenda adottare un comportamento scorretto, deve a volte agire in tal senso per conformarsi a eventuali modifiche apportate alle leggi o per evitare che il comportamento di un utente abbia impatto su altri utenti di Minecraft Realms.
+
+Eventuali suggerimenti per Minecraft Realms offerti da un licenziatario a Mojang AB sono a titolo gratuito e Mojang AB non è in alcun modo obbligata ad accettarli né a prenderli in considerazione. Ciò significa che Mojang AB può scegliere se utilizzare o meno il suggerimento e non è tenuta a corrispondere al licenziatario alcun pagamento. Qualora il licenziatario ritenga di avere un suggerimento per cui Mojang AB potrebbe essere disposta a effettuare un pagamento, dovrà sottoporlo solo dopo aver dichiarato la propria intenzione a ricevere un compenso e avere ricevuto da Mojang AB la richiesta scritta di invio del suggerimento.
+
+Per qualunque problematica di carattere legale relativamente a questioni non trattate nelle presenti Condizioni, il licenziatario dovrà astenersi dall'adottare eventuali comportamenti dubbi o potrà rivolgersi direttamente a Mojang AB. In linea di principio, il licenziatario è tenuto ad attenersi alle regole del buon senso per evitare di mettere in difficoltà Mojang AB.
+
+Informazioni sulla società
+
+Mojang AB
+Maria Skolgata 83,
+
+SE-11853
+
+Stoccolma
+Svezia
+Numero dell'organizzazione:556819-2388
+
+Il licenziatario potrà contattare Mojang AB all'indirizzo support@mojang.com

@@ -1,0 +1,12 @@
+{
+  "definition.wither_skeleton": {
+    "textures": {
+      "default": "textures/entity/skeleton/wither_skeleton"
+    },
+    "geometry": {
+      "default": "geometry.skeleton.wither",
+      "armor1": "geometry.humanoid.armor1",
+      "armor2": "geometry.humanoid.armor2"
+    }
+  }
+}

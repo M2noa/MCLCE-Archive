@@ -1,0 +1,108 @@
+// __multiversion__
+// This signals the loading code to prepend either #version 100 or #version 300 es as apropriate.
+
+#include "shaders/fragmentVersionCentroid.h"
+
+varying vec3 worldPosition;
+
+#if __VERSION__ >= 300
+	#ifndef BYPASS_PIXEL_SHADER
+		#if defined(TEXEL_AA) && defined(TEXEL_AA_FEATURE)
+			_centroid in highp vec2 uv0;
+			_centroid in highp vec2 uv1;
+		#else
+			_centroid in vec2 uv0;
+			_centroid in vec2 uv1;
+		#endif
+	#endif
+#else
+	#ifndef BYPASS_PIXEL_SHADER
+		varying vec2 uv0;
+		varying vec2 uv1;
+	#endif
+#endif
+
+varying vec4 color;
+
+#ifdef FOG
+varying vec4 fogColor;
+#endif
+
+#ifdef NEAR_WATER
+varying float cameraDist;
+#endif
+
+#include "shaders/uniformShaderConstants.h"
+#include "shaders/uniformPerFrameConstants.h"
+#include "shaders/uniformBadgerConstants.h"
+#include "shaders/util.h"
+#include "shaders/badger_util.h"
+
+uniform sampler2D TEXTURE_0;
+uniform sampler2D TEXTURE_1;
+uniform sampler2D TEXTURE_2;
+
+void main()
+{
+#ifdef BYPASS_PIXEL_SHADER
+	gl_FragColor = vec4(0, 0, 0, 0);
+	return;
+#else 
+
+#if !defined(TEXEL_AA) || !defined(TEXEL_AA_FEATURE)
+	vec4 diffuse = texture2D( TEXTURE_0, uv0 );
+#else
+	vec4 diffuse = texture2D_AA(TEXTURE_0, uv0 );
+#endif
+
+	vec4 inColor = color;
+	
+#ifdef SEASONS_FAR
+	diffuse.a = 1.0;
+	inColor.b = 1.0;
+#endif
+
+#ifdef ALPHA_TEST
+	#ifdef ALPHA_TO_COVERAGE
+		float alphaThreshold = .05;
+	#else
+		float alphaThreshold = .5;
+	#endif
+	if(diffuse.a < alphaThreshold)
+		discard;
+#endif
+	
+#if !defined(ALWAYS_LIT)
+	diffuse = diffuse * texture2D( TEXTURE_1, uv1 );
+#endif
+
+#ifndef SEASONS
+
+#if !defined(ALPHA_TEST) && !defined(BLEND)
+	diffuse.a = inColor.a;
+#elif defined(BLEND)
+	#ifdef NEAR_WATER
+		diffuse.a *= inColor.a;
+		float alphaFadeOut = clamp(cameraDist, 0.0, 1.0);
+		diffuse.a = mix(diffuse.a, 1.0, alphaFadeOut);
+	#endif
+#endif	
+	
+	diffuse.rgb *= inColor.rgb;
+#else
+	vec2 uv = inColor.xy;
+	diffuse.rgb *= mix(vec3(1.0,1.0,1.0), texture2D( TEXTURE_2, uv).rgb*2.0, inColor.b);
+	diffuse.rgb *= inColor.aaa;
+	diffuse.a = 1.0;
+#endif
+
+	diffuse.rgb = getBadgerInfluenceOverlay(worldPosition.xyz, diffuse.rgb);
+
+#ifdef FOG
+	diffuse.rgb = mix( diffuse.rgb, fogColor.rgb, fogColor.a );
+#endif
+
+	gl_FragColor = diffuse;
+
+#endif // BYPASS_PIXEL_SHADER
+}

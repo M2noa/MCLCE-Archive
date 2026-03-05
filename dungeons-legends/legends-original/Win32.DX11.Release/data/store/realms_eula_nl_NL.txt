@@ -1,0 +1,175 @@
+﻿GEBRUIKSRECHTOVEREENKOMST VOOR MINECRAFT REALMS
+Deze gebruiksrechtovereenkomst (“Gebruiksrechtovereenkomst” of “Voorwaarden”) is een wettelijke overeenkomst tussen u en ons (Mojang AB). In de bepalingen van deze overeenkomst worden enkele regels beschreven voor het gebruik van de service Minecraft Realms (“Minecraft Realms”). Wij zijn net zo min liefhebber van het lezen van licentiedocumenten als u, dus we hebben geprobeerd dit document zo kort mogelijk te houden. Als u deze regels overtreedt, kunnen we u beletten verder gebruik te maken van Minecraft Realms. Door gebruik te maken van Minecraft Realms, gaat u ermee akkoord u aan de regels van deze Voorwaarden te houden. Als u niet akkoord wilt of kunt gaan met deze regels, mag u Minecraft Realms niet gebruiken.
+
+Inbegrepen in deze Voorwaarden zijn ons Privacybeleid, de Mojang-accountvoorwaarden, de Gebruiksrechtovereenkomst voor Minecraft en, als u in de Verenigde Staten woont, onze Arbitrageovereenkomst. Wat in die documenten wordt besproken, wordt dus beschouwd deel uit te maken van deze Voorwaarden. Wanneer we het hebben over deze Voorwaarden, bedoelen we de voorwaarden die u nu voor u ziet, samen met de bepalingen van de inbegrepen documenten. Deze kunt u bekijken door de relevante koppelingen aan te klikken.
+
+BINDENDE ARBRITRAGEOVEREENKOMST EN VERKLARING VAN AFSTAND VAN HET RECHT OP DEELNAME AAN GROEPSVORDERINGEN (CLASS-ACTION)
+Als u in de Verenigde Staten woont, kunt u hier klikken om de bindende arbitrageovereenkomst en verklaring van afstand van het recht op deelname aan groepsvorderingen (class-action) te bekijken, die onderdeel zijn van deze Gebruiksrechtovereenkomst. Op grond van deze overeenkomst, gaan we allebei ermee akkoord een neutrale arbiter te gebruiken voor het beslechten van afzonderlijke geschillen die zich zouden kunnen voordoen. Daarmee doen we dus afstand van ons recht om afzonderlijke vorderingen ter beoordeling voor te leggen aan een rechter of jury. Verder gaan we ermee akkoord dat groepsvorderingen (class-action) en collectieve arbitrage niet zijn toegestaan op grond van de voorwaarden van de overeenkomst.
+
+De volledige Arbitrageovereenkomst bevindt zich op deze pagina. U en wij gaan ermee akkoord, dus neem even de tijd om de overeenkomst te lezen.
+
+WAT IS MINECRAFT REALMS
+Minecraft Realms is een service die is opgezet om mensen in staat te stellen op een eenvoudige manier Minecraft te spelen met andere mensen op een speciale server, onderworpen aan deze Voorwaarden.
+
+Een “Minecraft Realm” is dus een enkele Minecraft-wereld, server of instance die door ons wordt gehost.
+
+U bent gebruiker van Minecraft Realms als u zelf een Minecraft Realm hebt (“Uw Minecraft Realm”) of als u toestemming hebt gekregen om het Minecraft Realm van iemand anders te gebruiken (“Andere Minecraft Realms”). Wanneer we het hebben over het gebruik van Minecraft Realms, bedoelen we dus zowel het gebruik van Uw Minecraft Realm als het gebruik van Andere Minecraft Realms.
+
+MINECRAFT REALMS GEBRUIKEN
+Voor het gebruik van Minecraft Realms, gelden onder andere de volgende vereisten:
+- u moet in het bezit zijn van een authentiek, gelicentieerd exemplaar van de volledige, geactiveerde versie van de Game en een Xbox Live-account (voor Minecraft) of een Mojang-account (voor Minecraft: Java Edition);
+- u moet akkoord gaan met deze Voorwaarden; en
+- u moet beschikken over een geschikt apparaat en een internetverbinding;
+
+EEN MINECRAFT REALM VERKRIJGEN
+U hebt een Xbox Live-account (voor Minecraft) of een Mojang-account (voor Minecraft: Java Edition) nodig waarbij Minecraft is geactiveerd om uw Minecraft Realm op te halen. Daarnaast moet u een abonnement nemen en het abonnementsgeld betalen. Minecraft Realms is een abonnementsservice. De kosten ervan worden beschreven op de toepasselijke verkooppagina's en/of het platform op het moment van aankoop, evenals de kosten van een coupon of geschenkcode. De voorwaarden op de toepasselijke verkooppagina's, het platform, de coupon en/of geschenkcode gelden ook voor de aankoop van Minecraft Realms. Minecraft Realms is een service die van start gaat zodra Uw Minecraft Realm klaar is voor gebruik. Daarna kunt u uw bestemming niet meer annuleren. UW MINECRAFT REALM GEBRUIKEN
+
+Op het moment dat u Uw Minecraft Realm ontvangt, krijgt u toegang tot een speciaal Minecraft Realm, waarin u het volgende kunt doen:
+
+zelf Minecraft spelen;
+andere mensen uitnodigen om Minecraft met u te spelen (hoeveel dat zijn, is afhankelijk van de versie van Realms die u verkrijgt).
+Het volgende kunt u echter niet doen:
+
+toegang tot Uw Minecraft Realm verkopen, in lease geven, verhuren, overdragen, weggeven of anderszins verhandelen, of compensatie ontvangen van anderen voor toestemming om in Uw Minecraft Realm te spelen.
+
+ANDERE MINECRAFT REALMS GEBRUIKEN
+U hebt een authentiek, geactiveerd exemplaar van Minecraft nodig om een Minecraft Realm van iemand anders (Andere Minecraft Realms) te kunnen gebruiken. Op het moment dat u toegang wordt gegeven tot Andere Minecraft Realms ontvangt, krijgt u toegang tot het speciale Minecraft Realm van iemand anders, waarin u het volgende kunt doen:
+
+- Minecraft spelen met de betreffende persoon; en
+- Minecraft spelen met anderen waaraan de betreffende persoon toegang heeft gegeven.
+Het volgende kunt u echter niet doen:
+
+- toegang tot Andere Minecraft Realms verkopen, in lease geven, verhuren, overdragen, weggeven of anderszins verhandelen, of ander personen op welke manier dan ook gebruik laten maken van uw toegang.
+VERLEEN GEEN TOEGANG TOT UW MINECRAFT REALM AAN MENSEN DIE U NIET KENT. WEES OP UW HOEDE WANNEER U MET ANDEREN COMMUNICEERT VIA MINECRAFT REALMS. HET IS VOOR U EN VOOR ONS OF MOEILIJK MET ZEKERHEID TE BEPALEN OF WAT MENSEN BEWEREN WAAR IS, OF ZELFS OF MENSEN WERKELIJK ZIJN WIE ZE ZEGGEN TE ZIJN. DENK ALTIJD GOED NA VOORDAT U PERSOONLIJKE GEGEVENS VERSTREKT.
+
+ACCOUNTS
+Zoals hierboven vermeld hebt u een Xbox Live-account (voor Minecraft) of een Mojang-account (voor Minecraft: Java Edition) en een geactiveerde, gelicentieerde versie Minecraft nodig. Als u deze niet hebt, wordt u gevraagd bepaalde gegevens te verstrekken om een hiervan (of allebei) in te stellen. De gegevens die u ons verstrekt tijdens de registratie moeten juist zijn. U kunt uw registratiegegevens wijzigen als ze niet meer actueel zijn. Als u ons met opzet iets verteld waarvan u weet dat het niet waar is, kunnen we uw account beëindigen of de toegang ertoe tijdelijk intrekken.
+
+De gebruikersnaam en het wachtwoord die u in instelt en de activiteiten die plaatsvinden binnen uw account, zijn uw verantwoordelijkheid. Als iemand uw wachtwoord gebruikt en iets doet dat u niet op prijs stelt of waardoor u schade ondervindt, kunnen en zullen we geen verantwoordelijkheid aanvaarden.
+
+EIGENDOM VAN MINECRAFT REALMS EN ANDERE ZAKEN
+Minecraft Realms bestaat uit onze software, patronen, materialen, tools, infrastructuur en allerlei andere slimme (en minder slimme) dingen die ons eigendom zijn. We oefenen al onze rechten met betrekking tot die dingen uit en behouden deze voor, maar u mag er gebruik van maken binnen het kader van en in verband met uw gebruik van Minecraft Realms en op de basis die is uiteengezet in de Gebruiksrechtovereenkomst voor Minecraft. U ontvangt een niet-exclusief recht om dat te doen, onderworpen aan deze Voorwaarden.
+
+Dit betekent niet dat wij de eigenaar zijn van de leuke dingen die u maakt met Minecraft Realms. U moet alleen accepteren dat wij eigenaar zijn van Minecraft en Minecraft Realms als product en service, en van de dingen die zijn genoemd in de voorgaande zinnen. Daarnaast zijn we eigenaar van het auteursrecht en andere zogeheten intellectuele eigendomsrechten die zijn geassocieerd met deze dingen, en de namen en merken die zijn geassocieerd met Minecraft en Minecraft Realms.
+
+U gaat uiteraard uw eigen dingen maken en gebruiken in Minecraft Realms. De originele dingen die u maakt, zijn niet ons eigendom. We claimen niet het eigendom van dingen die niet aan ons toebehoren. We zijn echter wel eigenaar van dingen die zijn gekopieerd (of in belangrijke mate zijn gekopieerd) of afgeleid van onze eigendommen en creaties (hierboven beschreven). Maar als u zelf originele dingen maakt, zijn die niet van ons. Een voorbeeld:
+
+- een los blokje - ons eigendom;
+- een gotische kathedraal waardoor een achtbaan loopt - niet ons eigendom.
+Dus wanneer u betaalt voor het gebruik van Minecraft Realms, koopt u slechts toestemming om het product en de service Minecraft Realms te gebruiken in overeenstemming met deze Voorwaarden. De enige rechten die u hebt in verband met Minecraft Realms zijn de rechten die zijn uiteengezet in deze Voorwaarden - en de specifieke wettelijke uitzonderingen of rechten (met inbegrip van het zogeheten 'fair use' en 'fair dealing' beginsel) die u op grond van de wet toekomen, maar deze zijn in het algemeen van toepassing op Inhoud en niet op Minecraft Realms zelf.
+
+Sommige versies van Realms bieden u tevens de mogelijkheid een back-up te maken van gegevens uit Uw Minecraft Realm. Nadat u dit hebt gedaan, kunt u deze gegevens mogelijk downloaden naar uw apparaat en gebruiken met uw eigen (authentieke) versie van Minecraft (en onderworpen aan de Gebruiksrechtovereenkomst van Minecraft).
+
+UW INHOUD
+Als u dingen maakt met Minecraft Realms, of inhoud of materiaal beschikbaar maakt in of via Minecraft Realms (“Uw Inhoud”), gaat u tevens ermee akkoord ons en anderen die toegang ertoe hebben, toestemming te verlenen om deze te gebruiken. Dat betekent tevens dat we Uw Inhoud kunnen gebruiken, kopiëren, wijzigen, aanpassen, distribueren, in het openbaar vertonen en anderszins toegankelijk maken voor anderen (zonder betaling of beperkingen). Dit omvat alles wat u bouwt, samenstelt of maakt en alle communicatie die u verricht, bijvoorbeeld via chatfunctionaliteit die we hebben of beschikbaar maken. Daarnaast gaat u ermee akkoord dat anderen Uw Inhoud mogen gebruiken, kopiëren, wijzigen, aanpassen, distribueren en toegankelijk maken, en u accepteert dat dit kan gebeuren zonder bronvermelding of toeschrijving.
+
+Dit is noodzakelijk om diverse redenen, bijvoorbeeld omdat we ons er zeker van willen zijn dat anderen (die u kunt uitnodigen), wanneer ze gebruikmaken van Uw Minecraft Realm, het recht hebben om dat te doen, en dat u, wanneer u gebruikmaakt van Andere Minecraft Realms, het recht hebt om dat te doen. We willen er ook zeker van zijn dat we niet aansprakelijk zijn voor wat andere mensen doen met Uw Inhoud wanneer u deze dor hen laat gebruiken - omdat we daar geen controle over hebben - en ook willen aangeven dat in het algemeen software, patronen, tools, enzovoort die ons eigendom zijn (zie hierboven), deel uitmaken van Uw Inhoud.
+
+Deze machtigingen zijn eeuwigdurend en kunnen niet worden herroepen. Als u deze machtigingen niet wilt verlenen, moet u geen inhoud beschikbaar maken in Minecraft Realms.
+
+Denk goed na voordat u inhoud beschikbaar maakt, want het zal openbaar worden gemaakt (ook aan anderen die toegang hebben tot de Minecraft Realms waarvan u gebruikmaakt) en zou ook door andere mensen kunnen worden gebruikt op een manier die u niet op prijs stelt.
+
+Als u Uw Inhoud toegankelijk maakt via Minecraft Realms, bijvoorbeeld in of via Uw Minecraft Realm of Andere Minecraft Realms, mag deze:
+
+- niet aanstootgevend zijn voor anderen;
+- niet illegaal of onwettig zijn;
+- niet oneerlijk zijn of anderen misleiden, bedriegen of uitbuiten, of de schijn wekken afkomstig te zijn van iemand anders;
+- geen inbreuk maken op het auteursrecht of andere rechten van anderen;
+- niet racistisch, seksistisch of homofoob zijn;
+- niet intimiderend of beledigend zijn;
+- geen schade toebrengen aan onze reputatie, of die van anderen;
+- geen pornografie bevatten;
+- geen advertenties bevatten.
+
+U mag geen inhoud beschikbaar maken via Minecraft Realms die inbreuk maakt op de rechten van anderen.
+
+U bent verantwoordelijk voor alle inhoud die door u beschikbaar wordt gemaakt via Minecraft Realms.
+
+U bent daarnaast verantwoordelijk voor alle inhoud die door u of anderen beschikbaar wordt gemaakt via Uw Minecraft Realms.
+
+Door Uw Inhoud beschikbaar te maken, garandeert u en verklaart u aan ons dat u volledig gerechtigd bent dit te doen op grond van deze Voorwaarden en dat we gerechtigd zijn gebruik te maken van de rechten die u op grond van deze Voorwaarden aan ons hebt verleend.
+
+Als u ons ervan op de hoogte wilt stellen dat iemand inbreuk maakt op uw intellectueel eigendom in Minecraft Realms of een van onze andere services, kunt u hier een melding indienen (https://www.microsoft.com/info/cpyrtInfrg.aspx). We behouden ons het recht voor inhoud naar eigen goeddunken te verwijderen. Als dit gepast is, kunnen we accounts van gebruikers die herhaaldelijk inbreuk maken beëindigen of de toegang ertoe tijdelijk intrekken.
+
+ANDERE INHOUD
+Wanneer u gebruikmaakt van Minecraft Realms, kunt u ook toegang verkrijgen tot en gebruik maken van inhoud die door anderen is gemaakt (“Andere Inhoud”). Sommige van deze Andere Inhoud kan beschikbaar zijn gemaakt door mensen die u uitnodigt voor Uw Minecraft Realm en sommige ervan kan beschikbaar zijn gemaakt in het Minecraft Realm van iemand anders.
+
+Net als in het geval van Uw Inhoud, geldt dat in het algemeen software, patronen, materialen, tools, enzovoort die ons eigendom zijn (zie hierboven), deel uitmaken van Andere Inhoud.
+
+Als iemand Andere Inhoud beschikbaar of toegankelijk maakt voor u, kunt u deze gebruiken binnen en in verband met uw gebruik van Minecraft Realms, onderworpen aan deze Voorwaarden. In elk geval is Andere Inhoud onderworpen aan deze Voorwaarden.
+
+GEBRUIKERSINHOUD
+Hier worden enkele bepalingen beschreven die betrekking hebben op Uw Inhoud en Andere Inhoud, samen eenvoudig aangeduid als “Gebruikersinhoud”.
+
+Minecraft Realms is een entertainmentservice en zodoende zijn we betrokken bij de transmissie, distributie, opslag en presentatie van Gebruikersinhoud, zonder dat de inhoud wordt beoordeeld, geselecteerd of gewijzigd, en/of bij de hosting van Gebruikersinhoud, zonder dat we bekend zijn met de inhoud ervan. Minecraft Realms fungeert slechts als doorgeefluik voor deze inhoud. Dit houdt in dat we Gebruikersinhoud niet bekijken of beoordelen en we dus niet weten wat door u of anderen wordt rondgestuurd. We kunnen controleren of het materiaal voldoet aan de technische vereisten en/of vrij is van virussen, maar we kijken niet naar de inhoud zelf of de informatie die zich erin bevindt. We hebben regels opgenomen in de Voorwaarden en u en anderen moeten deze naleven, maar we kunnen niet alles controleren.
+
+Dus houd rekening met het volgende:
+
+- de standpunten die worden verkondigd in Gebruikersinhoud zijn de standpunten van de afzonderlijke auteurs of makers en niet van ons of personen die met ons zijn verbonden, tenzij we anders aangeven;
+- we zijn niet verantwoordelijk voor (en, onderworpen aan het plaatselijk recht, geven geen garanties en leggen geen verklaringen af met betrekking tot, en nemen afstand van elke aansprakelijkheid voor) alle Gebruikersinhoud, met inbegrip van opmerkingen, standpunten of zienswijzen die erin worden uitgedrukt;
+- door gebruik te maken van Minecraft Realms, erkent u dat we geen verantwoordelijkheid dragen voor het bekijken of controleren van de inhoud van Gebruikersinhoud en dat alle Gebruikersinhoud beschikbaar wordt gemaakt met dien verstande dat we niet verplicht zijn deze te controleren of te beoordelen en dat ook niet zullen doen;
+- maak tijdens het communiceren met andere spelers geen afspraken met mensen om elkaar te ontmoeten als u hen nog niet eerder hebt ontmoet.
+We kunnen echter wel Gebruikersinhoud verwijderen, weigeren of de toegang ertoe tijdelijk intrekken, of uw vermogen om Gebruikersinhoud te plaatsen, beschikbaar te maken of te raadplegen beëindigen of tijdelijk intrekken - en ook uw toegang tot Uw Minecraft Realm of Andere Minecraft Realms beëindigen of tijdelijk intrekken - als we dit passend vinden, bijvoorbeeld omdat u deze Voorwaarden hebt geschonden of we klachten hebben ontvangen die naar onze mening dergelijke stappen rechtvaardigen. We zullen ook kordaat optreden en toegang tot Gebruikersinhoud te verwijderen of te blokkeren als en wanneer we daadwerkelijk weten dat deze onwettig is.
+
+UPDATES
+We kunnen zo nu en dan upgrades, updates of patches (we noemen deze allemaal “updates”) beschikbaar maken, zoals we tot nog toe hebben gedaan, maar we zijn dat niet verplicht.
+
+We zijn niet verplicht doorlopende ondersteuning of onderhoud te bieden voor Minecraft Realms. Dus dan weet u dat.
+
+We hopen natuurlijk nieuwe updates voor Minecraft Realms uit te brengen, maar we kunnen alleen niet garanderen dat we dat ook zullen doen.
+
+BETALING, RESTITUTIE, ENZOVOORT
+De Mojang-accountvoorwaarden zijn van toepassing op betalingen en restitutie. Minecraft Realms is echter een service die van start gaat zodra Uw Minecraft Realm aan u beschikbaar is gesteld en/of toegankelijk is gemaakt. Daarna is het derhalve niet meer mogelijk een bestelling of aankoop ongedaan te maken. Dit heeft echter geen gevolgen voor uw consumentenrechten. Als u Minecraft Realms niet kunt gebruiken als gevolg van een fout of storing, kunt u dit aan ons laten weten. We proberen het dan voor u te herstellen. En als we het niet kunnen herstellen, hebt u mogelijk recht op restitutie.
+
+AANSPRAKELIJKHEID, TOEPASSELIJK RECHT, EN PLAATS VOOR HET BESLECHTEN VAN GESCHILLEN
+
+Deze Gebruiksrechtovereenkomst heeft geen gevolgen voor de wettelijke rechten die u hebt op grond van het recht van op u van toepassing is met betrekking tot Minecraft Realms of iets wat u via onze Website aanschaft. Het is mogelijk dat u beschikt over bepaalde rechten die op grond van het recht dat op u van toepassing is niet kunnen worden uitgesloten. Niets wat we zeggen in deze Gebruiksrechtovereenkomst heeft gevolgen voor die wettelijke rechten, zelfs als we iets zeggen dat klinkt alsof het in strijd is met uw wettelijke rechten. Dat is wat we bedoelen met "onderworpen aan het toepasselijk recht".
+
+ONDERWORPEN AAN HET TOEPASSELIJK RECHT, ZIJN WE NIET AANSPRAKELIJK VOOR:
+
+- GEBRUIK OF MISBRUIK VAN UW MINECRAFT REALM OF ANDERE MINECRAFT REALMS;
+- GEBRUIK OF MISBRUIK VAN MINECRAFT REALMS DOOR U OF IEMAND ANDERS;
+- INHOUD DIE DOOR U BESCHIKBAAR WORDT GEMAAKT VIA MINECRAFT REALMS;
+- SCHENDING VAN DEZE VOORWAARDEN DOOR U;
+- SCHENDING VAN VOORWAARDEN DOOR IEMAND ANDERS.
+- U BENT AANSPRAKELIJK VOOR:
+- ELK GEBRUIK VAN MINECRAFT REALMS DOOR U;
+- ELK GEBRUIK VAN UW MINECRAFT REALM EN ELK GEBRUIK VAN ANDERE MINECRAFT REALMS DOOR U;
+- SCHENDING VAN DEZE VOORWAARDEN DOOR U;
+- ALLE INHOUD DIE DOOR U BESCHIKBAAR WORDT GEMAAKT VIA MINECRAFT REALMS;
+- INHOUD DIE DOOR U OF ANDEREN BESCHIKBAAR WORDT GEMAAKT VIA UW MINECRAFT REALMS.
+
+ONDERWORPEN AAN HET TOEPASSELIJK RECHT, wordt Minecraft Realms geleverd 'zoals het is'. Updates worden geleverd 'zoals deze zijn'. Dit betekent dat we geen beloften aan u doen met betrekking tot de standaard of kwaliteit van Minecraft Realms, of dat Minecraft Realms altijd zonder onderbrekingen of fouten zal werken. VOOR ZOVER MAXIMAAL WORDT TOEGESTAAN DOOR HET TOEPASSELIJK RECHT zijn we niet verantwoordelijk voor verliezen en schade die erdoor worden veroorzaakt. U dient te accepteren dat we Minecraft Realms in bèta lanceren en voortdurend nieuwe functies toevoegen en verbeteren. Er kunnen (en zullen vaak) fouten in zitten, maar we geven deze functies liever eerder vrij, in plaats van u te laten wachten totdat ze perfect zijn.
+
+Als u en wij een geschil hebben in een rechtbank (en we hopen net zozeer als u dat dit nooit zal gebeuren), is het exclusieve forum (dat wil zeggen, de plaats waar de zaak wordt behandeld) het staats- of federale gerechtshof in King County, WA (als u in de Verenigde Staten woont) of een rechtbank in Ontario (als u in Canada woont). (Als u in de Verenigde Staten woont, worden de meeste geschillen beslecht door middel van arbitrage, niet door de rechter.) Deze Gebruiksrechtovereenkomst en alle geschillen, met inbegrip van geschillen met betrekking tot de Gebruiksovereenkomst, onze Game of onze Website, zijn onderworpen aan het recht van uw staat of provincie, ongeacht de beginselen van het internationaal privaatrecht, met dien verstande dat alle aspecten van arbitrage zijn onderworpen aan de Federal Arbitration Act.
+
+MINECRAFT REALMS IS EEN WERK IN UITVOERING EN KAN TEKORTKOMINGEN EN FOUTEN BEVATTEN, VASTLOPEN EN/OF GEGEVENSVERLIES VEROORZAKEN. HET SPIJT ONS ALS DAT GEBEURT. MAAK DAAROM BACK-UPS EN BESCHERM ALLE GEGEVENS EN PROGRAMMA'S OP UW APPARAAT. EENVOUDIG GESTELD: U GEBRUIKT MINECRAFT REALMS OP EIGEN RISICO, ERVAN BEWUST DAT DE SERVICE WORDT GELEVERD “ZOALS DEZE IS”.
+
+ZORG ERVOOR DAT U REGELMATIG EEN BACK-UP MAAKT VAN DE GEGEVENS IN UW MINECRAFT REALM. DIT WORDT NIET AUTOMATISCH GEDAAN, DUS ALS MINECRAFT REALM OF BEPAALDE GEBRUIKERSINHOUD VASTLOOPT, KUNT U UW GEGEVENS KWIJT ZIJN. ALS DAT GEBEURT, SPIJT HET ONS, MAAR MEER DAN ONZE VERONTSCHULDIGINGEN ZULLEN WE U NIET GEVEN. MELDING
+
+Soms doen mensen dingen die ze niet zouden moeten doen. We vinden dat niet leuk, maar we kunnen niet veel meer doen dat iedereen vragen zich behoorlijk te gedragen. We vertrouwen op u, en anderen zoals u binnen de gemeenschap, om aan ons te melden wanneer iemand zich onbehoorlijk gedraagt. Dus als dit het geval is, en/of u denkt dat iemand deze Voorwaarden schendt of Minecraft Realms op ongeoorloofde manier gebruikt, vragen we u dat aan ons te melden. We hebben een systeem om dit soort kwesties te melden. We vragen u daarom daarvan gebruik te maken. Dan doen wij wat nodig is om deze kwesties aan te pakken.
+
+BEËINDIGING
+Als u deze voorwaarden of een onderdeel ervan schendt, kunnen we deze licentieovereenkomst en uw gebruik van Minecraft Realms beëindigen. U kunt de overeenkomst ook op elk moment beëindigen door het gebruik van Uw Minecraft Realm te staken en anderen geen toegang meer te verlenen. Na beëindiging kunt u geen gebruik meer maken van Minecraft Realms en kunt u anderen geen toegang meer verlenen tot uw Minecraft Realm. De Arbitrageovereenkomst (als u in de Verenigde Staten woont) en de artikelen “Eigendom van Minecraft Realms”, “Onze aansprakelijkheid” en “Algemeen” blijven echter ook na de beëindiging van kracht.
+
+ALGEMEEN
+In deze Gebruiksrechtovereenkomst worden bepaalde wettelijke rechten beschreven. De wetten van uw staat of land geven u mogelijk andere rechten, waaronder consumentenrechten, waarin deze Gebruiksrechtovereenkomst geen verandering kan aanbrengen. Als dat het geval is, is deze Gebruiksrechtovereenkomst van toepassing voor zover de wet het toestaat. Onze aansprakelijkheid voor dood of lichamelijk letsel als gevolg van onrechtmatige daad of bedriegelijke voorstelling van zaken wordt op geen enkele wijze uitgesloten of beperkt.
+
+Verder kunnen we deze Voorwaarden van tijd tot tijd wijzigen, als daar reden voor is. Er kan bijvoorbeeld sprake zijn van veranderingen in onze games, onze werkwijzen, of onze wettelijke verplichtingen, en dergelijke veranderingen gelden ook voor uw daaropvolgende gebruik van Minecraft Realms. We stellen u op de hoogte van de wijziging voordat deze van kracht wordt, hetzij door een mededeling te plaatsen op onze Website, hetzij langs een redelijke andere weg. We zullen deze mogelijkheid niet misbruiken, maar soms verandert de wetgeving of doet iemand iets dat gevolgen heeft voor andere gebruikers van Minecraft Realms en zijn we gedwongen in te grijpen.
+
+Als u aan ons een suggestie doet met betrekking tot Minecraft Realms, doet u deze suggestie kosteloos en zijn we niet verplicht deze te accepteren of te overwegen. Dit betekent dat we uw suggestie wel of niet kunnen gebruiken, op welke manier dan ook, en u daarvoor geen vergoeding verschuldigd zijn. Als u denkt dat u een suggestie hebt waarvoor we bereid zijn te betalen, moet u deze suggestie pas aan ons doen nadat u duidelijk hebt gemaakt dat u betaling verwacht en wij schriftelijk daarop hebben gereageerd met het verzoek de suggestie in te zenden.
+
+Als u vragen hebt over juridische kwesties die niet worden beantwoord in deze Voorwaarden, kunt u deze beter vermijden, of ons om aanvullende informatie vragen. In het algemeen geldt: als u geen bizarre dingen doet, doen wij dat ook niet.
+
+Bedrijfsinformatie
+
+Mojang AB
+Maria Skolgata 83,
+
+SE-11853
+
+Stockholm
+Zweden
+Organisatienummer:556819-2388
+
+U kunt ons hier bereiken, of via support@mojang.com

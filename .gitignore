@@ -1,5 +1,1 @@
-# Exclude original zip archives
-*.zip
-
-# Exclude README.txt (original file)
-README.txt
+opencode.json

@@ -1,0 +1,16 @@
+{
+  "definition.zombie_villager": {
+    "textures": {
+      "smith": "textures/entity/zombie_villager/zombie_smith",
+      "butcher": "textures/entity/zombie_villager/zombie_butcher",
+      "librarian": "textures/entity/zombie_villager/zombie_librarian",
+      "priest": "textures/entity/zombie_villager/zombie_priest",
+      "farmer": "textures/entity/zombie_villager/zombie_farmer"
+    },
+    "geometry": {
+      "default": "geometry.zombie.villager",
+      "armor1": "geometry.zombie.villager",
+      "armor2": "geometry.zombie.villager"
+    }
+  }
+}

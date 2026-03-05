@@ -1,63 +1,95 @@
-# Minecraft Console Edition Source Code Archives
+# Minecraft Source Code Archives (2013-2014)
 
-This repository contains archived Minecraft source code leaks from 2014.
+This repository contains organized Minecraft source code leaks from 2013-2014.
 
-**Original zip archives have been removed after extraction.** All source code is preserved in organized folders below.
+**Original zip archives have been removed after extraction.** All source code is preserved and organized by edition and platform.
 
-## Archive Summary
+## Repository Structure
 
-| Archive | Platforms | Date | Size (Uncompressed) | Files |
-|---------|-----------|------|---------------------|-------|
-| `Minecraft PS3 Edition Source Code/` | PS3 | 2014 | 1.14 GB | 16,345 |
-| `Minecraft/` | PS3, PS Vita, PS4, Windows x86_64, Xbox One, Xbox 360 | 2014 | 3.09 GB | 19,433 |
-| `mc-console-oct2014/` | Console Edition | October 2014 | 3.09 GB | 19,433 |
-| `MinecraftConsoles-141217/` | Consoles | 2014-12-17 | 632 MB | 5,375 |
-| `Release/` | Windows x86_64 (Pre-compiled) | 2014 | 810 MB | 2,591 |
-| `mc-cpp-snapshot/` | Android, iOS, Raspberry Pi, Windows x86 | 2014 | 63 MB | 2,100 |
-| `Infdev_20140630_master/` | PC Infdev | 2014-06-30 | 4.6 MB | 430 |
+```
+minecraft/
+├── console-edition-2014/          # Console Edition (PS3, PS4, Vita, Xbox 360, Xbox One, Windows)
+│   ├── full-multiplatform/        # Complete multi-platform source (all consoles + Windows)
+│   ├── oct-2014-backup/           # October 2014 backup snapshot
+│   ├── ps3-only-stripped/         # Initial PS3-only leak (stripped version)
+│   └── dec-2014-build/            # December 2014 build
+├── pocket-edition-2013/           # Pocket Edition (Android, iOS, Raspberry Pi)
+│   └── mcpe-source/               # MCPE C++ source code
+├── infdev-2014/                   # PC Infdev custom engine
+│   └── source/                    # Infdev source with custom game engine
+├── precompiled-windows/           # Pre-compiled Windows x86_64 executable
+├── dungeons-legends/              # Minecraft Dungeons & Legends spinoffs
+│   ├── dungeons-source/           # Dungeons source code
+│   ├── dungeons-original/         # Dungeons original build
+│   ├── legends-original/          # Legends original build
+│   └── narration-build-2017/      # Dungeons narration build (2017)
+└── story-mode/                    # Minecraft Story Mode beta branches
+    └── info_storymode.txt         # Beta branch passwords and info
+```
 
-## Detailed Information
+## Editions Overview
 
-### Minecraft PS3 Edition Source Code
-- **Source:** gofile.io/d/NIawxk
-- **Platform:** PS3
-- **Git Hash:** N/A
-- **Notes:** Initial PS3 edition source code leak
+### Console Edition (2014)
+**Platforms:** PS3, PS4, PS Vita, Xbox 360, Xbox One, Windows x86_64  
+**Size:** ~3 GB source code  
+**Files:** 19,433+ files  
+**Language:** C++  
 
-### Minecraft
-- **Source:** gofile.io/d/RRf1hv
-- **Platforms:** PS3, PS Vita, PS4, Windows x86_64, Xbox One, Xbox 360
-- **Notes:** Full console edition source code
+The full multi-platform console edition with platform-specific implementations for all major consoles. Includes complete rendering, networking, and game logic.
 
-### mc-console-oct2014
-- **Source:** gofile.io/d/pxeEVD
-- **Platforms:** Console Edition
-- **Date:** October 2014
-- **Git Hash:** 5ca1eff0124dd98f5bab76cfd2052dc8718b1c18
-- **Notes:** Contains mc-console-oct2014.zip, mc-cpp-snapshot.zip, & MinecraftConsoles-141217
+### Pocket Edition (2013)
+**Platforms:** Android, iOS, Raspberry Pi, Windows x86  
+**Size:** 63 MB  
+**Files:** 2,100 files  
+**Language:** C++  
+**Date:** February 8, 2013  
+**Git Hash:** 2b519c7d6aacca7ce5865470e039268b43255217
 
-### MinecraftConsoles-141217
-- **Source:** gofile.io/d/pxeEVD
-- **Platforms:** Consoles
-- **Date:** 2014-12-17
-- **Notes:** Console edition build from December 2014
+Mobile/handheld version of Minecraft with cross-platform C++ codebase.
 
-### Release
-- **Source:** gofile.io/d/4srlJI
-- **Platforms:** Windows x86_64
-- **Notes:** Pre-compiled Windows version
+### Infdev (2014)
+**Platform:** PC  
+**Size:** 4.6 MB  
+**Files:** 430 files  
+**Language:** C++  
+**Date:** June 30, 2014  
 
-### mc-cpp-snapshot
-- **Source:** gofile.io/d/pxeEVD
-- **Platforms:** Android, iOS, Raspberry Pi, Windows x86
-- **Git Hash:** 2b519c7d6aacca7ce5865470e039268b43255217
-- **Notes:** MCPE (Minecraft Pocket Edition) source
+Custom game engine implementation with OpenGL/DirectX rendering, physics, networking, and world management.
 
-### Infdev_20140630_master
-- **Source:** gofile.io/d/RONXEc
-- **Platforms:** PC
-- **Date:** 2014-06-30
-- **Notes:** Infdev version from June 2014
+### Pre-compiled Windows Build
+**Platform:** Windows x86_64  
+**Size:** 810 MB  
+**Type:** Executable + Assets  
+
+Ready-to-run Windows build of Console Edition with all dependencies and assets.
+
+### Dungeons & Legends (2017-2021)
+**Games:** Minecraft Dungeons, Minecraft Legends  
+**Size:** ~1.5 GB combined  
+**Files:** 17,401+ files  
+**Language:** C++  
+
+Source code and original builds for Minecraft spinoff games. Includes full Dungeons source code and original builds for both Dungeons and Legends.
+
+### Story Mode (Beta Branches)
+**Game:** Minecraft Story Mode  
+**Size:** ~15 GB combined  
+**Files:** 917 files  
+**Type:** Steam beta branch builds (Steam-cracked)  
+
+Steam beta branch builds modified to run without Steam. Includes enderman, endercon, linux-test, and patch branches with original passwords documented.
+
+## Original Archive Sources
+
+| Original Archive | New Location | Source URL | Git Hash |
+|------------------|--------------|------------|----------|
+| `Minecraft.zip` | `console-edition-2014/full-multiplatform/` | gofile.io/d/RRf1hv | - |
+| `mc-console-oct2014.zip` | `console-edition-2014/oct-2014-backup/` | gofile.io/d/pxeEVD | 5ca1eff0124dd98f5bab76cfd2052dc8718b1c18 |
+| `Minecraft PS3 Edition Source Code.zip` | `console-edition-2014/ps3-only-stripped/` | gofile.io/d/NIawxk | - |
+| `MinecraftConsoles-141217.zip` | `console-edition-2014/dec-2014-build/` | gofile.io/d/pxeEVD | - |
+| `mc-cpp-snapshot.zip` | `pocket-edition-2013/mcpe-source/` | gofile.io/d/pxeEVD | 2b519c7d6aacca7ce5865470e039268b43255217 |
+| `Infdev_20140630_master.zip` | `infdev-2014/source/` | gofile.io/d/RONXEc | - |
+| `Release.zip` | `precompiled-windows/` | gofile.io/d/4srlJI | - |
 
 ## Lore
 

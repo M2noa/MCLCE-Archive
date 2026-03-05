@@ -1,0 +1,43 @@
+{
+	"id": "desert-test-level",
+	"object-groups": [
+		"henrik_desert_01"
+	],
+	"tile-groups": [
+    	{
+			"id": "desert-plains",
+			"tiles": [
+				{"id": "d003", "weight": 3},
+				{"id": "d004"},
+				{"id": "d008", "weight": 2},
+				{"id": "d012"},
+				{"id": "d018"},
+				{"id": "d019"}
+			]
+		},
+    	{
+			"id": "desert-straight-hills",
+			"tiles": ["d013", "d020", "d022", "d024"]
+		}
+	],
+	"stretches": [
+		{
+			"id": "desert-start",
+			"tiles": ["d001"]
+		},
+		{
+			"id": "desert-1",
+			"tile-group": "desert-plains",
+			"length": 15
+		},
+		{
+			"id": "desert-2",
+			"tile-group": "desert-straight-hills",
+			"length": 8
+		},
+		{
+			"id": "desert-end",
+			"tiles": ["d002"]
+		}
+	]
+}

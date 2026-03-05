@@ -1,0 +1,10 @@
+{
+  "definition.enderman": {
+    "textures": {
+      "default": "textures/entity/enderman/enderman"
+    },
+    "geometry": {
+      "default": "geometry.enderman"
+    }
+  }
+}

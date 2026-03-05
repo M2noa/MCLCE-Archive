@@ -1,0 +1,174 @@
+
+{
+	"id": "cave-test-level",
+	"object-groups": [
+		"objectgroup"
+	],
+
+	"visual-theme": "cave",
+	"sound-theme": "cave",
+	"prop-density": 0.5,
+
+	"#tg": "First 'c' stands for Cave!",
+	"tile-groups": [
+		{
+			"#": "Start tile",
+			"id": "start",
+			"tiles": ["cstart001"]
+		},
+		{
+			"#": "Checkpoint tile (would be nice if the redstone lamp lit up when you get close and activate checkpoint)",
+			"id": "checkpoint",
+			"tiles": ["ccp001"]
+		},
+		{
+			"#": "End tile",
+			"id": "end",
+			"tiles": ["cend001"]
+		},
+		{
+			"#": "Common random mess of tiles, no rails, no distinguishing features",
+			"id": "common",
+			"tiles": ["cc001", "cc002", "cc003", "cc004", "cc005", "cc006", "cc007", "cc008", "cc009", "cc010", "cc011", "cc012", "cc013", "cc014", "cc015", "cc016", "cc017", "cc018", "cc019", "cc020", "cc021", "cc022", "cc023", "cc024", "cc025", "cc026", "cc027", "cc028", "cc029", "cc030", "cc031", "cc032", "cc033", "cc034"]
+		},
+		{
+			"#": "Uncommon tiles with a distinguishing feature, like water, ravine, lava",
+			"id": "uncommon",
+			"tiles": ["cu001", "cu002", "cu003", "cu004"]
+		},
+		{
+			"#": "Mineshaft tiles with bits of rails",
+			"id": "rails",
+			"tiles": ["cr001", "cr002", "cr003", "cr004", "cr005", "cr006", "cr007", "cr008", "cr009", "cr010", "cs002"]
+		},
+		{
+			"#": "Winding narrow caves",
+			"id": "winding",
+			"tiles": ["cc005", "cc006", "cc007", "cc008", "cc010", "cc015", "cc016", "cc017", "cc018", "cc019", "cc020", "cc021", "cc022", "cc023", "cc024", "cc031", "cc032", "cc033"]
+		},
+		{
+			"#": "Short stops, very short with only one door",
+			"id": "short-stop",
+			"tiles": ["cc016", "cc017", "cc018"]
+		},
+		{
+			"#": "Open areas",
+			"id": "open",
+			"tiles": ["cc001", "cc002", "cc003", "cc009", "cc011", "cc014", "cu002"]
+		},
+		{
+			"#": "Vertically challenged, i.e. with stairs",
+			"id": "stairs",
+			"tiles": ["cc004", "cc005", "cc006"]
+		},
+		{
+			"#": "Max test",
+			"id": "test",
+			"tiles": ["test002", "test001", "test003", "test004", "test005"]
+		},
+		{
+			"#": "Architectural special areas, unique architecutral setpieces",
+			"id": "speciala",
+			"tiles": ["cs008", "cs009"]
+		},
+		{
+			"#": "Natural special areas, unique natural setpieces",
+			"id": "specialn",
+			"tiles": ["cs010"]
+		}
+	],
+	"stretches": [
+		{
+			"id": "start",
+			"tile-groups": ["start"],
+			"sound-theme": "silent",
+			"visual-theme": "start"
+		},
+		{
+			"id": "",
+			"tile-groups": ["common", "open"],
+			"prop-groups": ["generic_cave_decor", "water", "coalore"],
+			"length": 3,
+			"visual-theme": "cave_blue"
+		},
+		{
+			"id": "",
+			"tile-groups": ["stairs", "common", "uncommon"],
+			"prop-groups": ["groundpatch", "water", "coalore"],
+			"length": 3,
+			"visual-theme": "cave_purple"
+		},
+		{
+			"id": "",
+			"tile-groups": ["speciala"],
+			"length": 1,
+			"visual-theme": "cave_dark"
+		},
+		{
+			"id": "",
+			"tile-groups": [{"id": "common", "weight": 5}, "uncommon"],
+			"prop-groups": ["generic_cave_decor", "water", "ironore", "stone"],
+			"prop-density": 1,
+			"length": 4,
+			"visual-theme": "cave_green"
+		},
+		{
+			"id": "checkpoint-1",
+			"tile-groups": ["checkpoint"],
+			"visual-theme": "cave_checkpoint"
+		},
+		{
+			"id": "",
+			"tile-groups": [{"id": "stairs", "weight": 2}, "open", {"id": "winding", "weight": 5}],
+			"prop-groups": ["lava", "manmade", "ironore"],
+			"prop-density": 0.8,
+			"length": 3,
+			"visual-theme": "cave_dark"
+			
+			
+			
+			
+		},
+		{
+			"id": "",
+			"tile-groups": ["specialn"],
+			"length": 1,
+			"visual-theme": "cave_boss"
+		},
+		{
+			"id": "",
+			"tile-groups": ["open"],
+			"prop-groups": ["water", "goldore"],
+			"length": 3,
+			"visual-theme": "cave_red"
+		},
+		{
+			"id": "",
+			"tile-groups": [{"id": "stairs", "weight": 2}, "uncommon", "rails"],
+			"prop-groups": ["manmade", "rails"],
+			"length": 3,
+			"visual-theme": "cave_blue"
+		},
+		{
+			"id": "",
+			"tile-groups": ["rails"],
+			"prop-groups": ["rails"],
+			"prop-density": 0.7,
+			"length": 2,
+			"visual-theme": "cave_blue"
+		},
+		{
+			"id": "",
+			"tile-groups": ["open"],
+			"prop-groups": ["lava", {"id": "generic_cave_decor", "weight": 0.5}],
+			"prop-density": 0.75,
+			"length": 2,
+			"visual-theme": "cave_boss"
+		},
+		{
+			"id": "end",
+			"tile-groups": ["end"],
+			"visual-theme": "cave_dark"
+		}
+	]
+}

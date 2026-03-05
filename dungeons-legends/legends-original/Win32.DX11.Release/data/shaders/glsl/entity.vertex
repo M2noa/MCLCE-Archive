@@ -1,0 +1,141 @@
+// __multiversion__
+// This signals the loading code to prepend either #version 100 or #version 300 es as apropriate.
+
+#include "shaders/vertexVersionCentroidUV.h"
+
+#include "shaders/uniformWorldConstants.h"
+#include "shaders/uniformEntityConstants.h"
+#include "shaders/uniformPerFrameConstants.h"
+
+attribute mediump vec4 POSITION;
+attribute vec2 TEXCOORD_0;
+attribute vec4 NORMAL;
+
+#ifdef COLOR_BASED
+	attribute vec4 COLOR;
+#endif
+
+varying vec4 light;
+varying vec4 fogColor;
+
+#ifdef USE_OVERLAY
+varying vec4 overlayColor;
+#endif
+
+varying vec4 teamColor;
+
+#ifdef TINTED_ALPHA_TEST
+varying float alphaTestMultiplier;
+#endif
+
+#if defined(USE_COLOR_MASK) || defined(ITEM_IN_HAND) || defined(COLOR_SECOND_TEXTURE)
+varying vec4 changeColor;
+#endif
+
+#ifdef GLINT
+	varying vec2 layer1UV;
+	varying vec2 layer2UV;
+    varying vec4 tileLightColor;
+	varying vec4 glintColor;
+#endif
+
+const float AMBIENT = 0.45;
+
+const float XFAC = -0.1;
+const float ZFAC = 0.1;
+
+float teamColorIntensity(vec3 pos, vec3 normal)
+{
+#if 1
+	float amt = clamp(pos.y / 16.f, 0, 1);
+	return amt;
+#else
+	vec3 lightDir = normalize(vec3(1, 0, 1));
+	vec3 N = normalize(normal * mat3(WORLDVIEW)).xyz;
+	return clamp(dot(N, lightDir), 0, 1);
+#endif
+}
+
+float lightIntensity(vec3 N) {
+#ifdef FANCY
+    N.y *= TILE_LIGHT_COLOR.w; //TILE_LIGHT_COLOR.w contains the direction of the light
+
+    //take care of double sided polygons on materials without culling
+#ifdef FLIP_BACKFACES
+    vec3 viewDir = normalize((WORLD * POSITION).xyz);
+    if( dot(N, viewDir) > 0.0 )
+        N *= -1.0;
+#endif
+
+    float yLight = (1.0+N.y) * 0.5;
+    return yLight * (1.0-AMBIENT) + N.x*N.x * XFAC + N.z*N.z * ZFAC + AMBIENT;
+#else
+    return 1.0;
+#endif
+}
+
+#ifdef GLINT
+vec2 calculateLayerUV(float offset, float rotation) {
+	vec2 uv = TEXCOORD_0;
+	uv -= 0.5;
+	float rsin = sin(rotation);
+	float rcos = cos(rotation);
+	uv = mat2(rcos, -rsin, rsin, rcos) * uv;
+	uv.x += offset;
+	uv += 0.5;
+
+	return uv * GLINT_UV_SCALE;
+}
+#endif
+
+void main()
+{
+    POS4 pos = WORLDVIEWPROJ * POSITION;
+    gl_Position = pos;
+
+	vec3 N = normalize( WORLD * NORMAL ).xyz;
+
+    float L = lightIntensity(N);
+
+#ifdef USE_OVERLAY
+	L += OVERLAY_COLOR.a * 0.35;
+    overlayColor = OVERLAY_COLOR;
+#endif
+
+	float intensity = teamColorIntensity(POSITION.xyz, N.xyz);
+	teamColor = vec4(TEAM_COLOR.rgb, intensity * TEAM_COLOR.a);
+
+#ifdef TINTED_ALPHA_TEST
+    alphaTestMultiplier = OVERLAY_COLOR.a;
+#endif
+
+#if defined(USE_COLOR_MASK) || defined(ITEM_IN_HAND) || defined(COLOR_SECOND_TEXTURE)
+    changeColor = CHANGE_COLOR;
+#endif
+
+    light = vec4(vec3(L) * TILE_LIGHT_COLOR.xyz, 1.0);
+
+#ifdef COLOR_BASED
+	light *= COLOR;
+#endif
+    
+#ifndef NO_TEXTURE
+    uv = TEXCOORD_0;
+#endif
+
+#ifdef USE_UV_ANIM
+	uv.xy = UV_ANIM.xy + (uv.xy * UV_ANIM.zw);
+#endif
+
+#ifdef GLINT
+	glintColor = GLINT_COLOR;
+	layer1UV = calculateLayerUV(UV_OFFSET.x, UV_ROTATION.x);
+	layer2UV = calculateLayerUV(UV_OFFSET.y, UV_ROTATION.y);
+    tileLightColor = TILE_LIGHT_COLOR;
+#endif
+
+
+//fog
+    fogColor.rgb = FOG_COLOR.rgb;
+	fogColor.a = clamp(((pos.z / RENDER_DISTANCE) - FOG_CONTROL.x) / (FOG_CONTROL.y - FOG_CONTROL.x), 0.0, 1.0);
+}

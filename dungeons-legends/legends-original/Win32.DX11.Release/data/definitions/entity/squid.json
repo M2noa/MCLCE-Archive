@@ -1,0 +1,10 @@
+{
+  "definition.squid": {
+    "textures": {
+      "default": "textures/entity/squid"
+    },
+    "geometry": {
+      "default": "geometry.squid"
+    }
+  }
+}

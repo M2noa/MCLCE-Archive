@@ -1,0 +1,10 @@
+{
+  "definition.bat": {
+    "textures": {
+      "default": "textures/entity/bat"
+    },
+    "geometry": {
+      "default": "geometry.bat"
+    }
+  }
+}

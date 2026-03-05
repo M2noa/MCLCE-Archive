@@ -1,0 +1,472 @@
+{
+  "namespace": "resource_pack_purchase",
+
+  //--------------------------------------------------------------------------------
+  // Popup Dialog
+  //--------------------------------------------------------------------------------
+
+  "popup_dialog_base@popup_dialog.popup_dialog": {
+    "$middle_button_press": "button.close_dialog",
+    "$middle_button_text": "skins.buy.closeButton",
+    "controls": [
+      { "@popup_dialog.popup_dialog_bg": { } },
+      { "@popup_dialog.popup_dialog_message": { } },
+      { "@popup_dialog.popup_dialog_middle_button": { } }
+    ]
+  },
+
+  "popup_dialog__no_connection@popup_dialog_base": {
+    "$message_text": "skins.buy.noConnection"
+  },
+
+  "popup_dialog__purchase_failed@popup_dialog_base": {
+    "$message_text": "skins.buy.purchaseFailed"
+  },
+
+  "popup_dialog__purchase_in_progress@popup_dialog_base": {
+    "$message_text": "skins.buy.waitingForPurchase",
+    "controls": [
+      { "@popup_dialog.popup_dialog_bg": { } },
+      {
+        "@popup_dialog.popup_dialog_message": {
+          "size": [ "90%", "100%" ]
+        }
+      }
+    ]
+  },
+
+  //--------------------------------------------------------------------------------
+  // Common Controls
+  //--------------------------------------------------------------------------------
+
+  "banner_fill": {
+    "type": "image",
+    "texture": "gui/newgui/Banners.png",
+    "uv": [ 0, 0 ],
+    "uv_size": [ 4, 4 ],
+    "nineslice_size": 1
+  },
+
+  "banner_empty": {
+    "type": "image",
+    "texture": "gui/newgui/BannersTransparent.png",
+    "uv": [ 0, 0 ],
+    "uv_size": [ 4, 4 ],
+    "nineslice_size": 1
+  },
+
+  "title_label": {
+    "type": "label",
+    "size": [ "100%", "14px" ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "alignment": "center",
+    "color": [ 0.3, 0.3, 0.3 ]
+  },
+
+  "label": {
+    "type": "label",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "offset": [ 0, 0 ],
+    "color": "white"
+  },
+
+  "bound_label@label": {
+    "type": "label",
+    "layer": 6,
+    "size": [ "100%", "100%" ],
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [ 0.3, 0.3, 0.3 ],
+    "offset": "$button_text_offset",
+    "text": "$bound_text",
+    "bindings": [
+      {
+        "binding_type": "global",
+        "binding_name": "$bound_text"
+      }
+    ]
+  },
+
+  "button_image": {
+    "$button_text|default": "",
+    "$button_text_offset|default": [ 0, 0 ],
+    "type": "image",
+    "nineslice_size": 2,
+    "uv": [ 0, 0 ],
+    "uv_size": [ 6, 6 ],
+    "controls": [
+      {
+        "button_label": {
+          "type": "label",
+          "layer": 6,
+          "size": [ "100%", "100%" ],
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "color": [ 0.3, 0.3, 0.3 ],
+          "offset": "$button_text_offset",
+          "text": "$button_text"
+        }
+      }
+    ]
+  },
+
+  "button_image_with_bound_label@button_image": {
+    "controls": [
+      {
+        "button_label@bound_label": {
+          "$bound_text": "$button_text"
+        }
+      }
+    ]
+  },
+
+  "button@common.button": {
+    "$pressed_button_name": "button.choose_custom_skin",
+    "offset": [ 0, 0 ],
+    "controls": [
+      {
+        "default@resource_pack_purchase.button_image_with_bound_label": {
+          "texture": "gui/newgui/ButtonWithBorder.png"
+        }
+      },
+      {
+        "hover@resource_pack_purchase.button_image_with_bound_label": {
+          "texture": "gui/newgui/ButtonWithBorderHover.png"
+        }
+      },
+      {
+        "pressed@resource_pack_purchase.button_image_with_bound_label": {
+          "texture": "gui/newgui/ButtonWithBorderPressed.png",
+          "$button_text_offset": [ 0, 1 ]
+        }
+      }
+    ]
+  },
+
+  //--------------------------------------------------------------------------------
+  // Content
+  //--------------------------------------------------------------------------------
+
+  "screenshots_grid_item": {
+    "type": "panel",
+    "size": [ "100%", "58%x" ],
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      {
+        "frame@banner_empty": {
+          "size": [ "100% - 4px", "100% - 2px" ],
+          "layer": 3,
+          "controls": [
+            {
+              "screenshot_image": {
+                "type": "image",
+                "layer": -1,
+                "size": [ "100% - 2px", "100% - 2px" ],
+                "bindings": [
+                  {
+                    "binding_type": "collection",
+                    "binding_collection_name": "screenshots_collection",
+                    "binding_name": "#screenshot_texture_name",
+                    "binding_name_override": "#texture"
+                  },
+                  {
+                    "binding_type": "collection",
+                    "binding_collection_name": "screenshots_collection",
+                    "binding_name": "#screenshot_texture_file_system",
+                    "binding_name_override": "#texture_file_system"
+                  }
+                ]
+              }
+            },
+            {
+              "screenshot_button@common.button": {
+                "layer": 4,
+                "size": [ "100% + 1px", "100% + 1px" ],
+                "focus_enabled": true,
+                "default_control": "",
+                "hover_control": "hover",
+                "pressed_control": "pressed",
+                "bindings": [
+                  {
+                    "binding_type": "collection_details",
+                    "binding_collection_name": "screenshots_collection"
+                  }
+                ],
+                "button_mappings": [
+                  {
+                    "from_button_id": "button.menu_select",
+                    "to_button_id": "button.select_screenshot",
+                    "mapping_type": "pressed"
+                  },
+                  {
+                    "from_button_id": "button.menu_ok",
+                    "to_button_id": "button.select_screenshot",
+                    "mapping_type": "pressed"
+                  }
+                ],
+                "controls": [
+                  {
+                    "hover@common.focus_border_white": {
+                    }
+                  },
+                  {
+                    "pressed@common.focus_border_white": {
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "screenshots_grid": {
+    "type": "grid",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [ "100%", "100%c" ],
+    "offset": [ 0, 0 ],
+    "grid_item_template": "resource_pack_purchase.screenshots_grid_item",
+    "grid_dimension_binding": "#screenshots_grid_dimensions",
+    "collection_name": "screenshots_collection",
+    "bindings": [
+      {
+        "binding_name": "#screenshots_grid_dimensions"
+      }
+    ]
+  },
+
+  "pack_screenshots_panel": {
+    "type": "panel",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [ "20% - 7px", "100% - 8px" ],
+    "offset": [ 8, 4 ],
+    "controls": [
+      {
+        "framed": {
+          "type": "input_panel",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [ 0, 14 ],
+          "size": [ "100%", "100%-13px" ],
+          "controls": [
+            {
+              "screenshots_scroll@common.scrolling_panel": {
+                "$scrolling_pane_size": [ "100%", "100%" ],
+                "$scrolling_pane_offset": [ 0, 0 ],
+                "$scroll_track_offset": [ -1, 0 ],
+                "$scrolling_content": "resource_pack_purchase.screenshots_grid",
+                "$show_background": false,
+                "$bar_visible": false
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "key_image_frame@banner_empty": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "offset": [ 0, 0 ],
+    "size": [ "100%", "100%-2px" ],
+    "layer": 1,
+    "controls": [
+      {
+        "zoomed": {
+          "type": "image",
+          "layer": -1,
+          "size": [ "177%y - 2px", "100% - 2px" ],
+          "bindings": [
+            {
+              "binding_name": "#zoomed_texture_name",
+              "binding_name_override": "#texture"
+            },
+            {
+              "binding_name": "#zoomed_texture_file_system",
+              "binding_name_override": "#texture_file_system"
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "pack_main_panel": {
+    "type": "panel",
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "size": [ "80% - 10px", "100% - 1px" ],
+    "offset": [ -6, 1 ],
+    "controls": [
+      {
+        "title@title_label": {
+          "text": "$pack_name"
+        }
+      },
+      {
+        "content": {
+          "type": "panel",
+          "anchor_from": "bottom_middle",
+          "anchor_to": "bottom_middle",
+          "clips_children": true,
+          "size": [ "100% - 8px", "100% - 22px" ],
+          "offset": [ 0, -4 ],
+          "controls": [
+            {
+              "key_image_panel": {
+                "type": "panel",
+                "size": [ "100%", "100% - 27px" ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "controls": [
+                  { "key_image@key_image_frame": { } }
+                ]
+              }
+            },
+            {
+              "unlock_button@button": {
+                "ignored": "$offer_unlocked",
+                "$button_text": "#unlock_text",
+                "$pressed_button_name": "button.buy_pack",
+                "anchor_from": "bottom_left",
+                "anchor_to": "bottom_left",
+                "layer": 10,
+                "size": [ "100%", 26 ],
+                "offset": [ 0, -1 ],
+                "visible": "#unlock_button_visible",
+                "bindings": [
+                  {
+                    "binding_name": "#unlock_button_visible",
+                    "binding_name_override": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "try_button@button": {
+                "ignored": true, // feature diabled for now
+                "$button_text": "store.resource.try",
+                "$pressed_button_name": "button.try_pack",
+                "anchor_from": "bottom_right",
+                "anchor_to": "bottom_right",
+                "size": [ "50% - 2px", 26 ]
+              }
+            },
+            {
+              "create_world_button@button": {
+                "$button_text": "store.resource.create",
+                "$pressed_button_name": "button.create_world",
+                "anchor_from": "bottom_left",
+                "anchor_to": "bottom_left",
+                "size": [ "100%", 26 ],
+                "offset": [ 0, -1 ],
+                "visible": "#create_world_button_visible",
+                "bindings": [
+                  {
+                    "binding_name": "#create_world_button_visible",
+                    "binding_name_override": "#visible"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  //--------------------------------------------------------------------------------
+  // Root Controls
+  //--------------------------------------------------------------------------------
+
+  "content": {
+    "type": "panel",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [ "100%", "100% - 10px" ],
+    "offset": [ 0, 5 ],
+    "controls": [
+      { "@pack_screenshots_panel": { } },
+      { "@pack_main_panel": { } }
+    ]
+  },
+
+  "resource_pack_purchase@common.base_screen": {
+    "button_mappings": [
+      {
+        "from_button_id": "button.menu_cancel",
+        "to_button_id": "button.menu_exit",
+        "mapping_type": "global"
+      },
+      {
+        "from_button_id": "button.menu_up",
+        "to_button_id": "button.menu_up",
+        "mapping_type": "global",
+        "scope": "view"
+      },
+      {
+        "from_button_id": "button.menu_down",
+        "to_button_id": "button.menu_down",
+        "mapping_type": "global",
+        "scope": "view"
+      },
+      {
+        "from_button_id": "button.menu_left",
+        "to_button_id": "button.menu_left",
+        "mapping_type": "global",
+        "scope": "view"
+      },
+      {
+        "from_button_id": "button.menu_right",
+        "to_button_id": "button.menu_right",
+        "mapping_type": "global",
+        "scope": "view"
+      }
+    ],
+    "$default_text_color": [ 0.3, 0.3, 0.3 ],
+    "$screen_content": "resource_pack_purchase.resource_pack_purchase_screen_content"
+  },
+
+  "resource_pack_purchase_screen_content": {
+    "type": "panel",
+    "controls": [
+      {
+        "bg@common.common_panel": {
+          "size": "$store_screen_size",
+          "$dialog_background": "dialog_background_hollow_3",
+          "$divider_offset": [ "20%+1px", "22px" ],
+          "$show_divider": true,
+          "$show_close_button": true
+        }
+      },
+      {
+        "container": {
+          "type": "panel",
+          "size": "$store_screen_size",
+          "layer": 1,
+          "controls": [
+            { "@resource_pack_purchase.content": { } }
+          ]
+        }
+      },
+      {
+        "popup_dialog_factory": {
+          "type": "factory",
+          "control_ids": {
+            "no_connection": "@resource_pack_purchase.popup_dialog__no_connection",
+            "purchase_failed": "@resource_pack_purchase.popup_dialog__purchase_failed",
+            "purchase_in_progress": "@skin_pack_purchase.popup_dialog__purchase_in_progress"
+          }
+        }
+      }
+    ]
+  }
+}

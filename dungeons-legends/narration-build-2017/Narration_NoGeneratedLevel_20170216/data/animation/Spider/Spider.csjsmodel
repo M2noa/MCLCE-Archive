@@ -1,0 +1,117 @@
+{
+  "title": "Spider",
+  "texturewidth": 64,
+  "textureheight": 32,
+  "tree": [
+    {
+      "name": "CenterPivot",
+      "position": [ 0, 9, 0 ],
+      "offsetFromPivot": [ 0, 0, 0 ],
+      "size": [ 0, 0, 0 ],
+      "rotation": [ 0, 0, 0 ],
+      "texOffset": [ 6, 6 ],
+      "children": [
+        {
+          "name": "leg1",
+          "position": [ -4, 0, 2 ],
+          "offsetFromPivot": [ -7, 0, 0 ],
+          "size": [ 16, 2, 2 ],
+          "rotation": [ -4.769074E-07, 45, 45 ],
+          "texOffset": [ 18, 0 ],
+          "children": []
+        },
+        {
+          "name": "leg2",
+          "position": [ 4, 0, 2 ],
+          "offsetFromPivot": [ 7, 0, 0 ],
+          "size": [ 16, 2, 2 ],
+          "rotation": [ -4.769074E-07, -45, -45 ],
+          "texOffset": [ 18, 0 ],
+          "children": []
+        },
+        {
+          "name": "leg3",
+          "position": [ -4, 0, 1 ],
+          "offsetFromPivot": [ -7, 0, 0 ],
+          "size": [ 16, 2, 2 ],
+          "rotation": [ 2.212737E-06, 22.5, 33.3 ],
+          "texOffset": [ 18, 0 ],
+          "children": []
+        },
+        {
+          "name": "leg4",
+          "position": [ 4, 0, 1 ],
+          "offsetFromPivot": [ 7, 0, 0 ],
+          "size": [ 16, 2, 2 ],
+          "rotation": [ 2.212737E-06, -22.5, -33.3 ],
+          "texOffset": [ 18, 0 ],
+          "children": []
+        },
+        {
+          "name": "leg5",
+          "position": [ 4, 0, -1 ],
+          "offsetFromPivot": [ 7, 0, 0 ],
+          "size": [ 16, 2, 2 ],
+          "rotation": [ -2.613867E-06, 22.5, -33.3 ],
+          "texOffset": [ 18, 0 ],
+          "children": []
+        },
+        {
+          "name": "leg6",
+          "position": [ -4, 0, -1 ],
+          "offsetFromPivot": [ -7, 0, 0 ],
+          "size": [ 16, 2, 2 ],
+          "rotation": [ -2.613867E-06, -22.5, 33.3 ],
+          "texOffset": [ 18, 0 ],
+          "children": []
+        },
+        {
+          "name": "leg7",
+          "position": [ 4, 0, -2 ],
+          "offsetFromPivot": [ 7, 0, 0 ],
+          "size": [ 16, 2, 2 ],
+          "rotation": [ 4.769074E-07, 45, -45 ],
+          "texOffset": [ 18, 0 ],
+          "children": []
+        },
+        {
+          "name": "leg8",
+          "position": [ -4, 0, -2 ],
+          "offsetFromPivot": [ -7, 0, 0 ],
+          "size": [ 16, 2, 2 ],
+          "rotation": [ 4.769074E-07, -45, 45 ],
+          "texOffset": [ 18, 0 ],
+          "children": []
+        },
+        {
+          "name": "Body",
+          "position": [ 0, 0, 0 ],
+          "offsetFromPivot": [ 0, 0, 0 ],
+          "size": [ 6, 6, 6 ],
+          "rotation": [ 0, 0, 0 ],
+          "texOffset": [ 0, 0 ],
+          "children": [
+            {
+              "name": "Head",
+              "position": [ 0, 0, 3 ],
+              "offsetFromPivot": [ 0, 0, 4 ],
+              "size": [ 8, 8, 8 ],
+              "rotation": [ 0, 0, 0 ],
+              "texOffset": [ 32, 4 ],
+              "children": []
+            },
+            {
+              "name": "Sac",
+              "position": [ 0, 0, -3 ],
+              "offsetFromPivot": [ 0, 0, -6 ],
+              "size": [ 10, 8, 12 ],
+              "rotation": [ 0, 0, 0 ],
+              "texOffset": [ 0, 12 ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

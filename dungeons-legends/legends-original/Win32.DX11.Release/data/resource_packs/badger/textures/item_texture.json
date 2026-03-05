@@ -1,0 +1,67 @@
+{
+  "resource_pack_name": "badger",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "crown": {
+      "textures": "textures/items/crown"
+    },
+    "structure_builder": {
+      "textures": [
+        "textures/items/structure_builder_town_center",    //towncenter
+        "textures/items/structure_builder_forester",       //foresterhut
+        "textures/items/structure_builder_wolf",           //wolfden
+        "textures/items/structure_builder_skeleton",       //skeletongraveyard
+        "textures/items/structure_builder_creeper",        //creepernest
+        "textures/items/structure_builder_spider",         //spidernest
+        "textures/items/structure_builder_zombie",         //zombiecrib
+        "textures/items/structure_builder_lightning",      //lightningtower
+        "textures/items/structure_quarry",                 //stonequarry
+        "textures/items/structure_mine",                   //ironmine
+        "textures/items/structure_builder_wall_section",   //wall1
+        "textures/items/structure_builder_wall_section",   //wall2
+        "textures/items/structure_builder_deflector",      //deflector
+        "textures/items/structure_builder_armorsmith",     //armorsmith
+        "textures/items/structure_enchanter",              //enchanter
+        "textures/items/structure_builder_villager_hut",          //villagerhut
+        "textures/items/structure_builder_defense_tower",              //defensetower
+        "textures/items/structure_icon_temp",              //testplatform
+        "textures/items/structure_icon_temp",              //testspawner
+        "textures/items/structure_builder_carpenter",              //carpenter
+        "textures/items/structure_builder_mason",              //mason
+        "textures/items/structure_builder_blacksmith",              //smith
+        "textures/items/structure_builder_herbalist",              //herbalist
+        "textures/items/structure_builder_tinkerer",              //tinkerer
+        "textures/items/structure_icon_temp",              //witchhut
+        "textures/items/structure_icon_temp",              //wolfspawner
+        "textures/items/structure_icon_temp",              //skeletonspawner
+        "textures/items/structure_icon_temp",              //creeperspawner
+        "textures/items/structure_icon_temp",              //spiderspawner
+        "textures/items/structure_icon_temp",              //zombiespawner
+        "textures/items/structure_icon_temp",              //witchspawner
+        "textures/items/tower_gate",                       //gate 
+        "textures/items/structure_icon_temp",
+        "textures/items/structure_icon_temp",
+        "textures/items/structure_icon_temp",
+        "textures/items/placeable_buff_levitation",        //placeable_buff_levitation
+        "textures/items/placeable_buff",                   //placeable_buff_fire_resistance
+        "textures/items/placeable_buff",                   //placeable_buff_invisibility
+        "textures/items/structure_icon_temp",
+        "textures/items/structure_icon_temp",
+        "textures/items/structure_icon_temp",
+        "textures/items/structure_icon_temp",
+        "textures/items/structure_icon_temp",
+        "textures/items/structure_icon_temp",
+        "textures/items/structure_icon_temp",
+        "textures/items/structure_icon_temp",
+        "textures/items/structure_icon_temp",
+        "textures/items/structure_icon_temp",
+        "textures/items/structure_icon_temp",
+        "textures/items/structure_icon_temp",
+        "textures/items/structure_icon_temp"
+      ]
+    },
+    "crowbar": {
+      "textures": "textures/items/crowbar"
+    }
+  }
+}

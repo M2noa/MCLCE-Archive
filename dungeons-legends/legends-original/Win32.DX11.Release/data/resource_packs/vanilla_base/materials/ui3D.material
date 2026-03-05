@@ -1,0 +1,86 @@
+{
+  "materials": {
+    "version": "1.0.0",
+
+    "overlay_quad": {
+
+      "+states": [ "DisableCulling", "DisableDepthWrite", "Blending" ],
+
+      "+samplerStates": [
+        {
+          "samplerIndex": 0,
+          "textureFilter": "Bilinear"
+        }
+      ],
+
+      "vertexFields": [
+        { "field": "Position" },
+        { "field": "UV0" }
+      ],
+
+      "blendSrc": "SourceAlpha",
+      "blendDst": "OneMinusSrcAlpha",
+
+      "depthFunc": "Always",
+
+      "vertexShader": "shaders/uv.vertex",
+      "vrGeometryShader": "shaders/uv.geometry",
+      "fragmentShader": "shaders/texture_raw_alphatest.fragment"
+    },
+
+    "debug": {
+      "depthFunc": "LessEqual",
+      "vertexShader": "shaders/color.vertex",
+      "vrGeometryShader": "shaders/color.geometry",
+      "fragmentShader": "shaders/color.fragment",
+      "vertexFields": [
+        { "field": "Position" },
+        { "field": "Color" }
+      ],
+      "msaaSupport": "MSAA"
+
+    },
+
+    "overlay_quad_clear": {
+      "depthFunc": "Always",
+      "vertexShader": "shaders/simple.vertex",
+      "vrGeometryShader": "shaders/color.geometry",
+      "fragmentShader": "shaders/color.fragment",
+      "vertexFields": [
+        { "field": "Position" }
+      ],
+      "msaaSupport": "Both"
+    },
+
+    "sign_text": {
+      "+states": [
+        "Blending"
+      ],
+      "+defines": [
+        "ALPHA_TEST",
+        "USE_LIGHTING"
+      ],
+      "depthBias": 10.0,
+      "slopeScaledDepthBias": 2.0,
+      "depthBiasOGL": 10.0,
+      "slopeScaledDepthBiasOGL": 10.0,
+      "depthFunc": "LessEqual",
+      "vertexShader": "shaders/color_uv.vertex",
+      "vrGeometryShader": "shaders/color_uv.geometry",
+      "fragmentShader": "shaders/text.fragment",
+      "vertexFields": [
+        { "field": "Position" },
+        { "field": "Color" },
+        { "field": "UV0" }
+      ],
+      "+samplerStates": [
+        {
+          "samplerIndex": 0,
+          "textureFilter": "Point"
+        }
+      ],
+      "msaaSupport": "MSAA"
+
+    }
+  }
+}

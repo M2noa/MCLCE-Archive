@@ -1,0 +1,7 @@
+O Minecraft passou a incluir a opção de compra do Minecraft Realms. O Realms é um serviço de subscrição mensal que te deixa criar o teu mundo Minecraft sempre online.
+Atualmente há duas opções de subscrição à escolha: depende de quantas pessoas queres convidar para jogarem em simultâneo no teu realm. Um realm para ti e 2 amigos custa 3,99 USD mês (ou o equivalente local), e um realm para ti e 10 amigos custa 7,99 USD por mês (ou o equivalente local).
+Está disponível um período de avaliação de 30 dias de Minecraft Realms para ti e para 10 amigos. Qualquer parte não utilizada do período de avaliação gratuita será perdida quando o utilizador comprar uma subscrição.
+
+O pagamento será debitado da tua conta iTunes no momento da confirmação da compra e a subscrição renova-se automaticamente, a não ser que a renovação automática seja desativada pelo menos 24 horas antes do final do período atual. O custo da renovação ser-te-á debitado da conta no espaço de 24 horas antes do fim do período atual, pela opção de preço de subscrição que escolheste anteriormente.
+
+A tua subscrição pode ser gerida pelo utilizador e a renovação automática pode ser desativada se acederes às Definições de Conta do utilizador após a compra. Também existe um botão no jogo que te leva para estas definições. Se cancelares a subscrição após a ativação da mesma, não serás reembolsado pelo período ativo restante da subscrição.

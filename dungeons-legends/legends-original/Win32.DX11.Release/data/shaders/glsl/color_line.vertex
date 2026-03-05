@@ -1,0 +1,21 @@
+// __multiversion__
+// This signals the loading code to prepend either #version 100 or #version 300 es as apropriate.
+
+#include "shaders/vertexVersionSimple.h"
+
+#include "shaders/uniformWorldConstants.h"
+#include "shaders/util_vertex.h"
+
+attribute mediump vec4 POSITION;
+attribute vec4 COLOR;
+attribute vec4 WEIGHTS;
+
+varying vec4 color;
+
+void main()
+{
+    gl_Position = WORLDVIEWPROJ * POSITION;
+	gl_Position.xy += computeScreenOffsets(POSITION.xyz, WEIGHTS, WORLDVIEWPROJ);
+
+    color = COLOR;
+}

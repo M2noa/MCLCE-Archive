@@ -1,0 +1,175 @@
+﻿A MINECRAFT REALMS VÉGFELHASZNÁLÓI LICENCSZERZŐDÉSE
+Ez a végfelhasználói licencszerződés (a továbbiakban: „EULA” vagy „Feltételek”) jogi érvényű megállapodást képez Ön (a továbbiakban „Ön” és egyes szám harmadik személyű nyelvtani alakok) és a Mojang AB (a továbbiakban: „mi” és többes szám első személyű nyelvtani alakok) között. Az ebben a licencben található feltételek a Minecraft Realms szolgáltatás (a továbbiakban: „Minecraft Realms”) használatára vonatkozó szabályokat rögzítik. Mi sem szeretünk Önnél jobban licencdokumentumokat olvasni, ezért megpróbáltuk a lehető legrövidebbre szabni. Ha megszegi ezeket a szabályokat, megszüntethetjük a hozzáférését a Minecraft Realmshoz. A Minecraft Realms használatával beleegyezik abba, hogy betartja az ezekben a Feltételekben lefektetett szabályokat. Ha nem szeretné vagy nem tudja elfogadni ezeket a szabályokat, ne használja a Minecraft Realmsot.
+
+Ezek a Feltételek az Adatvédelmi irányelveinkkel, a Mojang-fiók Feltételeivel, a Minecraft EULA-jával és – amennyiben az Egyesült Államokban él – a Választottbírósági Megállapodásunkkal együtt érvényesek. Ezért a fenti dokumentumok tartalmát ugyanúgy kell kezelni, mint az ezekben a Feltételekben leírtakat. Amikor a jelen Feltételekre hivatkozunk, az Ön előtt látható feltételekről és kikötésekről, valamint az alábbi hivatkozásokon keresztül elérhető dokumentumokban rögzített feltételekről és kikötésekről beszélünk.
+
+KÖTELEZŐ ÉRVÉNYŰ VÁLASZTOTTBÍRÓSÁGI MEGÁLLAPODÁS ÉS A CSOPORTOS KERESETRŐL VALÓ LEMONDÁS
+Azok, akik az Egyesült Államokban élnek, kattintsanak ide a kötelező érvényű választottbírósági megállapodás és a csoportos keresetről való lemondás megtekintéséhez, amelyek ennek az EULA-nak a részei. A megállapodás értelmében mindkét fél beleegyezik abba, hogy a felmerülő egyéni viták rendezésére semleges közvetítőt vesznek igénybe, így lemondanak azon jogukról, hogy egyéni jogkövetelésüket bíróságra vigyék bíró vagy esküdtszék elé. Ezenkívül megegyeznek abban is, hogy a megállapodás feltételei kizárják a csoportos keresetet és csoportos választottbírósági eljárásokat.
+
+A teljes Választottbírósági Megállapodás ezen az oldalon található. Önnek és nekünk is el kell fogadnunk ezt, ezért kérjük, olvassa el.
+
+MI A MINECRAFT REALMS?
+A Minecraft Realms egy szolgáltatás, amely lehetővé teszi, hogy a felhasználók egyszerűen játszhassanak más felhasználókkal együtt a Minecraft játékkal egy dedikált kiszolgálón, a Feltételeknek megfelelően.
+
+Egy „Minecraft Realm” ennek megfelelően egyetlen Minecraft-világ, -kiszolgáló vagy -példány, amelyet mi működtetünk.
+
+A Minecraft Realmsot úgy használhatja, hogy saját Minecraft Realmmal rendelkezik (a továbbiakban: „Saját Minecraft Realm”), vagy engedéllyel használja valaki más Minecraft Realmját (a továbbiakban: „Más Minecraft Realm”). A Minecraft Realms használatába tehát beleértjük a Saját Minecraft Realm és Más Minecraft Realm használatát is.
+
+A MINECRAFT REALMS HASZNÁLATA
+A Minecraft Realms használatához egyebek között a következőkre lesz szüksége:
+- Rendelkeznie kell a Játék teljes, aktivált változatának licencelt példányával, illetve egy Xbox Live-fiókkal (a Minecraft esetében) vagy Mojang-fiókkal (a Minecraft: Java Edition esetében).
+- El kell fogadnia ezeket a Feltételeket.
+- Megfelelő eszközzel és internetkapcsolattal kell rendelkeznie.
+
+SAJÁT MINECRAFT REALM MEGVÁSÁRLÁSA
+Saját Minecraft Realm használatához Xbox Live-fiókkal (a Minecraft esetében) vagy Mojang-fiókkal (a Minecraft: Java Edition esetében), illetve aktivált Minecraft játékkal kell rendelkeznie. Ezenkívül meg kell vásárolnia a Minecraft Realmot, vagyis elő kell fizetnie rá. A Minecraft Realms előfizetéses szolgáltatás, az előfizetés díját, illetve a beváltható kártya vagy ajándékkód árát a vásárlás időpontjában közzétesszük a megfelelő vásárlási oldalakon és/vagy platformon. A megfelelő vásárlási oldalak, platform, beváltható kártya és/vagy ajándékkód feltételei és kikötései szintén érvényesek a Minecraft Realms megvásárlására. A Minecraft Realms szolgáltatás akkor indul, amikor a rendelkezésére áll a Saját Minecraft Realm. Ezután nem vonhatja vissza a vásárlási rendelését. SAJÁT MINECRAFT REALM HASZNÁLATA
+
+Saját Minecraft Realm vásárlásával egy dedikált Minecraft Realmot kap, amelyen a következőket teheti:
+
+Saját maga játszhat rajta a Minecraft játékkal.
+Több személyt meghívhat, hogy játszanak Önnel együtt a Minecraft játékkal (a meghívottak száma a megvásárolt Realms szolgáltatás verziójától függ).
+Nem teheti viszont a következőket:
+
+Nem értékesítheti, nem adhatja bérletbe vagy tartós bérletbe és nem ajándékozhatja oda a Saját Minecraft Realmjához való hozzáférését, továbbá egyéb formában nem üzletelhet vele, és nem húzhat hasznot abból, hogy más személyeket enged játszani a saját Minecraft Realmján.
+
+MÁS MINECRAFT REALM HASZNÁLATA
+Valaki más Minecraft Realmjának használatához („Más Minecraft Realm”) a Minecraft törvényes, aktivált példányával kell rendelkeznie. Amikor hozzáférést kap egy Más Minecraft Realmhoz, az adott személy dedikált Minecraft Realmjához fér hozzá, amelyen a következőket teheti:
+
+- Játszhat a Minecraft játékkal az adott személlyel közösen.
+- Játszhat a Minecraft játékkal minden olyan személlyel közösen, akinek az adott személy hozzáférést adott.
+Nem teheti viszont a következőket:
+
+-Nem értékesítheti, nem adhatja bérletbe vagy tartós bérletbe és nem ajándékozhatja oda a Saját Minecraft Realmjához való hozzáférését, továbbá egyéb formában nem üzletelhet vele, és nem húzhat hasznot abból, hogy más személyeket enged játszani a saját Minecraft Realmján.
+KÉRJÜK, NE ADJON HOZZÁFÉRÉST A SAJÁT MINECRAFT REALMJÁHOZ ISMERETLEN SZEMÉLYEKNEK. LEGYEN ÓVATOS, AMIKOR MÁS SZEMÉLYEKKEL KOMMUNIKÁL A MINECRAFT REALMSON KERESZTÜL. NEHEZEN TUDJUK ELDÖNTENI – MIND ÖN, MIND MI –, HOGY EGY SZEMÉLY IGAZAT MOND-E, VAGY PEDIG HOGY VALÓBAN AZ, AKINEK ÁLLÍTJA MAGÁT. MINDIG GONDOLJA ÁT, MIELŐTT SZEMÉLYES ADATOKAT AD KI.
+
+FIÓKOK
+Amint már említettük, Xbox Live-fiókkal (a Minecraft esetében) vagy Mojang-fiókkal (a Minecraft: Java Edition esetében), illetve a Minecraft aktivált, licencelt változatával kell rendelkeznie. Ha nem rendelkezik ezekkel, meg kell adnia bizonyos információkat, hogy létre tudjuk hozni őket. A regisztrációkor helyes adatokat kell beírnia. A regisztrációs adatokat később módosíthatja, ha megváltoztak. Ha szándékosan hamis adatokat ad meg, felfüggeszthetjük vagy megszüntethetjük a fiókját.
+
+A létrehozott felhasználónévért és jelszóért, valamint a fiókjával végzett tevékenységekért Ön a felelős. Ha valaki olyasmire használja fel a fiókját, amit nem szeretne, vagy ami miatt kárt szenved, ezért nem lehetünk felelősek, és nem is vállalhatunk felelősséget.
+
+A MINECRAFT REALMS ÉS MÁS DOLGOK TULAJDONJOGA
+A Minecraft Realms a szoftvereinkből, textúráinkból, eszközeinkből, infrastruktúránkból és más okos (és kevésbé okos) dolgokból áll, amelyek a mi tulajdonunk. Az ezekhez a dolgokhoz kapcsolódó jogaink le vannak fektetve, és fenn is tartjuk őket, de a Minecraft Realmsban és ahhoz kapcsolódóan használhatja őket azon feltételekkel, amelyek a Minecraft EULA-jában találhatók – ehhez nem kizárólagos jogot biztosítunk ezeknek a Feltételeknek megfelelően.
+
+Ez nem azt jelenti, hogy azok a csodálatos dolgok, amelyeket a Minecraft Realms használatával hoz létre, a mi tulajdonunkba kerülnek – azt kell elfogadnia, hogy termékként és szolgáltatásként a mi tulajdonunkban van a Minecraft, a Minecraft Realms és a fent említett dolgok, és hogy a mi tulajdonunkban vannak az ezekhez a dolgokhoz, valamint a Minecraft és Minecraft Realms nevekhez és márkákhoz kapcsolódó tulajdonjogok és az egyéb, úgynevezett szellemi tulajdonjogok.
+
+Természetesen létrehozhatja saját dolgait a Minecraft Realmsban, annak használatával. Azok az eredeti dolgok, amelyeket Ön hoz létre, nem kerülnek a tulajdonunkba, és nem kérünk tulajdonjogot olyan dolgokhoz, amelyek nem a mieink. Azonban a mi tulajdonunkba kerülnek azok a dolgok, amelyek saját tulajdonunk vagy alkotásaink (lásd fenn) másolatai (vagy jelentős mértékben hasonlítanak azokhoz) – viszont ha Ön eredeti dolgokat hoz létre, azok nem. Lássunk egy példát:
+
+- Egyetlen blokk – ez a mi tulajdonunk.
+- Egy gótikus katedrális, amin egy hullámvasút megy keresztül – ez nem a mi tulajdonunk.
+Amikor a Minecraft Realms használatáért fizet, csak a Minecraft Realms termék és szolgáltatás használatának engedélyét vásárolja meg ezeknek a Feltételeknek megfelelően. A Minecraft Realmshoz kapcsolódóan csak a jelen Feltételekben leírt engedélyeket kapja meg, valamint azokat a speciális kivételeket és jogokat (ideértve a méltányos használat és méltányos üzletelés jogát), amelyeket a vonatkozó törvények biztosítanak az Ön számára, és amelyek általában a Tartalmakra és nem magára a Minecraft Realmsra vonatkoznak.
+
+A Minecraft Realms bizonyos verziói lehetővé tehetik, hogy kimentse adatait a Minecraft Realmból, ily módon letöltheti őket az eszközére, és a Minecraft Ön által birtokolt (törvényes) változatával használhatja őket (a Minecraft EULA-jának megfelelően).
+
+AZ ÖN TARTALMAI
+Ha a Minecraft Realms segítségével bizonyos dolgokat hoz létre, vagy bármilyen tartalmat vagy anyagot közzétesz rajta keresztül (a továbbiakban: „az Ön Tartalmai”), ezzel engedélyt ad számunkra és más személyek számára, akik hozzáférnek, hogy használják. Ez azt is jelenti, hogy az Ön Tartalmait felhasználhatjuk, másolhatjuk, módosíthatjuk, adaptálhatjuk, terjeszthetjük, nyilvánosan megjeleníthetjük és más módon mások rendelkezésére bocsáthatjuk (fizetés vagy korlátozás nélkül). Ide értünk minden olyan dolgot, amelyet felépít, legyárt vagy létrehoz, valamint minden kommunikációt, például amelyet a múltban vagy jövőben elérhető csevegési funkción keresztül folytat. Ezenkívül beleegyezik abba, hogy engedélyezi mások számára, hogy felhasználják, másolják, módosítsák, adaptálják, terjesszék, nyilvánosan megjelenítsék és más módon mások rendelkezésére bocsássák az Ön Tartalmait, és elfogadja, hogy ezért nem jár Önnek fizetség vagy forrásmegjelölés.
+
+Ez több ok miatt is szükséges, ideértve azt is, hogy biztosítanunk kell, hogy más személyek (akiket Ön hív meg) törvényesen hozzáférjenek az Ön Minecraft Realmjához, és Ön törvényesen hozzáférjen Más Minecraft Realmokhoz, amikor Önt hívják meg. Ezenkívül biztosítanunk kell azt is, hogy nem leszünk felelősek azért, amit más személyek tesznek az Ön Tartalmaival, amikor engedélyezi azok használatát, mivel ezt nem tudjuk irányítani; valamint figyelembe kell vennünk, hogy az Ön Tartalmai általában magukba foglalják a tulajdonunkban lévő szoftvereinket, textúráinkat, eszközeinket stb. (lásd fenn).
+
+Ezek az engedélyek örökre szólnak, és nem vonhatók vissza. Ha nem szeretné megadni ezeket az engedélyeket, ne tegyen közzé tartalmakat a Minecraft Realmson keresztül.
+
+Ezért érdemes jól megfontolni, mielőtt bármilyen tartalomhoz hozzáférést biztosít, mert ezzel közzéteszi azt (hozzáférést biztosít mindenki számára, aki hozzáfér az Ön által használt Minecraft Realmshoz), és más személyek Önnek nem tetsző módon használhatják.
+
+Amennyiben hozzáférést biztosít az Ön Tartalmaihoz a Minecraft Realms révén, például a Saját Minecraft Realmon vagy Más Minecraft Realmon keresztül, ez:
+
+- nem lehet sértő más emberek számára;
+- nem lehet törvénytelen;
+- őszinte kell legyen, és nem vezethet félre, csaphat be és használhat ki másokat;
+- nem szegheti meg mások szerzői vagy más jogait;
+- nem lehet rasszista, szexista vagy homofób;
+- nem lehet zaklató vagy lealacsonyító;
+- nem sértheti a mi hírnevünket vagy valamelyik más vállalat hírnevét;
+- nem tartalmazhat pornográfiát;
+- nem tartalmazhat hirdetéseket.
+
+Nem tehet közzé a Minecraft Realmson keresztül olyan tartalmakat, amelyek sértik valaki más jogait.
+
+Ön felelős a Minecraft Realmson keresztül Ön által közzétett minden tartalomért.
+
+Ezenkívül Ön felelős a Saját Minecraft Realmján keresztül Ön vagy mások által közzétett minden tartalomért.
+
+Azzal, hogy közzéteszi az Ön Tartalmait, garantálja és kijelenti, hogy rendelkezik az ehhez szükséges jogokkal ezen Feltételeknek megfelelően, és hogy felhatalmaz minket az ezen Feltételek által biztosított jogok gyakorlására.
+
+Ha értesíteni szeretne minket arról, hogy valaki megszegte a szellemi tulajdonjogait a Minecraft Realmsban vagy bármelyik más szolgáltatásunkban, ezt itt teheti meg: (https://www.microsoft.com/info/cpyrtInfrg.aspx). Fenntartjuk azt a jogot, hogy saját döntésünk alapján eltávolítsunk bármilyen tartalmat. Ha szükséges, felfüggesztjük vagy megszüntetjük az ismételten szabályszegést elkövető felhasználók fiókját.
+
+MÁS TARTALMAK
+A Minecraft Realms használatakor hozzáférhet más személyek által létrehozott tartalmakhoz, és használhatja azokat (a továbbiakban: „Más Tartalmak”). Az ilyen Más Tartalmakat olyan személyek tehetik közzé, akiket Ön meghív a Saját Minecraft Realmjába, Más Tartalmakat pedig másvalaki Minecraft Realmjában érhet el.
+
+Az Ön Tartalmaihoz hasonlóan általában Más Tartalmak is magukba foglalják a tulajdonunkban lévő szoftvereinket, textúráinkat, eszközeinket stb. (lásd fenn).
+
+Ha valaki közzétesz valamilyen Más Tartalmat, vagy hozzáférést biztosít az Ön számára, akkor azt a Minecraft Realmsban és azzal összefüggésben használhatja, ezeknek a Feltételeknek megfelelően. Más Tartalmakra minden esetben vonatkoznak ezek a Feltételek.
+
+FELHASZNÁLÓI TARTALMAK
+Az alábbiakban az Ön Tartalmaira és Más Tartalmakra – ezeket közös néven a továbbiakban „Felhasználói Tartalmak” néven említjük – vonatkozó bizonyos feltételeket állapítunk meg
+
+A Minecraft Realms egy szórakoztatási szolgáltatás, és ebből a célból ellenőrzés, válogatás, módosítás és megismerés nélkül átvihetjük, terjeszthetjük, tárolhatjuk, lekérhetjük és szolgáltathatjuk a Felhasználói Tartalmakat. Ezt azt jelenti, hogy nem ellenőrizzük és nem felügyeljük a Felhasználói Tartalmakat, így nem tudhatjuk, hogy Ön és más személyek mit terjesztenek. Rendszerünk ellenőrizheti a Felhasználói Tartalmak megfelelőségét, kompatibilitását és/vagy vírusmentességét, de magát a tartalmat vagy az információkat, amelyek benne vannak, nem. Ezt azt jelenti, hogy Önnek és más személyeknek be kell tartaniuk az ezekben a Feltételekben leírt szabályokat, de ezt nem tudjuk ellenőrizni.
+
+Éppen ezért fontos megjegyezni a következőket:
+
+- Bármely Felhasználói Tartalomban kifejezett vélemény a szerzője vagy alkotója véleménye, nem pedig a mienk vagy bármely hozzánk kapcsolódó személyé, hacsak ezt másként nem jelezzük.
+- Nem vállalunk felelősséget a Felhasználói Tartalmakért (és a vonatkozó törvényeknek megfelelően nem nyújtunk semmilyen jótállást, nem vállalunk semmilyen kötelezettséget és elutasítunk minden felelősséget velük kapcsolatban), ideértve a bennük kifejezett bármilyen nézetet, véleményt vagy megjegyzést.
+- A Minecraft Realms használatával Ön tudomásul veszi, hogy nem vagyunk felelősek ellenőrizni és felügyelni bármilyen Felhasználói Tartalmat, és minden Felhasználói Tartalmat azzal a feltétellel biztosítunk Önnek, hogy nem gyakorlunk felette irányítást vagy ítéletet, és Ön nem is várja el ezt tőlünk.
+- Amikor más játékosokkal kommunikál, ne kérjen arra olyan személyeket, akikkel a való életben még nem találkozott, hogy találkozzanak Önnel.
+Eltávolíthatjuk, visszautasíthatjuk vagy felfüggeszthetjük bármely Felhasználói Tartalom hozzáférését, valamint felfüggeszthetjük vagy megszüntethetjük a Felhasználói Tartalom közzétételének vagy hozzáférésének képességét, ha erre a saját megítélésünk szerint szükség van, például azért, mert Ön megszegte ezeket a Feltételeket, vagy olyan jogosnak talált panasz érkezett hozzánk, amely szükségessé teszi ezt. Ezenkívül gyorsan cselekedhetünk annak érdekében, hogy felfüggesszük vagy megszüntessük egy Felhasználói Tartalom hozzáférését, amennyiben és amikor a tudásunkra jut, hogy törvénytelen.
+
+FRISSÍTÉSEK
+Időnként frissítéseket, fejlesztéseket vagy javításokat (közös nevükön a továbbiakban: „frissítések”) tehetünk közzé. Ez a szokásunk, de nem a kötelességünk.
+
+Ezenkívül nem vagyunk kötelesek folyamatos támogatást vagy karbantartást biztosítani a Minecraft Realmshoz. Ezt jó tudni.
+
+Természetesen reménykedünk abban, hogy a jövőben is frissítéseket fogunk közzétenni a Minecraft Realmshoz – de ezt nem garantálhatjuk.
+
+FIZETÉS, VISSZATÉRÍTÉSEK STB.
+A Mojang-fiók Feltételei tartalmazzák a fizetéssel és visszatérítésekkel kapcsolatos pontos szabályokat. Ami a legfontosabb, hogy a Minecraft Realms szolgáltatás akkor indul, amikor a rendelkezésére áll a Saját Minecraft Realm, és hozzáférhet ahhoz. Ezután nem vonhat vissza semmilyen ahhoz kapcsolódó rendelést vagy vásárlást. Ez nem befolyásolja a vásárlói jogait Ha valamilyen hiba miatt nem tudja használni a Minecraft Realmsot, tudassa ezt velünk, és mi megpróbáljuk kijavítani. Ha a hiba miattunk következett be, visszatérítést ítélhetünk meg Önnek.
+
+FELELŐSSÉG, IRÁNYADÓ JOG ÉS A VITÁS ÜGYEK RENDEZÉSÉNEK HELYE
+
+Ez az EULA nem befolyásolja azokat a törvényes jogait, amelyek a Minecraft Realmsra vagy a Webhelyen keresztül megvásárolt bármely tartalomra vonatkoznak. Lehetnek olyan jogai, amelyekről a törvények értelmében nem mondhat le. Az ebben az EULA-ban található egyik feltétel sem befolyásolja ezeket a törvényes jogait, még akkor sem, ha valamelyik látszólag ellentmond azoknak. Ezt jelenti „a vonatkozó törvényeknek megfelelően” kitétel, amelyet gyakran ismétlünk.
+
+A VONATKOZÓ TÖRVÉNYEKNEK MEGFELELŐEN NEM VÁLLALUNK FELELŐSSÉGET A KÖVETKEZŐKÉRT:
+
+- A SAJÁT MINECRAFT REALMJA VAGY BÁRMELY MÁS MINECRAFT REALM BÁRMILYEN HASZNÁLATÉRT VAGY VELÜK KAPCSOLATOS VISSZAÉLÉSÉRT;
+- A SAJÁT MINECRAFT REALMJA VAGY BÁRMELY MÁS MINECRAFT REALM BÁRMILYEN HASZNÁLATÉRT VAGY VELÜK KAPCSOLATOS VISSZAÉLÉSÉRT ÖN VAGY VALAKI MÁS ÁLTAL;
+- MINDEN OLYAN TARTALOMÉRT, AMELYHEZ A MINECRAFT REALMSON KERESZTÜL FÉR HOZZÁ;
+- EZEKNEK A FELTÉTELEKNEK BÁRMELY MEGSZEGÉSÉÉRT ÖN ÁLTAL;
+- EZEKNEK A FELTÉTELEKNEK BÁRMELY MEGSZEGÉSÉÉRT VALAKI MÁS ÁLTAL.
+- ÖN FELELŐS A KÖVETKEZŐKÉRT:
+- A MINECRAFT REALMS MINDENFAJTA HASZNÁLATÁÉRT ÖN ÁLTAL;
+- A SAJÁT MINECRAFT REALMJA ÉS MÁS MINECRAFT REALMOK MINDENFAJTA HASZNÁLATÁÉRT ÖN ÁLTAL;
+- EZEKNEK A FELTÉTELEKNEK BÁRMELY MEGSZEGÉSÉÉRT ÖN ÁLTAL;
+- MINDEN OLYAN TARTALOMÉRT, AMELYHEZ A MINECRAFT REALMSON KERESZTÜL FÉR HOZZÁ;
+- MINDEN OLYAN TARTALOMÉRT, AMELYHEZ ÖN VAGY MÁSOK A SAJÁT MINECRAFT REALMJÁN KERESZTÜL FÉRNEK HOZZÁ.
+
+A VONATKOZÓ TÖRVÉNYEKNEK MEGFELELŐEN a Minecraft Realmsot az „adott állapotában” biztosítjuk. A frissítéseket szintén az „adott állapotukban” biztosítjuk. Ez azt jelenti, hogy nem ígérünk semmit a Minecraft Realms minőségével kapcsolatban, és nem fogadjuk meg, hogy a Minecraft Realms mindig és hibamentesen használható lesz. A VONATKOZÓ TÖRVÉNYEK ÁLTAL ENGEDÉLYEZETT MAXIMÁLIS MÉRTÉKBEN kizárunk a Minecraft Realms által okozott károkért és veszteségekért való minden felelősséget. El kell fogadnia, hogy a Minecraft Realmsot bétaváltozatként indítjuk el, folyamatosan új funkciókat adunk hozzá, és javítjuk a meglévőit, így gyakran találkozhat (és biztos, hogy találkozni is fog) hibákkal. Ennek ellenére fontosabbnak tartjuk, hogy ezeket a funkciókat korán el tudjuk juttatni Önhöz, mint azt, hogy a végtelenségig csiszolgassuk őket.
+
+Ha valaha bíróságot igénylő vitás ügyünk támad (ugyanúgy, mint ön, abban reménykedünk, hogy ez soha nem fog bekövetkezni), ezt kizárólag King County, WA (amennyiben az Egyesült Államokban él) vagy Ontario (amennyiben Kanadában él) egyik állami vagy szövetségi bíróságán lehet rendezni. (Amennyiben az Egyesült Államokban él, a legtöbb vitás ügy választottbíróságra kerül, nem pedig bíróságra). Erre az EULA-ra az Ön államának vagy tartományának törvényei vonatkoznak, ideértve a hozzá kapcsolódó vitákat, a Játékot és a Webhelyünket, a kollíziós szabályoktól függetlenül, kivéve a szövetségi választottbírósági törvényt, amely a választottbírósági eljárások minden szempontját lefedi.
+
+A MINECRAFT REALMS FEJLESZTÉS ALATT LÉVŐ SZOFTVER, AMELY HIBÁKAT ÉS HIÁNYOSSÁGOKAT TARTALMAZHAT, ÖSSZEOMOLHAT, VAGY PEDIG ADATVESZTÉST OKOZHAT. NAGYON SAJNÁLJUK, HA ILYESMIVEL TALÁLKOZNA! KÉRJÜK, MENTSE ADATAIT, ÉS VÉDJE AZ ESZKÖZÉN TALÁLHATÓ ÖSSZES ADATÁT ÉS PROGRAMJÁT. EGYSZERŰEN MEGFOGALMAZVA: A MINECRAFT REALMSOT A SAJÁT FELELŐSSÉGÉRE HASZNÁLHATJA, ANNAK TUDATÁBAN, HOGY A SZOFTVERT AZ „ADOTT ÁLLAPOTÁBAN” BIZTOSÍTJUK.
+
+KÉRJÜK, MENTSE RENDSZERESEN A SAJÁT MINECRAFT REALMJÁBAN TALÁLHATÓ ADATOKAT. ELŐFORDULHAT, HOGY A RENDSZERÜNK EZT NEM TESZI MEG AUTOMATIKUSAN, EZÉRT HA EGY MINECRAFT REALM VAGY BÁRMILYEN FELHASZNÁLÓI TARTALOM ÖSSZEOMLIK, ELVESZÍTHETI. HA EZ TÖRTÉNIK, SAJNÁLJUK, DE ENNÉL TÖBBET NEM TEHETÜNK. FELHASZNÁLÓK JELENTÉSE
+
+Néha az emberek helytelen dolgokat követnek el. Ez nekünk sem tetszik, de sokkal többet nem tehetünk annál, hogy mindenkit arra kérünk, hogy helyesen viselkedjenek. Számítunk Önre és a közösség más tagjaira abban a tekintetben, hogy jelentik, ha valaki nem viselkedik megfelelően. Ha ez fordul elő, és/vagy úgy gondolja, hogy valaki megszegi ezeket a Feltételeket, vagy helytelenül használja a Minecraft Realmsot, kérjük, jelentse ezt nekünk. Ennek megkönnyítésére egy bejelölési és jelentéstételi rendszert működtetünk. Kérjük, használja ezt, és mi megtesszük a probléma kezeléséhez szükség lépéseket.
+
+MEGSZÜNTETÉS
+Ha megszegi ezeket a feltételeket vagy bármelyik részüket, megszüntethetjük a licencszerződést és a Minecraft Realmshoz való hozzáférését. Ezt természetesen Ön is megteheti – ehhez csak hagyja abba a Saját Minecraft Realm használatát, és szüntesse meg mások hozzáférését. A megszüntetés után nem használhatja tovább a Minecraft Realmset, és nem biztosíthat hozzáférést mások számára a Saját Minecraft Realmjához. A Választottbírósági Megállapodás (amennyiben az Egyesült Államokban él), valamint ennek az EULA-nak „A Minecraft Realms és más dolgok tulajdonjoga”, „Felelősség” és „Általános” című részei azonban továbbra is érvénybe maradnak.
+
+ÁLTALÁNOS
+Ez az EULA bizonyos törvényes jogokat ír le. Az állama vagy országa törvényei más jogokat is biztosíthatnak, ideértve olyan vásárlói jogokat, amelyeket ez az EULA nem módosíthat. Ebben az esetben az EULA a törvény által megengedett mértékben érvényes. Semmi sem zárja ki vagy korlátozza felelősségünket a hanyagságunk vagy csalárd megtévesztésünk miatt bekövetkező halálesetekért vagy testi sérülésekért.
+
+Ha okunk van rá, időnként módosíthatjuk ezeket a Feltételeket. Ilyen ok lehet például a játékaink, eljárásaink és törvényes kötelezettségeink változása. Ezek a módosítások akkor lépnek érvénybe, amikor legközelebb a Minecraft Realmsot használja. Mielőtt a módosítások érvénybe lépnének, értesítjük vagy úgy, hogy az értesítést közzétesszük a Webhelyünkön, vagy valamilyen más észszerű módon. A módosítás lehetőségével nem élünk vissza, mindössze azért van rá szükség, mert néha változnak a törvények, vagy valaki olyat követ el, amely hatással van a Minecraft Realms többi felhasználójára, ezért cselekedünk kell.
+
+Ha Minecraft Realmsszal kapcsolatos javaslatot küld nekünk, ezt ingyen teszi, és mi nem vagyunk kötelesek elfogadni vagy figyelembe venni. Ez azt jelenti, hogy bármilyen módon felhasználhatjuk a javaslatát, és nem kell érte fizetnünk. Ha úgy gondolja, hogy olyan javaslata van, amely pénzt ér, ne árulja el nekünk, csak miután jelezte nekünk, hogy pénzt kér érte, mi pedig írásban kértük, hogy küldje el a javaslatát.
+
+Ha valamilyen jogi ügy gondolkodóba ejtette, és nem találja a választ ezekben a Feltételekben, ne döntsön addig, amíg meg nem kérdez felőle minket. Egyszóval ne kövessen el hülyeségeket, cserében mi is erre fogunk törekedni.
+
+Vállalat információi
+
+Mojang AB
+Maria Skolgata 83,
+
+SE-11853
+
+Stockholm
+Svédország
+Szervezet száma:556819-2388
+
+Vegye fel velünk a kapcsolatot itt vagy a support@mojang.com címen.

@@ -1,0 +1,18 @@
+{
+  "format_version": 1,
+  "header": {
+    "description": "resourcePack.3rdpartyconsole.description",
+    "name": "resourcePack.3rdpartyconsole.name",
+    "uuid": "357ddef8-5283-4829-b155-6f0ae37f4777",
+    "version": [ 0, 0, 1 ],
+    "min_engine_version": [ 1, 2, 6 ]
+  },
+  "modules": [
+    {
+      "description": "resourcePack.3rdpartyconsole.description",
+      "type": "resources",
+      "uuid": "eeb96864-7cf5-4da6-b26b-ceaa6e311555",
+      "version": [ 0, 0, 1 ]
+    }
+  ]
+}

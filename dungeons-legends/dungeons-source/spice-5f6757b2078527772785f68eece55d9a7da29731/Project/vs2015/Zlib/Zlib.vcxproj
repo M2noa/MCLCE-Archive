@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\SourceDeps\zlib\adler32.c" />
+    <ClCompile Include="..\..\..\SourceDeps\zlib\compress.c" />
+    <ClCompile Include="..\..\..\SourceDeps\zlib\crc32.c" />
+    <ClCompile Include="..\..\..\SourceDeps\zlib\deflate.c" />
+    <ClCompile Include="..\..\..\SourceDeps\zlib\gzclose.c" />
+    <ClCompile Include="..\..\..\SourceDeps\zlib\gzlib.c" />
+    <ClCompile Include="..\..\..\SourceDeps\zlib\gzread.c" />
+    <ClCompile Include="..\..\..\SourceDeps\zlib\gzwrite.c" />
+    <ClCompile Include="..\..\..\SourceDeps\zlib\infback.c" />
+    <ClCompile Include="..\..\..\SourceDeps\zlib\inffast.c" />
+    <ClCompile Include="..\..\..\SourceDeps\zlib\inflate.c" />
+    <ClCompile Include="..\..\..\SourceDeps\zlib\inftrees.c" />
+    <ClCompile Include="..\..\..\SourceDeps\zlib\trees.c" />
+    <ClCompile Include="..\..\..\SourceDeps\zlib\uncompr.c" />
+    <ClCompile Include="..\..\..\SourceDeps\zlib\zutil.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\SourceDeps\zlib\crc32.h" />
+    <ClInclude Include="..\..\..\SourceDeps\zlib\deflate.h" />
+    <ClInclude Include="..\..\..\SourceDeps\zlib\gzguts.h" />
+    <ClInclude Include="..\..\..\SourceDeps\zlib\inffast.h" />
+    <ClInclude Include="..\..\..\SourceDeps\zlib\inffixed.h" />
+    <ClInclude Include="..\..\..\SourceDeps\zlib\inflate.h" />
+    <ClInclude Include="..\..\..\SourceDeps\zlib\inftrees.h" />
+    <ClInclude Include="..\..\..\SourceDeps\zlib\trees.h" />
+    <ClInclude Include="..\..\..\SourceDeps\zlib\zconf.h" />
+    <ClInclude Include="..\..\..\SourceDeps\zlib\zlib.h" />
+    <ClInclude Include="..\..\..\SourceDeps\zlib\zutil.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\SourceDeps\zlib\configure" />
+    <None Include="..\..\..\SourceDeps\zlib\Makefile" />
+    <None Include="..\..\..\SourceDeps\zlib\Makefile.in" />
+    <None Include="..\..\..\SourceDeps\zlib\zconf.h.cmakein" />
+    <None Include="..\..\..\SourceDeps\zlib\zconf.h.in" />
+    <None Include="..\..\..\SourceDeps\zlib\zlib.3" />
+    <None Include="..\..\..\SourceDeps\zlib\zlib.map" />
+    <None Include="..\..\..\SourceDeps\zlib\zlib.pc.cmakein" />
+    <None Include="..\..\..\SourceDeps\zlib\zlib.pc.in" />
+    <None Include="..\..\..\SourceDeps\zlib\zlib2ansi" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\..\SourceDeps\zlib\treebuild.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\SourceDeps\zlib\CMakeLists.txt" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6D47087C-E2D5-4CCB-983D-2D7D5775F2AE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Zlib</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)Build\$(ProjectName)\$(PlatformTarget)\</OutDir>
+    <IntDir>$(SolutionDir)Intermediate\Dependencies\$(ProjectName)\$(PlatformTarget)\</IntDir>
+    <IncludePath>$(SolutionDir)SourceDeps\$(ProjectName);$(SolutionDir)SourceDeps;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)Build\$(ProjectName)\$(PlatformTarget)\</OutDir>
+    <IntDir>$(SolutionDir)Intermediate\Dependencies\$(ProjectName)\$(PlatformTarget)\</IntDir>
+    <IncludePath>$(SolutionDir)SourceDeps\$(ProjectName);$(SolutionDir)SourceDeps;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)Build\$(ProjectName)\$(PlatformTarget)\</OutDir>
+    <IntDir>$(SolutionDir)Intermediate\Dependencies\$(ProjectName)\$(PlatformTarget)\</IntDir>
+    <IncludePath>$(SolutionDir)SourceDeps\$(ProjectName);$(SolutionDir)SourceDeps;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)Build\$(ProjectName)\$(PlatformTarget)\</OutDir>
+    <IntDir>$(SolutionDir)Intermediate\Dependencies\$(ProjectName)\$(PlatformTarget)\</IntDir>
+    <IncludePath>$(SolutionDir)SourceDeps\$(ProjectName);$(SolutionDir)SourceDeps;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

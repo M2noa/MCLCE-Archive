@@ -1,0 +1,21 @@
+#include "ShaderConstantsGNM.h"
+
+struct PS_Input {
+	float4 position : S_POSITION;
+	float4 color : COLOR;
+	float2 uv0 : TEXCOORD_0;
+	float2 uv1 : TEXCOORD_1;
+};
+
+float4 main(in PS_Input PSInput) 
+{
+	float4 diffuse = TEXTURE_0.Sample(TextureSampler0, PSInput.uv0) * TEXTURE_1.Sample(TextureSampler1, PSInput.uv1);
+
+#ifdef ALPHA_TEST
+	if(diffuse.a < 0.5)
+	 	discard;
+#endif
+	diffuse *= PSInput.color;
+
+	return diffuse;
+}

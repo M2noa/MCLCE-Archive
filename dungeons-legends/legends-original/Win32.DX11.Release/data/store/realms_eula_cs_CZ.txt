@@ -1,0 +1,175 @@
+﻿LICENČNÍ SMLOUVA S KONCOVÝM UŽIVATELEM PRO SLUŽBU MINECRAFT REALMS
+Tato licenční smlouva s koncovým uživatelem („smlouva EULA“ nebo „podmínky“) tvoří právní smlouvu mezi vámi a námi (společností Mojang AB). Podmínky této licence stanovují určitá pravidla pro používání služby Minecraft Realms („Minecraft Realms“). Čtení licenčních dokumentů nemáme rádi o nic více než vy, proto jsme se tuto smlouvu snažili co nejvíce zkrátit. Pokud porušíte tato pravidla, můžeme vám zabránit v používání služby Minecraft Realms. Používáním služby Minecraft Realms vyjadřujete souhlas s dodržováním pravidel těchto podmínek. Pokud s těmito pravidly nechcete nebo nemůžete souhlasit, službu Minecraft Realms nepoužívejte.
+
+Tyto podmínky začleňují naše zásady ochrany osobních údajů, podmínky pro účet u společnosti Mojang, smlouvu EULA pro Minecraft a v případě, že jste obyvateli Spojených států, i naši smlouvu o rozhodčím řízení. Proto je třeba ustanovení těchto dokumentů vnímat, jakoby byly uvedeny v těchto podmínkách. Když se odkazujeme na tyto podmínky, máme tím na mysli podmínky a ujednání, která právě čtete, spolu s těmito začleněnými dokumenty, jež jsou dostupné na příslušných odkazech.
+
+ZÁVAZNÁ SMLOUVA O ROZHODČÍM ŘÍZENÍ A ZŘEKNUTÍ SE SKUPINOVÉ ŽALOBY
+Obyvatelé Spojených států by měli kliknout sem a přečíst si závaznou smlouvu o rozhodčím řízení a zřeknutí se skupinové žaloby, které je součástí této smlouvy EULA. V rámci smlouvy obě strany souhlasí, že při rozhodování jakýchkoli individuálních sporů, ke kterým může dojít, využijí neutrálního rozhodce, čímž souhlasí se zřeknutím se svých práv na podání individuálních soudních žalob posuzovaných soudcem nebo porotou. Dále souhlasí, že skupinové žaloby a skupinová rozhodčí řízení nejsou v rámci těchto podmínek smlouvy povoleny.
+
+Úplná smlouva o rozhodčím řízení je na této stránce. Obě strany s ní souhlasí, proto si ji přečtěte.
+
+CO JE SLUŽBA MINECRAFT REALMS
+Minecraft Realms je služba vytvořená s cílem usnadnit lidem hraní Minecraftu s dalšími osobami na vyhrazeném serveru na základě těchto podmínek.
+
+„Říše Minecraft“ je tedy jeden svět, server nebo instance hry Minecraft, kterou hostujeme.
+
+Službu Minecraft Realms můžete používat založením vlastní říše Minecraft („vaše říše Minecraft“) nebo získáním oprávnění používat říši Minecraft další osoby („jiné říše Minecraft“). Odkaz na používání služby Minecraft Realms tedy zahrnuje používání vaší říše Minecraft i jiných říší Minecraft.
+
+POUŽÍVÁNÍ SLUŽBY MINECRAFT REALMS
+K používání služby Minecraft Realms mimo jiné potřebujete:
+- mít legitimní, licencovanou kopii plné, aktivované verze hry a účet Xbox Live (pro Minecraft) nebo účet u společnosti Mojang (pro Minecraft: Java Edition),
+- souhlasit s těmito podmínkami a
+- mít vhodné zařízení a připojení k internetu.
+
+ZÍSKÁNÍ SLUŽBY MINECRAFT REALMS
+Abyste mohli získat svou říši Minecraft, musíte mít účet Xbox Live (pro Minecraft) nebo účet u společnosti Mojang (pro Minecraft: Java Edition) s aktivovanou hrou Minecraft. Musíte také provést nákup nebo objednat předplatné a zaplatit za něj. Minecraft Realms je předplacená služba a její cena vychází z informací na příslušných nákupních stránkách a/nebo platformě v okamžiku zakoupení, případně z nákupní ceny uplatnitelného poukazu či dárkového kódu. Podmínky a ujednání příslušných nákupních stránek, platformy, uplatnitelného poukazu a/nebo dárkového kódu se rovněž vztahují na zakoupení služby Minecraft Realms. Minecraft Realms je služba, jejíž poskytování je zahájeno v okamžiku, kdy bude připravena k použití vaše říše Minecraft. Poté již nebudete mít nárok na zrušení své objednávky této služby. POUŽÍVÁNÍ VAŠÍ ŘÍŠE MINECRAFT
+
+Spolu se získáním vaší říše Minecraft získáte přístup k vyhrazené říši Minecraft, v níž budete moci:
+
+hrát Minecraft sami,
+pozvat několik dalších osob, aby hrály Minecraft s vámi (počet závisí na verzi získané služby Realms).
+Nemůžete však:
+
+prodávat, zapůjčovat, pronajímat, převádět, darovat či jinak nakládat s přístupem k vaší říši Minecraft ani přijímat odměnu za to, že necháte další osoby hrát ve vaší říši Minecraft.
+
+POUŽÍVÁNÍ JINÝCH ŘÍŠÍ MINECRAFT
+Abyste mohli používat službu Minecraft Realms dalších osob (jiné říše Minecraft), musíte mít legitimní, aktivovanou kopii hry Minecraft. Spolu se získáním přístupu k jiným říším Minecraft získáte přístup k vyhrazené říši Minecraft další osoby, v níž budete moci:
+
+- hrát Minecraft s danou osobou a
+- hrát Minecraft s kýmkoli dalším, komu daná osoba poskytla přístup.
+Nemůžete však:
+
+- prodávat, zapůjčovat, pronajímat, převádět, darovat či jinak nakládat s přístupem k jiným říším Minecraft ani nechávat další osoby žádným způsobem používat váš přístup.
+NEPOSKYTUJTE PROSÍM PŘÍSTUP KE SVÉ ŘÍŠI MINECRAFT NIKOMU, KOHO NEZNÁTE. PŘI KOMUNIKACI S DALŠÍMI OSOBAMI PROSTŘEDNICTVÍM SLUŽBY MINECRAFT REALMS PROSÍM BUĎTE OPATRNÍ. PRO NÁS I PRO VÁS JE OBTÍŽNÉ S JISTOTOU VĚDĚT, ŽE TO, CO LIDÉ TVRDÍ, JE PRAVDA, NEBO DOKONCE I TO, ŽE JSOU SKUTEČNĚ OSOBAMI, ZA KTERÉ SE VYDÁVAJÍ. NEŽ NĚKOMU POSKYTNETE SVÉ OSOBNÍ ÚDAJE, MĚLI BYSTE SI TO VŽDY DOBŘE ROZMYSLET.
+
+ÚČTY
+Jak bylo uvedeno výše, potřebujete účet Xbox Live (pro Minecraft) nebo účet u společnosti Mojang (pro Minecraft: Java Edition) a aktivovanou, licencovanou verzi hry Minecraft. Pokud je nemáte, budete požádáni o poskytnutí určitých údajů k založení a aktivaci účtu nebo hry, případně obojího. Údaje, které nám poskytnete v rámci registrace, musí být správné. Pokud pozbudou vaše registrační údaje platnosti, můžete je změnit. Pokud nám záměrně sdělíte nepravdivé informace, můžeme váš účet ukončit nebo pozastavit.
+
+Nesete odpovědnost za uživatelské jméno, vámi vytvořené heslo a aktivity, ke kterým dochází na vašem účtu. Pokud někdo používá vaše heslo k jednání, se kterým nesouhlasíte nebo které vás poškozuje, nemůžeme za to nést odpovědnost a také ji neneseme.
+
+VLASTNICTVÍ SLUŽBY MINECRAFT REALMS A DALŠÍCH MATERIÁLŮ
+Služba Minecraft Realms je tvořena naším softwarem, texturami, prostředky, nástroji, infrastrukturou a celou řadou dalších chytrých (a ne tak chytrých) pomůcek, které jsou naším vlastnictvím. Uplatňujeme a vyhrazujeme si veškerá naše práva na tyto materiály, avšak vy je můžete používat v rámci a v souvislosti s vaším používáním služby Minecraft Realms na stejném základě, jak stanovuje smlouva EULA pro Minecraft, a udělujeme vám nevýhradní právo tak činit na základě těchto podmínek.
+
+To neznamená, že se stáváme vlastníky úžasných věcí, které vytvoříte pomocí služby Minecraft Realm. Musíte jen přijmout, že jsme vlastníky hry Minecraft a služby Minecraft Realms jako produktu a služby a materiálů uvedených v předchozí větě – a také jsme vlastníky autorských práv a dalších tzv. práv duševního vlastnictví, která se týkají těchto materiálů a názvů a značek spojených se hrou Minecraft nebo službou Minecraft Realms.
+
+Je samozřejmostí, že pomocí služby Minecraft Realms budete vytvářet vlastní výtvory. Nevlastníme vaše originální výtvory a nenárokujeme si žádné vlastnictví ničeho, co bychom si nárokovat neměli. Budeme však vlastníky věcí, které jsou kopiemi (nebo z podstatné části kopiemi) či odvozeninami našeho majetku a výtvorů (uvedeno výše) – kromě vašich originálních výtvorů. Například tedy:
+
+- jeden blok je naším vlastnictvím,
+- gotická katedrála s horskou dráhou, která jí prochází, není naším vlastnictvím.
+Když tedy platíte za používání služby Minecraft Realms, kupujete si pouze oprávnění používat produkt a službu Minecraft Realms v souladu s těmito podmínkami. Jediná oprávnění, která máte v souvislosti se službou Minecraft Realms, jsou uvedena v těchto podmínkách – a specifické zákonem stanovené výjimky či práva (včetně tzv. práv na poctivé používání nebo poctivé jednání), na něž máte jinak nárok dle zákona. Ta se však obecně vztahují na obsah a nikoli na samotnou službu Minecraft Realms.
+
+Některé verze služby Realms vám mohou umožňovat zálohování dat z vaší říše Minecraft a jejich následné stažení do vašeho zařízení a používání s vaší vlastní (legitimní) verzí hry Minecraft (a na základě smlouvy EULA pro Minecraft).
+
+VÁŠ OBSAH
+Pokud něco vytváříte pomocí služby Minecraft Realms nebo zpřístupňujete jakýkoli obsah či materiály jejím prostřednictvím („váš obsah“), souhlasíte také, že nám a dalším osobám, které k vašemu obsahu mají přístup, dáváte oprávnění ho používat. To také znamená, že můžeme používat, kopírovat, měnit, upravovat, distribuovat, veřejně zobrazovat a jinak zpřístupňovat váš obsah dalším osobám (bez platby či omezení). To zahrnuje cokoli, co postavíte, vyrobíte nebo vytvoříte a veškerou komunikaci, kterou vedete, např. prostřednictvím funkce chatu, kterou máme nebo zpřístupníme. Dále souhlasíte, že nám umožníte povolit dalším osobám používat, kopírovat, měnit, upravovat, distribuovat a zpřístupňovat váš obsah, a přijímáte, že za to nemůžete získat zásluhy ani odměnu.
+
+To je třeba z několika důvodů, k nimž patří ten, že potřebujeme zajistit, že když další osoby (které můžete pozvat) získají přístup do vaší říše Minecraft, budou k tomu mít právo, a když vy získáte přístup do jiných říší Minecraft, budete k tomu mít právo. Potřebujeme také zajistit, že nebudeme odpovědní za to, co další osoby dělají s vaším obsahem, když jim umožníte ho používat – protože nad tím nemáme kontrolu – a také potřebujeme zohlednit skutečnost, že váš obsah bude obecně obsahovat náš software, textury, prostředky, nástroje atd., které vlastníme (viz výše).
+
+Tato oprávnění trvají neomezeně a nelze je odvolat. Pokud nechcete tato oprávnění poskytnout, obsah prostřednictvím služby Minecraft Realms nezpřístupňujte.
+
+Proto prosím pečlivě zvažte, než jakýkoli obsah zpřístupníte, protože bude zveřejněn (i pro kohokoli, kdo má přístup k říším Minecraft, ke kterým přistupujete) a může být dalšími osobami používán způsobem, který se vám nemusí líbit.
+
+Pokud se chystáte svůj obsah zpřístupnit pomocí služby Minecraft Realms, např. prostřednictvím vaší říše Minecraft nebo jiných říší Minecraft, musí splňovat následující:
+
+- nesmí být vůči druhým urážlivý,
+- nesmí být nezákonný nebo protiprávní,
+- musí být čestný a nesmí být zavádějící, podvodný nebo zneužívající ani nesmí druhé napodobovat,
+- nesmí porušovat autorská ani jiná práva dalších osob,
+- nesmí být rasistický, sexistický či homofobní,
+- nesmí představovat šikanu či zneužívání,
+- nesmí poškozovat naši pověst ani pověst další osoby,
+- nesmí obsahovat pornografii,
+- nesmí obsahovat reklamu.
+
+Prostřednictvím služby Minecraft Realms nesmíte zpřístupňovat žádný obsah, který porušuje práva jakékoli jiné osoby.
+
+Odpovídáte za veškerý obsah, který zpřístupníte prostřednictvím služby Minecraft Realms.
+
+Dále odpovídáte za veškerý obsah, který zpřístupníte vy nebo další osoby prostřednictvím vaší říše Minecraft.
+
+Zpřístupněním vašeho obsahu nám zaručujete a sdělujete, že jste k tomu plně oprávněni podle těchto podmínek a můžeme využít práv, která jste nám podle těchto podmínek udělili.
+
+Pokud nám chcete oznámit, že někdo narušuje vaše duševní vlastnictví v rámci služby Minecraft Realms nebo jakékoli naší služby, odešlete oznámení zde (https://www.microsoft.com/info/cpyrtInfrg.aspx). Vyhrazujeme si právo podle svého uvážení odstranit jakýkoli obsah. Dle potřeby můžeme ukončit či pozastavit účty uživatelů, kteří se dopustí opakovaných porušení.
+
+JINÝ OBSAH
+Při používání služby Minecraft Realms můžete mít také přístup a používat obsah vytvořený dalšími osobami („jiný obsah“). Část tohoto jiného obsahu může být zpřístupňována osobami, které pozvete do své říše Minecraft, a část může být zpřístupňována jako součást říše Minecraft dalších osob.
+
+Stejně jako váš obsah bude i jiný obsah obecně obsahovat náš software, textury, prostředky, nástroje atd., které vlastníme (viz výše).
+
+Pokud někdo zpřístupní nebo vám poskytne přístup k jinému obsahu, pak ho můžete používat v rámci a v souvislosti s vaším používáním služby Minecraft Realms na základě těchto podmínek. V každém případě jiný obsah podléhá těmto podmínkám.
+
+UŽIVATELSKÝ OBSAH
+Následující podmínky se týkají vašeho obsahu i jiného obsahu, souhrnným označením „uživatelského obsahu“.
+
+Minecraft Realms je zábavní služba, což má za následek, že se podílíme na přenosu, distribuci, ukládání a načítání uživatelského obsahu, aniž bychom ho přezkoumávali, vybírali nebo upravovali – jde tedy o pouhé zprostředkování a/nebo hostování uživatelského obsahu bez jeho znalosti. Znamená to, že nemonitorujeme ani nepřezkoumáváme uživatelský obsah, tudíž nebudeme vědět, co šíříte vy nebo další osoby. Můžeme provádět kontrolu technickou souladu, kompatibility a/nebo virů atd., avšak nepřezkoumáváme samotný obsah nebo informace, které obsahuje. Podmínky stanovují pravidla, která vy a další osoby musíte dodržovat, ale nemůžeme vědět o všem, co se děje.
+
+Z tohoto důvodu upozorňujeme, že:
+
+- Názory vyjadřované v jakémkoli uživatelském obsahu jsou názory jednotlivých autorů nebo tvůrců a nikoli naše či jakékoli osoby spojené s námi, pokud tak jinak nestanovíme.
+- Neodpovídáme za veškerý uživatelský obsah (a podle platných zákonů nečiníme žádné záruky nebo vyjádření, která se ho týkají, a zříkáme se veškeré odpovědnosti za něj) včetně jakýchkoli komentářů, názorů či poznámek vyjadřovaných jeho prostřednictvím.
+- Používáním služby Minecraft Realms berete na vědomí, že nemáme žádnou odpovědnost za monitorování či přezkoumávání obsahu jakéhokoli uživatelského obsahu a že veškerý uživatelský obsah je zprostředkováván na základě, že nejsme povinni provádět žádnou jeho kontrolu či ho posuzovat, a ani tak nečiníme.
+- Při komunikaci s dalšími hráči nežádejte osoby, se kterými jste se nesetkali v reálném životě, aby se s vámi v reálném životě setkaly.
+Můžeme VŠAK odebrat, odmítnout nebo pozastavit přístup k libovolnému uživatelskému obsahu a odebrat či pozastavit vaši možnost publikovat, zpřístupňovat nebo přistupovat k uživatelskému obsahu včetně odebrání či pozastavení přístupu k vaší říši Minecraft nebo jiným říším Minecraft, pokud to budeme považovat za vhodné, např. pokud porušíte tyto podmínky či pokud obdržíme stížnost, kterou budeme považovat za povolení k takovému kroku. Budeme okamžitě jednat s cílem odebrat nebo zakázat přístup k uživatelskému obsahu, jakmile budeme informováni o jeho protiprávnosti.
+
+AKTUALIZACE
+Příležitostně můžeme zpřístupňovat upgrady, aktualizace nebo opravy (souhrnně je nazýváme jako „aktualizace“), což jsme doposud dělali, ale není to naší povinností.
+
+Nejsme také povinni poskytovat průběžnou podporu nebo údržbu služby Minecraft Realms. Jen abyste věděli.
+
+Samozřejmě se budeme snažit pokračovat ve vydávání nových aktualizací služby Minecraft Realms, jen to nemůžeme zaručit.
+
+PLATBA, REFUNDACE ATD.
+Podmínky pro účet u společnosti Mojang zahrnují platbu a refundace, avšak Minecraft Realms je služba, jejíž poskytování je zahájeno v okamžiku, kdy je vám zpřístupněna a máte přístup k vaší říši Minecraft. Proto poté nemůžete zrušit žádnou objednávku či zakoupení této služby. To nemá vliv na žádná vaše práva spotřebitele a pokud nemůžete službu Minecraft Realms používat z důvodu selhání či chyby, informujte vás a my se pokusíme ji opravit. V případě, že ji nebudeme schopni opravit, můžete mít nárok na refundaci.
+
+ODPOVĚDNOST, ROZHODNÉ PRÁVO A MÍSTO ŘEŠENÍ SPORŮ
+
+Tato smlouva EULA nemá vliv na žádná zákonná (zákonem stanovená) práva, která můžete mít podle zákonů, jež se na vás vztahují s ohledem na službu Minecraft Realms, ani na cokoli, co zakoupíte prostřednictvím našeho webu. Můžete mít určitá práva, která dle zákonů, jež se na vás vztahují, nelze vyloučit. Žádné ustanovení této smlouvy EULA nebude mít vliv na zákonná práva, i když můžeme uvádět něco, co může vypadat, že je v rozporu s vašimi zákonnými právy. To myslíme ustanovením „podle platných zákonů“.
+
+PODLE PLATNÝCH ZÁKONŮ NEODPOVÍDÁME ZA:
+
+- ŽÁDNÉ POUŽITÍ NEBO ZNEUŽITÍ VAŠÍ ŘÍŠE MINECRAFT NEBO JINÝCH ŘÍŠÍ MINECRAFT,
+- ŽÁDNÉ POUŽITÍ NEBO ZNEUŽITÍ SLUŽBY MINECRAFT REALMS VÁMI ČI JAKOUKOLI DALŠÍ OSOBOU,
+- ŽÁDNÝ OBSAH ZPŘÍSTUPNĚNÝ VÁMI PROSTŘEDNICTVÍM SLUŽBY MINECRAFT REALMS,
+- ŽÁDNÉ PORUŠENÍ TĚCHTO PODMÍNEK Z VAŠÍ STRANY,
+- ŽÁDNÉ PORUŠENÍ JAKÝCHKOLI PODMÍNEK ZE STRANY JAKÉKOLI DALŠÍ OSOBY.
+- VY ODPOVÍDÁTE ZA:
+- VEŠKERÉ VAŠE POUŽÍVÁNÍ SLUŽBY MINECRAFT REALMS,
+- VEŠKERÉ VAŠE POUŽÍVÁNÍ VAŠÍ ŘÍŠE MINECRAFT A JINÝCH ŘÍŠÍ MINECRAFT,
+- JAKÉKOLI PORUŠENÍ TĚCHTO PODMÍNEK Z VAŠÍ STRANY,
+- VEŠKERÝ OBSAH ZPŘÍSTUPNĚNÝ VÁMI PROSTŘEDNICTVÍM SLUŽBY MINECRAFT REALMS,
+- VEŠKERÝ OBSAH ZPŘÍSTUPNĚNÝ VÁMI NEBO DALŠÍMI OSOBAMI PROSTŘEDNICTVÍM VAŠÍ ŘÍŠE MINECRAFT.
+
+PODLE PLATNÝCH ZÁKONŮ je služba Minecraft Realms poskytována „tak, jak je“. Aktualizace jsou také poskytovány „tak, jak jsou“. To znamená, že vůči vám nečiníme žádné přísliby týkající se standardu nebo kvality služby Minecraft Realms nebo toho, že bude služba Minecraft Realms nepřerušovaná či bezchybná. V MAXIMÁLNĚ MOŽNÉM ROZSAHU POVOLENÉM PLATNÝMI ZÁKONY neodpovídáme za žádné ztráty nebo poškození, která způsobí. Musíte přijmout, že službu Minecraft Realms spouštíme v beta verzi a neustále zavádíme a zdokonalujeme její funkce, proto může obsahovat (a často obsahuje) chyby. Dáváme však přednost brzkému vydání těchto funkcí před tím, že bychom vás nechali čekat na dokonalé řešení.
+
+Pokud budeme někdy mít soudní spor (a doufáme, že k tomu nedojde, stejně jako vy), výhradním fórem (tzn. místem, kde bude spor řešen) bude státní nebo federální soud v King County ve státě Washington (jste-li obyvateli Spojených států) nebo soud v provincii Ontario (jste-li obyvateli Kanady). (Jste-li obyvateli Spojených států, většina sporů bude řešena rozhodčím řízením, nikoli soudně.) Tato smlouva EULA a veškeré spory včetně sporů, které se týkají jí, naší hry nebo našeho webu, se řídí zákony vašeho státu nebo provincie, bez ohledu na kolize právních principů s výjimkou federálního zákona o rozhodčím řízení, jenž upravuje vše, co se týká rozhodčího řízení.
+
+SLUŽBA MINECRAFT REALMS JE PROBÍHAJÍCÍ PRÁCE A MŮŽE OBSAHOVAT VADY A CHYBY, MŮŽE SELHAT A/NEBO ZPŮSOBIT ZTRÁTU DAT. OMLOUVÁME SE, POKUD K TOMU DOJDE. PROTO ZÁLOHUJTE A CHRAŇTE VŠECHNA DATA A PROGRAMY VE SVÉM ZAŘÍZENÍ. ZJEDNODUŠENĚ ŘEČENO POUŽÍVÁTE SLUŽBU MINECRAFT REALMS NA SVÉ VLASTNÍ RIZIKO, PŘIČEMŽ VÍTE, ŽE JE POSKYTOVÁNA „TAK, JAK JE“.
+
+UJISTĚTE SE, ŽE BUDETE PRAVIDELNĚ ZÁLOHOVAT DATA SVÉ ŘÍŠE MINECRAFT. MY JE AUTOMATICKY NEZÁLOHUJEME. POKUD TEDY DOJDE K SELHÁNÍ ŘÍŠE MINECRAFT NEBO JAKÉHOKOLI UŽIVATELSKÉHO OBSAHU, MŮŽETE O NĚ PŘIJÍT. POKUD K TOMU DOJDE, OMLOUVÁME SE, ALE MŮŽEME SE VÁM JEN OMLUVIT. OZNAMOVÁNÍ
+
+Někdy lidé dělají věci, které by dělat neměli. Nelíbí se nám to, ale máme jen omezené možnosti, jak tomu zabránit. Můžeme jen všechny požádat, aby se chovali správně. Spoléháme na vás a další osoby v komunitě, jako jste vy, že nám oznámí, pokud se někdo nebude chovat správně. A pokud k tomu dojde a/nebo se budete domnívat, že někdo porušuje tyto podmínky nebo používá službu Minecraft Realms nevhodným způsobem, informujte nás o tom. Máme pro tento účel systém pro ohlašování/oznamování, proto ho využijte, a my uděláme vše nezbytné, abychom záležitost vyřešili.
+
+UKONČENÍ
+Pokud porušíte tyto podmínky nebo jejich jakoukoli část, můžeme ukončit tuto licenční smlouvu a vaše používání služby Minecraft Realms. Smlouvu můžete ukončit kdykoli také vy – stačí, když přestanete používat svou říši Minecraft a přestanete k ní poskytovat přístup dalším osobám. Po ukončení již nebudete moci používat službu Minecraft Realms ani poskytovat k vaší říši Minecraft přístup dalším osobám. Smlouva o rozhodčím řízení (jste-li obyvateli Spojených států) a oddíly týkající se „Vlastnictví služby Minecraft Realms“, „Naší odpovědnosti“ a „Obecných ustanovení“ budou však nadále v platnosti i po ukončení.
+
+OBECNÁ USTANOVENÍ
+Tato smlouva EULA popisuje určitá zákonná práva. Zákony vašeho státu nebo země vám mohou dávat další práva včetně práv spotřebitele, která tato smlouva EULA nemůže změnit. V takovém případě tato smlouva EULA platí v rozsahu povoleném zákony. Žádné ustanovení nevylučuje ani neomezuje naši odpovědnost v případě úmrtí nebo poranění osoby vyplývajícího z naší nedbalosti nebo úmyslného uvedení v omyl.
+
+Tyto podmínky můžeme příležitostně změnit, pokud k tomu budeme mít důvod. Může například dojít ke změnám našich her, našich postupů nebo našich zákonných povinností, přičemž tyto změny se budou vztahovat na vaše používání služby Minecraft Realms od příštího použití. Než změna nabude účinnosti, budeme vás informovat publikováním oznámení na našem webu nebo jiným odpovídajícím způsobem. Nebudeme se v tomto ohledu chovat nečestně. Někdy ale dochází ke změně zákonů nebo někdo svým jednáním ovlivní další uživatele služby Minecraft Realms, a proto tomu musíme zabránit.
+
+Pokud nám učiníte návrh týkající se služby Minecraft Realms, daný návrh je činěn bezplatně a nemáme žádnou povinnost ho přijmout nebo zvážit. To znamená, že váš návrh můžeme či nemusíme použít dle vlastního rozhodnutí a nemusíme vám za to platit. Pokud se domníváte, že máte návrh, za který bychom vám byli ochotni zaplatit, nesdělujte nám ho. Nejdříve nám oznamte, že za něj chcete zaplatit, a vyčkejte, dokud vám písemně neodpovíme a nepožádáme vás, abyste nám návrh sdělili.
+
+Pokud si nejste jisti, zda můžete podle těchto podmínek něco udělat, raději to nedělejte, případně se na to zeptejte. V zásadě nám nedělejte žádné schválnosti a my je nebudeme dělat vám.
+
+Informace o společnosti
+
+Mojang AB
+Maria Skolgata 83,
+
+SE-11853
+
+Stockholm
+Švédsko
+Číslo organizace:556819-2388
+
+Kontaktujte nás prosím na této adrese nebo e-mailem na adrese support@mojang.com

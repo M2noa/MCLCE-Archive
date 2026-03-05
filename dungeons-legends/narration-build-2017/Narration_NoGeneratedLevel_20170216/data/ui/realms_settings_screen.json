@@ -1,0 +1,331 @@
+/********************************************************
++*   (c) Mojang. All rights reserved                       *
++*   (c) Microsoft. All rights reserved.                   *
++*********************************************************/
+
+{
+  "namespace": "realms_settings",
+
+  "settings_screen@settings_common.screen_base": {
+    "$selector_stack_panel": "realms_settings.selector_panel",
+    "$section_content_panels": "realms_settings.section_content_panels"
+  },
+
+  "generic_section_button@settings_common.section_toggle_base": {
+    "$button_label_text": "$section_title",
+    "property_bag": {
+      "#panel_title": "$section_title"
+    }
+  },
+
+  "generic_section_button_wrapper": {
+    "type": "panel",
+    "size": [ "100%", "100%c - 1px" ],
+    "$glyph_uv|default": [ 0, 13 ],
+    "$section_title|default": "button text",
+    "controls": [
+      { "$section_title@generic_section_button": { } }
+    ],
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "$section_title",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#toggle_visible"
+      }
+    ]
+  },
+
+  "generic_section": {
+    "type": "stack_panel",
+    "size": [ "100%", "100%c" ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "$section_button_name",
+        "source_property_name": "#toggle_visible",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      { "$section_content_name@$section_content_name": { } }
+    ]
+  },
+
+  "generic_section_wrapper": {
+    "type": "panel",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "offset": [ 2, 0 ],
+    "size": [ "100% - 4px", "100%c" ],
+    "$section_button_name|default": "name of selection toggle button",
+    "$section_content_name|default": "name of class defining the content",
+    "controls": [
+      { "@generic_section": { } }
+    ]
+  },
+
+  // Subscription content
+
+  "player_count_label@settings_common.option_info_label": {
+    "$option_label": "realmsSettingsScreen.playerCountLabel",
+    "$container_size": [ "100%", "30px" ],
+    "$container_text_binding_name": "#realm_player_count"
+  },
+
+  "realm_duration_label@settings_common.option_info_label": {
+    "$option_label": "realmsSettingsScreen.realmDurationLabel",
+    "$container_size": [ "100%", "30px" ],
+    "$container_text_binding_name": "#realm_duration_label"
+  },
+
+  "realm_subscription_origin_label@settings_common.option_info_label": {
+    "$container_size": [ "100%", "60px" ],
+    "$container_text_binding_name": "#realm_subscription_origin",
+    "$show_option_label": false,
+    "bindings": [
+      {
+        "binding_name": "#realm_subscription_origin_visibility",
+        "binding_name_override": "#visible"
+      }
+    ]
+  },
+
+  "manage_subscription_button@settings_common.action_button": {
+    "$button_label_text": "realmsSettingsScreen.manageSubscriptionButton",
+    "$pressed_button_name": "menu_realms_manage_subscription",
+    "bindings": [
+      {
+        "binding_name": "#manage_subscription_button_visible",
+        "binding_name_override": "#visible"
+      }
+    ]
+  },
+
+  "extend_consumable_button@settings_common.action_button": {
+    "bindings": [
+      {
+        "binding_name": "#extend_consumable_button_visible",
+        "binding_name_override": "#visible"
+      }
+    ]
+  },
+
+  "extend_consumable_30_days@extend_consumable_button": {
+    "$button_label_text": "realmsSettingsScreen.extendConsumableButton.30",
+    "$pressed_button_name": "menu_realms_extend_consumable_30"
+  },
+
+  "extend_consumable_180_days@extend_consumable_button": {
+    "$button_label_text": "realmsSettingsScreen.extendConsumableButton.180",
+    "$pressed_button_name": "menu_realms_extend_consumable_180"
+  },
+
+  "open_realm_button@settings_common.action_button": {
+    "$button_label_text": "realmsSettingsScreen.openRealmButton",
+    "$pressed_button_name": "menu_open_realm",
+    "bindings": [
+      {
+        "binding_name": "#open_realm_button_visible",
+        "binding_name_override": "#visible"
+      }
+    ]
+  },
+
+  "close_realm_button@settings_common.action_button": {
+    "$button_label_text": "realmsSettingsScreen.closeRealmButton",
+    "$pressed_button_name": "menu_close_realm",
+    "bindings": [
+      {
+        "binding_name": "#close_realm_button_visible",
+        "binding_name_override": "#visible"
+      }
+    ]
+  },
+
+  "subscriptions_section": {
+    "type": "panel",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [ "100%", "100%c" ],
+    "controls": [
+      {
+        "loading_view": {
+          "type": "label",
+          "alignment": "top_middle",
+          "size": [ "100%", "80px" ],
+          "offset": [ 0, 10 ],
+          "text": "realmsSettingsScreen.LoadingSubscription",
+          "bindings": [
+            {
+              "binding_name": "#realms_subscription_loading_message_visible",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "loaded_view": {
+          "type": "stack_panel",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "controls": [
+            { "@player_count_label": { } },
+            { "@realm_duration_label": { } },
+            { "@realm_subscription_origin_label": { } },
+            { "@manage_subscription_button": { } },
+            { "@extend_consumable_30_days": { } },
+            { "@extend_consumable_180_days": { } },
+            {
+              "": {
+                "type": "panel",
+                "size": [ 0, 5 ]
+              }
+            },
+            { "@open_realm_button": { } },
+            { "@close_realm_button": { } },
+            {
+              "": {
+                "type": "panel",
+                "size": [ 0, 2 ]
+              }
+            }
+          ],
+          "bindings": [
+            {
+              "binding_name": "#realms_subscription_info_visible",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+
+      }
+    ]
+  },
+
+  // test content
+  "test_content": {
+    "type": "panel",
+    "controls": [
+      { "@realms_invitation.realms_invitation_content_panel": { "layer": 1 } },
+      { "@realms_invitation.gamepad_helpers": { } }
+    ]
+  },
+
+  // Left side
+  "selector_panel": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [ "100%", "100%" ],
+    "$default_selector_toggle_index": 1,
+    "controls": [
+      {
+        "play_button@settings_common.action_button": {
+          "$button_label_text": "realmsSettingsScreen.playRealmButton",
+          "$pressed_button_name": "play_world_button",
+          "size": [ "100%", "30px" ],
+          "bindings": [
+            {
+              "binding_name": "#play_button_visible",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "disabled_play_button@settings_common.action_button": {
+          "$button_label_text": "realmsSettingsScreen.playDisabledRealmButton",
+          "$pressed_button_name": "play_world_button",
+          "size": [ "100%", "30px" ],
+          "bindings": [
+            {
+              "binding_name": "#disabled_play_button_visible",
+              "binding_name_override": "#visible"
+            },
+            {
+              "binding_name": "#play_button_visible", // a hack: you cannot set "enabled":false directly on a ui control
+              "binding_name_override": "#enabled"
+            }
+          ]
+        }
+      },
+      {
+        "expired_play_button@settings_common.action_button": {
+          "$button_label_text": "realmsSettingsScreen.playExpiredRealmButton",
+          "$pressed_button_name": "play_world_button",
+          "size": [ "100%", "30px" ],
+          "bindings": [
+            {
+              "binding_name": "#is_realm_expired",
+              "binding_name_override": "#visible"
+            },
+            {
+              "binding_name": "#play_button_visible", // a hack: you cannot set "enabled":false directly on a ui control
+              "binding_name_override": "#enabled"
+            }
+          ]
+        }
+      },
+      {
+        "@settings_common.selector_group_label": {
+          "offset": [ 2, 0 ],
+          "text": "realmsSettingsScreen.selectorSectionLabel"
+        }
+      },
+      {
+        "world_button@generic_section_button_wrapper": {
+          "$toggle_group_forced_index": 1,
+          "$section_title": "realmsSettingsScreen.worldSectionTitle",
+          "$glyph_uv": [ 75, 13 ]
+        }
+      },
+      {
+        "players_button@generic_section_button_wrapper": {
+          "$toggle_group_forced_index": 2,
+          "$section_title": "realmsSettingsScreen.playersSectionTitle",
+          "$glyph_uv": [ 50, 13 ]
+        }
+      },
+      {
+        "subscription_button@generic_section_button_wrapper": {
+          "$toggle_group_forced_index": 3,
+          "$section_title": "realmsSettingsScreen.subscriptionSectionTitle",
+          "$glyph_uv": [ 25, 13 ]
+        }
+      }
+    ]
+  },
+
+  // right side
+  "section_content_panels": {
+    "type": "panel",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [ "100%", "100%c" ],
+    "controls": [
+      {
+        "world_section@generic_section_wrapper": {
+          "$section_button_name|default": "world_button",
+          "$section_content_name|default": "realms_world_section.panel_content"
+        }
+      },
+      {
+        "players_section@generic_section_wrapper": {
+          "$section_button_name|default": "players_button",
+          "$section_content_name|default": "realms_invitation.friends_panel",
+          "$friend_panel_size": [ "100%", "100%c" ]
+        }
+      },
+      {
+        "subscription_section@generic_section_wrapper": {
+          "$section_button_name|default": "subscription_button",
+          "$section_content_name|default": "subscriptions_section"
+        }
+      }
+    ]
+  }
+}

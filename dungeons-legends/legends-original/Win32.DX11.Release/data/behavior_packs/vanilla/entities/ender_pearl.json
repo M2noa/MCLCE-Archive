@@ -1,0 +1,62 @@
+{
+  "minecraft:entity": {
+    "format_version": "1.2.0",
+
+    "component_groups": {
+      "minecraft:no_spawn": {
+        "minecraft:projectile": {
+          "onHit": {
+            "teleport_owner": { },
+            "remove_on_hit": { }
+          },
+          "power": 1.5,
+          "gravity": 0.025,
+          "angleoffset": 0.0,
+          "inertia": 1,
+          "liquid_inertia": 1
+        }
+      }
+    },
+
+    "components": {
+      "minecraft:identifier": {
+        "id": "minecraft:ender_pearl"
+      },
+      "minecraft:collision_box": {
+        "width": 0.25,
+        "height": 0.25
+      },
+      "minecraft:projectile": {
+        "onHit": {
+          "teleport_owner": { },
+          "spawn_chance": {
+            "firstSpawnPercentChance": 5.0,
+            "firstSpawnCount": 1,
+            "spawnDefinition": "minecraft:endermite"
+          },
+          "remove_on_hit": { }
+        },
+        "power": 1.5,
+        "gravity": 0.025,
+        "angleoffset": 0.0,
+        "inertia": 1,
+        "liquid_inertia": 1
+      },
+	    "minecraft:physics": {
+      }
+    },
+
+    "events": {
+      "minecraft:entity_spawned": {
+        "sequence": [
+          {
+            "filters": {"test": "is_game_rule", "domain": "domobspawning", "value": false},
+            "add": {
+              "component_groups": [ "minecraft:no_spawn" ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

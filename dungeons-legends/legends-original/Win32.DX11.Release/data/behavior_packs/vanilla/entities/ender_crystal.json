@@ -1,0 +1,51 @@
+{
+  "minecraft:entity": {
+    "format_version": "1.2.0",
+
+    "component_groups": {
+      "crystal_exploding": {
+        "minecraft:explode": {
+          "fuseLength": 0,
+          "fuseLit": true,
+          "power": 6,
+          "causesFire": false,
+          "destroyAffectedByGriefing": true
+        }
+      }
+    },
+
+    "components": {
+      "minecraft:identifier": {
+        "id": "minecraft:ender_crystal"
+      },
+      "minecraft:collision_box": {
+        "width": 0.98,
+        "height": 0.98
+      },
+      "minecraft:health": {
+        "value": 1,
+        "max": 1
+      },
+      "minecraft:fire_immune": true,
+      "minecraft:on_hurt": {
+        "event": "minecraft:crystal_explode",
+        "target": "self"
+      },
+	    "minecraft:physics": {
+      }
+    },
+
+    "events": {
+      "minecraft:crystal_explode": {
+        "remove": {
+        },
+        "add": {
+          "component_groups": [
+            "crystal_exploding"
+          ]
+        }
+      }
+    }
+
+  }
+}

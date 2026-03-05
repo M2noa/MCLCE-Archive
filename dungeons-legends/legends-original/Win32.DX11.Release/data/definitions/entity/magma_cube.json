@@ -1,0 +1,10 @@
+{
+  "definition.magma_cube": {
+    "textures": {
+      "default": "textures/entity/slime/magmacube"
+    },
+    "geometry": {
+      "default": "geometry.lavaslime"
+    }
+  }
+}

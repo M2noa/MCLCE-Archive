@@ -1,0 +1,10 @@
+{
+  "definition.armor_stand": {
+    "textures": {
+      "default": "textures/entity/armor_stand"
+    },
+    "geometry": {
+      "default": "geometry.armor_stand"
+    }
+  }
+}

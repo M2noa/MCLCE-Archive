@@ -1,0 +1,56 @@
+{
+  "minecraft:entity": {
+    "format_version": "1.2.0",
+
+    "component_groups": {
+      "from_explosion": {
+        "minecraft:explode": {
+          "fuseLength": {
+            "range_min": 0.5,
+            "range_max": 2.0
+          },
+          "fuseLit": true,
+          "power": 4,
+          "causesFire": true
+        }
+      }
+    },
+	
+    "components": {
+      "minecraft:identifier": {
+        "id": "minecraft:badger_tnt"
+      },
+      "minecraft:type_family": {
+        "family": [ "tnt", "inanimate" ]
+      },
+      "minecraft:collision_box": {
+        "width": 0.98,
+        "height": 0.98
+      },
+
+      "minecraft:explode": {
+        "fuseLength": 4,
+        "fuseLit": true,
+        "power": 4,
+        "causesFire": true,
+        "breaks_blocks": true,
+        "fireAffectedByGriefing": false,
+        "destroyAffectedByGriefing": false,
+        "depthLimit": 0,
+        "structureDamageMultiplier": 3.5
+      },
+	    "minecraft:physics": {
+      }
+    },
+    
+    "events": {
+      "from_explosion": {
+        "add": {
+          "component_groups": [
+            "from_explosion"
+          ]
+        }
+      }
+    }
+  }
+}

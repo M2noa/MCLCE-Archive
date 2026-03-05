@@ -1,0 +1,10 @@
+{
+  "definition.snow_golem": {
+    "textures": {
+      "default": "textures/entity/snow_golem"
+    },
+    "geometry": {
+      "default": "geometry.snowgolem"
+    }
+  }
+}

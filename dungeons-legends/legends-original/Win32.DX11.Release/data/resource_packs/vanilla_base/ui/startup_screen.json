@@ -1,0 +1,29 @@
+{
+  "namespace": "startup",
+
+
+
+  "startup_screen": {
+    "type": "screen",
+    "send_telemetry": false,
+
+    "controls": [
+      {
+        "background_color": {
+          "type": "image",
+          "size": [ "100%", "100%" ],
+          "texture": "textures/ui/White"
+        }
+      },
+      {
+        "loading_image": {
+          "type": "image",
+          "layer": 1,
+          "fill": false,
+          "size": [ "100%", "100%" ],
+          "texture": "textures/ui/loading_screen_0"
+        }
+      }
+    ]
+  }
+}

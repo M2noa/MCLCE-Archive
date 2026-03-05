@@ -1,0 +1,18 @@
+{
+  "format_version": 1,
+  "header": {
+    "uuid": "c06fdb39-0663-4e31-890d-3badd1757e4d",
+    "name": "resourcePack.education.name",
+    "version": [0, 0, 1],
+    "description": "resourcePack.education.description",
+    "min_engine_version": [1, 2, 6]
+  },
+  "modules": [
+    {
+      "description": "resourcePack.education.description",
+      "version": [0, 0, 1],
+      "uuid": "c0619928-7ec2-4ff3-8851-8db67de59d8e",
+      "type": "resources"
+    }
+  ]
+}

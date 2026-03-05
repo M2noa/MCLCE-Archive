@@ -1,0 +1,7 @@
+Tarjoamme Minecraftin mukana nyt mahdollisuuden ostaa Minecraft Realms. Realms on kuukausittainen tilauspalvelu, jonka avulla voit luoda oman aina verkossa olevan Minecraft-maailman.
+Tällä hetkellä voit valita kahdesta tilausvaihtoehdosta sen mukaan, kuinka monta ihmistä haluat kutsua pelaamaan alueellasi yhtäaikaa. Alue sinulle ja 2 ystävälle maksaa 3,99 USD/kk (tai vastaavan summan paikallisena valuuttana) ja alue sinulle ja 10 ystävällesi maksaa 7,99 USD/kk (tai vastaavan summan paikallisena valuuttana).
+Tarjolla on myös 30 päivän ilmainen Minecraft Realmsin kokeiluversio sinulle ja kymmenelle ystävällesi. Käyttäjä luopuu mahdollisesta käyttämättömästä ilmaisen kokeiluversion ajasta, kun hän hankkii tilauksen.
+
+Maksu veloitetaan iTunes-tililtäsi, kun vahvistat tilauksen, ja tilaus jatkuu automaattisesti, jollei automaattista uusimista ole poistettu käytöstä vähintään 24 tuntia ennen nykyisen tilausjakson päättymistä. Tilauksen uusiminen veloitetaan tililtäsi 24:n nykyisen tilausjakson loppua edeltävän tunnin aikana. Veloitus määräytyy sen tilaushintavaihtoehdon mukaan, jonka olet aikaisemmin valinnut.
+
+Tilausta voidaan hallita ja automaattinen uusiminen voidaan poistaa käytöstä käyttäjän Tiliasetuksista ostamisen jälkeen. Myös itse pelissä on painike, jonka kautta pääsee kyseisiin asetuksiin. Jos perut tilauksesi sen jälkeen kun se on aktivoitu, et saa hyvitystä jäljellä olevasta tilausajasta.

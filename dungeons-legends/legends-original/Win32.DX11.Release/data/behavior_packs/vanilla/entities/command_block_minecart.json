@@ -1,0 +1,86 @@
+{
+  "minecraft:entity": {
+    "format_version": "1.2.0",
+
+    "component_groups": {
+      "minecraft:command_block_active": {
+        "minecraft:rail_sensor": {
+          "check_block_types": true,
+          "eject_on_activate": false,
+          "eject_on_deactivate": false,
+          "tick_command_block_on_activate": true,
+          "tick_command_block_on_deactivate": false,
+          "on_deactivate": {
+            "event": "minecraft:command_block_deactivate"
+          }
+        }
+      },
+      "minecraft:command_block_inactive": {
+        "minecraft:rail_sensor": {
+          "check_block_types": false,
+          "eject_on_activate": false,
+          "eject_on_deactivate": false,
+          "tick_command_block_on_activate": true,
+          "tick_command_block_on_deactivate": false,
+          "on_activate": {
+            "event": "minecraft:command_block_activate"
+          }
+        }        
+      }
+    },
+
+    "components": {
+      "minecraft:identifier": {
+        "id": "minecraft:command_block_minecart"
+      },
+      "minecraft:type_family": {
+        "family": [ "minecart", "inanimate" ]
+      },
+      "minecraft:collision_box": {
+        "width": 0.5,
+        "height": 0.9
+      },
+      "minecraft:rail_movement": {
+
+      },
+      "minecraft:inventory": {
+      },
+      "minecraft:physics": {
+      }
+    },
+
+    "events": {
+      "minecraft:entity_spawned": {
+        "add": {
+          "component_groups": [
+            "minecraft:command_block_inactive"
+          ]
+        }
+      },
+      "minecraft:command_block_activate": {
+        "remove": {
+          "component_groups": [
+            "minecraft:command_block_inactive"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:command_block_active"
+          ]
+        }
+      },
+      "minecraft:command_block_deactivate": {
+        "remove": {
+          "component_groups": [
+            "minecraft:command_block_active"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:command_block_inactive"
+          ]
+        }
+      }
+    }
+  }
+}

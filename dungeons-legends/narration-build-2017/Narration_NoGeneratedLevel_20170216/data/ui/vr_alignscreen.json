@@ -1,0 +1,111 @@
+{
+  "namespace": "vr_align_screen",
+
+  "text_message": {
+    "type": "label",
+    "wrap": true,
+    "anchor_to": "center",
+    "anchor_from": "center",
+    "layer": 2,
+    "offset": [ 0, 32 ],
+    "alignment": "center",
+    "shadow": true,
+    "text": "#text",
+    "color": [ 1.0, 1.0, 1.0, 1.0 ],
+    "bindings": [
+      {
+        "binding_name": "#message",
+        "binding_name_override": "#text"
+      }
+    ]
+  },
+
+  "text_panel": {
+    "type": "panel",
+    "size": [ "50%", "100%" ],
+    "anchor_to": "center",
+    "anchor_from": "center",
+    "controls": [
+      {
+        "@text_message": { }
+      }
+    ]
+  },
+
+  "warning_label": {
+    "type": "label",
+    "anchor_to": "center",
+    "anchor_from": "center",
+    "layer": 2,
+    "alignment": "center",
+    "offset": [ 0, 62 ],
+    "size": [ "70%", "100%" ],
+    "shadow": true,
+    "text": "#text",
+    "color": [ 0.8, 0.7, 0.0, 1.0 ],
+    "bindings": [
+      {
+        "binding_name": "#warning",
+        "binding_name_override": "#text"
+      },
+      {
+        "binding_name": "#showwarning",
+        "binding_name_override": "#visible"
+      }
+    ]
+  },
+
+  "vrinfo_label": {
+    "type": "label",
+    "anchor_to": "center",
+    "anchor_from": "center",
+    "layer": 2,
+    "wrap": true,
+    "alignment": "center",
+    "offset": [ 0, -32 ],
+    "size": [ "70%", "100%" ],
+    "shadow": true,
+    "text": "vr.alignscreen.info",
+    "color": [ 1.0, 1.0, 1.0, 1.0 ]
+  },
+
+  "special_render": {
+    "type": "custom",
+    "renderer": "vr_align_renderer"
+  },
+
+  "vr_align_screen@common.base_screen": {
+    "send_telemetry": false,
+    "button_mappings": [
+      {
+        "from_button_id": "button.controller_select",
+        "to_button_id": "button.controller_select",
+        "mapping_type": "global"
+      },
+      {
+        "from_button_id": "button.menu_cancel",
+        "to_button_id": "button.menu_exit",
+        "mapping_type": "global"
+      }
+    ],
+    "$screen_content": "vr_align_screen.vr_align_screen_content"
+  },
+
+  "vr_align_screen_content": {
+    "type": "panel",
+    "controls": [
+      {
+        "@text_panel": { }
+      },
+      {
+        "@warning_label": { }
+      },
+      {
+        "@vrinfo_label": { }
+      },
+      {
+        "@special_render": { }
+      }
+    ]
+  }
+}

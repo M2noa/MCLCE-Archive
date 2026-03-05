@@ -1,0 +1,139 @@
+{
+  "block_overlay": {
+    "states": [
+      "PolygonOffset",
+      "Blending",
+      "DisableDepthWrite",
+      "DisableAlphaWrite"
+    ],
+    "polygonOffsetLevel": 5,
+    "depthFunc": "LessEqual",
+    "vertexShader": "shaders/uv.vertex",
+    "fragmentShader": "shaders/texture_cutout.fragment"
+  },
+  "selection_overlay:block_overlay": {
+    "blendSrc": "DestColor",
+    "blendDst": "SourceColor",
+    "vertexShader": "shaders/uv_selection_overlay.vertex"
+  },
+  "fullscreen_cube_overlay": {
+    "vertexShader": "shaders/uv.vertex",
+    "fragmentShader": "shaders/texture_ccolor.fragment"
+  },
+  "fullscreen_cube_overlay_blend:fullscreen_cube_overlay": {
+    "states": [ "Blending" ]
+  },
+  "fullscreen_cube_overlay_opaque:fullscreen_cube_overlay": {
+    "states": [ "DisableCulling" ]
+  },
+  "selection_overlay_opaque:selection_overlay": {
+    "fragmentShader": "shaders/current_color.fragment"
+  },
+  "selection_overlay_double_sided:selection_overlay": {
+    "states": [
+      "DisableCulling"
+    ]
+  },
+  "cracks_overlay:block_overlay": {
+    "blendSrc": "DestColor",
+    "blendDst": "Zero",
+    "depthFunc": "LessEqual",
+    "fragmentShader": "shaders/texture.fragment"
+  },
+  "cracks_overlay_alpha_test:cracks_overlay": {
+    "states": [
+      "DisableCulling"
+    ],
+    "defines": [
+      "ALPHA_TEST"
+    ]
+  },
+  "cracks_overlay_tile_entity:cracks_overlay": {
+    "vertexShader": "shaders/uv_scale.vertex",
+    "samplerStates": [
+      {
+        "samplerIndex": 0,
+        "textureWrap": "Repeat"
+      }
+    ]
+  },
+  "name_tag": {
+    "states": [
+      "Blending"
+    ],
+    "depthFunc": "Always",
+    "vertexShader": "shaders/position.vertex",
+    "fragmentShader": "shaders/current_color.fragment"
+  },
+  "name_tag_depth_tested:name_tag": {
+    "depthFunc": "LessEqual"
+  },
+  "sign_text": {
+    "states": [
+      "PolygonOffset",
+      "Blending"
+    ],
+    "defines": [
+      "ALPHA_TEST"
+    ],
+    "depthFunc": "LessEqual",
+    "vertexShader": "shaders/color_uv.vertex",
+    "fragmentShader": "shaders/text.fragment"
+  },
+  "name_text_depth_tested:sign_text": {},
+  "white_mat": {
+    "vertexShader": "shaders/position.vertex",
+    "fragmentShader": "shaders/flat_white.fragment"
+  },
+  "rain": {
+    "states": [
+      "DisableCulling",
+      "DisableDepthWrite",
+      "Blending"
+    ],
+    "blendSrc": "SourceAlpha",
+    "blendDst": "OneMinusSrcAlpha",
+    "depthFunc": "LessEqual",
+    "vertexShader": "shaders/rain_snow.vertex",
+    "fragmentShader": "shaders/rain_snow.fragment"
+  },
+  "snow": {
+    "states": [
+      "DisableCulling",
+      "DisableDepthWrite",
+      "Blending"
+    ],
+    "blendSrc": "SourceAlpha",
+    "blendDst": "OneMinusSrcAlpha",
+    "depthFunc": "LessEqual",
+    "vertexShader": "shaders/rain_snow.vertex",
+    "fragmentShader": "shaders/rain_snow.fragment"
+  },
+  "weather": {
+    "defines": [
+      "ALPHA_TEST"
+    ],
+    "states": [
+      "DisableCulling"
+    ],
+    "depthFunc": "LessEqual",
+    "vertexShader": "shaders/weather.vertex",
+    "fragmentShader": "shaders/weather.fragment"
+  },
+  "lightning": {
+    "states": [
+      "DisableCulling",
+      "Blending"
+    ],
+    "depthFunc": "LessEqual",
+    "blendSrc": "SourceAlpha",
+    "blendDst": "One",
+    "vertexShader": "shaders/color.vertex",
+    "fragmentShader": "shaders/color.fragment"
+  },
+  "debug": {
+    "depthFunc": "LessEqual",
+    "vertexShader": "shaders/color.vertex",
+    "fragmentShader": "shaders/color.fragment"
+  }
+}

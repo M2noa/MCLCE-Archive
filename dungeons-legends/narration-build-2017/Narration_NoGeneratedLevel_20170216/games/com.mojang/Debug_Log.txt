@@ -1,0 +1,629 @@
+.//games/com.mojang//Debug_Log.txtVERBOSE SYSTEM opened log file .//games/com.mojang//Debug_Log.txt
+INFO UNKNOWN API init()
+INFO UNKNOWN API creating application domain
+INFO UNKNOWN API application domain created
+INFO UNKNOWN API ready
+INFO UNKNOWN Loading model: geometry.bat
+INFO UNKNOWN Loading model: geometry.blaze
+INFO UNKNOWN Loading model: geometry.chicken
+INFO UNKNOWN Loading model: geometry.creeper
+INFO UNKNOWN Loading model: geometry.ghast
+INFO UNKNOWN Loading model: geometry.horse
+INFO UNKNOWN Loading model: geometry.humanoid
+INFO UNKNOWN Loading model: geometry.irongolem
+INFO UNKNOWN Loading model: geometry.lavaslime
+INFO UNKNOWN Loading model: geometry.ocelot
+INFO UNKNOWN Loading model: geometry.quadruped
+INFO UNKNOWN Loading model: geometry.rabbit
+INFO UNKNOWN Loading model: geometry.silverfish
+INFO UNKNOWN Loading model: geometry.slime
+INFO UNKNOWN Loading model: geometry.slime.armor
+INFO UNKNOWN Loading model: geometry.snowgolem
+INFO UNKNOWN Loading model: geometry.spider
+INFO UNKNOWN Loading model: geometry.squid
+INFO UNKNOWN Loading model: geometry.villager
+INFO UNKNOWN Loading model: geometry.wolf
+INFO UNKNOWN Loading model: geometry.new.creeper
+INFO UNKNOWN Loading model: geometry.new.husk
+INFO UNKNOWN Loading model: geometry.new.skeleton
+INFO UNKNOWN Loading model: geometry.new.spider
+INFO UNKNOWN Loading model: geometry.new.steve
+INFO UNKNOWN Loading model: geometry.new.zombie
+INFO UNKNOWN Loading model: geometry.creeper.charged
+INFO UNKNOWN Loading model: geometry.enderman
+INFO UNKNOWN Loading model: geometry.humanoid.custom
+INFO UNKNOWN Loading model: geometry.humanoid.customSlim
+INFO UNKNOWN Loading model: geometry.pigzombie
+INFO UNKNOWN Loading model: geometry.zombie.villager
+INFO UNKNOWN Loading model: geometry.zombie
+INFO UNKNOWN Loading model: geometry.cow
+INFO UNKNOWN Loading model: geometry.pig
+INFO UNKNOWN Loading model: geometry.sheep.sheared
+INFO UNKNOWN Loading model: geometry.villager.witch
+INFO UNKNOWN Loading model: geometry.pigzombie.baby
+INFO UNKNOWN Loading model: geometry.humanoid.armor1
+INFO UNKNOWN Loading model: geometry.humanoid.armor2
+INFO UNKNOWN Loading model: geometry.skeleton
+INFO UNKNOWN Loading model: geometry.sheep
+INFO UNKNOWN Loading model: geometry.stray.armor
+INFO UNKNOWN Loading model: geometry.humanoid
+INFO UNKNOWN Loading model: geometry.humanoid.custom
+INFO UNKNOWN Loading model: geometry.humanoid.customSlim
+INFO UNKNOWN Loading model: geometry.new.creeper
+INFO UNKNOWN Loading model: geometry.new.husk
+INFO UNKNOWN Loading model: geometry.new.skeleton
+INFO UNKNOWN Loading model: geometry.new.spider
+INFO UNKNOWN Loading model: geometry.new.steve
+INFO UNKNOWN Loading model: geometry.new.zombie
+INFO UNKNOWN Loading model: geometry.Biome2.mushroom_archer
+INFO UNKNOWN Loading model: geometry.Biome2.mushroom_brawler
+INFO UNKNOWN Loading model: geometry.Biome2.mushroom_brewer
+INFO UNKNOWN Loading model: geometry.Biome2.mushroom_explorer
+INFO UNKNOWN Loading model: geometry.Biome2.mushroom_farmer
+INFO UNKNOWN Loading model: geometry.Biome2.mushroom_forager
+INFO UNKNOWN Loading model: geometry.Biome2.mushroom_hunter
+INFO UNKNOWN Loading model: geometry.Biome2.mushroom_miner
+INFO UNKNOWN Loading model: geometry.Biome2.mushroom_shroom_glutton
+INFO UNKNOWN Loading model: geometry.Biome2.nether_banished
+INFO UNKNOWN Loading model: geometry.Biome2.nether_brewer
+INFO UNKNOWN Loading model: geometry.Biome2.nether_engineer
+INFO UNKNOWN Loading model: geometry.Biome2.nether_explorer
+INFO UNKNOWN Loading model: geometry.Biome2.nether_extinguisher
+INFO UNKNOWN Loading model: geometry.Biome2.nether_farmer
+INFO UNKNOWN Loading model: geometry.Biome2.nether_hunter
+INFO UNKNOWN Loading model: geometry.Biome2.nether_miner
+INFO UNKNOWN Loading model: geometry.StoryMode.Axel
+INFO UNKNOWN Loading model: geometry.StoryMode.AxelArmored
+INFO UNKNOWN Loading model: geometry.StoryMode.Ellegaard
+INFO UNKNOWN Loading model: geometry.StoryMode.EllegaardArmored
+INFO UNKNOWN Loading model: geometry.StoryMode.Gabriel
+INFO UNKNOWN Loading model: geometry.StoryMode.Ivor
+INFO UNKNOWN Loading model: geometry.StoryMode.JesseF
+INFO UNKNOWN Loading model: geometry.StoryMode.JesseFAArmored
+INFO UNKNOWN Loading model: geometry.StoryMode.JesseFArmored
+INFO UNKNOWN Loading model: geometry.StoryMode.JesseFBArmored
+INFO UNKNOWN Loading model: geometry.StoryMode.JesseM
+INFO UNKNOWN Loading model: geometry.StoryMode.JesseMArmored
+INFO UNKNOWN Loading model: geometry.StoryMode.Lukas
+INFO UNKNOWN Loading model: geometry.StoryMode.Magnus
+INFO UNKNOWN Loading model: geometry.StoryMode.MagnusArmored
+INFO UNKNOWN Loading model: geometry.StoryMode.Olivia
+INFO UNKNOWN Loading model: geometry.StoryMode.OliviaArmored
+INFO UNKNOWN Loading model: geometry.StoryMode.Petra
+INFO UNKNOWN Loading model: geometry.StoryMode.PetraArmored
+INFO UNKNOWN Loading model: geometry.StoryMode.Soren
+INFO UNKNOWN Loading model: skin.Redstone.architect
+INFO UNKNOWN Loading model: skin.Redstone.artisan_slim
+INFO UNKNOWN Loading model: skin.Redstone.chemist
+INFO UNKNOWN Loading model: skin.Redstone.geologist
+INFO UNKNOWN Loading model: skin.Redstone.golem
+INFO UNKNOWN Loading model: skin.Redstone.miner
+INFO UNKNOWN Loading model: skin.Redstone.programmer
+INFO UNKNOWN Loading model: skin.Redstone.railrider
+INFO UNKNOWN Loading model: skin.Redstone.scientist
+INFO UNKNOWN Loading model: skin.Redstone.trapper_slim
+INFO UNKNOWN Loading model: skin.JourneyToTheWest.baigujing_slim
+INFO UNKNOWN Loading model: skin.JourneyToTheWest.blackwind
+INFO UNKNOWN Loading model: skin.JourneyToTheWest.bull_demon_king
+INFO UNKNOWN Loading model: skin.JourneyToTheWest.guanyin
+INFO UNKNOWN Loading model: skin.JourneyToTheWest.jade_emperor
+INFO UNKNOWN Loading model: skin.JourneyToTheWest.lady_earth_flow
+INFO UNKNOWN Loading model: skin.JourneyToTheWest.many_eyed_demon_lord
+INFO UNKNOWN Loading model: skin.JourneyToTheWest.monkey
+INFO UNKNOWN Loading model: skin.JourneyToTheWest.princess_iron_fan
+INFO UNKNOWN Loading model: skin.JourneyToTheWest.red_boy
+INFO UNKNOWN Loading model: skin.JourneyToTheWest.scorpion_demon_slim
+INFO UNKNOWN Loading model: skin.JourneyToTheWest.sha_wujing
+INFO UNKNOWN Loading model: skin.JourneyToTheWest.spider_demon
+INFO UNKNOWN Loading model: skin.JourneyToTheWest.xuanzang
+INFO UNKNOWN Loading model: skin.JourneyToTheWest.zhu_bajie
+INFO UNKNOWN Loading model: geometry.Festive.bad_santa
+INFO UNKNOWN Loading model: geometry.Festive.father_christmas
+INFO UNKNOWN Loading model: geometry.Festive.gingerbreadman
+INFO UNKNOWN Loading model: geometry.Festive.greenelf
+INFO UNKNOWN Loading model: geometry.Festive.mother_christmas
+INFO UNKNOWN Loading model: geometry.Festive.pajamakid
+INFO UNKNOWN Loading model: geometry.Festive.rudolph
+INFO UNKNOWN Loading model: geometry.Festive.santa
+INFO UNKNOWN Loading model: geometry.Festive.snowsuit
+INFO UNKNOWN Loading model: geometry.Festive.tomte
+INFO TELEMETRY HTTP_MAELSTROM_TELEMETRY_ENABLED  using HTTP calls to maelstrom
+INFO UNKNOWN [XBOXLIVE] Before XBL code in MinecraftClient::Init
+INFO UNKNOWN [XBOXLIVE] After XBL code in MinecraftClient::Init
+ERROR UNKNOWN Image failed to load: .//games/com.mojang/minecraftpe/custom.png	Reason: can't fopen
+INFO UNKNOWN Couldn't find file: .//games/com.mojang/minecraftpe/custom.png
+WARN UNKNOWN Screen view JSON does not raise event button.menu_exit that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.menu_open_uri that is handled by the controller.
+INFO UNKNOWN Created 'debug_screen.debug_screen' screen in 1.391012ms
+INFO UNKNOWN Layout:  Full re-layout of 2 controls completed in 0.040296ms.
+WARN UNKNOWN Screen view JSON does not raise event toast_end that is handled by the controller.
+INFO UNKNOWN Created 'toast_screen.toast_screen' screen in 1.300543ms
+INFO UNKNOWN Layout:  Full re-layout of 3 controls completed in 0.051358ms.
+INFO UNKNOWN Screen changed to lovika_start_screen
+INFO UNKNOWN Layout:  Full re-layout of 2 controls completed in 0.026864ms.
+INFO UNKNOWN Layout:  Full re-layout of 3 controls completed in 0.033185ms.
+INFO UNKNOWN GuiScale: 2.000000
+INFO UNKNOWN Layout:  Full re-layout of 2 controls completed in 0.019358ms.
+INFO UNKNOWN Layout:  Full re-layout of 3 controls completed in 0.027259ms.
+ERROR UNKNOWN Block::LookupByName() Failed to find block[camera]ERROR UNKNOWN Item::LookupByName() Failed to find item[nameTag]ERROR UNKNOWN Item::LookupByName() Failed to find item[lead]INFO UNKNOWN Layout:  Full re-layout of 2 controls completed in 0.057679ms.
+INFO UNKNOWN Layout:  Full re-layout of 3 controls completed in 0.024099ms.
+INFO UNKNOWN GuiScale: 4.000000
+INFO UNKNOWN Layout:  Full re-layout of 2 controls completed in 0.016988ms.
+INFO UNKNOWN Layout:  Full re-layout of 3 controls completed in 0.056889ms.
+INFO UNKNOWN Created 'progress.progress_screen' screen in 1.750913ms
+INFO UNKNOWN Layout:  Full re-layout of 22 controls completed in 0.489876ms.
+INFO UNKNOWN Screen changed to progress_screen - local_world_load
+WARN UNKNOWN GUI SCALE PIXEL PERFECT ISSUE: Texture [gui/bg32.png] on control [{image}] will have gui scale problems.  UV_SIZE[32.000000, 32.000000] - SIZE[480.000000, 284.000000]
+WARN UNKNOWN GUI SCALE RATIO ISSUE: Texture [gui/bg32.png] on control [{image}] will have gui ratio problems.  UV_SIZE[32.000000, 32.000000] - SIZE[480.000000, 284.000000]
+INFO UNKNOWN 321 recipes
+INFO UNKNOWN 321 recipes
+INFO UNKNOWN Trying to create folder .//games/com.mojang/minecraftWorlds//7WkJAEUwAAA=/db
+INFO UNKNOWN LevelDB status: OK
+INFO UNKNOWN Writing down level seed as: -186078868
+INFO UNKNOWN ------- Removing entities count = 0
+INFO UNKNOWN Set spawn position to 83, 28, 480
+INFO UNKNOWN Writing down level seed as: -186078868
+VERBOSE XBOXLIVE [MULTIPLAYER STATE CHANGE] 0: Changing state from 0 ( None ) to 1 ( Server - Hosting ); because:  
+INFO UNKNOWN 	LevelDB: average compressed size is 1.695381%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.719261%
+INFO UNKNOWN Writing down level seed as: -186078868
+WARN UNKNOWN Screen view JSON does not raise event button.hide_gui_hud that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.hotbar_inventory_right that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.hotbar_inventory_left that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.slot_1 that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.slot_2 that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.slot_3 that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.slot_4 that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.slot_5 that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.slot_6 that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.slot_7 that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.slot_8 that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.slot_9 that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.hotbar_select that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.hotbar_inventory_button that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.slot_pressed that is handled by the controller.
+INFO UNKNOWN Created 'hud.hud_screen' screen in 11.568588ms
+INFO UNKNOWN Layout:  Full re-layout of 43 controls completed in 0.422321ms.
+INFO UNKNOWN Writing down level seed as: -186078868
+INFO UNKNOWN Screen changed to hud_screen
+INFO UNKNOWN Writing down level seed as: -186078868
+INFO UNKNOWN Screen changed to lovika_in_game_play_screen
+INFO UNKNOWN Writing down level seed as: -186078868
+INFO UNKNOWN Screen changed to lovika_leveltitle_screen
+INFO UNKNOWN Layout:  Full re-layout of 43 controls completed in 0.423901ms.
+INFO UNKNOWN Layout:  Full re-layout of 43 controls completed in 0.388346ms.
+INFO UNKNOWN Screen changed to hud_screen
+INFO UNKNOWN Writing down level seed as: -186078868
+INFO UNKNOWN Layout:  Full re-layout of 3 controls completed in 0.049778ms.
+INFO UNKNOWN Layout:  Full re-layout of 3 controls completed in 0.034765ms.
+INFO UNKNOWN Writing down level seed as: -186078868
+INFO UNKNOWN Created 'hud.hud_screen' screen in 2.963357ms
+INFO UNKNOWN Layout:  Full re-layout of 141 controls completed in 1.464493ms.
+INFO UNKNOWN Writing down level seed as: -186078868
+INFO UNKNOWN Screen changed to hud_screen
+INFO UNKNOWN Writing down level seed as: -186078868
+INFO UNKNOWN Screen changed to lovika_tileset_editor_screen
+INFO UNKNOWN Layout:  Full re-layout of 144 controls completed in 1.791999ms.
+WARN UNKNOWN GUI SCALE PIXEL PERFECT ISSUE: Texture [gui/newgui/Black.png] on control [chat_background] will have gui scale problems.  UV_SIZE[0.000000, 0.000000] - SIZE[240.000000, 9.000000]
+WARN UNKNOWN Screen view JSON does not raise event button.container_take_all_place_all that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.container_take_half_place_one that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.container_auto_place that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.shape_drawing that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.coalesce_stack that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.drop_all that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.drop_one that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.cursor_drop_all that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.cursor_drop_one that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.container_reset_held that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.container_slot_hovered that is handled by the controller.
+INFO UNKNOWN Created 'crafting.creative_inventory_screen' screen in 25.861916ms
+INFO UNKNOWN Layout:  Full re-layout of 2085 controls completed in 24.776287ms.
+INFO UNKNOWN Writing down level seed as: -186078868
+INFO UNKNOWN Screen changed to creative_inventory_screen
+WARN UNKNOWN GUI SCALE RATIO ISSUE: Texture [gui/gui.png] on control [{image}] will have gui ratio problems.  UV_SIZE[1.000000, 1.000000] - SIZE[480.000000, 284.000000]
+INFO UNKNOWN Layout:  Full re-layout of 141 controls completed in 1.526518ms.
+INFO UNKNOWN Layout:  Full re-layout of 141 controls completed in 1.424592ms.
+INFO UNKNOWN Screen changed to hud_screen
+INFO UNKNOWN Writing down level seed as: -186078868
+WARN UNKNOWN Minecraft::onAppFocusLost: 0
+WARN UNKNOWN Minecraft::onAppFocusLost hasFocus = false: 0
+INFO UNKNOWN Writing down level seed as: -186078868
+INFO UNKNOWN Screen changed to pause_screen
+WARN UNKNOWN Minecraft::onAppFocusGained
+WARN UNKNOWN Minecraft::onAppFocusLost: 0
+WARN UNKNOWN Minecraft::onAppFocusLost hasFocus = false: 0
+WARN UNKNOWN Minecraft::onAppFocusGained
+WARN UNKNOWN Minecraft::onAppFocusLost: 0
+WARN UNKNOWN Minecraft::onAppFocusLost hasFocus = false: 0
+WARN UNKNOWN Minecraft::onAppFocusGained
+WARN UNKNOWN Minecraft::onAppFocusLost: 0
+WARN UNKNOWN Minecraft::onAppFocusLost hasFocus = false: 0
+INFO UNKNOWN Writing down level seed as: -186078868
+INFO UNKNOWN Writing down level seed as: -186078868
+WARN UNKNOWN Minecraft::onAppFocusGained
+INFO UNKNOWN Layout:  Full re-layout of 141 controls completed in 1.534419ms.
+INFO UNKNOWN Layout:  Full re-layout of 141 controls completed in 1.831110ms.
+INFO UNKNOWN Screen changed to hud_screen
+INFO UNKNOWN Writing down level seed as: -186078868
+INFO UNKNOWN Writing down level seed as: -186078868
+INFO UNKNOWN 	LevelDB: average compressed size is 1.685636%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.685636%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.685636%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.715324%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.704182%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.704182%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.704182%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.704182%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.731727%
+INFO UNKNOWN Writing down level seed as: -186078868
+INFO UNKNOWN 	LevelDB: average compressed size is 1.731727%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.731727%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.731727%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.731727%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.719491%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.719491%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.719491%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.680793%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.680793%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.647799%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.647799%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.647799%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.632360%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.632360%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.632360%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.632360%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.632360%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.617839%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.579791%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.595754%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.595754%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.595754%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.595754%
+INFO UNKNOWN Writing down level seed as: -186078868
+INFO UNKNOWN 	LevelDB: average compressed size is 1.579437%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.579437%
+INFO UNKNOWN Writing down level seed as: -186078868
+INFO UNKNOWN Screen changed to pause_screen
+INFO UNKNOWN Layout:  Full re-layout of 3 controls completed in 0.052148ms.
+INFO UNKNOWN Layout:  Full re-layout of 3 controls completed in 0.019358ms.
+INFO UNKNOWN Writing down level seed as: -186078868
+INFO UNKNOWN Writing down level seed as: -186078868
+INFO UNKNOWN Screen changed to leave_level_screen
+VERBOSE XBOXLIVE [MULTIPLAYER STATE CHANGE] 1: Changing state from 1 ( Server - Hosting ) to 0 ( None ); because:  
+INFO UNKNOWN Destroying the Level...
+INFO UNKNOWN Writing down level seed as: -186078868
+INFO UNKNOWN 	LevelDB: average compressed size is 1.566448%
+INFO UNKNOWN Saved pending chunks
+INFO UNKNOWN Shutting down LevelDB
+INFO UNKNOWN Screen changed to lovika_start_screen
+WARN UNKNOWN Minecraft::onAppFocusLost: 0
+WARN UNKNOWN Minecraft::onAppFocusLost hasFocus = false: 0
+WARN UNKNOWN Minecraft::onAppFocusGained
+WARN UNKNOWN Minecraft::onAppFocusLost: 0
+WARN UNKNOWN Minecraft::onAppFocusLost hasFocus = false: 0
+WARN UNKNOWN Minecraft::onAppFocusGained
+WARN UNKNOWN Screen view JSON does not raise event button.menu_play that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.menu_achievements that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.menu_settings that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.menu_skins that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.menu_language that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.menu_store that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.xbl_signin that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.menu_invite_notification that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.menu_resourcepacks that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.menu_buy_game that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.feedback_button that is handled by the controller.
+INFO UNKNOWN Created 'start.start_screen' screen in 14.312291ms
+INFO UNKNOWN Layout:  Full re-layout of 88 controls completed in 2.093431ms.
+INFO UNKNOWN Screen changed to start_screen
+WARN UNKNOWN GUI SCALE PIXEL PERFECT ISSUE: Texture [gui/title.png] on control [title_image] will have gui scale problems.  UV_SIZE[512.000000, 64.000000] - SIZE[480.000000, 60.000000]
+WARN UNKNOWN Screen view JSON does not raise event button.menu_local_world_create that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.menu_local_world_item that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.menu_local_world_item_edit that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.menu_network_world_item that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.menu_network_server_world_remove that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.menu_network_add_external that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.menu_network_add_friend that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.menu_import_level that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.menu_realm_world_create that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.menu_realms_world_item_edit that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.menu_realms_world_item_remove that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.menu_realms_world_item that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event button.menu_xbox_signin that is handled by the controller.
+WARN UNKNOWN Screen view JSON does not raise event navigation_tab that is handled by the controller.
+INFO UNKNOWN Created 'play.play_screen' screen in 51.700128ms
+INFO UNKNOWN Layout:  Full re-layout of 342 controls completed in 3.217381ms.
+INFO UNKNOWN Screen changed to play_screen - worlds
+WARN UNKNOWN GUI SCALE RATIO ISSUE: Texture [gui/newgui/dialog-background-atlas.png] on control [{image}] will have gui ratio problems.  UV_SIZE[2.000000, 2.000000] - SIZE[252.000000, 192.000000]
+WARN UNKNOWN GUI SCALE RATIO ISSUE: Texture [gui/newgui/ScrollRail.png] on control [bar_indent] will have gui ratio problems.  UV_SIZE[1.000000, 1.000000] - SIZE[3.000000, 188.000000]
+WARN UNKNOWN GUI SCALE PIXEL PERFECT ISSUE: Texture [gui/newgui/WorldDemoScreen.png] on control [picture] will have gui scale problems.  UV_SIZE[160.000000, 92.000000] - SIZE[36.399998, 22.000000]
+WARN UNKNOWN GUI SCALE RATIO ISSUE: Texture [gui/newgui/WorldDemoScreen.png] on control [picture] will have gui ratio problems.  UV_SIZE[160.000000, 92.000000] - SIZE[36.399998, 22.000000]
+WARN UNKNOWN GUI SCALE PIXEL PERFECT ISSUE: Texture [gui/newgui/WorldDemoScreen.png] on control [picture] will have gui scale problems.  UV_SIZE[160.000000, 92.000000] - SIZE[36.399998, 22.000000]
+WARN UNKNOWN GUI SCALE RATIO ISSUE: Texture [gui/newgui/WorldDemoScreen.png] on control [picture] will have gui ratio problems.  UV_SIZE[160.000000, 92.000000] - SIZE[36.399998, 22.000000]
+INFO UNKNOWN Reserving button event 78 for scroll_view
+INFO UNKNOWN Clearing reservation for button event 78
+INFO UNKNOWN Screen changed to create_world_screen
+INFO UNKNOWN Trying to create folder .//games/com.mojang/minecraftWorlds//Pm0JAFmAAwA=/db
+INFO UNKNOWN LevelDB status: OK
+INFO UNKNOWN Shutting down LevelDB
+INFO UNKNOWN Created 'progress.progress_screen' screen in 1.269728ms
+INFO UNKNOWN Layout:  Full re-layout of 22 controls completed in 0.302617ms.
+INFO UNKNOWN Screen changed to progress_screen - local_world_load
+WARN UNKNOWN GUI SCALE PIXEL PERFECT ISSUE: Texture [gui/bg32.png] on control [{image}] will have gui scale problems.  UV_SIZE[32.000000, 32.000000] - SIZE[480.000000, 284.000000]
+WARN UNKNOWN GUI SCALE RATIO ISSUE: Texture [gui/bg32.png] on control [{image}] will have gui ratio problems.  UV_SIZE[32.000000, 32.000000] - SIZE[480.000000, 284.000000]
+INFO UNKNOWN 321 recipes
+INFO UNKNOWN Trying to create folder .//games/com.mojang/minecraftWorlds//Pm0JAFmAAwA=/db
+INFO UNKNOWN LevelDB status: OK
+INFO UNKNOWN Writing down level seed as: 1706634005
+INFO UNKNOWN ------- Removing entities count = 0
+INFO UNKNOWN Set spawn position to 645, 23, 256
+INFO UNKNOWN Writing down level seed as: 1706634005
+VERBOSE XBOXLIVE [MULTIPLAYER STATE CHANGE] 2: Changing state from 0 ( None ) to 1 ( Server - Hosting ); because:  
+INFO UNKNOWN 	LevelDB: average compressed size is 47.980058%
+INFO REALMSAPI abortAllRequests
+INFO UNKNOWN Writing down level seed as: 1706634005
+INFO UNKNOWN Created 'hud.hud_screen' screen in 1.758024ms
+INFO UNKNOWN Layout:  Full re-layout of 43 controls completed in 0.440494ms.
+INFO UNKNOWN Writing down level seed as: 1706634005
+INFO UNKNOWN Screen changed to hud_screen
+INFO UNKNOWN Writing down level seed as: 1706634005
+INFO UNKNOWN Screen changed to lovika_in_game_play_screen
+INFO UNKNOWN Writing down level seed as: 1706634005
+INFO UNKNOWN Screen changed to lovika_leveltitle_screen
+INFO UNKNOWN 	LevelDB: average compressed size is 47.980058%
+INFO UNKNOWN 	LevelDB: average compressed size is 47.980058%
+INFO UNKNOWN 	LevelDB: average compressed size is 47.980058%
+INFO UNKNOWN 	LevelDB: average compressed size is 47.980058%
+INFO UNKNOWN Layout:  Full re-layout of 43 controls completed in 0.462222ms.
+INFO UNKNOWN Layout:  Full re-layout of 43 controls completed in 0.405333ms.
+INFO UNKNOWN Screen changed to hud_screen
+INFO UNKNOWN Writing down level seed as: 1706634005
+INFO UNKNOWN 	LevelDB: average compressed size is 4.098231%
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN 	LevelDB: average compressed size is 4.098231%
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN 	LevelDB: average compressed size is 4.098231%
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN 	LevelDB: average compressed size is 4.098231%
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN 	LevelDB: average compressed size is 2.581431%
+INFO UNKNOWN 	LevelDB: average compressed size is 2.581431%
+INFO UNKNOWN 	LevelDB: average compressed size is 2.581431%
+INFO UNKNOWN 	LevelDB: average compressed size is 2.581431%
+INFO UNKNOWN 	LevelDB: average compressed size is 2.152196%
+INFO UNKNOWN Writing down level seed as: 1706634005
+INFO UNKNOWN 	LevelDB: average compressed size is 2.152196%
+INFO UNKNOWN 	LevelDB: average compressed size is 2.152196%
+INFO UNKNOWN 	LevelDB: average compressed size is 2.103599%
+INFO UNKNOWN 	LevelDB: average compressed size is 2.103599%
+INFO UNKNOWN 	LevelDB: average compressed size is 2.103599%
+INFO UNKNOWN 	LevelDB: average compressed size is 2.103599%
+INFO UNKNOWN 	LevelDB: average compressed size is 2.030169%
+INFO UNKNOWN 	LevelDB: average compressed size is 2.030169%
+INFO UNKNOWN Writing down level seed as: 1706634005
+INFO UNKNOWN 	LevelDB: average compressed size is 2.030169%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.899066%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.899066%
+INFO UNKNOWN Writing down level seed as: 1706634005
+INFO UNKNOWN 	LevelDB: average compressed size is 1.899066%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.899066%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.755087%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.755087%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.755087%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.755087%
+INFO UNKNOWN Writing down level seed as: 1706634005
+INFO UNKNOWN 	LevelDB: average compressed size is 1.755087%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.755087%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.744614%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.744614%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.744614%
+INFO UNKNOWN Writing down level seed as: 1706634005
+INFO UNKNOWN 	LevelDB: average compressed size is 1.744614%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.744614%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.748628%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.748628%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.748628%
+INFO UNKNOWN Writing down level seed as: 1706634005
+INFO UNKNOWN 	LevelDB: average compressed size is 1.748628%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.748628%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.748628%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.748628%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.748628%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.748628%
+INFO UNKNOWN Writing down level seed as: 1706634005
+INFO UNKNOWN 	LevelDB: average compressed size is 1.748628%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.751033%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.751033%
+INFO UNKNOWN Writing down level seed as: 1706634005
+INFO UNKNOWN 	LevelDB: average compressed size is 1.751033%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.751033%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.751033%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.751033%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.682817%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.682817%
+INFO UNKNOWN Writing down level seed as: 1706634005
+INFO UNKNOWN 	LevelDB: average compressed size is 1.675963%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.675963%
+INFO UNKNOWN Writing down level seed as: 1706634005
+INFO UNKNOWN 	LevelDB: average compressed size is 1.651425%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.651425%
+INFO UNKNOWN Writing down level seed as: 1706634005
+INFO UNKNOWN 	LevelDB: average compressed size is 1.651425%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.651425%
+INFO UNKNOWN Writing down level seed as: 1706634005
+INFO UNKNOWN 	LevelDB: average compressed size is 1.651425%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.651425%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.651425%
+INFO UNKNOWN Writing down level seed as: 1706634005
+INFO UNKNOWN 	LevelDB: average compressed size is 1.625917%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.625917%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.625917%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.625917%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.548688%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.548688%
+INFO UNKNOWN Writing down level seed as: 1706634005
+INFO UNKNOWN 	LevelDB: average compressed size is 1.548688%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.548688%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.526982%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.526982%
+INFO UNKNOWN Writing down level seed as: 1706634005
+INFO UNKNOWN 	LevelDB: average compressed size is 1.526982%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.526982%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.526982%
+WARN UNKNOWN Minecraft::onAppFocusLost: 0
+WARN UNKNOWN Minecraft::onAppFocusLost hasFocus = false: 0
+INFO UNKNOWN Writing down level seed as: 1706634005
+INFO UNKNOWN Screen changed to pause_screen
+INFO UNKNOWN 	LevelDB: average compressed size is 1.514339%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.514339%
+WARN UNKNOWN Minecraft::onAppFocusGained
+INFO UNKNOWN Layout:  Full re-layout of 43 controls completed in 0.517531ms.
+INFO UNKNOWN Layout:  Full re-layout of 43 controls completed in 1.064296ms.
+INFO UNKNOWN Screen changed to hud_screen
+INFO UNKNOWN Writing down level seed as: 1706634005
+INFO UNKNOWN 	LevelDB: average compressed size is 1.514339%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.514339%
+WARN UNKNOWN Minecraft::onAppFocusLost: 0
+WARN UNKNOWN Minecraft::onAppFocusLost hasFocus = false: 0
+INFO UNKNOWN Writing down level seed as: 1706634005
+INFO UNKNOWN Screen changed to pause_screen
+WARN UNKNOWN Minecraft::onAppFocusGained
+INFO UNKNOWN Layout:  Full re-layout of 43 controls completed in 0.469728ms.
+INFO UNKNOWN Layout:  Full re-layout of 43 controls completed in 0.591802ms.
+INFO UNKNOWN Screen changed to hud_screen
+INFO UNKNOWN Writing down level seed as: 1706634005
+INFO UNKNOWN 	LevelDB: average compressed size is 1.514339%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.514339%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.514339%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.514339%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.511507%
+INFO UNKNOWN Writing down level seed as: 1706634005
+INFO UNKNOWN 	LevelDB: average compressed size is 1.511507%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.511507%
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN 	LevelDB: average compressed size is 1.511507%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.511507%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.462104%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.446344%
+INFO UNKNOWN Writing down level seed as: 1706634005
+INFO UNKNOWN 	LevelDB: average compressed size is 1.446344%
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN 	LevelDB: average compressed size is 1.446344%
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN More than 10000 updates, aborting lighting updates
+INFO UNKNOWN 	LevelDB: average compressed size is 1.446344%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.450644%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.450644%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.454985%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.454985%
+INFO UNKNOWN Writing down level seed as: 1706634005
+WARN UNKNOWN Minecraft::onAppFocusLost: 0
+WARN UNKNOWN Minecraft::onAppFocusLost hasFocus = false: 0
+INFO UNKNOWN Writing down level seed as: 1706634005
+INFO UNKNOWN Screen changed to pause_screen
+WARN UNKNOWN Minecraft::onAppFocusGained
+INFO UNKNOWN Layout:  Full re-layout of 43 controls completed in 0.539259ms.
+INFO UNKNOWN Layout:  Full re-layout of 43 controls completed in 0.449185ms.
+INFO UNKNOWN Screen changed to hud_screen
+INFO UNKNOWN Writing down level seed as: 1706634005
+INFO UNKNOWN 	LevelDB: average compressed size is 1.454985%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.461720%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.461720%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.461720%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.461720%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.462007%
+INFO UNKNOWN Writing down level seed as: 1706634005
+INFO UNKNOWN 	LevelDB: average compressed size is 1.432710%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.432710%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.430705%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.430705%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.430705%
+INFO UNKNOWN Writing down level seed as: 1706634005
+INFO UNKNOWN 	LevelDB: average compressed size is 1.430705%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.430705%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.430705%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.426820%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.426820%
+INFO UNKNOWN Writing down level seed as: 1706634005
+INFO UNKNOWN 	LevelDB: average compressed size is 1.426820%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.426820%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.426820%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.426820%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.426820%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.426940%
+INFO UNKNOWN Writing down level seed as: 1706634005
+INFO UNKNOWN 	LevelDB: average compressed size is 1.426940%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.426940%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.426940%
+INFO UNKNOWN 	LevelDB: average compressed size is 1.426940%
+INFO UNKNOWN Writing down level seed as: 1706634005
+INFO UNKNOWN 	LevelDB: average compressed size is 1.426940%
+INFO UNKNOWN Writing down level seed as: 1706634005
+INFO UNKNOWN Screen changed to lovika_levelend_screen
+INFO UNKNOWN 	LevelDB: average compressed size is 1.426940%
+INFO UNKNOWN Layout:  Full re-layout of 43 controls completed in 0.662518ms.
+INFO UNKNOWN Layout:  Full re-layout of 43 controls completed in 0.664494ms.
+INFO UNKNOWN Screen changed to hud_screen
+INFO UNKNOWN Writing down level seed as: 1706634005
+INFO UNKNOWN Writing down level seed as: 1706634005
+INFO UNKNOWN Screen changed to pause_screen
+INFO UNKNOWN Layout:  Full re-layout of 3 controls completed in 0.062420ms.
+INFO UNKNOWN Layout:  Full re-layout of 3 controls completed in 0.037136ms.
+INFO UNKNOWN Writing down level seed as: 1706634005
+INFO UNKNOWN Writing down level seed as: 1706634005
+INFO UNKNOWN Screen changed to leave_level_screen
+VERBOSE XBOXLIVE [MULTIPLAYER STATE CHANGE] 3: Changing state from 1 ( Server - Hosting ) to 0 ( None ); because:  
+INFO UNKNOWN Destroying the Level...
+INFO UNKNOWN Writing down level seed as: 1706634005
+INFO UNKNOWN Saved pending chunks
+INFO UNKNOWN Shutting down LevelDB
+INFO UNKNOWN Screen changed to lovika_start_screen
+WARN UNKNOWN Minecraft::onAppFocusLost: 0
+WARN UNKNOWN Minecraft::onAppFocusLost hasFocus = false: 0
+INFO UNKNOWN API shutdown()
+INFO UNKNOWN API unloading application domain
+INFO UNKNOWN API application domain unloaded
+INFO UNKNOWN API says bye, bye

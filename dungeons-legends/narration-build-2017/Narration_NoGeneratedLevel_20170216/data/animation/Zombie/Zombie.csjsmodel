@@ -1,0 +1,72 @@
+{
+  "title": "Zombie",
+  "texturewidth": 64,
+  "textureheight": 32,
+  "tree": [
+    {
+      "name": "CenterPivot",
+      "position": [ 0, 18, 0 ],
+      "offsetFromPivot": [ 0, 0, 0 ],
+      "size": [ 0, 0, 0 ],
+      "rotation": [ 0, 0, 0 ],
+      "texOffset": [ 16, 16 ],
+      "children": [
+        {
+          "name": "Body",
+          "position": [ 0, -6, 0 ],
+          "offsetFromPivot": [ 0, 6, 0 ],
+          "size": [ 8, 12, 4 ],
+          "rotation": [ 0, 0, 0 ],
+          "texOffset": [ 16, 16 ],
+          "children": [
+            {
+              "name": "Head",
+              "position": [ 0, 6, 0 ],
+              "offsetFromPivot": [ 0, 4, 0 ],
+              "size": [ 8, 8, 8 ],
+              "rotation": [ 0, 0, 0 ],
+              "texOffset": [ 0, 0 ],
+              "children": []
+            },
+            {
+              "name": "RightArm",
+              "position": [ -5, 4, 0 ],
+              "offsetFromPivot": [ -1, -4, 0 ],
+              "size": [ 4, 12, 4 ],
+              "rotation": [ -79.99995, 5.999998, -5.999998 ],
+              "texOffset": [ 40, 16 ],
+              "children": []
+            },
+            {
+              "name": "LeftArm",
+              "position": [ 5, 4, 0 ],
+              "offsetFromPivot": [ 1, -4, 0 ],
+              "size": [ 4, 12, 4 ],
+              "rotation": [ -79.99995, -5.999998, 5.999998 ],
+              "texOffset": [ 40, 16 ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "RightLeg",
+          "position": [ -1.9, -6, -0.1 ],
+          "offsetFromPivot": [ 0, -6, 0 ],
+          "size": [ 4, 12, 4 ],
+          "rotation": [ 0, 0, 0 ],
+          "texOffset": [ 0, 16 ],
+          "children": []
+        },
+        {
+          "name": "LeftLeg",
+          "position": [ 1.9, -6, -0.1 ],
+          "offsetFromPivot": [ 0, -6, 0 ],
+          "size": [ 4, 12, 4 ],
+          "rotation": [ 0, 0, 0 ],
+          "texOffset": [ 0, 16 ],
+          "children": []
+        }
+      ]
+    }
+  ]
+}

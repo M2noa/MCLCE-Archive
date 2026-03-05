@@ -1,0 +1,10 @@
+{
+  "definition.blaze": {
+    "textures": {
+      "default": "textures/entity/blaze"
+    },
+    "geometry": {
+      "default": "geometry.blaze"
+    }
+  }
+}

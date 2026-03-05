@@ -1,0 +1,175 @@
+﻿CONTRATO DE LICENÇA DO UTILIZADOR FINAL DO MINECRAFT REALMS
+Este Contrato de Licença do Utilizador Final (referido como "EULA" ou "Termos") constitui um contrato legal entre o Utilizador e a Mojang (Mojang AB). Os termos desta licença estabelecem algumas regras quanto à utilização do serviço Minecraft Realms ("Minecraft Realms"). Tal como o Utilizador, a Mojang não é adepta da leitura de documentos de licenças, pelo que tentámos ser o mais resumidos possível. Se o Utilizador infringir estas regras, a Mojang poderá impedi-lo de utilizar o Minecraft Realms. Se o Utilizador utilizar o Minecraft Realms, significa que está a aceitar cumprir as regras dos presentes Termos. Se o Utilizador não pretender ou não puder aceitar estas regras, deve abster-se de utilizar o Minecraft Realms.
+
+Os Termos aqui descritos incorporam a Política de Privacidade da Mojang, os Termos da Conta Mojang, o EULA do Minecraft e, se viver nos Estados Unidos, o Contrato de Arbitragem da Mojang. Por conseguinte, as questões abordadas nesses documentos devem ser tratadas como estando estabelecidas nos presentes Termos. Quando a Mojang fizer referência aos presentes Termos, está a referir-se aos termos e condições aqui descritos, bem como a esses documentos incorporados que são disponibilizados seguindo as ligações relevantes.
+
+CONTRATO DE ARBITRAGEM VINCULATIVO E RENÚNCIA DE AÇÃO COLETIVA
+Caso o Utilizador viva nos Estados Unidos, deverá clicar aqui para rever o contrato de arbitragem vinculativo e a renúncia de ação coletiva que é parte integrante do presente EULA. Ao abrigo do contrato, o Utilizador e a Mojang aceitam recorrer a um árbitro neutro para decidir quaisquer litígios individuais que possam surgir e, como tal, aceitam renunciar aos respetivos direitos de levar ações judiciais individuais a tribunal para consideração por um juiz ou júri. O Utilizador e a Mojang também aceitam que as ações judiciais coletivas e as arbitragens coletivas não são permitidas ao abrigo dos termos do contrato.
+
+O Contrato de Arbitragem completo encontra-se nesta página. O Utilizador e a Mojang aceitam os seus termos. O Utilizador deve lê-lo atentamente.
+
+O QUE É O MINECRAFT REALMS
+O Minecraft Realms é um serviço desenvolvido para permitir que os utilizadores joguem o Minecraft com outros utilizadores num servidor dedicado sujeito aos presentes Termos.
+
+Assim sendo, um "Minecraft Realm" é uma instância, um servidor ou um universo Minecraft individual alojado pela Mojang.
+
+O Utilizador pode utilizar o Minecraft Realms através do seu próprio Minecraft Realm ("Minecraft Realm Pessoal") ou obtendo permissão para utilizar o Minecraft Realm de outra pessoa ("Minecraft Realms de Terceiros"). Como tal, a menção da utilização do Minecraft Realms inclui a utilização não só de um Minecraft Realm Pessoal como de Minecraft Realms de Terceiros.
+
+UTILIZAR O MINECRAFT REALMS
+Para utilizar o Minecraft Realms, o Utilizador tem de cumprir algumas premissas, entre as quais:
+- ter uma cópia licenciada legítima da versão ativada completa do Jogo e uma conta Xbox Live (para o Minecraft) ou uma conta Mojang (para o Minecraft: Java Edition);
+- aceitar os Termos aqui descritos; e
+- ter um dispositivo e uma ligação à Internet adequados.
+
+OBTER UM MINECRAFT REALM PESSOAL
+O Utilizador deve ter uma conta Xbox Live (para o Minecraft) ou uma conta Mojang (para o Minecraft: Java Edition) com o Minecraft ativado para poder obter o Minecraft Realm Pessoal. Também terá de comprar ou subscrever e pagar pela utilização do mesmo. O Minecraft Realms é um serviço de subscrição e o respetivo custo é detalhado nas páginas de compra aplicáveis e/ou na plataforma no ato da compra, ou no preço de compra do cartão resgatável ou código de oferta. Os termos e condições das páginas de compra aplicáveis, da plataforma, do cartão resgatável e/ou do código de oferta serão igualmente aplicáveis em relação à compra do Minecraft Realms. O Minecraft Realms é um serviço que tem início assim que o Minecraft Realm Pessoal é disponibilizado para utilização. A partir desse momento, o Utilizador não poderá cancelar o pedido do serviço. UTILIZAR O MINECRAFT REALM PESSOAL
+
+Com a obtenção do Minecraft Realm Pessoal, o Utilizador terá acesso a um Minecraft Realm dedicado, onde poderá:
+
+jogar o Minecraft sozinho;
+convidar outras pessoas para jogarem o Minecraft consigo (o número varia consoante a versão do Realms que obtém).
+O Utilizador não tem, contudo, permissão para:
+
+vender, proceder a locação financeira ("leasing"), alugar, transferir, ceder ou, de outro modo, negociar o acesso ao Minecraft Realm Pessoal ou receber contrapartidas por permitir que outras pessoas joguem no Minecraft Realm Pessoal.
+
+UTILIZAR MINECRAFT REALMS DE TERCEIROS
+O Utilizador tem de ter uma cópia ativada legítima do Minecraft para poder utilizar os Minecraft Realms de outras pessoas (Minecraft Realms de Terceiros). Ao ser-lhe dado acesso a Minecraft Realms de Terceiros, o Utilizador obterá acesso ao Minecraft Realm dedicado de outra pessoa, onde poderá:
+
+- jogar o Minecraft com essa pessoa; e
+- jogar o Minecraft com qualquer outra pessoa a quem também tenha sido dado acesso.
+O Utilizador não tem, contudo, permissão para:
+
+- vender, proceder a locação financeira ("leasing"), alugar, transferir, ceder ou, de outro modo, negociar o acesso a Minecraft Realms de Terceiros, ou permitir que outras pessoas utilizem o seu acesso seja de que maneira for.
+NÃO DÊ ACESSO AO MINECRAFT REALM PESSOAL A NINGUÉM QUE NÃO CONHEÇA. SEJA PRUDENTE SE COMUNICAR COM OUTRAS PESSOAS ATRAVÉS DO MINECRAFT REALMS. É DIFÍCIL, TANTO PARA O UTILIZADOR COMO PARA A MOJANG, AFERIR A VERACIDADE DO QUE É DITO OU, INCLUSIVAMENTE, A VERDADEIRA IDENTIDADE DOS INTERLOCUTORES. PENSE SEMPRE DUAS VEZES ANTES DE FORNECER INFORMAÇÕES PESSOAIS.
+
+CONTAS
+Tal como foi referido anteriormente, o Utilizador precisa de uma conta Xbox Live (para o Minecraft) ou uma conta Mojang (para o Minecraft: Java Edition) e de uma versão licenciada ativada do Minecraft. Se o Utilizador não dispuser destes elementos, ser-lhe-á pedido que forneça determinadas informações para configurar e ativar uma ou outra, ou ambas. Os detalhes fornecidos pelo Utilizador à Mojang como parte do registo têm de estar corretos. Estes detalhes de registo podem ser alterados pelo Utilizador caso se tornem obsoletos. Se o Utilizador fornecer deliberadamente informações falsas, a Mojang poderá terminar ou suspender a conta do mesmo..
+
+O nome de utilizador e a palavra-passe criados pelo Utilizador e as atividades que ocorrerem na conta do mesmo são da inteira responsabilidade do Utilizador. A Mojang não se responsabiliza nem poderá ser considerada responsável se a palavra-passe do Utilizador for utilizada por terceiros para realizar ações que não sejam sancionadas pelo Utilizador ou que o possam prejudicar.
+
+PROPRIEDADE DO MINECRAFT REALMS E OUTROS DETALHES
+O Minecraft Realms é composto pelo software, texturas, recursos, ferramentas, infraestrutura e uma série de outros conteúdos engenhosos (e outras mais práticos) que constituem propriedade da Mojang. Todos os direitos da Mojang relativamente a esses conteúdos estão estabelecidos e reservados, mas o Utilizador tem permissão para os utilizar no âmbito e na sequência da utilização do Minecraft Realms nos mesmos termos que os termos estabelecidos no EULA do Minecraft, sendo concedido ao Utilizador um direito não exclusivo de utilização de acordo com estes Termos.
+
+Isso não significa que a Mojang detém a propriedade dos materiais criados pelo Utilizador com o Minecraft Realms - o Utilizador tem apenas de aceitar que a Mojang é proprietária de cada Minecraft e do Minecraft Realms enquanto produto e serviço, e de tudo o que foi mencionado na frase anterior. Além disso, a Mojang detém os direitos de autor e outros direitos denominados de propriedade intelectual ("IPRs") associados aos mesmos, bem como a propriedade dos nomes e marcas associados ao Minecraft e Minecraft Realms.
+
+Por outro lado, o Utilizador irá criar os seus próprios conteúdos no e através do Minecraft Realms. A Mojang não detém a propriedade dos conteúdos originais criados pelo Utilizador e não reclama a propriedade de nada que não seja seu de direito. No entanto, a Mojang é efetivamente proprietária dos materiais que constituam cópias (ou reproduções substanciais) ou derivados de criações e de outros elementos da sua propriedade (descritos acima), mas se o Utilizador criar materiais originais, esses não são propriedade da Mojang. Como tal, por exemplo:
+
+- único bloco - é propriedade da Mojang;
+- uma Catedral Gótica com uma montanha-russa a percorrê-la - não é propriedade da Mojang.
+Por conseguinte, quando o Utilizador paga pela utilização do Minecraft Realms, está apenas a comprar uma permissão de utilização do produto e serviço Minecraft Realms em conformidade com estes Termos. As únicas permissões concedidas ao Utilizador em relação ao Minecraft Realms são as que se encontram descritas nestes Termos - e em exceções ou direitos regulamentares específicos (incluindo os denominados direitos de utilização justa ou transação justa) a que, de outro modo, o Utilizador tenha direito por lei; no entanto, e de um modo geral, essas permissões aplicar-se-ão ao Conteúdo e não ao Minecraft Realms propriamente dito.
+
+Algumas versões do Realm também podem permitir que o Utilizador faça uma cópia de segurança dos dados do Minecraft Realm Pessoal. Após tê-la feito, poderá transferi-la para o respetivo dispositivo e utilizá-la com a sua própria versão (legítima) do Minecraft (estando sujeito aos termos do EULA do Minecraft).
+
+CONTEÚDO PRÓPRIO
+Se o Utilizador criar materiais com o Minecraft Realms ou se disponibilizar conteúdo ou materiais no mesmo ou através dele ("Conteúdo Próprio"), também concorda em dar permissão de utilização desses materiais à Mojang e a outras pessoas que tenham acesso a ele. Isso também significa que a Mojang pode utilizar, copiar, modificar, adaptar, distribuir, apresentar publicamente e, de outro modo, disponibilizar o Conteúdo Próprio a terceiros (sem pagamento nem restrições). Tal inclui tudo o que Utilizador possa eventualmente compilar, desenvolver ou criar, bem como todas as comunicações efetuadas pelo Utilizador como, por exemplo, através de qualquer funcionalidade de chat utilizada ou disponibilizada pela Mojang. O Utilizador também consente que a Mojang dê permissão de utilização, cópia, modificação, adaptação, distribuição e disponibilização desse Conteúdo Próprio a terceiros, além de aceitar que poderá não receber crédito ou atribuição pelo mesmo.
+
+Esta é uma premissa necessária por diversos motivos, entre os quais o facto de a Mojang precisar de garantir que quando outras pessoas (que o próprio Utilizador poderá convidar) acedem ao Minecraft Realm Pessoal do Utilizador têm o direito de proceder dessa forma e que quando o Utilizador acede a Minecraft Realms de Terceiros também tem o mesmo direito. A Mojang também precisa de assegurar que não é considerada responsável pelo que outras pessoas possam fazer com o Conteúdo Próprio quando este lhes der permissão para o utilizarem, uma vez que não tem como o controlar, bem como refletir o facto de que o Conteúdo Próprio inclui, de um modo geral, software, texturas, recursos, ferramentas, etc., que constituem propriedade da Mojang (ver acima).
+
+Estas permissões são perpétuas e não podem ser revogadas. Se não estiver interessado em dar estas permissões, o Utilizador não deverá disponibilizar conteúdo através do Minecraft Realms.
+
+Por esta razão, reflita cuidadosamente antes de disponibilizar qualquer conteúdo, uma vez que o mesmo será tornado público (incluindo a outras pessoas com acesso aos Minecraft Realms a que o Utilizador tem acesso) e, inclusivamente, poderá ser utilizado por terceiros de uma forma que não seja do seu agrado.
+
+Se o Utilizador tencionar disponibilizar Conteúdo Próprio através do Minecraft Realms, por exemplo, no ou através do Minecraft Realm Pessoal ou de Minecraft Realms de Terceiros, esse conteúdo:
+
+- não pode ser ofensivo para terceiros;
+- não pode ser ilegal ou ilegítimo;
+- tem de se pautar pela integridade e não induzir em erro, enganar ou explorar terceiros, nem representar outras pessoas;
+- não pode infringir os direitos de autor, ou outros direitos, de ninguém;
+- não pode ser racista, sexista ou homofóbico;
+- não pode ser abusivo nem promover o "bullying";
+- não pode prejudicar a reputação da Mojang ou de terceiros;
+- não pode incluir pornografia;
+- não pode incluir publicidade.
+
+O Utilizador não deve disponibilizar qualquer conteúdo através do Minecraft Realms que infrinja os direitos de outras pessoas.
+
+O Utilizador é responsável por todo o conteúdo disponibilizado pelo próprio através do Minecraft Realms.
+
+O Utilizador também é responsável por todo o conteúdo disponibilizado pelo próprio ou por terceiros através do respetivo Minecraft Realm Pessoal.
+
+Ao disponibilizar Conteúdo Próprio, o Utilizador garante e assume perante a Mojang que tem plenos direitos para o fazer ao abrigo destes Termos e que a Mojang está autorizada a exercer os direitos que lhe foram concedidos pelo Utilizador no âmbito dos presentes Termos.
+
+Se o Utilizador pretender comunicar à Mojang uma violação dos respetivos direitos de propriedade intelectual por parte de terceiros identificada no Minecraft Realms ou em qualquer um dos serviços da Mojang, solicitamos que submeta a sua notificação aqui (https://www.microsoft.com/info/cpyrtInfrg.aspx). A Mojang reserva-se o direito de retirar qualquer conteúdo à sua inteira discrição. Se for caso disso, a Mojang poderá terminar ou suspender as contas de utilizadores que cometam infrações repetidas.
+
+OUTRO CONTEÚDO
+Ao utilizar o Minecraft Realms, o Utilizador também poderá aceder e utilizar conteúdo criado por outras pessoas ("Outro Conteúdo"). Algum deste Outro Conteúdo poderá ser disponibilizado por pessoas que o Utilizador convidou para o seu Minecraft Realm Pessoal, outro poderá ser disponibilizado como parte do Minecraft Realm de outra pessoa.
+
+À semelhança do Conteúdo Próprio, o Outro Conteúdo também inclui, de um modo geral, software, texturas, recursos, ferramentas, etc., que constituem propriedade da Mojang (ver acima).
+
+Se alguém disponibilizar ou conceder acesso a Outro Conteúdo ao Utilizador, este tem permissão para o utilizar no âmbito e na sequência da utilização do Minecraft Realms, de acordo com estes Termos. Seja como for, esse Outro Conteúdo está sujeito a estes Termos.
+
+CONTEÚDO DO UTILIZADOR
+Os pontos seguintes descrevem alguns termos aplicáveis tanto ao Conteúdo Próprio como a Outro Conteúdo - ambos coletivamente designados por "Conteúdo do Utilizador".
+
+O Minecraft Realms é um serviço de entretenimento e, complementarmente, a Mojang faculta a transmissão, a distribuição, o armazenamento e a obtenção de Conteúdo do Utilizador sem revisão, seleção ou alteração do conteúdo, funcionando como mero veículo de transmissão, e/ou o alojamento de Conteúdo do Utilizador sem conhecimento do teor desse conteúdo. Quer isto dizer que a Mojang não monitoriza nem revê o Conteúdo de Utilizador, pelo que não tem como saber o que é posto a circular pelo Utilizador ou por terceiros. A Mojang pode proceder a controlos de conformidade técnica, compatibilidade e/ou deteção de vírus, entre outros, mas não revê o conteúdo propriamente dito nem as informações nele contidas. Estas regras estão descritas nos Termos que o Utilizador e terceiros têm de cumprir, mas a Mojang não tem como saber tudo o que acontece.
+
+Como tal, tenha em atenção que:
+
+- as opiniões expressas em qualquer Conteúdo do Utilizador são as opiniões de autores ou criadores individuais e não da Mojang nem de ninguém ligado a ela, salvo especificação em contrário;
+- a Mojang não se responsabiliza pelo Conteúdo do Utilizador, no seu todo (e, sujeito à lei aplicável, não oferece garantias nem faz qualquer declaração e exclui a sua responsabilidade em relação a esta matéria), incluindo quaisquer comentários, opiniões ou observações aí contidos;
+- ao utilizar o Minecraft Realms, o Utilizador reconhece que a Mojang não é responsável pela monitorização ou revisão do conteúdo de qualquer Conteúdo do Utilizador e que todo o Conteúdo do Utilizador é disponibilizado com base no princípio da não obrigatoriedade, por parte da Mojang, de exercer qualquer controlo ou efetuar qualquer apreciação do mesmo;
+- ao comunicar com outros jogadores, o Utilizador não deve pedir a pessoas que não conhece na vida real para se encontrarem pessoalmente.
+NO ENTANTO, a Mojang poderá remover, rejeitar ou suspender o acesso a qualquer Conteúdo do Utilizador e remover ou suspender a capacidade de o Utilizador publicar, disponibilizar ou aceder a Conteúdo do Utilizador - incluindo remover ou suspender o acesso ao Minecraft Realm Pessoal ou a Minecraft Realms de Terceiros - se considerar esta medida apropriada; como, por exemplo, se o Utilizador violar os Termos aqui descritos ou se a Mojang receber uma queixa que justifique essa ação. A Mojang também agirá prontamente no sentido de remover ou desativar o acesso a Conteúdo do Utilizador se e quando tiver efetivamente conhecimento da ilegitimidade do mesmo.
+
+ATUALIZAÇÕES
+De vez em quando, a Mojang poderá disponibilizar atualizações ou patches (a que a Mojang chama de "atualizações"), algo que tem sido prática corrente, mas não é obrigada a isso.
+
+A Mojang também não é obrigada a prestar suporte contínuo ou manutenção ao Minecraft Realms. Só para que fique claro.
+
+Naturalmente, esperamos dar continuidade ao lançamento de novas atualizações do Minecraft Realms, mas não podemos dar quaisquer garantias neste sentido.
+
+PAGAMENTO, REEMBOLSOS, ETC.
+Os Termos da Conta Mojang abrangem os pagamento e reembolsos. No entanto, o Minecraft Realms é um serviço que tem início assim que o Minecraft Realm Pessoal é disponibilizado ao Utilizador e/ou assim que este tem acesso a ele. É por esta razão que o Utilizador não pode cancelar qualquer pedido ou compra deste serviço depois disso. Esta disposição não afeta nenhum dos direitos de consumidor do Utilizador e se o Utilizador não conseguir utilizar o Minecraft Realms em virtude de uma falha ou erro, deve entrar em contacto com a Mojang para tentarmos resolver o problema. Se este não tiver solução, o Utilizador poderá ter direito a um reembolso.
+
+RESPONSABILIDADE, LEI APLICÁVEL E LOCAL DE RESOLUÇÃO DE LITÍGIOS
+
+O presente EULA não afeta quaisquer direitos legais que o Utilizador possa ter ao abrigo da lei aplicável ao seu caso específico no que se refere ao Minecraft Realms ou seja o que for que o Utilizador compre através do Site da Mojang. O Utilizador pode ter determinados direitos que, segundo a lei aplicável, não podem ser excluídos. Nada do que possa constar neste EULA irá afetar esses direitos legais, mesmo que sejam feitas afirmações que aparentemente contradigam os direitos legais do Utilizador. Tal é o significado da expressão "sujeito à lei aplicável" utilizada.
+
+SUJEITO À LEI APLICÁVEL, A MOJANG NÃO É RESPONSÁVEL POR:
+
+- QUALQUER UTILIZAÇÃO OU UTILIZAÇÃO INDEVIDA DO MINECRAFT REALM PESSOAL OU DE MINECRAFT REALMS DE TERCEIROS;
+- QUALQUER UTILIZAÇÃO OU UTILIZAÇÃO INDEVIDA DO MINECRAFT REALMS POR PARTE DO UTILIZADOR OU DE TERCEIROS;
+- QUALQUER CONTEÚDO DISPONIBILIZADO PELO UTILIZADOR ATRAVÉS DO MINECRAFT REALMS;
+- QUALQUER VIOLAÇÃO DESTES TERMOS IMPUTÁVEL AO UTILIZADOR;
+- QUALQUER VIOLAÇÃO DE QUAISQUER TERMOS POR PARTE DE TERCEIROS.
+- O UTILIZADOR É RESPONSÁVEL POR:
+- TODA E QUALQUER UTILIZAÇÃO DO MINECRAFT REALMS IMPUTÁVEL AO UTILIZADOR;
+- TODA E QUALQUER UTILIZAÇÃO DO MINECRAFT REALM PESSOAL E TODA E QUALQUER UTILIZAÇÃO DE MINECRAFT REALMS DE TERCEIROS IMPUTÁVEIS AO UTILIZADOR;
+- QUALQUER VIOLAÇÃO DESTES TERMOS IMPUTÁVEL AO UTILIZADOR;
+- TODO O CONTEÚDO DISPONIBILIZADO PELO UTILIZADOR ATRAVÉS DO MINECRAFT REALMS;
+- TODO O CONTEÚDO DISPONIBILIZADO PELO PRÓPRIO OU POR TERCEIROS ATRAVÉS DO RESPETIVO MINECRAFT REALMS PESSOAL.
+
+SUJEITO À LEI APLICÁVEL, o Minecraft Realms é fornecido "tal como está". As atualizações também são fornecidas "tal como estão". Isto significa que a Mojang não assume qualquer compromisso para com o Utilizador no que se refere ao padrão ou à qualidade do Minecraft Realms, nem garante que o Minecraft Realms funcionará de forma ininterrupta e isenta de erros; ATÉ AO LIMITE MÁXIMO PERMITIDO PELA LEI APLICÁVEL, a Mojang não se responsabiliza por quaisquer perdas ou danos que este possa causar. O Utilizador tem de aceitar que a Mojang está a disponibilizar o Minecraft Realms em versão beta, estando continuamente a introduzir e melhorar funcionalidades. Pelo que é possível (e frequente) que tenha erros, mas a Mojang prefere disponibilizar antecipadamente as funcionalidades já desenvolvidas do que forçar o Utilizador a esperar pelo resultado acabado.
+
+Se o Utilizador e a Mojang dirimirem um litígio em tribunal (e a Mojang espera tanto como o Utilizador que tal não aconteça), o foro exclusivo (ou seja, o local onde será julgado) será um tribunal estatal ou federal de King County, WA (se viver nos Estados Unidos) ou um tribunal de Ontário (se viver no Canadá). (Se viver nos Estados Unidos, a maioria dos litígios será dirimida por arbitragem e não por tribunal.) As leis do estado ou da província do Utilizador regem este EULA e todos os litígios, incluindo litígios relacionados com o EULA, o Jogo ou o Site da Mojang, independentemente dos conflitos de princípios de leis, exceto no caso de arbitragem, em cujo caso todo o litígio será regido pela Federal Arbitration Act (Lei de Arbitragem Federal).
+
+O MINECRAFT REALMS É UM TRABALHO EM CURSO E PODE CONTER DEFEITOS E ERROS, SOFRER FALHAS DE SISTEMA, E/OU CAUSAR PERDA DE DADOS. LAMENTAMOS SE TAL ACONTECER, POR ISSO RECOMENDAMOS QUE FAÇA CÓPIAS DE SEGURANÇA E SALVAGUARDE TODOS OS DADOS E PROGRAMAS NO SEU DISPOSITIVO. EM TERMOS SIMPLES, A UTILIZAÇÃO DO MINECRAFT REALMS PELO UTILIZADOR É FEITA POR SUA PRÓPRIA CONTA E RISCO, SABENDO DE ANTEMÃO QUE ESTE É FORNECIDO "TAL COMO ESTÁ".
+
+CERTIFIQUE-SE DE QUE FAZ CÓPIAS DE SEGURANÇA DOS DADOS DO MINECRAFT REALM PESSOAL COM REGULARIDADE. A MOJANG NÃO O FAZ DE FORMA AUTOMÁTICA, PELO QUE SE OCORRER UMA FALHA NUM MINECRAFT REALM OU EM QUALQUER CONTEÚDO DO UTILIZADOR, O UTILIZADOR PODERÁ PERDER ESTES DADOS. LAMENTAMOS SE TAL ACONTECER, MAS NADA MAIS PODEREMOS FAZER ALÉM DE APRESENTAR AS NOSSAS DESCULPAS. NOTIFICAÇÃO
+
+Por vezes, as pessoas fazem o que não devem. É uma situação que nos desagrada, mas não há muito que possamos fazer para o impedir, exceto pedir a todos para agirem corretamente. A Mojang conta com a ajuda do Utilizador e de outros membros da comunidade para nos alertarem para casos de comportamento abusivo. Se tal acontecer e/ou se o Utilizador suspeitar que alguém está a violar estes Termos ou a utilizar o Minecraft Realms de forma indevida, agradecemos que nos contacte. A Mojang tem um sistema de sinalização/notificação para o efeito, por isso não hesite em utilizá-lo para que a Mojang possa tomar as medidas necessárias.
+
+CESSAÇÃO
+Se o Utilizador violar estes termos, ou uma parte dos mesmos, a Mojang poderá cessar este contrato de licença e a utilização do Minecraft Realms por parte do Utilizador. O Utilizador também pode exercer o mesmo direito, em qualquer altura - basta que pare de utilizar o Minecraft Realm Pessoal e cesse de dar acesso ao mesmo a terceiros. Após a cessação, o Utilizador deixa de poder utilizar o Minecraft Realms ou dar acesso ao Minecraft Realm pessoal a terceiros. O Contrato de Arbitragem (se viver nos Estados Unidos) e as secções "Propriedade do Minecraft Realms", "Responsabilidade" e "Geral" continuarão a ser aplicáveis mesmo após a cessação.
+
+GERAL
+Este EULA descreve determinados direitos legais. O Utilizador poderá ter outros direitos, incluindo direitos de consumidor, ao abrigo da legislação do respetivo estado ou país que este EULA não têm autoridade para alterar. Nesse caso, este EULA será aplicável até ao limite máximo permitido por lei. Nada do disposto nestes termos excluirá ou limitará a nossa responsabilidade em caso de morte ou lesões graves que possam resultar da negligência ou de fraudes da parte da Mojang.
+
+Estes Termos também poderão ser alterados periodicamente pela Mojang, sempre que tal se justifique. Por exemplo, poderão ocorrer alterações no que se refere aos jogos, às práticas ou às obrigações jurídicas da Mojang, e essas alterações aplicar-se-ão à utilização do Minecraft Realms por parte do Utilizador da próxima vez que este o utilizar. O Utilizador será informado da alteração antes de esta entrar em vigor, seja através da publicação de um aviso no nosso Site, seja por qualquer outro meio considerado razoável. Não seremos injustos neste ponto. No entanto, por vezes a lei muda ou alguém age de uma forma que afeta outros utilizadores do Minecraft Realms, o que obriga à intervenção da Mojang.
+
+Se o Utilizador optar por enviar uma sugestão para a Mojang relativamente ao Minecraft Realms, essa sugestão é feita de forma gratuita, não sendo a Mojang obrigada a aceitá-la ou tomá-la em consideração. Quer isto dizer que a Mojang não só poderá ou não utilizar a sugestão do Utilizador, seja de que maneira for, como não tem qualquer obrigação de o compensar financeiramente. Se o Utilizador considerar que tem uma sugestão pela qual a Mojang estaria disposta a pagar, não deve propô-la a menos que tenha comunicado previamente à Mojang que pretende ser compensado financeiramente e que esta tenha respondido, por escrito, solicitando o envio da sugestão por parte do Utilizador.
+
+Se tiver alguma dúvida de ordem legal para a qual não encontrou uma resposta nestes Termos, não avance com a sua ideia ou então pergunte à Mojang. Basicamente, seja razoável e a Mojang também o será.
+
+Informações da Empresa
+
+Mojang AB
+Maria Skolgata 83,
+
+SE-11853
+
+Estocolmo
+Suécia
+Número da organização:556819-2388
+
+Contacte-nos aqui ou em support@mojang.com

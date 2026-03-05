@@ -1,0 +1,14 @@
+{
+  "definition.parrot": {
+    "textures": {
+      "blue": "textures/entity/parrot/parrot_blue",
+      "green": "textures/entity/parrot/parrot_green",
+      "red_blue": "textures/entity/parrot/parrot_red_blue",
+      "yellow_blue": "textures/entity/parrot/parrot_yellow_blue",
+      "grey": "textures/entity/parrot/parrot_grey"
+    },
+    "geometry": {
+      "default": "geometry.parrot"
+    }
+  }
+}

@@ -1,0 +1,766 @@
+{
+  "namespace": "start",
+
+  "language_icon": {
+    "type": "image",
+    "texture": "gui/newgui/Language16.png",
+    "layer": 3,
+    "uv": [ 0, 0 ],
+    "uv_size": [ 16, 16 ],
+    "size": [ 16, 16 ]
+  },
+
+  "feedback_icon": {
+    "type": "image",
+    "texture": "gui/newgui/Feedback.png",
+    "layer": 3,
+    "uv": [ 0, 0 ],
+    "uv_size": [ 16, 16 ],
+    "size": [ 16, 16 ]
+  },
+
+  "Xbox_icon": {
+    "type": "image",
+    "texture": "gui/newgui/xbox4.png",
+    "layer": 3,
+    "uv": [ 0, 0 ],
+    "uv_size": [ 27, 27 ],
+    "size": [ 27, 27 ]
+  },
+
+  "change_skin_icon": {
+    "type": "image",
+    "anchor_from": "left_middle",
+    "anchor_to": "left_middle",
+    "texture": "gui/newgui/hangar.png",
+    "layer": 3,
+    "uv": [ 0, 0 ],
+    "uv_size": [ 32, 16 ],
+    "size": [ 32, 16 ],
+    "offset": [ 3, 2 ],
+    "color": [ 0.3, 0.3, 0.3 ]
+  },
+
+  "copyright": {
+    "type": "label",
+    "alignment": "top_left",
+    "layer": 2,
+    "text": "menu.copyright"
+  },
+
+  "development_version": {
+    "type": "label",
+    "alignment": "top_middle",
+    "layer": 2,
+    "text": "#development_version",
+    "bindings": [
+      {
+        "binding_name": "#development_version",
+        "binding_condition": "visible"
+      }
+    ]
+  },
+
+  "version": {
+    "type": "label",
+    "alignment": "top_right",
+    "layer": 2,
+    "text": "#version",
+    "bindings": [
+      {
+        "binding_name": "#version",
+        "binding_condition": "visible"
+      }
+    ]
+  },
+
+  "text_panel": {
+    "type": "panel",
+    "size": [ "100%-2px", 9 ],
+    "anchor_from": "bottom_middle",
+    "anchor_to": "bottom_middle",
+    "controls": [
+      {
+        "@start.copyright": { }
+      },
+      {
+        "@start.development_version": { }
+      },
+      {
+        "@start.version": { }
+      }
+    ]
+  },
+
+  "splash_text": {
+    "type": "custom",
+    "renderer": "splash_text_renderer",
+    "size": [ 0.1, 0.1 ],
+    "layer": 2,
+    "anchor_from": "bottom_right",
+    "anchor_to": "bottom_right"
+  },
+
+  "title_panel_pocket": {
+    "type": "panel",
+    "offset": [ 0, "10%" ],
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [ "100%", "12.5%x" ],
+    "controls": [
+      {
+        "title_image": {
+          "type": "image",
+          "layer": 1,
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "texture": "gui/title.png",
+          "uv": [ 0, 0 ],
+          "uv_size": [ 512, 64 ]
+        }
+      },
+      {
+        "@splash_text": {
+          "offset": [ "-28%", "-4%x" ]
+        }
+      }
+    ]
+  },
+
+  "title_panel_win10": {
+    "type": "panel",
+    "size": [ "55%", "10.6%x" ],
+    "offset": [ 0, "10%" ],
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "controls": [
+      {
+        "title_image": {
+          "type": "image",
+          "layer": 1,
+          "texture": "gui/titleOriginal.png",
+          "uv": [ 0, 0 ],
+          "uv_size": [ 1936, 375 ]
+        }
+      },
+      {
+        "@splash_text": {
+          "offset": [ 0, "-6.25%x" ]
+        }
+      }
+    ]
+  },
+
+  "title_panel_edu": {
+    "type": "panel",
+    "size": [ "55%", "13.35%x" ],
+    "offset": [ 0, "10%" ],
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "controls": [
+      {
+        "title_image": {
+          "type": "image",
+          "layer": 1,
+          "texture": "gui/titleEdu.png",
+          "uv": [ 0, 0 ],
+          "uv_size": [ 1938, 472 ]
+        }
+      },
+      {
+        "@splash_text": {
+          "offset": [ "-3.5%", "-9.25%x" ]
+        }
+      }
+    ]
+  },
+
+  "title_panel_vr": {
+    "type": "panel",
+    "size": [ "100%", "12.5%x" ],
+    "offset": [ 0, "10%" ],
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "controls": [
+      {
+        "title_image": {
+          "type": "image",
+          "layer": 1,
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "texture": "gui/titleVR.png",
+          "uv": [ 0, 0 ],
+          "uv_size": [ 512, 64 ]
+        }
+      },
+      {
+        "@splash_text": {
+          "offset": [ "-28%", "-4%x" ]
+        }
+      }
+    ]
+  },
+
+  //---------------------------------------------------------------------------
+  // Skins Panel
+  //---------------------------------------------------------------------------
+
+  "change_skin_button@common.new_button": {
+    "$pressed_button_name": "button.menu_skins",
+    "size": [ 24, 24 ],
+    "controls": [
+      {
+        "default@common.new_button_state_default": {
+          "controls": [
+            { "@start.change_skin_icon": { } }
+          ]
+        }
+      },
+      {
+        "hover@common.new_button_state_hover": {
+          "controls": [
+            {
+              "@start.change_skin_icon": {
+                "color": "yellow"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "pressed@common.new_button_state_pressed": {
+          "controls": [
+            {
+              "@start.change_skin_icon": {
+                "alpha": 0.65,
+                "offset": [ 3, 3 ],
+                "color": "yellow"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "skin_viewer_panel": {
+    "type": "panel",
+    "anchor_from": "bottom_middle",
+    "anchor_to": "bottom_middle",
+    "size": [ 32, 140 ],
+    "controls": [
+      {
+        "paper_doll": {
+          "type": "custom",
+          "renderer": "paper_doll_renderer",
+          "layer": 2,
+          "anchor_from": "bottom_middle",
+          "anchor_to": "bottom_middle",
+          "rotation": "gesture_x",
+          "size": [ 6, "100%" ],
+          "offset": [ 0, -38 ]
+        }
+      },
+      {
+        "paper_doll_name_tag": {
+          "type": "custom",
+          "renderer": "name_tag_renderer",
+          "layer": 2,
+          "anchor_from": "top_middle",
+          "anchor_to": "bottom_middle",
+          "size": [ 8, 8 ],
+          "offset": [ 0, 0 ],
+          "bindings": [
+            {
+              "binding_name": "#playername",
+              "binding_condition": "visible"
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "skin_panel": {
+    "type": "panel",
+    "anchor_to": "bottom_right",
+    "anchor_from": "bottom_right",
+    "size": [ 32, 32 ],
+    "offset": [ "-15%", "-10%" ],
+    "controls": [
+      { "@change_skin_button": { } },
+      { "@skin_viewer_panel": { } }
+    ]
+  },
+
+  //---------------------------------------------------------------------------
+  // Online Buttons Panel (and the lang button)
+  //---------------------------------------------------------------------------
+
+  "language_button@common.new_button": {
+    "$pressed_button_name": "button.menu_language",
+    "size": [ 24, 24 ],
+    "controls": [
+      {
+        "default@common.new_button_state_default": {
+          "controls": [
+            { "@start.language_icon": { } }
+          ]
+        }
+      },
+      {
+        "hover@common.new_button_state_hover": {
+          "controls": [
+            { "@start.language_icon": { } }
+          ]
+        }
+      },
+      {
+        "pressed@common.new_button_state_pressed": {
+          "controls": [
+            {
+              "@start.language_icon": {
+                "offset": [ 0, 1 ],
+                "alpha": 0.65
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "feedback_button@common.button": {
+    "$pressed_button_name": "button.feedback_button",
+    "size": [ 24, 24 ],
+    "controls": [
+      {
+        "default@common.new_button_state_default": {
+          "controls": [
+            { "@start.feedback_icon": { } }
+          ]
+        }
+      },
+      {
+        "hover@common.new_button_state_hover": {
+          "controls": [
+            { "@start.feedback_icon": { } }
+          ]
+        }
+      },
+      {
+        "pressed@common.new_button_state_pressed": {
+          "controls": [
+            {
+              "@start.feedback_icon": {
+                "offset": [ 0, 1 ],
+                "alpha": 0.65
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+
+  "xbl_signin_button@common.new_button": {
+    "$pressed_button_name": "button.xbl_signin",
+    "size": [ 48, 24 ],
+    "controls": [
+      {
+        "default@common.new_button_state_default": {
+          "controls": [
+            {
+              "@common.new_button_label": {
+                "text": "xbox.signin"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "hover@common.new_button_state_hover": {
+          "controls": [
+            {
+              "@common.new_button_label": {
+                "text": "xbox.signin"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "pressed@common.new_button_state_pressed": {
+          "controls": [
+            {
+              "@common.new_button_label": {
+                "text": "xbox.signin",
+                "offset": [ 0, 1 ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "column_frame": {
+    "type": "panel"
+  },
+
+  "online_buttons_panel": {
+    "type": "panel",
+    "anchor_to": "bottom_left",
+    "anchor_from": "bottom_left",
+    "size": [ "default", 32 ],
+    "offset": [ "5%", "-10%" ],
+    "controls": [
+      {
+        "stacked_column": {
+          "type": "stack_panel",
+          "size": [ "100%", "100%" ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "orientation": "horizontal",
+          "controls": [
+            {
+              "lang_btn@column_frame": {
+                "size": [ 28, 32 ],
+                "controls": [
+                  { "@language_button": { } }
+                ]
+              }
+            },
+            {
+              "feedback_btn@column_frame": {
+                "ignored": "$feedback_ignored",
+                "size": [ 28, 32 ],
+                "controls": [
+                  { "@feedback_button": { } }
+                ],
+                "bindings": [
+                  {
+                    "binding_name": "#feedback_visible",
+                    "binding_name_override": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "xbl_btn@column_frame": {
+                "ignored": "$win10_edition",
+                "size": [ 52, 32 ],
+                "controls": [
+                  { "@xbl_signin_button": { } }
+                ],
+                "bindings": [
+                  {
+                    "binding_name": "#sign_in_visible",
+                    "binding_name_override": "#visible"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  //---------------------------------------------------------------------------
+  // Main Buttons Panel
+  //---------------------------------------------------------------------------
+
+  "main_button@common.new_button": {
+    "size": [ "100% - 2px", "100% - 2px" ]
+  },
+
+  "play_button@main_button": {
+    "$pressed_button_name": "button.menu_play",
+    "$button_label_text": "menu.play",
+    "default_focus_precedence": 1
+  },
+
+  "achievements_button@main_button": {
+    "$pressed_button_name": "button.menu_achievements",
+    "$button_label_text": "menu.achievements"
+  },
+
+  "settings_button@main_button": {
+    "$pressed_button_name": "button.menu_settings",
+    "$button_label_text": "menu.options"
+  },
+
+  "store_button@main_button": {
+    "$pressed_button_name": "button.menu_store",
+    "$button_label_text": "menu.store"
+  },
+
+  "buy_game_button@main_button": {
+    "$pressed_button_name": "button.menu_buy_game",
+    "$button_label_text": "trial.pauseScreen.buyGame"
+  },
+
+  "stacked_row": {
+    "type": "panel",
+    "size": [ "100%", 32 ]
+  },
+
+  "stacked_col": {
+    "type": "panel",
+    "size": [ "50%", "100%" ]
+  },
+
+  "main_buttons_panel": {
+    "type": "panel",
+    "anchor_from": "center",
+    "anchor_to": "top_middle",
+    "size": [ 120, 100 ],
+    "offset": [ 0, "-5%" ],
+    "controls": [
+      {
+        "stacked_rows": {
+          "type": "stack_panel",
+          "size": [ "100%", "100%" ],
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "controls": [
+            {
+              "@stacked_row": {
+                "controls": [
+                  { "@play_button": { } }
+                ]
+              }
+            },
+            {
+              "@stacked_row": {
+                "ignored": "$achievements_ignored",
+                "controls": [
+                  { "@achievements_button": { } }
+                ]
+              }
+            },
+            {
+              "@stacked_row": {
+                "controls": [
+                  {
+                    "stacked_columns": {
+                      "type": "stack_panel",
+                      "size": [ "100%", "100%" ],
+                      "orientation": "horizontal",
+                      "controls": [
+                        {
+                          "@stacked_col": {
+                            "controls": [
+                              { "@settings_button": { } }
+                            ]
+                          }
+                        },
+                        {
+                          "@stacked_col": {
+                            "controls": [
+                              { "@store_button": { } }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "@stacked_row": {
+                "ignored": "$not_trial",
+                "controls": [
+                  { "@buy_game_button": { } }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "gamepad_helpers": {
+    "type": "panel",
+    "offset": "$gamepad_helpers_offset",
+    "size": [ 140, 10 ],
+    "controls": [
+      {
+        "@common.gamepad_helper_a": {
+          "size": [ "50%", "100%" ],
+          "offset": "$gamepad_helper_a_offset",
+          "anchor_from": "left_middle",
+          "anchor_to": "left_middle"
+        }
+      },
+      {
+        "@common.gamepad_helper_b": {
+          "size": [ "50%", "100%" ],
+          "offset": "$gamepad_helper_b_offset",
+          "anchor_from": "right_middle",
+          "anchor_to": "right_middle"
+        }
+      }
+    ]
+  },
+
+  //---------------------------------------------------------------------------
+  // Realms Invite Panel
+  //---------------------------------------------------------------------------
+
+  "invite_notification_icon": {
+    "type": "image",
+    "texture": "$invite_texture",
+    "uv": [ 0, 0 ],
+    "uv_size": [ 16, 16 ],
+    "size": [ 16, 16 ]
+  },
+
+  "realms_pending_invite_panel": {
+    "type": "panel",
+    "layer": 1,
+    "size": [ 24, 24 ],
+    "controls": [
+      {
+        "button@common.new_button": {
+          "$pressed_button_name": "button.menu_invite_notification",
+          "size": [ 20, 20 ],
+          "offset": [ 2, 2 ],
+          "controls": [
+            {
+              "default@start.invite_notification_icon": { "$invite_texture": "gui/newgui/invite_base.png" }
+            },
+            {
+              "hover@start.invite_notification_icon": { "$invite_texture": "gui/newgui/invite_hover.png" }
+            },
+            {
+              "pressed@start.invite_notification_icon": { "$invite_texture": "gui/newgui/invite_pressed.png" }
+            }
+          ]
+        }
+      }
+    ],
+    "bindings": [
+      {
+        "binding_name": "#realms_notification_visible",
+        "binding_name_override": "#visible"
+      }
+    ]
+  },
+
+  //---------------------------------------------------------------------------
+  // Screens
+  //---------------------------------------------------------------------------
+
+  "start_screen@common.base_screen": {
+
+    "button_mappings": [
+      {
+        "from_button_id": "button.menu_cancel",
+        "to_button_id": "button.menu_exit",
+        "mapping_type": "global"
+      },
+      {
+        "from_button_id": "button.menu_up",
+        "to_button_id": "button.menu_up",
+        "mapping_type": "global",
+        "scope": "view"
+      },
+      {
+        "from_button_id": "button.menu_down",
+        "to_button_id": "button.menu_down",
+        "mapping_type": "global",
+        "scope": "view"
+      },
+      {
+        "from_button_id": "button.menu_left",
+        "to_button_id": "button.menu_left",
+        "mapping_type": "global",
+        "scope": "view"
+      },
+      {
+        "from_button_id": "button.menu_right",
+        "to_button_id": "button.menu_right",
+        "mapping_type": "global",
+        "scope": "view"
+      }
+    ],
+    "$screen_content": "start.start_screen_content"
+  },
+
+  "start_screen_content": {
+    "type": "panel",
+    "$achievements_ignored|default": false,
+    "$feedback_ignored|default": false,
+    "variables": [
+      {
+        "requires": "$not_trial",
+        "$gamepad_helpers_offset": [ -14, "40%" ],
+        "$gamepad_helper_a_offset": [ -5, 0 ],
+        "$gamepad_helper_b_offset": [ 5, 0 ]
+      },
+      {
+        "requires": "$trial",
+        "$gamepad_helpers_offset": [ "-7%", "40%" ],
+        "$gamepad_helper_a_offset": [ 0, 0 ],
+        "$gamepad_helper_b_offset": [ 0, 0 ]
+      },
+      {
+        "requires": "$win10_edition",
+        "$title_panel": "title_panel_win10"
+      },
+      {
+        "requires": "$osx_edition",
+        "$title_panel": "title_panel_win10"
+      },
+      {
+        "requires": "$education_edition",
+        "$title_panel": "title_panel_edu",
+        "$achievements_ignored": true
+      },
+      {
+        "requires": "$pocket_edition",
+        "$title_panel": "title_panel_pocket"
+      },
+      {
+        "requires": "$is_holographic",
+        "$title_panel": "title_panel_vr",
+        "$feedback_ignored": true
+      },
+      {
+        "requires": "$xbl_not_enabled",
+        "$achievements_ignored": true
+      }
+    ],
+    "controls": [
+      {
+        "@$title_panel": { }
+      },
+      {
+        "@start.skin_panel": { }
+      },
+      {
+        "@start.gamepad_helpers": { }
+      },
+      {
+        "@start.main_buttons_panel": { }
+      },
+      {
+        "@start.online_buttons_panel": { }
+      },
+      {
+        "@start.text_panel": { }
+      },
+      {
+        "@start.realms_pending_invite_panel": {
+          "anchor_from": "top_left",
+          "anchor_to": "top_left"
+        }
+      }
+    ]
+  }
+}

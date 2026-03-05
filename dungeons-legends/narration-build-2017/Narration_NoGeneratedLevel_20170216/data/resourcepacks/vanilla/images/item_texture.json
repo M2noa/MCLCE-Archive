@@ -1,0 +1,724 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "apple": {
+      "textures": "item.apple"
+    },
+    "apple_golden": {
+      "textures": "item.apple.golden"
+    },
+    "arrow": {
+      "textures": "item.arrow"
+    },
+    "axe": {
+      "textures": [
+        "item.wood.axe",
+        "item.stone.axe",
+        "item.iron.axe",
+        "item.gold.axe",
+        "item.diamond.axe"
+      ]
+    },
+    "bed": {
+      "textures": "item.bed"
+    },
+    "beef_cooked": {
+      "textures": "item.beef.cooked"
+    },
+    "beef_raw": {
+      "textures": "item.beef.raw"
+    },
+    "blaze_powder": {
+      "textures": "item.blaze.powder"
+    },
+    "blaze_rod": {
+      "textures": "item.blaze.rod"
+    },
+    "boat": {
+      "textures": [
+        "item.boat.oak",
+        "item.boat.spruce",
+        "item.boat.birch",
+        "item.boat.jungle",
+        "item.boat.acacia",
+        "item.boat.darkoak"
+      ]
+    },
+    "bone": {
+      "textures": "item.bone"
+    },
+    "book_enchanted": {
+      "textures": "item.book.enchanted"
+    },
+    "book_normal": {
+      "textures": "item.book.normal"
+    },
+    "book_writable": {
+      "textures": "item.book.writable"
+    },
+    "book_written": {
+      "textures": "item.book.written"
+    },
+    "book_portfolio": {
+      "textures": "item.book.portfolio"
+    },
+    "boots": {
+      "textures": [
+        "item.leather.boots",
+        "item.chainmail.boots",
+        "item.iron.boots",
+        "item.gold.boots",
+        "item.diamond.boots"
+      ]
+    },
+    "bowl": {
+      "textures": "item.bowl"
+    },
+    "bow_pulling": {
+      "textures": [
+        "item.bow.pulling.0",
+        "item.bow.pulling.1",
+        "item.bow.pulling.2"
+      ]
+    },
+    "bow_standby": {
+      "textures": "item.bow.standby"
+    },
+    "bread": {
+      "textures": "item.bread"
+    },
+    "brewing_stand": {
+      "textures": "item.brewing.stand"
+    },
+    "brick": {
+      "textures": "item.brick"
+    },
+    "bucket": {
+      "textures": [
+        "item.bucket.empty",
+        "item.bucket.milk",
+        "item.bucket.water",
+        "item.bucket.lava"
+      ]
+    },
+    "cake": {
+      "textures": "item.cake"
+    },
+    "carrot": {
+      "textures": "item.carrot"
+    },
+    "carrot_golden": {
+      "textures": "item.carrot.golden"
+    },
+    "carrot_on_a_stick": {
+      "textures": "item.carrot.on.a.stick"
+    },
+    "beetroot": {
+      "textures": "item.beetroot"
+    },
+    "cauldron": {
+      "textures": "item.cauldron"
+    },
+    "charcoal": {
+      "textures": "item.charcoal"
+    },
+    "chestplate": {
+      "textures": [
+        "item.leather.chestplate",
+        "item.chainmail.chestplate",
+        "item.iron.chestplate",
+        "item.gold.chestplate",
+        "item.diamond.chestplate"
+      ]
+    },
+    "chicken_cooked": {
+      "textures": "item.chicken.cooked"
+    },
+    "chicken_raw": {
+      "textures": "item.chicken.raw"
+    },
+    "mutton_cooked": {
+      "textures": "item.mutton.cooked"
+    },
+    "mutton_raw": {
+      "textures": "item.mutton.raw"
+    },
+    "clay_ball": {
+      "textures": "item.clay.ball"
+    },
+    "coal": {
+      "textures": "item.coal"
+    },
+    "comparator": {
+      "textures": "item.comparator"
+    },
+    "cookie": {
+      "textures": "item.cookie"
+    },
+    "diamond": {
+      "textures": "item.diamond"
+    },
+    "diamond_horse_armor": {
+      "textures": "item.diamond.horse.armor"
+    },
+    "iron_door": {
+      "textures": "item.door.iron"
+    },
+    "wooden_door": {
+      "textures": "item.door.wood"
+    },
+    "spruce_door": {
+      "textures": "item.door.spruce"
+    },
+    "birch_door": {
+      "textures": "item.door.birch"
+    },
+    "jungle_door": {
+      "textures": "item.door.jungle"
+    },
+    "acacia_door": {
+      "textures": "item.door.acacia"
+    },
+    "dark_oak_door": {
+      "textures": "item.door.dark.oak"
+    },
+    "dye_powder": {
+      "textures": [
+        "item.dye.powder.black",
+        "item.dye.powder.red",
+        "item.dye.powder.green",
+        "item.dye.powder.brown",
+        "item.dye.powder.blue",
+        "item.dye.powder.purple",
+        "item.dye.powder.cyan",
+        "item.dye.powder.silver",
+        "item.dye.powder.gray",
+        "item.dye.powder.pink",
+        "item.dye.powder.lime",
+        "item.dye.powder.yellow",
+        "item.dye.powder.light.blue",
+        "item.dye.powder.magenta",
+        "item.dye.powder.orange",
+        "item.dye.powder.white"
+      ]
+    },
+    "egg": {
+      "textures": "item.egg"
+    },
+    "emerald": {
+      "textures": "item.emerald"
+    },
+    "empty_armor_slot_boots": {
+      "textures": "item.empty.armor.slot.boots"
+    },
+    "empty_armor_slot_chestplate": {
+      "textures": "item.empty.armor.slot.chestplate"
+    },
+    "empty_armor_slot_helmet": {
+      "textures": "item.empty.armor.slot.helmet"
+    },
+    "empty_armor_slot_leggings": {
+      "textures": "item.empty.armor.slot.leggings"
+    },
+    "ender_eye": {
+      "textures": "item.ender.eye"
+    },
+    "ender_pearl": {
+      "textures": "item.ender.pearl"
+    },
+    "experience_bottle": {
+      "textures": "item.experience.bottle"
+    },
+    "feather": {
+      "textures": "item.feather"
+    },
+    "fireball": {
+      "textures": "item.fireball"
+    },
+    "fireworks": {
+      "textures": "item.fireworks"
+    },
+    "fireworks_charge": {
+      "textures": "item.fireworks.charge"
+    },
+    "fireworks_charge_overlay": {
+      "textures": "item.fireworks.charge.overlay"
+    },
+    "fishing_rod": {
+      "textures": [
+        "item.fishing.rod.uncast",
+        "item.fishing.rod.cast"
+      ]
+    },
+    "fish": {
+      "textures": "item.fish.raw"
+    },
+    "salmon": {
+      "textures": "item.fish.salmon.raw"
+    },
+    "clownfish": {
+      "textures": "item.fish.clownfish.raw"
+    },
+    "pufferfish": {
+      "textures": "item.fish.pufferfish.raw"
+    },
+    "cooked_fish": {
+      "textures": "item.fish.cooked"
+    },
+    "cooked_salmon": {
+      "textures": "item.fish.salmon.cooked"
+    },
+    "flint": {
+      "textures": "item.flint"
+    },
+    "flint_and_steel": {
+      "textures": "item.flint.and.steel"
+    },
+    "flower_pot": {
+      "textures": "item.flower.pot"
+    },
+    "ghast_tear": {
+      "textures": "item.ghast.tear"
+    },
+    "glowstone_dust": {
+      "textures": "item.glowstone.dust"
+    },
+    "gold_horse_armor": {
+      "textures": "item.gold.horse.armor"
+    },
+    "gold_ingot": {
+      "textures": "item.gold.ingot"
+    },
+    "gold_nugget": {
+      "textures": "item.gold.nugget"
+    },
+    "gunpowder": {
+      "textures": "item.gunpowder"
+    },
+    "helmet": {
+      "textures": [
+        "item.leather.helmet",
+        "item.chainmail.helmet",
+        "item.iron.helmet",
+        "item.gold.helmet",
+        "item.diamond.helmet"
+      ]
+    },
+    "hoe": {
+      "textures": [
+        "item.wood.hoe",
+        "item.stone.hoe",
+        "item.iron.hoe",
+        "item.gold.hoe",
+        "item.diamond.hoe"
+      ]
+    },
+    "hopper": {
+      "textures": "item.hopper"
+    },
+    "iron_horse_armor": {
+      "textures": "item.iron.horse.armor"
+    },
+    "iron_ingot": {
+      "textures": "item.iron.ingot"
+    },
+    "item_frame": {
+      "textures": "item.item.frame"
+    },
+    "lead": {
+      "textures": "item.lead"
+    },
+    "leather": {
+      "textures": "item.leather"
+    },
+    "leather_horse_armor": {
+      "textures": "item.leather.horse.armor"
+    },
+    "leggings": {
+      "textures": [
+        "item.leather.leggings",
+        "item.chainmail.leggings",
+        "item.iron.leggings",
+        "item.gold.leggings",
+        "item.diamond.leggings"
+      ]
+    },
+    "magma_cream": {
+      "textures": "item.magma.cream"
+    },
+    "map_empty": {
+      "textures": "item.map.empty"
+    },
+    "map_filled": {
+      "textures": "item.map.filled"
+    },
+    "melon": {
+      "textures": "item.melon"
+    },
+    "melon_speckled": {
+      "textures": "item.melon.speckled"
+    },
+    "minecart_chest": {
+      "textures": "item.minecart.chest"
+    },
+    "minecart_furnace": {
+      "textures": "item.minecart.furnace"
+    },
+    "minecart_hopper": {
+      "textures": "item.minecart.hopper"
+    },
+    "minecart_normal": {
+      "textures": "item.minecart.normal"
+    },
+    "minecart_tnt": {
+      "textures": "item.minecart.tnt"
+    },
+    "mushroom_stew": {
+      "textures": "item.mushroom.stew"
+    },
+    "beetroot_soup": {
+      "textures": "item.beetroot.soup"
+    },
+    "name_tag": {
+      "textures": "item.name.tag"
+    },
+    "netherbrick": {
+      "textures": "item.netherbrick"
+    },
+    "nether_star": {
+      "textures": "item.nether.star"
+    },
+    "nether_wart": {
+      "textures": "item.nether.wart"
+    },
+    "painting": {
+      "textures": "item.painting"
+    },
+    "paper": {
+      "textures": "item.paper"
+    },
+    "pickaxe": {
+      "textures": [
+        "item.wood.pickaxe",
+        "item.stone.pickaxe",
+        "item.iron.pickaxe",
+        "item.gold.pickaxe",
+        "item.diamond.pickaxe"
+      ]
+    },
+    "porkchop_cooked": {
+      "textures": "item.porkchop.cooked"
+    },
+    "porkchop_raw": {
+      "textures": "item.porkchop.raw"
+    },
+    "potato": {
+      "textures": "item.potato"
+    },
+    "potato_baked": {
+      "textures": "item.potato.baked"
+    },
+    "potato_poisonous": {
+      "textures": "item.potato.poisonous"
+    },
+    "potion_bottle_drinkable": {
+      "textures": [
+        "item.potion.bottle.drinkable",
+        "item.potion.bottle.moveSpeed",
+        "item.potion.bottle.moveSlowdown",
+        "item.potion.bottle.digSpeed",
+        "item.potion.bottle.digSlowdown",
+        "item.potion.bottle.damageBoost",
+        "item.potion.bottle.heal",
+        "item.potion.bottle.harm",
+        "item.potion.bottle.jump",
+        "item.potion.bottle.confusion",
+        "item.potion.bottle.regeneration",
+        "item.potion.bottle.resistance",
+        "item.potion.bottle.fireResistance",
+        "item.potion.bottle.waterBreathing",
+        "item.potion.bottle.invisibility",
+        "item.potion.bottle.blindness",
+        "item.potion.bottle.nightVision",
+        "item.potion.bottle.hunger",
+        "item.potion.bottle.weakness",
+        "item.potion.bottle.poison",
+        "item.potion.bottle.wither",
+        "item.potion.bottle.healthBoost",
+        "item.potion.bottle.absorption",
+        "item.potion.bottle.saturation"
+      ]
+    },
+    "potion_bottle_empty": {
+      "textures": "item.potion.bottle.empty"
+    },
+    "potion_bottle_splash": {
+      "textures": [
+        "item.potion.bottle.splash",
+        "item.potion.bottle.splash.moveSpeed",
+        "item.potion.bottle.splash.moveSlowdown",
+        "item.potion.bottle.splash.digSpeed",
+        "item.potion.bottle.splash.digSlowdown",
+        "item.potion.bottle.splash.damageBoost",
+        "item.potion.bottle.splash.heal",
+        "item.potion.bottle.splash.harm",
+        "item.potion.bottle.splash.jump",
+        "item.potion.bottle.splash.confusion",
+        "item.potion.bottle.splash.regeneration",
+        "item.potion.bottle.splash.resistance",
+        "item.potion.bottle.splash.fireResistance",
+        "item.potion.bottle.splash.waterBreathing",
+        "item.potion.bottle.splash.invisibility",
+        "item.potion.bottle.splash.blindness",
+        "item.potion.bottle.splash.nightVision",
+        "item.potion.bottle.splash.hunger",
+        "item.potion.bottle.splash.weakness",
+        "item.potion.bottle.splash.poison",
+        "item.potion.bottle.splash.wither",
+        "item.potion.bottle.splash.healthBoost",
+        "item.potion.bottle.splash.absorption",
+        "item.potion.bottle.splash.saturation"
+      ]
+    },
+    "potion_overlay": {
+      "textures": "item.potion.overlay"
+    },
+    "pumpkin_pie": {
+      "textures": "item.pumpkin.pie"
+    },
+    "prismarine_crystals": {
+      "textures": "item.prismarine.crystals"
+    },
+    "prismarine_shard": {
+      "textures": "item.prismarine.shard"
+    },
+    "quartz": {
+      "textures": "item.quartz"
+    },
+    "quiver": {
+      "textures": "item.quiver"
+    },
+    "record_11": {
+      "textures": "item.record.11"
+    },
+    "record_13": {
+      "textures": "item.record.13"
+    },
+    "record_blocks": {
+      "textures": "item.record.blocks"
+    },
+    "record_cat": {
+      "textures": "item.record.cat"
+    },
+    "record_chirp": {
+      "textures": "item.record.chirp"
+    },
+    "record_far": {
+      "textures": "item.record.far"
+    },
+    "record_mall": {
+      "textures": "item.record.mall"
+    },
+    "record_mellohi": {
+      "textures": "item.record.mellohi"
+    },
+    "record_stal": {
+      "textures": "item.record.stal"
+    },
+    "record_strad": {
+      "textures": "item.record.strad"
+    },
+    "record_wait": {
+      "textures": "item.record.wait"
+    },
+    "record_ward": {
+      "textures": "item.record.ward"
+    },
+    "redstone_dust": {
+      "textures": "item.redstone.dust"
+    },
+    "reeds": {
+      "textures": "item.reeds"
+    },
+    "repeater": {
+      "textures": "item.repeater"
+    },
+    "rotten_flesh": {
+      "textures": "item.rotten.flesh"
+    },
+    "saddle": {
+      "textures": "item.saddle"
+    },
+    "seeds_melon": {
+      "textures": "item.seeds.melon"
+    },
+    "seeds_pumpkin": {
+      "textures": "item.seeds.pumpkin"
+    },
+    "seeds_wheat": {
+      "textures": "item.seeds.wheat"
+    },
+    "seeds_beetroot": {
+      "textures": "item.seeds.beetroot"
+    },
+    "shears": {
+      "textures": "item.shears"
+    },
+    "shovel": {
+      "textures": [
+        "item.wood.shovel",
+        "item.stone.shovel",
+        "item.iron.shovel",
+        "item.gold.shovel",
+        "item.diamond.shovel"
+      ]
+    },
+    "sign": {
+      "textures": "item.sign"
+    },
+    "skull_creeper": {
+      "textures": "item.skull.creeper"
+    },
+    "skull_skeleton": {
+      "textures": "item.skull.skeleton"
+    },
+    "skull_steve": {
+      "textures": "item.skull.steve"
+    },
+    "skull_wither": {
+      "textures": "item.skull.wither"
+    },
+    "skull_zombie": {
+      "textures": "item.skull.zombie"
+    },
+    "slimeball": {
+      "textures": "item.slimeball"
+    },
+    "snowball": {
+      "textures": "item.snowball"
+    },
+    "spawn_egg": {
+      "textures": [
+        "item.egg.chicken",
+        "item.egg.cow",
+        "item.egg.pig",
+        "item.egg.sheep",
+        "item.egg.wolf",
+        "item.egg.mushroomcow",
+        "item.egg.creeper",
+        "item.egg.enderman",
+        "item.egg.silverfish",
+        "item.egg.skeleton",
+        "item.egg.slime",
+        "item.egg.spider",
+        "item.egg.zombie",
+        "item.egg.pigzombie",
+        "item.egg.villager",
+        "item.egg.squid",
+        "item.egg.ocelot",
+        "item.egg.witch",
+        "item.egg.bat",
+        "item.egg.ghast",
+        "item.egg.lava.slime",
+        "item.egg.blaze",
+        "item.egg.cave.spider",
+        "item.egg.horse",
+        "item.egg.rabbit",
+        "item.egg.endermite",
+        "item.egg.guardian",
+        "item.egg.stray",
+        "item.egg.husk",
+        "item.egg.wither",
+        "item.egg.donkey",
+        "item.egg.mule",
+        "item.egg.skeletonhorse",
+        "item.egg.zombiehorse",
+        "item.egg.null"
+      ]
+    },
+    "spider_eye": {
+      "textures": "item.spider.eye"
+    },
+    "spider_eye_fermented": {
+      "textures": "item.spider.eye.fermented"
+    },
+    "stick": {
+      "textures": "item.stick"
+    },
+    "string": {
+      "textures": "item.string"
+    },
+    "sugar": {
+      "textures": "item.sugar"
+    },
+    "sword": {
+      "textures": [
+        "item.wood.sword",
+        "item.stone.sword",
+        "item.iron.sword",
+        "item.gold.sword",
+        "item.diamond.sword"
+      ]
+    },
+    "wheat": {
+      "textures": "item.wheat"
+    },
+    "clock_item": {
+      "textures": "item.clock.item"
+    },
+    "compass_item": {
+      "textures": "item.compass.item"
+    },
+    "rabbit_cooked": {
+      "textures": "item.rabbit.cooked"
+    },
+    "rabbit_foot": {
+      "textures": "item.rabbit.foot"
+    },
+    "rabbit_hide": {
+      "textures": "item.rabbit.hide"
+    },
+    "rabbit": {
+      "textures": "item.rabbit.raw"
+    },
+    "rabbit_stew": {
+      "textures": "item.rabbit.stew"
+    },
+    "lever": {
+      "textures": "item.lever"
+    },
+    "camera": {
+      "textures": "item.camera"
+    },
+    "tipped_arrow": {
+      "textures": [
+        "item.tipped.arrow.waterbreathing",
+        "item.tipped.arrow.swift",
+        "item.tipped.arrow.slow",
+        "item.tipped.arrow",
+        "item.tipped.arrow",
+        "item.tipped.arrow.strength",
+        "item.tipped.arrow.healing",
+        "item.tipped.arrow.harm",
+        "item.tipped.arrow.leaping",
+        "item.tipped.arrow",
+        "item.tipped.arrow.regen",
+        "item.tipped.arrow.fireres",
+        "item.tipped.arrow.fireres",
+        "item.tipped.arrow.waterbreathing",
+        "item.tipped.arrow.invisibility",
+        "item.tipped.arrow",
+        "item.tipped.arrow.nightvision",
+        "item.tipped.arrow",
+        "item.tipped.arrow.weakness",
+        "item.tipped.arrow.poison",
+        "item.tipped.arrow",
+        "item.tipped.arrow",
+        "item.tipped.arrow",
+        "item.tipped.arrow",
+        "item.tipped.arrow.luck"
+      ]
+    }
+  }
+}

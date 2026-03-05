@@ -1,0 +1,173 @@
+{
+	"hologram_sr_mesh": {
+		"vertexShader": "shaders/hologram_sr.vertex",
+		"fragmentShader" : "shaders/hologram_sr.fragment"
+	},
+
+   "holoscreen_monoscopic_quad": {
+
+    "states": [ "DisableCulling", "DisableDepthWrite", "Blending" ],
+
+    "blendSrc": "SourceAlpha",
+    "blendDst": "OneMinusSrcAlpha",
+
+    "depthFunc": "Always",
+
+    "vertexShader": "shaders/uv.vertex",
+    "fragmentShader": "shaders/texture.fragment",
+
+    "samplerStates": [
+      {
+        "samplerIndex": 0,
+        "textureFilter": "Bilinear"
+      }
+    ]
+  },
+
+  "hologram": {
+    "defines": [
+      "ALPHA_TEST"
+    ],
+
+    "depthFunc": "LessEqual",
+
+    "vertexShader": "shaders/color_uv.vertex",
+    "fragmentShader": "shaders/color_texture.fragment"
+  },
+
+  "holoroom_fence": {
+    "depthFunc": "LessEqual",
+
+    "vertexShader": "shaders/color_uv.vertex",
+    "fragmentShader": "shaders/color_texture.fragment"
+  },
+
+  "holoroom_skirt": {
+
+    "depthFunc": "LessEqual",
+
+    "vertexShader": "shaders/position.vertex",
+    "fragmentShader": "shaders/current_color.fragment"
+  },
+
+  "holoroom_inner_skirt": {
+    "depthFunc": "LessEqual",
+
+    "vertexShader": "shaders/holoroom_inner_skirt.vertex",
+    "fragmentShader": "shaders/holoroom_inner_skirt.fragment"
+  },
+
+  "holoscreen_one_to_one_cutout": {
+      "vertexShader": "shaders/position.vertex",
+      "fragmentShader": "shaders/current_color.fragment"
+  },
+
+  "holoscreen_one_to_one_cutout_skyfill": {
+
+    "states": [
+      "DisableDepthTest",
+      "Blending"
+    ],
+
+    "vertexShader": "shaders/position.vertex",
+    "fragmentShader": "shaders/current_color.fragment"
+  },
+
+ "holoroom_tableSurface": {
+    "depthFunc": "LessEqual",
+
+    "vertexShader": "shaders/holoroom_tableSurface.vertex",
+    "fragmentShader": "shaders/holoroom_tableSurface.fragment"
+  },
+
+  "holoroom_tableFloor": {
+    "depthFunc": "LessEqual",
+
+    "vertexShader": "shaders/color.vertex",
+    "fragmentShader": "shaders/color.fragment"
+  },
+
+  "hololens_LSRPlane": {
+    "states":["DisableCulling", "DisableDepthWrite", "Blending"],
+
+    "blendSrc": "SourceAlpha",
+    "blendDst": "OneMinusSrcAlpha",
+
+    "depthFunc":"LessEqual",
+
+     "vertexShader": "shaders/position.vertex",
+     "fragmentShader": "shaders/current_color.fragment"
+  },
+
+  "hololens_LSRPlaneTextured": {
+    "states":["DisableCulling", "DisableDepthWrite", "Blending"],
+
+     "blendSrc": "SourceAlpha",
+     "blendDst": "OneMinusSrcAlpha",
+
+    "depthFunc":"LessEqual",
+
+     "vertexShader": "shaders/uv.vertex",
+     "fragmentShader": "shaders/texture_ccolor.fragment"
+  },
+  
+  "hololens_UICursor": {
+    "states":["DisableCulling", "DisableDepthWrite", "Blending"],
+
+     "blendSrc": "SourceAlpha",
+     "blendDst": "OneMinusSrcAlpha",
+
+    "depthFunc":"Always",
+
+     "vertexShader": "shaders/uv.vertex",
+     "fragmentShader": "shaders/texture_ccolor.fragment"
+  },
+
+  "hololens_UICursor_ingame": {
+    "states": [ "Blending", "DisableDepthWrite", "PolygonOffset" ],
+
+    "blendSrc": "SourceAlpha",
+    "blendDst": "OneMinusSrcAlpha",
+
+    "depthFunc": "LessEqual",
+    "polygonOffsetLevel": 5.2,
+
+    "vertexShader": "shaders/position.vertex",
+    "fragmentShader": "shaders/current_color.fragment"
+  },
+
+  "hologram_hit_effect": {
+     "states": [
+        "DisableDepthTest",
+        "Blending"
+     ],
+
+     "vertexShader": "shaders/position.vertex",
+     "fragmentShader": "shaders/current_color.fragment"
+  },
+
+  "reality_frame_cutout": {
+    "states":["Blending"],
+
+     "vertexShader": "shaders/position.vertex",
+     "fragmentShader": "shaders/current_color.fragment"
+  },
+
+  "reality_frame_skyfill": {
+
+     "states": [
+        "DisableDepthTest",
+        "Blending"
+     ],
+
+     "vertexShader": "shaders/position.vertex",
+     "fragmentShader": "shaders/current_color.fragment"
+  },
+
+  "living_room": {
+     "depthFunc": "LessEqual",
+
+     "vertexShader": "shaders/uv.vertex",
+     "fragmentShader": "shaders/texture_ccolor.fragment"
+  }
+}

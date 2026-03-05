@@ -1,0 +1,37 @@
+{
+  "definition.horse_v2": {
+    "textures": {
+      "base_brown": "textures/entity/horse2/horse_brown",
+      "base_white": "textures/entity/horse2/horse_white",
+      "base_creamy": "textures/entity/horse2/horse_creamy",
+      "base_chestnut": "textures/entity/horse2/horse_chestnut",
+      "base_black": "textures/entity/horse2/horse_black",
+      "base_gray": "textures/entity/horse2/horse_gray",
+      "base_darkbrown": "textures/entity/horse2/horse_darkbrown",
+      "markings_none": "textures/entity/horse2/horse_markings_none",
+      "markings_white": "textures/entity/horse2/horse_markings_white",
+      "markings_whitefield": "textures/entity/horse2/horse_markings_whitefield",
+      "markings_whitedots": "textures/entity/horse2/horse_markings_whitedots",
+      "markings_blackdots": "textures/entity/horse2/horse_markings_blackdots",
+      "mule": "textures/entity/horse2/mule",
+      "donkey": "textures/entity/horse2/donkey",
+      "skeleton": "textures/entity/horse2/horse_skeleton",
+      "zombie": "textures/entity/horse2/horse_zombie",
+      "armor_none": "textures/entity/horse2/armor/horse_armor_none",
+      "armor_leather": "textures/entity/horse2/armor/horse_armor_leather",
+      "armor_iron": "textures/entity/horse2/armor/horse_armor_iron",
+      "armor_gold": "textures/entity/horse2/armor/horse_armor_gold",
+      "armor_diamond": "textures/entity/horse2/armor/horse_armor_diamond"
+    },
+    "team_masks": {
+      "base_brown": "textures/entity/team_mask/horse2",
+      "mule": "textures/entity/team_mask/horse2",
+      "donkey": "textures/entity/team_mask/horse2",
+      "skeleton": "textures/entity/team_mask/horse2",
+      "zombie": "textures/entity/team_mask/horse2"
+    },
+    "geometry": {
+      "default": "geometry.horse.v2"
+    }
+  }
+}

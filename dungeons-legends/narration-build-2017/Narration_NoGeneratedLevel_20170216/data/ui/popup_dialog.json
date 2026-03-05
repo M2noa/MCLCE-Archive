@@ -1,0 +1,112 @@
+{
+  "namespace": "popup_dialog",
+
+  "button_image": {
+    "$button_text|default": "",
+    "$button_text_offset|default": [ 0, 0 ],
+    "type": "image",
+    "nineslice_size": 2,
+    "uv": [ 0, 0 ],
+    "uv_size": [ 6, 6 ],
+    "controls": [
+      {
+        "button_label": {
+          "type": "label",
+          "layer": 6,
+          "size": [ "100%", "100%" ],
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "color": [ 0.3, 0.3, 0.3 ],
+          "offset": "$button_text_offset",
+          "text": "$button_text"
+        }
+      }
+    ]
+  },
+
+  //--------------------------------------------------------------------------------
+  // Popup Dialog
+  //--------------------------------------------------------------------------------
+
+  "popup_dialog_bg": {
+    "type": "image",
+    "texture": "gui/newgui/NormalButtonThin.png",
+    "uv": [ 0, 0 ],
+    "uv_size": [ 5, 5 ],
+    "nineslice_size": 1
+  },
+
+  "popup_dialog_message": {
+    "type": "label",
+    "layer": 31,
+    "wrap": true,
+    "clip": true,
+    "alignment": "top_middle",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [ "90%", "68%" ],
+    "offset": [ 0, 4 ],
+    "color": [ 0.3, 0.3, 0.3 ],
+    "text": "$message_text"
+  },
+
+  "popup_dialog_button@common.button": {
+    "layer": 31,
+    "size": [ "40%", "20%" ],
+    "controls": [
+      {
+        "default@popup_dialog.button_image": {
+          "texture": "gui/newgui/ButtonWithBorder.png"
+        }
+      },
+      {
+        "hover@popup_dialog.button_image": {
+          "texture": "gui/newgui/ButtonWithBorderHover.png"
+        }
+      },
+      {
+        "pressed@popup_dialog.button_image": {
+          "texture": "gui/newgui/ButtonWithBorderPressed.png"
+        }
+      }
+    ]
+  },
+
+  "popup_dialog_left_button@popup_dialog_button": {
+    "$pressed_button_name": "$left_button_press",
+    "$button_text": "$left_button_text",
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "offset": [ "6.5%", "-8%" ]
+  },
+
+  "popup_dialog_middle_button@popup_dialog_button": {
+    "$pressed_button_name": "$middle_button_press",
+    "$button_text": "$middle_button_text",
+    "anchor_from": "bottom_middle",
+    "anchor_to": "bottom_middle",
+    "offset": [ 0, "-8%" ]
+  },
+
+  "popup_dialog_right_button@popup_dialog_button": {
+    "$pressed_button_name": "$right_button_press",
+    "$button_text": "$right_button_text",
+    "anchor_from": "bottom_right",
+    "anchor_to": "bottom_right",
+    "offset": [ "-6.5%", "-8%" ]
+  },
+
+  "popup_dialog": {
+    "type": "input_panel",
+    "modal": true,
+    "layer": 30,
+    "size": [ 204, 140 ],
+    "button_mappings": [
+      {
+        "from_button_id": "button.menu_cancel",
+        "to_button_id": "modal.escape",
+        "mapping_type": "global"
+      }
+    ]
+  }
+}

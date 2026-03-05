@@ -1,0 +1,21 @@
+// __multiversion__
+//This file is purely here to let the code compile. It is used only for Hololens, which currently runs only on DX11 compatible devices
+
+#if __VERSION__ >= 300
+#define attribute in
+#define varying out
+#endif
+
+uniform MAT4 WORLDVIEWPROJ;
+
+attribute mediump vec4 POSITION;
+attribute vec4 COLOR;
+
+varying vec4 color;
+
+void main()
+{
+    gl_Position = WORLDVIEWPROJ * POSITION;
+
+    color = COLOR;
+}

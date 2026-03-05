@@ -1,0 +1,14 @@
+{
+  "definition.stray": {
+    "textures": {
+      "default": "textures/entity/skeleton/stray",
+      "overlay": "textures/entity/skeleton/stray_overlay"
+    },
+    "geometry": {
+      "default": "geometry.skeleton.stray",
+      "armor1": "geometry.humanoid.armor1",
+      "armor2": "geometry.humanoid.armor2",
+      "overlay": "geometry.stray.armor"
+    }
+  }
+}

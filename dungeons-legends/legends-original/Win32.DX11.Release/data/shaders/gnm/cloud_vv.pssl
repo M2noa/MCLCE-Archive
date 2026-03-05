@@ -1,0 +1,37 @@
+#include "ShaderConstantsGNM.h"
+
+struct VS_Input
+{
+    float3 position : POSITION;
+    float4 color : COLOR;
+};
+
+
+struct PS_Input
+{
+    float4 position : S_POSITION;
+    float4 color : COLOR;
+};
+
+static const float fogNear = 0.9;
+
+static const float3 inverseLightDirection = float3( 0.62, 0.78, 0.0 );
+static const float ambient = 0.7;
+
+PS_Input main( in VS_Input VSInput )
+{
+	PS_Input PSInput = (PS_Input)0;
+
+	PSInput.position = mul(WORLDVIEWPROJ, float4(VSInput.position, 1));
+	float3 worldPos = float3(mul(WORLD, float4(VSInput.position, 1)));
+
+    PSInput.color = VSInput.color * CURRENT_COLOR;
+
+	float depth = length(worldPos) / RENDER_DISTANCE;
+
+    float fog = max( depth - fogNear, 0.0 );
+
+    PSInput.color.a *= 1.0 - fog;
+
+	return PSInput;
+}
