@@ -83,9 +83,9 @@ Large files (>100MB) are stored using Git LFS:
 
 - Console Edition: https://bin.skylvi.net/Leaks/Minecraft/
 - Dungeons source: https://drive.proton.me/urls/EVM0GRC0MM#WckH5oSa6fOn
-- Dungeons/Legends builds: https://hazbinhelluvageneral.com/cubevideojuego/
+- Dungeons/Legends builds: https://hazbinhelluvageneral.com/cubevideojuego/cubegame
 - Legends: https://archive.org/details/minecraft-console-legacy-edition-source-code-leak
-- Story Mode: https://hazbinhelluvageneral.com/cubevideojuego/
+- Story Mode: https://hazbinhelluvageneral.com/cubevideojuego/cubegame
 
 ## DMCA Information
 
