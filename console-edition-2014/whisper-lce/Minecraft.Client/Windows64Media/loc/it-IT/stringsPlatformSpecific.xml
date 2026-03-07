@@ -1,0 +1,243 @@
+﻿<root>
+	<data name="IDS_TIPS_GAMETIP_0">
+		<value>Se giochi in modalità Alta definizione, fino a quattro giocatori possono divertirsi a schermo diviso sulla stessa console!</value>
+	</data>	
+
+	<data name="IDS_TIPS_GAMETIP_1">
+		<value>Collega i controller extra alla tua console e premi START su ciascuno per entrare in una partita in qualsiasi momento.</value>
+	</data>	
+
+	<data name="IDS_TIPS_GAMETIP_44">
+		<value>Segui 4J Studios e Kappische su twitter per le ultime notizie sul gioco!</value>
+	</data>	
+
+	<data name="IDS_TIPS_GAMETIP_45">
+		<value>Fai bella figura con gli amici: pubblica su Facebook screenshot delle tue creazioni Minecraft dal menu di pausa nel gioco!</value>
+	</data>	
+
+	<data name="IDS_TIPS_GAMETIP_48">
+		<value>minecraftforum contiene una sezione dedicata alla Xbox 360 Edition.</value>
+	</data>	
+
+	<data name="IDS_TIPS_TRIVIA_4">
+		<value>Riteniamo che 4J Studios abbia rimosso Herobrine dal gioco per Xbox 360, ma non ne siamo sicuri.</value>
+	</data>	
+
+	<data name="IDS_TIPS_TRIVIA_17">
+		<value>Minecraft: Xbox 360 Edition ha battuto diversi record!</value>
+	</data>	
+
+	<data name="IDS_HOW_TO_PLAY_MULTIPLAYER">
+		<value>{*T3*}COME GIOCARE: MULTIPLAYER{*ETW*}{*B*}{*B*}
+Minecraft per Xbox 360 è un gioco multiplayer per impostazione predefinita. Se giochi in alta definizione, puoi aggiungere giocatori locali alla partita collegando altri controller e premendo START in qualsiasi momento.{*B*}{*B*}
+Quando avvii o accedi a una partita online, essa sarà visibile alle persone incluse nella tua lista amici (a meno che, come host, tu non abbia selezionato l'opzione "Solo invito") e, se entreranno nella partita, essa sarà visibile alle persone incluse nella loro lista amici (se hai selezionato l'opzione "Accetta amici di amici").
+Durante una partita, premi il pulsante BACK per richiamare un elenco di tutti i giocatori e visualizzarne la scheda giocatore, e per espellere o invitare altri utenti.
+</value>
+	</data>	
+
+	<data name="IDS_HOW_TO_PLAY_SOCIALMEDIA">
+		<value>{*T3*}COME GIOCARE: CONDIVISIONE DI SCREENSHOT{*ETW*}{*B*}{*B*}
+Puoi salvare uno screenshot del gioco visualizzando il menu di pausa e premendo{*CONTROLLER_VK_Y*} per condividerlo su Facebook. Apparirà un'anteprima in miniatura dello screenshot e potrai modificare il testo associato al post di Facebook.{*B*}{*B*}
+Esiste una modalità fotografica appositamente progettata per il salvataggio di screenshot, che ti consente di vedere il tuo personaggio frontalmente: premi{*CONTROLLER_ACTION_CAMERA*} finché non vedi la parte frontale del personaggio, poi premi{*CONTROLLER_VK_Y*} per condividere.{*B*}{*B*}
+I gamertag non vengono visualizzati nello screenshot.
+  </value>
+	</data>	
+
+	<data name="IDS_HOW_TO_PLAY_CREATIVE">
+		<value>{*T3*}COME GIOCARE: MODALITÀ CREATIVA{*ETW*}{*B*}{*B*}
+L'interfaccia della modalità Creativa consente al giocatore di spostare nel proprio inventario qualsiasi oggetto senza doverlo scavare o creare. 
+Gli oggetti presenti nell'inventario non saranno rimossi quando vengono posizionati o usati nel mondo; in questo modo, il giocatore non dovrà preoccuparsi di raccogliere risorse e potrà concentrarsi sulla costruzione.{*B*}
+Se crei, carichi o salvi un mondo in modalità Creativa, gli obiettivi e gli aggiornamenti di classifica saranno disabilitati e lo resteranno anche se quel mondo verrà successivamente caricato in modalità Sopravvivenza.{*B*}
+Per volare mentre sei in modalità Creativa, premi rapidamente {*CONTROLLER_ACTION_JUMP*} due volte. Ripeti l'azione per interrompere il volo. Per volare più rapidamente, sposta in avanti{*CONTROLLER_ACTION_MOVE*} due volte in rapida successione mentre stai volando. 
+Durante il volo, puoi tenere premuto{*CONTROLLER_ACTION_JUMP*} per salire e{*CONTROLLER_ACTION_SNEAK*} per scendere, oppure usare{*CONTROLLER_ACTION_DPAD_UP*} per salire e {*CONTROLLER_ACTION_DPAD_DOWN*} per scendere, 
+{*CONTROLLER_ACTION_DPAD_LEFT*} per andare a sinistra e {*CONTROLLER_ACTION_DPAD_RIGHT*} per andare a destra.</value>
+	</data>	
+
+	<data name="IDS_TUTORIAL_TASK_FLY">
+		<value>In modalità Creativa, premi due volte rapidamente{*CONTROLLER_ACTION_JUMP*} per volare. Ripeti l'azione per interrompere il volo. Per volare più rapidamente, sposta in avanti{*CONTROLLER_ACTION_MOVE*} due volte in rapida successione mentre stai volando. 
+Durante il volo, puoi tenere premuto{*CONTROLLER_ACTION_JUMP*} per salire e{*CONTROLLER_ACTION_SNEAK*} per scendere, oppure utilizzare il tasto D per salire, scendere e spostarti lateralmente.</value>
+	</data>	
+
+	<data name="IDS_TOOLTIPS_SELECTDEVICE">
+		<value>Seleziona periferica</value>
+	</data>	
+
+	<data name="IDS_TOOLTIPS_CHANGEDEVICE">
+		<value>Cambia periferica</value>
+	</data>	
+
+	<data name="IDS_TOOLTIPS_VIEW_GAMERCARD">
+		<value>Scheda giocatore</value>
+	</data>	
+
+	<data name="IDS_TOOLTIPS_VIEW_GAMERPROFILE">
+		<value>Visualizza profilo giocatore</value>
+	</data>	
+
+	<data name="IDS_TOOLTIPS_INVITE_PARTY">
+		<value>Invito Party Xbox Live</value>
+	</data>	
+
+
+	<data name="IDS_CONFIRM_START_CREATIVE">
+		<value>Se crei, carichi o salvi un mondo in modalità Creativa, gli obiettivi e gli aggiornamenti della classifica saranno disabilitati e lo resteranno anche se quel mondo verrà successivamente caricato in modalità Sopravvivenza. Vuoi davvero continuare?</value>
+	</data>	
+
+	<data name="IDS_CONFIRM_START_SAVEDINCREATIVE">
+		<value>Questo mondo è stato precedentemente salvato in modalità Creativa. Gli obiettivi e gli aggiornamenti della classifica sono disabilitati. Vuoi davvero continuare?</value>
+	</data>	
+
+	<data name="IDS_CONFIRM_START_SAVEDINCREATIVE_CONTINUE">
+		<value>Questo mondo è stato precedentemente salvato in modalità Creativa. Gli obiettivi e gli aggiornamenti della classifica sono disabilitati.</value>
+	</data>	
+
+	<data name="IDS_CONFIRM_START_HOST_PRIVILEGES">
+		<value>Se crei, carichi o salvi un mondo con l'opzione Privilegi dell'host abilitata, gli obiettivi e gli aggiornamenti della classifica saranno disabilitati e lo resteranno anche se quel mondo verrà successivamente caricato con l'opzione disattivata. Vuoi davvero continuare?</value>
+	</data>	
+
+	<data name="IDS_CONNECTION_LOST_LIVE">
+		<value>Connessione a Xbox Live persa. Tornerai al menu principale.</value>
+	</data>	
+
+	<data name="IDS_CONNECTION_LOST_LIVE_NO_EXIT">
+		<value>Connessione a Xbox Live persa.</value>
+	</data>	
+
+	<data name="IDS_AWARD_AVATAR1">
+		<value>Evviva, hai ottenuto un oggetto avatar: una t-shirt Minecraft: Xbox 360 Edition!
+Vai alla dashboard per farla indossare al tuo avatar.</value>
+	</data>	
+
+	<data name="IDS_AWARD_AVATAR2">
+		<value>Evviva, hai ottenuto un oggetto avatar: un orologio Minecraft: Xbox 360 Edition!
+Vai alla dashboard per farlo indossare al tuo avatar.</value>
+	</data>	
+
+	<data name="IDS_AWARD_AVATAR3">
+		<value>Evviva, hai ottenuto un oggetto avatar: un cappellino creeper!
+Vai alla dashboard per farlo indossare al tuo avatar.</value>
+	</data>	
+
+	<data name="IDS_AWARD_THEME">
+		<value>Evviva, hai ottenuto il tema di Minecraft: Xbox 360 Edition!
+Vai alla dashboard per selezionarlo.</value>
+	</data>	
+
+	<data name="IDS_UNLOCK_ACHIEVEMENT_TEXT">
+		<value>Questa è la versione di prova di Minecraft: Xbox 360 Edition. Se avessi il gioco completo, avresti sbloccato un obiettivo!
+Vuoi sbloccare il gioco completo?</value>
+	</data>	
+
+	<data name="IDS_UNLOCK_AVATAR_TEXT">
+		<value>Questa è la versione di prova di Minecraft: Xbox 360 Edition. Se avessi il gioco completo, avresti ottenuto un premio avatar!
+Vuoi sbloccare il gioco completo?</value>
+	</data>	
+
+	<data name="IDS_UNLOCK_GAMERPIC_TEXT">
+		<value>Questa è la versione di prova di Minecraft: Xbox 360 Edition. Se avessi il gioco completo, avresti ottenuto un'immagine del giocatore!
+Vuoi sbloccare il gioco completo?</value>
+	</data>	
+
+	<data name="IDS_UNLOCK_THEME_TEXT">
+		<value>Questa è la versione di prova di Minecraft: Xbox 360 Edition. Se avessi il gioco completo, avresti ottenuto un tema!
+Vuoi sbloccare il gioco completo?</value>
+	</data>	
+
+	<data name="IDS_UNLOCK_ACCEPT_INVITE">
+		<value>Questa è la versione di prova di Minecraft: Xbox 360 Edition. Per accettare questo invito è necessario il gioco completo. 
+Vuoi sbloccare il gioco completo?</value>
+	</data>	
+
+	<data name="IDS_UNLOCK_GUEST_TEXT">
+		<value>I giocatori ospiti non possono sbloccare il gioco completo. Effettua l'accesso con un ID utente di Xbox Live.</value>
+	</data>	
+
+	<data name="IDS_LEADERBOARD_GAMERTAG">
+		<value>Gamertag</value>
+	</data>	
+
+	<data name="IDS_GROUPNAME_POTIONS_480">
+		<value>Distillazione</value>
+	</data>	
+
+	<data name="IDS_RETURNEDTOTITLESCREEN_TEXT">
+		<value>Sei tornato alla schermata iniziale perché il tuo profilo giocatore si è disconnesso</value>
+	</data>	
+
+	<data name="IDS_TRIALOVER_TEXT">
+		<value>Hai giocato alla versione di prova di Minecraft: Xbox 360 Edition per il tempo massimo consentito! Per continuare a divertirti, vuoi sbloccare il gioco completo? </value>
+	</data>	
+
+	<data name="IDS_FATAL_ERROR_TEXT">
+		<value>Caricamento "Minecraft: "Minecraft: Xbox 360 Edition" non riuscito, impossibile continuare.</value>
+	</data>	
+
+	<data name="IDS_NO_MULTIPLAYER_PRIVILEGE_JOIN_TEXT">
+		<value>Impossibile accedere alla partita: uno o più giocatori non possono disputare partite multiplayer su Xbox Live.</value>
+	</data>	
+
+	<data name="IDS_NO_MULTIPLAYER_PRIVILEGE_HOST_TEXT">
+		<value>Impossibile creare una partita online: uno o più giocatori non possono disputare partite multiplayer su Xbox Live. Deseleziona la casella "Gioco online" per avviare una partita offline.</value>
+	</data>	
+
+	<data name="IDS_NO_USER_CREATED_CONTENT_PRIVILEGE_SINGLE_LOCAL">
+		<value>Non ti è consentito accedere a questa sessione di gioco perché l'impostazione per i privilegi dei contenuti dell'abbonato è troppo restrittiva. Modificala nella sezione Impostazioni privacy e online della Xbox Dashboard se desideri accedere a questa sessione.</value>
+	</data>	
+
+	<data name="IDS_NO_USER_CREATED_CONTENT_PRIVILEGE_ALL_LOCAL">
+		<value>Non ti è consentito accedere a questa sessione di gioco perché uno dei giocatori locali ha un'impostazione per i privilegi dei contenuti dell'abbonato troppo restrittiva.</value>
+	</data>	
+
+	<data name="IDS_NO_USER_CREATED_CONTENT_PRIVILEGE_REMOTE">
+		<value>Non ti è consentito accedere a questa sessione di gioco perché uno dei giocatori nella sessione ha i privilegi dei contenuti dell'abbonato impostati su Solo amici, e tu non sei nella sua lista amici.</value>
+	</data>	
+
+	<data name="IDS_NO_USER_CREATED_CONTENT_PRIVILEGE_CREATE">
+		<value>Non ti è consentito creare questa sessione di gioco perché uno dei giocatori locali ha un'impostazione per i privilegi dei contenuti dell'abbonato troppo restrittiva. Deseleziona la casella "Gioco online" per avviare una partita offline, oppure modifica questa impostazione nella sezione Impostazioni privacy e online della Xbox Dashboard.</value>
+	</data>	
+
+	<data name="IDS_SAVE_ICON_MESSAGE">
+		<value>Questo gioco utilizza una funzione di autosalvataggio. Quando appare l'icona qui sopra, il gioco sta salvando i dati.
+Non spegnere la console Xbox 360 mentre l'icona è visualizzata.</value>
+	</data>	
+
+	<data name="IDS_GAMEOPTION_HOST_PRIVILEGES">
+		<value>Se l'opzione é abilitata, l'host può att./dis. la possibilità di volare, disabilitare la stanchezza e rendersi invisibile. Obiettivi e aggiornamenti della classifica verranno disabilitati.</value>
+	</data>	
+
+	<data name="IDS_CHECKBOX_DISPLAY_SPLITSCREENGAMERTAGS">
+		<value>Gamertag schermo diviso</value>
+	</data>	
+
+	<data name="IDS_ACHIEVEMENTS">
+		<value>Obiettivi</value>
+	</data>	
+
+	<data name="IDS_LABEL_GAMERTAGS">
+		<value>Gamertag:</value>
+	</data>	
+
+	<data name="IDS_IN_GAME_GAMERTAGS">
+		<value>Gamertag nel gioco</value>
+	</data>	
+
+	<data name="IDS_SOCIAL_DEFAULT_DESCRIPTION">
+		<value>Guarda cosa ho fatto a Minecraft: Xbox 360 Edition!</value>
+	</data>	
+
+	<data name="IDS_TITLE_UPDATE_NAME">
+		<value>Aggiornamento 14</value>
+	</data>	
+
+	<data name="IDS_PLATFORM_NAME">
+		<value>Xbox 360</value>
+	</data>	
+
+	<data name="IDS_BACK_BUTTON">
+		<value>Indietro</value>
+	</data>	
+
+	<data name="IDS_HOST_OPTION_DISABLES_ACHIEVEMENTS">
+		<value>L'opzione disabilita gli obiettivi e gli aggiornamenti della classifica durante il gioco e, se la partita viene salvata con l'opzione abilitata, l'impostazione rimane anche quando lo stesso mondo viene caricato di nuovo successivamente.</value>
+	</data>	
+</root>
