@@ -9,10 +9,14 @@ README.txt
 *.log
 .vs/
 
-# Exclude archive files larger than 2GB (GitHub LFS limit)
+# Exclude archive files larger than 2GB (GitHub LFS limit) - originals kept locally
 archives/patch.zip
 archives/enderman.zip
 archives/linux-test.zip
 archives/endercon.zip
 archives/mc-console-oct2014.zip
 archives/minecraft.rar
+archives/client-main.zip
+
+# Exclude spice.tar.bz2 (73GB - too large for GitHub)
+archives/spice.tar.bz2

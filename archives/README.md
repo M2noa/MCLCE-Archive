@@ -4,21 +4,60 @@
 > All files in this `archives/` directory are sourced from `https://hazbinhelluvageneral.com/cubevideojuego/cubegame/` for archival and preservation purposes only.
 
 > [!IMPORTANT]
-> **GitHub File Size Limitation:** Files larger than 2GB cannot be stored on GitHub even with Git LFS. The following files exceed this limit and must be downloaded from the source:
-> - `patch.zip` (4.2 GB)
-> - `enderman.zip` (3.8 GB)
-> - `linux-test.zip` (3.8 GB)
-> - `endercon.zip` (3.2 GB)
-> - `mc-console-oct2014.zip` (2.2 GB)
-> - `minecraft.rar` (2.2 GB)
->
-> Use the `download.bat` script to download all files including those above the GitHub limit.
+> **GitHub File Size Limitation:** Files larger than 2GB cannot be stored on GitHub even with Git LFS. For files exceeding this limit, split 7z archives are provided in subdirectories.
 
 ## Archive Source
 
 **Primary Source:** https://hazbinhelluvageneral.com/cubevideojuego/cubegame/
 
 This folder contains the original downloaded archives that were extracted to create the organized source code structure in the parent directories.
+
+## Split Archives (Files Over 2GB)
+
+Files larger than 2GB have been split into multi-part 7z archives (1.5GB per part) stored in subdirectories. Download all parts and extract with 7-Zip to get the original archive.
+
+| Original File | Split Archive Location | Parts | Total Size | Source |
+|---------------|------------------------|-------|------------|--------|
+| `patch.zip` | `patch/patch.7z.001, .002, .003` | 3 | 4.2 GB | Story Mode beta branch |
+| `enderman.zip` | `enderman/enderman.7z.001, .002, .003` | 3 | 3.8 GB | Story Mode beta branch |
+| `linux-test.zip` | `linux-test/linux-test.7z.001, .002, .003` | 3 | 3.8 GB | Story Mode beta branch |
+| `endercon.zip` | `endercon/endercon.7z.001, .002, .003` | 3 | 3.2 GB | Story Mode beta branch |
+| `mc-console-oct2014.zip` | `mc-console-oct2014/mc-console-oct2014.7z.001, .002` | 2 | 2.2 GB | Console Edition Oct 2014 |
+| `minecraft.rar` | `minecraft-rar/minecraft.7z.001, .002` | 2 | 2.2 GB | Console Edition full source |
+| `client-main.zip` | `whisperlce/client-main.7z.001, .002` | 2 | 2.3 GB | WhisperLCE (unfinished fork) |
+
+### Extracting Split Archives
+
+1. Download all parts (e.g., `patch.7z.001`, `patch.7z.002`, `patch.7z.003`)
+2. Place all parts in the same directory
+3. Extract using 7-Zip: `7z x patch.7z.001`
+4. The original archive will be extracted
+
+## Dungeons Source Code (spice.tar.bz2)
+
+> [!NOTE]
+> **Manual Download Required:** `spice.tar.bz2` (73 GB) is too large for GitHub.
+> 
+> **Download from:** https://gofile.io/d/fKXn35
+>
+> **MD5:** `c428497ef955d2e03d51f6482bd5d08e`  
+> **SHA256:** `6b4c19976a2ea12e62df55eb10bce8a34a2f071e94d8a3a6b61ee671c5121e76`
+
+This archive contains the Minecraft Dungeons source code (spice project).
+
+## WhisperLCE (client-main.zip)
+
+> [!NOTE]
+> **WhisperLCE** is an unfinished fork of Minecraft Legacy Console Edition created by WhisperHere.
+> 
+> **Leaked:** https://x.com/rockoutgang02/status/2030182283777364433
+>
+> **Extracted Location:** `../console-edition-2014/whisperlce/`
+>
+> **MD5:** `2a50149276018854dfa13af3e39cd365`  
+> **SHA256:** `fb523d29139934c5fdee19a551801588d2dd40f1949bc7a01f2ebfc1b0c16a28`
+
+This is an unfinished fork/modification of the Legacy Console Edition source code.
 
 ## Download Script
 
@@ -33,20 +72,12 @@ This will:
 1. Download all archive files from the source URL
 2. Generate MD5 and SHA256 hashes for verification
 
-## Hash Generation
-
-To generate hashes for existing files, run:
-
-```batch
-generate-hashes.bat
-```
-
-This creates `hashes.txt` with all file checksums in CSV format.
-
 ## File Hashes
 
 > [!NOTE]
 > Generated: 2026-03-07
+> 
+> See `hashes.md` for detailed hash information for all files.
 
 | File | Size | MD5 | SHA256 |
 |------|------|-----|--------|
