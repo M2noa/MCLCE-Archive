@@ -1,9 +1,6 @@
 # OpenCode configuration
 opencode.json
 
-# Exclude original zip archives
-*.zip
-
 # Exclude README.txt (original file)
 README.txt
 
@@ -11,3 +8,11 @@ README.txt
 /console-edition-2014/lcemp/
 *.log
 .vs/
+
+# Exclude archive files larger than 2GB (GitHub LFS limit)
+archives/patch.zip
+archives/enderman.zip
+archives/linux-test.zip
+archives/endercon.zip
+archives/mc-console-oct2014.zip
+archives/minecraft.rar

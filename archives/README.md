@@ -3,6 +3,17 @@
 > [!WARNING]
 > All files in this `archives/` directory are sourced from `https://hazbinhelluvageneral.com/cubevideojuego/cubegame/` for archival and preservation purposes only.
 
+> [!IMPORTANT]
+> **GitHub File Size Limitation:** Files larger than 2GB cannot be stored on GitHub even with Git LFS. The following files exceed this limit and must be downloaded from the source:
+> - `patch.zip` (4.2 GB)
+> - `enderman.zip` (3.8 GB)
+> - `linux-test.zip` (3.8 GB)
+> - `endercon.zip` (3.2 GB)
+> - `mc-console-oct2014.zip` (2.2 GB)
+> - `minecraft.rar` (2.2 GB)
+>
+> Use the `download.bat` script to download all files including those above the GitHub limit.
+
 ## Archive Source
 
 **Primary Source:** https://hazbinhelluvageneral.com/cubevideojuego/cubegame/
@@ -35,24 +46,26 @@ This creates `hashes.txt` with all file checksums in CSV format.
 ## File Hashes
 
 > [!NOTE]
-> Hashes will be populated after running `download.bat` or manually downloading the files.
+> Generated: 2026-03-07
 
-| File | MD5 | SHA256 |
-|------|-----|--------|
-| `mc-console-oct2014.zip` | *pending* | *pending* |
-| `mc-cpp-snapshot.zip` | *pending* | *pending* |
-| `minecraft.rar` | *pending* | *pending* |
-| `MinecraftConsoles-141217.zip` | *pending* | *pending* |
-| `MinecraftPS3Edition.7z` | *pending* | *pending* |
-| `minecraft_dungeons.zip` | *pending* | *pending* |
-| `minecraft_legends.zip` | *pending* | *pending* |
-| `filelist.txt` | *pending* | *pending* |
-| `Narration_NoGeneratedLevel_20170216.zip` | *pending* | *pending* |
-| `enderman.zip` | *pending* | *pending* |
-| `endercon.zip` | *pending* | *pending* |
-| `linux-test.zip` | *pending* | *pending* |
-| `patch.zip` | *pending* | *pending* |
-| `info_storymode.txt` | *pending* | *pending* |
+| File | Size | MD5 | SHA256 |
+|------|------|-----|--------|
+| `mc-console-oct2014.zip` | 2.2 GB | `7132eb8132a66b1ca362177afdb06ae0` | `f0fd83f3fe2693dbcd53336e57f5d1823232723b6c45583e3c8898ee358687cd` |
+| `mc-cpp-snapshot.zip` | 20.6 MB | `4e13c237b6191f5a6cb18cdd0a920248` | `26edfab4681eee29bd65028dd24c093e87d230aa343f282e1ab9be4f0e6331fb` |
+| `minecraft.rar` | 2.2 GB | `66ecffa7d23adb20476a4c8c24757692` | `7b250bb3b4c8358e028f54dfa28dea7b99558ae202cfb047232524801dcec45c` |
+| `MinecraftConsoles-141217.zip` | 496 MB | `2afe963d2900c997cdcb4ca744af9498` | `9f5dfdfaab574df6798959afefe483546bedc0ba463e8f40a4d6102af297229b` |
+| `MinecraftPS3Edition.7z` | 573 MB | `7f6b84b3fefb089ab80257cf1c6805d1` | `d3c6449dc38d8579f7a799689bec50fdfb3cdc5b105761dda61e1bcef028077f` |
+| `minecraft_dungeons.zip` | 156 MB | `4c051a49abc16af3be8f0ab824f5ee2b` | `dd279cf738a16f78c7d733e5fb213426857cc2a4855cfad06ec40d3ec464efb0` |
+| `minecraft_legends.zip` | 160 MB | `7710c2f9fee1a36eec4f895a4484b8cd` | `f70a989e022143e00a3d2f42cc07c192357fe46b3b1f58cd94a20511ab6d0a7d` |
+| `Narration_NoGeneratedLevel_20170216.zip` | 207 MB | `a9612bb2de0e94a0f4fa53df13f5cb69` | `8335fc69be80cd340730473a0923a3e5891ab34e61297b8735bb286a4c4b0c93` |
+| `enderman.zip` | 3.8 GB | `195390cac9cd14706941c7b9fad194e6` | `fe0773a49791041cd01e14a2cfdf5c4506fc71a473530bffd59572066aed048a` |
+| `endercon.zip` | 3.2 GB | `5b0e21623c2790ac6c253fa2c3585bbb` | `9f130c6142e6945fdd61664d70768dfe87dd8f93b60ad188936a02d220b3c5be` |
+| `linux-test.zip` | 3.8 GB | `64302c1c4fdb3a444968a664844156c9` | `4b3fc3955023c3c6e239586579f55fff328ad9e0a05646dc0c8d461446c8bf18` |
+| `patch.zip` | 4.2 GB | `a706df1fe8ce4a9422864933eec8b040` | `562413c94c7d7b276574548728d3bc92b2b057175672967ec8dbdab56e3b32e8` |
+| `filelist.txt` | 508 KB | - | - |
+| `info_storymode.txt` | 7.8 KB | - | - |
+
+**Total Size:** ~20.9 GB
 
 ## Archive Contents Overview
 

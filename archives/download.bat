@@ -2,7 +2,7 @@
 REM Download script for all archive files from hazbinhelluvageneral.com
 REM All files sourced from: https://hazbinhelluvageneral.com/cubevideojuego/cubegame/
 
-set BASE_URL=https://hazbinhelluvageneral.com/cubevideojuego/cubegame/
+set BASE_URL=https://hazbinhelluvageneral.com/cubevideojuego/
 
 echo Downloading Minecraft Console Edition archives...
 echo.
