@@ -78,7 +78,6 @@ MD5 hashes are for original archive files, not extracted folders. Use file count
 
 ### Console Edition (mc-console-oct2014)
 - Java-like build on C++ (not Bedrock-based)
-- Split archive due to Telegram's 2GB file upload limit
 - Original source: https://t.me/MDLC_main
 
 ### Pocket Edition (mc-cpp-snapshot)
@@ -128,8 +127,3 @@ https://boards.4chan.org/g/thread/108264778/minecraft-ps3-edition-source-code
 
 ### DMCA Information
 https://bin.skylvi.net/dmca
-
----
-
-**Last Updated:** 2026-03-04  
-**Repository Status:** Complete - All available builds archived
