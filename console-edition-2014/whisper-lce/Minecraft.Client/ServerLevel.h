@@ -128,8 +128,8 @@ public:
 	static const int MAX_ITEM_ENTITIES = 200;
 	static const int MAX_ARROW_ENTITIES = 200;
 	static const int MAX_EXPERIENCEORB_ENTITIES = 50;
-	static const int MAX_PRIMED_TNT = 20;
-	static const int MAX_FALLING_TILE = 20;
+	static const int MAX_PRIMED_TNT = 100;  // Increased from 20 to allow larger TNT cannons and explosions
+	static const int MAX_FALLING_TILE = 200;  // Increased from 20 to allow larger gravity block structures
 
 	int							m_primedTntCount;
 	int							m_fallingTileCount;

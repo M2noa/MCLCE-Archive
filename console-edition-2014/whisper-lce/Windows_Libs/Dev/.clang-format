@@ -1,0 +1,13 @@
+# Format Style Options - Created with Clang Power Tools
+---
+AccessModifierOffset: -4
+AlignConsecutiveMacros: true
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortEnumsOnASingleLine: false
+AlwaysBreakTemplateDeclarations: Yes
+ColumnLimit: 150
+EmptyLineBeforeAccessModifier: Never
+IndentAccessModifiers: false
+IndentWidth: 4
+NamespaceIndentation: All
+BreakBeforeBraces: Allman

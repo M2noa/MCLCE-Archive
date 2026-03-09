@@ -425,8 +425,12 @@ float GameRenderer::getFov(float a, bool applyEffects)
 	float fov = m_fov;//70;
     if (applyEffects)
 	{
-        fov += mc->options->fov * 40;
-        fov *= this->oFov[playerIdx] + (this->fov[playerIdx] - this->oFov[playerIdx]) * a;
+        fov += mc->options->fov * 50;
+        float fovMultiplier = this->oFov[playerIdx] + (this->fov[playerIdx] - this->oFov[playerIdx]) * a;
+        // Clamp multiplier to prevent extreme FOV values
+        if (fovMultiplier < 0.5f) fovMultiplier = 0.5f;
+        if (fovMultiplier > 1.5f) fovMultiplier = 1.5f;
+        fov *= fovMultiplier;
     }
 	if (player->getHealth() <= 0)
 	{
@@ -652,7 +656,7 @@ void GameRenderer::getFovAndAspect(float& fov, float& aspect, float a, bool appl
 
 void GameRenderer::setupCamera(float a, int eye)
 {
-	renderDistance = (float)(16 * 16 >> (mc->options->viewDistance));
+	renderDistance = (float)(mc->options->renderDistanceChunks * 16);
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
 

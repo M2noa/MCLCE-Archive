@@ -11,6 +11,7 @@ protected:
 	wstring title;
 private:
 	Options *options;
+	int scrollOffset;
 
 public:
 	VideoSettingsScreen(Screen *lastScreen, Options *options);
@@ -19,4 +20,5 @@ protected:
 	virtual void buttonClicked(Button *button);
 public:
 	virtual void render(int xm, int ym, float a);
+	virtual void mouseEvent();
 };

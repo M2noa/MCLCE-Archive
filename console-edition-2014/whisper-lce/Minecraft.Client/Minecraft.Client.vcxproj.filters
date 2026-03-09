@@ -3669,6 +3669,9 @@
     <ClInclude Include="Extrax64Stubs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Windows64\DebugSettingsWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -5736,6 +5739,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="miniupnpc\addr_is_reserved.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows64\DebugSettingsWindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

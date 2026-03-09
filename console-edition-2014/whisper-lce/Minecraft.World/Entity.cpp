@@ -1462,6 +1462,12 @@ bool Entity::isAlive()
 
 bool Entity::isInWall()
 {
+	// Fix: Random Damage Bug
+	// Original code dealt suffocation damage if ANY of 8 points touched a solid block.
+	// This caused false positives from floating point precision errors and standing near walls.
+	// Now requires at least 3 points to be inside blocks before dealing damage.
+	int pointsInsideBlocks = 0;
+	
 	for (int i = 0; i < 8; i++)
 	{
 		float xo = ((i >> 0) % 2 - 0.5f) * bbWidth * 0.8f;
@@ -1472,7 +1478,11 @@ bool Entity::isInWall()
 		int zt = Mth::floor(z + zo);
 		if (level->isSolidBlockingTile(xt, yt, zt))
 		{
-			return true;
+			pointsInsideBlocks++;
+			if (pointsInsideBlocks >= 3)
+			{
+				return true;
+			}
 		}
 	}
 	return false;

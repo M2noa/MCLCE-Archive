@@ -169,7 +169,8 @@ void KeyboardMouseInput::OnMouseMove(int x, int y)
 
 void KeyboardMouseInput::OnMouseWheel(int delta)
 {
-	m_mouseWheelAccum += delta;
+	if (delta > 0) m_mouseWheelAccum += 120;
+	else if (delta < 0) m_mouseWheelAccum -= 120;
 }
 
 void KeyboardMouseInput::OnRawMouseDelta(int dx, int dy)
@@ -309,6 +310,35 @@ void KeyboardMouseInput::SetWindowFocused(bool focused)
 	}
 	else
 	{
+		while (ShowCursor(TRUE) < 0) {}
+		ClipCursor(NULL);
+	}
+}
+
+void KeyboardMouseInput::SetKBMActive(bool active)
+{
+	m_kbmActive = active;
+	
+	// When switching to controller, ungrab mouse and show cursor
+	if (!active)
+	{
+		if (m_mouseGrabbed)
+		{
+			m_mouseGrabbed = false;
+			while (ShowCursor(TRUE) < 0) {}
+			ClipCursor(NULL);
+		}
+		if (m_cursorHiddenForUI)
+		{
+			m_cursorHiddenForUI = false;
+			while (ShowCursor(TRUE) < 0) {}
+			ClipCursor(NULL);
+		}
+	}
+	// When switching back to KBM, ensure cursor state is correct
+	else
+	{
+		// Force cursor to be visible initially when switching back
 		while (ShowCursor(TRUE) < 0) {}
 		ClipCursor(NULL);
 	}

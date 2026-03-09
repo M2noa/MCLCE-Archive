@@ -1,0 +1,10 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Input/Input.vcxproj" Id="258f8cf7-6317-480d-b07d-52a6846adf67" />
+  <Project Path="Profile/Profile.vcxproj" Id="d68297b9-ca86-4a8c-b81f-61811d7f96b8" />
+  <Project Path="Render/Render.vcxproj" Id="cc99eb47-7231-4067-8717-c6bf4abde338" />
+  <Project Path="Storage/Storage.vcxproj" Id="6ded1618-2ada-4d72-a11f-425e83c7042e" />
+</Solution>

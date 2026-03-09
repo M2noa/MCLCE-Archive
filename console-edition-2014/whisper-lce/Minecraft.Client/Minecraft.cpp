@@ -1531,10 +1531,11 @@ void Minecraft::run_middle()
 							//localplayers[i]->ullButtonsPressed|=1LL<<MINECRAFT_ACTION_RENDER_DEBUG;
 						}
 
-						if(g_KBMInput.IsKeyPressed(VK_F4))
-						{
-							showFpsCounter = !showFpsCounter;
-						}
+					if(g_KBMInput.IsKeyPressed(VK_F4))
+					{
+						options->showFpsOverlay = !options->showFpsOverlay;
+						options->save();
+					}
 
 						for (int slot = 0; slot < 9; slot++)
 						{
@@ -3300,8 +3301,8 @@ void Minecraft::tick(bool bFirst, bool bUpdateTextures)
 		if (iPad == 0 && wheel == 0 && g_KBMInput.IsKBMActive())
 		{
 			int mw = g_KBMInput.GetMouseWheel();
-			if (mw > 0) wheel = -1;
-			else if (mw < 0) wheel = 1;
+			if (mw > 0) wheel = 1;
+			else if (mw < 0) wheel = -1;
 		}
 #endif
 		if (wheel != 0)
@@ -4587,43 +4588,137 @@ bool Minecraft::renderDebug()
 
 bool Minecraft::handleClientSideCommand(const wstring& chatMessage)
 {
-	/* 4J - TODO
-	if (chatMessage.startsWith("/")) {
-	if (DEADMAU5_CAMERA_CHEATS) {
-	if (chatMessage.startsWith("/follow")) {
-	String[] tokens = chatMessage.split(" ");
-	if (tokens.length >= 2) {
-	String playerName = tokens[1];
-
-	boolean found = false;
-	for (Player player : level.players) {
-	if (playerName.equalsIgnoreCase(player.name)) {
-	cameraTargetPlayer = player;
-	found = true;
-	break;
+	if (chatMessage.empty() || chatMessage[0] != L'/') return false;
+	
+	wstring cmd = chatMessage.substr(1);
+	vector<wstring> tokens;
+	wstring token;
+	for (size_t i = 0; i < cmd.length(); i++)
+	{
+		if (cmd[i] == L' ')
+		{
+			if (!token.empty())
+			{
+				tokens.push_back(token);
+				token.clear();
+			}
+		}
+		else
+		{
+			token += cmd[i];
+		}
 	}
+	if (!token.empty()) tokens.push_back(token);
+	
+	if (tokens.empty()) return false;
+	
+	wstring command = tokens[0];
+	
+	if (command == L"tp" || command == L"teleport")
+	{
+		if (tokens.size() >= 4 && player != NULL)
+		{
+			try
+			{
+				float x = player->x;
+				float y = player->y;
+				float z = player->z;
+				
+				if (tokens[1][0] == L'~')
+				{
+					x += (tokens[1].length() > 1) ? (float)_wtof(tokens[1].substr(1).c_str()) : 0.0f;
+				}
+				else
+				{
+					x = (float)_wtof(tokens[1].c_str());
+				}
+				
+				if (tokens[2][0] == L'~')
+				{
+					y += (tokens[2].length() > 1) ? (float)_wtof(tokens[2].substr(1).c_str()) : 0.0f;
+				}
+				else
+				{
+					y = (float)_wtof(tokens[2].c_str());
+				}
+				
+				if (tokens[3][0] == L'~')
+				{
+					z += (tokens[3].length() > 1) ? (float)_wtof(tokens[3].substr(1).c_str()) : 0.0f;
+				}
+				else
+				{
+					z = (float)_wtof(tokens[3].c_str());
+				}
+				
+				player->moveTo(x, y, z, player->yRot, player->xRot);
+			}
+			catch (...) {}
+		}
+		return true;
 	}
-
-	if (!found) {
-	try {
-	int entityId = Integer.parseInt(playerName);
-	for (Entity e : level.entities) {
-	if (e.entityId == entityId && e instanceof Mob) {
-	cameraTargetPlayer = (Mob) e;
-	found = true;
-	break;
+	else if (command == L"gamemode" || command == L"gm")
+	{
+		if (tokens.size() >= 2 && gameMode != NULL)
+		{
+			int mode = _wtoi(tokens[1].c_str());
+			if (mode == 0)
+			{
+				delete gameMode;
+				gameMode = (MultiPlayerGameMode*)new SurvivalMode(this);
+			}
+			else if (mode == 1)
+			{
+				delete gameMode;
+				gameMode = (MultiPlayerGameMode*)new CreativeMode(this);
+			}
+		}
+		return true;
 	}
+	else if (command == L"time")
+	{
+		if (tokens.size() >= 3 && level != NULL)
+		{
+			if (tokens[1] == L"set")
+			{
+				int time = _wtoi(tokens[2].c_str());
+				level->setTime(time);
+			}
+			else if (tokens[1] == L"add")
+			{
+				int time = _wtoi(tokens[2].c_str());
+				level->setTime(level->getTime() + time);
+			}
+		}
+		return true;
 	}
-	} catch (NumberFormatException e) {
+	else if (command == L"kill")
+	{
+		if (player != NULL)
+		{
+			player->hurt(NULL, 1000);
+		}
+		return true;
 	}
+	else if (command == L"give")
+	{
+		if (tokens.size() >= 2 && player != NULL)
+		{
+			int itemId = _wtoi(tokens[1].c_str());
+			int count = (tokens.size() >= 3) ? _wtoi(tokens[2].c_str()) : 1;
+			if (count <= 0) count = 1;
+			if (count > 64) count = 64;
+			
+			shared_ptr<ItemInstance> item = make_shared<ItemInstance>(itemId, count, 0);
+			player->inventory->add(item);
+		}
+		return true;
 	}
+	else if (command == L"help")
+	{
+		return true;
 	}
-
-	return true;
-	}
-	}
-	}
-	*/
+	
 	return false;
 }
 

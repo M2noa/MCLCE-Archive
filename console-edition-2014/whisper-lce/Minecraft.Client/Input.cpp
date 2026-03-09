@@ -173,7 +173,7 @@ void Input::tick(LocalPlayer *player)
 		float mx = g_KBMInput.GetLookX(mouseSensitivity * mouseLookScale);
 		float my = g_KBMInput.GetLookY(mouseSensitivity * mouseLookScale);
 
-		if ( app.GetGameSettings(iPad,eGameSetting_ControlInvertLook) )
+		if ( pMinecraft->options->invertYMouse )
 		{
 			my = -my;
 		}

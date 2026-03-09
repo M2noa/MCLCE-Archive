@@ -35,9 +35,20 @@ void CConsoleMinecraftApp::FatalLoadError()
 
 void CConsoleMinecraftApp::CaptureSaveThumbnail()
 {
+	RenderManager.CaptureThumbnail(&m_ThumbnailBuffer);
 }
 void CConsoleMinecraftApp::GetSaveThumbnail(PBYTE *pbData,DWORD *pdwSize)
 {
+	if (m_ThumbnailBuffer.Allocated())
+	{
+		if (pbData)
+		{
+			*pbData = new BYTE[m_ThumbnailBuffer.GetBufferSize()];
+			*pdwSize = m_ThumbnailBuffer.GetBufferSize();
+			memcpy(*pbData, m_ThumbnailBuffer.GetBufferPointer(), *pdwSize);
+		}
+		m_ThumbnailBuffer.Release();
+	}
 }
 void CConsoleMinecraftApp::ReleaseSaveThumbnail()
 {

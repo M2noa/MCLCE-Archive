@@ -615,8 +615,13 @@ void UIScene_LoadOrJoinMenu::tick()
                     m_buttonListSaves.addItem(m_pSaveDetails->SaveInfoA[i].UTF8SaveTitle, L"");
 
                     m_saveDetails[i].saveId = i;
+#if defined(_DURANGO) || defined(_WINDOWS64)
+                    memcpy(m_saveDetails[i].UTF16SaveName, m_pSaveDetails->SaveInfoA[i].UTF16SaveTitle, 128 * sizeof(wchar_t));
+                    memcpy(m_saveDetails[i].UTF16SaveFilename, m_pSaveDetails->SaveInfoA[i].UTF16SaveFilename, MAX_SAVEFILENAME_LENGTH * sizeof(wchar_t));
+#else
                     memcpy(m_saveDetails[i].UTF8SaveName, m_pSaveDetails->SaveInfoA[i].UTF8SaveTitle, 128);
                     memcpy(m_saveDetails[i].UTF8SaveFilename, m_pSaveDetails->SaveInfoA[i].UTF8SaveFilename, MAX_SAVEFILENAME_LENGTH);
+#endif
 #endif
                 }
                 m_controlSavesTimer.setVisible( false );
@@ -653,19 +658,9 @@ void UIScene_LoadOrJoinMenu::tick()
             {
                 // convert to utf16
                 uint16_t u16Message[MAX_SAVEFILENAME_LENGTH];
-#ifdef _DURANGO
-                // Already utf16 on durango
-                memcpy(u16Message, m_saveDetails[m_iRequestingThumbnailId].UTF16SaveFilename, MAX_SAVEFILENAME_LENGTH);
-#elif defined(_WINDOWS64)
-                int result = ::MultiByteToWideChar(
-                    CP_UTF8,                // convert from UTF-8
-                    MB_ERR_INVALID_CHARS,   // error on invalid chars
-                    m_saveDetails[m_iRequestingThumbnailId].UTF8SaveFilename,            // source UTF-8 string
-                    MAX_SAVEFILENAME_LENGTH,                 // total length of source UTF-8 string,
-                    // in CHAR's (= bytes), including end-of-string \0
-                    (wchar_t *)u16Message,               // destination buffer
-                    MAX_SAVEFILENAME_LENGTH                // size of destination buffer, in WCHAR's
-                    );
+#if defined(_DURANGO) || defined(_WINDOWS64)
+                // Already utf16 on durango and windows
+                memcpy(u16Message, m_saveDetails[m_iRequestingThumbnailId].UTF16SaveFilename, MAX_SAVEFILENAME_LENGTH * sizeof(wchar_t));
 #else
 #ifdef __PS3
                 size_t srcmax,dstmax;
@@ -2098,7 +2093,7 @@ int UIScene_LoadOrJoinMenu::SaveOptionsDialogReturned(void *pParam,int iPad,C4JS
     case C4JStorage::EMessage_ResultDecline:  // rename
         {
 			pClass->m_bIgnoreInput=true;
-#ifdef _DURANGO
+#if defined(_DURANGO) || defined(_WINDOWS64)
             // bring up a keyboard
             InputManager.RequestKeyboard(app.GetString(IDS_RENAME_WORLD_TITLE), (pClass->m_saveDetails[pClass->m_iSaveListIndex-pClass->m_iDefaultButtonsC]).UTF16SaveName,(DWORD)0,25,&UIScene_LoadOrJoinMenu::KeyboardCompleteWorldNameCallback,pClass,C_4JInput::EKeyboardMode_Default);
 #else
@@ -2106,7 +2101,7 @@ int UIScene_LoadOrJoinMenu::SaveOptionsDialogReturned(void *pParam,int iPad,C4JS
             wchar_t wSaveName[128];
             //CD - Fix - We must memset the SaveName
             ZeroMemory(wSaveName, 128 * sizeof(wchar_t) );
-            mbstowcs(wSaveName, pClass->m_saveDetails[pClass->m_iSaveListIndex - pClass->m_iDefaultButtonsC].UTF8SaveName, strlen(pClass->m_saveDetails->UTF8SaveName)+1); // plus null
+            mbstowcs(wSaveName, pClass->m_saveDetails[pClass->m_iSaveListIndex - pClass->m_iDefaultButtonsC].UTF8SaveName, strlen(pClass->m_saveDetails[pClass->m_iSaveListIndex - pClass->m_iDefaultButtonsC].UTF8SaveName)+1); // plus null
             LPWSTR ptr = wSaveName;
             InputManager.RequestKeyboard(app.GetString(IDS_RENAME_WORLD_TITLE),wSaveName,(DWORD)0,25,&UIScene_LoadOrJoinMenu::KeyboardCompleteWorldNameCallback,pClass,C_4JInput::EKeyboardMode_Default);
 #endif

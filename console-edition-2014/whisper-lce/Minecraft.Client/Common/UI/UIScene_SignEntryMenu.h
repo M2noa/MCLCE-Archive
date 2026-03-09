@@ -50,6 +50,15 @@ protected:
 public:
 	// INPUT
 	virtual void handleInput(int iPad, int key, bool repeat, bool pressed, bool released, bool &handled);
+	
+	// 4J - Keyboard/mouse support for sign editing
+	wstring GetCurrentLineText() { return m_textInputLines[m_iEditingLine].getLabel(); }
+	void AppendToCurrentLine(wchar_t ch) { 
+		wstring current = m_textInputLines[m_iEditingLine].getLabel();
+		if (current.length() < 15) {
+			m_textInputLines[m_iEditingLine].setLabel(current + ch);
+		}
+	}
 
 protected:
 	void handlePress(F64 controlId, F64 childId);

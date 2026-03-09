@@ -188,7 +188,7 @@ typedef struct _SaveListDetails
 	int saveId;
 	PBYTE pbThumbnailData;
 	DWORD dwThumbnailSize;
-#ifdef _DURANGO
+#if defined(_DURANGO) || defined(_WINDOWS64)
 	wchar_t UTF16SaveName[128];
 	wchar_t UTF16SaveFilename[MAX_SAVEFILENAME_LENGTH];
 #else
@@ -203,7 +203,7 @@ typedef struct _SaveListDetails
 		saveId = 0;
 		pbThumbnailData = NULL;
 		dwThumbnailSize = 0;
-#ifdef _DURANGO
+#if defined(_DURANGO) || defined(_WINDOWS64)
 		ZeroMemory(UTF16SaveName,sizeof(wchar_t)*128);
 		ZeroMemory(UTF16SaveFilename,sizeof(wchar_t)*MAX_SAVEFILENAME_LENGTH);
 #else

@@ -857,6 +857,12 @@ void Gui::render(float a, bool mouseFree, int xMouse, int yMouse)
 	MemSect(0);
 #endif
 
+	// FPS Overlay (separate from debug menu)
+	if (minecraft->options->showFpsOverlay && !minecraft->options->renderDebug)
+	{
+		font->drawShadow(minecraft->fpsString, iSafezoneXHalf+2, 2, 0xffffff);
+	}
+
 	lastTickA = a;
 	// 4J Stu - This is now displayed in a xui scene
 #if 0

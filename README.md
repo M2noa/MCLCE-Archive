@@ -26,7 +26,7 @@ This repository contains organized source code from multiple Minecraft editions:
 | **Pocket Edition** | Android, iOS, Raspberry Pi, Windows x86 | 2013 | 63 MB | 2,100 |
 | **Infdev** | PC | 2014 | 4.6 MB | 430 |
 | **Dungeons & Legends** | Multi-platform | 2017-2021 | ~1.5 GB | 17,401+ |
-| **Story Mode** | Multi-platform (Steam beta) | 2024+ | ~15 GB | 917 |
+| **Story Mode** | Multi-platform (Steam beta) | 2024? | ~15 GB | 917 |
 | **Pre-compiled Windows** | Windows x86_64 | 2014 | 810 MB | - |
 
 ---
@@ -60,43 +60,18 @@ MCLCE-Archive/
 
 ---
 
-## Documentation
-
-| Document | Description |
-|----------|-------------|
-| **[archives/README.md]** | Detailed overview of all original archives, download scripts, and file hashes |
-| **Edition READMEs** | Each folder contains detailed information about that specific edition |
-
----
-
-## Leak Timeline
-
-```
-2014 ─┬─► PS3-only source code (stripped, modified timestamps)
-      ├─► Full console edition multi-platform source
-      └─► MCPE (Pocket Edition) 0.6.1 source code
-
-2017-2021 ──► Dungeons & Legends builds
-
-2024+ ──► Story Mode beta branches
-```
-
----
-
 ## Technical Notes
 
 ### Console Edition
 > [!NOTE]
-> Java-like build system on C++ (not Bedrock-based)
+> Java-like build system on C++ (not Bedrock)
 
 - Multi-platform support with platform-specific implementations
 - Complete rendering, networking, and game logic
-- Uses Iggy UI library and Miles Sound System
 
 ### Pocket Edition
-- Version 0.6.1 C++ source code
+- Version 0.6.1 C++
 - Cross-platform mobile implementation
-- Git hash: `2b519c7d6aacca7ce5865470e039268b43255217`
 
 ### Dungeons & Legends
 | Build | Base Version | Notes |
@@ -137,24 +112,6 @@ Large files (>100MB) are stored using Git LFS:
 | Legends | https://archive.org/details/minecraft-console-legacy-edition-source-code-leak |
 | Story Mode | https://hazbinhelluvageneral.com/cubevideojuego/ |
 | Archive Mirror | https://hazbinhelluvageneral.com/cubevideojuego/cubegame |
-
----
-
-## DMCA Information
-
-> [!WARNING]
-> For information on DMCA takedown requests: https://bin.skylvi.net/dmca
-
----
-
-## Archive Information
-
-| Metric | Value |
-|--------|-------|
-| **Total Size** | ~35.5 GB |
-| **Files** | 80,000+ |
-| **Commits** | 13 |
-| **Last Updated** | 2026-03-05 |
 
 ---
 

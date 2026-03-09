@@ -3,6 +3,7 @@
 class CConsoleMinecraftApp : public CMinecraftApp
 {
 public:
+	ImageFileBuffer m_ThumbnailBuffer;
 	CConsoleMinecraftApp();
 
 	virtual void SetRichPresenceContext(int iPad, int contextId);

@@ -64,7 +64,7 @@ public:
 	void SetWindowFocused(bool focused);
 	bool IsWindowFocused() const { return m_windowFocused; }
 
-	void SetKBMActive(bool active) { m_kbmActive = active; }
+	void SetKBMActive(bool active);
 	bool IsKBMActive() const { return m_kbmActive; }
 
 	void SetScreenCursorHidden(bool hidden) { m_screenWantsCursorHidden = hidden; }

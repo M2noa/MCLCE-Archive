@@ -106,50 +106,25 @@ void SignTileEntity::setEditable(bool isEditable)
 
 void SignTileEntity::setChanged()
 {
-	Minecraft *pMinecraft=Minecraft::GetInstance();
+	TileEntity::setChanged();
 
-	// 4J-PB - For TU14 we are allowed to not verify strings anymore !
-	m_bVerified=true;
-	/*
-	if(!g_NetworkManager.IsLocalGame() && !m_bVerified)
-	//if (pMinecraft->level->isClientSide)
+	// 4J - CENSORING DISABLED - Skip string verification entirely
+	// Original code called InputManager.VerifyStrings() to check for profanity
+	// Now we just mark as verified and not censored immediately
+	
+	m_bVerified = true;
+	m_bCensored = false;
+	
+	// Send update immediately without waiting for verification callback
+	if(!level->isClientSide)
 	{
-		WCHAR *wcMessages[MAX_SIGN_LINES];
-		for (int i = 0; i < MAX_SIGN_LINES; ++i) 
-		{
-			wcMessages[i]=new WCHAR [MAX_LINE_LENGTH+1];
-			ZeroMemory(wcMessages[i],sizeof(WCHAR)*(MAX_LINE_LENGTH+1));	
-			if(m_wsmessages[i].length()>0)
-			{
-				memcpy(wcMessages[i],m_wsmessages[i].c_str(),m_wsmessages[i].length()*sizeof(WCHAR));
-			}
-		}
-		// at this point, we can ask the online string verifier if our sign text is ok
-#ifdef __ORBIS__
-			m_bVerified=true;
-#else
-
-		if(!InputManager.VerifyStrings((WCHAR**)&wcMessages,MAX_SIGN_LINES,&SignTileEntity::StringVerifyCallback,(LPVOID)this))
-		{
-			// Nothing to verify
-			m_bVerified=true;
-		}
-		for(unsigned int i = 0; i < MAX_SIGN_LINES; ++i)
-		{
-			delete [] wcMessages[i];
-		}
-#endif
+		ServerLevel *serverLevel = (ServerLevel *)level;
+		serverLevel->queueSendTileUpdate(x, y, z);
 	}
-	else
-	{
-		// set the sign to allowed (local game)
-		m_bVerified=true;
-	}
-	*/
 }
 
 
-void SignTileEntity::SetMessage(int iIndex,wstring &wsText) 
+void SignTileEntity::SetMessage(int iIndex,wstring &wsText)
 { 
 	m_wsmessages[iIndex]=wsText;
 
@@ -158,18 +133,14 @@ void SignTileEntity::SetMessage(int iIndex,wstring &wsText)
 // 4J-PB - added for string verification
 int SignTileEntity::StringVerifyCallback(LPVOID lpParam,STRING_VERIFY_RESPONSE *pResults)
 {
-	// results will be in m_pStringVerifyResponse
+	// 4J - CENSORING DISABLED - Free speech enabled, all signs display as written
 	SignTileEntity *pClass=(SignTileEntity *)lpParam;
 
 	pClass->m_bVerified=true;
-	pClass->m_bCensored=false;
-	for(int i=0;i<pResults->wNumStrings;i++)
-	{
-		if(pResults->pStringResult[i]!=ERROR_SUCCESS)
-		{
-			pClass->m_bCensored=true;
-		}
-	}
+	pClass->m_bCensored=false;  // Always false - no censoring
+	
+	// Original code checked pResults->pStringResult[i] for profanity
+	// Now we skip all censoring checks
 
 	if(!pClass->level->isClientSide)
 	{

@@ -15,12 +15,13 @@ public:
     class Option
 	{
 	public:
-		static const Option options[17];
+		static const Option options[18];
 		static const Option *MUSIC;
 		static const Option *SOUND;
 		static const Option *INVERT_MOUSE;
 		static const Option *SENSITIVITY;
 		static const Option *RENDER_DISTANCE;
+		static const Option *RENDER_DISTANCE_SLIDER;
 		static const Option *VIEW_BOBBING;
 		static const Option *ANAGLYPH;
 		static const Option *ADVANCED_OPENGL;
@@ -62,6 +63,7 @@ public:
     float sensitivity;
     bool invertYMouse;
     int viewDistance;
+    int renderDistanceChunks;
     bool bobView;
     bool anaglyph3d;
     bool advancedOpengl;
@@ -110,6 +112,8 @@ public:
 	int particles; // 0 is all, 1 is decreased and 2 is minimal
 	float fov;
 	float gamma;
+	bool showFpsOverlay;
+	bool vsync;
 
 	void init();	// 4J added
     Options(Minecraft *minecraft, File workingDirectory);

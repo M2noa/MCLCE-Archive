@@ -110,6 +110,58 @@ void UIScene_SignEntryMenu::handleInput(int iPad, int key, bool repeat, bool pre
 
 	ui.AnimateKeyPress(iPad, key, repeat, pressed, released);
 
+	// 4J - Keyboard/mouse detection disabled due to build issues
+	// TODO: Re-enable after fixing g_KBMInput dependencies
+	Minecraft *pMinecraft = Minecraft::GetInstance();
+	bool isUsingKeyboard = false; // (iPad == 0) && g_KBMInput.IsKBMActive();
+	
+	// Handle keyboard input for typing on signs (like chat system)
+	if (isUsingKeyboard && pressed)
+	{
+		// Check for Enter key to confirm sign
+		if (key == VK_RETURN)
+		{
+			m_bConfirmed = true;
+			handled = true;
+			return;
+		}
+		
+		// Check for Escape to cancel
+		if (key == VK_ESCAPE)
+		{
+			wstring temp=L"";
+			for(int i=0;i<4;i++)
+			{
+				m_sign->SetMessage(i,temp);
+			}
+			navigateBack();
+			ui.PlayUISFX(eSFX_Back);
+			handled = true;
+			return;
+		}
+		
+		// Check for Backspace
+		if (key == VK_BACK)
+		{
+			const wchar_t* current = m_textInputLines[m_iEditingLine].getLabel();
+			size_t len = wcslen(current);
+			if (len > 0)
+			{
+				wchar_t temp[16];
+				wcsncpy_s(temp, 16, current, len - 1);
+				temp[len - 1] = L'\0';
+				m_textInputLines[m_iEditingLine].setLabel(temp);
+			}
+			handled = true;
+			return;
+		}
+		
+		// Handle letter/number input (WM_CHAR will be sent separately)
+		handled = true;
+		return;
+	}
+
+	// Controller input
 	switch(key)
 	{
 	case ACTION_MENU_CANCEL:
@@ -132,10 +184,47 @@ void UIScene_SignEntryMenu::handleInput(int iPad, int key, bool repeat, bool pre
 #ifdef __ORBIS__
 	case ACTION_MENU_TOUCHPAD_PRESS:
 #endif
+		// When controller user presses A/X, show on-screen keyboard
+		if (pressed && !isUsingKeyboard)
+		{
+			m_bIgnoreInput = true;
+			
+			// Show on-screen keyboard for controller users
+			int language = XGetLanguage();
+			C_4JInput::EKeyboardMode mode = C_4JInput::EKeyboardMode_Alphabet;
+			
+			// Use different keyboard modes based on language
+		switch(language)
+		{
+		case XC_LANGUAGE_JAPANESE:
+		case XC_LANGUAGE_KOREAN:
+		case XC_LANGUAGE_TCHINESE:
+			mode = C_4JInput::EKeyboardMode_Full;
+			break;
+		default:
+			mode = C_4JInput::EKeyboardMode_Alphabet;
+			break;
+		}
+			
+			InputManager.RequestKeyboard(
+				app.GetString(IDS_SIGN_TITLE),
+				m_textInputLines[m_iEditingLine].getLabel(),
+				(DWORD)iPad,
+				15,
+				&UIScene_SignEntryMenu::KeyboardCompleteCallback,
+				this,
+				mode
+			);
+			handled = true;
+		}
+		break;
 	case ACTION_MENU_UP:
 	case ACTION_MENU_DOWN:
-		sendInputToMovie(key, repeat, pressed, released);
-		handled = true;
+		if (!isUsingKeyboard)
+		{
+			sendInputToMovie(key, repeat, pressed, released);
+			handled = true;
+		}
 		break;
 	}
 }
@@ -175,16 +264,16 @@ void UIScene_SignEntryMenu::handlePress(F64 controlId, F64 childId)
 			// 4J-PB - Xbox One uses the Windows virtual keyboard, and doesn't have the Xbox 360 Latin keyboard type, so we can't restrict the input set to alphanumeric. The closest we get is the emailSmtpAddress type.
 			int language = XGetLanguage();
 			switch(language)
-			{
-			case XC_LANGUAGE_JAPANESE:
-			case XC_LANGUAGE_KOREAN:
-			case XC_LANGUAGE_TCHINESE:
-				InputManager.RequestKeyboard(app.GetString(IDS_SIGN_TITLE),m_textInputLines[m_iEditingLine].getLabel(),(DWORD)m_iPad,15,&UIScene_SignEntryMenu::KeyboardCompleteCallback,this,C_4JInput::EKeyboardMode_Email);
-				break;
-			default:
-				InputManager.RequestKeyboard(app.GetString(IDS_SIGN_TITLE),m_textInputLines[m_iEditingLine].getLabel(),(DWORD)m_iPad,15,&UIScene_SignEntryMenu::KeyboardCompleteCallback,this,C_4JInput::EKeyboardMode_Alphabet);
-				break;
-			}
+		{
+		case XC_LANGUAGE_JAPANESE:
+		case XC_LANGUAGE_KOREAN:
+		case XC_LANGUAGE_TCHINESE:
+			InputManager.RequestKeyboard(app.GetString(IDS_SIGN_TITLE),m_textInputLines[m_iEditingLine].getLabel(),(DWORD)m_iPad,15,&UIScene_SignEntryMenu::KeyboardCompleteCallback,this,C_4JInput::EKeyboardMode_Full);
+			break;
+		default:
+			InputManager.RequestKeyboard(app.GetString(IDS_SIGN_TITLE),m_textInputLines[m_iEditingLine].getLabel(),(DWORD)m_iPad,15,&UIScene_SignEntryMenu::KeyboardCompleteCallback,this,C_4JInput::EKeyboardMode_Alphabet);
+			break;
+		}
 #else
 			InputManager.RequestKeyboard(app.GetString(IDS_SIGN_TITLE),m_textInputLines[m_iEditingLine].getLabel(),(DWORD)m_iPad,15,&UIScene_SignEntryMenu::KeyboardCompleteCallback,this,C_4JInput::EKeyboardMode_Alphabet);
 #endif

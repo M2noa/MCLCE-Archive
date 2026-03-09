@@ -961,10 +961,10 @@ void				C_4JProfile::SetCurrentGameActivity(int iPad,int iNewPresence, bool bSet
 	{
 	case 1: // Menus
 		strncpy_s(activity.details, sizeof(activity.details), "In Menu", _TRUNCATE);
-		strncpy_s(activity.state,   sizeof(activity.state),   "Idle",    _TRUNCATE);
+		strncpy_s(activity.state,   sizeof(activity.state),   "Minecraft Legacy Edition",    _TRUNCATE);
 		break;
 	case 4: // In-game Online
-		strncpy_s(activity.details, sizeof(activity.details), "Playing Minecraft", _TRUNCATE);
+		strncpy_s(activity.details, sizeof(activity.details), "Minecraft Legacy Edition", _TRUNCATE);
 		strncpy_s(activity.state,   sizeof(activity.state),   "Multiplayer",       _TRUNCATE);
 
 		activity.instance = true;
@@ -979,7 +979,7 @@ void				C_4JProfile::SetCurrentGameActivity(int iPad,int iNewPresence, bool bSet
 		}
 		break;
 	case 5: // In-game Singleplayer
-		strncpy_s(activity.details, sizeof(activity.details), "Playing Minecraft", _TRUNCATE);
+		strncpy_s(activity.details, sizeof(activity.details), "Minecraft Legacy Edition", _TRUNCATE);
 		strncpy_s(activity.state,   sizeof(activity.state),   "Singleplayer",       _TRUNCATE);
 		break;
 	default:

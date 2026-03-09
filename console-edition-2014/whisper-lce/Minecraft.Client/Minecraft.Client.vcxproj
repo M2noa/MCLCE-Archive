@@ -384,7 +384,7 @@
     <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <PlatformToolset>v145</PlatformToolset>
+    <PlatformToolset>v110</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='ContentPackage|ORBIS'">
     <PlatformToolset>Clang</PlatformToolset>
@@ -1314,6 +1314,15 @@ if not exist "$(TargetDir)\savedata" mkdir "$(TargetDir)\savedata"</Command>
       <DeploymentType>CopyToHardDrive</DeploymentType>
       <DeploymentFiles>$(RemoteRoot)=$(ImagePath);$(RemoteRoot)\res=Xbox\res;$(RemoteRoot)=Xbox\AvatarAwards;$(RemoteRoot)\Tutorial=Xbox\Tutorial\Tutorial;$(RemoteRoot)=Xbox\584111F70AAAAAAA;$(RemoteRoot)=Xbox\kinect\speech;$(RemoteRoot)=Xbox\XZP\TMSFiles.xzp</DeploymentFiles>
     </Deploy>
+    <PostBuildEvent>
+      <Command>if not exist "$(OutDir)Common\Media\" mkdir "$(OutDir)Common\Media\"
+xcopy /q /y /d "$(ProjectDir)Windows64Media\Media\MediaWindows64.arc" "$(OutDir)Common\Media\"
+xcopy /q /y /d "$(ProjectDir)Common\Media\languages.loc" "$(OutDir)Common\Media\"
+xcopy /q /y /d "$(ProjectDir)iggy_w64.dll" "$(OutDir)"
+xcopy /q /y /d "$(ProjectDir)mss64.dll" "$(OutDir)"
+xcopy /q /y /d "$(ProjectDir)discord_game_sdk.dll" "$(OutDir)"</Command>
+      <Message>Copying required DLLs and media files</Message>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Durango'">
     <ClCompile>
@@ -1443,6 +1452,15 @@ xcopy /q /y /i /s /e $(ProjectDir)Durango\CU  $(LayoutDir)Image\Loose\CU</Comman
       <DeploymentType>CopyToHardDrive</DeploymentType>
       <DeploymentFiles>$(RemoteRoot)=$(ImagePath);$(RemoteRoot)\res=Xbox\res;$(RemoteRoot)=Xbox\AvatarAwards;$(RemoteRoot)\Tutorial=Xbox\Tutorial\Tutorial;$(RemoteRoot)=Xbox\584111F70AAAAAAA;$(RemoteRoot)=Xbox\kinect\speech;$(RemoteRoot)=Xbox\XZP\TMSFiles.xzp</DeploymentFiles>
     </Deploy>
+    <PostBuildEvent>
+      <Command>if not exist "$(OutDir)Common\Media\" mkdir "$(OutDir)Common\Media\"
+xcopy /q /y /d "$(ProjectDir)Windows64Media\Media\MediaWindows64.arc" "$(OutDir)Common\Media\"
+xcopy /q /y /d "$(ProjectDir)Common\Media\languages.loc" "$(OutDir)Common\Media\"
+xcopy /q /y /d "$(ProjectDir)iggy_w64.dll" "$(OutDir)"
+xcopy /q /y /d "$(ProjectDir)mss64.dll" "$(OutDir)"
+xcopy /q /y /d "$(ProjectDir)discord_game_sdk.dll" "$(OutDir)"</Command>
+      <Message>Copying required DLLs and media files</Message>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ContentPackage_Vita|x64'">
     <ClCompile>

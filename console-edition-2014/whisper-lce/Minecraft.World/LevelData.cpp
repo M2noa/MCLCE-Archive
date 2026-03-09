@@ -110,10 +110,11 @@ LevelData::LevelData(CompoundTag *tag)
 
 	// 4J Added
 	m_xzSize = tag->getInt(L"XZSize");
-	m_hellScale = tag->getInt(L"HellScale");
 	
-	m_xzSize = min(m_xzSize,LEVEL_MAX_WIDTH);
-	m_xzSize = max(m_xzSize,LEVEL_MIN_WIDTH);
+	// 4J - Removed world size clamping to allow infinite worlds
+	// Original code limited worlds to 54-320 chunks, now unlimited up to 2048 chunks
+	m_xzSize = min(m_xzSize, LEVEL_MAX_WIDTH);  // Keep max sanity check
+	m_xzSize = max(m_xzSize, 18);  // Reduced minimum from 54 to allow smaller worlds
 
 	m_hellScale = min(m_hellScale,HELL_LEVEL_MAX_SCALE);
 	m_hellScale = max(m_hellScale,HELL_LEVEL_MIN_SCALE);
@@ -180,11 +181,12 @@ LevelData::LevelData(LevelSettings *levelSettings, const wstring& levelName)
 	m_xzSize = levelSettings->getXZSize();
 	m_hellScale = levelSettings->getHellScale();
 	
-	m_xzSize = min(m_xzSize,LEVEL_MAX_WIDTH);
-	m_xzSize = max(m_xzSize,LEVEL_MIN_WIDTH);
+	// 4J - Removed world size clamping to allow infinite worlds
+	m_xzSize = min(m_xzSize, LEVEL_MAX_WIDTH);  // Keep max sanity check
+	m_xzSize = max(m_xzSize, 18);  // Reduced minimum from 54 to allow smaller worlds
 
-	m_hellScale = min(m_hellScale,HELL_LEVEL_MAX_SCALE);
-	m_hellScale = max(m_hellScale,HELL_LEVEL_MIN_SCALE);
+	m_hellScale = min(m_hellScale, HELL_LEVEL_MAX_SCALE);
+	m_hellScale = max(m_hellScale, HELL_LEVEL_MIN_SCALE);
 
 	int hellXZSize = m_xzSize / m_hellScale;
 	while(hellXZSize > HELL_LEVEL_MAX_WIDTH && m_hellScale < HELL_LEVEL_MAX_SCALE)

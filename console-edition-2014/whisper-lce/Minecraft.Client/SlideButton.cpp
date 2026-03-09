@@ -24,6 +24,10 @@ void SlideButton::renderBg(Minecraft *minecraft, int xm, int ym)
         minecraft->options->set(option, value);
         msg = minecraft->options->getMessage(option);
     }
+    
+    if (value < 0) value = 0;
+    if (value > 1) value = 1;
+    
     glColor4f(1, 1, 1, 1);
     blit(x + (int) (value * (w - 8)), y, 0, 46 + 1 * 20, 4, 20);
     blit(x + (int) (value * (w - 8)) + 4, y, 196, 46 + 1 * 20, 4, 20);

@@ -25,6 +25,9 @@
 #include "..\..\Minecraft.World\ThreadName.h"
 #include "..\..\Minecraft.Client\StatsCounter.h"
 #include "..\ConnectScreen.h"
+#include "..\ChatScreen.h"
+#include "..\Minecraft.h"
+//#include "..\Common\UI\UIScene_SignEntryMenu.h"
 //#include "Social\SocialManager.h"
 //#include "Leaderboards\LeaderboardManager.h"
 //#include "XUI\XUI_Scene_Container.h"
@@ -550,6 +553,12 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 		g_KBMInput.SetWindowFocused(false);
 		if (g_KBMInput.IsMouseGrabbed())
 			g_KBMInput.SetMouseGrabbed(false);
+		// Disabled - causes crash
+		//{
+		//	Minecraft* pMinecraft = Minecraft::GetInstance();
+		//	if (pMinecraft)
+		//		pMinecraft->pauseGame();
+		//}
 		break;
 
 	case WM_SETFOCUS:
@@ -585,6 +594,44 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 		else if (vk == VK_MENU)
 			vk = (lParam & (1 << 24)) ? VK_RMENU : VK_LMENU;
 		g_KBMInput.OnKeyUp(vk);
+		break;
+	}
+
+	case WM_CHAR:
+	{
+		Minecraft* pMinecraft = Minecraft::GetInstance();
+		if (pMinecraft && pMinecraft->screen)
+		{
+			// 4J - Sign keyboard support disabled for now due to build issues
+			// TODO: Re-enable after fixing include dependencies
+			/*
+			// Check if we're in a sign editing screen
+			UIScene_SignEntryMenu* signMenu = dynamic_cast<UIScene_SignEntryMenu*>(pMinecraft->screen);
+			if (signMenu && g_KBMInput.IsKBMActive())
+			{
+				// Handle direct character input for sign editing
+				wchar_t ch = (wchar_t)wParam;
+				
+				// Allow printable characters (space through tilde)
+				if (ch >= 32 && ch <= 126)
+				{
+					wstring current = signMenu->GetCurrentLineText();
+					if (current.length() < 15)  // Sign line length limit
+					{
+						signMenu->AppendToCurrentLine(ch);
+					}
+				}
+				return 0;
+			}
+			*/
+			
+			// Check if we're in chat screen
+			ChatScreen* chatScreen = dynamic_cast<ChatScreen*>(pMinecraft->screen);
+			if (chatScreen)
+			{
+				chatScreen->keyPressed((wchar_t)wParam, 0);
+			}
+		}
 		break;
 	}
 
@@ -835,6 +882,7 @@ HRESULT InitDevice()
 	hr = g_pd3dDevice->CreateTexture2D(&descDepth, NULL, &g_pDepthStencilBuffer);
 
 	D3D11_DEPTH_STENCIL_VIEW_DESC descDSView;
+	ZeroMemory(&descDSView, sizeof(descDSView));
 	descDSView.Format = DXGI_FORMAT_D24_UNORM_S8_UINT;
 	descDSView.ViewDimension = D3D11_DSV_DIMENSION_TEXTURE2D;
 	descDSView.Texture2D.MipSlice = 0;
@@ -898,12 +946,26 @@ int APIENTRY _tWinMain(_In_ HINSTANCE hInstance,
 					   _In_ LPTSTR    lpCmdLine,
 					   _In_ int       nCmdShow)
 {
+	bool enableDebugConsole = true;
+	bool enableDebugMenu = true;
+	
+	if(lpCmdLine && wcslen((const wchar_t*)lpCmdLine) > 0)
+	{
+		if(wcsstr((const wchar_t*)lpCmdLine, L"--debug-console") == NULL)
+			enableDebugConsole = false;
+		if(wcsstr((const wchar_t*)lpCmdLine, L"--debug-menu") == NULL)
+			enableDebugMenu = false;
+	}
+	
 #ifdef _WINDOWS64
-	AllocConsole();
-	freopen("CONOUT$", "w", stdout);
-	freopen("CONOUT$", "w", stderr);
-	freopen("CONIN$", "r", stdin);
-	std::ios::sync_with_stdio(true);
+	if(enableDebugConsole)
+	{
+		AllocConsole();
+		freopen("CONOUT$", "w", stdout);
+		freopen("CONOUT$", "w", stderr);
+		freopen("CONIN$", "r", stdin);
+		std::ios::sync_with_stdio(true);
+	}
 #endif
 
 	UNREFERENCED_PARAMETER(hPrevInstance);

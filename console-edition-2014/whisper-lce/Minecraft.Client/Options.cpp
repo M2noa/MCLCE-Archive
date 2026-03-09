@@ -15,13 +15,14 @@
 #include "..\Minecraft.World\StringHelpers.h"
 
 // 4J - the Option sub-class used to be an java enumerated type, trying to emulate that functionality here
-const Options::Option Options::Option::options[17] =
+const Options::Option Options::Option::options[18] =
 {
 	Options::Option(L"options.music", true, false),
 	Options::Option(L"options.sound", true, false),
 	Options::Option(L"options.invertMouse", false, true),
 	Options::Option(L"options.sensitivity", true, false),
 	Options::Option(L"options.renderDistance", false, false),
+	Options::Option(L"options.renderDistanceSlider", true, false),
 	Options::Option(L"options.viewBobbing", false, true),
 	Options::Option(L"options.anaglyph", false, true),
 	Options::Option(L"options.advancedOpengl", false, true),
@@ -41,18 +42,19 @@ const Options::Option *Options::Option::SOUND = &Options::Option::options[1];
 const Options::Option *Options::Option::INVERT_MOUSE = &Options::Option::options[2];
 const Options::Option *Options::Option::SENSITIVITY = &Options::Option::options[3];
 const Options::Option *Options::Option::RENDER_DISTANCE = &Options::Option::options[4];
-const Options::Option *Options::Option::VIEW_BOBBING = &Options::Option::options[5];
-const Options::Option *Options::Option::ANAGLYPH = &Options::Option::options[6];
-const Options::Option *Options::Option::ADVANCED_OPENGL = &Options::Option::options[7];
-const Options::Option *Options::Option::FRAMERATE_LIMIT = &Options::Option::options[8];
-const Options::Option *Options::Option::DIFFICULTY = &Options::Option::options[9];
-const Options::Option *Options::Option::GRAPHICS = &Options::Option::options[10];
-const Options::Option *Options::Option::AMBIENT_OCCLUSION = &Options::Option::options[11];
-const Options::Option *Options::Option::GUI_SCALE = &Options::Option::options[12];
-const Options::Option *Options::Option::FOV = &Options::Option::options[13];
-const Options::Option *Options::Option::GAMMA = &Options::Option::options[14];
-const Options::Option *Options::Option::RENDER_CLOUDS = &Options::Option::options[15];
-const Options::Option *Options::Option::PARTICLES = &Options::Option::options[16];
+const Options::Option *Options::Option::RENDER_DISTANCE_SLIDER = &Options::Option::options[5];
+const Options::Option *Options::Option::VIEW_BOBBING = &Options::Option::options[6];
+const Options::Option *Options::Option::ANAGLYPH = &Options::Option::options[7];
+const Options::Option *Options::Option::ADVANCED_OPENGL = &Options::Option::options[8];
+const Options::Option *Options::Option::FRAMERATE_LIMIT = &Options::Option::options[9];
+const Options::Option *Options::Option::DIFFICULTY = &Options::Option::options[10];
+const Options::Option *Options::Option::GRAPHICS = &Options::Option::options[11];
+const Options::Option *Options::Option::AMBIENT_OCCLUSION = &Options::Option::options[12];
+const Options::Option *Options::Option::GUI_SCALE = &Options::Option::options[13];
+const Options::Option *Options::Option::FOV = &Options::Option::options[14];
+const Options::Option *Options::Option::GAMMA = &Options::Option::options[15];
+const Options::Option *Options::Option::RENDER_CLOUDS = &Options::Option::options[16];
+const Options::Option *Options::Option::PARTICLES = &Options::Option::options[17];
 
 
 const Options::Option *Options::Option::getItem(int id)
@@ -113,6 +115,7 @@ void Options::init()
     sensitivity = 0.5f;
     invertYMouse = false;
     viewDistance = 0;
+    renderDistanceChunks = 16;
     bobView = true;
     anaglyph3d = false;
     advancedOpengl = false;
@@ -166,10 +169,12 @@ void Options::init()
 	fixedCamera = false;
 	flySpeed = 1;
 	cameraSpeed = 1;
-	guiScale = 0;
+	guiScale = 1;
 	particles = 0;
-	fov = 0;
+	fov = 0.5f;
 	gamma = 0;
+	showFpsOverlay = false;
+	vsync = true;
 }
 
 Options::Options(Minecraft *minecraft, File workingDirectory)
@@ -233,10 +238,18 @@ void Options::set(const Options::Option *item, float fVal)
 	if (item == Option::FOV)
 	{
 		fov = fVal;
+		if (fov < 0.0f) fov = 0.0f;
+		if (fov > 1.0f) fov = 1.0f;
 	}
 	if (item == Option::GAMMA)
 	{
 		gamma = fVal;
+	}
+	if (item == Option::RENDER_DISTANCE_SLIDER)
+	{
+		renderDistanceChunks = (int)(1 + fVal * 239);
+		if (renderDistanceChunks < 1) renderDistanceChunks = 1;
+		if (renderDistanceChunks > 240) renderDistanceChunks = 240;
 	}
 }
 
@@ -247,9 +260,7 @@ void Options::toggle(const Options::Option *option, int dir)
     if (option == Option::GUI_SCALE) guiScale = (guiScale + dir) & 3;
 	if (option == Option::PARTICLES) particles = (particles + dir) % 3;
 
-	// 4J-PB - changing
-	//if (option == Option::VIEW_BOBBING) bobView = !bobView;
-	if (option == Option::VIEW_BOBBING) ((dir==0)?bobView=false: bobView=true);
+	if (option == Option::VIEW_BOBBING) bobView = !bobView;
 	if (option == Option::RENDER_CLOUDS) renderClouds = !renderClouds;
     if (option == Option::ADVANCED_OPENGL)
 	{
@@ -280,8 +291,7 @@ void Options::toggle(const Options::Option *option, int dir)
         minecraft->levelRenderer->allChanged();
     }
 
-	// 4J-PB - don't do the file save on the xbox
-    // save();
+    save();
 
 }
 
@@ -292,6 +302,7 @@ float Options::getProgressValue(const Options::Option *item)
     if (item == Option::MUSIC) return music;
     if (item == Option::SOUND) return sound;
     if (item == Option::SENSITIVITY) return sensitivity;
+    if (item == Option::RENDER_DISTANCE_SLIDER) return (renderDistanceChunks - 1) / 239.0f;
     return 0;
 }
 
@@ -339,7 +350,7 @@ wstring Options::getMessage(const Options::Option *item)
 			{
 				return caption + language->getElement(L"options.fov.max");
 			}
-			return caption + _toString<int>((int) (70 + progressValue * 40));
+			return caption + _toString<int>((int) (70 + progressValue * 50));
 		} else if (item == Option::GAMMA)
 		{
 			if (progressValue == 0)
@@ -352,6 +363,10 @@ wstring Options::getMessage(const Options::Option *item)
 			}
 			return caption + L"+" + _toString<int>((int) (progressValue * 100)) + L"%";
         }
+		else if (item == Option::RENDER_DISTANCE_SLIDER)
+		{
+			return caption + _toString<int>(renderDistanceChunks) + L" chunks";
+		}
 		else
 		{
             if (progressValue == 0)
@@ -436,6 +451,7 @@ void Options::load()
 				if (cmds[0] == L"gamma") gamma = readFloat(cmds[1]);
                 if (cmds[0] == L"invertYMouse") invertYMouse = cmds[1]==L"true";
                 if (cmds[0] == L"viewDistance") viewDistance = _fromString<int>(cmds[1]);
+                if (cmds[0] == L"renderDistanceChunks") renderDistanceChunks = _fromString<int>(cmds[1]);
                 if (cmds[0] == L"guiScale") guiScale =_fromString<int>(cmds[1]);
 				if (cmds[0] == L"particles") particles = _fromString<int>(cmds[1]);
                 if (cmds[0] == L"bobView") bobView = cmds[1]==L"true";
@@ -446,6 +462,8 @@ void Options::load()
                 if (cmds[0] == L"fancyGraphics") fancyGraphics = cmds[1]==L"true";
                 if (cmds[0] == L"ao") ambientOcclusion = cmds[1]==L"true";
 				if (cmds[0] == L"clouds") renderClouds = cmds[1]==L"true";
+				if (cmds[0] == L"showFpsOverlay") showFpsOverlay = cmds[1]==L"true";
+				if (cmds[0] == L"vsync") vsync = cmds[1]==L"true";
                 if (cmds[0] == L"skin") skin = cmds[1];
                 if (cmds[0] == L"lastServer") lastMpIp = cmds[1];
 
@@ -493,6 +511,7 @@ void Options::save()
 		dos.writeChars(L"fov:" + _toString<float>(fov));
 		dos.writeChars(L"gamma:" + _toString<float>(gamma));
         dos.writeChars(L"viewDistance:" + _toString<int>(viewDistance));
+        dos.writeChars(L"renderDistanceChunks:" + _toString<int>(renderDistanceChunks));
         dos.writeChars(L"guiScale:" + _toString<int>(guiScale));
 		dos.writeChars(L"particles:" + _toString<int>(particles));
         dos.writeChars(L"bobView:" + wstring(bobView ? L"true" : L"false"));
@@ -503,6 +522,8 @@ void Options::save()
         dos.writeChars(L"fancyGraphics:" + wstring(fancyGraphics ? L"true" : L"false"));
         dos.writeChars(L"ao:" + wstring(ambientOcclusion ? L"true" : L"false"));
 		dos.writeChars(L"clouds:" + _toString<bool>(renderClouds));
+		dos.writeChars(L"showFpsOverlay:" + wstring(showFpsOverlay ? L"true" : L"false"));
+		dos.writeChars(L"vsync:" + wstring(vsync ? L"true" : L"false"));
         dos.writeChars(L"skin:" + skin);
         dos.writeChars(L"lastServer:" + lastMpIp);
 

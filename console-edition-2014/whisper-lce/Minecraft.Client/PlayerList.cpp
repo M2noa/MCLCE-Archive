@@ -220,7 +220,7 @@ void PlayerList::placeNewPlayer(Connection *connection, shared_ptr<ServerPlayer>
         sendLevelInfo(player, level);
 
         // 4J-PB - removed, since it needs to be localised in the language the client is in
-		//server->players->broadcastAll( shared_ptr<ChatPacket>( new ChatPacket(L"§e" + playerEntity->name + L" joined the game.") ) );
+		//server->players->broadcastAll( shared_ptr<ChatPacket>( new ChatPacket(L"ï¿½e" + playerEntity->name + L" joined the game.") ) );
 		broadcastAll( shared_ptr<ChatPacket>( new ChatPacket(player->name, ChatPacket::e_ChatPlayerJoinedGame) ) );
 
 		MemSect(14);
@@ -354,6 +354,24 @@ void PlayerList::validatePlayerSpawnPosition(shared_ptr<ServerPlayer> player)
 		{
 			player->setPos(player->x, player->y + 1, player->z);
 		}
+
+		// Fix: Void Spawn Bug (Transparent blocks)
+		// If the player logs in and there is no solid block underneath them,
+		// push them up to the top solid block to prevent falling through glass/slabs into the void.
+		int blockX = Mth::floor(player->x);
+		int blockY = Mth::floor(player->y - 0.2f);
+		int blockZ = Mth::floor(player->z);
+		int tileId = level->getTile(blockX, blockY, blockZ);
+		
+		if (tileId == 0 || (Tile::tiles[tileId] && !Tile::tiles[tileId]->material->blocksMotion()))
+		{
+			// Find the top solid block at this X/Z column
+			int topY = level->getTopSolidBlock(blockX, blockZ);
+			if (topY > player->y)
+			{
+				player->setPos(player->x, topY, player->z);
+			}
+		}
 		
 		app.DebugPrintf("Updated pos is %f, %f, %f in dimension %d\n", player->x, player->y, player->z, player->dimension);
 	}
@@ -380,7 +398,7 @@ void PlayerList::add(shared_ptr<ServerPlayer> player)
 	// Some code from here has been moved to the above validatePlayerSpawnPosition function
 
 	// 4J Stu - Swapped these lines about so that we get the chunk visiblity packet way ahead of all the add tracked entity packets
-	// Fix for #9169 - ART : Sign text is replaced with the words “Awaiting approval”.
+	// Fix for #9169 - ART : Sign text is replaced with the words ï¿½Awaiting approvalï¿½.
     changeDimension(player, NULL);
     level->addEntity(player);
 

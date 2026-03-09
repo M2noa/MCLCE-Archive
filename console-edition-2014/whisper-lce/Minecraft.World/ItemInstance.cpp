@@ -139,7 +139,7 @@ shared_ptr<ItemInstance> ItemInstance::useTimeDepleted(Level *level, shared_ptr<
 CompoundTag *ItemInstance::save(CompoundTag *compoundTag) 
 {
     compoundTag->putShort(L"id", (short) id);
-    compoundTag->putByte(L"Count", (byte) count);
+    compoundTag->putShort(L"Count", (short) count);
     compoundTag->putShort(L"Damage", (short) auxValue);
 	if (this->tag != NULL) compoundTag->put(L"tag", tag->copy());
     return compoundTag;
@@ -149,7 +149,11 @@ void ItemInstance::load(CompoundTag *compoundTag)
 {
 	popTime = 0;
     id = compoundTag->getShort(L"id");
-    count = compoundTag->getByte(L"Count");
+    count = compoundTag->getShort(L"Count");
+    if (count == 0)
+    {
+        count = (unsigned char)compoundTag->getByte(L"Count");
+    }
     auxValue = compoundTag->getShort(L"Damage");
 	if (compoundTag->contains(L"tag"))
 	{

@@ -193,7 +193,7 @@ UIScene_LoadMenu::UIScene_LoadMenu(int iPad, void *initData, UILayer *parentLaye
 
 
 
-#if defined(__PS3__) || defined(__ORBIS__)|| defined(_DURANGO) || defined (__PSVITA__)
+#if defined(__PS3__) || defined(__ORBIS__)|| defined(_DURANGO) || defined (__PSVITA__) || defined (_WINDOWS64)
 		// convert to utf16
 		uint16_t u16Message[MAX_SAVEFILENAME_LENGTH];
 		size_t srclen,dstlen;
@@ -201,10 +201,10 @@ UIScene_LoadMenu::UIScene_LoadMenu(int iPad, void *initData, UILayer *parentLaye
 		dstlen=MAX_SAVEFILENAME_LENGTH;
 #ifdef __PS3__
 		L10nResult lres= UTF8stoUTF16s((uint8_t *)params->saveDetails->UTF8SaveFilename,&srclen,u16Message,&dstlen);
-#elif defined(_DURANGO) 
+#elif defined(_DURANGO) || defined(_WINDOWS64)
 		// Already utf16 on durango
 		memcpy(u16Message,params->saveDetails->UTF16SaveFilename, MAX_SAVEFILENAME_LENGTH);
-#else // __ORBIS__
+#elif defined(__ORBIS__) || defined(__PSVITA__)
 		{
 			SceCesUcsContext Context;
 			sceCesUcsContextInit( &Context );
@@ -213,13 +213,13 @@ UIScene_LoadMenu::UIScene_LoadMenu(int iPad, void *initData, UILayer *parentLaye
 		}
 #endif
 		m_thumbnailName = (wchar_t *)u16Message;
-		if(params->saveDetails->pbThumbnailData)
-		{
-			m_pbThumbnailData = params->saveDetails->pbThumbnailData;
-			m_uiThumbnailSize = params->saveDetails->dwThumbnailSize;
-			m_bSaveThumbnailReady = true;
-		}
-		else
+		//if(params->saveDetails->pbThumbnailData)
+		//{
+		//	m_pbThumbnailData = params->saveDetails->pbThumbnailData;
+		//	m_uiThumbnailSize = params->saveDetails->dwThumbnailSize;
+		//	m_bSaveThumbnailReady = true;
+		//}
+		//else
 		{
 			app.DebugPrintf("Requesting the save thumbnail\n");
 			// set the save to load
@@ -233,7 +233,7 @@ UIScene_LoadMenu::UIScene_LoadMenu(int iPad, void *initData, UILayer *parentLaye
 #endif
 			m_bShowTimer = true;
 		}
-#if defined(_DURANGO) 
+#if defined(_DURANGO) || defined(_WINDOWS64)
 		m_labelGameName.init(params->saveDetails->UTF16SaveName);
 #else
 
