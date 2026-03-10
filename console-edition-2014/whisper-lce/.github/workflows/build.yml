@@ -1,0 +1,51 @@
+name: Build Whisper LCE
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        submodules: recursive
+    
+    - name: Setup MSBuild
+      uses: microsoft/setup-msbuild@v2
+    
+    - name: Setup Visual Studio
+      uses: ilammy/msvc-dev-cmd@v1
+      with:
+        arch: x64
+    
+    - name: Restore NuGet packages
+      run: nuget restore MinecraftConsoles.sln
+    
+    - name: Build Solution
+      run: msbuild MinecraftConsoles.sln /p:Configuration=Release /p:Platform=x64 /m /v:minimal
+    
+    - name: Upload Artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: whisper-lce-build
+        path: |
+          x64/Release/Minecraft.Client.exe
+          Launcher/x64/Release/Launcher.exe
+        if-no-files-found: error
+    
+    - name: Create Release (on tag)
+      if: startsWith(github.ref, 'refs/tags/')
+      uses: softprops/action-gh-release@v1
+      with:
+        files: |
+          x64/Release/Minecraft.Client.exe
+          Launcher/x64/Release/Launcher.exe
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
