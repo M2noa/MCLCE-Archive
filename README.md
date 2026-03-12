@@ -136,10 +136,7 @@ Large files are stored using Git LFS on a custom server:
 
 ### Why Custom LFS Server?
 
-GitHub's LFS storage quota was exceeded. All LFS files are now hosted on `litter.minoa.cat` with:
-- Automatic deduplication via SHA-256
-- Chunked uploads for files >50MB
-- Up to 2GB per file
+GitHub's LFS storage quota was exceeded. All LFS files are now hosted on [my filehost.](litter.minoa.cat)
 
 ---
 
