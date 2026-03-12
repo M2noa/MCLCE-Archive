@@ -5,14 +5,46 @@
 
 ## Download This Repository
 
+### Quick Clone (without large files)
+
 ```bash
 git clone https://github.com/M2noa/MCLCE-Archive.git
 ```
 
-[Download via Browser](https://download-directory.github.io/?url=https://github.com/M2noa/MCLCE-Archive)
+### Download Large Files (LFS)
+
+This repository uses a custom LFS server at `litter.minoa.cat` for large files (archives, binaries, etc).
+
+**Setup:**
+
+```bash
+# Clone the repository
+git clone https://github.com/M2noa/MCLCE-Archive.git
+cd MCLCE-Archive
+
+# Install Git LFS
+# macOS: brew install git-lfs
+# Linux: sudo apt-get install git-lfs
+# Windows: Download from https://git-lfs.com
+
+# Configure custom LFS server
+git config -f .lfsconfig lfs.url https://litter.minoa.cat/lfs
+
+# Download all LFS files
+git lfs pull
+```
+
+**Future pulls:**
+
+```bash
+git pull
+git lfs pull
+```
+
+[Download via Browser](https://download-directory.github.io/?url=https://github.com/M2noa/MCLCE-Archive) (Note: Does not include LFS files)
 
 > [!IMPORTANT]
-> This isn't a permanent solution. I'm working on a custom archive. I wanted to dip my toes into the water by seeing how long it would take to get taken down from GitHub. I expect this to be taken down any day now - I'm surprised it hasn't lol...
+> GitHub's LFS quota was exceeded. Large files are now hosted on a custom server at litter.minoa.cat.
 
 ---
 
@@ -90,7 +122,7 @@ MCLCE-Archive/
 
 ## Git LFS
 
-Large files (>100MB) are stored using Git LFS:
+Large files are stored using Git LFS on a custom server:
 
 | Extension | Description |
 |-----------|-------------|
@@ -99,6 +131,15 @@ Large files (>100MB) are stored using Git LFS:
 | `*.ilk` | Incremental linker files |
 | `*.pak` | Package files |
 | `*.bank` | Audio bank files |
+| `*.zip`, `*.7z`, `*.rar` | Archive files |
+| `*.lib` | Library files |
+
+### Why Custom LFS Server?
+
+GitHub's LFS storage quota was exceeded. All LFS files are now hosted on `litter.minoa.cat` with:
+- Automatic deduplication via SHA-256
+- Chunked uploads for files >50MB
+- Up to 2GB per file
 
 ---
 
@@ -112,6 +153,15 @@ Large files (>100MB) are stored using Git LFS:
 | Legends | https://archive.org/details/minecraft-console-legacy-edition-source-code-leak |
 | Story Mode | https://hazbinhelluvageneral.com/cubevideojuego/ |
 | Archive Mirror | https://hazbinhelluvageneral.com/cubevideojuego/cubegame |
+
+---
+
+## Disclaimer
+
+> [!IMPORTANT]
+> This repository contains archived leaked source code for preservation and educational purposes only. If you are Microsoft Corporation, Mojang AB, 4J Studios, or any other rights holder and believe this repository contains copyrighted material that infringes on your rights, please contact the repository maintainer to discuss removal or resolution.
+>
+> **This repository is not affiliated with, endorsed by, or supported by Microsoft, Mojang, or 4J Studios.**
 
 ---
 
